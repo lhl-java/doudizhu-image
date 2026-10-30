@@ -1,0 +1,1836 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-28T08:13:23.376864+00:00",
+  "reviewMethod": "File hashes, RGBA byte comparisons and offline image/contact-sheet inspection; not browser/device playback or engine import.",
+  "userApproved": false,
+  "status": "passed_for_art_file_review",
+  "counts": {
+    "effects": 12,
+    "bakedFrames": 192
+  },
+  "assets": [
+    {
+      "id": "deal-trail",
+      "file": "assets/fx/deal-trail.png",
+      "sha256": "697af67ed434a506ec03f2c6a45a2db1f55cd210c1b611ef4fd9ba4a1b5b466a",
+      "sourceAlphaEdgeNonzero": 0,
+      "frames": [
+        {
+          "file": "assets/fx/frames/deal-trail/000.png",
+          "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+          "atMs": 0,
+          "durationMs": 32,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": null
+        },
+        {
+          "file": "assets/fx/frames/deal-trail/001.png",
+          "sha256": "2b48150bca8f8164c36ce4f7d62b04ebe6023d2511232b60e780cddc931c9405",
+          "atMs": 32,
+          "durationMs": 32,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 81
+        },
+        {
+          "file": "assets/fx/frames/deal-trail/002.png",
+          "sha256": "d54601615e0c3b197c98ba006989fce895ba287c5b130ae9908b2a093bf4bfae",
+          "atMs": 64,
+          "durationMs": 32,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 83
+        },
+        {
+          "file": "assets/fx/frames/deal-trail/003.png",
+          "sha256": "186530dde73da145b2bec06821cb3b667d851a08cfcd197273574dd0e20e2eea",
+          "atMs": 96,
+          "durationMs": 32,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 95
+        },
+        {
+          "file": "assets/fx/frames/deal-trail/004.png",
+          "sha256": "0c4f2425e22a4e5507840b02ab2d648e01cca29223730e5e4dbc84dfd76b44af",
+          "atMs": 128,
+          "durationMs": 32,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 107
+        },
+        {
+          "file": "assets/fx/frames/deal-trail/005.png",
+          "sha256": "d2a985119ae18e59d0066730821810a8e8ecaded844f115a3be206fda78e1243",
+          "atMs": 160,
+          "durationMs": 32,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 117
+        },
+        {
+          "file": "assets/fx/frames/deal-trail/006.png",
+          "sha256": "4b2e074d24b2f8cf2e31909e94ee3f545e22a0b8312ca7fdafa3a740996d8b77",
+          "atMs": 192,
+          "durationMs": 32,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 124
+        },
+        {
+          "file": "assets/fx/frames/deal-trail/007.png",
+          "sha256": "17ad9d8ec4b859f090273b5699812ebe58aeee9c3ecd73e077b915cef7effbfd",
+          "atMs": 224,
+          "durationMs": 32,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 111
+        },
+        {
+          "file": "assets/fx/frames/deal-trail/008.png",
+          "sha256": "698de690261c8a6eb693e4c830c9e30e111f8122bc86d6d1688533ceb60f16af",
+          "atMs": 256,
+          "durationMs": 32,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 91
+        },
+        {
+          "file": "assets/fx/frames/deal-trail/009.png",
+          "sha256": "e456dd3f3e25fc742ce4b5345241b3dcb87e4a2e6f70eb582092b2b5974d1195",
+          "atMs": 288,
+          "durationMs": 32,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 70
+        },
+        {
+          "file": "assets/fx/frames/deal-trail/010.png",
+          "sha256": "c085f25b8e164bde6f15be87b71aa75a719261947fc8577e64e50da52e868c4a",
+          "atMs": 320,
+          "durationMs": 32,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 57
+        },
+        {
+          "file": "assets/fx/frames/deal-trail/011.png",
+          "sha256": "f7b05092b0a1b88fb89e9dc3a18b66bf50498505098243a551eb4f7d69e8a0db",
+          "atMs": 352,
+          "durationMs": 32,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 45
+        },
+        {
+          "file": "assets/fx/frames/deal-trail/012.png",
+          "sha256": "51aa254151582aef5dc3948b71d29d7f2b5a422add8a5349b4c96d2448293040",
+          "atMs": 384,
+          "durationMs": 32,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 32
+        },
+        {
+          "file": "assets/fx/frames/deal-trail/013.png",
+          "sha256": "5d57db60d00b61a64e6b50bc83c39b13a82d435804eb113b7a8f6a4345bab1a4",
+          "atMs": 416,
+          "durationMs": 32,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 20
+        },
+        {
+          "file": "assets/fx/frames/deal-trail/014.png",
+          "sha256": "bc53ae3ef5447d325751f8a9b4cd04e2fca196052f4b74fbc3a829a94d07553c",
+          "atMs": 448,
+          "durationMs": 32,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 8
+        },
+        {
+          "file": "assets/fx/frames/deal-trail/015.png",
+          "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+          "atMs": 480,
+          "durationMs": 1,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": null
+        }
+      ],
+      "timelineDurationMs": 480,
+      "bakedPlaybackDurationMs": 481,
+      "terminalSentinelMs": 1,
+      "loop": false,
+      "errors": [],
+      "status": "passed_for_art_file_review"
+    },
+    {
+      "id": "play-glow",
+      "file": "assets/fx/play-glow.png",
+      "sha256": "3c47be99f1b66cfedbe57522173fb6bf822f5018b8a55df28bfeb4a01bd5f879",
+      "sourceAlphaEdgeNonzero": 0,
+      "frames": [
+        {
+          "file": "assets/fx/frames/play-glow/000.png",
+          "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+          "atMs": 0,
+          "durationMs": 43,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": null
+        },
+        {
+          "file": "assets/fx/frames/play-glow/001.png",
+          "sha256": "bb45162b93ba3fb5a27cc39564334ebb00bfffec25cbd36a5726522c77788b5b",
+          "atMs": 43,
+          "durationMs": 44,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 111
+        },
+        {
+          "file": "assets/fx/frames/play-glow/002.png",
+          "sha256": "5205cabf9578508e3411806a8d3af0f7decf9c79d0a643248546b2fff677b01a",
+          "atMs": 87,
+          "durationMs": 43,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 94
+        },
+        {
+          "file": "assets/fx/frames/play-glow/003.png",
+          "sha256": "b618a3e835f4106e6d4198d825a77fea4c5c88da24af76ec93c414bb237b82d7",
+          "atMs": 130,
+          "durationMs": 43,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 92
+        },
+        {
+          "file": "assets/fx/frames/play-glow/004.png",
+          "sha256": "f98e0c00a045221c5297a492651d190f1f8ecfbf8c27151ee487106991c2ef14",
+          "atMs": 173,
+          "durationMs": 44,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 91
+        },
+        {
+          "file": "assets/fx/frames/play-glow/005.png",
+          "sha256": "c9234372175d526127cb2cc45049ef347a17d31a14767ed29f2ac9efeae0430a",
+          "atMs": 217,
+          "durationMs": 43,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 91
+        },
+        {
+          "file": "assets/fx/frames/play-glow/006.png",
+          "sha256": "6e7082be8f9efe3835c7e5c5b963ac1f185e21dc6181551e297f2b3944abcc9e",
+          "atMs": 260,
+          "durationMs": 43,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 90
+        },
+        {
+          "file": "assets/fx/frames/play-glow/007.png",
+          "sha256": "d13f474fc699dc28639bc1587c18dacf9da8790b34790e120c9cf6f01b1df3af",
+          "atMs": 303,
+          "durationMs": 44,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 90
+        },
+        {
+          "file": "assets/fx/frames/play-glow/008.png",
+          "sha256": "c3a61f68488dcbed72f5c2e63b67dbefa51b92d621fd44dd65b92cfe8f19516c",
+          "atMs": 347,
+          "durationMs": 43,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 89
+        },
+        {
+          "file": "assets/fx/frames/play-glow/009.png",
+          "sha256": "b3df54cea805aaa1dc9c4d4e796abe158991029b1e402493b892ada898360fac",
+          "atMs": 390,
+          "durationMs": 43,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 89
+        },
+        {
+          "file": "assets/fx/frames/play-glow/010.png",
+          "sha256": "260d79fb73e2f8709efdedd214482ef5d34e075e740dfd58e917f8abcb114e23",
+          "atMs": 433,
+          "durationMs": 44,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 88
+        },
+        {
+          "file": "assets/fx/frames/play-glow/011.png",
+          "sha256": "47bf8c36645c93d03de5cbfac6aebcf62dd95b8409fc9341c3ab2952075800e3",
+          "atMs": 477,
+          "durationMs": 43,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 88
+        },
+        {
+          "file": "assets/fx/frames/play-glow/012.png",
+          "sha256": "4902c03c9a20752136cac5a0825525e4a403cb3cd5168ea43e42fe4ee43cd39b",
+          "atMs": 520,
+          "durationMs": 43,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 88
+        },
+        {
+          "file": "assets/fx/frames/play-glow/013.png",
+          "sha256": "15d484573b718c692b706306ccf3d50d484eb77bf661eb0490e4cb30cffe25b4",
+          "atMs": 563,
+          "durationMs": 44,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 88
+        },
+        {
+          "file": "assets/fx/frames/play-glow/014.png",
+          "sha256": "3c0b21bfe2a0190f84cf41c9ad2370792ec25febe9003985ea278d81b82d99a1",
+          "atMs": 607,
+          "durationMs": 43,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 88
+        },
+        {
+          "file": "assets/fx/frames/play-glow/015.png",
+          "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+          "atMs": 650,
+          "durationMs": 1,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": null
+        }
+      ],
+      "timelineDurationMs": 650,
+      "bakedPlaybackDurationMs": 651,
+      "terminalSentinelMs": 1,
+      "loop": false,
+      "errors": [],
+      "status": "passed_for_art_file_review"
+    },
+    {
+      "id": "bomb-burst",
+      "file": "assets/fx/bomb-burst.png",
+      "sha256": "62487a340e47072ee3ca163f9af2d9570e46ae005502ada5ed7f6f771107ed0a",
+      "sourceAlphaEdgeNonzero": 0,
+      "frames": [
+        {
+          "file": "assets/fx/frames/bomb-burst/000.png",
+          "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+          "atMs": 0,
+          "durationMs": 50,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": null
+        },
+        {
+          "file": "assets/fx/frames/bomb-burst/001.png",
+          "sha256": "26e511aad897a446f417acc2393a2f030117358b41ca938fe1946760742259b4",
+          "atMs": 50,
+          "durationMs": 50,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 121
+        },
+        {
+          "file": "assets/fx/frames/bomb-burst/002.png",
+          "sha256": "5d48bd67e545a0c5b5499e5ae8d17602297145bde2210af47364200d03402a16",
+          "atMs": 100,
+          "durationMs": 50,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 94
+        },
+        {
+          "file": "assets/fx/frames/bomb-burst/003.png",
+          "sha256": "5877cfe473867a702041494819799fdb4d7a5a8713697218f6813d34af4512f5",
+          "atMs": 150,
+          "durationMs": 50,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 98
+        },
+        {
+          "file": "assets/fx/frames/bomb-burst/004.png",
+          "sha256": "6f66bb87955a9850a4bb70937a6605a97f4fa3237b865596bb61346049802301",
+          "atMs": 200,
+          "durationMs": 50,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 96
+        },
+        {
+          "file": "assets/fx/frames/bomb-burst/005.png",
+          "sha256": "a0f6b1168cbe579adac1702c1cbe155d0b5b10a9998a0c5006504d32e9ed0008",
+          "atMs": 250,
+          "durationMs": 50,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 93
+        },
+        {
+          "file": "assets/fx/frames/bomb-burst/006.png",
+          "sha256": "a958239bd5b3f4fb393d532c9a786d4e007b644862c464d954cbf2ce64579bd0",
+          "atMs": 300,
+          "durationMs": 50,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 91
+        },
+        {
+          "file": "assets/fx/frames/bomb-burst/007.png",
+          "sha256": "b373a1af0f7f2d74492a1167189588fab50d2c16d034ab3f1ba713f375bf3230",
+          "atMs": 350,
+          "durationMs": 50,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 88
+        },
+        {
+          "file": "assets/fx/frames/bomb-burst/008.png",
+          "sha256": "ab5cde1df59ad87c6ea2565a5e02c36d573d7f8645e4bf3182bf472b2de0b588",
+          "atMs": 400,
+          "durationMs": 50,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 86
+        },
+        {
+          "file": "assets/fx/frames/bomb-burst/009.png",
+          "sha256": "ac2cb3a99086272ca0a86a21b98138bc3f5ef37a48dc3546965e7723c6714c2d",
+          "atMs": 450,
+          "durationMs": 50,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 85
+        },
+        {
+          "file": "assets/fx/frames/bomb-burst/010.png",
+          "sha256": "0a37b099b5811546154752aeb2d9389800de4ed189dfc76a360a28fdaa26704d",
+          "atMs": 500,
+          "durationMs": 50,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 85
+        },
+        {
+          "file": "assets/fx/frames/bomb-burst/011.png",
+          "sha256": "c60d27d7252f6986e6c3fac4b82bd42acb150535e73379697d3dfd28f0f93187",
+          "atMs": 550,
+          "durationMs": 50,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 86
+        },
+        {
+          "file": "assets/fx/frames/bomb-burst/012.png",
+          "sha256": "76a39422032e9e8945d64088a370b6c13fc3766160834d384c5e125ddbe1fd14",
+          "atMs": 600,
+          "durationMs": 50,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 85
+        },
+        {
+          "file": "assets/fx/frames/bomb-burst/013.png",
+          "sha256": "4e0e95e32267962e1979b4907e5dda68703645c4b97c06b24735755222ff7b63",
+          "atMs": 650,
+          "durationMs": 50,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 86
+        },
+        {
+          "file": "assets/fx/frames/bomb-burst/014.png",
+          "sha256": "f51b89e5ff0d89968bedeba61a0e711756fc8a1e2b557858b0cc7a4e21ef92ae",
+          "atMs": 700,
+          "durationMs": 50,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 87
+        },
+        {
+          "file": "assets/fx/frames/bomb-burst/015.png",
+          "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+          "atMs": 750,
+          "durationMs": 1,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": null
+        }
+      ],
+      "timelineDurationMs": 750,
+      "bakedPlaybackDurationMs": 751,
+      "terminalSentinelMs": 1,
+      "loop": false,
+      "errors": [],
+      "status": "passed_for_art_file_review"
+    },
+    {
+      "id": "rocket-trail",
+      "file": "assets/fx/rocket-trail.png",
+      "sha256": "e3e81846329d8e00df32c3ad20b826e8a2c32135533ac96b1350f0b50f556edb",
+      "sourceAlphaEdgeNonzero": 0,
+      "frames": [
+        {
+          "file": "assets/fx/frames/rocket-trail/000.png",
+          "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+          "atMs": 0,
+          "durationMs": 60,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": null
+        },
+        {
+          "file": "assets/fx/frames/rocket-trail/001.png",
+          "sha256": "9f8bdc593b4f6747fb2434161e8928ab8cf1e34f72740e4ac8075332e753bfcb",
+          "atMs": 60,
+          "durationMs": 60,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 44
+        },
+        {
+          "file": "assets/fx/frames/rocket-trail/002.png",
+          "sha256": "bd6f1f35258c4ed7f489638d86d179fdf4c6918c4d1113ac9b9b8e93f950708e",
+          "atMs": 120,
+          "durationMs": 60,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 56
+        },
+        {
+          "file": "assets/fx/frames/rocket-trail/003.png",
+          "sha256": "834ade69bde0be09a902cc572f5a86bd2a9eb6f6b5a43f04618868a362d57000",
+          "atMs": 180,
+          "durationMs": 60,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 69
+        },
+        {
+          "file": "assets/fx/frames/rocket-trail/004.png",
+          "sha256": "1beb54a2f80dbdb51c98b7665fbbf06271d59e1913489ad7782721c47b4fe00f",
+          "atMs": 240,
+          "durationMs": 60,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 83
+        },
+        {
+          "file": "assets/fx/frames/rocket-trail/005.png",
+          "sha256": "bf50b2246e53b5dd58aac7db35d1907364e9bcdd12e44418aaa0f90a0854d2f5",
+          "atMs": 300,
+          "durationMs": 60,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 95
+        },
+        {
+          "file": "assets/fx/frames/rocket-trail/006.png",
+          "sha256": "38d1e5e6ab2b18008c82eb023b203132ff429d0bc63328dddaf11a1606066453",
+          "atMs": 360,
+          "durationMs": 60,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 97
+        },
+        {
+          "file": "assets/fx/frames/rocket-trail/007.png",
+          "sha256": "99a368c0c98ccd2368d37322f30dc5da844c21c2d820169aba6958feed525559",
+          "atMs": 420,
+          "durationMs": 60,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 75
+        },
+        {
+          "file": "assets/fx/frames/rocket-trail/008.png",
+          "sha256": "cc07650dca03c3b93fd872130551ac8eb584f427eaf1c1e0cd2ed4b85b16e754",
+          "atMs": 480,
+          "durationMs": 60,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 54
+        },
+        {
+          "file": "assets/fx/frames/rocket-trail/009.png",
+          "sha256": "e203675eb030275fb3bb990009e7f71923b175e64c03852ddc95db31a90be36f",
+          "atMs": 540,
+          "durationMs": 60,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 44
+        },
+        {
+          "file": "assets/fx/frames/rocket-trail/010.png",
+          "sha256": "7d81a557b7af274139732cf4dd3856ee73c97c3a676517860046ffd044aef070",
+          "atMs": 600,
+          "durationMs": 60,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 38
+        },
+        {
+          "file": "assets/fx/frames/rocket-trail/011.png",
+          "sha256": "2dfaefd0ecffa35c954f9ef2291ecf560529668d28d895b4113e5b84a7454516",
+          "atMs": 660,
+          "durationMs": 60,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 31
+        },
+        {
+          "file": "assets/fx/frames/rocket-trail/012.png",
+          "sha256": "7887aad6961ecf7b66306668a3c1e4ed60791da89e1f05acb040e2357ce27c37",
+          "atMs": 720,
+          "durationMs": 60,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 26
+        },
+        {
+          "file": "assets/fx/frames/rocket-trail/013.png",
+          "sha256": "6a7c297147c2ab12efe71bf82d339480079be00134bc526f4cb5f0916c6bd304",
+          "atMs": 780,
+          "durationMs": 60,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 20
+        },
+        {
+          "file": "assets/fx/frames/rocket-trail/014.png",
+          "sha256": "858cae5da895e0f715b9370d85db819a5807e22eb9f776de1d7bfd59ac70b267",
+          "atMs": 840,
+          "durationMs": 60,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 15
+        },
+        {
+          "file": "assets/fx/frames/rocket-trail/015.png",
+          "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+          "atMs": 900,
+          "durationMs": 1,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": null
+        }
+      ],
+      "timelineDurationMs": 900,
+      "bakedPlaybackDurationMs": 901,
+      "terminalSentinelMs": 1,
+      "loop": false,
+      "errors": [],
+      "status": "passed_for_art_file_review"
+    },
+    {
+      "id": "spring-petals",
+      "file": "assets/fx/spring-petals.png",
+      "sha256": "91fe910b44c1ca801dcc5399fd2a77ba8060c24078a138bad475884660a7c1e1",
+      "sourceAlphaEdgeNonzero": 0,
+      "frames": [
+        {
+          "file": "assets/fx/frames/spring-petals/000.png",
+          "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+          "atMs": 0,
+          "durationMs": 100,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": null
+        },
+        {
+          "file": "assets/fx/frames/spring-petals/001.png",
+          "sha256": "28123131b6ff7a7671aa7a6e39ef061b630a46581df33fbbc8c05119879c8a30",
+          "atMs": 100,
+          "durationMs": 100,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 60
+        },
+        {
+          "file": "assets/fx/frames/spring-petals/002.png",
+          "sha256": "956d3397afa8deac174d16abd528f9acfffdfc04e3e0073d2fa439dce21cb125",
+          "atMs": 200,
+          "durationMs": 100,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 70
+        },
+        {
+          "file": "assets/fx/frames/spring-petals/003.png",
+          "sha256": "9c177926553442682746fbd0e542bc2409f650dfef9adb1e9e31034e4dd317bb",
+          "atMs": 300,
+          "durationMs": 100,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 78
+        },
+        {
+          "file": "assets/fx/frames/spring-petals/004.png",
+          "sha256": "885f9791abf52fda2f1a75adcd9ed95c6730f20ff2a8c23c3908541a8ea948fb",
+          "atMs": 400,
+          "durationMs": 100,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 87
+        },
+        {
+          "file": "assets/fx/frames/spring-petals/005.png",
+          "sha256": "18f370652ab405319cc4068083b62827173c07c3f47ecfe50ff4c30574963f92",
+          "atMs": 500,
+          "durationMs": 100,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 95
+        },
+        {
+          "file": "assets/fx/frames/spring-petals/006.png",
+          "sha256": "e75afdfbffdb05ad555e0e47a9d9adbd2bdc8e5f35b70a13da5851ffef721fc6",
+          "atMs": 600,
+          "durationMs": 100,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 84
+        },
+        {
+          "file": "assets/fx/frames/spring-petals/007.png",
+          "sha256": "a57910ec66a08f8e5ee850c1fb26d0a1e30af4ed55dde570727c04937258ce20",
+          "atMs": 700,
+          "durationMs": 100,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 75
+        },
+        {
+          "file": "assets/fx/frames/spring-petals/008.png",
+          "sha256": "7f41e203b8bef5012b1259b93786cf91015fa138628bf95da423d233116c4bbe",
+          "atMs": 800,
+          "durationMs": 100,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 64
+        },
+        {
+          "file": "assets/fx/frames/spring-petals/009.png",
+          "sha256": "a6d98c02837062689cbd168af7d95690869db63c6efac54feab7ec3743af0ea5",
+          "atMs": 900,
+          "durationMs": 100,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 56
+        },
+        {
+          "file": "assets/fx/frames/spring-petals/010.png",
+          "sha256": "7fcb0340c293311ed55fecce4479716ef6399f308bf19a0a3453da4b0734337d",
+          "atMs": 1000,
+          "durationMs": 100,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 51
+        },
+        {
+          "file": "assets/fx/frames/spring-petals/011.png",
+          "sha256": "a7ed4b05961918f0ccd30e18f94f5276a18599941762675509278656e7f60d6d",
+          "atMs": 1100,
+          "durationMs": 100,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 43
+        },
+        {
+          "file": "assets/fx/frames/spring-petals/012.png",
+          "sha256": "b52c629f6c6942712a5e56fa8bda593a83dd83955ae5bb4e7216b9c31be9413e",
+          "atMs": 1200,
+          "durationMs": 100,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 37
+        },
+        {
+          "file": "assets/fx/frames/spring-petals/013.png",
+          "sha256": "7dd6b8059b33b30c65f979102c76d99f93e635437c7b9a6130da0ca997e2e183",
+          "atMs": 1300,
+          "durationMs": 100,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 30
+        },
+        {
+          "file": "assets/fx/frames/spring-petals/014.png",
+          "sha256": "6b99410757d8b51d066af27a1f98e9fd3270bf88d88034a8ab3afc996a6dbfd1",
+          "atMs": 1400,
+          "durationMs": 100,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 24
+        },
+        {
+          "file": "assets/fx/frames/spring-petals/015.png",
+          "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+          "atMs": 1500,
+          "durationMs": 1,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": null
+        }
+      ],
+      "timelineDurationMs": 1500,
+      "bakedPlaybackDurationMs": 1501,
+      "terminalSentinelMs": 1,
+      "loop": false,
+      "errors": [],
+      "status": "passed_for_art_file_review"
+    },
+    {
+      "id": "counter-spring-leaves",
+      "file": "assets/fx/counter-spring-leaves.png",
+      "sha256": "d3f67342271edc8607b43a687a256813f1847b60ab2e0437ae6dcbebed9f986a",
+      "sourceAlphaEdgeNonzero": 0,
+      "frames": [
+        {
+          "file": "assets/fx/frames/counter-spring-leaves/000.png",
+          "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+          "atMs": 0,
+          "durationMs": 93,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": null
+        },
+        {
+          "file": "assets/fx/frames/counter-spring-leaves/001.png",
+          "sha256": "19d0a6ded0f56bdc30eb1346460a0f34b8baad539507f7111e0ee9e31557fd0b",
+          "atMs": 93,
+          "durationMs": 94,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 76
+        },
+        {
+          "file": "assets/fx/frames/counter-spring-leaves/002.png",
+          "sha256": "a581cfcc46308ae47a5807556795e91e4bf7278239d83a099ed24af0b8399fc3",
+          "atMs": 187,
+          "durationMs": 93,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 80
+        },
+        {
+          "file": "assets/fx/frames/counter-spring-leaves/003.png",
+          "sha256": "bf28b8571b5a64b2e1d30759c175eef629e2aadcc6dd09dba08dffa5f7fdb946",
+          "atMs": 280,
+          "durationMs": 93,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 84
+        },
+        {
+          "file": "assets/fx/frames/counter-spring-leaves/004.png",
+          "sha256": "ca451b0cf76c23e1613caeba7cacf58a227679cafa6d750c7a934bd4427903c1",
+          "atMs": 373,
+          "durationMs": 94,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 89
+        },
+        {
+          "file": "assets/fx/frames/counter-spring-leaves/005.png",
+          "sha256": "44b9651e38f8ad2cd27cf45069347c9b22e4e40330b08043abccc75f42e866eb",
+          "atMs": 467,
+          "durationMs": 93,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 93
+        },
+        {
+          "file": "assets/fx/frames/counter-spring-leaves/006.png",
+          "sha256": "b1e93c8348feda0d22af99a8b384c50fd77b17ec3a935c17c792350d81d1e9e2",
+          "atMs": 560,
+          "durationMs": 93,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 91
+        },
+        {
+          "file": "assets/fx/frames/counter-spring-leaves/007.png",
+          "sha256": "2f47bc32e2a6b1b6203dfca7d0f0582d33220c4891e2564bc1a27459778ea33e",
+          "atMs": 653,
+          "durationMs": 94,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 81
+        },
+        {
+          "file": "assets/fx/frames/counter-spring-leaves/008.png",
+          "sha256": "039258aa07f525976afbc3d0a3f4c11eb372c87061b4d9cf98866cf69d49fd23",
+          "atMs": 747,
+          "durationMs": 93,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 71
+        },
+        {
+          "file": "assets/fx/frames/counter-spring-leaves/009.png",
+          "sha256": "158e79a415fba476a616e0a42153f4d2323f079ebf60ffa6bc9b87dcc67fd199",
+          "atMs": 840,
+          "durationMs": 93,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 62
+        },
+        {
+          "file": "assets/fx/frames/counter-spring-leaves/010.png",
+          "sha256": "9f94f563062bb64452360c55d900ac575310bba188d615f467fab9f81fd00170",
+          "atMs": 933,
+          "durationMs": 94,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 55
+        },
+        {
+          "file": "assets/fx/frames/counter-spring-leaves/011.png",
+          "sha256": "ecf1d1f685f388dea6f4546b0639174c7ab880533d40da61c896ca992e2df512",
+          "atMs": 1027,
+          "durationMs": 93,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 48
+        },
+        {
+          "file": "assets/fx/frames/counter-spring-leaves/012.png",
+          "sha256": "d06137556365ab7a56daad889723e3345c620d9242f715474724b7b4cb1202bf",
+          "atMs": 1120,
+          "durationMs": 93,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 41
+        },
+        {
+          "file": "assets/fx/frames/counter-spring-leaves/013.png",
+          "sha256": "48f45bed295ce6ed38e36e12475fade3fa022e9f941a862a2296d01956ca3366",
+          "atMs": 1213,
+          "durationMs": 94,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 34
+        },
+        {
+          "file": "assets/fx/frames/counter-spring-leaves/014.png",
+          "sha256": "fddf6974ba50d6ad00852ab389e5dfb952589d37518230a191468f5e2c439f5e",
+          "atMs": 1307,
+          "durationMs": 93,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 27
+        },
+        {
+          "file": "assets/fx/frames/counter-spring-leaves/015.png",
+          "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+          "atMs": 1400,
+          "durationMs": 1,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": null
+        }
+      ],
+      "timelineDurationMs": 1400,
+      "bakedPlaybackDurationMs": 1401,
+      "terminalSentinelMs": 1,
+      "loop": false,
+      "errors": [],
+      "status": "passed_for_art_file_review"
+    },
+    {
+      "id": "win-gold",
+      "file": "assets/fx/win-gold.png",
+      "sha256": "afe2805a23380a5a9c62d1e1292f4b656084b92943b5c3bb5353bde599891e5b",
+      "sourceAlphaEdgeNonzero": 0,
+      "frames": [
+        {
+          "file": "assets/fx/frames/win-gold/000.png",
+          "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+          "atMs": 0,
+          "durationMs": 93,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": null
+        },
+        {
+          "file": "assets/fx/frames/win-gold/001.png",
+          "sha256": "24dcac29af922838780de2173f8ea33964edaa87a597f9e69a34aecd95fa43d0",
+          "atMs": 93,
+          "durationMs": 94,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 93
+        },
+        {
+          "file": "assets/fx/frames/win-gold/002.png",
+          "sha256": "e65d85de3d5921e629b7ec7e486630c120b7ccbf31ef332ce9617b047f41bdcb",
+          "atMs": 187,
+          "durationMs": 93,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 95
+        },
+        {
+          "file": "assets/fx/frames/win-gold/003.png",
+          "sha256": "617547ac8427a9058093f0fdb3e268bb5bab1997eb4fb22e42fa2e7e8f099e89",
+          "atMs": 280,
+          "durationMs": 93,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 101
+        },
+        {
+          "file": "assets/fx/frames/win-gold/004.png",
+          "sha256": "3a18d65dfe02f12483cb78a285510ee415608cf345a2af5cca0a51d23c3e9218",
+          "atMs": 373,
+          "durationMs": 94,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 100
+        },
+        {
+          "file": "assets/fx/frames/win-gold/005.png",
+          "sha256": "4acdbbaa0a696e862fe3955d17ecfffe022cdb68fd620406543dc24d0c9c216b",
+          "atMs": 467,
+          "durationMs": 93,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 98
+        },
+        {
+          "file": "assets/fx/frames/win-gold/006.png",
+          "sha256": "710342612e2e8392e7eb3795194a2c7ed0202f7516a233b1ecefb4a1f1e4189b",
+          "atMs": 560,
+          "durationMs": 93,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 95
+        },
+        {
+          "file": "assets/fx/frames/win-gold/007.png",
+          "sha256": "ace8b1de013a32a7b54c9e334ffa5a150ed0dbb3cbf3a69491f88ea4746574d9",
+          "atMs": 653,
+          "durationMs": 94,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 93
+        },
+        {
+          "file": "assets/fx/frames/win-gold/008.png",
+          "sha256": "7d0a6d3964dab068a96d12343c182703ea5e49897e5408e5b0205b1ceca86516",
+          "atMs": 747,
+          "durationMs": 93,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 86
+        },
+        {
+          "file": "assets/fx/frames/win-gold/009.png",
+          "sha256": "b56a97f405a38103cb21d485e3d3f7288b4c950f765b380e313cae346a398515",
+          "atMs": 840,
+          "durationMs": 93,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 81
+        },
+        {
+          "file": "assets/fx/frames/win-gold/010.png",
+          "sha256": "49e9df6ee803e48f851a61d54fcad459285fcf90e1d863417d7066cdc9670cb7",
+          "atMs": 933,
+          "durationMs": 94,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 77
+        },
+        {
+          "file": "assets/fx/frames/win-gold/011.png",
+          "sha256": "73a7e97cdfe80dc82246b3889bea76ce320aeef4dbc9fc6df4e7c1e2334b1212",
+          "atMs": 1027,
+          "durationMs": 93,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 72
+        },
+        {
+          "file": "assets/fx/frames/win-gold/012.png",
+          "sha256": "f436c68aa14a4a4b1389d16db2965149f9cce8749b72b9302e7f1b563dec83ab",
+          "atMs": 1120,
+          "durationMs": 93,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 69
+        },
+        {
+          "file": "assets/fx/frames/win-gold/013.png",
+          "sha256": "4b2536fe1eb31774edc023ab721108671289bd189f67b484b1e36d80ffb4657a",
+          "atMs": 1213,
+          "durationMs": 94,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 64
+        },
+        {
+          "file": "assets/fx/frames/win-gold/014.png",
+          "sha256": "22e2119cfe13f47d6fa1e5eb2af02976551efd0b08114e11f73c5cd5eec396a6",
+          "atMs": 1307,
+          "durationMs": 93,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 60
+        },
+        {
+          "file": "assets/fx/frames/win-gold/015.png",
+          "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+          "atMs": 1400,
+          "durationMs": 1,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": null
+        }
+      ],
+      "timelineDurationMs": 1400,
+      "bakedPlaybackDurationMs": 1401,
+      "terminalSentinelMs": 1,
+      "loop": false,
+      "errors": [],
+      "status": "passed_for_art_file_review"
+    },
+    {
+      "id": "lose-cloud",
+      "file": "assets/fx/lose-cloud.png",
+      "sha256": "7a841d2c8692458805b042ff99ac2650edf33d7df9311f36e075017117f717ff",
+      "sourceAlphaEdgeNonzero": 0,
+      "frames": [
+        {
+          "file": "assets/fx/frames/lose-cloud/000.png",
+          "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+          "atMs": 0,
+          "durationMs": 73,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": null
+        },
+        {
+          "file": "assets/fx/frames/lose-cloud/001.png",
+          "sha256": "65d3b980707d3e9f7e6a1f28ca1831acf069f5ff3125373cc75101d6cd2e99fc",
+          "atMs": 73,
+          "durationMs": 74,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 105
+        },
+        {
+          "file": "assets/fx/frames/lose-cloud/002.png",
+          "sha256": "8904995c51ded99df5e69ea96c557292342093ff5efa0ecea3a3eb94b3030062",
+          "atMs": 147,
+          "durationMs": 73,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 102
+        },
+        {
+          "file": "assets/fx/frames/lose-cloud/003.png",
+          "sha256": "a0bcf51137c8750b47b4ee9e4cf31a681b58e0e4c3496180c385202f769c1a42",
+          "atMs": 220,
+          "durationMs": 73,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 98
+        },
+        {
+          "file": "assets/fx/frames/lose-cloud/004.png",
+          "sha256": "e34734c51549067ef2b642d38ec84e73ef8a4907eb7d8097d5955a718bd0d2c0",
+          "atMs": 293,
+          "durationMs": 74,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 94
+        },
+        {
+          "file": "assets/fx/frames/lose-cloud/005.png",
+          "sha256": "bae0fc955f7eabc4dbf60c6402c5a22a6c09ba8bf1e62846207c0b13bd3bb3bc",
+          "atMs": 367,
+          "durationMs": 73,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 90
+        },
+        {
+          "file": "assets/fx/frames/lose-cloud/006.png",
+          "sha256": "e20971ccacadcacd60fd906b9ec477a21a403735dc963f3c37760e2e92d66215",
+          "atMs": 440,
+          "durationMs": 73,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 86
+        },
+        {
+          "file": "assets/fx/frames/lose-cloud/007.png",
+          "sha256": "ffc32793c6c69e1fc0f5eefc490f0dde0a0f3d47ad50be1e84a706c2f008bcc8",
+          "atMs": 513,
+          "durationMs": 74,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 82
+        },
+        {
+          "file": "assets/fx/frames/lose-cloud/008.png",
+          "sha256": "dc446600c33414de3ba915edf7692afec69bc6ea6d5219d877980ee055c2e190",
+          "atMs": 587,
+          "durationMs": 73,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 78
+        },
+        {
+          "file": "assets/fx/frames/lose-cloud/009.png",
+          "sha256": "3339289be7ecc87750c25b4049a256c98a758427c98033e8e11e2bb4c8c192a0",
+          "atMs": 660,
+          "durationMs": 73,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 74
+        },
+        {
+          "file": "assets/fx/frames/lose-cloud/010.png",
+          "sha256": "ea1fd0598ce86d9e726225675557837885a11749e6c9d18bdbeccbcf2beca461",
+          "atMs": 733,
+          "durationMs": 74,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 69
+        },
+        {
+          "file": "assets/fx/frames/lose-cloud/011.png",
+          "sha256": "4b1a1aaccdc4ba474e46f13380247e298a666ac99f204b8329bad2e3e74ffa50",
+          "atMs": 807,
+          "durationMs": 73,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 65
+        },
+        {
+          "file": "assets/fx/frames/lose-cloud/012.png",
+          "sha256": "47da1f25d63410494cfa2877fb2865d9ce873e3f8dd7dda7184dde8f46836f8e",
+          "atMs": 880,
+          "durationMs": 73,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 60
+        },
+        {
+          "file": "assets/fx/frames/lose-cloud/013.png",
+          "sha256": "91ba028dbb1da16b110bdf14e4a63131b40165234c3ad0573260eca7f6358473",
+          "atMs": 953,
+          "durationMs": 74,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 55
+        },
+        {
+          "file": "assets/fx/frames/lose-cloud/014.png",
+          "sha256": "5c5852d7cb67b1cd4a3159cad6f00b1cd9a3ca82bff9c4036a4ce542c4ea9b4d",
+          "atMs": 1027,
+          "durationMs": 73,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 50
+        },
+        {
+          "file": "assets/fx/frames/lose-cloud/015.png",
+          "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+          "atMs": 1100,
+          "durationMs": 1,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": null
+        }
+      ],
+      "timelineDurationMs": 1100,
+      "bakedPlaybackDurationMs": 1101,
+      "terminalSentinelMs": 1,
+      "loop": false,
+      "errors": [],
+      "status": "passed_for_art_file_review"
+    },
+    {
+      "id": "rank-up",
+      "file": "assets/fx/rank-up.png",
+      "sha256": "4296ac4494a9e7f1b9e2063c743610f11796dfd67b68d513d9e43661802752b1",
+      "sourceAlphaEdgeNonzero": 0,
+      "frames": [
+        {
+          "file": "assets/fx/frames/rank-up/000.png",
+          "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+          "atMs": 0,
+          "durationMs": 67,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": null
+        },
+        {
+          "file": "assets/fx/frames/rank-up/001.png",
+          "sha256": "af4f7639f58fd9824ff675d6366d45358d830c080a553c7f43256cf0fa57e276",
+          "atMs": 67,
+          "durationMs": 66,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 57
+        },
+        {
+          "file": "assets/fx/frames/rank-up/002.png",
+          "sha256": "8ceb7eb5247d3774fb4ea9e1bca352450f9322c4c5024c41a4724d73beacd621",
+          "atMs": 133,
+          "durationMs": 67,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 64
+        },
+        {
+          "file": "assets/fx/frames/rank-up/003.png",
+          "sha256": "328836a92f20900fb6771ca4a709fd47e65528123bdcc221522190bd9c3710d2",
+          "atMs": 200,
+          "durationMs": 67,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 72
+        },
+        {
+          "file": "assets/fx/frames/rank-up/004.png",
+          "sha256": "8bf6ab509e78e8f67763d9a0fa75dc640247ceef43f4caf7661139181479664a",
+          "atMs": 267,
+          "durationMs": 66,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 80
+        },
+        {
+          "file": "assets/fx/frames/rank-up/005.png",
+          "sha256": "0a9a73869c645e883b37304db57270d4a9820194d415219105e7b873c5cf4267",
+          "atMs": 333,
+          "durationMs": 67,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 89
+        },
+        {
+          "file": "assets/fx/frames/rank-up/006.png",
+          "sha256": "34eb15069a4a8be33c3b167a185208b9d1849308f37a9053f6aee4d9784d85a1",
+          "atMs": 400,
+          "durationMs": 67,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 97
+        },
+        {
+          "file": "assets/fx/frames/rank-up/007.png",
+          "sha256": "237d43c783c522e52e13a333971547ccc6b56840467006675bf90861b8368835",
+          "atMs": 467,
+          "durationMs": 66,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 84
+        },
+        {
+          "file": "assets/fx/frames/rank-up/008.png",
+          "sha256": "880118db948e504d27fd915178657475722e421d11b9b13ae86900d60ff4d13a",
+          "atMs": 533,
+          "durationMs": 67,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 72
+        },
+        {
+          "file": "assets/fx/frames/rank-up/009.png",
+          "sha256": "f7c6535a2d0d9375ae2bc0ecba36060417c206eeaa1e0e037537e03bb6c11438",
+          "atMs": 600,
+          "durationMs": 67,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 62
+        },
+        {
+          "file": "assets/fx/frames/rank-up/010.png",
+          "sha256": "972a073e9ef56e33d2f1d7b80b2b72bd79f64d9df9979a3bdfc7f79b0b9d52de",
+          "atMs": 667,
+          "durationMs": 66,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 51
+        },
+        {
+          "file": "assets/fx/frames/rank-up/011.png",
+          "sha256": "0111e4ed232f65c4ebe8d68e90b4eb889cfdd85e9f8848b1f5f9e187fc13202a",
+          "atMs": 733,
+          "durationMs": 67,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 42
+        },
+        {
+          "file": "assets/fx/frames/rank-up/012.png",
+          "sha256": "d6116ebca37a74b6c83d0f4750a31f478123cf9a07aa99d4df61cbcdd077c069",
+          "atMs": 800,
+          "durationMs": 67,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 32
+        },
+        {
+          "file": "assets/fx/frames/rank-up/013.png",
+          "sha256": "36289e2c7ef1dc758f8cc0e91685a1efad823f52bce5aaf7d9770ba415082d0e",
+          "atMs": 867,
+          "durationMs": 66,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 23
+        },
+        {
+          "file": "assets/fx/frames/rank-up/014.png",
+          "sha256": "f885aa5b998cff9d1482bc81fcf334a982f927738c4492dc29b55b955ae6c255",
+          "atMs": 933,
+          "durationMs": 67,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 15
+        },
+        {
+          "file": "assets/fx/frames/rank-up/015.png",
+          "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+          "atMs": 1000,
+          "durationMs": 1,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": null
+        }
+      ],
+      "timelineDurationMs": 1000,
+      "bakedPlaybackDurationMs": 1001,
+      "terminalSentinelMs": 1,
+      "loop": false,
+      "errors": [],
+      "status": "passed_for_art_file_review"
+    },
+    {
+      "id": "reward-sparkle",
+      "file": "assets/fx/reward-sparkle.png",
+      "sha256": "2354c13d7174a6499bd2c0f01faebf2a3e3a2d3cc7d5aa65f0ce9889290a35c5",
+      "sourceAlphaEdgeNonzero": 0,
+      "frames": [
+        {
+          "file": "assets/fx/frames/reward-sparkle/000.png",
+          "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+          "atMs": 0,
+          "durationMs": 53,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": null
+        },
+        {
+          "file": "assets/fx/frames/reward-sparkle/001.png",
+          "sha256": "5efe8b2d76e897e99ca95df82da8357c9de1f02700e94122892da7ccab2677f6",
+          "atMs": 53,
+          "durationMs": 54,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 131
+        },
+        {
+          "file": "assets/fx/frames/reward-sparkle/002.png",
+          "sha256": "a08c4b41203c7cd479453ae3f0e4fab10d346cd9d4579c84cd720c0ef4d0997f",
+          "atMs": 107,
+          "durationMs": 53,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 106
+        },
+        {
+          "file": "assets/fx/frames/reward-sparkle/003.png",
+          "sha256": "f86c9c7cee10768a86ec9c2f5d8b9f7f9e4f647ff514703c0972a5607077d9aa",
+          "atMs": 160,
+          "durationMs": 53,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 101
+        },
+        {
+          "file": "assets/fx/frames/reward-sparkle/004.png",
+          "sha256": "d5bf94ff71f2f6b652e684c7bcc49555c1c2981158b197ec04dd427830a385f4",
+          "atMs": 213,
+          "durationMs": 54,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 96
+        },
+        {
+          "file": "assets/fx/frames/reward-sparkle/005.png",
+          "sha256": "3cf14637a2223fb4c8c69d908c5a17088e7cb7defa533466c9f9c7ec37d58560",
+          "atMs": 267,
+          "durationMs": 53,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 93
+        },
+        {
+          "file": "assets/fx/frames/reward-sparkle/006.png",
+          "sha256": "81c44cc46ade47447c9007f6a0230097b346f89337f8050043ab093b3b178b5c",
+          "atMs": 320,
+          "durationMs": 53,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 88
+        },
+        {
+          "file": "assets/fx/frames/reward-sparkle/007.png",
+          "sha256": "ea2a6365221a6ac8ada105478a188a227614674c71d233d9f404152545c5b83e",
+          "atMs": 373,
+          "durationMs": 54,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 87
+        },
+        {
+          "file": "assets/fx/frames/reward-sparkle/008.png",
+          "sha256": "19b9084bbb85108d82ea97756284d1d6d7ed7c9afe6f1cc764f746a0013b5eb3",
+          "atMs": 427,
+          "durationMs": 53,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 87
+        },
+        {
+          "file": "assets/fx/frames/reward-sparkle/009.png",
+          "sha256": "f2a0fc634fdc443eed2d6769df9eab398363325a020155051fbfdf2438e62b77",
+          "atMs": 480,
+          "durationMs": 53,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 87
+        },
+        {
+          "file": "assets/fx/frames/reward-sparkle/010.png",
+          "sha256": "c423e320b55a74f651a69f496bb5f413fcd9e3f1e2c800263d7297575cdbe7e4",
+          "atMs": 533,
+          "durationMs": 54,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 87
+        },
+        {
+          "file": "assets/fx/frames/reward-sparkle/011.png",
+          "sha256": "696cb0bd93eb322e5d544bf4fd4bc855669fbe67dcbc9b15d3ce08bc7cc9446b",
+          "atMs": 587,
+          "durationMs": 53,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 88
+        },
+        {
+          "file": "assets/fx/frames/reward-sparkle/012.png",
+          "sha256": "a99cdecdc513f648cda1bc2d3532bb712786f0606d2a899170e4d9c35e6029b4",
+          "atMs": 640,
+          "durationMs": 53,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 88
+        },
+        {
+          "file": "assets/fx/frames/reward-sparkle/013.png",
+          "sha256": "71ba596a3dee2e10a8db594dd6d529d8c22add02a576a6b2106d9de4fb361cdb",
+          "atMs": 693,
+          "durationMs": 54,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 89
+        },
+        {
+          "file": "assets/fx/frames/reward-sparkle/014.png",
+          "sha256": "8d51599575a01e6b8a5ae6acfbf9b42aa98cd4e1413694c25556fb804dcdc230",
+          "atMs": 747,
+          "durationMs": 53,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 91
+        },
+        {
+          "file": "assets/fx/frames/reward-sparkle/015.png",
+          "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+          "atMs": 800,
+          "durationMs": 1,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": null
+        }
+      ],
+      "timelineDurationMs": 800,
+      "bakedPlaybackDurationMs": 801,
+      "terminalSentinelMs": 1,
+      "loop": false,
+      "errors": [],
+      "status": "passed_for_art_file_review"
+    },
+    {
+      "id": "turn-ring",
+      "file": "assets/fx/turn-ring.png",
+      "sha256": "e5d4ebc500d0f098af027b77538c33d7280b5eba113bd21c339b096bbd63f7a0",
+      "sourceAlphaEdgeNonzero": 0,
+      "frames": [
+        {
+          "file": "assets/fx/frames/turn-ring/000.png",
+          "sha256": "54c3ffe24bb03b08caf949ae4535d7776e46ae1b4b06b09ec8666971f4ff53eb",
+          "atMs": 0,
+          "durationMs": 75,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 93
+        },
+        {
+          "file": "assets/fx/frames/turn-ring/001.png",
+          "sha256": "ae8e3d84c88a0fdd6c8e8d64f341acf0cd9706e9d367677c0789e5edca9ada89",
+          "atMs": 75,
+          "durationMs": 75,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 92
+        },
+        {
+          "file": "assets/fx/frames/turn-ring/002.png",
+          "sha256": "858cb4f268e5c1172de179593dbe5018f3f0d308f2947569be303be4e5a8e91c",
+          "atMs": 150,
+          "durationMs": 75,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 91
+        },
+        {
+          "file": "assets/fx/frames/turn-ring/003.png",
+          "sha256": "b01874af0c2014deeeaae3f34f72ab65fdd1651479d140bdb7a70e25b70b5da3",
+          "atMs": 225,
+          "durationMs": 75,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 91
+        },
+        {
+          "file": "assets/fx/frames/turn-ring/004.png",
+          "sha256": "9d378b03a7dc521adf88bd14dae12b4fbe026af787b5ece31ef76dce6b717064",
+          "atMs": 300,
+          "durationMs": 75,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 90
+        },
+        {
+          "file": "assets/fx/frames/turn-ring/005.png",
+          "sha256": "e870d578237c55ed35d4d1e70ec56d469a336bb849298e0908024a657d01f10c",
+          "atMs": 375,
+          "durationMs": 75,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 89
+        },
+        {
+          "file": "assets/fx/frames/turn-ring/006.png",
+          "sha256": "b89240986fcb5b0eb1a8a2334f848df3575614904fccbe65227effde71af795f",
+          "atMs": 450,
+          "durationMs": 75,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 88
+        },
+        {
+          "file": "assets/fx/frames/turn-ring/007.png",
+          "sha256": "684e066596ccceb34a61401070e497a6e1e1d5d1e6efa4da57fbc498ef8a27c2",
+          "atMs": 525,
+          "durationMs": 75,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 87
+        },
+        {
+          "file": "assets/fx/frames/turn-ring/008.png",
+          "sha256": "78d531dbc73af78ef875d2ef73d56963091cd8b918dd6cbbfecf999294185102",
+          "atMs": 600,
+          "durationMs": 75,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 87
+        },
+        {
+          "file": "assets/fx/frames/turn-ring/009.png",
+          "sha256": "684e066596ccceb34a61401070e497a6e1e1d5d1e6efa4da57fbc498ef8a27c2",
+          "atMs": 675,
+          "durationMs": 75,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 87
+        },
+        {
+          "file": "assets/fx/frames/turn-ring/010.png",
+          "sha256": "b89240986fcb5b0eb1a8a2334f848df3575614904fccbe65227effde71af795f",
+          "atMs": 750,
+          "durationMs": 75,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 88
+        },
+        {
+          "file": "assets/fx/frames/turn-ring/011.png",
+          "sha256": "e870d578237c55ed35d4d1e70ec56d469a336bb849298e0908024a657d01f10c",
+          "atMs": 825,
+          "durationMs": 75,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 89
+        },
+        {
+          "file": "assets/fx/frames/turn-ring/012.png",
+          "sha256": "9d378b03a7dc521adf88bd14dae12b4fbe026af787b5ece31ef76dce6b717064",
+          "atMs": 900,
+          "durationMs": 75,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 90
+        },
+        {
+          "file": "assets/fx/frames/turn-ring/013.png",
+          "sha256": "b01874af0c2014deeeaae3f34f72ab65fdd1651479d140bdb7a70e25b70b5da3",
+          "atMs": 975,
+          "durationMs": 75,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 91
+        },
+        {
+          "file": "assets/fx/frames/turn-ring/014.png",
+          "sha256": "858cb4f268e5c1172de179593dbe5018f3f0d308f2947569be303be4e5a8e91c",
+          "atMs": 1050,
+          "durationMs": 75,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 91
+        },
+        {
+          "file": "assets/fx/frames/turn-ring/015.png",
+          "sha256": "ae8e3d84c88a0fdd6c8e8d64f341acf0cd9706e9d367677c0789e5edca9ada89",
+          "atMs": 1125,
+          "durationMs": 75,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 92
+        }
+      ],
+      "timelineDurationMs": 1200,
+      "bakedPlaybackDurationMs": 1200,
+      "terminalSentinelMs": 0,
+      "loop": true,
+      "errors": [],
+      "status": "passed_for_art_file_review"
+    },
+    {
+      "id": "loading-ring",
+      "file": "assets/fx/loading-ring.png",
+      "sha256": "111b7d5c9a2c9570b552aa1e8a947f56ab867be743dcf7a144bd3b4c94973cdc",
+      "sourceAlphaEdgeNonzero": 0,
+      "frames": [
+        {
+          "file": "assets/fx/frames/loading-ring/000.png",
+          "sha256": "63554ea4b83e643756e4b11a419b298ed89938a580f341ace193575474fae5fe",
+          "atMs": 0,
+          "durationMs": 75,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 93
+        },
+        {
+          "file": "assets/fx/frames/loading-ring/001.png",
+          "sha256": "d3fc6a0e0f04edc779394a0a405e26aa582dd5a1808ddabbd30635173013ca05",
+          "atMs": 75,
+          "durationMs": 75,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 85
+        },
+        {
+          "file": "assets/fx/frames/loading-ring/002.png",
+          "sha256": "c4629386a43bfaa94b5f2cbdf7ab8ce2602ed0fb9f2e077d92c6bd036213f9a5",
+          "atMs": 150,
+          "durationMs": 75,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 87
+        },
+        {
+          "file": "assets/fx/frames/loading-ring/003.png",
+          "sha256": "e784f2037d7c721c0174d4f2062742d2fc545bd94b7383278f47f8a223548a82",
+          "atMs": 225,
+          "durationMs": 75,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 91
+        },
+        {
+          "file": "assets/fx/frames/loading-ring/004.png",
+          "sha256": "662684e79f2de4bcb0e16f8ae50dcd4da9edae2f9f1f55149584523161eeb0a1",
+          "atMs": 300,
+          "durationMs": 75,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 93
+        },
+        {
+          "file": "assets/fx/frames/loading-ring/005.png",
+          "sha256": "cc86152723011e5c13a86b70930a305c7d2c6250452e1e40586c65459de48d06",
+          "atMs": 375,
+          "durationMs": 75,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 85
+        },
+        {
+          "file": "assets/fx/frames/loading-ring/006.png",
+          "sha256": "0937254653a0cf9d3e4b624ab1db623eaccc794f839df86c3a5d5d2b7764e6ca",
+          "atMs": 450,
+          "durationMs": 75,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 87
+        },
+        {
+          "file": "assets/fx/frames/loading-ring/007.png",
+          "sha256": "84039964272e8b44c729663f133eb18d3acccddd39f45e535921b4aafb32f1c5",
+          "atMs": 525,
+          "durationMs": 75,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 91
+        },
+        {
+          "file": "assets/fx/frames/loading-ring/008.png",
+          "sha256": "33f41667e97659bd4039d3cf586c0ca7b305470a1c3c2b96ce520fa89bb38354",
+          "atMs": 600,
+          "durationMs": 75,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 93
+        },
+        {
+          "file": "assets/fx/frames/loading-ring/009.png",
+          "sha256": "8e3b02cbd6402d4cc0b657a643d03e5046c348b0ca703230a3dcaf4fe3a093de",
+          "atMs": 675,
+          "durationMs": 75,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 85
+        },
+        {
+          "file": "assets/fx/frames/loading-ring/010.png",
+          "sha256": "3778ebb6d523a5659a0dddd106f12ce71bd3d0def8495871859b9fc8d37e90bd",
+          "atMs": 750,
+          "durationMs": 75,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 87
+        },
+        {
+          "file": "assets/fx/frames/loading-ring/011.png",
+          "sha256": "08c3c939f10a5501ef36e594648266cfe28abc61fd9764aa409a572bc9ac86c4",
+          "atMs": 825,
+          "durationMs": 75,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 91
+        },
+        {
+          "file": "assets/fx/frames/loading-ring/012.png",
+          "sha256": "dfb57ad728fd40384002d85f57134d1df4ea06cf6d200b320a951130d41792ce",
+          "atMs": 900,
+          "durationMs": 75,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 93
+        },
+        {
+          "file": "assets/fx/frames/loading-ring/013.png",
+          "sha256": "a58f23e0c3663cf27e154d0715fbb5cf9c0d8e8936a33d2d66effcf1d69a70fd",
+          "atMs": 975,
+          "durationMs": 75,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 85
+        },
+        {
+          "file": "assets/fx/frames/loading-ring/014.png",
+          "sha256": "e1e570a179a23d91a353201f2fbb0b8846f58fe286f2bfe038d0310e9664b1f5",
+          "atMs": 1050,
+          "durationMs": 75,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 87
+        },
+        {
+          "file": "assets/fx/frames/loading-ring/015.png",
+          "sha256": "c56119d4749693dafd5750b7eb4f8a90c45c9e04e7751086a0da53e0d0bf37fd",
+          "atMs": 1125,
+          "durationMs": 75,
+          "edgeAlphaAbove16": 0,
+          "marginAlphaAbove4": 91
+        }
+      ],
+      "timelineDurationMs": 1200,
+      "bakedPlaybackDurationMs": 1200,
+      "terminalSentinelMs": 0,
+      "loop": true,
+      "errors": [],
+      "status": "passed_for_art_file_review"
+    }
+  ],
+  "errors": [],
+  "visualInspection": {
+    "staticContacts": [
+      "designs/runtime-scenes-20261026/fx-a-over-light.jpg",
+      "designs/runtime-scenes-20261026/fx-a-over-dark.jpg",
+      "designs/runtime-scenes-20261026/fx-b-over-light.jpg",
+      "designs/runtime-scenes-20261026/fx-b-over-dark.jpg"
+    ],
+    "frameContact": "designs/runtime-scenes-20261026/fx-frame-contact.jpg",
+    "frameIndices": [
+      1,
+      5,
+      9,
+      13
+    ],
+    "notes": "All12 independently isolated motifs visually inspected on light/dark; selected phases show coherent drift/fade/scale/rotation, no visible cut-off after deal-trail repair."
+  },
+  "knownSourceWarnings": [
+    {
+      "file": "designs/runtime-scenes-20261026/sheet-a-qc/sheet-qc.json",
+      "phase": "raw_source",
+      "id": "safe_frame",
+      "status": "warn",
+      "value": 6,
+      "threshold": 0,
+      "resolution": "raw failures resolved by all-component ownership separation; faint alpha specks retained as intended glow and documented"
+    },
+    {
+      "file": "designs/runtime-scenes-20261026/sheet-a-qc/sheet-qc.json",
+      "phase": "raw_source",
+      "id": "faint_specks",
+      "status": "warn",
+      "value": {
+        "floor_px": 405154,
+        "detached_components": 79
+      },
+      "threshold": 0,
+      "resolution": "raw failures resolved by all-component ownership separation; faint alpha specks retained as intended glow and documented"
+    },
+    {
+      "file": "designs/runtime-scenes-20261026/sheet-b-qc/sheet-qc.json",
+      "phase": "raw_source",
+      "id": "cross_cell_components",
+      "status": "fail",
+      "value": 3,
+      "threshold": 0,
+      "resolution": "raw failures resolved by all-component ownership separation; faint alpha specks retained as intended glow and documented"
+    },
+    {
+      "file": "designs/runtime-scenes-20261026/sheet-b-qc/sheet-qc.json",
+      "phase": "raw_source",
+      "id": "cross_cell_visible",
+      "status": "fail",
+      "value": 4,
+      "threshold": 0,
+      "resolution": "raw failures resolved by all-component ownership separation; faint alpha specks retained as intended glow and documented"
+    },
+    {
+      "file": "designs/runtime-scenes-20261026/sheet-b-qc/sheet-qc.json",
+      "phase": "raw_source",
+      "id": "boundary_band",
+      "status": "warn",
+      "value": 1266,
+      "threshold": 0,
+      "resolution": "raw failures resolved by all-component ownership separation; faint alpha specks retained as intended glow and documented"
+    },
+    {
+      "file": "designs/runtime-scenes-20261026/sheet-b-qc/sheet-qc.json",
+      "phase": "raw_source",
+      "id": "safe_frame",
+      "status": "warn",
+      "value": 6,
+      "threshold": 0,
+      "resolution": "raw failures resolved by all-component ownership separation; faint alpha specks retained as intended glow and documented"
+    },
+    {
+      "file": "designs/runtime-scenes-20261026/sheet-b-qc/sheet-qc.json",
+      "phase": "raw_source",
+      "id": "faint_specks",
+      "status": "warn",
+      "value": {
+        "floor_px": 521495,
+        "detached_components": 119
+      },
+      "threshold": 0,
+      "resolution": "raw failures resolved by all-component ownership separation; faint alpha specks retained as intended glow and documented"
+    },
+    {
+      "file": "designs/runtime-scenes-20261026/sheet-a-runtime-qc/sheet-qc.json",
+      "phase": "runtime_packed",
+      "id": "faint_specks",
+      "status": "warn",
+      "value": {
+        "floor_px": 0,
+        "detached_components": 3
+      },
+      "threshold": 0,
+      "resolution": "faint alpha specks from soft glow retained; no spill/safety failure"
+    },
+    {
+      "file": "designs/runtime-scenes-20261026/sheet-b-runtime-qc/sheet-qc.json",
+      "phase": "runtime_packed",
+      "id": "faint_specks",
+      "status": "warn",
+      "value": {
+        "floor_px": 0,
+        "detached_components": 5
+      },
+      "threshold": 0,
+      "resolution": "faint alpha specks from soft glow retained; no spill/safety failure"
+    }
+  ],
+  "limits": [
+    "Original sheet B failed fixed-grid cross-cell tests; all components retained by ownership separation. Raw source tests remain FAIL in their historical reports.",
+    "Faint detached alpha glow specks retained as authored glow; see exact raw/runtime QA warnings.",
+    "Frames are transform-derived from still art, not AI video or independently drawn phase animations.",
+    "One-shot PNG stream contains an explicit 1ms fully transparent terminal sentinel; its stream duration is timeline duration +1ms.",
+    "Screen blend requires engine/browser renderer to honor manifest blend semantics."
+  ]
+}

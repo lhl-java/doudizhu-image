@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "id": "counter-spring-leaves",
+  "kind": "derived_spriteframes",
+  "route": "derived",
+  "operation": "translate/rotate/scale/alpha generated static illustration onto fixed384RGBA canvas, no invented paint details",
+  "derivedFrom": [
+    {
+      "file": "assets/fx/counter-spring-leaves.png",
+      "sha256": "d3f67342271edc8607b43a687a256813f1847b60ab2e0437ae6dcbebed9f986a",
+      "record": "assets/fx/counter-spring-leaves.png.generation.json",
+      "role": "runtime FX static sprite"
+    }
+  ],
+  "timeline": "assets/fx/counter-spring-leaves.timeline.json",
+  "durationMs": 1400,
+  "loop": false,
+  "blend": "normal",
+  "event": "counter_spring",
+  "anchor": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "frames": [
+    {
+      "file": "assets/fx/frames/counter-spring-leaves/000.png",
+      "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+      "atMs": 0,
+      "durationMs": 93,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.0,
+        "scale": 0.7,
+        "x": 0.14,
+        "y": -0.12,
+        "rotation": 18.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/counter-spring-leaves/001.png",
+      "sha256": "19d0a6ded0f56bdc30eb1346460a0f34b8baad539507f7111e0ee9e31557fd0b",
+      "atMs": 93,
+      "durationMs": 94,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.7153846153846154,
+        "scale": 0.8073076923076923,
+        "x": 0.09707692307692309,
+        "y": -0.07707692307692307,
+        "rotation": 8.7
+      }
+    },
+    {
+      "file": "assets/fx/frames/counter-spring-leaves/002.png",
+      "sha256": "a581cfcc46308ae47a5807556795e91e4bf7278239d83a099ed24af0b8399fc3",
+      "atMs": 187,
+      "durationMs": 93,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.9909523809523809,
+        "scale": 0.8635714285714285,
+        "x": 0.06914285714285714,
+        "y": -0.04823809523809523,
+        "rotation": 3.642857142857143
+      }
+    },
+    {
+      "file": "assets/fx/frames/counter-spring-leaves/003.png",
+      "sha256": "bf28b8571b5a64b2e1d30759c175eef629e2aadcc6dd09dba08dffa5f7fdb946",
+      "atMs": 280,
+      "durationMs": 93,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.9761904761904762,
+        "scale": 0.8857142857142857,
+        "x": 0.051428571428571435,
+        "y": -0.029047619047619044,
+        "rotation": 1.4285714285714288
+      }
+    },
+    {
+      "file": "assets/fx/frames/counter-spring-leaves/004.png",
+      "sha256": "ca451b0cf76c23e1613caeba7cacf58a227679cafa6d750c7a934bd4427903c1",
+      "atMs": 373,
+      "durationMs": 94,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.9614285714285714,
+        "scale": 0.9078571428571428,
+        "x": 0.03371428571428572,
+        "y": -0.009857142857142849,
+        "rotation": -0.7857142857142856
+      }
+    },
+    {
+      "file": "assets/fx/frames/counter-spring-leaves/005.png",
+      "sha256": "44b9651e38f8ad2cd27cf45069347c9b22e4e40330b08043abccc75f42e866eb",
+      "atMs": 467,
+      "durationMs": 93,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.9465079365079365,
+        "scale": 0.9302380952380952,
+        "x": 0.015809523809523815,
+        "y": 0.009539682539682542,
+        "rotation": -3.0238095238095237
+      }
+    },
+    {
+      "file": "assets/fx/frames/counter-spring-leaves/006.png",
+      "sha256": "b1e93c8348feda0d22af99a8b384c50fd77b17ec3a935c17c792350d81d1e9e2",
+      "atMs": 560,
+      "durationMs": 93,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.9317460317460318,
+        "scale": 0.9523809523809523,
+        "x": -0.001904761904761909,
+        "y": 0.02873015873015873,
+        "rotation": -5.238095238095239
+      }
+    },
+    {
+      "file": "assets/fx/frames/counter-spring-leaves/007.png",
+      "sha256": "2f47bc32e2a6b1b6203dfca7d0f0582d33220c4891e2564bc1a27459778ea33e",
+      "atMs": 653,
+      "durationMs": 94,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.916984126984127,
+        "scale": 0.9745238095238096,
+        "x": -0.01961904761904762,
+        "y": 0.04792063492063493,
+        "rotation": -7.4523809523809526
+      }
+    },
+    {
+      "file": "assets/fx/frames/counter-spring-leaves/008.png",
+      "sha256": "039258aa07f525976afbc3d0a3f4c11eb372c87061b4d9cf98866cf69d49fd23",
+      "atMs": 747,
+      "durationMs": 93,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.9020634920634921,
+        "scale": 0.996904761904762,
+        "x": -0.037523809523809515,
+        "y": 0.06731746031746033,
+        "rotation": -9.69047619047619
+      }
+    },
+    {
+      "file": "assets/fx/frames/counter-spring-leaves/009.png",
+      "sha256": "158e79a415fba476a616e0a42153f4d2323f079ebf60ffa6bc9b87dcc67fd199",
+      "atMs": 840,
+      "durationMs": 93,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.7875,
+        "scale": 1.00625,
+        "x": -0.055,
+        "y": 0.085,
+        "rotation": -11.875
+      }
+    },
+    {
+      "file": "assets/fx/frames/counter-spring-leaves/010.png",
+      "sha256": "9f94f563062bb64452360c55d900ac575310bba188d615f467fab9f81fd00170",
+      "atMs": 933,
+      "durationMs": 94,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.65671875,
+        "scale": 1.013515625,
+        "x": -0.0724375,
+        "y": 0.10243750000000001,
+        "rotation": -14.0546875
+      }
+    },
+    {
+      "file": "assets/fx/frames/counter-spring-leaves/011.png",
+      "sha256": "ecf1d1f685f388dea6f4546b0639174c7ab880533d40da61c896ca992e2df512",
+      "atMs": 1027,
+      "durationMs": 93,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.52453125,
+        "scale": 1.0208593750000001,
+        "x": -0.09006249999999999,
+        "y": 0.1200625,
+        "rotation": -16.2578125
+      }
+    },
+    {
+      "file": "assets/fx/frames/counter-spring-leaves/012.png",
+      "sha256": "d06137556365ab7a56daad889723e3345c620d9242f715474724b7b4cb1202bf",
+      "atMs": 1120,
+      "durationMs": 93,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.39375000000000004,
+        "scale": 1.028125,
+        "x": -0.10750000000000001,
+        "y": 0.1375,
+        "rotation": -18.4375
+      }
+    },
+    {
+      "file": "assets/fx/frames/counter-spring-leaves/013.png",
+      "sha256": "48f45bed295ce6ed38e36e12475fade3fa022e9f941a862a2296d01956ca3366",
+      "atMs": 1213,
+      "durationMs": 94,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.2629687500000001,
+        "scale": 1.035390625,
+        "x": -0.12493749999999998,
+        "y": 0.1549375,
+        "rotation": -20.6171875
+      }
+    },
+    {
+      "file": "assets/fx/frames/counter-spring-leaves/014.png",
+      "sha256": "fddf6974ba50d6ad00852ab389e5dfb952589d37518230a191468f5e2c439f5e",
+      "atMs": 1307,
+      "durationMs": 93,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.13078124999999996,
+        "scale": 1.042734375,
+        "x": -0.1425625,
+        "y": 0.1725625,
+        "rotation": -22.8203125
+      }
+    },
+    {
+      "file": "assets/fx/frames/counter-spring-leaves/015.png",
+      "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+      "atMs": 1400,
+      "durationMs": 1,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.0,
+        "scale": 1.05,
+        "x": -0.16,
+        "y": 0.19,
+        "rotation": -25.0
+      }
+    }
+  ],
+  "bakedPlaybackDurationMs": 1401,
+  "timelineDurationMs": 1400,
+  "terminalSentinelMs": 1,
+  "onComplete": "hide-and-release",
+  "status": "derived_animation_ready_user_review"
+}

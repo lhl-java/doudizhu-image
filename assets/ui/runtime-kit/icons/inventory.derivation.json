@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "inventory",
+  "kind": "icon",
+  "file": "assets/ui/runtime-kit/icons/inventory.png",
+  "sha256": "5eba977919746360e76ea2a1d77e84022f79b9b9ce9615423f9cde1a606d5595",
+  "width": 264,
+  "height": 269,
+  "format": "PNG",
+  "mode": "RGBA",
+  "operation": "adaptive transparent-gap crop + documented native-alpha hygiene; no resampling, no redrawing, no upscaling",
+  "derivedFrom": {
+    "file": "designs/ui/runtime-kit/icons-navigation-v2.png",
+    "sha256": "9f2cf1c655babed6de9cbb825dd85fd7226aef3af88675e2134e8cfb57048e26",
+    "generationRecord": "designs/ui/runtime-kit/icons-navigation-v2.generation.json"
+  },
+  "cellIndex": 12,
+  "row": 3,
+  "column": 0,
+  "sourceRect": [
+    35,
+    929,
+    299,
+    1198
+  ],
+  "cellRect": [
+    0,
+    923,
+    316,
+    1254
+  ],
+  "trimOffset": [
+    35,
+    6
+  ],
+  "alphaHygiene": {
+    "alphaFloor": 4,
+    "floorRemovedPixels": 71703,
+    "faintDetachedRemovedPixels": 963,
+    "maxFaintRemovedAlpha": 31,
+    "method": "native alpha hygiene only, preserve RGB and all alpha>=32; faint alpha<32 kept within 2px of solid art"
+  },
+  "perimeterHazePixelsCleared": 0,
+  "alpha": {
+    "zeroPixels": 22523,
+    "partialPixels": 48354,
+    "opaquePixels": 139,
+    "extrema": [
+      0,
+      255
+    ]
+  },
+  "visiblePixelsPreserved": 47882,
+  "clipping": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Follow derivedFrom.generationRecord; this crop is not a new model call",
+  "status": "derived_asset_ready_user_review"
+}

@@ -1,0 +1,1404 @@
+{
+  "schemaVersion": 1,
+  "updatedOn": "2026-10-26",
+  "authorization": "用户：按腾讯斗地主去把所有UI做完",
+  "referenceProduct": "腾讯欢乐斗地主（斗地主相关功能）",
+  "styleAuthority": "AGENTS.md + references/style/两张用户确认图",
+  "delivery": "完整视觉设计稿、各页状态说明、公共控件与牌面素材规范；客户端接入另计",
+  "sourceVerification": "官方资料核对功能范围；未声称逐屏复刻当前客户端；各页具体布局为本项目设计",
+  "targetCanvas": {
+    "width": 2560,
+    "height": 1080,
+    "nativeOutput": "按真实回执记录，禁止以缩放冒称原生"
+  },
+  "pages": [
+    {
+      "id": "01-launch-login",
+      "batch": "core",
+      "title": "启动与登录",
+      "controls": [
+        "启动背景",
+        "账号登录",
+        "协议勾选",
+        "切换账号"
+      ],
+      "requiredStates": [
+        "首次进入",
+        "协议未勾选",
+        "登录中",
+        "登录失败"
+      ],
+      "owner": "dedicated_chat",
+      "output": "designs/ui/core/01-launch-login-v1.png",
+      "generation": "designs/ui/core/01-launch-login-v1.generation.json",
+      "stateSpec": "designs/ui/core/01-launch-login.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "02-lobby",
+      "batch": "core",
+      "title": "全功能大厅",
+      "controls": [
+        "头像昵称",
+        "货币",
+        "经典",
+        "好友房",
+        "排位",
+        "赛事",
+        "残局",
+        "活动",
+        "商城",
+        "任务",
+        "邮件",
+        "设置",
+        "快速开始"
+      ],
+      "requiredStates": [
+        "正常",
+        "红点",
+        "资源加载"
+      ],
+      "owner": "dedicated_chat",
+      "output": "designs/ui/core/02-lobby-v1.png",
+      "generation": "designs/ui/core/02-lobby-v1.generation.json",
+      "stateSpec": "designs/ui/core/02-lobby.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "03-classic-select",
+      "batch": "core",
+      "title": "经典玩法选择",
+      "controls": [
+        "经典",
+        "不洗牌",
+        "癞子",
+        "天地癞子",
+        "规则入口"
+      ],
+      "requiredStates": [
+        "选中",
+        "锁定",
+        "规则提示"
+      ],
+      "owner": "dedicated_chat",
+      "output": "designs/ui/core/03-classic-select-v1.png",
+      "generation": "designs/ui/core/03-classic-select-v1.generation.json",
+      "stateSpec": "designs/ui/core/03-classic-select.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "04-stakes-select",
+      "batch": "core",
+      "title": "场次选择",
+      "controls": [
+        "新手",
+        "初级",
+        "中级",
+        "高级",
+        "底分",
+        "准入",
+        "封顶",
+        "快速开始"
+      ],
+      "requiredStates": [
+        "可进入",
+        "资源不足",
+        "推荐"
+      ],
+      "owner": "dedicated_chat",
+      "output": "designs/ui/core/04-stakes-select-v1.png",
+      "generation": "designs/ui/core/04-stakes-select-v1.generation.json",
+      "stateSpec": "designs/ui/core/04-stakes-select.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "05-matchmaking",
+      "batch": "core",
+      "title": "匹配等待",
+      "controls": [
+        "匹配进度",
+        "耗时",
+        "取消",
+        "规则摘要"
+      ],
+      "requiredStates": [
+        "匹配中",
+        "取消",
+        "超时重试"
+      ],
+      "owner": "dedicated_chat",
+      "output": "designs/ui/core/05-matchmaking-v1.png",
+      "generation": "designs/ui/core/05-matchmaking-v1.generation.json",
+      "stateSpec": "designs/ui/core/05-matchmaking.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "06-friend-room-entry",
+      "batch": "core",
+      "title": "好友同玩入口",
+      "controls": [
+        "创建房间",
+        "加入房间",
+        "最近房间",
+        "好友同玩"
+      ],
+      "requiredStates": [
+        "正常",
+        "无最近房间"
+      ],
+      "owner": "dedicated_chat",
+      "output": "designs/ui/core/06-friend-room-entry-v1.png",
+      "generation": "designs/ui/core/06-friend-room-entry-v1.generation.json",
+      "stateSpec": "designs/ui/core/06-friend-room-entry.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "07-create-room",
+      "batch": "core",
+      "title": "创建房间",
+      "controls": [
+        "经典/癞子",
+        "局数",
+        "叫地主方式",
+        "加倍",
+        "封顶",
+        "创建"
+      ],
+      "requiredStates": [
+        "选中",
+        "可创建",
+        "创建失败"
+      ],
+      "owner": "dedicated_chat",
+      "output": "designs/ui/core/07-create-room-v1.png",
+      "generation": "designs/ui/core/07-create-room-v1.generation.json",
+      "stateSpec": "designs/ui/core/07-create-room.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "08-join-room",
+      "batch": "core",
+      "title": "加入房间",
+      "controls": [
+        "房号输入",
+        "数字键盘",
+        "清空",
+        "加入"
+      ],
+      "requiredStates": [
+        "输入中",
+        "房号错误",
+        "已满",
+        "已结束"
+      ],
+      "owner": "dedicated_chat",
+      "output": "designs/ui/core/08-join-room-v1.png",
+      "generation": "designs/ui/core/08-join-room-v1.generation.json",
+      "stateSpec": "designs/ui/core/08-join-room.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "09-room-waiting",
+      "batch": "core",
+      "title": "好友房等待",
+      "controls": [
+        "三座席",
+        "房号",
+        "邀请",
+        "准备",
+        "房主开始",
+        "离开"
+      ],
+      "requiredStates": [
+        "空座",
+        "未准备",
+        "已准备",
+        "房主"
+      ],
+      "owner": "dedicated_chat",
+      "output": "designs/ui/core/09-room-waiting-v1.png",
+      "generation": "designs/ui/core/09-room-waiting-v1.generation.json",
+      "stateSpec": "designs/ui/core/09-room-waiting.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "10-invite-friends",
+      "batch": "core",
+      "title": "邀请好友",
+      "controls": [
+        "好友列表",
+        "在线状态",
+        "搜索",
+        "邀请",
+        "分享入口"
+      ],
+      "requiredStates": [
+        "可邀请",
+        "已邀请",
+        "无在线好友"
+      ],
+      "owner": "dedicated_chat",
+      "output": "designs/ui/core/10-invite-friends-v1.png",
+      "generation": "designs/ui/core/10-invite-friends-v1.generation.json",
+      "stateSpec": "designs/ui/core/10-invite-friends.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "11-deal-bid",
+      "batch": "table",
+      "title": "发牌与叫地主",
+      "controls": [
+        "三席",
+        "17张手牌",
+        "3张底牌",
+        "叫分",
+        "倒计时"
+      ],
+      "requiredStates": [
+        "未叫",
+        "叫地主",
+        "不叫",
+        "无叫重发"
+      ],
+      "owner": "table",
+      "output": "designs/ui/table/11-deal-bid-v2.png",
+      "generation": "designs/ui/table/11-deal-bid-v2.generation.json",
+      "stateSpec": "designs/ui/table/11-deal-bid.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "12-rob-landlord",
+      "batch": "table",
+      "title": "抢地主",
+      "controls": [
+        "叫抢顺序",
+        "抢地主/不抢",
+        "底牌归属",
+        "倍数"
+      ],
+      "requiredStates": [
+        "待抢",
+        "抢地主",
+        "不抢",
+        "已确定"
+      ],
+      "owner": "table",
+      "output": "designs/ui/table/12-rob-landlord-v1.png",
+      "generation": "designs/ui/table/12-rob-landlord-v1.generation.json",
+      "stateSpec": "designs/ui/table/12-rob-landlord.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "13-double",
+      "batch": "table",
+      "title": "明牌与加倍",
+      "controls": [
+        "地主/农民标记",
+        "底牌",
+        "加倍/不加倍",
+        "明牌"
+      ],
+      "requiredStates": [
+        "待选择",
+        "加倍",
+        "不加倍",
+        "明牌"
+      ],
+      "owner": "table",
+      "output": "designs/ui/table/13-double-v2.png",
+      "generation": "designs/ui/table/13-double-v2.generation.json",
+      "stateSpec": "designs/ui/table/13-double.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "14-play-turn",
+      "batch": "table",
+      "title": "主动出牌",
+      "controls": [
+        "20张手牌示例",
+        "选牌抬起",
+        "提示",
+        "出牌",
+        "倒计时",
+        "剩余张数"
+      ],
+      "requiredStates": [
+        "未选",
+        "已选",
+        "不合法牌型",
+        "剩余一张"
+      ],
+      "owner": "table",
+      "output": "designs/ui/table/14-play-turn-v2.png",
+      "generation": "designs/ui/table/14-play-turn-v2.generation.json",
+      "stateSpec": "designs/ui/table/14-play-turn.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "15-follow-pass",
+      "batch": "table",
+      "title": "跟牌与不出",
+      "controls": [
+        "上家牌型",
+        "压制",
+        "提示",
+        "不出",
+        "要不起",
+        "倒计时"
+      ],
+      "requiredStates": [
+        "可跟",
+        "要不起",
+        "不出",
+        "轮次结束"
+      ],
+      "owner": "table",
+      "output": "designs/ui/table/15-follow-pass-v2.png",
+      "generation": "designs/ui/table/15-follow-pass-v2.generation.json",
+      "stateSpec": "designs/ui/table/15-follow-pass.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "16-trustee",
+      "batch": "table",
+      "title": "托管与恢复",
+      "controls": [
+        "托管提示",
+        "取消托管",
+        "自动出牌",
+        "离开警告"
+      ],
+      "requiredStates": [
+        "托管中",
+        "取消",
+        "超时托管"
+      ],
+      "owner": "table",
+      "output": "designs/ui/table/16-trustee-v3.png",
+      "generation": "designs/ui/table/16-trustee-v3.generation.json",
+      "stateSpec": "designs/ui/table/16-trustee.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "17-reconnect",
+      "batch": "table",
+      "title": "掉线与重连",
+      "controls": [
+        "连接状态",
+        "重连",
+        "返回大厅",
+        "恢复牌局"
+      ],
+      "requiredStates": [
+        "连接中",
+        "失败",
+        "恢复",
+        "座位保留"
+      ],
+      "owner": "table",
+      "output": "designs/ui/table/17-reconnect-v2.png",
+      "generation": "designs/ui/table/17-reconnect-v2.generation.json",
+      "stateSpec": "designs/ui/table/17-reconnect.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "18-round-win",
+      "batch": "table",
+      "title": "单局胜利",
+      "controls": [
+        "胜利",
+        "身份",
+        "三人得分",
+        "底分",
+        "倍数明细",
+        "再来一局"
+      ],
+      "requiredStates": [
+        "地主胜",
+        "农民胜",
+        "春天",
+        "反春天"
+      ],
+      "owner": "table",
+      "output": "designs/ui/table/18-round-win-v1.png",
+      "generation": "designs/ui/table/18-round-win-v1.generation.json",
+      "stateSpec": "designs/ui/table/18-round-win.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "19-round-loss",
+      "batch": "table",
+      "title": "单局失败",
+      "controls": [
+        "失败",
+        "身份",
+        "三人得分",
+        "封顶",
+        "再来一局"
+      ],
+      "requiredStates": [
+        "地主负",
+        "农民负",
+        "资源不足"
+      ],
+      "owner": "table",
+      "output": "designs/ui/table/19-round-loss-v1.png",
+      "generation": "designs/ui/table/19-round-loss-v1.generation.json",
+      "stateSpec": "designs/ui/table/19-round-loss.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "20-room-summary",
+      "batch": "table",
+      "title": "好友房总战绩",
+      "controls": [
+        "多局战绩",
+        "三人总分",
+        "最佳玩家",
+        "继续/退出"
+      ],
+      "requiredStates": [
+        "未满局",
+        "满局",
+        "解散"
+      ],
+      "owner": "table",
+      "output": "designs/ui/table/20-room-summary-v1.png",
+      "generation": "designs/ui/table/20-room-summary-v1.generation.json",
+      "stateSpec": "designs/ui/table/20-room-summary.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "21-table-settings",
+      "batch": "table",
+      "title": "牌桌内设置",
+      "controls": [
+        "音量",
+        "震动",
+        "牌面",
+        "托管",
+        "离开",
+        "规则"
+      ],
+      "requiredStates": [
+        "音量开关",
+        "离开确认",
+        "更换牌面"
+      ],
+      "owner": "table",
+      "output": "designs/ui/table/21-table-settings-v2.png",
+      "generation": "designs/ui/table/21-table-settings-v2.generation.json",
+      "stateSpec": "designs/ui/table/21-table-settings.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "22-replay-history",
+      "batch": "table",
+      "title": "战绩与回放",
+      "controls": [
+        "战绩列表",
+        "详情",
+        "回放进度",
+        "暂停",
+        "速度",
+        "逐手"
+      ],
+      "requiredStates": [
+        "无记录",
+        "回放中",
+        "暂停",
+        "结束"
+      ],
+      "owner": "table",
+      "output": "designs/ui/table/22-replay-history-v2.png",
+      "generation": "designs/ui/table/22-replay-history-v2.generation.json",
+      "stateSpec": "designs/ui/table/22-replay-history.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "23-ranked-lobby",
+      "batch": "modes",
+      "title": "排位大厅",
+      "controls": [
+        "段位",
+        "星级",
+        "赛季",
+        "奖励",
+        "战斗入口",
+        "竞技积分说明"
+      ],
+      "requiredStates": [
+        "正常",
+        "奖励可领",
+        "赛季结束"
+      ],
+      "owner": "modes",
+      "output": "designs/ui/modes/23-ranked-lobby-v1.png",
+      "generation": "designs/ui/modes/23-ranked-lobby-v1.generation.json",
+      "stateSpec": "designs/ui/modes/23-ranked-lobby.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "24-ranked-progress",
+      "batch": "modes",
+      "title": "段位赛季进度",
+      "controls": [
+        "段位阶梯",
+        "积分",
+        "星级升降",
+        "赛季奖励"
+      ],
+      "requiredStates": [
+        "当前",
+        "已达",
+        "未达",
+        "可领"
+      ],
+      "owner": "modes",
+      "output": "designs/ui/modes/24-ranked-progress-v1.png",
+      "generation": "designs/ui/modes/24-ranked-progress-v1.generation.json",
+      "stateSpec": "designs/ui/modes/24-ranked-progress.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "25-ranked-result",
+      "batch": "modes",
+      "title": "排位结算",
+      "controls": [
+        "胜负",
+        "竞技积分",
+        "加减星",
+        "段位变化",
+        "继续"
+      ],
+      "requiredStates": [
+        "升星",
+        "掉星",
+        "升段",
+        "保护"
+      ],
+      "owner": "modes",
+      "output": "designs/ui/modes/25-ranked-result-v1.png",
+      "generation": "designs/ui/modes/25-ranked-result-v1.generation.json",
+      "stateSpec": "designs/ui/modes/25-ranked-result.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "26-tournament-lobby",
+      "batch": "modes",
+      "title": "赛事大厅",
+      "controls": [
+        "赛事分类",
+        "报名时间",
+        "奖励",
+        "入口"
+      ],
+      "requiredStates": [
+        "开放",
+        "未开始",
+        "已报名",
+        "结束"
+      ],
+      "owner": "modes",
+      "output": "designs/ui/modes/26-tournament-lobby-v1.png",
+      "generation": "designs/ui/modes/26-tournament-lobby-v1.generation.json",
+      "stateSpec": "designs/ui/modes/26-tournament-lobby.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "27-tournament-detail",
+      "batch": "modes",
+      "title": "赛事详情报名",
+      "controls": [
+        "赛制",
+        "时间",
+        "报名条件",
+        "奖励",
+        "报名",
+        "规则"
+      ],
+      "requiredStates": [
+        "可报名",
+        "条件不足",
+        "已报名"
+      ],
+      "owner": "modes",
+      "output": "designs/ui/modes/27-tournament-detail-v2.png",
+      "generation": "designs/ui/modes/27-tournament-detail-v2.generation.json",
+      "stateSpec": "designs/ui/modes/27-tournament-detail.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "28-tournament-waiting",
+      "batch": "modes",
+      "title": "赛事候场晋级",
+      "controls": [
+        "倒计时",
+        "人数",
+        "轮次",
+        "积分",
+        "名次",
+        "下一轮"
+      ],
+      "requiredStates": [
+        "候场",
+        "晋级",
+        "淘汰",
+        "取消"
+      ],
+      "owner": "modes",
+      "output": "designs/ui/modes/28-tournament-waiting-v1.png",
+      "generation": "designs/ui/modes/28-tournament-waiting-v1.generation.json",
+      "stateSpec": "designs/ui/modes/28-tournament-waiting.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "29-tournament-result",
+      "batch": "modes",
+      "title": "赛事成绩",
+      "controls": [
+        "名次",
+        "分数",
+        "奖励",
+        "领奖",
+        "返回"
+      ],
+      "requiredStates": [
+        "可领取",
+        "已领取",
+        "无奖励"
+      ],
+      "owner": "modes",
+      "output": "designs/ui/modes/29-tournament-result-v2.png",
+      "generation": "designs/ui/modes/29-tournament-result-v2.generation.json",
+      "stateSpec": "designs/ui/modes/29-tournament-result.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "30-puzzle-select",
+      "batch": "modes",
+      "title": "残局关卡",
+      "controls": [
+        "普通/困难/专家",
+        "关卡进度",
+        "锁定",
+        "星级"
+      ],
+      "requiredStates": [
+        "可挑战",
+        "锁定",
+        "已完成"
+      ],
+      "owner": "modes",
+      "output": "designs/ui/modes/30-puzzle-select-v1.png",
+      "generation": "designs/ui/modes/30-puzzle-select-v1.generation.json",
+      "stateSpec": "designs/ui/modes/30-puzzle-select.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "31-puzzle-play",
+      "batch": "modes",
+      "title": "残局挑战",
+      "controls": [
+        "指定牌局",
+        "目标",
+        "提示",
+        "重来",
+        "步骤"
+      ],
+      "requiredStates": [
+        "挑战中",
+        "提示",
+        "无可行出牌"
+      ],
+      "owner": "modes",
+      "output": "designs/ui/modes/31-puzzle-play-v1.png",
+      "generation": "designs/ui/modes/31-puzzle-play-v1.generation.json",
+      "stateSpec": "designs/ui/modes/31-puzzle-play.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "32-puzzle-result",
+      "batch": "modes",
+      "title": "残局结果",
+      "controls": [
+        "成功/失败",
+        "星级",
+        "重试",
+        "下一关"
+      ],
+      "requiredStates": [
+        "成功",
+        "失败",
+        "全部完成"
+      ],
+      "owner": "modes",
+      "output": "designs/ui/modes/32-puzzle-result-v1.png",
+      "generation": "designs/ui/modes/32-puzzle-result-v1.generation.json",
+      "stateSpec": "designs/ui/modes/32-puzzle-result.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "33-character-select",
+      "batch": "modes",
+      "title": "角色选择",
+      "controls": [
+        "三位既有角色卡",
+        "预览",
+        "拥有",
+        "使用"
+      ],
+      "requiredStates": [
+        "已拥有",
+        "未拥有",
+        "使用中"
+      ],
+      "owner": "modes",
+      "output": "designs/ui/modes/33-character-select-v1.png",
+      "generation": "designs/ui/modes/33-character-select-v1.generation.json",
+      "stateSpec": "designs/ui/modes/33-character-select.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "34-character-detail",
+      "batch": "modes",
+      "title": "角色详情",
+      "controls": [
+        "立绘",
+        "身份介绍",
+        "语音",
+        "表情",
+        "获取",
+        "使用"
+      ],
+      "requiredStates": [
+        "使用中",
+        "可使用",
+        "未解锁"
+      ],
+      "owner": "modes",
+      "output": "designs/ui/modes/34-character-detail-v1.png",
+      "generation": "designs/ui/modes/34-character-detail-v1.generation.json",
+      "stateSpec": "designs/ui/modes/34-character-detail.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "35-wardrobe",
+      "batch": "modes",
+      "title": "装扮牌桌",
+      "controls": [
+        "服装",
+        "头像框",
+        "牌桌",
+        "牌背",
+        "试穿",
+        "保存"
+      ],
+      "requiredStates": [
+        "未拥有",
+        "已拥有",
+        "试穿",
+        "已使用"
+      ],
+      "owner": "modes",
+      "output": "designs/ui/modes/35-wardrobe-v1.png",
+      "generation": "designs/ui/modes/35-wardrobe-v1.generation.json",
+      "stateSpec": "designs/ui/modes/35-wardrobe.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "36-shop",
+      "batch": "modes",
+      "title": "商城",
+      "controls": [
+        "货币",
+        "角色",
+        "装扮",
+        "道具分类",
+        "价格",
+        "推荐"
+      ],
+      "requiredStates": [
+        "正常",
+        "售罄",
+        "限时",
+        "已拥有"
+      ],
+      "owner": "modes",
+      "output": "designs/ui/modes/36-shop-v1.png",
+      "generation": "designs/ui/modes/36-shop-v1.generation.json",
+      "stateSpec": "designs/ui/modes/36-shop.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "37-item-detail",
+      "batch": "support",
+      "title": "商品详情与确认",
+      "controls": [
+        "物品大图",
+        "说明",
+        "数量",
+        "价格",
+        "确认",
+        "余额"
+      ],
+      "requiredStates": [
+        "可购买",
+        "余额不足",
+        "确认",
+        "结果"
+      ],
+      "owner": "support",
+      "output": "designs/ui/support/37-item-detail-v1.png",
+      "generation": "designs/ui/support/37-item-detail-v1.generation.json",
+      "stateSpec": "designs/ui/support/37-item-detail.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "38-wallet",
+      "batch": "support",
+      "title": "货币与兑换",
+      "controls": [
+        "游戏币",
+        "代币",
+        "兑换档位",
+        "余额",
+        "记录"
+      ],
+      "requiredStates": [
+        "可兑换",
+        "不足",
+        "确认",
+        "结果"
+      ],
+      "owner": "support",
+      "output": "designs/ui/support/38-wallet-v1.png",
+      "generation": "designs/ui/support/38-wallet-v1.generation.json",
+      "stateSpec": "designs/ui/support/38-wallet.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "39-inventory",
+      "batch": "support",
+      "title": "背包",
+      "controls": [
+        "分类",
+        "物品格",
+        "数量",
+        "期限",
+        "使用",
+        "说明"
+      ],
+      "requiredStates": [
+        "有物品",
+        "空背包",
+        "过期",
+        "已使用"
+      ],
+      "owner": "support",
+      "output": "designs/ui/support/39-inventory-v1.png",
+      "generation": "designs/ui/support/39-inventory-v1.generation.json",
+      "stateSpec": "designs/ui/support/39-inventory.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "40-player-profile",
+      "batch": "support",
+      "title": "个人资料",
+      "controls": [
+        "头像",
+        "昵称",
+        "ID",
+        "战绩",
+        "称号",
+        "编辑"
+      ],
+      "requiredStates": [
+        "自己",
+        "他人",
+        "编辑",
+        "保存"
+      ],
+      "owner": "support",
+      "output": "designs/ui/support/40-player-profile-v1.png",
+      "generation": "designs/ui/support/40-player-profile-v1.generation.json",
+      "stateSpec": "designs/ui/support/40-player-profile.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "41-friends",
+      "batch": "support",
+      "title": "好友与消息",
+      "controls": [
+        "好友列表",
+        "搜索添加",
+        "申请",
+        "私聊",
+        "屏蔽"
+      ],
+      "requiredStates": [
+        "在线",
+        "离线",
+        "空列表",
+        "申请"
+      ],
+      "owner": "support",
+      "output": "designs/ui/support/41-friends-v1.png",
+      "generation": "designs/ui/support/41-friends-v1.generation.json",
+      "stateSpec": "designs/ui/support/41-friends.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "42-leaderboard",
+      "batch": "support",
+      "title": "排行榜",
+      "controls": [
+        "全服/好友",
+        "排名",
+        "头像",
+        "分数",
+        "自己位置"
+      ],
+      "requiredStates": [
+        "正常",
+        "未上榜",
+        "刷新中"
+      ],
+      "owner": "support",
+      "output": "designs/ui/support/42-leaderboard-v2.png",
+      "generation": "designs/ui/support/42-leaderboard-v2.generation.json",
+      "stateSpec": "designs/ui/support/42-leaderboard.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "43-daily-missions",
+      "batch": "support",
+      "title": "任务与成就",
+      "controls": [
+        "每日/成长",
+        "进度",
+        "奖励",
+        "前往",
+        "领取"
+      ],
+      "requiredStates": [
+        "未完成",
+        "可领取",
+        "已领取",
+        "空"
+      ],
+      "owner": "support",
+      "output": "designs/ui/support/43-daily-missions-v1.png",
+      "generation": "designs/ui/support/43-daily-missions-v1.generation.json",
+      "stateSpec": "designs/ui/support/43-daily-missions.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "44-sign-in",
+      "batch": "support",
+      "title": "签到福利",
+      "controls": [
+        "七日奖励",
+        "连续天数",
+        "今日签到",
+        "补签说明"
+      ],
+      "requiredStates": [
+        "可签",
+        "已签",
+        "未到",
+        "补签"
+      ],
+      "owner": "support",
+      "output": "designs/ui/support/44-sign-in-v1.png",
+      "generation": "designs/ui/support/44-sign-in-v1.generation.json",
+      "stateSpec": "designs/ui/support/44-sign-in.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "45-events",
+      "batch": "support",
+      "title": "活动中心",
+      "controls": [
+        "分类",
+        "横幅",
+        "期限",
+        "任务",
+        "兑换",
+        "奖励"
+      ],
+      "requiredStates": [
+        "进行中",
+        "可领",
+        "已领",
+        "结束"
+      ],
+      "owner": "support",
+      "output": "designs/ui/support/45-events-v1.png",
+      "generation": "designs/ui/support/45-events-v1.generation.json",
+      "stateSpec": "designs/ui/support/45-events.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "46-mail",
+      "batch": "support",
+      "title": "邮件通知",
+      "controls": [
+        "列表",
+        "未读",
+        "标题",
+        "正文",
+        "附件",
+        "领取",
+        "删除"
+      ],
+      "requiredStates": [
+        "未读",
+        "可领",
+        "已领",
+        "过期",
+        "空"
+      ],
+      "owner": "support",
+      "output": "designs/ui/support/46-mail-v1.png",
+      "generation": "designs/ui/support/46-mail-v1.generation.json",
+      "stateSpec": "designs/ui/support/46-mail.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "47-settings",
+      "batch": "support",
+      "title": "系统设置",
+      "controls": [
+        "音效音乐",
+        "震动",
+        "画质",
+        "账号",
+        "语言",
+        "通知"
+      ],
+      "requiredStates": [
+        "开关",
+        "滑块",
+        "已保存",
+        "切换确认"
+      ],
+      "owner": "support",
+      "output": "designs/ui/support/47-settings-v1.png",
+      "generation": "designs/ui/support/47-settings-v1.generation.json",
+      "stateSpec": "designs/ui/support/47-settings.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "48-help-rules",
+      "batch": "support",
+      "title": "玩法规则与教学",
+      "controls": [
+        "牌型",
+        "叫抢",
+        "加倍",
+        "癞子",
+        "不洗牌",
+        "提示"
+      ],
+      "requiredStates": [
+        "目录",
+        "详情",
+        "新手步骤"
+      ],
+      "owner": "support",
+      "output": "designs/ui/support/48-help-rules-v1.png",
+      "generation": "designs/ui/support/48-help-rules-v1.generation.json",
+      "stateSpec": "designs/ui/support/48-help-rules.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "49-support-notices",
+      "batch": "support",
+      "title": "公告与客服",
+      "controls": [
+        "公告",
+        "更新",
+        "常见问题",
+        "反馈",
+        "进度"
+      ],
+      "requiredStates": [
+        "公告",
+        "反馈编辑",
+        "提交结果",
+        "空"
+      ],
+      "owner": "support",
+      "output": "designs/ui/support/49-support-notices-v1.png",
+      "generation": "designs/ui/support/49-support-notices-v1.generation.json",
+      "stateSpec": "designs/ui/support/49-support-notices.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "50-shared-dialogs",
+      "batch": "components",
+      "title": "通用弹窗状态",
+      "controls": [
+        "确认",
+        "网络错误",
+        "资源不足",
+        "获得奖励",
+        "加载",
+        "空态"
+      ],
+      "requiredStates": [
+        "确认",
+        "取消",
+        "重试",
+        "奖励",
+        "空态"
+      ],
+      "owner": "root",
+      "output": "designs/ui/components/50-shared-dialogs-v1.png",
+      "generation": "designs/ui/components/50-shared-dialogs-v1.generation.json",
+      "stateSpec": "designs/ui/components/50-shared-dialogs.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "51-common-components",
+      "batch": "components",
+      "title": "控件状态规范",
+      "controls": [
+        "标题牌",
+        "按钮",
+        "页签",
+        "卡片",
+        "输入",
+        "勾选",
+        "滑块",
+        "滚动条",
+        "红点"
+      ],
+      "requiredStates": [
+        "默认",
+        "按下",
+        "选中",
+        "禁用",
+        "焦点"
+      ],
+      "owner": "root",
+      "output": "designs/ui/components/51-common-components-v1.png",
+      "generation": "designs/ui/components/51-common-components-v1.generation.json",
+      "stateSpec": "designs/ui/components/51-common-components.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "52-card-and-effects",
+      "batch": "components",
+      "title": "牌面身份与特效",
+      "controls": [
+        "牌框",
+        "四花色",
+        "大小王",
+        "牌背",
+        "地主农民",
+        "炸弹",
+        "王炸",
+        "春天"
+      ],
+      "requiredStates": [
+        "正面",
+        "牌背",
+        "选中",
+        "禁用",
+        "身份",
+        "特效"
+      ],
+      "owner": "root",
+      "output": "designs/ui/components/52-card-and-effects-v1.png",
+      "generation": "designs/ui/components/52-card-and-effects-v1.generation.json",
+      "stateSpec": "designs/ui/components/52-card-and-effects.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "53-table-chat",
+      "batch": "table",
+      "title": "对局聊天表情语音",
+      "controls": [
+        "快捷语",
+        "表情",
+        "语音",
+        "屏蔽",
+        "配置入口"
+      ],
+      "requiredStates": [
+        "快捷语",
+        "表情",
+        "语音中",
+        "静音"
+      ],
+      "owner": "table",
+      "output": "designs/ui/table/53-table-chat-v2.png",
+      "generation": "designs/ui/table/53-table-chat-v2.generation.json",
+      "stateSpec": "designs/ui/table/53-table-chat.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "54-disband-vote",
+      "batch": "table",
+      "title": "好友房解散投票",
+      "controls": [
+        "发起人",
+        "三位投票状态",
+        "倒计时",
+        "同意",
+        "拒绝"
+      ],
+      "requiredStates": [
+        "待投票",
+        "通过",
+        "拒绝",
+        "超时"
+      ],
+      "owner": "table",
+      "output": "designs/ui/table/54-disband-vote-v1.png",
+      "generation": "designs/ui/table/54-disband-vote-v1.generation.json",
+      "stateSpec": "designs/ui/table/54-disband-vote.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "55-card-counter",
+      "batch": "table",
+      "title": "记牌器与倍数详情",
+      "controls": [
+        "四花色剩余点数",
+        "大小王",
+        "底分",
+        "倍率来源"
+      ],
+      "requiredStates": [
+        "可用",
+        "未启用",
+        "用尽",
+        "倍率明细"
+      ],
+      "owner": "table",
+      "output": "designs/ui/table/55-card-counter-v2.png",
+      "generation": "designs/ui/table/55-card-counter-v2.generation.json",
+      "stateSpec": "designs/ui/table/55-card-counter.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "56-offline",
+      "batch": "core",
+      "title": "单机练习",
+      "controls": [
+        "离线开始",
+        "难度",
+        "练习说明",
+        "暂停",
+        "无网标识"
+      ],
+      "requiredStates": [
+        "可开始",
+        "进行中",
+        "暂停",
+        "结束"
+      ],
+      "owner": "dedicated_chat",
+      "output": "designs/ui/core/56-offline-v1.png",
+      "generation": "designs/ui/core/56-offline-v1.generation.json",
+      "stateSpec": "designs/ui/core/56-offline.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "57-hero-skills",
+      "batch": "core",
+      "title": "英雄能力说明与选择",
+      "controls": [
+        "角色卡",
+        "技能说明",
+        "适用模式",
+        "选择",
+        "解锁"
+      ],
+      "requiredStates": [
+        "已拥有",
+        "锁定",
+        "已选",
+        "说明"
+      ],
+      "owner": "dedicated_chat",
+      "output": "designs/ui/core/57-hero-skills-v1.png",
+      "generation": "designs/ui/core/57-hero-skills-v1.generation.json",
+      "stateSpec": "designs/ui/core/57-hero-skills.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "58-season-shop",
+      "batch": "core",
+      "title": "赛季兑换",
+      "controls": [
+        "赛季代币",
+        "奖励",
+        "限兑次数",
+        "兑换"
+      ],
+      "requiredStates": [
+        "可兑",
+        "不足",
+        "已兑",
+        "到期"
+      ],
+      "owner": "dedicated_chat",
+      "output": "designs/ui/core/58-season-shop-v1.png",
+      "generation": "designs/ui/core/58-season-shop-v1.generation.json",
+      "stateSpec": "designs/ui/core/58-season-shop.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "59-achievements-growth",
+      "batch": "support",
+      "title": "成就与成长手册",
+      "controls": [
+        "成长等级",
+        "成就分类",
+        "进度",
+        "奖励节点",
+        "领取"
+      ],
+      "requiredStates": [
+        "未达",
+        "可领",
+        "已领",
+        "满级"
+      ],
+      "owner": "support",
+      "output": "designs/ui/support/59-achievements-growth-v2.png",
+      "generation": "designs/ui/support/59-achievements-growth-v2.generation.json",
+      "stateSpec": "designs/ui/support/59-achievements-growth.states.json",
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "60-account-notices",
+      "batch": "support",
+      "title": "账号与版本通知",
+      "controls": [
+        "账号切换",
+        "协议",
+        "维护",
+        "更新",
+        "资源下载",
+        "进度"
+      ],
+      "requiredStates": [
+        "切换确认",
+        "维护",
+        "更新",
+        "下载失败"
+      ],
+      "owner": "support",
+      "output": "designs/ui/support/60-account-notices-v1.png",
+      "generation": "designs/ui/support/60-account-notices-v1.generation.json",
+      "stateSpec": "designs/ui/support/60-account-notices.states.json",
+      "status": "design_ready_user_review"
+    }
+  ],
+  "updatedAt": "2026-10-26T12:50:48.013580+00:00"
+}

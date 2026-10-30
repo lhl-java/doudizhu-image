@@ -1,0 +1,15 @@
+{
+  "file": "assets/ui/cards/joker-small.png",
+  "sha256": "e4b34532ab37f0fc92375a5f9b9e3c347010648d633459b1d1a596fc7fba42a2",
+  "width": 231,
+  "height": 286,
+  "rank": "JOKER",
+  "suit": "small",
+  "operation": "copy-of-cropped-generated-joker",
+  "derivedFrom": {
+    "file": "assets/ui/cards-source/joker-small.png",
+    "sha256": "e4b34532ab37f0fc92375a5f9b9e3c347010648d633459b1d1a596fc7fba42a2",
+    "record": "assets/ui/cards-source/joker-small.derivation.json"
+  },
+  "status": "derived_asset_ready_user_review"
+}

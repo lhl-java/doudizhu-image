@@ -1,0 +1,72 @@
+{
+  "file": "designs/ui/components/51-common-components-v1.png",
+  "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+  "generatedAt": "2026-10-26T03:51:25.447034-04:00",
+  "generatedAtEvidence": "recorded after tool completion; service internal timestamp not disclosed",
+  "width": 1448,
+  "height": 1086,
+  "format": "PNG",
+  "nativeResolution": {
+    "width": 1448,
+    "height": 1086
+  },
+  "exportOperation": "byte-identical-copy-no-resize",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据",
+  "evidence": {
+    "hostOutputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a17714-4402-7063-9782-93f78261cb48\\exec-74217ad8-5e2d-4814-b71b-efb1ce2f0568.png",
+    "toolReceipt": "designs\\ui\\components\\51-common-components-v1.receipt.json"
+  },
+  "prompt": "prompts/components/51-common-components-v1.txt",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "user-confirmed-primary-style"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "user-confirmed-primary-style"
+    }
+  ],
+  "pixelMode": "RGBA",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "status": "design_ready_user_review",
+  "visualQA": {
+    "status": "passed_with_documented_limits",
+    "findings": [
+      "已看图：24个独立控件，RGBA真实透明，原生1448×1086。",
+      "细微低alpha柔光彩边保留源通道，需深底使用时另行评审。"
+    ]
+  }
+}

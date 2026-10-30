@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "purpose": "美术示例的原生动态文案统一来源；不是腾讯规则或后端实现",
+  "bindingPolicy": "页面渲染读取同一tournamentId/seasonId/playerId的回执数据；整屏PNG内示例数字不作为业务真值。",
+  "player": {
+    "id": "player-demo",
+    "nickname": "青云小道",
+    "level": 28,
+    "characterId": "jade-apprentice"
+  },
+  "characters": [
+    {
+      "id": "jade-apprentice",
+      "name": "玉绿道童"
+    },
+    {
+      "id": "peach-cultivator",
+      "name": "桃花女修"
+    },
+    {
+      "id": "gourd-elder",
+      "name": "葫芦长者"
+    }
+  ],
+  "rank": {
+    "name": "青玉三阶",
+    "stars": 2,
+    "maxStars": 3,
+    "score": 1280,
+    "resultDemo": {
+      "beforeName": "青玉三阶",
+      "afterName": "青玉二阶",
+      "scoreDelta": 120
+    }
+  },
+  "season": {
+    "id": "season-demo",
+    "remainingDays": 18,
+    "nextStartAt": "由赛季配置提供",
+    "claimableRewardCount": 3
+  },
+  "tournaments": {
+    "qingyun": {
+      "id": "qingyun",
+      "name": "青云入门赛",
+      "minLevel": 1,
+      "roundCount": 3,
+      "startAt": "20:00",
+      "joinedCount": 96,
+      "capacity": 128,
+      "resultDemo": {
+        "myRank": 3,
+        "myScore": 1680,
+        "totalGames": 3
+      },
+      "participantsDemo": [
+        {
+          "nickname": "葫芦长者",
+          "score": 2350
+        },
+        {
+          "nickname": "桃花女修",
+          "score": 1920
+        },
+        {
+          "nickname": "青云小道",
+          "score": 1680
+        }
+      ]
+    },
+    "yubi": {
+      "id": "yubi",
+      "name": "玉璧挑战赛",
+      "minLevel": 5,
+      "startAt": "20:00"
+    },
+    "weekend": {
+      "id": "weekend",
+      "name": "周末论道赛",
+      "minLevel": 10
+    }
+  },
+  "puzzle": {
+    "difficultyLabel": "普通",
+    "completedLevels": 3,
+    "totalLevels": 30,
+    "selectedLevel": 4,
+    "firstLockedLevel": 5
+  }
+}

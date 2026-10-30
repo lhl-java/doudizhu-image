@@ -1,0 +1,627 @@
+{
+  "schema": "doudizhu.ui-actor-keyframes.v1",
+  "id": "taohua_idle",
+  "actor": "taohua",
+  "action": "idle",
+  "description": "Whole-actor breathing only, at most 1.2% scale and 5/1024 canvas units vertical displacement.",
+  "art_source": "existing",
+  "rendering": "CPU affine rendering of already generated transparent stills; not imagegen, AI video, skeletal animation or new limb frames",
+  "durationMs": 1600,
+  "loop": true,
+  "keyframes": [
+    {
+      "atMs": 0,
+      "pose": "master",
+      "x": 0,
+      "y": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotationDeg": 0,
+      "hudOpacity": 0
+    },
+    {
+      "atMs": 800,
+      "pose": "master",
+      "x": 0,
+      "y": -5,
+      "scaleX": 1.004,
+      "scaleY": 1.012,
+      "rotationDeg": 0,
+      "hudOpacity": 0
+    },
+    {
+      "atMs": 1500,
+      "pose": "master",
+      "x": 0,
+      "y": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotationDeg": 0,
+      "hudOpacity": 0
+    },
+    {
+      "atMs": 1600,
+      "pose": "master",
+      "x": 0,
+      "y": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotationDeg": 0,
+      "hudOpacity": 0
+    }
+  ],
+  "interpolation": {
+    "numeric": "smoothstep between adjacent keys",
+    "pose": "step at key time",
+    "angles": "clockwise degrees in screen coordinates"
+  },
+  "pivot": {
+    "sourceCanvas": [
+      1024,
+      1024
+    ],
+    "sourcePoint": [
+      512,
+      920
+    ],
+    "units": "source canvas pixels",
+    "normalized": [
+      0.5,
+      0.8984375
+    ]
+  },
+  "preview": {
+    "sheet": "assets/animations/characters/taohua_idle.png",
+    "frameSize": [
+      160,
+      200
+    ],
+    "columns": 4,
+    "rows": 4,
+    "baseScale": 0.17,
+    "pivot": [
+      80,
+      180
+    ],
+    "frames": [
+      {
+        "index": 0,
+        "atMs": 0,
+        "durationMs": 100,
+        "rect": [
+          0,
+          0,
+          160,
+          200
+        ],
+        "pose": "master",
+        "state": {
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        "bbox": [
+          23,
+          41,
+          137,
+          183
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "borderAlphaNonzero": 0
+      },
+      {
+        "index": 1,
+        "atMs": 100,
+        "durationMs": 100,
+        "rect": [
+          160,
+          0,
+          160,
+          200
+        ],
+        "pose": "master",
+        "state": {
+          "pose": "master",
+          "x": 0.0,
+          "y": -0.21484375,
+          "scaleX": 1.000171875,
+          "scaleY": 1.000515625,
+          "rotationDeg": 0.0,
+          "hudOpacity": 0.0
+        },
+        "bbox": [
+          23,
+          41,
+          137,
+          182
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "borderAlphaNonzero": 0
+      },
+      {
+        "index": 2,
+        "atMs": 200,
+        "durationMs": 100,
+        "rect": [
+          320,
+          0,
+          160,
+          200
+        ],
+        "pose": "master",
+        "state": {
+          "pose": "master",
+          "x": 0.0,
+          "y": -0.78125,
+          "scaleX": 1.000625,
+          "scaleY": 1.001875,
+          "rotationDeg": 0.0,
+          "hudOpacity": 0.0
+        },
+        "bbox": [
+          23,
+          41,
+          137,
+          182
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "borderAlphaNonzero": 0
+      },
+      {
+        "index": 3,
+        "atMs": 300,
+        "durationMs": 100,
+        "rect": [
+          480,
+          0,
+          160,
+          200
+        ],
+        "pose": "master",
+        "state": {
+          "pose": "master",
+          "x": 0.0,
+          "y": -1.58203125,
+          "scaleX": 1.001265625,
+          "scaleY": 1.003796875,
+          "rotationDeg": 0.0,
+          "hudOpacity": 0.0
+        },
+        "bbox": [
+          22,
+          41,
+          137,
+          182
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "borderAlphaNonzero": 0
+      },
+      {
+        "index": 4,
+        "atMs": 400,
+        "durationMs": 100,
+        "rect": [
+          0,
+          200,
+          160,
+          200
+        ],
+        "pose": "master",
+        "state": {
+          "pose": "master",
+          "x": 0.0,
+          "y": -2.5,
+          "scaleX": 1.002,
+          "scaleY": 1.006,
+          "rotationDeg": 0.0,
+          "hudOpacity": 0.0
+        },
+        "bbox": [
+          22,
+          40,
+          138,
+          182
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "borderAlphaNonzero": 0
+      },
+      {
+        "index": 5,
+        "atMs": 500,
+        "durationMs": 100,
+        "rect": [
+          160,
+          200,
+          160,
+          200
+        ],
+        "pose": "master",
+        "state": {
+          "pose": "master",
+          "x": 0.0,
+          "y": -3.41796875,
+          "scaleX": 1.002734375,
+          "scaleY": 1.008203125,
+          "rotationDeg": 0.0,
+          "hudOpacity": 0.0
+        },
+        "bbox": [
+          22,
+          40,
+          138,
+          182
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "borderAlphaNonzero": 0
+      },
+      {
+        "index": 6,
+        "atMs": 600,
+        "durationMs": 100,
+        "rect": [
+          320,
+          200,
+          160,
+          200
+        ],
+        "pose": "master",
+        "state": {
+          "pose": "master",
+          "x": 0.0,
+          "y": -4.21875,
+          "scaleX": 1.003375,
+          "scaleY": 1.010125,
+          "rotationDeg": 0.0,
+          "hudOpacity": 0.0
+        },
+        "bbox": [
+          22,
+          39,
+          138,
+          182
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "borderAlphaNonzero": 0
+      },
+      {
+        "index": 7,
+        "atMs": 700,
+        "durationMs": 100,
+        "rect": [
+          480,
+          200,
+          160,
+          200
+        ],
+        "pose": "master",
+        "state": {
+          "pose": "master",
+          "x": 0.0,
+          "y": -4.78515625,
+          "scaleX": 1.003828125,
+          "scaleY": 1.011484375,
+          "rotationDeg": 0.0,
+          "hudOpacity": 0.0
+        },
+        "bbox": [
+          22,
+          39,
+          138,
+          182
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "borderAlphaNonzero": 0
+      },
+      {
+        "index": 8,
+        "atMs": 800,
+        "durationMs": 100,
+        "rect": [
+          0,
+          400,
+          160,
+          200
+        ],
+        "pose": "master",
+        "state": {
+          "pose": "master",
+          "x": 0,
+          "y": -5,
+          "scaleX": 1.004,
+          "scaleY": 1.012,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        "bbox": [
+          22,
+          39,
+          138,
+          182
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "borderAlphaNonzero": 0
+      },
+      {
+        "index": 9,
+        "atMs": 900,
+        "durationMs": 100,
+        "rect": [
+          160,
+          400,
+          160,
+          200
+        ],
+        "pose": "master",
+        "state": {
+          "pose": "master",
+          "x": 0.0,
+          "y": -4.723032069970846,
+          "scaleX": 1.0037784256559767,
+          "scaleY": 1.01133527696793,
+          "rotationDeg": 0.0,
+          "hudOpacity": 0.0
+        },
+        "bbox": [
+          22,
+          39,
+          138,
+          182
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "borderAlphaNonzero": 0
+      },
+      {
+        "index": 10,
+        "atMs": 1000,
+        "durationMs": 100,
+        "rect": [
+          320,
+          400,
+          160,
+          200
+        ],
+        "pose": "master",
+        "state": {
+          "pose": "master",
+          "x": 0.0,
+          "y": -4.0087463556851315,
+          "scaleX": 1.003206997084548,
+          "scaleY": 1.0096209912536442,
+          "rotationDeg": 0.0,
+          "hudOpacity": 0.0
+        },
+        "bbox": [
+          22,
+          39,
+          138,
+          182
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "borderAlphaNonzero": 0
+      },
+      {
+        "index": 11,
+        "atMs": 1100,
+        "durationMs": 100,
+        "rect": [
+          480,
+          400,
+          160,
+          200
+        ],
+        "pose": "master",
+        "state": {
+          "pose": "master",
+          "x": 0.0,
+          "y": -3.0320699708454812,
+          "scaleX": 1.0024256559766764,
+          "scaleY": 1.007276967930029,
+          "rotationDeg": 0.0,
+          "hudOpacity": 0.0
+        },
+        "bbox": [
+          22,
+          40,
+          138,
+          182
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "borderAlphaNonzero": 0
+      },
+      {
+        "index": 12,
+        "atMs": 1200,
+        "durationMs": 100,
+        "rect": [
+          0,
+          600,
+          160,
+          200
+        ],
+        "pose": "master",
+        "state": {
+          "pose": "master",
+          "x": 0.0,
+          "y": -1.9679300291545192,
+          "scaleX": 1.0015743440233236,
+          "scaleY": 1.004723032069971,
+          "rotationDeg": 0.0,
+          "hudOpacity": 0.0
+        },
+        "bbox": [
+          22,
+          40,
+          137,
+          182
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "borderAlphaNonzero": 0
+      },
+      {
+        "index": 13,
+        "atMs": 1300,
+        "durationMs": 100,
+        "rect": [
+          160,
+          600,
+          160,
+          200
+        ],
+        "pose": "master",
+        "state": {
+          "pose": "master",
+          "x": 0.0,
+          "y": -0.9912536443148685,
+          "scaleX": 1.000793002915452,
+          "scaleY": 1.0023790087463558,
+          "rotationDeg": 0.0,
+          "hudOpacity": 0.0
+        },
+        "bbox": [
+          23,
+          41,
+          138,
+          182
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "borderAlphaNonzero": 0
+      },
+      {
+        "index": 14,
+        "atMs": 1400,
+        "durationMs": 100,
+        "rect": [
+          320,
+          600,
+          160,
+          200
+        ],
+        "pose": "master",
+        "state": {
+          "pose": "master",
+          "x": 0.0,
+          "y": -0.2769679300291541,
+          "scaleX": 1.0002215743440233,
+          "scaleY": 1.00066472303207,
+          "rotationDeg": 0.0,
+          "hudOpacity": 0.0
+        },
+        "bbox": [
+          23,
+          41,
+          137,
+          182
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "borderAlphaNonzero": 0
+      },
+      {
+        "index": 15,
+        "atMs": 1500,
+        "durationMs": 100,
+        "rect": [
+          480,
+          600,
+          160,
+          200
+        ],
+        "pose": "master",
+        "state": {
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        "bbox": [
+          23,
+          41,
+          137,
+          183
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "borderAlphaNonzero": 0
+      }
+    ]
+  },
+  "events": [
+    {
+      "atMs": 0,
+      "type": "ui_idle_begin",
+      "visualOnly": true
+    }
+  ],
+  "eventPolicy": "Events are presentation cues only. Server/gameplay controller owns card selection, turn commit and win/loss results. In a loop, emit events once per cycle; on seek emit none unless explicitly requested.",
+  "hud": null,
+  "skinPolicy": {
+    "baseActor": "taohua",
+    "supportedCostumes": [],
+    "timelineReusable": true,
+    "forAlternateCostume": "Resolve all pose names to the selected skin file and apply the same transform; do not switch win/lose to base costume. Keep thinking portrait HUD hidden for alternate costumes unless a matching portrait exists. The baked sheets show the base costume only.",
+    "requiresNewBakedSheets": false
+  },
+  "sources": [
+    {
+      "file": "assets/characters/taohua/master.png",
+      "sha256": "06bec073cdcec9d47c9da586168e229c74f2d3c72deb5ae91e1509db378cace3",
+      "width": 1024,
+      "height": 1024,
+      "record": "assets/characters/taohua/master.derivation.json"
+    }
+  ],
+  "status": "asset_ready_user_review"
+}

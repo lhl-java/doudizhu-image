@@ -1,0 +1,9 @@
+{
+  "recordedAt": "2026-10-26 07:54:13 UTC",
+  "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17714-4402-7063-9782-93f78261cb48 as C:\\Users\\luyua\\.codex\\generated_images\\01a17714-4402-7063-9782-93f78261cb48\\exec-5e922969-46d7-4dad-bf53-37daa51a4f57.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "resultKeys": [
+    "image_url",
+    "output_hint"
+  ],
+  "note": "Image data omitted from text receipt; returned no model or quality metadata."
+}

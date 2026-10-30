@@ -1,0 +1,281 @@
+{
+  "schemaVersion": 1,
+  "id": "deal-trail",
+  "kind": "derived_spriteframes",
+  "route": "derived",
+  "operation": "Uniformly fit the complete deal-trail transform stream at fixed base sprite size 220px on a 384px RGBA canvas; same trajectory, timing, alpha and rotation; downscale only, no new art.",
+  "derivedFrom": [
+    {
+      "file": "assets/fx/deal-trail.png",
+      "sha256": "697af67ed434a506ec03f2c6a45a2db1f55cd210c1b611ef4fd9ba4a1b5b466a",
+      "record": "assets/fx/deal-trail.png.generation.json",
+      "role": "runtime FX static sprite"
+    }
+  ],
+  "timeline": "assets/fx/deal-trail.timeline.json",
+  "durationMs": 480,
+  "loop": false,
+  "blend": "screen",
+  "event": "deal_card",
+  "anchor": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "frames": [
+    {
+      "file": "assets/fx/frames/deal-trail/000.png",
+      "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+      "atMs": 0,
+      "durationMs": 32,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.0,
+        "scale": 0.4,
+        "x": -0.24,
+        "y": 0.18,
+        "rotation": -18.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/deal-trail/001.png",
+      "sha256": "2b48150bca8f8164c36ce4f7d62b04ebe6023d2511232b60e780cddc931c9405",
+      "atMs": 32,
+      "durationMs": 32,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.45714285714285713,
+        "scale": 0.5371428571428571,
+        "x": -0.20800000000000002,
+        "y": 0.148,
+        "rotation": -15.257142857142856
+      }
+    },
+    {
+      "file": "assets/fx/frames/deal-trail/002.png",
+      "sha256": "d54601615e0c3b197c98ba006989fce895ba287c5b130ae9908b2a093bf4bfae",
+      "atMs": 64,
+      "durationMs": 32,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.9142857142857143,
+        "scale": 0.6742857142857143,
+        "x": -0.17600000000000002,
+        "y": 0.116,
+        "rotation": -12.514285714285714
+      }
+    },
+    {
+      "file": "assets/fx/frames/deal-trail/003.png",
+      "sha256": "186530dde73da145b2bec06821cb3b667d851a08cfcd197273574dd0e20e2eea",
+      "atMs": 96,
+      "durationMs": 32,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 1.0,
+        "scale": 0.7371428571428571,
+        "x": -0.1340952380952381,
+        "y": 0.08647619047619048,
+        "rotation": -10.514285714285714
+      }
+    },
+    {
+      "file": "assets/fx/frames/deal-trail/004.png",
+      "sha256": "0c4f2425e22a4e5507840b02ab2d648e01cca29223730e5e4dbc84dfd76b44af",
+      "atMs": 128,
+      "durationMs": 32,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 1.0,
+        "scale": 0.7828571428571428,
+        "x": -0.0899047619047619,
+        "y": 0.05752380952380952,
+        "rotation": -8.685714285714285
+      }
+    },
+    {
+      "file": "assets/fx/frames/deal-trail/005.png",
+      "sha256": "d2a985119ae18e59d0066730821810a8e8ecaded844f115a3be206fda78e1243",
+      "atMs": 160,
+      "durationMs": 32,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 1.0,
+        "scale": 0.8285714285714285,
+        "x": -0.04571428571428572,
+        "y": 0.02857142857142858,
+        "rotation": -6.857142857142858
+      }
+    },
+    {
+      "file": "assets/fx/frames/deal-trail/006.png",
+      "sha256": "4b2e074d24b2f8cf2e31909e94ee3f545e22a0b8312ca7fdafa3a740996d8b77",
+      "atMs": 192,
+      "durationMs": 32,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 1.0,
+        "scale": 0.8742857142857143,
+        "x": -0.0015238095238095106,
+        "y": -0.0003809523809523846,
+        "rotation": -5.0285714285714285
+      }
+    },
+    {
+      "file": "assets/fx/frames/deal-trail/007.png",
+      "sha256": "17ad9d8ec4b859f090273b5699812ebe58aeee9c3ecd73e077b915cef7effbfd",
+      "atMs": 224,
+      "durationMs": 32,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 1.0,
+        "scale": 0.9199999999999999,
+        "x": 0.04266666666666666,
+        "y": -0.029333333333333336,
+        "rotation": -3.200000000000001
+      }
+    },
+    {
+      "file": "assets/fx/frames/deal-trail/008.png",
+      "sha256": "698de690261c8a6eb693e4c830c9e30e111f8122bc86d6d1688533ceb60f16af",
+      "atMs": 256,
+      "durationMs": 32,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 1.0,
+        "scale": 0.9657142857142857,
+        "x": 0.08685714285714288,
+        "y": -0.05828571428571429,
+        "rotation": -1.3714285714285719
+      }
+    },
+    {
+      "file": "assets/fx/frames/deal-trail/009.png",
+      "sha256": "e456dd3f3e25fc742ce4b5345241b3dcb87e4a2e6f70eb582092b2b5974d1195",
+      "atMs": 288,
+      "durationMs": 32,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.96,
+        "scale": 1.0032,
+        "x": 0.1272,
+        "y": -0.08560000000000001,
+        "rotation": 0.2
+      }
+    },
+    {
+      "file": "assets/fx/frames/deal-trail/010.png",
+      "sha256": "c085f25b8e164bde6f15be87b71aa75a719261947fc8577e64e50da52e868c4a",
+      "atMs": 320,
+      "durationMs": 32,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.8,
+        "scale": 1.016,
+        "x": 0.156,
+        "y": -0.10800000000000001,
+        "rotation": 1.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/deal-trail/011.png",
+      "sha256": "f7b05092b0a1b88fb89e9dc3a18b66bf50498505098243a551eb4f7d69e8a0db",
+      "atMs": 352,
+      "durationMs": 32,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.64,
+        "scale": 1.0288,
+        "x": 0.1848,
+        "y": -0.13040000000000002,
+        "rotation": 1.7999999999999998
+      }
+    },
+    {
+      "file": "assets/fx/frames/deal-trail/012.png",
+      "sha256": "51aa254151582aef5dc3948b71d29d7f2b5a422add8a5349b4c96d2448293040",
+      "atMs": 384,
+      "durationMs": 32,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.48,
+        "scale": 1.0416,
+        "x": 0.2136,
+        "y": -0.1528,
+        "rotation": 2.6
+      }
+    },
+    {
+      "file": "assets/fx/frames/deal-trail/013.png",
+      "sha256": "5d57db60d00b61a64e6b50bc83c39b13a82d435804eb113b7a8f6a4345bab1a4",
+      "atMs": 416,
+      "durationMs": 32,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.31999999999999995,
+        "scale": 1.0544,
+        "x": 0.2424,
+        "y": -0.17520000000000002,
+        "rotation": 3.4000000000000004
+      }
+    },
+    {
+      "file": "assets/fx/frames/deal-trail/014.png",
+      "sha256": "bc53ae3ef5447d325751f8a9b4cd04e2fca196052f4b74fbc3a829a94d07553c",
+      "atMs": 448,
+      "durationMs": 32,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.16000000000000003,
+        "scale": 1.0672000000000001,
+        "x": 0.2712,
+        "y": -0.1976,
+        "rotation": 4.2
+      }
+    },
+    {
+      "file": "assets/fx/frames/deal-trail/015.png",
+      "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+      "atMs": 480,
+      "durationMs": 1,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.0,
+        "scale": 1.08,
+        "x": 0.3,
+        "y": -0.22000000000000003,
+        "rotation": 5.0
+      }
+    }
+  ],
+  "bakedPlaybackDurationMs": 481,
+  "timelineDurationMs": 480,
+  "terminalSentinelMs": 1,
+  "onComplete": "hide-and-release",
+  "status": "derived_animation_ready_user_review",
+  "baseSpriteSize": 220,
+  "safetyCorrection": {
+    "checkedAt": "2026-10-28T07:53:15.094592+00:00",
+    "previousBaseSpriteSize": 300,
+    "reason": "Previous stream had 129 edge pixels with alpha>16 across 16 frames. Fixed one clip-wide source display size, with >=8px alpha>4 safety margin in every nonempty frame.",
+    "timelineTransformsUnchanged": true,
+    "sourceUnchanged": true,
+    "alphaThreshold": 4,
+    "minimumMarginPx": 8
+  }
+}

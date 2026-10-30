@@ -1,0 +1,75 @@
+{
+  "status": "design_ready_user_review",
+  "file": "designs/ui/modes/31-puzzle-play-v1.png",
+  "sha256": "522b9b9a3f91f98793b1dae1a013a815b8e8f54a4122d14aec9a4a0a9eaf0d2e",
+  "width": 1932,
+  "height": 814,
+  "format": "PNG",
+  "generatedAt": "2026-10-26T04:09:50.131157-04:00",
+  "generatedAtEvidence": "源PNG的文件修改时间；原调用已在分工切换前提交，等待单元会话未继承，无法取回原始工具结果对象。",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露；原工具结果对象未继承。源文件路径、哈希与实际像素已恢复核对。",
+  "prompt": "prompts\\modes\\31-puzzle-play-v1.txt",
+  "promptSha256": "40c2c4b369da7789e99edb49f8d5cd898d98103e6b3f62d2845da0e675a2117a",
+  "actualPromptText": "Use case: ui-mockup\nAsset type: 斗地主游戏完整横屏UI设计稿，一张独立完整界面。\nPrimary request: 制作「残局对局」界面，功能承接完整斗地主游戏。\nInput images: 图1邮件、图2组队均为必须遵循的用户已确认风格参考；图3为本项目三位角色设定，出现人物时保持身份、脸型和服装。\nStyle/medium: 道家Q版高清精细手绘，严格承接参考的玉绿与青绿、象牙米白纸绢大面板、暖金细边，圆润饱满框板按钮、柔和如意云纹、适度金玉质感。细腻笔触、清晰边缘、中文可读，人物大头短身，避免写实和塑料玩具反光。\nScene/backdrop: 明亮仙山亭阁庭院与桃花、柔云、灯笼少量点缀的浅景深背景，功能区域为清爽米白纸绢，不喧宾夺主。\nComposition: 横屏约2.37:1，目标2560×1080；完整画面边缘保留安全边距，上方中间玉绿金边标题「残局对局」，左上返回，右上关闭。只画这一屏，不画手机外框、不做多屏拼图。\nLayout: 一张三席残局牌桌画面，上方目标在限定局面中率先出完手牌，右上第4关；左上葫芦长者对手头像、6张余牌，右上女修对手头像、5张余牌；底部玩家道童和8张大牌清楚点数A A K K 9 8 7 6；中央当前出牌一对Q；下方提示/重来/出牌三个按钮、步骤记录入口，不要把手牌画成战斗技能。\nDisplayed states: 挑战中；提示、无可行出牌在状态文件说明。\nText (verbatim; organize clearly without dense filler): 「残局对局」、「第4关」、「挑战目标」、「率先出完手牌」、「提示」、「重来」、「出牌」、「步骤记录」。\nConstraints: 主按钮玉绿金边、次按钮米白金边，选中态清楚且不只靠颜色。所有文字区留白充分且对齐。角色不遮操作区，数值与价格仅为本项目美术示意，不复制腾讯品牌logo、角色和皮肤。不写五行奇谈等其他游戏名，不放水印。生成高完成度原生图，不用模糊放大模拟细节。\n\n",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "主风格：配色材质"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "主风格：层级留白"
+    },
+    {
+      "file": "designs/characters/characters-trio-v1.png",
+      "sha256": "0c4dda70d4e16715527ed243a8d3efc2a401be2f06326b49601d1b184e7165ac",
+      "role": "同源三角色设定"
+    }
+  ],
+  "copyStatus": "采用原先在途结果，逐字节复制至当前31页，没有再次生成",
+  "visualCheck": "已实际view_image。三席与8张手牌AAKK9876、中央QQ、6/5张余牌、目标和提示/重来/出牌清楚；作为在途候选待协调者决定，不能代表31页已采用。",
+  "captureNote": "仅保存来源文字记录，不包含base64或重复PNG。",
+  "evidence": {
+    "hostOutputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a1772b-4166-7350-8473-50c63538bc86\\exec-62c16b60-33b6-45b6-81a4-f45fc64766a3.png",
+    "adoption": "root copied already-generated inflight source; no new generation",
+    "receipt": "designs/ui/modes/receipts/31-original-inflight-receipt.json"
+  },
+  "visualQA": {
+    "status": "passed_for_design_review",
+    "method": "actual image_gen image display inspected by root, plus view_image for recovered 31",
+    "inspectedAt": "2026-10-26T12:02:05.145468+00:00",
+    "findings": [
+      "已实际查看：三席、8张AAKK9876与中央QQ、6/5张余牌、目标及提示/重来/出牌清楚。界面美术不等于完整可解性校验。"
+    ]
+  }
+}

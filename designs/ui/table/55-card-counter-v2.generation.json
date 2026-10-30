@@ -1,0 +1,325 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/ui/table/55-card-counter-v2.png",
+  "sha256": "864a4453b820d74fca405221a18315ae44abf1fef3ac664359631b4536b6ce2a",
+  "generatedAt": "2026-10-26T04:24:43.3187899-04:00",
+  "timestampMeaning": "UI组合导出时间，不是新模型生成时间",
+  "width": 1931,
+  "height": 814,
+  "format": "PNG",
+  "tool": "System.Drawing native UI composition",
+  "route": "derived",
+  "operation": "layered-ui-composition: original native artwork + generated panel/identity skins + deterministic card components and native dynamic text, only when specified in layout",
+  "nativeArtworkResolution": {
+    "width": 1931,
+    "height": 814
+  },
+  "exportResolution": {
+    "width": 1931,
+    "height": 814
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "submittedParameters": {
+    "quality": null,
+    "model": null
+  },
+  "unverifiedReason": "本图为UI素材组合导出，未再次调用生成模型；每个生成源的实际型号质量跟随derivedFrom记录，未披露仍为null",
+  "derivedFrom": [
+    {
+      "file": "designs/ui/table/55-card-counter-v1.png",
+      "sha256": "3cb43ca313cbb669923faaf0c9f2a307fc94d97e09cc15e5e7b60f0dbb8dc08b",
+      "record": "designs/ui/table/55-card-counter-v1.generation.json",
+      "role": "原生生成整屏底图，不放大"
+    },
+    {
+      "file": "assets/ui/controls/panel.png",
+      "sha256": "8cea325f107b9dae1b16addf4d4c5b3987defc6fef98dc89d65b0108c1321d6a",
+      "record": "assets/ui/controls/panel.derivation.json",
+      "role": "手牌托盘，原生框角九宫格排版，不新增绘画细节"
+    },
+    {
+      "file": "assets/ui/cards-source/landlord.png",
+      "sha256": "3dfee5ad7d76c3b638f3cfeb0b19303ad7ef1fdcaffb4074f26fa38f7425bc93",
+      "record": "assets/ui/cards-source/landlord.derivation.json",
+      "role": "左侧长者以外的女修为地主"
+    },
+    {
+      "file": "assets/ui/cards-source/farmer.png",
+      "sha256": "5cbe5643a0150da3710b0aba32952610644235020db7ba62250a49e19652763a",
+      "record": "assets/ui/cards-source/farmer.derivation.json",
+      "role": "右侧长者为农民"
+    },
+    {
+      "file": "assets/ui/cards-source/farmer.png",
+      "sha256": "5cbe5643a0150da3710b0aba32952610644235020db7ba62250a49e19652763a",
+      "record": "assets/ui/cards-source/farmer.derivation.json",
+      "role": "自己为农民"
+    },
+    {
+      "file": "assets/ui/cards/spades-A.png",
+      "sha256": "981605aeb34fe49a9e9bb552f2aee61609f317cbfa1d986203c9350155a444ce",
+      "record": "assets/ui/cards/spades-A.derivation.json",
+      "role": "正确点数和花色的独立动态牌面层，缩小排版，不新增原生细节"
+    },
+    {
+      "file": "assets/ui/cards/hearts-K.png",
+      "sha256": "2a6cc03073e56fdf610f93f0e9a9d7587a3375d7114a4bd02fdff9a236825ae5",
+      "record": "assets/ui/cards/hearts-K.derivation.json",
+      "role": "正确点数和花色的独立动态牌面层，缩小排版，不新增原生细节"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-3.png",
+      "sha256": "8e2baa8cd4bb7e6e891083b0cec61e812d88759f4a34b5146699909da35879a8",
+      "record": "assets/ui/cards/diamonds-3.derivation.json",
+      "role": "正确点数和花色的独立动态牌面层，缩小排版，不新增原生细节"
+    }
+  ],
+  "layout": "prompts/table/55-card-counter-v2.layout.json",
+  "cardGroups": [
+    {
+      "role": "三张公开底牌（历史底牌显示不计入剩余牌额外数量）",
+      "rect": [
+        846,
+        341,
+        232,
+        95
+      ],
+      "cards": [
+        "spades-A",
+        "hearts-K",
+        "diamonds-3"
+      ],
+      "selectedIndexes": [],
+      "selectionLift": 0
+    }
+  ],
+  "textOverlays": [
+    {
+      "text": "1",
+      "rect": [
+        501,
+        250,
+        42,
+        44
+      ],
+      "font": "Georgia",
+      "size": 29,
+      "color": "#1b2b23",
+      "backgroundColor": "#f5ead4",
+      "role": "未出牌点数统计，包含自己手牌，合计48张"
+    },
+    {
+      "text": "1",
+      "rect": [
+        567,
+        250,
+        42,
+        44
+      ],
+      "font": "Georgia",
+      "size": 29,
+      "color": "#1b2b23",
+      "backgroundColor": "#f5ead4",
+      "role": "未出牌点数统计，包含自己手牌，合计48张"
+    },
+    {
+      "text": "4",
+      "rect": [
+        631,
+        250,
+        42,
+        44
+      ],
+      "font": "Georgia",
+      "size": 29,
+      "color": "#1b2b23",
+      "backgroundColor": "#f5ead4",
+      "role": "未出牌点数统计，包含自己手牌，合计48张"
+    },
+    {
+      "text": "2",
+      "rect": [
+        692,
+        250,
+        42,
+        44
+      ],
+      "font": "Georgia",
+      "size": 29,
+      "color": "#1b2b23",
+      "backgroundColor": "#f5ead4",
+      "role": "未出牌点数统计，包含自己手牌，合计48张"
+    },
+    {
+      "text": "2",
+      "rect": [
+        756,
+        250,
+        42,
+        44
+      ],
+      "font": "Georgia",
+      "size": 29,
+      "color": "#1b2b23",
+      "backgroundColor": "#f5ead4",
+      "role": "未出牌点数统计，包含自己手牌，合计48张"
+    },
+    {
+      "text": "3",
+      "rect": [
+        818,
+        250,
+        42,
+        44
+      ],
+      "font": "Georgia",
+      "size": 29,
+      "color": "#1b2b23",
+      "backgroundColor": "#f5ead4",
+      "role": "未出牌点数统计，包含自己手牌，合计48张"
+    },
+    {
+      "text": "4",
+      "rect": [
+        879,
+        250,
+        42,
+        44
+      ],
+      "font": "Georgia",
+      "size": 29,
+      "color": "#1b2b23",
+      "backgroundColor": "#f5ead4",
+      "role": "未出牌点数统计，包含自己手牌，合计48张"
+    },
+    {
+      "text": "4",
+      "rect": [
+        942,
+        250,
+        42,
+        44
+      ],
+      "font": "Georgia",
+      "size": 29,
+      "color": "#1b2b23",
+      "backgroundColor": "#f5ead4",
+      "role": "未出牌点数统计，包含自己手牌，合计48张"
+    },
+    {
+      "text": "4",
+      "rect": [
+        1006,
+        250,
+        42,
+        44
+      ],
+      "font": "Georgia",
+      "size": 29,
+      "color": "#1b2b23",
+      "backgroundColor": "#f5ead4",
+      "role": "未出牌点数统计，包含自己手牌，合计48张"
+    },
+    {
+      "text": "4",
+      "rect": [
+        1067,
+        250,
+        42,
+        44
+      ],
+      "font": "Georgia",
+      "size": 29,
+      "color": "#1b2b23",
+      "backgroundColor": "#f5ead4",
+      "role": "未出牌点数统计，包含自己手牌，合计48张"
+    },
+    {
+      "text": "4",
+      "rect": [
+        1133,
+        250,
+        42,
+        44
+      ],
+      "font": "Georgia",
+      "size": 29,
+      "color": "#1b2b23",
+      "backgroundColor": "#f5ead4",
+      "role": "未出牌点数统计，包含自己手牌，合计48张"
+    },
+    {
+      "text": "4",
+      "rect": [
+        1196,
+        250,
+        42,
+        44
+      ],
+      "font": "Georgia",
+      "size": 29,
+      "color": "#1b2b23",
+      "backgroundColor": "#f5ead4",
+      "role": "未出牌点数统计，包含自己手牌，合计48张"
+    },
+    {
+      "text": "4",
+      "rect": [
+        1257,
+        250,
+        42,
+        44
+      ],
+      "font": "Georgia",
+      "size": 29,
+      "color": "#1b2b23",
+      "backgroundColor": "#f5ead4",
+      "role": "未出牌点数统计，包含自己手牌，合计48张"
+    },
+    {
+      "text": "4",
+      "rect": [
+        1320,
+        250,
+        42,
+        44
+      ],
+      "font": "Georgia",
+      "size": 29,
+      "color": "#1b2b23",
+      "backgroundColor": "#f5ead4",
+      "role": "未出牌点数统计，包含自己手牌，合计48张"
+    },
+    {
+      "text": "3",
+      "rect": [
+        1383,
+        250,
+        42,
+        44
+      ],
+      "font": "Georgia",
+      "size": 29,
+      "color": "#1b2b23",
+      "backgroundColor": "#f5ead4",
+      "role": "未出牌点数统计，包含自己手牌，合计48张"
+    },
+    {
+      "text": "未出牌 48 张（含自己）",
+      "rect": [
+        1120,
+        326,
+        280,
+        30
+      ],
+      "size": 18,
+      "color": "#173f35",
+      "role": "记牌器统计口径"
+    }
+  ],
+  "visualReview": {
+    "note": "已看图：15列点数数量、三张公开底牌、三席身份与倍率明细清楚。独立动态数字层定义未出牌含自己，计数和为48，与当前14张手牌和两位各17张标签一致；单点0–4、大小王0–1。完整历史合法性仍需运行态验证。",
+    "status": "design_ready_user_review"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/runtime-scenes-20261026/fx-sheet-a.png",
+  "sha256": "81581f74fcbdfa2cc468f75a9ad9da7a655b4d5ccd3765613391092b1ecd8e11",
+  "generatedAt": "2026-10-26 18:25:13 UTC",
+  "generatedAtEvidence": "host tool return completion UTC proxy, not model internal timestamp",
+  "recordedAt": "2026-10-26T18:25:13.392120+00:00",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "nativeResolution": {
+    "width": 1536,
+    "height": 1024
+  },
+  "exportOperation": "byte-identical-copy-no-resize",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "kind": "sheet",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/doudizhu-image/references/style/01-mail-event.png",
+      "D:/work/doudizhu-image/references/style/team-ui-v2.png",
+      "D:/work/doudizhu-image/designs/ui/core/02-lobby-v1.png",
+      "D:/work/doudizhu-image/designs/ui/table/14-play-turn-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据；配置目标不是实际分支和质量证据",
+  "prompt": "prompts/runtime-scenes/fx-sheet-a.txt",
+  "promptSha256": "e4d8c046dff0c1635b88c1c73eede8b9ace89e2a7be3ae9ff1c06dc1bcb2121a",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "actual reference input, first two primary style authority"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "actual reference input, first two primary style authority"
+    },
+    {
+      "file": "designs/ui/core/02-lobby-v1.png",
+      "sha256": "86f5e2879b919fcf8e81b3930ee8b3771a3ebc1bf8d614b687b673ad4c6f5bd6",
+      "role": "actual reference input, first two primary style authority"
+    },
+    {
+      "file": "designs/ui/table/14-play-turn-v2.png",
+      "sha256": "7977cb5f4b90af7f5f9108f4cd820681edff0d0f534960bb688699b24edb3728",
+      "role": "actual reference input, first two primary style authority"
+    }
+  ],
+  "evidence": {
+    "receipt": "designs/runtime-scenes-20261026/fx-sheet-a.receipt.json",
+    "hostOutputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a1772b-022e-7852-8cd0-9c61c117e140\\exec-53371b73-ea52-440c-b532-c89b91a46d2a.png",
+    "toolReturnedKeys": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "alphaQA": {
+    "mode": "RGBA",
+    "width": 1536,
+    "height": 1024,
+    "alphaMin": 0,
+    "alphaMax": 253,
+    "transparentPixelFraction": 0.33702850341796875,
+    "softAlphaPixelFraction": 0.6629714965820312,
+    "opaquePixelFraction": 0.0,
+    "visibleBBox": [
+      0,
+      0,
+      1536,
+      1024
+    ],
+    "edgeVisiblePixelCount": 0,
+    "expectedTransparent": true,
+    "isRealRGBAWithTransparency": true,
+    "status": "passed"
+  },
+  "visualReview": {
+    "status": "source_in_use_with_qa_notes",
+    "note": "原生透明sheet已查看；原始检查告警/跨格见QA目录，运行时采用全部组件归属切片，不直接按固定格裁掉越界部分。"
+  }
+}

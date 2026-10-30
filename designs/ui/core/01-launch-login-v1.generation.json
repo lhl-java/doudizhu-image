@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/ui/core/01-launch-login-v1.png",
+  "absolutePath": "D:\\work\\doudizhu-image\\designs\\ui\\core\\01-launch-login-v1.png",
+  "sha256": "f3c4de0c983dc567de89ea2e91dda4c98ac922bc0d7ba8d7ad490753037ac3b1",
+  "generatedAt": "2026-10-26T03:47:53-04:00",
+  "generatedAtEvidence": {
+    "isProxy": true,
+    "source": "caller-provided-response-received-at",
+    "explanation": "以调用方提供的工具返回接收时间代理生成完成时间；不是模型内部生成时间。"
+  },
+  "recordedAt": "2026-10-26T03:50:01.1257375-04:00",
+  "startedAtUtc": "2026-10-26T03:46:54-04:00",
+  "finishedAtUtc": "2026-10-26T03:47:53-04:00",
+  "width": 1931,
+  "height": 814,
+  "format": "PNG",
+  "nativeResolution": {
+    "width": 1931,
+    "height": 814
+  },
+  "exportResolution": {
+    "width": 1931,
+    "height": 814,
+    "operation": "byte-identical-copy-of-generated-output-no-resize-or-redraw"
+  },
+  "requestedResolution": {
+    "width": 2560,
+    "height": 1080,
+    "note": "提示词中的尺寸目标；内置工具无独立尺寸选择参数，实际尺寸以上方实测值为准。"
+  },
+  "transparency": {
+    "requestedTransparentBackground": false,
+    "sourcePixelFormat": "Format24bppRgb",
+    "hasAlphaChannel": false,
+    "hasNonOpaquePixels": false,
+    "fullyOpaque": true,
+    "inspectionMethod": "source-format-reports-no-alpha"
+  },
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "callId": null,
+  "resultId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\doudizhu-image\\designs\\ui\\lobby-ui-v1.png",
+      "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png"
+    ],
+    "prompt": "Use case: ui-mockup\nAsset type: 道家Q版高清手绘斗地主手游的一张独立完整横屏UI概念设计，2.37:1，目标2560×1080。画面为平直正视的游戏界面，无设备外壳。\nInput images: 图1邮件、图2组队是首要风格参考：深玉绿标题及按钮、暖米白纸绢、暖金细边、圆润如意云纹、精致可读中文。图3是本项目大厅首稿，只承接仙山庭院、道童形象、材质与控件比例，不复用错误的手持牌花色；图4为本项目三人角色首稿，保持人物五官发饰及服装同源。功能布局按以下新页面重做。\nStyle: 与参考一致的细腻二维手绘金玉与纸绢质感，柔和体积、清楚边缘。山水庭院背景低对比，主面板米白，标题与主按钮玉绿金边。金饰点到为止，文字区域留白充分，所有中文清晰对齐，安全边距3%。头像角色差异明确。\nConstraints: 只生成这一页和指定主状态。禁止多屏拼图、缩略页面、分镜、英文设计说明、水印、旧游戏名、腾讯品牌标志或额外品牌、写实人像、塑料玩具效果、噪点、模糊拉伸。所有元素完整在画内，人物不遮按钮和文字。使用原生细节，不要伪装放大效果。背景不透明。状态标记保存在外部文件，不在画面上印“首稿”等审阅文字。\nPage ID: 01-launch-login\nRendered state: 默认未勾选协议\n页面：启动登录。整个页面以明亮仙山庭院为背景，中央上方是一块玉绿金边标题“斗地主”，下方留出通透空间。左半区域三位Q版人物构成友好的小组欢迎姿态，男道童在前、女修及白须长者稍后，完整露出头饰与鞋子，不能挡登录操作；右半区域是一块素雅米白纸绢登录卡，卡片标题“欢迎道友”。中部两个大小相等的纵向按钮“微信登录”“QQ登录”，用简洁中性图标，不临摹品牌logo；主次绿色略有区分但均清楚。卡片底部一个空心未勾选复选框，紧随文案“我已阅读并同意”，下一行可点击文字“用户协议”和“隐私政策”。右上角小圆按钮“设置”，左下角小图标“切换账号”。只写这些文字，无用户账号数据。默认状态是协议未勾选，不添加错误弹窗或加载遮罩。"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据。当前内置 image_gen.imagegen 接口没有 model、quality 选择器，配置只表示用户目标；不能据此声称实际锁定 GPT Image 2.5 Sunburst 或 max。未检查或验证 C2PA。",
+  "prompt": "prompts/core/01-launch-login-v1.txt",
+  "promptSha256": "5d1333872efe0bb20fa7232a00c2437dd7ee994b6782e7b05e3634af1854dde3",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "邮件界面：面板、按钮、配色、材质、人物完成度",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": "references/style/manifest.json",
+      "manifestSha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "manifestHashMatched": true
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "组队界面：控件层级、留白、列表、头像与按钮状态",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": "references/style/manifest.json",
+      "manifestSha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "manifestHashMatched": true
+    },
+    {
+      "file": "designs/ui/lobby-ui-v1.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\designs\\ui\\lobby-ui-v1.png",
+      "sha256": "6fb7c972b11f32d0454b32e38a85d50cf571205201e257638c29ee9eeedb8e3b",
+      "role": "本项目初版支持参考：人物、材质、布局同源；尚未获用户批准",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": null,
+      "manifestSha256": null,
+      "manifestHashMatched": null
+    },
+    {
+      "file": "designs/characters/characters-trio-v1.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png",
+      "sha256": "0c4dda70d4e16715527ed243a8d3efc2a401be2f06326b49601d1b184e7165ac",
+      "role": "本项目初版支持参考：人物、材质、布局同源；尚未获用户批准",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": null,
+      "manifestSha256": null,
+      "manifestHashMatched": null
+    }
+  ],
+  "evidence": {
+    "receipt": "designs/ui/core/.production/receipts/01-launch-login-v1.receipt.json",
+    "receiptSha256": "81eb16d2219f0d2abb00ef9820fd80bfd83c7ecb0d007d8c91fdf269c27b1893",
+    "returnedEvidence": {
+      "tool": "image_gen.imagegen",
+      "route": "builtin",
+      "invocationId": null,
+      "toolReturnKeys": [
+        "image_url",
+        "output_hint"
+      ],
+      "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1771a-2c53-7da1-9217-2d5e42c4d85e as C:\\Users\\luyua\\.codex\\generated_images\\01a1771a-2c53-7da1-9217-2d5e42c4d85e\\exec-9efe5657-30c7-45ce-84aa-fa8cd2f5d42c.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "hostOutputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a1771a-2c53-7da1-9217-2d5e42c4d85e\\exec-9efe5657-30c7-45ce-84aa-fa8cd2f5d42c.png",
+      "hostOutputFilenameIdentifier": "exec-9efe5657-30c7-45ce-84aa-fa8cd2f5d42c",
+      "identifierMeaning": "宿主输出文件名标识，不冒认为模型调用ID",
+      "imagePayload": {
+        "field": "image_url",
+        "omittedFromReceipt": true,
+        "reason": "原始PNG另存且计算哈希"
+      },
+      "toolReturnedModel": null,
+      "toolReturnedQuality": null,
+      "submittedArguments": {
+        "prompt": "Use case: ui-mockup\nAsset type: 道家Q版高清手绘斗地主手游的一张独立完整横屏UI概念设计，2.37:1，目标2560×1080。画面为平直正视的游戏界面，无设备外壳。\nInput images: 图1邮件、图2组队是首要风格参考：深玉绿标题及按钮、暖米白纸绢、暖金细边、圆润如意云纹、精致可读中文。图3是本项目大厅首稿，只承接仙山庭院、道童形象、材质与控件比例，不复用错误的手持牌花色；图4为本项目三人角色首稿，保持人物五官发饰及服装同源。功能布局按以下新页面重做。\nStyle: 与参考一致的细腻二维手绘金玉与纸绢质感，柔和体积、清楚边缘。山水庭院背景低对比，主面板米白，标题与主按钮玉绿金边。金饰点到为止，文字区域留白充分，所有中文清晰对齐，安全边距3%。头像角色差异明确。\nConstraints: 只生成这一页和指定主状态。禁止多屏拼图、缩略页面、分镜、英文设计说明、水印、旧游戏名、腾讯品牌标志或额外品牌、写实人像、塑料玩具效果、噪点、模糊拉伸。所有元素完整在画内，人物不遮按钮和文字。使用原生细节，不要伪装放大效果。背景不透明。状态标记保存在外部文件，不在画面上印“首稿”等审阅文字。\nPage ID: 01-launch-login\nRendered state: 默认未勾选协议\n页面：启动登录。整个页面以明亮仙山庭院为背景，中央上方是一块玉绿金边标题“斗地主”，下方留出通透空间。左半区域三位Q版人物构成友好的小组欢迎姿态，男道童在前、女修及白须长者稍后，完整露出头饰与鞋子，不能挡登录操作；右半区域是一块素雅米白纸绢登录卡，卡片标题“欢迎道友”。中部两个大小相等的纵向按钮“微信登录”“QQ登录”，用简洁中性图标，不临摹品牌logo；主次绿色略有区分但均清楚。卡片底部一个空心未勾选复选框，紧随文案“我已阅读并同意”，下一行可点击文字“用户协议”和“隐私政策”。右上角小圆按钮“设置”，左下角小图标“切换账号”。只写这些文字，无用户账号数据。默认状态是协议未勾选，不添加错误弹窗或加载遮罩。",
+        "referenced_image_paths": [
+          "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+          "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+          "D:\\work\\doudizhu-image\\designs\\ui\\lobby-ui-v1.png",
+          "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png"
+        ],
+        "transparent_background": false
+      },
+      "receivedAtUtc": "2026-10-26 07:47:53 UTC"
+    },
+    "metadataInspection": "System.Drawing 只读检查实际尺寸、格式和透明度；未验证 C2PA，未从配置推断实际模型或质量。",
+    "rawFormatGuid": "b96b3caf-0728-11d3-9d7b-0000f81ef32e"
+  },
+  "status": "design_ready_user_review",
+  "visualQA": {
+    "userApproval": false,
+    "blockingIssues": [],
+    "inspectedAt": "2026-10-26T11:24:53.858275+00:00",
+    "image": "designs/ui/core/01-launch-login-v1.png",
+    "reviewer": "core_qa",
+    "status": "passed_for_design_review",
+    "method": "view_image",
+    "findings": [
+      {
+        "severity": "pass",
+        "detail": "玉绿标题/按钮、米白纸绢卡、暖金云纹与参考一致；三人物完整，登录卡独立，人物不遮文字及操作。",
+        "subject": "风格与构图"
+      },
+      {
+        "severity": "pass",
+        "detail": "斗地主、欢迎道友、微信登录、QQ登录、未勾选协议框、用户协议、隐私政策、切换账号、设置均实际可见且可读。",
+        "subject": "范围与文案"
+      },
+      {
+        "severity": "note",
+        "detail": "提示词要求中性登录图标；成图采用双对话气泡及企鹅轮廓，具有平台识别性。仅作为视觉设计示意，不代表已获得图标授权或已完成平台接入；不阻断本轮美术评审。",
+        "subject": "图标与提示词差异"
+      },
+      {
+        "severity": "pass",
+        "subject": "本轮逐张复核",
+        "detail": "实际可见欢迎道友、微信登录、QQ登录、未勾选协议、用户协议/隐私政策、切换账号和设置；三位角色完整不遮登录区。"
+      },
+      {
+        "severity": "note",
+        "subject": "状态覆盖",
+        "detail": "必需状态4项：主图可见2，共享视觉与原生文案设计2，仅说明0。共享态未另画整页，实际功能尚未接入。"
+      }
+    ],
+    "imageSha256": "f3c4de0c983dc567de89ea2e91dda4c98ac922bc0d7ba8d7ad490753037ac3b1",
+    "previousInspection": {
+      "reviewer": "art_review",
+      "inspectedAt": "2026-10-26T03:52:04.2198649-04:00",
+      "status": "passed_for_design_review"
+    }
+  },
+  "userApproval": false
+}

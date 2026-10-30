@@ -1,0 +1,86 @@
+{
+  "file": "designs/characters/costume-poses-20261029/moon-win-v1.png",
+  "sha256": "f7d4728630e3b69af708b1bbab360373f768d0320692e20a5480c9ee1f83d574",
+  "generatedAt": "2026-10-30T03:51:06.216876+00:00",
+  "generatedAtEvidence": "recorded after host return",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "pixelMode": "RGBA",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "significantAlphaBBox": [
+    110,
+    29,
+    1189,
+    1233
+  ],
+  "edgeAlphaMax": 1,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\doudizhu-image\\assets\\characters\\daotong\\costumes\\moon.png",
+      "D:\\work\\doudizhu-image\\assets\\characters\\daotong\\win.png",
+      "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据",
+  "prompt": "prompts/characters-runtime/moon-win-v1.txt",
+  "promptSha256": "4978c0c5d229b160420fde41540db444aaab318f2d36b9907b345dac52767b8e",
+  "references": [
+    {
+      "file": "assets/characters/daotong/costumes/moon.png",
+      "sha256": "422d2320b6d2c4420a098c1f99efe51d5ff0456adf059b7c5b2052dc8f50fd27",
+      "role": "costume identity master"
+    },
+    {
+      "file": "assets/characters/daotong/win.png",
+      "sha256": "43c5d7885ff60d7189961d0f4325e48c7a4a3d6ee7711ff2e552c2256cdad179",
+      "role": "base action pose"
+    },
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "primary style"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "primary style"
+    }
+  ],
+  "evidence": {
+    "hostOutputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a17714-4402-7063-9782-93f78261cb48\\exec-14962749-24a7-46b1-a152-9690ae3515bd.png",
+    "toolReturnedKeys": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "visualReview": {
+    "status": "candidate_needs_runtime_registration_and_user_review",
+    "note": "Independently generated full-body still; not continuous animation. Must check scale and transparent borders before runtime adoption."
+  }
+}

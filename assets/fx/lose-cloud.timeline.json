@@ -1,0 +1,61 @@
+{
+  "durationMs": 1100,
+  "loop": false,
+  "blend": "normal",
+  "event": "round_loss",
+  "keyframes": [
+    {
+      "atMs": 0,
+      "alpha": 0,
+      "scale": 0.7,
+      "x": -0.04,
+      "y": 0,
+      "rotation": 0
+    },
+    {
+      "atMs": 180,
+      "alpha": 0.7,
+      "scale": 0.92,
+      "x": 0,
+      "y": 0,
+      "rotation": 0
+    },
+    {
+      "atMs": 650,
+      "alpha": 0.55,
+      "scale": 1,
+      "x": 0.05,
+      "y": -0.02,
+      "rotation": 0
+    },
+    {
+      "atMs": 1100,
+      "alpha": 0,
+      "scale": 1.08,
+      "x": 0.11,
+      "y": -0.05,
+      "rotation": 0
+    }
+  ],
+  "interpolation": "linear",
+  "translationUnit": "fraction-of-384px-frame",
+  "stopEvent": null,
+  "kind": "fx",
+  "anchor": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "id": "lose-cloud",
+  "file": "assets/fx/lose-cloud.png",
+  "record": "assets/fx/lose-cloud.png.generation.json",
+  "width": 512,
+  "height": 512,
+  "z": 80,
+  "sourceNativeCell": {
+    "width": 512,
+    "height": 512
+  },
+  "staticSource": true,
+  "animationSource": "runtime transforms of generated static illustration, not AI video",
+  "maxDisplaySize": 384
+}

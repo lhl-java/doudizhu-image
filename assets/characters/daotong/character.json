@@ -1,0 +1,191 @@
+{
+  "id": "daotong",
+  "name": "玉绿道童",
+  "art_source": "host_image",
+  "canvas": [
+    1024,
+    1024
+  ],
+  "anchor": [
+    512,
+    920
+  ],
+  "recommendedDisplayHeight": 520,
+  "faceDisplayHeight": 128,
+  "poses": {
+    "master": "assets/characters/daotong/master.png",
+    "win": "assets/characters/daotong/win.png",
+    "lose": "assets/characters/daotong/lose.png"
+  },
+  "expressions": {
+    "calm": "assets/characters/daotong/expressions/calm.png",
+    "smile": "assets/characters/daotong/expressions/smile.png",
+    "laugh": "assets/characters/daotong/expressions/laugh.png",
+    "thinking": "assets/characters/daotong/expressions/thinking.png",
+    "surprise": "assets/characters/daotong/expressions/surprise.png",
+    "smug": "assets/characters/daotong/expressions/smug.png",
+    "sad": "assets/characters/daotong/expressions/sad.png",
+    "angry": "assets/characters/daotong/expressions/angry.png"
+  },
+  "sourceToRuntimeScale": 0.6739679865206403,
+  "portraitScale": 0.5818181818181818,
+  "status": "asset_ready_user_review",
+  "animationBoundary": "Three independent still poses; root runtime authors 2D UI keyframe transforms and pose switches. Not image-to-video, skeletal full-body animation or generated in-between frames.",
+  "costumes": [
+    {
+      "id": "daotong_base",
+      "name": "青云衣",
+      "file": "assets/characters/daotong/master.png",
+      "record": "assets/characters/daotong/master.derivation.json"
+    },
+    {
+      "id": "daotong_spring",
+      "name": "桃花春衣",
+      "file": "assets/characters/daotong/costumes/spring.png",
+      "record": "assets/characters/daotong/costumes/spring.derivation.json",
+      "characterId": "daotong",
+      "anchor": [
+        512,
+        920
+      ],
+      "width": 1024,
+      "height": 1024,
+      "animationPolicy": "Resolve master/win/lose to this costume own independent PNGs; timeline is 2D pose-switch motion, not articulated animation.",
+      "poses": {
+        "master": "assets/characters/daotong/costumes/spring.png",
+        "win": "assets/characters/daotong/costumes/spring-poses/win.png",
+        "lose": "assets/characters/daotong/costumes/spring-poses/lose.png"
+      },
+      "poseRecords": {
+        "master": "assets/characters/daotong/costumes/spring.derivation.json",
+        "win": "assets/characters/daotong/costumes/spring-poses/win.derivation.json",
+        "lose": "assets/characters/daotong/costumes/spring-poses/lose.derivation.json"
+      }
+    },
+    {
+      "id": "daotong_ink",
+      "name": "暮色墨衣",
+      "file": "assets/characters/daotong/costumes/ink.png",
+      "record": "assets/characters/daotong/costumes/ink.derivation.json",
+      "characterId": "daotong",
+      "anchor": [
+        512,
+        920
+      ],
+      "width": 1024,
+      "height": 1024,
+      "animationPolicy": "Resolve master/win/lose to this costume own independent PNGs; timeline is 2D pose-switch motion, not articulated animation.",
+      "poses": {
+        "master": "assets/characters/daotong/costumes/ink.png",
+        "win": "assets/characters/daotong/costumes/ink-poses/win.png",
+        "lose": "assets/characters/daotong/costumes/ink-poses/lose.png"
+      },
+      "poseRecords": {
+        "master": "assets/characters/daotong/costumes/ink.derivation.json",
+        "win": "assets/characters/daotong/costumes/ink-poses/win.derivation.json",
+        "lose": "assets/characters/daotong/costumes/ink-poses/lose.derivation.json"
+      }
+    },
+    {
+      "id": "daotong_moon",
+      "name": "桂月金衣",
+      "file": "assets/characters/daotong/costumes/moon.png",
+      "record": "assets/characters/daotong/costumes/moon.derivation.json",
+      "characterId": "daotong",
+      "anchor": [
+        512,
+        920
+      ],
+      "width": 1024,
+      "height": 1024,
+      "animationPolicy": "Resolve master/win/lose to this costume own independent PNGs; timeline is 2D pose-switch motion, not articulated animation.",
+      "poses": {
+        "master": "assets/characters/daotong/costumes/moon.png",
+        "win": "assets/characters/daotong/costumes/moon-poses/win.png",
+        "lose": "assets/characters/daotong/costumes/moon-poses/lose.png"
+      },
+      "poseRecords": {
+        "master": "assets/characters/daotong/costumes/moon.derivation.json",
+        "win": "assets/characters/daotong/costumes/moon-poses/win.derivation.json",
+        "lose": "assets/characters/daotong/costumes/moon-poses/lose.derivation.json"
+      }
+    },
+    {
+      "id": "daotong_snow",
+      "name": "雪色白衣",
+      "file": "assets/characters/daotong/costumes/snow.png",
+      "record": "assets/characters/daotong/costumes/snow.derivation.json",
+      "characterId": "daotong",
+      "anchor": [
+        512,
+        920
+      ],
+      "width": 1024,
+      "height": 1024,
+      "animationPolicy": "Resolve master/win/lose to this costume own independent PNGs; timeline is 2D pose-switch motion, not articulated animation.",
+      "poses": {
+        "master": "assets/characters/daotong/costumes/snow.png",
+        "win": "assets/characters/daotong/costumes/snow-poses/win.png",
+        "lose": "assets/characters/daotong/costumes/snow-poses/lose.png"
+      },
+      "poseRecords": {
+        "master": "assets/characters/daotong/costumes/snow.derivation.json",
+        "win": "assets/characters/daotong/costumes/snow-poses/win.derivation.json",
+        "lose": "assets/characters/daotong/costumes/snow-poses/lose.derivation.json"
+      }
+    },
+    {
+      "id": "daotong_festival",
+      "name": "庆典红衣",
+      "file": "assets/characters/daotong/costumes/festival.png",
+      "record": "assets/characters/daotong/costumes/festival.derivation.json",
+      "characterId": "daotong",
+      "anchor": [
+        512,
+        920
+      ],
+      "width": 1024,
+      "height": 1024,
+      "animationPolicy": "Resolve master/win/lose to this costume own independent PNGs; timeline is 2D pose-switch motion, not articulated animation.",
+      "poses": {
+        "master": "assets/characters/daotong/costumes/festival.png",
+        "win": "assets/characters/daotong/costumes/festival-poses/win.png",
+        "lose": "assets/characters/daotong/costumes/festival-poses/lose.png"
+      },
+      "poseRecords": {
+        "master": "assets/characters/daotong/costumes/festival.derivation.json",
+        "win": "assets/characters/daotong/costumes/festival-poses/win.derivation.json",
+        "lose": "assets/characters/daotong/costumes/festival-poses/lose.derivation.json"
+      }
+    }
+  ],
+  "identity": {
+    "name": "玉绿道童",
+    "recognition": [
+      "短棕色刺发",
+      "金色云纹发带与飘带",
+      "大眼短身男孩",
+      "青绿金边短道袍、象牙白袖裤",
+      "腰间金色太极葫芦与红穗",
+      "手持玉绿背扑克牌"
+    ],
+    "baseCostume": "青云衣"
+  },
+  "expressionLabels": {
+    "calm": "平静",
+    "smile": "微笑",
+    "laugh": "大笑",
+    "thinking": "思考",
+    "surprise": "惊讶",
+    "smug": "得意",
+    "sad": "难过",
+    "angry": "生气"
+  },
+  "nativeSources": {
+    "master": "designs/characters/runtime-20261026/daotong-master-v1.png",
+    "win": "designs/characters/runtime-20261026/daotong-win-v1.png",
+    "lose": "designs/characters/runtime-20261026/daotong-lose-v1.png",
+    "expressions": "designs/characters/runtime-20261026/daotong-expressions-v2.png"
+  },
+  "registration": "Each source uses its significant-alpha horizontal centre and bottom as the source foot anchor; one fixed downscale per character. Exact sourceRect, sourceAnchor, scale and offset are in each derivation record."
+}

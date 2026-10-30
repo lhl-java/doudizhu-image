@@ -1,0 +1,475 @@
+{
+  "schemaVersion": 2,
+  "pageId": "09-room-waiting",
+  "title": "好友房等待",
+  "scopeSource": "docs/UI_SCOPE.json",
+  "scopeControls": [
+    "三座席",
+    "房号",
+    "邀请",
+    "准备",
+    "房主开始",
+    "离开"
+  ],
+  "requiredStates": [
+    "空座",
+    "未准备",
+    "已准备",
+    "房主"
+  ],
+  "status": "design_ready_user_review",
+  "renderedState": {
+    "status": "design_ready_user_review",
+    "coverage": "rendered",
+    "description": "两人已准备、一空位、房主可辨",
+    "plannedRequiredStates": [
+      "空座",
+      "已准备",
+      "房主"
+    ],
+    "image": "designs/ui/core/09-room-waiting-v1.png",
+    "generation": "designs/ui/core/09-room-waiting-v1.generation.json",
+    "actualRequiredStates": [
+      "空座",
+      "已准备",
+      "房主"
+    ]
+  },
+  "expectedOutput": "designs/ui/core/09-room-waiting-v1.png",
+  "expectedGeneration": "designs/ui/core/09-room-waiting-v1.generation.json",
+  "states": [
+    {
+      "name": "空座",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/09-room-waiting-v1.png",
+      "copy": [
+        "等待牌友",
+        "邀请好友",
+        "房间号 120816"
+      ],
+      "behavior": [
+        "三座席中保留一空位，以邀请入口承接好友页。"
+      ],
+      "disabledReasons": [
+        "未满3人时房主开始按钮禁用。"
+      ],
+      "dependencies": [],
+      "evidence": {
+        "note": "右侧第3张卡显示加号、空闲座位及邀请好友按钮。",
+        "inspectedAt": "2026-10-26T11:24:53.858275+00:00",
+        "imageSha256": "43dad2058f52739f80bf7ebf5273e7317cda4b563e0f7fbc49ccde20f11c868a",
+        "method": "view_image",
+        "reviewer": "core_qa"
+      },
+      "actualCopy": [
+        "空闲座位",
+        "邀请好友",
+        "等待第三位道友加入"
+      ]
+    },
+    {
+      "name": "未准备",
+      "coverage": "shared_component",
+      "status": "design_ready_user_review",
+      "image": null,
+      "copy": [
+        "未准备",
+        "准备"
+      ],
+      "behavior": [
+        "已入座但未准备的玩家显示未准备，本人可点击准备。"
+      ],
+      "disabledReasons": [
+        "尚有玩家未准备时不能开始。"
+      ],
+      "dependencies": [
+        {
+          "output": "designs/ui/components/51-common-components-v1.png",
+          "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+          "stateSpec": "designs/ui/components/51-common-components.states.json",
+          "generation": "designs/ui/components/51-common-components-v1.generation.json",
+          "verificationStatus": "file_record_and_visual_verified",
+          "locator": "第2行第1项米白默认按钮作为未准备状态底，第1行第1项玉绿默认按钮作为准备操作",
+          "verifiedFiles": true,
+          "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+          "pageId": "51-common-components",
+          "method": "view_image and SHA256 comparison"
+        },
+        {
+          "note": "复用已画房间席位布局；该图中的已准备不是未准备态证据。",
+          "output": "designs/ui/core/09-room-waiting-v1.png",
+          "pageId": "09-room-waiting",
+          "verificationStatus": "file_record_and_visual_verified",
+          "sha256": "43dad2058f52739f80bf7ebf5273e7317cda4b563e0f7fbc49ccde20f11c868a",
+          "verifiedFiles": true,
+          "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+          "method": "view_image and SHA256 comparison"
+        },
+        {
+          "output": "assets/ui/controls/secondary-normal.png",
+          "sha256": "9ba4a890ce8dc82f27a3468a1b8aad4586920da8111a35bc63ad1b801c93bd3d",
+          "derivation": "assets/ui/controls/secondary-normal.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "secondary-normal transparent native control"
+        },
+        {
+          "output": "assets/ui/controls/primary-normal.png",
+          "sha256": "a2aa9afff3b9ef559a23ddef8d1b991691c09a609b7ea96b453c56c586b5f021",
+          "derivation": "assets/ui/controls/primary-normal.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "primary-normal transparent native control"
+        },
+        {
+          "output": "assets/ui/controls/primary-disabled.png",
+          "sha256": "50eefaee2e8cdca171361b6c861eadb2ad1b664b772261f0c68690cb94b36490",
+          "derivation": "assets/ui/controls/primary-disabled.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "primary-disabled transparent native control"
+        }
+      ],
+      "evidence": {
+        "method": "verified_shared_component_reuse",
+        "reviewer": "core_qa",
+        "inspectedAt": "2026-10-26T11:24:53.858275+00:00",
+        "standaloneFullPageRendered": false,
+        "implementationStatus": "design_only_not_implemented",
+        "nativeTextAndDataReplacements": {
+          "startDisabledReason": "等待所有玩家准备",
+          "selfAction": "准备",
+          "seatStatus": "未准备"
+        },
+        "note": "实际查看并核验共享图板、指定控件和主页面，定义原生文字/数据替换及行为；未另行合成整屏。"
+      },
+      "reusePlan": {
+        "method": "verified_shared_component_reuse",
+        "inspectedAt": "2026-10-26T11:24:53.858275+00:00",
+        "note": "以51米白状态底替换已准备绿勾状态，叠加原生未准备文字；准备按钮使用51正常主按钮。只是共享皮肤规范，未另画整页或实现交互。",
+        "standaloneFullPageRendered": false,
+        "nativeTextAndDataReplacements": {
+          "startDisabledReason": "等待所有玩家准备",
+          "selfAction": "准备",
+          "seatStatus": "未准备"
+        },
+        "sources": [
+          {
+            "output": "designs/ui/components/51-common-components-v1.png",
+            "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+            "stateSpec": "designs/ui/components/51-common-components.states.json",
+            "generation": "designs/ui/components/51-common-components-v1.generation.json",
+            "verificationStatus": "file_record_and_visual_verified",
+            "locator": "第2行第1项米白默认按钮作为未准备状态底，第1行第1项玉绿默认按钮作为准备操作",
+            "verifiedFiles": true,
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "pageId": "51-common-components",
+            "method": "view_image and SHA256 comparison"
+          },
+          {
+            "note": "复用已画房间席位布局；该图中的已准备不是未准备态证据。",
+            "output": "designs/ui/core/09-room-waiting-v1.png",
+            "pageId": "09-room-waiting",
+            "verificationStatus": "file_record_and_visual_verified",
+            "sha256": "43dad2058f52739f80bf7ebf5273e7317cda4b563e0f7fbc49ccde20f11c868a",
+            "verifiedFiles": true,
+            "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+            "method": "view_image and SHA256 comparison"
+          },
+          {
+            "output": "assets/ui/controls/secondary-normal.png",
+            "sha256": "9ba4a890ce8dc82f27a3468a1b8aad4586920da8111a35bc63ad1b801c93bd3d",
+            "derivation": "assets/ui/controls/secondary-normal.derivation.json",
+            "derivedFrom": {
+              "file": "designs/ui/components/51-common-components-v1.png",
+              "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+              "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+            },
+            "verifiedFiles": true,
+            "verificationStatus": "file_record_and_visual_verified",
+            "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+            "method": "view_image and SHA256 comparison",
+            "locator": "secondary-normal transparent native control"
+          },
+          {
+            "output": "assets/ui/controls/primary-normal.png",
+            "sha256": "a2aa9afff3b9ef559a23ddef8d1b991691c09a609b7ea96b453c56c586b5f021",
+            "derivation": "assets/ui/controls/primary-normal.derivation.json",
+            "derivedFrom": {
+              "file": "designs/ui/components/51-common-components-v1.png",
+              "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+              "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+            },
+            "verifiedFiles": true,
+            "verificationStatus": "file_record_and_visual_verified",
+            "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+            "method": "view_image and SHA256 comparison",
+            "locator": "primary-normal transparent native control"
+          },
+          {
+            "output": "assets/ui/controls/primary-disabled.png",
+            "sha256": "50eefaee2e8cdca171361b6c861eadb2ad1b664b772261f0c68690cb94b36490",
+            "derivation": "assets/ui/controls/primary-disabled.derivation.json",
+            "derivedFrom": {
+              "file": "designs/ui/components/51-common-components-v1.png",
+              "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+              "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+            },
+            "verifiedFiles": true,
+            "verificationStatus": "file_record_and_visual_verified",
+            "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+            "method": "view_image and SHA256 comparison",
+            "locator": "primary-disabled transparent native control"
+          }
+        ],
+        "compositedPreviewProduced": false,
+        "implementationStatus": "design_only_not_implemented",
+        "actions": {
+          "准备": "本人席位转为已准备，按钮改取消准备。",
+          "开始游戏": "任一入座玩家未准备时禁用，原因显示等待所有玩家准备。"
+        },
+        "layout": {
+          "placement": "原席位底部状态条和底部本人操作位置",
+          "seatStatusSkin": "assets/ui/controls/secondary-normal.png",
+          "selfActionSkin": "assets/ui/controls/primary-normal.png",
+          "startSkin": "assets/ui/controls/primary-disabled.png",
+          "remove": [
+            "已准备绿勾"
+          ],
+          "textStyle": "未准备用深玉绿原生正文；开始禁用原因置于按钮下方"
+        }
+      }
+    },
+    {
+      "name": "已准备",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/09-room-waiting-v1.png",
+      "copy": [
+        "已准备",
+        "取消准备"
+      ],
+      "behavior": [
+        "已准备玩家显示状态；是否允许取消准备由房间规则确定。"
+      ],
+      "disabledReasons": [],
+      "dependencies": [],
+      "evidence": {
+        "note": "道友和花间客两席均有绿色勾号与已准备文字，底部取消准备可见。",
+        "inspectedAt": "2026-10-26T11:24:53.858275+00:00",
+        "imageSha256": "43dad2058f52739f80bf7ebf5273e7317cda4b563e0f7fbc49ccde20f11c868a",
+        "method": "view_image",
+        "reviewer": "core_qa"
+      },
+      "actualCopy": [
+        "道友",
+        "花间客",
+        "已准备",
+        "取消准备"
+      ]
+    },
+    {
+      "name": "房主",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/09-room-waiting-v1.png",
+      "copy": [
+        "房主",
+        "开始游戏",
+        "离开房间"
+      ],
+      "behavior": [
+        "房主身份与对局地主身份区分；只有房主可操作开始，且需满足人数和准备条件。"
+      ],
+      "disabledReasons": [
+        "人数不足或尚有人未准备时开始按钮禁用；非房主没有开始权限。"
+      ],
+      "dependencies": [],
+      "evidence": {
+        "note": "道友卡有金色房主、绿色自己标签，开始游戏灰色并说明等待3人到齐。",
+        "inspectedAt": "2026-10-26T11:24:53.858275+00:00",
+        "imageSha256": "43dad2058f52739f80bf7ebf5273e7317cda4b563e0f7fbc49ccde20f11c868a",
+        "method": "view_image",
+        "reviewer": "core_qa"
+      },
+      "actualCopy": [
+        "房主",
+        "自己",
+        "开始游戏",
+        "等待3人到齐",
+        "房号 120816",
+        "经典·12局·32倍封顶"
+      ]
+    }
+  ],
+  "supplementalStates": [
+    {
+      "name": "3人准备",
+      "description": "三席均准备后允许房主开始。",
+      "coverage": "specified_only",
+      "status": "pending",
+      "image": null,
+      "dependencies": [],
+      "note": "补充交互说明，不替代scope必需状态。"
+    },
+    {
+      "name": "房主离开",
+      "description": "移交房主或解散策略由业务确认。",
+      "coverage": "specified_only",
+      "status": "pending",
+      "image": null,
+      "dependencies": [],
+      "note": "补充交互说明，不替代scope必需状态。"
+    },
+    {
+      "name": "被移除",
+      "description": "展示离房反馈并返回好友同玩入口。",
+      "coverage": "specified_only",
+      "status": "pending",
+      "image": null,
+      "dependencies": [],
+      "note": "补充交互说明，不替代scope必需状态。"
+    }
+  ],
+  "stateTransitions": [
+    {
+      "from": "空座",
+      "trigger": "好友加入",
+      "to": "未准备",
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "from": "未准备",
+      "trigger": "点击准备并成功",
+      "to": "已准备",
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "from": "已准备",
+      "trigger": "取消准备",
+      "to": "未准备",
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "from": "房主",
+      "trigger": "3人均准备且点击开始",
+      "to": "11-deal-bid/未叫",
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "from": "空座",
+      "trigger": "点击邀请",
+      "to": "10-invite-friends/可邀请",
+      "implementationStatus": "specified_only_not_implemented"
+    }
+  ],
+  "copy": {
+    "status": "main_image_and_shared_state_design_verified",
+    "roomNumber": "120816",
+    "partiallyEnteredRoomNumber": null,
+    "note": "actualVisibleText/actualCopy为主图实见内容；shared_component的nativeTextAndDataReplacements为指定原生文案层，未冒称已经烘焙到主图。",
+    "actualVisibleText": [
+      "返回",
+      "好友房",
+      "房号 120816",
+      "经典·12局·32倍封顶",
+      "道友",
+      "花间客",
+      "房主",
+      "自己",
+      "已准备",
+      "空闲座位",
+      "邀请好友",
+      "等待第三位道友加入",
+      "离开房间",
+      "取消准备",
+      "开始游戏",
+      "等待3人到齐"
+    ]
+  },
+  "assumptions": [
+    "已逐字对齐 docs/UI_SCOPE.json 的 controls 与 requiredStates；页面和状态布局为本项目原创设计。",
+    "数值、房号120816、输入1208__、昵称和邀请文字均仅设计示意，不对应真实账户、房间、价格或业务记录。",
+    "默认规则、技能内容、货币门槛、限制、邀请策略和具体交互仍属设计假设；以最终产品规则为准。",
+    "公开资料仅核对模块范围；未逐屏实测腾讯当前客户端，不声称其各平台均采用此布局和行为。",
+    "只交付静态美术与状态规范，未实现客户端、服务器、支付或社交发送。",
+    "指定主画面需实际生成并看图后才可记 rendered；描述和未来共享依赖不能当作已画状态。"
+  ],
+  "userApproval": false,
+  "visualQA": {
+    "userApproval": false,
+    "findings": [
+      {
+        "severity": "pass",
+        "subject": "三座席与准备状态",
+        "detail": "严格三张席位卡；道友、花间客均显示已准备和绿色勾号，右侧为空闲座位并提供邀请好友。"
+      },
+      {
+        "severity": "pass",
+        "subject": "身份与规则",
+        "detail": "道友同时有房主和自己标签；房号120816、经典·12局·32倍封顶与创建房示意一致。房主标识未误用地主身份。"
+      },
+      {
+        "severity": "pass",
+        "subject": "操作与禁用原因",
+        "detail": "返回、离开房间、取消准备、邀请好友齐全；开始游戏为灰色禁用，下方等待3人到齐与当前两人状态一致。"
+      },
+      {
+        "severity": "note",
+        "subject": "覆盖边界",
+        "detail": "本图实际呈现空座、已准备、房主；未准备未在图中呈现，可用已核验51空白状态按钮及原生文字形成共享变体，不能记rendered。"
+      },
+      {
+        "severity": "pass",
+        "subject": "本轮逐张复核",
+        "detail": "恰好三席：房主本人已准备、花间客已准备、空座可邀请；房号和12局32倍信息明确，人数不足开始禁用。"
+      },
+      {
+        "severity": "note",
+        "subject": "状态覆盖",
+        "detail": "必需状态4项：主图可见3，共享视觉与原生文案设计1，仅说明0。共享态未另画整页，实际功能尚未接入。"
+      }
+    ],
+    "image": "designs/ui/core/09-room-waiting-v1.png",
+    "method": "view_image",
+    "status": "passed_for_design_review",
+    "reviewer": "core_qa",
+    "inspectedAt": "2026-10-26T11:24:53.858275+00:00",
+    "imageSha256": "43dad2058f52739f80bf7ebf5273e7317cda4b563e0f7fbc49ccde20f11c868a",
+    "blockingIssues": [],
+    "previousInspection": {
+      "reviewer": "art_review",
+      "inspectedAt": "2026-10-26T04:16:48.8144443-04:00",
+      "status": "passed_for_design_review"
+    }
+  },
+  "coverageSummary": {
+    "requiredTotal": 4,
+    "rendered": 3,
+    "shared_component": 1,
+    "specified_only": 0,
+    "note": "rendered为主图实际可见态；shared_component为已看图和哈希核验的共用皮肤加具体原生文案/行为设计。未另画共享态整页，未实现客户端交互。"
+  }
+}

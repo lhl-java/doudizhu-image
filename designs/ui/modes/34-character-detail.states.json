@@ -1,0 +1,84 @@
+{
+  "id": "34-character-detail",
+  "title": "角色详情",
+  "primaryArtwork": "designs/ui/modes/34-character-detail-v1.png",
+  "controls": [
+    "立绘",
+    "身份介绍",
+    "语音",
+    "表情",
+    "获取",
+    "使用"
+  ],
+  "states": [
+    {
+      "name": "使用中",
+      "coverage": "shared_component",
+      "renderedIn": null,
+      "title": "角色使用中",
+      "copy": "桃花女修已设为当前角色。",
+      "behavior": "使用按钮替换为禁用的使用中，角色选择同步更新；返回和试听仍可用。",
+      "buttons": [
+        "返回",
+        "使用中"
+      ],
+      "dependencies": [
+        "assets/ui/controls/panel.png",
+        "assets/ui/controls/primary-normal.png",
+        "assets/ui/controls/primary-disabled.png",
+        "assets/ui/controls/secondary-normal.png",
+        "assets/ui/controls/tab-selected.png",
+        "assets/ui/manifest.json"
+      ],
+      "designEvidence": "原画可见状态，或实际已生成同源透明控件+明确原生文字与行为；不是额外AI整屏生成"
+    },
+    {
+      "name": "可使用",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/modes/34-character-detail-v1.png",
+      "title": "桃花女修",
+      "copy": "清风入扇，笑看牌局。",
+      "behavior": "已拥有、三段试听、四枚表情与使用角色入口清楚。",
+      "buttons": [
+        "返回",
+        "使用角色"
+      ],
+      "dependencies": [],
+      "designEvidence": "原画可见状态，或实际已生成同源透明控件+明确原生文字与行为；不是额外AI整屏生成"
+    },
+    {
+      "name": "未解锁",
+      "coverage": "shared_component",
+      "renderedIn": null,
+      "title": "角色尚未解锁",
+      "copy": "解锁后即可使用桃花女修。",
+      "behavior": "显示具体获取条件及获取入口；不改变已保存的当前角色。",
+      "buttons": [
+        "返回",
+        "前往获取"
+      ],
+      "dependencies": [
+        "assets/ui/controls/panel.png",
+        "assets/ui/controls/primary-normal.png",
+        "assets/ui/controls/primary-disabled.png",
+        "assets/ui/controls/secondary-normal.png",
+        "assets/ui/controls/tab-selected.png",
+        "assets/ui/manifest.json"
+      ],
+      "designEvidence": "原画可见状态，或实际已生成同源透明控件+明确原生文字与行为；不是额外AI整屏生成"
+    }
+  ],
+  "dynamicText": "昵称、余额、币种、数量、期限、步骤和回执由同一产品配置及原生文字层提供；原画为设计示意。",
+  "sharedDependencies": [
+    "assets/ui/controls/panel.png",
+    "assets/ui/controls/primary-normal.png",
+    "assets/ui/controls/primary-disabled.png",
+    "assets/ui/controls/secondary-normal.png",
+    "assets/ui/controls/tab-selected.png",
+    "assets/ui/manifest.json"
+  ],
+  "status": "design_ready_user_review",
+  "inspectionNotes": [
+    "已实际看image_gen返回原图：桃花女修完整立绘、已拥有、三段试听、四枚表情与返回/使用角色完整，玉绿米白暖金层级一致。"
+  ]
+}

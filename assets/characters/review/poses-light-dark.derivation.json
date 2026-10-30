@@ -1,0 +1,52 @@
+{
+  "file": "assets/characters/review/poses-light-dark.jpg",
+  "sha256": "7f7f1e3713348f306219ec990da01f009409a9053da23942d43bfd1d29974312",
+  "operation": "contact-sheet-for-alpha-and-silhouette-review-only",
+  "derivedFrom": [
+    {
+      "file": "assets/characters/daotong/master.png",
+      "sha256": "38ba45b8c3dac51539dd72cef264867c2636670341995ab42f71aecdfc42cb7e",
+      "record": "assets/characters/daotong/master.derivation.json"
+    },
+    {
+      "file": "assets/characters/daotong/win.png",
+      "sha256": "43c5d7885ff60d7189961d0f4325e48c7a4a3d6ee7711ff2e552c2256cdad179",
+      "record": "assets/characters/daotong/win.derivation.json"
+    },
+    {
+      "file": "assets/characters/daotong/lose.png",
+      "sha256": "318a223caf574a327a54a834deb2f535f31d91c55c9fa61c44ca2a3dc550dbc0",
+      "record": "assets/characters/daotong/lose.derivation.json"
+    },
+    {
+      "file": "assets/characters/taohua/master.png",
+      "sha256": "06bec073cdcec9d47c9da586168e229c74f2d3c72deb5ae91e1509db378cace3",
+      "record": "assets/characters/taohua/master.derivation.json"
+    },
+    {
+      "file": "assets/characters/taohua/win.png",
+      "sha256": "da228752e7004f98ea44861eeddc93dd840ce259af12b88217ffec1f714ea487",
+      "record": "assets/characters/taohua/win.derivation.json"
+    },
+    {
+      "file": "assets/characters/taohua/lose.png",
+      "sha256": "eb52785b8f2c1fb0e5b5b736d0bc3fecbe352f65c4d371ed9d95bedec9d1bf73",
+      "record": "assets/characters/taohua/lose.derivation.json"
+    },
+    {
+      "file": "assets/characters/hulu/master.png",
+      "sha256": "eb4fa72acfcb3e69610b208e46c70428f9aa0127bc014f256ccb6593d93630fe",
+      "record": "assets/characters/hulu/master.derivation.json"
+    },
+    {
+      "file": "assets/characters/hulu/win.png",
+      "sha256": "5217dd726280ea1539fb0daa1f10ca449ad0df68807f8d3ecaef7493a322d059",
+      "record": "assets/characters/hulu/win.derivation.json"
+    },
+    {
+      "file": "assets/characters/hulu/lose.png",
+      "sha256": "35850b8b42fb029b3fb57e985a7b71009b302e9ff05303cf65eda75f118f555d",
+      "record": "assets/characters/hulu/lose.derivation.json"
+    }
+  ]
+}

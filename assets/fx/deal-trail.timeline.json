@@ -1,0 +1,61 @@
+{
+  "durationMs": 480,
+  "loop": false,
+  "blend": "screen",
+  "event": "deal_card",
+  "keyframes": [
+    {
+      "atMs": 0,
+      "alpha": 0,
+      "scale": 0.4,
+      "x": -0.24,
+      "y": 0.18,
+      "rotation": -18
+    },
+    {
+      "atMs": 70,
+      "alpha": 1,
+      "scale": 0.7,
+      "x": -0.17,
+      "y": 0.11,
+      "rotation": -12
+    },
+    {
+      "atMs": 280,
+      "alpha": 1,
+      "scale": 1,
+      "x": 0.12,
+      "y": -0.08,
+      "rotation": 0
+    },
+    {
+      "atMs": 480,
+      "alpha": 0,
+      "scale": 1.08,
+      "x": 0.3,
+      "y": -0.22,
+      "rotation": 5
+    }
+  ],
+  "interpolation": "linear",
+  "translationUnit": "fraction-of-384px-frame",
+  "stopEvent": null,
+  "kind": "fx",
+  "anchor": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "id": "deal-trail",
+  "file": "assets/fx/deal-trail.png",
+  "record": "assets/fx/deal-trail.png.generation.json",
+  "width": 512,
+  "height": 512,
+  "z": 80,
+  "sourceNativeCell": {
+    "width": 512,
+    "height": 512
+  },
+  "staticSource": true,
+  "animationSource": "runtime transforms of generated static illustration, not AI video",
+  "maxDisplaySize": 384
+}

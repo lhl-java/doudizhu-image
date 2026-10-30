@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/brand/daoyou-qing-chupai/logo-native-v1.png",
+  "sha256": "38c75bc085a667189b880d01c6a82a56d2e8d4968500d9dcdec9102cd464f52b",
+  "generatedAt": "2026-10-29T03:26:11.565775+00:00",
+  "generatedAtEvidence": "time recorded after host return; not model internal timestamp",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "pixelMode": "RGBA",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "significantAlphaBBox": [
+    13,
+    107,
+    1748,
+    798
+  ],
+  "nativeResolution": {
+    "width": 1774,
+    "height": 887
+  },
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\doudizhu-image\\assets\\brand\\title.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据；配置目标不是实际锁定API分支和质量证据",
+  "prompt": "prompts/brand/daoyou-logo-v1.txt",
+  "promptSha256": "b177aa296e2dcaaf70b5702e8647b9b066c003c7b3563d567b19b4e989800ade",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "primary style reference"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "primary style reference"
+    },
+    {
+      "file": "assets/brand/title.png",
+      "sha256": "9a5db4179943c5deb0808ef7a61e595543084da77bad70f392851ebc54c0e64d",
+      "role": "existing genre-title finish reference"
+    }
+  ],
+  "evidence": {
+    "receipt": "assets/brand/daoyou-qing-chupai/logo-native-v1.receipt.json",
+    "hostOutputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a17714-4402-7063-9782-93f78261cb48\\exec-c577e426-e262-4e4f-9f05-afbc507dc232.png"
+  },
+  "operation": "byte-identical-copy-no-resize",
+  "visualQA": {
+    "status": "passed_for_brand_art_review",
+    "mainText": "道友请出牌",
+    "subtitle": "斗地主",
+    "observations": [
+      "已实际查看宿主返回成图；五字主名及三字副标完整可读；葫芦、太极、云纹、流苏与纸牌采用既有玉绿/米白/暖金画法。",
+      "Native canvas has alpha=1 at some boundary pixels; final runtime export adds64px fully transparent padding on all sides without changing the artwork.",
+      "Decorative card fan is a logo motif, not a gameplay hand or dealt-card state."
+    ],
+    "userApproved": false
+  }
+}

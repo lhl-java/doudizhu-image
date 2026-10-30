@@ -1,0 +1,43 @@
+{
+  "file": "designs/runtime-scenes-20261026/fx-b-over-light.jpg",
+  "sha256": "41682e695f865c5be36f2a7ad4a3d3b0a6cbd34de42002779dc053a0238dd04d",
+  "route": "derived",
+  "operation": "3x2 static sprite layout; preview JPG additionally composites over solid light/dark QA background",
+  "derivedFrom": [
+    {
+      "file": "assets/fx/win-gold.png",
+      "sha256": "afe2805a23380a5a9c62d1e1292f4b656084b92943b5c3bb5353bde599891e5b",
+      "record": "assets/fx/win-gold.png.generation.json"
+    },
+    {
+      "file": "assets/fx/lose-cloud.png",
+      "sha256": "7a841d2c8692458805b042ff99ac2650edf33d7df9311f36e075017117f717ff",
+      "record": "assets/fx/lose-cloud.png.generation.json"
+    },
+    {
+      "file": "assets/fx/rank-up.png",
+      "sha256": "4296ac4494a9e7f1b9e2063c743610f11796dfd67b68d513d9e43661802752b1",
+      "record": "assets/fx/rank-up.png.generation.json"
+    },
+    {
+      "file": "assets/fx/reward-sparkle.png",
+      "sha256": "2354c13d7174a6499bd2c0f01faebf2a3e3a2d3cc7d5aa65f0ce9889290a35c5",
+      "record": "assets/fx/reward-sparkle.png.generation.json"
+    },
+    {
+      "file": "assets/fx/turn-ring.png",
+      "sha256": "e5d4ebc500d0f098af027b77538c33d7280b5eba113bd21c339b096bbd63f7a0",
+      "record": "assets/fx/turn-ring.png.generation.json"
+    },
+    {
+      "file": "assets/fx/loading-ring.png",
+      "sha256": "111b7d5c9a2c9570b552aa1e8a947f56ab867be743dcf7a144bd3b4c94973cdc",
+      "record": "assets/fx/loading-ring.png.generation.json"
+    }
+  ],
+  "width": 1536,
+  "height": 1024,
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "qa_preview_only"
+}

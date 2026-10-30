@@ -1,0 +1,55 @@
+{
+  "id": "daotong_snow_win",
+  "kind": "costume_pose",
+  "file": "assets/characters/daotong/costumes/snow-poses/win.png",
+  "record": "assets/characters/daotong/costumes/snow-poses/win.derivation.json",
+  "width": 1024,
+  "height": 1024,
+  "anchor": [
+    512,
+    920
+  ],
+  "sha256": "a60b085659fc5fb127e24d36d65f117e96b594ee7a3cebfbb2ae16814341e6a6",
+  "route": "derived",
+  "noUpscale": true,
+  "fixedScale": 0.6666666666666666,
+  "sourceRect": [
+    88,
+    26,
+    1196,
+    1238
+  ],
+  "sourceAnchor": [
+    642.0,
+    1232
+  ],
+  "offset": [
+    143,
+    116
+  ],
+  "registration": "match the skin-master significant body height; feet anchored at512,920; per-source uniform downscale only",
+  "operation": "significant-alpha crop plus6px, premultiplied-alpha Lanczos downscale, foot-anchor registration; independent generated pose still",
+  "derivedFrom": [
+    {
+      "file": "designs/characters/costume-poses-20261029/snow-win-v1.png",
+      "sha256": "750f59c0a3fed1bb681c362f287ca347055158a52f5e7cf38f892ee4f0cc8fb9",
+      "record": "designs/characters/costume-poses-20261029/snow-win-v1.generation.json"
+    }
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "edgeAlphaMax": 0,
+  "status": "passed_offline_art_review",
+  "recordedAt": "2026-10-30T04:34:57.997612+00:00",
+  "visualReview": {
+    "method": "actual imagegen returns plus light/dark five-costume master-win-lose contact inspected",
+    "passed": true,
+    "reviewedAt": "2026-10-30T05:04:57.770316+00:00",
+    "bodyHeight": 800,
+    "masterBodyHeight": 800,
+    "edgeAlphaMax": 0,
+    "footAnchorError": 0
+  }
+}

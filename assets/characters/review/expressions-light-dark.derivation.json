@@ -1,0 +1,127 @@
+{
+  "file": "assets/characters/review/expressions-light-dark.jpg",
+  "sha256": "f08ffd9eef3e3703b4028cc766ac0187df40795ab5abc34a12525c31d2ff2fba",
+  "operation": "contact-sheet-for-alpha-and-silhouette-review-only",
+  "derivedFrom": [
+    {
+      "file": "assets/characters/daotong/expressions/calm.png",
+      "sha256": "6efa8169e054cb4fc2b8d0c63373c13999b68fceea2514a55514cb38f2df1622",
+      "record": "assets/characters/daotong/expressions/calm.derivation.json"
+    },
+    {
+      "file": "assets/characters/daotong/expressions/smile.png",
+      "sha256": "613d2dbb615ff1ecc5a7cb76725b611e0ad1be0fda3cccf5487c9d8139f949cc",
+      "record": "assets/characters/daotong/expressions/smile.derivation.json"
+    },
+    {
+      "file": "assets/characters/daotong/expressions/laugh.png",
+      "sha256": "84adf6c929291ed9080fa0799338c0dd5c2fd343fd888ccb748d2e4c8fbd6a98",
+      "record": "assets/characters/daotong/expressions/laugh.derivation.json"
+    },
+    {
+      "file": "assets/characters/daotong/expressions/thinking.png",
+      "sha256": "395a20f37bc59a61c6090dc4ebfa1bdfdaae8e86ef96c1bb2d47d794df62a8f1",
+      "record": "assets/characters/daotong/expressions/thinking.derivation.json"
+    },
+    {
+      "file": "assets/characters/daotong/expressions/surprise.png",
+      "sha256": "cab0b8264e6c42c60ef8ac84bf2c9f1ddea9707b02b644dc182320bb85f91489",
+      "record": "assets/characters/daotong/expressions/surprise.derivation.json"
+    },
+    {
+      "file": "assets/characters/daotong/expressions/smug.png",
+      "sha256": "53f870aedf02265179294109ba6baa2fdd8d5611e6dd3ef931996cadfc6f6d2b",
+      "record": "assets/characters/daotong/expressions/smug.derivation.json"
+    },
+    {
+      "file": "assets/characters/daotong/expressions/sad.png",
+      "sha256": "f7ceb47db821393d8a4c18ac3554508eba69c909490c7e42fda1c506e7ae1418",
+      "record": "assets/characters/daotong/expressions/sad.derivation.json"
+    },
+    {
+      "file": "assets/characters/daotong/expressions/angry.png",
+      "sha256": "0466c0776192fdf32466af1d304dd0edb52faf8236554e2a19789a4c68ac5786",
+      "record": "assets/characters/daotong/expressions/angry.derivation.json"
+    },
+    {
+      "file": "assets/characters/taohua/expressions/calm.png",
+      "sha256": "b8eaeeb0b9d5c06ad7b401c65d55692980191f66e542ac0d878d5c04db7a5204",
+      "record": "assets/characters/taohua/expressions/calm.derivation.json"
+    },
+    {
+      "file": "assets/characters/taohua/expressions/smile.png",
+      "sha256": "60717fdd3163e9e372e3c62ccf0b168d7834fe4f2879ba7c0dc1250b2d1d6695",
+      "record": "assets/characters/taohua/expressions/smile.derivation.json"
+    },
+    {
+      "file": "assets/characters/taohua/expressions/laugh.png",
+      "sha256": "abf2e8e639d95dcfb9434d59e12c8a8662893e8f5aa34ffe7416c734d30a486b",
+      "record": "assets/characters/taohua/expressions/laugh.derivation.json"
+    },
+    {
+      "file": "assets/characters/taohua/expressions/thinking.png",
+      "sha256": "2276475395e7693f8eee3dff882d1984a6a66b0405dcfb6652f5d1e5ae84f009",
+      "record": "assets/characters/taohua/expressions/thinking.derivation.json"
+    },
+    {
+      "file": "assets/characters/taohua/expressions/surprise.png",
+      "sha256": "339b6440f166c28494ad6fd82e9e4753a0fb8ce70fd6e4384c7f84e1e7989690",
+      "record": "assets/characters/taohua/expressions/surprise.derivation.json"
+    },
+    {
+      "file": "assets/characters/taohua/expressions/smug.png",
+      "sha256": "cee13a01412e4b196d45afbb2cad157ffe528c6ac737a40629dd233dfde696a0",
+      "record": "assets/characters/taohua/expressions/smug.derivation.json"
+    },
+    {
+      "file": "assets/characters/taohua/expressions/sad.png",
+      "sha256": "857320e27e9ccbdc0629d681a0aa05d43416ed0ccdf8ea5ad07b55a93863a32d",
+      "record": "assets/characters/taohua/expressions/sad.derivation.json"
+    },
+    {
+      "file": "assets/characters/taohua/expressions/angry.png",
+      "sha256": "21bbef14abf7eb97cc671f6ded0d9c9b2c2c89470e78d2b2c9374c0ef6c3bed2",
+      "record": "assets/characters/taohua/expressions/angry.derivation.json"
+    },
+    {
+      "file": "assets/characters/hulu/expressions/calm.png",
+      "sha256": "0ac33e45d01fa756a87a2658ed3cd2fd8faf259ca601afa86ff05ce77bd242ff",
+      "record": "assets/characters/hulu/expressions/calm.derivation.json"
+    },
+    {
+      "file": "assets/characters/hulu/expressions/smile.png",
+      "sha256": "df8b54b85a9a468bb599cf18d22d08e76bc340ffeda75b2c1b6c893e89309a2f",
+      "record": "assets/characters/hulu/expressions/smile.derivation.json"
+    },
+    {
+      "file": "assets/characters/hulu/expressions/laugh.png",
+      "sha256": "91651d70e8c1cfc44ecf8e3e11c62ee37b6adeaeaaa0b493ef60cc303094ebed",
+      "record": "assets/characters/hulu/expressions/laugh.derivation.json"
+    },
+    {
+      "file": "assets/characters/hulu/expressions/thinking.png",
+      "sha256": "c794dc94fa693ef529a6e0489b4d893d1572b9996c4e754d0f9b71dee03c289e",
+      "record": "assets/characters/hulu/expressions/thinking.derivation.json"
+    },
+    {
+      "file": "assets/characters/hulu/expressions/surprise.png",
+      "sha256": "208838b2cd797284fd6d02fd130823046c0897efc799db2c411eeda472fde96b",
+      "record": "assets/characters/hulu/expressions/surprise.derivation.json"
+    },
+    {
+      "file": "assets/characters/hulu/expressions/smug.png",
+      "sha256": "d8ef47e59187dc780138f6fc6cd3cd04b66c8ad584f979cb8fe09022aff046bd",
+      "record": "assets/characters/hulu/expressions/smug.derivation.json"
+    },
+    {
+      "file": "assets/characters/hulu/expressions/sad.png",
+      "sha256": "d6af4b7990e8defe4282bc67f4a5d847fc4b8307092fcb260bb8515c6fdff118",
+      "record": "assets/characters/hulu/expressions/sad.derivation.json"
+    },
+    {
+      "file": "assets/characters/hulu/expressions/angry.png",
+      "sha256": "eb58fb53147916ebfc7432d039f4f828a9239f36e5c9508803f3146618a0033f",
+      "record": "assets/characters/hulu/expressions/angry.derivation.json"
+    }
+  ]
+}

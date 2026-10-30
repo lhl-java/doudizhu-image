@@ -1,0 +1,65 @@
+{
+  "id": "33-character-select",
+  "title": "角色选择",
+  "primaryArtwork": "designs/ui/modes/33-character-select-v1.png",
+  "controls": [
+    "三位既有角色卡",
+    "预览",
+    "拥有",
+    "使用"
+  ],
+  "states": [
+    {
+      "name": "已拥有",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/modes/33-character-select-v1.png",
+      "title": "已拥有",
+      "copy": "桃花女修已拥有，可点击使用。",
+      "behavior": "选中后更新底部介绍和试听；使用需保存成功回执。",
+      "buttons": [
+        "使用"
+      ],
+      "dependencies": [],
+      "designEvidence": "原画可见状态，或实际已生成同源透明控件+明确原生文字与行为；不是额外AI整屏生成"
+    },
+    {
+      "name": "未拥有",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/modes/33-character-select-v1.png",
+      "title": "未拥有",
+      "copy": "葫芦长者尚未拥有。",
+      "behavior": "显示获取入口；不得在未获取时直接设置使用中。",
+      "buttons": [
+        "获取"
+      ],
+      "dependencies": [],
+      "designEvidence": "原画可见状态，或实际已生成同源透明控件+明确原生文字与行为；不是额外AI整屏生成"
+    },
+    {
+      "name": "使用中",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/modes/33-character-select-v1.png",
+      "title": "使用中",
+      "copy": "玉绿道童当前使用中。",
+      "behavior": "金玉选框及状态文字同时表示当前角色，避免仅靠颜色。",
+      "buttons": [
+        "使用中"
+      ],
+      "dependencies": [],
+      "designEvidence": "原画可见状态，或实际已生成同源透明控件+明确原生文字与行为；不是额外AI整屏生成"
+    }
+  ],
+  "dynamicText": "昵称、余额、币种、数量、期限、步骤和回执由同一产品配置及原生文字层提供；原画为设计示意。",
+  "sharedDependencies": [
+    "assets/ui/controls/panel.png",
+    "assets/ui/controls/primary-normal.png",
+    "assets/ui/controls/primary-disabled.png",
+    "assets/ui/controls/secondary-normal.png",
+    "assets/ui/controls/tab-selected.png",
+    "assets/ui/manifest.json"
+  ],
+  "status": "design_ready_user_review",
+  "inspectionNotes": [
+    "已实际看image_gen返回原图：三位角色身份与既有设定一致，已拥有/未拥有/使用中分别可见，角色/装扮页签与试听入口清楚。"
+  ]
+}

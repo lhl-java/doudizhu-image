@@ -1,0 +1,18 @@
+{
+  "file": "designs/runtime-scenes-20261026/jade-table-over-dark.jpg",
+  "sha256": "0093d6af52a3241bc0a093e59579f4f1cc0caf21e7652ad5f1c5edd7fc0712a8",
+  "route": "derived",
+  "operation": "RGBA composited over solid QA background, no artwork resize",
+  "derivedFrom": [
+    {
+      "file": "assets/scenes/jade-table-runtime.png",
+      "sha256": "ed7f7f3858c4d569dd741eb0f02aa03978216c551e3efe2a344c2eb9684c1451",
+      "record": "assets/scenes/jade-table-runtime.png.generation.json"
+    }
+  ],
+  "width": 2060,
+  "height": 942,
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "qa_preview_only"
+}

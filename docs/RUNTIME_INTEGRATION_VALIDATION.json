@@ -1,0 +1,283 @@
+{
+  "status": "passed_static_and_mock_execution",
+  "validatedAt": "2026-10-30T05:16:11.300Z",
+  "sourceFile": "runtime/art-preview.js",
+  "sourceSha256": "c493a50adba7acac681935d5ca1e7d276def8cc0b51c037cb6968ac5ab7e8a3e",
+  "rootSourceUnchangedDuringTest": true,
+  "pages": 60,
+  "states": 223,
+  "actionsChecked": 15,
+  "skinsChecked": 5,
+  "wardrobeTransitionsChecked": 2,
+  "fxTimelinesChecked": 12,
+  "jsonSourcesRead": 46,
+  "imageSourcesRead": 29,
+  "pathChecks": [
+    {
+      "file": "assets/game/runtime-index.json",
+      "uniqueReferences": 527,
+      "missing": 0
+    },
+    {
+      "file": "runtime/screens.json",
+      "uniqueReferences": 61,
+      "missing": 0
+    }
+  ],
+  "failures": [],
+  "findings": [
+    {
+      "kind": "costume-pose-source",
+      "skin": "spring",
+      "pose": "win",
+      "passed": true
+    },
+    {
+      "kind": "costume-pose-source",
+      "skin": "spring",
+      "pose": "lose",
+      "passed": true
+    },
+    {
+      "kind": "costume-pose-source",
+      "skin": "ink",
+      "pose": "win",
+      "passed": true
+    },
+    {
+      "kind": "costume-pose-source",
+      "skin": "ink",
+      "pose": "lose",
+      "passed": true
+    },
+    {
+      "kind": "costume-pose-source",
+      "skin": "moon",
+      "pose": "win",
+      "passed": true
+    },
+    {
+      "kind": "costume-pose-source",
+      "skin": "moon",
+      "pose": "lose",
+      "passed": true
+    },
+    {
+      "kind": "costume-pose-source",
+      "skin": "snow",
+      "pose": "win",
+      "passed": true
+    },
+    {
+      "kind": "costume-pose-source",
+      "skin": "snow",
+      "pose": "lose",
+      "passed": true
+    },
+    {
+      "kind": "costume-pose-source",
+      "skin": "festival",
+      "pose": "win",
+      "passed": true
+    },
+    {
+      "kind": "costume-pose-source",
+      "skin": "festival",
+      "pose": "lose",
+      "passed": true
+    },
+    {
+      "kind": "wardrobe-actor-binding",
+      "fromActor": "taohua",
+      "actor": "daotong",
+      "skin": "daotong_moon",
+      "passed": true
+    },
+    {
+      "kind": "wardrobe-actor-binding",
+      "fromActor": "hulu",
+      "actor": "daotong",
+      "skin": "daotong_moon",
+      "passed": true
+    },
+    {
+      "kind": "table-selected-actor-target",
+      "actor": "daotong",
+      "replaced": {
+        "className": "self",
+        "actor": "daotong"
+      },
+      "passed": true
+    },
+    {
+      "kind": "table-selected-actor-target",
+      "actor": "taohua",
+      "replaced": {
+        "className": "self",
+        "actor": "taohua"
+      },
+      "passed": true
+    },
+    {
+      "kind": "table-selected-actor-target",
+      "actor": "hulu",
+      "replaced": {
+        "className": "self",
+        "actor": "hulu"
+      },
+      "passed": true
+    },
+    {
+      "kind": "loss-page-default-action",
+      "action": "lose",
+      "pose": "lose",
+      "passed": true
+    },
+    {
+      "kind": "root-play-event-consumer",
+      "emitted": "card_flight_visual",
+      "listened": "card_flight_visual",
+      "effectChildren": 1,
+      "passed": true
+    },
+    {
+      "kind": "fx-timeline",
+      "id": "deal-trail",
+      "keys": 4,
+      "unit": 384,
+      "passed": true
+    },
+    {
+      "kind": "fx-timeline",
+      "id": "play-glow",
+      "keys": 4,
+      "unit": 384,
+      "passed": true
+    },
+    {
+      "kind": "fx-timeline",
+      "id": "bomb-burst",
+      "keys": 5,
+      "unit": 384,
+      "passed": true
+    },
+    {
+      "kind": "fx-timeline",
+      "id": "rocket-trail",
+      "keys": 4,
+      "unit": 384,
+      "passed": true
+    },
+    {
+      "kind": "fx-timeline",
+      "id": "spring-petals",
+      "keys": 4,
+      "unit": 384,
+      "passed": true
+    },
+    {
+      "kind": "fx-timeline",
+      "id": "counter-spring-leaves",
+      "keys": 4,
+      "unit": 384,
+      "passed": true
+    },
+    {
+      "kind": "fx-timeline",
+      "id": "win-gold",
+      "keys": 4,
+      "unit": 384,
+      "passed": true
+    },
+    {
+      "kind": "fx-timeline",
+      "id": "lose-cloud",
+      "keys": 4,
+      "unit": 384,
+      "passed": true
+    },
+    {
+      "kind": "fx-timeline",
+      "id": "rank-up",
+      "keys": 4,
+      "unit": 384,
+      "passed": true
+    },
+    {
+      "kind": "fx-timeline",
+      "id": "reward-sparkle",
+      "keys": 4,
+      "unit": 384,
+      "passed": true
+    },
+    {
+      "kind": "fx-timeline",
+      "id": "turn-ring",
+      "keys": 3,
+      "unit": 384,
+      "passed": true
+    },
+    {
+      "kind": "fx-timeline",
+      "id": "loading-ring",
+      "keys": 2,
+      "unit": 384,
+      "passed": true
+    }
+  ],
+  "limits": [
+    "Lightweight custom DOM, not a CSS/layout engine.",
+    "Mock Canvas records source selection and transform calls; it does not rasterize or verify appearance.",
+    "No browser, server, root code mutation, Git or new art generation used.",
+    "223 explicit state-art bindings execute against 26 visual layout types; CSS appearance and production state logic still need real visual/runtime review."
+  ],
+  "evidence": [
+    {
+      "file": "runtime/art-preview.js",
+      "sha256": "c493a50adba7acac681935d5ca1e7d276def8cc0b51c037cb6968ac5ab7e8a3e"
+    },
+    {
+      "file": "runtime/art-preview.html",
+      "sha256": "568739b5d6ad76fa2dd125a48e4e85887deb5be65da1c59a09cc8cdeac99a9c3"
+    },
+    {
+      "file": "runtime/art-preview.css",
+      "sha256": "4b6656585e66a27772501a1d7ec629e81ac307f0cffa71c35c09479c5ae1ca20"
+    },
+    {
+      "file": "runtime/state-art.mjs",
+      "sha256": "c4cb392ac78078aeb118a9cccbc728c1f0d290a9900ee65e8e614551c35caf13"
+    },
+    {
+      "file": "runtime/state-art.css",
+      "sha256": "5bfe28c5127190ce0cda22464cce3caea4d080155b3a27474f694b81a194d5a7"
+    },
+    {
+      "file": "runtime/state-art.json",
+      "sha256": "83dd191b974d4e73931c4628e5cd3cc40a7532b8372a72194f00331695b1ad5d"
+    },
+    {
+      "file": "runtime/screens.json",
+      "sha256": "01b3c4ff532c25df683d8d77b968d3006508fd2f2f27d885ee8e8090d3beb595"
+    },
+    {
+      "file": "assets/game/runtime-index.json",
+      "sha256": "84675e7ec67391789597231b89630a31b9809ea164545f28e52d9b55a245fc81"
+    },
+    {
+      "file": "assets/animations/characters/player.mjs",
+      "sha256": "2221b284ef29305f9b995c0bcefdab90e5d298c052f05c0fa877fbf30561f28e"
+    },
+    {
+      "file": "assets/characters/daotong/character.json",
+      "sha256": "bd39e31fd64ab0d93eb67109b3b467f9456ab5ec52d87571f8a3fe98bb5976d5"
+    }
+  ],
+  "method": "Node static syntax plus custom DOM and mock Canvas execution against actual local JSON/image references; actual createActorPlayer and renderStateArt modules used.",
+  "browserPlayback": {
+    "performed": false,
+    "claim": "No browser screenshot, CSS layout or visual animation playback is asserted by this report. CSS source is hashed as evidence only; this tool does not measure layout."
+  },
+  "reproduction": "node --check runtime/art-preview.js; node tools/verify_art_runtime.mjs",
+  "scriptSha256": "1038720f25dc36787002187b6a91e05bce0e43fccff2714935b050704923519c"
+}

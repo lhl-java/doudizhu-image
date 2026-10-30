@@ -1,0 +1,24 @@
+{
+  "file": "designs/runtime-scenes-20261026/courtyard-moon-16x9-review.png",
+  "sha256": "412d8fac7095574438068acb55e8130841315ea351bffe8a06971db6a8024dde",
+  "route": "derived",
+  "operation": "center-crop for16:9 visual QA, no resize",
+  "derivedFrom": [
+    {
+      "file": "assets/scenes/courtyard-moon-v2.png",
+      "sha256": "066b7cc70e4c4bd3a19c9eaec57a10287ade566bc6a0204ddfbc320d130d0078",
+      "record": "assets/scenes/courtyard-moon-v2.png.generation.json"
+    }
+  ],
+  "cropRect": [
+    242,
+    0,
+    1447,
+    814
+  ],
+  "width": 1447,
+  "height": 814,
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "qa_preview_only"
+}

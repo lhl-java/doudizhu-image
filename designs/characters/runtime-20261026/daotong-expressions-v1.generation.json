@@ -1,0 +1,101 @@
+{
+  "file": "designs/characters/runtime-20261026/daotong-expressions-v1.png",
+  "sha256": "bc6ad342b44bfc494e5bc4e782e27279c59cad264087062b4da98d02ac136086",
+  "generatedAt": "2026-10-26T17:21:30.878920+00:00",
+  "generatedAtEvidence": "timestamp recorded immediately after host output adoption, not internal model clock",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "pixelMode": "RGBA",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png",
+      "D:\\work\\doudizhu-image\\designs\\characters\\runtime-20261026\\daotong-master-v1.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据",
+  "prompt": "prompts/characters-runtime/daotong-expressions-v1.txt",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "primary confirmed style or selected character identity/pose"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "primary confirmed style or selected character identity/pose"
+    },
+    {
+      "file": "designs/characters/characters-trio-v1.png",
+      "sha256": "0c4dda70d4e16715527ed243a8d3efc2a401be2f06326b49601d1b184e7165ac",
+      "role": "primary confirmed style or selected character identity/pose"
+    },
+    {
+      "file": "designs/characters/runtime-20261026/daotong-master-v1.png",
+      "sha256": "c458e647cc47a506311e539e3f3882dfa3bb82d7af7345eb0b866c92e4fdf400",
+      "role": "primary confirmed style or selected character identity/pose"
+    }
+  ],
+  "evidence": {
+    "hostOutputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a178e0-3945-7ad2-bb27-1219450b45c3\\exec-699e0581-0273-4c93-aa10-8a38cdf25754.png",
+    "receipt": "designs/characters/runtime-20261026/daotong-expressions-v1.receipt.json"
+  },
+  "transparency": {
+    "hasAlpha": true,
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "nonTransparentBounds": [
+      0,
+      14,
+      1761,
+      887
+    ],
+    "borderPixelsWithAlpha": 137
+  },
+  "nativeResolution": {
+    "width": 1774,
+    "height": 887
+  },
+  "exportOperation": "byte-identical-copy-no-resize",
+  "status": "superseded_layout_too_tight",
+  "visualQA": {
+    "status": "needs_fix",
+    "findings": [
+      "Native transparent portraits were too tightly packed; layout corrected by AI edit in v2."
+    ]
+  },
+  "imageRemoved": true,
+  "retention": {
+    "status": "superseded_image_removed_text_evidence_retained",
+    "replacedBy": "designs/characters/runtime-20261026/daotong-expressions-v2.png",
+    "reason": "v1 portraits were too tightly spaced; selected v2 fixes the layout",
+    "recordedAt": "2026-10-26T18:50:51.496409+00:00"
+  }
+}

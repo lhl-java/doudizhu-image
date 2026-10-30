@@ -1,0 +1,60 @@
+{
+  "file": "preview/integration/wardrobe.png",
+  "sha256": "c4a8a89f956a02ceb4a96ab2af63fc06cbb882ebc71d1df778a16db6a8cedcbb",
+  "width": 1932,
+  "height": 815,
+  "operation": "Offline Pillow composition of existing final art plus native Chinese text; downscaled sprites and nine-slice UI, no AI generation or browser rendering.",
+  "browserScreenshot": false,
+  "detail": "Layering check: one base and five independent costume images; this page does not imply alternate costumes have independently redrawn win/lose poses.",
+  "createdAt": "2026-10-28T07:51:26.290177+00:00",
+  "derivedFrom": [
+    {
+      "file": "assets/characters/daotong/costumes/festival.png",
+      "sha256": "702667837115c219c4e24c5679ed741546cb8ea03c87ecf3020ebb737f985e19"
+    },
+    {
+      "file": "assets/characters/daotong/costumes/ink.png",
+      "sha256": "565a45196d14860bfcf5112f1c86550538a4faae511576cfb72481a214686ab3"
+    },
+    {
+      "file": "assets/characters/daotong/costumes/moon.png",
+      "sha256": "422d2320b6d2c4420a098c1f99efe51d5ff0456adf059b7c5b2052dc8f50fd27"
+    },
+    {
+      "file": "assets/characters/daotong/costumes/snow.png",
+      "sha256": "eefdaa25dacfa6028768b2e64d259047b65a6f643898ab3dd98048b5cbe7c49a"
+    },
+    {
+      "file": "assets/characters/daotong/costumes/spring.png",
+      "sha256": "1308758543c2395e8e62dc006f4d9cdfb456acecba7a53b591d44769a75eb67b"
+    },
+    {
+      "file": "assets/characters/daotong/master.png",
+      "sha256": "38ba45b8c3dac51539dd72cef264867c2636670341995ab42f71aecdfc42cb7e"
+    },
+    {
+      "file": "assets/scenes/courtyard-lobby.png",
+      "sha256": "019b75dfa37d04cb457f68e1799ce8e334e1e3ce5642429babb737219b89f875"
+    },
+    {
+      "file": "assets/ui/controls/panel.png",
+      "sha256": "8cea325f107b9dae1b16addf4d4c5b3987defc6fef98dc89d65b0108c1321d6a"
+    },
+    {
+      "file": "assets/ui/controls/primary-normal.png",
+      "sha256": "a2aa9afff3b9ef559a23ddef8d1b991691c09a609b7ea96b453c56c586b5f021"
+    },
+    {
+      "file": "assets/ui/controls/secondary-normal.png",
+      "sha256": "9ba4a890ce8dc82f27a3468a1b8aad4586920da8111a35bc63ad1b801c93bd3d"
+    },
+    {
+      "file": "assets/ui/runtime-kit/skins/item-normal.png",
+      "sha256": "f84bbdbcb369de5b6e725ad436be2334cc2ee53d17064587c09610d4d8d24094"
+    },
+    {
+      "file": "assets/ui/runtime-kit/skins/item-selected.png",
+      "sha256": "c9c5a05961ecead83ff998f429d0c4643bfd1f87a632ccdd7a9c6a4cc90a6870"
+    }
+  ]
+}

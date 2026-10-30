@@ -1,0 +1,55 @@
+{
+  "id": "daotong_moon_win",
+  "kind": "costume_pose",
+  "file": "assets/characters/daotong/costumes/moon-poses/win.png",
+  "record": "assets/characters/daotong/costumes/moon-poses/win.derivation.json",
+  "width": 1024,
+  "height": 1024,
+  "anchor": [
+    512,
+    920
+  ],
+  "sha256": "d5732ebd514bf5c52071eaa1522c0891908de5a081f39f97d0ce296b68ad6503",
+  "route": "derived",
+  "noUpscale": true,
+  "fixedScale": 0.665282392026578,
+  "sourceRect": [
+    104,
+    23,
+    1195,
+    1239
+  ],
+  "sourceAnchor": [
+    649.5,
+    1233
+  ],
+  "offset": [
+    149,
+    115
+  ],
+  "registration": "match the skin-master significant body height; feet anchored at512,920; per-source uniform downscale only",
+  "operation": "significant-alpha crop plus6px, premultiplied-alpha Lanczos downscale, foot-anchor registration; independent generated pose still",
+  "derivedFrom": [
+    {
+      "file": "designs/characters/costume-poses-20261029/moon-win-v1.png",
+      "sha256": "f7d4728630e3b69af708b1bbab360373f768d0320692e20a5480c9ee1f83d574",
+      "record": "designs/characters/costume-poses-20261029/moon-win-v1.generation.json"
+    }
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "edgeAlphaMax": 0,
+  "status": "passed_offline_art_review",
+  "recordedAt": "2026-10-30T04:34:57.557272+00:00",
+  "visualReview": {
+    "method": "actual imagegen returns plus light/dark five-costume master-win-lose contact inspected",
+    "passed": true,
+    "reviewedAt": "2026-10-30T05:04:57.705149+00:00",
+    "bodyHeight": 801,
+    "masterBodyHeight": 801,
+    "edgeAlphaMax": 0,
+    "footAnchorError": 0
+  }
+}

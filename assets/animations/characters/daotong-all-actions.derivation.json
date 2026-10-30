@@ -1,0 +1,159 @@
+{
+  "file": "assets/animations/characters/daotong-all-actions.webp",
+  "sha256": "21c0e9e87a9c3254f60424690535f2496513f963531403ee167416270febf94d",
+  "format": "animated WebP",
+  "frameSize": [
+    160,
+    200
+  ],
+  "requestedFrameCount": 80,
+  "durationMs": 7840,
+  "requestedDurationsMs": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    120,
+    80,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    120,
+    120,
+    120,
+    120,
+    120,
+    80,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    120,
+    120,
+    120,
+    120
+  ],
+  "segments": [
+    {
+      "action": "idle",
+      "startMs": 0,
+      "durationMs": 1600,
+      "clip": "assets/animations/characters/daotong_idle.json"
+    },
+    {
+      "action": "think",
+      "startMs": 1600,
+      "durationMs": 1920,
+      "clip": "assets/animations/characters/daotong_think.json"
+    },
+    {
+      "action": "play",
+      "startMs": 3520,
+      "durationMs": 960,
+      "clip": "assets/animations/characters/daotong_play.json"
+    },
+    {
+      "action": "win",
+      "startMs": 4480,
+      "durationMs": 1680,
+      "clip": "assets/animations/characters/daotong_win.json"
+    },
+    {
+      "action": "lose",
+      "startMs": 6160,
+      "durationMs": 1680,
+      "clip": "assets/animations/characters/daotong_lose.json"
+    }
+  ],
+  "operation": "Lossy quality65 animated preview of CPU-rendered existing-art frames; alpha retained; PNG sheets are authoritative",
+  "derivedFrom": [
+    {
+      "file": "assets/animations/characters/daotong_idle.png",
+      "sha256": "3c9a0b82e70c8f92bdbd5303a64c4bfa312497d6b1850a55a4850acb068313cb"
+    },
+    {
+      "file": "assets/animations/characters/daotong_think.png",
+      "sha256": "ef7ef46d2c3b725f2b62c714a44240d1151b6859dcf7ca7044873033f5119eec"
+    },
+    {
+      "file": "assets/animations/characters/daotong_play.png",
+      "sha256": "fd1b54f724ac01cf32e41a71940d846188796918d826cebdc93128c9264cd247"
+    },
+    {
+      "file": "assets/animations/characters/daotong_win.png",
+      "sha256": "12e96cbb1c7b64a9ce727a416963fe214d591ee624ce869a581c76ce591a1f28"
+    },
+    {
+      "file": "assets/animations/characters/daotong_lose.png",
+      "sha256": "24c22547d4ffcb22b82b95c12d9880892cf6fd747ca06902e8e8297ca6da4c56"
+    }
+  ],
+  "createdAt": "2026-10-26T19:14:06.071617+00:00",
+  "reviewStatus": "passed_decode_all_frames_and_exact_duration_check",
+  "decoded": {
+    "actor": "daotong",
+    "file": "assets/animations/characters/daotong-all-actions.webp",
+    "decodedFrames": 68,
+    "durationMs": 7840,
+    "alphaPresent": true,
+    "sha256": "21c0e9e87a9c3254f60424690535f2496513f963531403ee167416270febf94d",
+    "note": "WebP encoder may merge identical adjacent frames while preserving total time."
+  }
+}

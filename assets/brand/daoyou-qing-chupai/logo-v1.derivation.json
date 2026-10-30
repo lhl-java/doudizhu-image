@@ -1,0 +1,18 @@
+{
+  "file": "assets/brand/daoyou-qing-chupai/logo-v1.png",
+  "sha256": "a02b199821c32f5b3fbdcb1f7fcfdbc3ad6ca3b79fb58bb0e52010ad1dc1ad7c",
+  "width": 1902,
+  "height": 1015,
+  "format": "PNG",
+  "pixelMode": "RGBA",
+  "route": "derived",
+  "operation": "Add64px transparent border on all four sides; paste exact native RGBA pixels 1:1; no resize or repaint.",
+  "noUpscale": true,
+  "derivedFrom": [
+    {
+      "file": "assets/brand/daoyou-qing-chupai/logo-native-v1.png",
+      "sha256": "38c75bc085a667189b880d01c6a82a56d2e8d4968500d9dcdec9102cd464f52b",
+      "record": "assets/brand/daoyou-qing-chupai/logo-native-v1.generation.json"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "durationMs": 900,
+  "loop": false,
+  "blend": "screen",
+  "event": "rocket_played",
+  "keyframes": [
+    {
+      "atMs": 0,
+      "alpha": 0,
+      "scale": 0.55,
+      "x": 0,
+      "y": 0.28,
+      "rotation": 0
+    },
+    {
+      "atMs": 100,
+      "alpha": 1,
+      "scale": 0.72,
+      "x": 0,
+      "y": 0.18,
+      "rotation": 0
+    },
+    {
+      "atMs": 500,
+      "alpha": 1,
+      "scale": 1,
+      "x": 0,
+      "y": -0.12,
+      "rotation": 0
+    },
+    {
+      "atMs": 900,
+      "alpha": 0,
+      "scale": 0.7,
+      "x": 0,
+      "y": -0.3,
+      "rotation": 0
+    }
+  ],
+  "interpolation": "linear",
+  "translationUnit": "fraction-of-384px-frame",
+  "stopEvent": null,
+  "kind": "fx",
+  "anchor": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "id": "rocket-trail",
+  "file": "assets/fx/rocket-trail.png",
+  "record": "assets/fx/rocket-trail.png.generation.json",
+  "width": 512,
+  "height": 512,
+  "z": 80,
+  "sourceNativeCell": {
+    "width": 512,
+    "height": 512
+  },
+  "staticSource": true,
+  "animationSource": "runtime transforms of generated static illustration, not AI video",
+  "maxDisplaySize": 384
+}

@@ -1,0 +1,78 @@
+{
+  "file": "assets/brand/title.png",
+  "sha256": "9a5db4179943c5deb0808ef7a61e595543084da77bad70f392851ebc54c0e64d",
+  "generatedAt": "2026-10-26T17:05:37.621762+00:00",
+  "generatedAtEvidence": "time recorded after tool return, not service internal timestamp",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "pixelMode": "RGBA",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据",
+  "prompt": "prompts/full-art/title.txt",
+  "promptSha256": "933d546b94ea9d8d9268495798450f3faf83f06b44eaa760de98557c5a8c143e",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "actually attached style/identity reference"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "actually attached style/identity reference"
+    },
+    {
+      "file": "designs/characters/characters-trio-v1.png",
+      "sha256": "0c4dda70d4e16715527ed243a8d3efc2a401be2f06326b49601d1b184e7165ac",
+      "role": "actually attached style/identity reference"
+    }
+  ],
+  "evidence": {
+    "hostOutputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a17714-4402-7063-9782-93f78261cb48\\exec-5f2b02c6-ce18-4d84-9b74-edc572c0036a.png",
+    "receipt": "assets/brand/title.receipt.json"
+  },
+  "nativeResolution": {
+    "width": 1774,
+    "height": 887
+  },
+  "operation": "byte-identical-copy-no-resize",
+  "visualQA": {
+    "status": "passed_for_art_review",
+    "findings": [
+      "已实际检查生成返回图：字形/人物/元素完整，沿用两张主图画法；标题有真实alpha，活动横幅无烘焙文字。"
+    ],
+    "inspectedAt": "2026-10-26T20:31:41.012672+00:00"
+  }
+}

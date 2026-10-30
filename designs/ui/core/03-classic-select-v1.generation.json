@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/ui/core/03-classic-select-v1.png",
+  "absolutePath": "D:\\work\\doudizhu-image\\designs\\ui\\core\\03-classic-select-v1.png",
+  "sha256": "80af01c640dc92242ce3f0b9ec3e5efdba758109a423cf0ace21ad2843cf624a",
+  "generatedAt": "2026-10-26T03:55:52-04:00",
+  "generatedAtEvidence": {
+    "isProxy": true,
+    "source": "caller-provided-response-received-at",
+    "explanation": "以调用方提供的工具返回接收时间代理生成完成时间；不是模型内部生成时间。"
+  },
+  "recordedAt": "2026-10-26T03:56:06.4886036-04:00",
+  "startedAtUtc": "2026-10-26T03:52:25-04:00",
+  "finishedAtUtc": "2026-10-26T03:55:52-04:00",
+  "width": 1932,
+  "height": 814,
+  "format": "PNG",
+  "nativeResolution": {
+    "width": 1932,
+    "height": 814
+  },
+  "exportResolution": {
+    "width": 1932,
+    "height": 814,
+    "operation": "byte-identical-copy-of-generated-output-no-resize-or-redraw"
+  },
+  "requestedResolution": {
+    "width": 2560,
+    "height": 1080,
+    "note": "提示词中的尺寸目标；内置工具无独立尺寸选择参数，实际尺寸以上方实测值为准。"
+  },
+  "transparency": {
+    "requestedTransparentBackground": false,
+    "sourcePixelFormat": "Format24bppRgb",
+    "hasAlphaChannel": false,
+    "hasNonOpaquePixels": false,
+    "fullyOpaque": true,
+    "inspectionMethod": "source-format-reports-no-alpha"
+  },
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "callId": null,
+  "resultId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\doudizhu-image\\designs\\ui\\lobby-ui-v1.png",
+      "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png"
+    ],
+    "prompt": "Use case: ui-mockup\nAsset type: 道家Q版高清手绘斗地主手游的一张独立完整横屏UI概念设计，2.37:1，目标2560×1080。画面为平直正视的游戏界面，无设备外壳。\nInput images: 图1邮件、图2组队是首要风格参考：深玉绿标题及按钮、暖米白纸绢、暖金细边、圆润如意云纹、精致可读中文。图3是本项目大厅首稿，只承接仙山庭院、道童形象、材质与控件比例，不复用错误的手持牌花色；图4为本项目三人角色首稿，保持人物五官发饰及服装同源。功能布局按以下新页面重做。\nStyle: 与参考一致的细腻二维手绘金玉与纸绢质感，柔和体积、清楚边缘。山水庭院背景低对比，主面板米白，标题与主按钮玉绿金边。金饰点到为止，文字区域留白充分，所有中文清晰对齐，安全边距3%。头像角色差异明确。\nConstraints: 只生成这一页和指定主状态。禁止多屏拼图、缩略页面、分镜、英文设计说明、水印、旧游戏名、腾讯品牌标志或额外品牌、写实人像、塑料玩具效果、噪点、模糊拉伸。所有元素完整在画内，人物不遮按钮和文字。使用原生细节，不要伪装放大效果。背景不透明。状态标记保存在外部文件，不在画面上印“首稿”等审阅文字。\nPage ID: 03-classic-select\nRendered state: 经典已选中\n页面：经典模式选择。顶部居中玉绿标题牌“经典模式”，左上返回箭头“返回”，右上小圆“规则”。主体米白纸绢面板中横向并排四张等宽玩法卡，标题依次“经典”“不洗牌”“癞子”“天地癞子”。每张以精致牌背组合、玉符或双色玉珠作装饰图标，避免复杂可错的扑克牌正面；前三者图标应各有区别，天地癞子为两枚玉符。第一张“经典”处于选中状态，深玉绿标题、轻浅玉绿底和细金选中边，右上小圆勾；其他卡米白底、暗绿标题。第一张简短说明“标准规则”，其余分别“牌型丰富”“百变组合”“双癞玩法”，这些短句与标题分层清楚。底部左方小字“已选择：经典”，右方一个大玉绿按钮“选择场次”。每张卡右下可有小信息圆点，但不增添文字段落。只表现当前选中经典这一种状态，不加弹窗或其他小屏。"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据。当前内置 image_gen.imagegen 接口没有 model、quality 选择器，配置只表示用户目标；不能据此声称实际锁定 GPT Image 2.5 Sunburst 或 max。未检查或验证 C2PA。",
+  "prompt": "prompts/core/03-classic-select-v1.txt",
+  "promptSha256": "46d35921e564a9cd462338904270f5c12cae30e0b064dca0ad120f45aa22bea2",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "邮件界面：面板、按钮、配色、材质、人物完成度",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": "references/style/manifest.json",
+      "manifestSha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "manifestHashMatched": true
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "组队界面：控件层级、留白、列表、头像与按钮状态",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": "references/style/manifest.json",
+      "manifestSha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "manifestHashMatched": true
+    },
+    {
+      "file": "designs/ui/lobby-ui-v1.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\designs\\ui\\lobby-ui-v1.png",
+      "sha256": "6fb7c972b11f32d0454b32e38a85d50cf571205201e257638c29ee9eeedb8e3b",
+      "role": "本项目初版支持参考：人物、材质、布局同源；尚未获用户批准",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": null,
+      "manifestSha256": null,
+      "manifestHashMatched": null
+    },
+    {
+      "file": "designs/characters/characters-trio-v1.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png",
+      "sha256": "0c4dda70d4e16715527ed243a8d3efc2a401be2f06326b49601d1b184e7165ac",
+      "role": "本项目初版支持参考：人物、材质、布局同源；尚未获用户批准",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": null,
+      "manifestSha256": null,
+      "manifestHashMatched": null
+    }
+  ],
+  "evidence": {
+    "receipt": "designs/ui/core/.production/receipts/03-classic-select-v1.receipt.json",
+    "receiptSha256": "caa69e2635d6584048e60ecaceb2d6ea107c16905ef0c87a8c33074d74c16ca8",
+    "returnedEvidence": {
+      "tool": "image_gen.imagegen",
+      "route": "builtin",
+      "invocationId": null,
+      "toolReturnKeys": [
+        "image_url",
+        "output_hint"
+      ],
+      "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1771a-2c53-7da1-9217-2d5e42c4d85e as C:\\Users\\luyua\\.codex\\generated_images\\01a1771a-2c53-7da1-9217-2d5e42c4d85e\\exec-6babe5ad-d9be-43b9-a873-dbe410734fb1.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "hostOutputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a1771a-2c53-7da1-9217-2d5e42c4d85e\\exec-6babe5ad-d9be-43b9-a873-dbe410734fb1.png",
+      "hostOutputFilenameIdentifier": "exec-6babe5ad-d9be-43b9-a873-dbe410734fb1",
+      "identifierMeaning": "宿主输出文件名标识，不冒认为模型调用ID",
+      "imagePayload": {
+        "field": "image_url",
+        "omittedFromReceipt": true
+      },
+      "toolReturnedModel": null,
+      "toolReturnedQuality": null,
+      "submittedArguments": {
+        "prompt": "Use case: ui-mockup\nAsset type: 道家Q版高清手绘斗地主手游的一张独立完整横屏UI概念设计，2.37:1，目标2560×1080。画面为平直正视的游戏界面，无设备外壳。\nInput images: 图1邮件、图2组队是首要风格参考：深玉绿标题及按钮、暖米白纸绢、暖金细边、圆润如意云纹、精致可读中文。图3是本项目大厅首稿，只承接仙山庭院、道童形象、材质与控件比例，不复用错误的手持牌花色；图4为本项目三人角色首稿，保持人物五官发饰及服装同源。功能布局按以下新页面重做。\nStyle: 与参考一致的细腻二维手绘金玉与纸绢质感，柔和体积、清楚边缘。山水庭院背景低对比，主面板米白，标题与主按钮玉绿金边。金饰点到为止，文字区域留白充分，所有中文清晰对齐，安全边距3%。头像角色差异明确。\nConstraints: 只生成这一页和指定主状态。禁止多屏拼图、缩略页面、分镜、英文设计说明、水印、旧游戏名、腾讯品牌标志或额外品牌、写实人像、塑料玩具效果、噪点、模糊拉伸。所有元素完整在画内，人物不遮按钮和文字。使用原生细节，不要伪装放大效果。背景不透明。状态标记保存在外部文件，不在画面上印“首稿”等审阅文字。\nPage ID: 03-classic-select\nRendered state: 经典已选中\n页面：经典模式选择。顶部居中玉绿标题牌“经典模式”，左上返回箭头“返回”，右上小圆“规则”。主体米白纸绢面板中横向并排四张等宽玩法卡，标题依次“经典”“不洗牌”“癞子”“天地癞子”。每张以精致牌背组合、玉符或双色玉珠作装饰图标，避免复杂可错的扑克牌正面；前三者图标应各有区别，天地癞子为两枚玉符。第一张“经典”处于选中状态，深玉绿标题、轻浅玉绿底和细金选中边，右上小圆勾；其他卡米白底、暗绿标题。第一张简短说明“标准规则”，其余分别“牌型丰富”“百变组合”“双癞玩法”，这些短句与标题分层清楚。底部左方小字“已选择：经典”，右方一个大玉绿按钮“选择场次”。每张卡右下可有小信息圆点，但不增添文字段落。只表现当前选中经典这一种状态，不加弹窗或其他小屏。",
+        "referenced_image_paths": [
+          "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+          "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+          "D:\\work\\doudizhu-image\\designs\\ui\\lobby-ui-v1.png",
+          "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png"
+        ],
+        "transparent_background": false
+      },
+      "startedAtUtc": "2026-10-26 07:52:25 UTC",
+      "receivedAtUtc": "2026-10-26 07:55:52 UTC"
+    },
+    "metadataInspection": "System.Drawing 只读检查实际尺寸、格式和透明度；未验证 C2PA，未从配置推断实际模型或质量。",
+    "rawFormatGuid": "b96b3caf-0728-11d3-9d7b-0000f81ef32e"
+  },
+  "status": "design_ready_user_review",
+  "visualQA": {
+    "userApproval": false,
+    "reviewer": "core_qa",
+    "image": "designs/ui/core/03-classic-select-v1.png",
+    "blockingIssues": [],
+    "inspectedAt": "2026-10-26T11:24:53.858275+00:00",
+    "status": "passed_for_design_review",
+    "imageSha256": "80af01c640dc92242ce3f0b9ec3e5efdba758109a423cf0ace21ad2843cf624a",
+    "findings": [
+      {
+        "severity": "pass",
+        "subject": "风格与布局",
+        "detail": "四张同规格米白玩法卡横向排列，玉绿标题、暖金细边及圆润云纹与参考一致；装饰未侵占中文区域。"
+      },
+      {
+        "severity": "pass",
+        "subject": "模式与选中态",
+        "detail": "经典、不洗牌、癞子、天地癞子四标题准确可读。经典卡浅玉绿底、金边高亮与勾选标识同时出现，下方已选择：经典提供文字确认。"
+      },
+      {
+        "severity": "pass",
+        "subject": "操作入口",
+        "detail": "返回、规则、选择场次均可见，下一步主按钮突出。"
+      },
+      {
+        "severity": "note",
+        "subject": "覆盖边界",
+        "detail": "本图只有选中状态。右上规则仅为入口，不证明规则提示弹窗已绘制；锁定状态亦未画。"
+      },
+      {
+        "severity": "note",
+        "subject": "说明文案",
+        "detail": "标准规则、牌型丰富、百变组合、双癞玩法为本项目概念说明，非腾讯当前规则的逐字记录。"
+      },
+      {
+        "severity": "pass",
+        "subject": "本轮逐张复核",
+        "detail": "四种玩法并列，经典卡高亮及勾选、已选择经典和选择场次相符；规则入口只证明入口。"
+      },
+      {
+        "severity": "note",
+        "subject": "状态覆盖",
+        "detail": "必需状态3项：主图可见1，共享视觉与原生文案设计2，仅说明0。共享态未另画整页，实际功能尚未接入。"
+      }
+    ],
+    "method": "view_image",
+    "previousInspection": {
+      "reviewer": "art_review",
+      "inspectedAt": "2026-10-26T03:57:02.5625516-04:00",
+      "status": "passed_for_design_review"
+    }
+  },
+  "pageId": "03-classic-select",
+  "userApproval": false
+}

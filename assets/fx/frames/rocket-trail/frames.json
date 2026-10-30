@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "id": "rocket-trail",
+  "kind": "derived_spriteframes",
+  "route": "derived",
+  "operation": "translate/rotate/scale/alpha generated static illustration onto fixed384RGBA canvas, no invented paint details",
+  "derivedFrom": [
+    {
+      "file": "assets/fx/rocket-trail.png",
+      "sha256": "e3e81846329d8e00df32c3ad20b826e8a2c32135533ac96b1350f0b50f556edb",
+      "record": "assets/fx/rocket-trail.png.generation.json",
+      "role": "runtime FX static sprite"
+    }
+  ],
+  "timeline": "assets/fx/rocket-trail.timeline.json",
+  "durationMs": 900,
+  "loop": false,
+  "blend": "screen",
+  "event": "rocket_played",
+  "anchor": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "frames": [
+    {
+      "file": "assets/fx/frames/rocket-trail/000.png",
+      "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+      "atMs": 0,
+      "durationMs": 60,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.0,
+        "scale": 0.55,
+        "x": 0.0,
+        "y": 0.28,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/rocket-trail/001.png",
+      "sha256": "9f8bdc593b4f6747fb2434161e8928ab8cf1e34f72740e4ac8075332e753bfcb",
+      "atMs": 60,
+      "durationMs": 60,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.6,
+        "scale": 0.652,
+        "x": 0.0,
+        "y": 0.22,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/rocket-trail/002.png",
+      "sha256": "bd6f1f35258c4ed7f489638d86d179fdf4c6918c4d1113ac9b9b8e93f950708e",
+      "atMs": 120,
+      "durationMs": 60,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 1.0,
+        "scale": 0.734,
+        "x": 0.0,
+        "y": 0.16499999999999998,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/rocket-trail/003.png",
+      "sha256": "834ade69bde0be09a902cc572f5a86bd2a9eb6f6b5a43f04618868a362d57000",
+      "atMs": 180,
+      "durationMs": 60,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 1.0,
+        "scale": 0.776,
+        "x": 0.0,
+        "y": 0.12,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/rocket-trail/004.png",
+      "sha256": "1beb54a2f80dbdb51c98b7665fbbf06271d59e1913489ad7782721c47b4fe00f",
+      "atMs": 240,
+      "durationMs": 60,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 1.0,
+        "scale": 0.818,
+        "x": 0.0,
+        "y": 0.075,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/rocket-trail/005.png",
+      "sha256": "bf50b2246e53b5dd58aac7db35d1907364e9bcdd12e44418aaa0f90a0854d2f5",
+      "atMs": 300,
+      "durationMs": 60,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 1.0,
+        "scale": 0.86,
+        "x": 0.0,
+        "y": 0.03,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/rocket-trail/006.png",
+      "sha256": "38d1e5e6ab2b18008c82eb023b203132ff429d0bc63328dddaf11a1606066453",
+      "atMs": 360,
+      "durationMs": 60,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 1.0,
+        "scale": 0.902,
+        "x": 0.0,
+        "y": -0.015000000000000013,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/rocket-trail/007.png",
+      "sha256": "99a368c0c98ccd2368d37322f30dc5da844c21c2d820169aba6958feed525559",
+      "atMs": 420,
+      "durationMs": 60,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 1.0,
+        "scale": 0.944,
+        "x": 0.0,
+        "y": -0.06,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/rocket-trail/008.png",
+      "sha256": "cc07650dca03c3b93fd872130551ac8eb584f427eaf1c1e0cd2ed4b85b16e754",
+      "atMs": 480,
+      "durationMs": 60,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 1.0,
+        "scale": 0.986,
+        "x": 0.0,
+        "y": -0.10499999999999998,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/rocket-trail/009.png",
+      "sha256": "e203675eb030275fb3bb990009e7f71923b175e64c03852ddc95db31a90be36f",
+      "atMs": 540,
+      "durationMs": 60,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.9,
+        "scale": 0.97,
+        "x": 0.0,
+        "y": -0.13799999999999998,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/rocket-trail/010.png",
+      "sha256": "7d81a557b7af274139732cf4dd3856ee73c97c3a676517860046ffd044aef070",
+      "atMs": 600,
+      "durationMs": 60,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.75,
+        "scale": 0.925,
+        "x": 0.0,
+        "y": -0.16499999999999998,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/rocket-trail/011.png",
+      "sha256": "2dfaefd0ecffa35c954f9ef2291ecf560529668d28d895b4113e5b84a7454516",
+      "atMs": 660,
+      "durationMs": 60,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.6,
+        "scale": 0.88,
+        "x": 0.0,
+        "y": -0.192,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/rocket-trail/012.png",
+      "sha256": "7887aad6961ecf7b66306668a3c1e4ed60791da89e1f05acb040e2357ce27c37",
+      "atMs": 720,
+      "durationMs": 60,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.44999999999999996,
+        "scale": 0.835,
+        "x": 0.0,
+        "y": -0.219,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/rocket-trail/013.png",
+      "sha256": "6a7c297147c2ab12efe71bf82d339480079be00134bc526f4cb5f0916c6bd304",
+      "atMs": 780,
+      "durationMs": 60,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.30000000000000004,
+        "scale": 0.79,
+        "x": 0.0,
+        "y": -0.246,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/rocket-trail/014.png",
+      "sha256": "858cae5da895e0f715b9370d85db819a5807e22eb9f776de1d7bfd59ac70b267",
+      "atMs": 840,
+      "durationMs": 60,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.15000000000000002,
+        "scale": 0.745,
+        "x": 0.0,
+        "y": -0.273,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/rocket-trail/015.png",
+      "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+      "atMs": 900,
+      "durationMs": 1,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.0,
+        "scale": 0.7,
+        "x": 0.0,
+        "y": -0.3,
+        "rotation": 0.0
+      }
+    }
+  ],
+  "bakedPlaybackDurationMs": 901,
+  "timelineDurationMs": 900,
+  "terminalSentinelMs": 1,
+  "onComplete": "hide-and-release",
+  "status": "derived_animation_ready_user_review"
+}

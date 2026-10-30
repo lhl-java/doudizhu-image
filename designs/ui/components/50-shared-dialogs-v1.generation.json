@@ -1,0 +1,69 @@
+{
+  "file": "designs/ui/components/50-shared-dialogs-v1.png",
+  "sha256": "45d20f3f85aa8fd8133b8665f1962f8d7e7b06a7cf3b7d41799837cf689598f7",
+  "generatedAt": "2026-10-26T03:48:59.032039-04:00",
+  "generatedAtEvidence": "recorded after tool completion; service internal timestamp not disclosed",
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "nativeResolution": {
+    "width": 1672,
+    "height": 941
+  },
+  "exportOperation": "byte-identical-copy-no-resize",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据",
+  "evidence": {
+    "hostOutputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a17714-4402-7063-9782-93f78261cb48\\exec-30fcba99-0a29-4038-b59d-a8c8bef71ab5.png",
+    "toolReceipt": "designs\\ui\\components\\50-shared-dialogs-v1.receipt.json"
+  },
+  "prompt": "prompts/components/50-shared-dialogs-v1.txt",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "user-confirmed-primary-style"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "user-confirmed-primary-style"
+    }
+  ],
+  "pixelMode": "RGB",
+  "alphaExtrema": null,
+  "status": "design_ready_user_review",
+  "visualQA": {
+    "status": "passed_with_documented_limits",
+    "findings": [
+      "已看图：六类弹窗主体、文字、按钮完整。",
+      "1672×941原生RGB；成品皮肤可依赖51透明panel，未虚称本图透明。"
+    ]
+  }
+}

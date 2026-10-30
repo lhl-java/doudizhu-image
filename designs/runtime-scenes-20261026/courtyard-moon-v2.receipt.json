@@ -1,0 +1,11 @@
+{
+  "tool": "image_gen.imagegen",
+  "toolReturnedKeys": [
+    "image_url",
+    "output_hint"
+  ],
+  "hostOutputFile": "C:/Users/luyua/.codex/generated_images/01a17714-4402-7063-9782-93f78261cb48/exec-2a840c89-c3f0-4358-b81b-7391217a5bef.png",
+  "returnObservedAt": "2026-10-28T08:08:55.905333+00:00",
+  "actualModel": null,
+  "actualQuality": null
+}

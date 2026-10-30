@@ -1,0 +1,563 @@
+{
+  "schemaVersion": 1,
+  "status": "passed_offline_art_review",
+  "assets": [
+    {
+      "id": "daotong_spring_win",
+      "kind": "costume_pose",
+      "file": "assets/characters/daotong/costumes/spring-poses/win.png",
+      "record": "assets/characters/daotong/costumes/spring-poses/win.derivation.json",
+      "width": 1024,
+      "height": 1024,
+      "anchor": [
+        512,
+        920
+      ],
+      "sha256": "a3522ff28f498746c31f38b3b3efe6d5c6c6711e86c55be1effd4cce4cb55ab4",
+      "route": "derived",
+      "noUpscale": true,
+      "fixedScale": 0.6438906752411575,
+      "sourceRect": [
+        60,
+        12,
+        1204,
+        1268
+      ],
+      "sourceAnchor": [
+        632.0,
+        1262
+      ],
+      "offset": [
+        144,
+        115
+      ],
+      "registration": "match the skin-master significant body height; feet anchored at512,920; per-source uniform downscale only",
+      "operation": "significant-alpha crop plus6px, premultiplied-alpha Lanczos downscale, foot-anchor registration; independent generated pose still",
+      "derivedFrom": [
+        {
+          "file": "designs/characters/costume-poses-20261029/spring-win-v1.png",
+          "sha256": "f0a85ec4c1833ddf4e26d25d1ab14cf880b800570e53fc62904fd17cebf69787",
+          "record": "designs/characters/costume-poses-20261029/spring-win-v1.generation.json"
+        }
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaMax": 0,
+      "status": "passed_offline_art_review",
+      "recordedAt": "2026-10-30T04:34:56.671186+00:00",
+      "visualReview": {
+        "method": "actual imagegen returns plus light/dark five-costume master-win-lose contact inspected",
+        "passed": true,
+        "reviewedAt": "2026-10-30T05:04:57.573990+00:00",
+        "bodyHeight": 801,
+        "masterBodyHeight": 801,
+        "edgeAlphaMax": 0,
+        "footAnchorError": 0
+      }
+    },
+    {
+      "id": "daotong_spring_lose",
+      "kind": "costume_pose",
+      "file": "assets/characters/daotong/costumes/spring-poses/lose.png",
+      "record": "assets/characters/daotong/costumes/spring-poses/lose.derivation.json",
+      "width": 1024,
+      "height": 1024,
+      "anchor": [
+        512,
+        920
+      ],
+      "sha256": "2daae8f4ece668d4b10fb4ade70bbe86f4af423f8f4b564d73dcbeda271c4874",
+      "route": "derived",
+      "noUpscale": true,
+      "fixedScale": 0.6971279373368147,
+      "sourceRect": [
+        154,
+        59,
+        1142,
+        1220
+      ],
+      "sourceAnchor": [
+        648.0,
+        1214
+      ],
+      "offset": [
+        168,
+        115
+      ],
+      "registration": "match the skin-master significant body height; feet anchored at512,920; per-source uniform downscale only",
+      "operation": "significant-alpha crop plus6px, premultiplied-alpha Lanczos downscale, foot-anchor registration; independent generated pose still",
+      "derivedFrom": [
+        {
+          "file": "designs/characters/costume-poses-20261029/spring-lose-v1.png",
+          "sha256": "65ec7d8848bab28895dd2360aa4dd4ffcc8c6b154bc29de67462361e367a8ab9",
+          "record": "designs/characters/costume-poses-20261029/spring-lose-v1.generation.json"
+        }
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaMax": 0,
+      "status": "passed_offline_art_review",
+      "recordedAt": "2026-10-30T04:34:56.769115+00:00",
+      "visualReview": {
+        "method": "actual imagegen returns plus light/dark five-costume master-win-lose contact inspected",
+        "passed": true,
+        "reviewedAt": "2026-10-30T05:04:57.604533+00:00",
+        "bodyHeight": 801,
+        "masterBodyHeight": 801,
+        "edgeAlphaMax": 0,
+        "footAnchorError": 0
+      }
+    },
+    {
+      "id": "daotong_ink_win",
+      "kind": "costume_pose",
+      "file": "assets/characters/daotong/costumes/ink-poses/win.png",
+      "record": "assets/characters/daotong/costumes/ink-poses/win.derivation.json",
+      "width": 1024,
+      "height": 1024,
+      "anchor": [
+        512,
+        920
+      ],
+      "sha256": "a7e26616615c9c6ccc50abc6587abae5983143c0bc4a257a2ff77647ae918823",
+      "route": "derived",
+      "noUpscale": true,
+      "fixedScale": 0.6527777777777778,
+      "sourceRect": [
+        92,
+        6,
+        1182,
+        1242
+      ],
+      "sourceAnchor": [
+        637.0,
+        1236
+      ],
+      "offset": [
+        156,
+        117
+      ],
+      "registration": "match the skin-master significant body height; feet anchored at512,920; per-source uniform downscale only",
+      "operation": "significant-alpha crop plus6px, premultiplied-alpha Lanczos downscale, foot-anchor registration; independent generated pose still",
+      "derivedFrom": [
+        {
+          "file": "designs/characters/costume-poses-20261029/ink-win-v1.png",
+          "sha256": "c0ca516b325ca39cd2e396aad7cfa108a3fd9faf8dc65409c8b428f46aea5bdd",
+          "record": "designs/characters/costume-poses-20261029/ink-win-v1.generation.json"
+        }
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaMax": 0,
+      "status": "passed_offline_art_review",
+      "recordedAt": "2026-10-30T04:34:57.135843+00:00",
+      "visualReview": {
+        "method": "actual imagegen returns plus light/dark five-costume master-win-lose contact inspected",
+        "passed": true,
+        "reviewedAt": "2026-10-30T05:04:57.636978+00:00",
+        "bodyHeight": 799,
+        "masterBodyHeight": 799,
+        "edgeAlphaMax": 0,
+        "footAnchorError": 0
+      }
+    },
+    {
+      "id": "daotong_ink_lose",
+      "kind": "costume_pose",
+      "file": "assets/characters/daotong/costumes/ink-poses/lose.png",
+      "record": "assets/characters/daotong/costumes/ink-poses/lose.derivation.json",
+      "width": 1024,
+      "height": 1024,
+      "anchor": [
+        512,
+        920
+      ],
+      "sha256": "15dcb261972807c0b05cdfd7ad0acb202f371a96eec3171b147b26b59956137c",
+      "route": "derived",
+      "noUpscale": true,
+      "fixedScale": 0.6754015215553677,
+      "sourceRect": [
+        144,
+        46,
+        1155,
+        1241
+      ],
+      "sourceAnchor": [
+        649.5,
+        1235
+      ],
+      "offset": [
+        171,
+        117
+      ],
+      "registration": "match the skin-master significant body height; feet anchored at512,920; per-source uniform downscale only",
+      "operation": "significant-alpha crop plus6px, premultiplied-alpha Lanczos downscale, foot-anchor registration; independent generated pose still",
+      "derivedFrom": [
+        {
+          "file": "designs/characters/costume-poses-20261029/ink-lose-v1.png",
+          "sha256": "90abaaaab872bd96744bfbe34b74d9f1603618bdfcdd61cbe4a0c2203313ad98",
+          "record": "designs/characters/costume-poses-20261029/ink-lose-v1.generation.json"
+        }
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaMax": 0,
+      "status": "passed_offline_art_review",
+      "recordedAt": "2026-10-30T04:34:57.230701+00:00",
+      "visualReview": {
+        "method": "actual imagegen returns plus light/dark five-costume master-win-lose contact inspected",
+        "passed": true,
+        "reviewedAt": "2026-10-30T05:04:57.668486+00:00",
+        "bodyHeight": 799,
+        "masterBodyHeight": 799,
+        "edgeAlphaMax": 0,
+        "footAnchorError": 0
+      }
+    },
+    {
+      "id": "daotong_moon_win",
+      "kind": "costume_pose",
+      "file": "assets/characters/daotong/costumes/moon-poses/win.png",
+      "record": "assets/characters/daotong/costumes/moon-poses/win.derivation.json",
+      "width": 1024,
+      "height": 1024,
+      "anchor": [
+        512,
+        920
+      ],
+      "sha256": "d5732ebd514bf5c52071eaa1522c0891908de5a081f39f97d0ce296b68ad6503",
+      "route": "derived",
+      "noUpscale": true,
+      "fixedScale": 0.665282392026578,
+      "sourceRect": [
+        104,
+        23,
+        1195,
+        1239
+      ],
+      "sourceAnchor": [
+        649.5,
+        1233
+      ],
+      "offset": [
+        149,
+        115
+      ],
+      "registration": "match the skin-master significant body height; feet anchored at512,920; per-source uniform downscale only",
+      "operation": "significant-alpha crop plus6px, premultiplied-alpha Lanczos downscale, foot-anchor registration; independent generated pose still",
+      "derivedFrom": [
+        {
+          "file": "designs/characters/costume-poses-20261029/moon-win-v1.png",
+          "sha256": "f7d4728630e3b69af708b1bbab360373f768d0320692e20a5480c9ee1f83d574",
+          "record": "designs/characters/costume-poses-20261029/moon-win-v1.generation.json"
+        }
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaMax": 0,
+      "status": "passed_offline_art_review",
+      "recordedAt": "2026-10-30T04:34:57.557272+00:00",
+      "visualReview": {
+        "method": "actual imagegen returns plus light/dark five-costume master-win-lose contact inspected",
+        "passed": true,
+        "reviewedAt": "2026-10-30T05:04:57.705149+00:00",
+        "bodyHeight": 801,
+        "masterBodyHeight": 801,
+        "edgeAlphaMax": 0,
+        "footAnchorError": 0
+      }
+    },
+    {
+      "id": "daotong_moon_lose",
+      "kind": "costume_pose",
+      "file": "assets/characters/daotong/costumes/moon-poses/lose.png",
+      "record": "assets/characters/daotong/costumes/moon-poses/lose.derivation.json",
+      "width": 1024,
+      "height": 1024,
+      "anchor": [
+        512,
+        920
+      ],
+      "sha256": "91904040ed7452f5ea3ee7b2749bfa8a9d15d0d4f5ebe3d8486204adf3d2ff21",
+      "route": "derived",
+      "noUpscale": true,
+      "fixedScale": 0.638755980861244,
+      "sourceRect": [
+        82,
+        31,
+        1146,
+        1297
+      ],
+      "sourceAnchor": [
+        614.0,
+        1291
+      ],
+      "offset": [
+        172,
+        115
+      ],
+      "registration": "match the skin-master significant body height; feet anchored at512,920; per-source uniform downscale only",
+      "operation": "significant-alpha crop plus6px, premultiplied-alpha Lanczos downscale, foot-anchor registration; independent generated pose still",
+      "derivedFrom": [
+        {
+          "file": "designs/characters/costume-poses-20261029/moon-lose-v1.png",
+          "sha256": "8d3aea97e6234a4c490ad76f5d08675ac7c358f8f2c0e94d1a89d633b1835090",
+          "record": "designs/characters/costume-poses-20261029/moon-lose-v1.generation.json"
+        }
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaMax": 0,
+      "status": "passed_offline_art_review",
+      "recordedAt": "2026-10-30T04:34:57.655627+00:00",
+      "visualReview": {
+        "method": "actual imagegen returns plus light/dark five-costume master-win-lose contact inspected",
+        "passed": true,
+        "reviewedAt": "2026-10-30T05:04:57.740215+00:00",
+        "bodyHeight": 801,
+        "masterBodyHeight": 801,
+        "edgeAlphaMax": 0,
+        "footAnchorError": 0
+      }
+    },
+    {
+      "id": "daotong_snow_win",
+      "kind": "costume_pose",
+      "file": "assets/characters/daotong/costumes/snow-poses/win.png",
+      "record": "assets/characters/daotong/costumes/snow-poses/win.derivation.json",
+      "width": 1024,
+      "height": 1024,
+      "anchor": [
+        512,
+        920
+      ],
+      "sha256": "a60b085659fc5fb127e24d36d65f117e96b594ee7a3cebfbb2ae16814341e6a6",
+      "route": "derived",
+      "noUpscale": true,
+      "fixedScale": 0.6666666666666666,
+      "sourceRect": [
+        88,
+        26,
+        1196,
+        1238
+      ],
+      "sourceAnchor": [
+        642.0,
+        1232
+      ],
+      "offset": [
+        143,
+        116
+      ],
+      "registration": "match the skin-master significant body height; feet anchored at512,920; per-source uniform downscale only",
+      "operation": "significant-alpha crop plus6px, premultiplied-alpha Lanczos downscale, foot-anchor registration; independent generated pose still",
+      "derivedFrom": [
+        {
+          "file": "designs/characters/costume-poses-20261029/snow-win-v1.png",
+          "sha256": "750f59c0a3fed1bb681c362f287ca347055158a52f5e7cf38f892ee4f0cc8fb9",
+          "record": "designs/characters/costume-poses-20261029/snow-win-v1.generation.json"
+        }
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaMax": 0,
+      "status": "passed_offline_art_review",
+      "recordedAt": "2026-10-30T04:34:57.997612+00:00",
+      "visualReview": {
+        "method": "actual imagegen returns plus light/dark five-costume master-win-lose contact inspected",
+        "passed": true,
+        "reviewedAt": "2026-10-30T05:04:57.770316+00:00",
+        "bodyHeight": 800,
+        "masterBodyHeight": 800,
+        "edgeAlphaMax": 0,
+        "footAnchorError": 0
+      }
+    },
+    {
+      "id": "daotong_snow_lose",
+      "kind": "costume_pose",
+      "file": "assets/characters/daotong/costumes/snow-poses/lose.png",
+      "record": "assets/characters/daotong/costumes/snow-poses/lose.derivation.json",
+      "width": 1024,
+      "height": 1024,
+      "anchor": [
+        512,
+        920
+      ],
+      "sha256": "bab87bc6880ce89d39ddc3eabc24fe6dca8aac947978f518f5d31d37c73e1d48",
+      "route": "derived",
+      "noUpscale": true,
+      "fixedScale": 0.6389776357827476,
+      "sourceRect": [
+        95,
+        28,
+        1163,
+        1292
+      ],
+      "sourceAnchor": [
+        629.0,
+        1286
+      ],
+      "offset": [
+        171,
+        116
+      ],
+      "registration": "match the skin-master significant body height; feet anchored at512,920; per-source uniform downscale only",
+      "operation": "significant-alpha crop plus6px, premultiplied-alpha Lanczos downscale, foot-anchor registration; independent generated pose still",
+      "derivedFrom": [
+        {
+          "file": "designs/characters/costume-poses-20261029/snow-lose-v1.png",
+          "sha256": "d6a322c7ed1d7c0af85069aab8e967469d1319d9c8669477255da0c0e168ac32",
+          "record": "designs/characters/costume-poses-20261029/snow-lose-v1.generation.json"
+        }
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaMax": 0,
+      "status": "passed_offline_art_review",
+      "recordedAt": "2026-10-30T04:34:58.096791+00:00",
+      "visualReview": {
+        "method": "actual imagegen returns plus light/dark five-costume master-win-lose contact inspected",
+        "passed": true,
+        "reviewedAt": "2026-10-30T05:04:57.799091+00:00",
+        "bodyHeight": 800,
+        "masterBodyHeight": 800,
+        "edgeAlphaMax": 0,
+        "footAnchorError": 0
+      }
+    },
+    {
+      "id": "daotong_festival_win",
+      "kind": "costume_pose",
+      "file": "assets/characters/daotong/costumes/festival-poses/win.png",
+      "record": "assets/characters/daotong/costumes/festival-poses/win.derivation.json",
+      "width": 1024,
+      "height": 1024,
+      "anchor": [
+        512,
+        920
+      ],
+      "sha256": "bb23de87650487d143cc2d3641cc13b54afa01a2cbf8bc825ea8df442457c636",
+      "route": "derived",
+      "noUpscale": true,
+      "fixedScale": 0.6655574043261231,
+      "sourceRect": [
+        115,
+        16,
+        1161,
+        1230
+      ],
+      "sourceAnchor": [
+        638.0,
+        1224
+      ],
+      "offset": [
+        164,
+        116
+      ],
+      "registration": "match the skin-master significant body height; feet anchored at512,920; per-source uniform downscale only",
+      "operation": "significant-alpha crop plus6px, premultiplied-alpha Lanczos downscale, foot-anchor registration; independent generated pose still",
+      "derivedFrom": [
+        {
+          "file": "designs/characters/costume-poses-20261029/festival-win-v1.png",
+          "sha256": "7b0794a371d282f6cb537f7f1dd26ccb33364b1ffa060bc1a8ddbcae56baff64",
+          "record": "designs/characters/costume-poses-20261029/festival-win-v1.generation.json"
+        }
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaMax": 0,
+      "status": "passed_offline_art_review",
+      "recordedAt": "2026-10-30T04:34:58.419023+00:00",
+      "visualReview": {
+        "method": "actual imagegen returns plus light/dark five-costume master-win-lose contact inspected",
+        "passed": true,
+        "reviewedAt": "2026-10-30T05:04:57.829133+00:00",
+        "bodyHeight": 800,
+        "masterBodyHeight": 800,
+        "edgeAlphaMax": 0,
+        "footAnchorError": 0
+      }
+    },
+    {
+      "id": "daotong_festival_lose",
+      "kind": "costume_pose",
+      "file": "assets/characters/daotong/costumes/festival-poses/lose.png",
+      "record": "assets/characters/daotong/costumes/festival-poses/lose.derivation.json",
+      "width": 1024,
+      "height": 1024,
+      "anchor": [
+        512,
+        920
+      ],
+      "sha256": "709656d0bcdeb796db88fe3937b1e63197871683b7b2f950ec75f1dadf5996bb",
+      "route": "derived",
+      "noUpscale": true,
+      "fixedScale": 0.6611570247933884,
+      "sourceRect": [
+        90,
+        38,
+        1159,
+        1260
+      ],
+      "sourceAnchor": [
+        624.5,
+        1254
+      ],
+      "offset": [
+        159,
+        116
+      ],
+      "registration": "match the skin-master significant body height; feet anchored at512,920; per-source uniform downscale only",
+      "operation": "significant-alpha crop plus6px, premultiplied-alpha Lanczos downscale, foot-anchor registration; independent generated pose still",
+      "derivedFrom": [
+        {
+          "file": "designs/characters/costume-poses-20261029/festival-lose-v1.png",
+          "sha256": "cc4e8920aac3a919c771fc935669db11752fc9d771d8044bbea44087cf07e7dc",
+          "record": "designs/characters/costume-poses-20261029/festival-lose-v1.generation.json"
+        }
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaMax": 0,
+      "status": "passed_offline_art_review",
+      "recordedAt": "2026-10-30T04:34:58.519815+00:00",
+      "visualReview": {
+        "method": "actual imagegen returns plus light/dark five-costume master-win-lose contact inspected",
+        "passed": true,
+        "reviewedAt": "2026-10-30T05:04:57.861036+00:00",
+        "bodyHeight": 800,
+        "masterBodyHeight": 800,
+        "edgeAlphaMax": 0,
+        "footAnchorError": 0
+      }
+    }
+  ],
+  "counts": {
+    "costumes": 5,
+    "independentPoses": 10
+  },
+  "animationKind": "independent still poses plus 2D keyframes",
+  "wholeGameArtComplete": false,
+  "reviewContact": "assets/characters/review/costume-poses-light-dark.png"
+}

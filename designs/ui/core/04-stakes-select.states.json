@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 2,
+  "pageId": "04-stakes-select",
+  "title": "场次选择",
+  "scopeSource": "docs/UI_SCOPE.json",
+  "scopeControls": [
+    "新手",
+    "初级",
+    "中级",
+    "高级",
+    "底分",
+    "准入",
+    "封顶",
+    "快速开始"
+  ],
+  "requiredStates": [
+    "可进入",
+    "资源不足",
+    "推荐"
+  ],
+  "status": "design_ready_user_review",
+  "renderedState": {
+    "status": "design_ready_user_review",
+    "coverage": "rendered",
+    "description": "初级场选中且可进入",
+    "plannedRequiredStates": [
+      "可进入"
+    ],
+    "image": "designs/ui/core/04-stakes-select-v1.png",
+    "generation": "designs/ui/core/04-stakes-select-v1.generation.json",
+    "actualRequiredStates": [
+      "可进入",
+      "资源不足",
+      "推荐"
+    ]
+  },
+  "expectedOutput": "designs/ui/core/04-stakes-select-v1.png",
+  "expectedGeneration": "designs/ui/core/04-stakes-select-v1.generation.json",
+  "states": [
+    {
+      "name": "可进入",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/04-stakes-select-v1.png",
+      "copy": [
+        "新手场",
+        "初级场",
+        "中级场",
+        "高级场",
+        "底分",
+        "准入",
+        "封顶",
+        "快速开始"
+      ],
+      "behavior": [
+        "四类场次展示进入条件；当前选中初级场，可进入并开始匹配。"
+      ],
+      "disabledReasons": [],
+      "dependencies": [],
+      "evidence": {
+        "inspectedAt": "2026-10-26T11:24:53.858275+00:00",
+        "method": "view_image",
+        "note": "新手/初级/中级卡显示可用的进入按钮，初级选中，快速开始可辨。",
+        "imageSha256": "7a4b773165ad7973a207477175594d9f5979930a82d8ed0873048cc9b3bb6e6e",
+        "reviewer": "core_qa"
+      },
+      "actualCopy": [
+        "新手场",
+        "初级场",
+        "中级场",
+        "底分",
+        "入场",
+        "封顶",
+        "进入",
+        "快速开始"
+      ]
+    },
+    {
+      "name": "资源不足",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/04-stakes-select-v1.png",
+      "copy": [
+        "高级场",
+        "金豆不足"
+      ],
+      "behavior": [
+        "本画面的资源不足状态为高级场卡片弱化、锁图标及禁用按钮；点击时不进入匹配。"
+      ],
+      "disabledReasons": [
+        "当前示意金豆12,800低于高级场入场门槛20,000。"
+      ],
+      "dependencies": [],
+      "evidence": {
+        "inspectedAt": "2026-10-26T11:24:53.858275+00:00",
+        "method": "view_image",
+        "note": "高级卡灰化，右上锁图标，底部按钮文字为金豆不足。",
+        "imageSha256": "7a4b773165ad7973a207477175594d9f5979930a82d8ed0873048cc9b3bb6e6e",
+        "reviewer": "core_qa"
+      },
+      "actualCopy": [
+        "高级场",
+        "底分 500",
+        "入场 20,000",
+        "封顶 5,000",
+        "金豆不足"
+      ]
+    },
+    {
+      "name": "推荐",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/04-stakes-select-v1.png",
+      "copy": [
+        "推荐"
+      ],
+      "behavior": [
+        "在建议场次标推荐标签；推荐不替代选中态，可自由选择其他可进入场次。"
+      ],
+      "disabledReasons": [],
+      "dependencies": [],
+      "evidence": {
+        "inspectedAt": "2026-10-26T11:24:53.858275+00:00",
+        "method": "view_image",
+        "note": "初级卡右上角实际画有橙红推荐标签。",
+        "imageSha256": "7a4b773165ad7973a207477175594d9f5979930a82d8ed0873048cc9b3bb6e6e",
+        "reviewer": "core_qa"
+      },
+      "actualCopy": [
+        "初级场",
+        "推荐"
+      ]
+    }
+  ],
+  "supplementalStates": [
+    {
+      "name": "场次切换",
+      "description": "刷新选中态及底分、准入、封顶说明。",
+      "coverage": "specified_only",
+      "status": "pending",
+      "image": null,
+      "dependencies": [],
+      "note": "补充交互说明，不替代scope必需状态。"
+    }
+  ],
+  "stateTransitions": [
+    {
+      "from": "可进入",
+      "trigger": "选择不满足准入条件的场次",
+      "to": "资源不足",
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "from": "资源不足",
+      "trigger": "改选可进入场次",
+      "to": "可进入",
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "from": "推荐",
+      "trigger": "选择推荐场次",
+      "to": "可进入",
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "from": "可进入",
+      "trigger": "快速开始",
+      "to": "05-matchmaking/匹配中",
+      "implementationStatus": "specified_only_not_implemented"
+    }
+  ],
+  "copy": {
+    "status": "main_image_and_shared_state_design_verified",
+    "roomNumber": null,
+    "partiallyEnteredRoomNumber": null,
+    "note": "actualVisibleText/actualCopy为主图实见内容；shared_component的nativeTextAndDataReplacements为指定原生文案层，未冒称已经烘焙到主图。",
+    "actualVisibleText": [
+      "返回",
+      "场次选择",
+      "经典",
+      "金豆 12,800",
+      "新手场",
+      "初级场",
+      "中级场",
+      "高级场",
+      "推荐",
+      "底分",
+      "入场",
+      "封顶",
+      "10",
+      "100",
+      "50",
+      "1,000",
+      "500",
+      "5,000",
+      "20,000",
+      "进入",
+      "金豆不足",
+      "快速开始",
+      "玩法说明"
+    ]
+  },
+  "assumptions": [
+    "已逐字对齐 docs/UI_SCOPE.json 的 controls 与 requiredStates；页面和状态布局为本项目原创设计。",
+    "数值、房号120816、输入1208__、昵称和邀请文字均仅设计示意，不对应真实账户、房间、价格或业务记录。",
+    "默认规则、技能内容、货币门槛、限制、邀请策略和具体交互仍属设计假设；以最终产品规则为准。",
+    "公开资料仅核对模块范围；未逐屏实测腾讯当前客户端，不声称其各平台均采用此布局和行为。",
+    "只交付静态美术与状态规范，未实现客户端、服务器、支付或社交发送。",
+    "指定主画面需实际生成并看图后才可记 rendered；描述和未来共享依赖不能当作已画状态。"
+  ],
+  "userApproval": false,
+  "visualQA": {
+    "findings": [
+      {
+        "severity": "pass",
+        "subject": "场次与数据",
+        "detail": "新手、初级、中级、高级四场齐全，每卡均有底分、入场和封顶。金豆12,800足以进入前三档而低于高级20,000准入，卡片状态与示意余额一致。"
+      },
+      {
+        "severity": "pass",
+        "subject": "选中与推荐",
+        "detail": "初级场浅玉绿填色、金边勾选与推荐角标均可见，快速开始主按钮清楚。"
+      },
+      {
+        "severity": "pass",
+        "subject": "资源不足",
+        "detail": "高级场灰化、锁标和灰色金豆不足按钮共同表达资源不足；这是行内禁用卡状态，没有画资源不足弹窗。"
+      },
+      {
+        "severity": "note",
+        "subject": "业务边界",
+        "detail": "所有底分、准入和封顶数值均为本项目设计示意，不代表腾讯当期业务规则。"
+      },
+      {
+        "severity": "pass",
+        "subject": "本轮逐张复核",
+        "detail": "四场底分/入场/封顶清楚；初级推荐可进，高级门槛20000高于余额12800且金豆不足按钮禁用。"
+      },
+      {
+        "severity": "note",
+        "subject": "状态覆盖",
+        "detail": "必需状态3项：主图可见3，共享视觉与原生文案设计0，仅说明0。共享态未另画整页，实际功能尚未接入。"
+      }
+    ],
+    "reviewer": "core_qa",
+    "status": "passed_for_design_review",
+    "image": "designs/ui/core/04-stakes-select-v1.png",
+    "imageSha256": "7a4b773165ad7973a207477175594d9f5979930a82d8ed0873048cc9b3bb6e6e",
+    "userApproval": false,
+    "inspectedAt": "2026-10-26T11:24:53.858275+00:00",
+    "method": "view_image",
+    "blockingIssues": [],
+    "previousInspection": {
+      "reviewer": "art_review",
+      "inspectedAt": "2026-10-26T08:08:10.6423862+00:00",
+      "status": "passed_for_design_review"
+    }
+  },
+  "coverageSummary": {
+    "requiredTotal": 3,
+    "rendered": 3,
+    "shared_component": 0,
+    "specified_only": 0,
+    "note": "rendered为主图实际可见态；shared_component为已看图和哈希核验的共用皮肤加具体原生文案/行为设计。未另画共享态整页，未实现客户端交互。"
+  }
+}

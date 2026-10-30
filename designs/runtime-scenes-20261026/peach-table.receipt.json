@@ -1,0 +1,26 @@
+{
+  "id": "peach-table",
+  "keys": [
+    "image_url",
+    "output_hint"
+  ],
+  "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1772b-022e-7852-8cd0-9c61c117e140 as C:\\Users\\luyua\\.codex\\generated_images\\01a1772b-022e-7852-8cd0-9c61c117e140\\exec-45a2d069-5f86-4ec1-b2ed-f4bb863b7d54.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "actualModel": null,
+  "actualQuality": null,
+  "started": {
+    "current_time": "2026-10-26 18:18:49 UTC"
+  },
+  "finished": {
+    "current_time": "2026-10-26 18:22:51 UTC"
+  },
+  "submittedArguments": {
+    "prompt": "Use case: game-asset\nStyle reference: Image1邮件与Image2组队为用户指定首要画风，Image3大厅和Image4牌桌仅承接本项目材质、配色与场景方向。严格同一道家Q版高清二维手绘：玉绿、青绿、象牙米白、暖金、桃木，圆润饱满，明亮干净，细腻柔和明暗，精细但低噪点。不画写实、3D塑料、公仔或粗糙拼贴。\nPrimary request: 一件独立完整手游斗地主牌桌前景，真实RGBA透明背景。期望横屏2560×1080约2.37:1。完整圆润长椭圆牌桌，略俯视正面，与参考4一致。桃木暖棕桌沿、细金云纹雕饰与象牙米白小玉嵌件，桌面为清浅米青绢布，中央大面积完全空白可读。小型桃花雕饰只在左右桌沿外侧，不能铺到桌面中心。连前缘短桌身完整在画布内，四周至少5%透明边距，桌沿最上边约20%高度，前沿约82%，桌宽88%，不要长桌腿。\nAlpha: 真正透明背景与干净柔边，不是棋盘格或实色底，最多很轻接触阴影。\nConstraints: 一张桌子而已，无人无牌无UI无文字无数字，无杯碟、椅子、人物、金币、场景、飘花粒子或额外边框。",
+    "referenced_image_paths": [
+      "D:/work/doudizhu-image/references/style/01-mail-event.png",
+      "D:/work/doudizhu-image/references/style/team-ui-v2.png",
+      "D:/work/doudizhu-image/designs/ui/core/02-lobby-v1.png",
+      "D:/work/doudizhu-image/designs/ui/table/14-play-turn-v2.png"
+    ],
+    "transparent_background": true
+  }
+}

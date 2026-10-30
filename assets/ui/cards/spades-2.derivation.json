@@ -1,0 +1,18 @@
+{
+  "file": "assets/ui/cards/spades-2.png",
+  "sha256": "8608887cdfe8180f2c55ecd390861c54f37ecab05d06595246a2ae2dcfbc81b1",
+  "width": 216,
+  "height": 282,
+  "rank": "2",
+  "suit": "spades",
+  "symbol": "♠",
+  "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+  "derivedFrom": {
+    "file": "assets/ui/cards-source/card-blank.png",
+    "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+    "record": "assets/ui/cards-source/card-blank.derivation.json"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "derived_asset_ready_user_review"
+}

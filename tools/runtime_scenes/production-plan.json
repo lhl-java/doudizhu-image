@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "route": "builtin",
+  "art_source": "host_image",
+  "projectRoot": "D:/work/doudizhu-image",
+  "refs": [
+    "D:/work/doudizhu-image/references/style/01-mail-event.png",
+    "D:/work/doudizhu-image/references/style/team-ui-v2.png",
+    "D:/work/doudizhu-image/designs/ui/core/02-lobby-v1.png",
+    "D:/work/doudizhu-image/designs/ui/table/14-play-turn-v2.png"
+  ],
+  "items": [
+    {
+      "id": "courtyard-lobby",
+      "file": "assets/scenes/courtyard-lobby.png",
+      "record": "assets/scenes/courtyard-lobby.png.generation.json",
+      "prompt": "prompts/runtime-scenes/courtyard-lobby.txt",
+      "kind": "background",
+      "transparent": false
+    },
+    {
+      "id": "courtyard-day",
+      "file": "assets/scenes/courtyard-day.png",
+      "record": "assets/scenes/courtyard-day.png.generation.json",
+      "prompt": "prompts/runtime-scenes/courtyard-day.txt",
+      "kind": "background",
+      "transparent": false
+    },
+    {
+      "id": "courtyard-moon",
+      "file": "assets/scenes/courtyard-moon.png",
+      "record": "assets/scenes/courtyard-moon.png.generation.json",
+      "prompt": "prompts/runtime-scenes/courtyard-moon.txt",
+      "kind": "background",
+      "transparent": false
+    },
+    {
+      "id": "jade-table",
+      "file": "assets/scenes/jade-table.png",
+      "record": "assets/scenes/jade-table.png.generation.json",
+      "prompt": "prompts/runtime-scenes/jade-table.txt",
+      "kind": "foreground",
+      "transparent": true
+    },
+    {
+      "id": "peach-table",
+      "file": "assets/scenes/peach-table.png",
+      "record": "assets/scenes/peach-table.png.generation.json",
+      "prompt": "prompts/runtime-scenes/peach-table.txt",
+      "kind": "foreground",
+      "transparent": true
+    },
+    {
+      "id": "fx-sheet-a",
+      "file": "designs/runtime-scenes-20261026/fx-sheet-a.png",
+      "record": "designs/runtime-scenes-20261026/fx-sheet-a.png.generation.json",
+      "prompt": "prompts/runtime-scenes/fx-sheet-a.txt",
+      "kind": "sheet",
+      "transparent": true
+    },
+    {
+      "id": "fx-sheet-b",
+      "file": "designs/runtime-scenes-20261026/fx-sheet-b.png",
+      "record": "designs/runtime-scenes-20261026/fx-sheet-b.png.generation.json",
+      "prompt": "prompts/runtime-scenes/fx-sheet-b.txt",
+      "kind": "sheet",
+      "transparent": true
+    }
+  ],
+  "sceneMode": "baked_scene_mode",
+  "logicalViewport": {
+    "width": 2560,
+    "height": 1080
+  },
+  "cropPolicy": {
+    "ultrawide": "cover centered at source (0.5,0.5), no pre-upscaled derivatives",
+    "sixteenByNine": "center crop background only; keep x=0.14..0.86 content; tables contain-fit with full silhouette and reposition to preserve hand/cards; UI not baked"
+  },
+  "safeAreas": {
+    "backgroundContent": {
+      "left": 0.14,
+      "top": 0.08,
+      "right": 0.86,
+      "bottom": 0.92
+    },
+    "tablePlayArea": {
+      "left": 0.21,
+      "top": 0.3,
+      "right": 0.79,
+      "bottom": 0.68
+    }
+  },
+  "note": "三张背景是视觉背景而非可行走地图，无collision/nav；FX为生成静态源+真实毫秒transform时间轴，不是AI视频。"
+}

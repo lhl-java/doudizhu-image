@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/ui/table/55-card-counter-v1.png",
+  "sha256": "3cb43ca313cbb669923faaf0c9f2a307fc94d97e09cc15e5e7b60f0dbb8dc08b",
+  "generatedAt": "2026-10-26 08:19:59 UTC",
+  "generatedAtEvidence": "工具返回后UTC时钟，作为完成时间代理；不是模型内部时间",
+  "recordedAt": "2026-10-26T04:19:59.3590701-04:00",
+  "width": 1931,
+  "height": 814,
+  "format": "PNG",
+  "nativeResolution": {
+    "width": 1931,
+    "height": 814
+  },
+  "exportOperation": "byte-identical-copy-no-resize",
+  "requestedResolution": {
+    "evidence": "提示词目标，工具无尺寸选择器，实际以上方实测为准",
+    "height": 1080,
+    "width": 2560
+  },
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "transparent_background": false,
+    "quality": null,
+    "referenced_image_paths": [
+      "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\doudizhu-image\\designs\\ui\\lobby-ui-v1.png",
+      "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png"
+    ],
+    "model": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据；配置和提示词不能作为实际分支或质量的证据",
+  "evidence": {
+    "receipt": "designs/ui/table/55-card-counter-v1.receipt.json",
+    "toolReturnedKeys": [
+      "image_url",
+      "output_hint"
+    ],
+    "metadataInspection": "System.Drawing读取实际尺寸和像素格式，未验证C2PA",
+    "pixelFormat": "Format24bppRgb",
+    "hostOutputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a1772b-022e-7852-8cd0-9c61c117e140\\exec-0f11152a-a2cc-4a43-868a-c5ad923867a1.png"
+  },
+  "prompt": "prompts/table/55-card-counter-v1.txt",
+  "promptSha256": "1ab6300388293654410760d6b308f1ab9f89fb673746f03b0ad4b3e2952b61cf",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "首要风格参考：玉绿米白暖金、纸绢、云纹、角色画法",
+      "usage": "actually-attached-to-imagegen"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "首要风格参考：标题、卡片、按钮、留白与头像",
+      "usage": "actually-attached-to-imagegen"
+    },
+    {
+      "file": "designs/ui/lobby-ui-v1.png",
+      "sha256": "6fb7c972b11f32d0454b32e38a85d50cf571205201e257638c29ee9eeedb8e3b",
+      "role": "本项目大厅同源风格",
+      "usage": "actually-attached-to-imagegen"
+    },
+    {
+      "file": "designs/characters/characters-trio-v1.png",
+      "sha256": "0c4dda70d4e16715527ed243a8d3efc2a401be2f06326b49601d1b184e7165ac",
+      "role": "本项目三人角色身份与画法",
+      "usage": "actually-attached-to-imagegen"
+    }
+  ],
+  "visualReview": {
+    "note": "稍后逐图实际查看后记录",
+    "status": "pending_visual_review"
+  }
+}

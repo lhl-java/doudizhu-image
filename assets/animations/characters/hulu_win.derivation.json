@@ -1,0 +1,555 @@
+{
+  "file": "assets/animations/characters/hulu_win.png",
+  "sha256": "c9b1686604ca47f9f8784f96cb08d4650ddb6742f43942b591934739b3c50eb7",
+  "width": 640,
+  "height": 800,
+  "format": "PNG",
+  "pixelMode": "RGBA",
+  "createdAt": "2026-10-26T19:14:06.071617+00:00",
+  "operation": "CPU affine transform and premultiplied LANCZOS downsampling of existing images into sixteen transparent frames; 4x4 packing; no new art drawn",
+  "art_source": "existing",
+  "sourceImageGeneration": false,
+  "derivedFrom": [
+    {
+      "file": "assets/characters/hulu/master.png",
+      "sha256": "eb4fa72acfcb3e69610b208e46c70428f9aa0127bc014f256ccb6593d93630fe",
+      "width": 1024,
+      "height": 1024,
+      "record": "assets/characters/hulu/master.derivation.json"
+    },
+    {
+      "file": "assets/characters/hulu/win.png",
+      "sha256": "5217dd726280ea1539fb0daa1f10ca449ad0df68807f8d3ecaef7493a322d059",
+      "width": 1024,
+      "height": 1024,
+      "record": "assets/characters/hulu/win.derivation.json"
+    }
+  ],
+  "sourceToPreviewBaseScale": 0.17,
+  "maximumActorScale": 0.17255,
+  "supersampling": {
+    "factor": 4,
+    "intermediateMaximumSourceScale": 0.6902,
+    "filter": "premultiplied affine BICUBIC then LANCZOS downsample; intermediate resolution remains below source"
+  },
+  "noUpscale": true,
+  "animationData": "assets/animations/characters/hulu_win.json",
+  "animationDataSha256": "9167cf50e60dcf9e3bb9f67d7d079008d0a110bf7116a8851ac51f49c8b60748",
+  "frameIndex": [
+    {
+      "index": 0,
+      "atMs": 0,
+      "durationMs": 120,
+      "rect": [
+        0,
+        0,
+        160,
+        200
+      ],
+      "pose": "master",
+      "state": {
+        "pose": "master",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotationDeg": 0,
+        "hudOpacity": 0
+      },
+      "bbox": [
+        18,
+        42,
+        142,
+        183
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "borderAlphaNonzero": 0
+    },
+    {
+      "index": 1,
+      "atMs": 120,
+      "durationMs": 80,
+      "rect": [
+        160,
+        0,
+        160,
+        200
+      ],
+      "pose": "win",
+      "state": {
+        "pose": "win",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "rotationDeg": 0,
+        "hudOpacity": 0
+      },
+      "bbox": [
+        10,
+        39,
+        150,
+        183
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "borderAlphaNonzero": 0
+    },
+    {
+      "index": 2,
+      "atMs": 200,
+      "durationMs": 100,
+      "rect": [
+        320,
+        0,
+        160,
+        200
+      ],
+      "pose": "win",
+      "state": {
+        "pose": "win",
+        "x": 0.0,
+        "y": -1.3877551020408163,
+        "scaleX": 1.0015860058309038,
+        "scaleY": 1.0029737609329445,
+        "rotationDeg": -0.19825072886297376,
+        "hudOpacity": 0.0
+      },
+      "bbox": [
+        10,
+        38,
+        150,
+        182
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "borderAlphaNonzero": 0
+    },
+    {
+      "index": 3,
+      "atMs": 300,
+      "durationMs": 100,
+      "rect": [
+        480,
+        0,
+        160,
+        200
+      ],
+      "pose": "win",
+      "state": {
+        "pose": "win",
+        "x": 0.0,
+        "y": -4.959183673469388,
+        "scaleX": 1.0056676384839651,
+        "scaleY": 1.0106268221574344,
+        "rotationDeg": -0.7084548104956269,
+        "hudOpacity": 0.0
+      },
+      "bbox": [
+        9,
+        37,
+        150,
+        182
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "borderAlphaNonzero": 0
+    },
+    {
+      "index": 4,
+      "atMs": 400,
+      "durationMs": 100,
+      "rect": [
+        0,
+        200,
+        160,
+        200
+      ],
+      "pose": "win",
+      "state": {
+        "pose": "win",
+        "x": 0,
+        "y": -7,
+        "scaleX": 1.008,
+        "scaleY": 1.015,
+        "rotationDeg": -1,
+        "hudOpacity": 0
+      },
+      "bbox": [
+        8,
+        36,
+        150,
+        182
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "borderAlphaNonzero": 0
+    },
+    {
+      "index": 5,
+      "atMs": 500,
+      "durationMs": 100,
+      "rect": [
+        160,
+        200,
+        160,
+        200
+      ],
+      "pose": "win",
+      "state": {
+        "pose": "win",
+        "x": 0.0,
+        "y": -6.5903724811724,
+        "scaleX": 1.0075318542641971,
+        "scaleY": 1.0141222267453693,
+        "rotationDeg": -0.9414817830246285,
+        "hudOpacity": 0.0
+      },
+      "bbox": [
+        8,
+        36,
+        150,
+        182
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "borderAlphaNonzero": 0
+    },
+    {
+      "index": 6,
+      "atMs": 600,
+      "durationMs": 100,
+      "rect": [
+        320,
+        200,
+        160,
+        200
+      ],
+      "pose": "win",
+      "state": {
+        "pose": "win",
+        "x": 0.0,
+        "y": -5.53958884591899,
+        "scaleX": 1.0063309586810503,
+        "scaleY": 1.0118705475269691,
+        "rotationDeg": -0.7913698351312843,
+        "hudOpacity": 0.0
+      },
+      "bbox": [
+        9,
+        37,
+        150,
+        182
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "borderAlphaNonzero": 0
+    },
+    {
+      "index": 7,
+      "atMs": 700,
+      "durationMs": 100,
+      "rect": [
+        480,
+        200,
+        160,
+        200
+      ],
+      "pose": "win",
+      "state": {
+        "pose": "win",
+        "x": 0.0,
+        "y": -4.11479747608386,
+        "scaleX": 1.004702625686953,
+        "scaleY": 1.0088174231630367,
+        "rotationDeg": -0.5878282108691227,
+        "hudOpacity": 0.0
+      },
+      "bbox": [
+        9,
+        37,
+        150,
+        182
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "borderAlphaNonzero": 0
+    },
+    {
+      "index": 8,
+      "atMs": 800,
+      "durationMs": 100,
+      "rect": [
+        0,
+        400,
+        160,
+        200
+      ],
+      "pose": "win",
+      "state": {
+        "pose": "win",
+        "x": 0.0,
+        "y": -2.583146753511093,
+        "scaleX": 1.0029521677182984,
+        "scaleY": 1.0055353144718095,
+        "rotationDeg": -0.36902096478729896,
+        "hudOpacity": 0.0
+      },
+      "bbox": [
+        10,
+        38,
+        150,
+        182
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "borderAlphaNonzero": 0
+    },
+    {
+      "index": 9,
+      "atMs": 900,
+      "durationMs": 100,
+      "rect": [
+        160,
+        400,
+        160,
+        200
+      ],
+      "pose": "win",
+      "state": {
+        "pose": "win",
+        "x": 0.0,
+        "y": -1.211785060044778,
+        "scaleX": 1.0013848972114798,
+        "scaleY": 1.0025966822715244,
+        "rotationDeg": -0.17311215143496828,
+        "hudOpacity": 0.0
+      },
+      "bbox": [
+        10,
+        38,
+        150,
+        182
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "borderAlphaNonzero": 0
+    },
+    {
+      "index": 10,
+      "atMs": 1000,
+      "durationMs": 100,
+      "rect": [
+        320,
+        400,
+        160,
+        200
+      ],
+      "pose": "win",
+      "state": {
+        "pose": "win",
+        "x": 0.0,
+        "y": -0.2678607775290054,
+        "scaleX": 1.0003061266028903,
+        "scaleY": 1.0005739873804194,
+        "rotationDeg": -0.03826582536128642,
+        "hudOpacity": 0.0
+      },
+      "bbox": [
+        10,
+        39,
+        150,
+        183
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "borderAlphaNonzero": 0
+    },
+    {
+      "index": 11,
+      "atMs": 1100,
+      "durationMs": 100,
+      "rect": [
+        480,
+        400,
+        160,
+        200
+      ],
+      "pose": "win",
+      "state": {
+        "pose": "win",
+        "x": 0.0,
+        "y": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "rotationDeg": 0.0,
+        "hudOpacity": 0.0
+      },
+      "bbox": [
+        10,
+        39,
+        150,
+        183
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "borderAlphaNonzero": 0
+    },
+    {
+      "index": 12,
+      "atMs": 1200,
+      "durationMs": 120,
+      "rect": [
+        0,
+        600,
+        160,
+        200
+      ],
+      "pose": "win",
+      "state": {
+        "pose": "win",
+        "x": 0.0,
+        "y": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "rotationDeg": 0.0,
+        "hudOpacity": 0.0
+      },
+      "bbox": [
+        10,
+        39,
+        150,
+        183
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "borderAlphaNonzero": 0
+    },
+    {
+      "index": 13,
+      "atMs": 1320,
+      "durationMs": 120,
+      "rect": [
+        160,
+        600,
+        160,
+        200
+      ],
+      "pose": "win",
+      "state": {
+        "pose": "win",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotationDeg": 0,
+        "hudOpacity": 0
+      },
+      "bbox": [
+        10,
+        39,
+        150,
+        183
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "borderAlphaNonzero": 0
+    },
+    {
+      "index": 14,
+      "atMs": 1440,
+      "durationMs": 120,
+      "rect": [
+        320,
+        600,
+        160,
+        200
+      ],
+      "pose": "master",
+      "state": {
+        "pose": "master",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotationDeg": 0,
+        "hudOpacity": 0
+      },
+      "bbox": [
+        18,
+        42,
+        142,
+        183
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "borderAlphaNonzero": 0
+    },
+    {
+      "index": 15,
+      "atMs": 1560,
+      "durationMs": 120,
+      "rect": [
+        480,
+        600,
+        160,
+        200
+      ],
+      "pose": "master",
+      "state": {
+        "pose": "master",
+        "x": 0.0,
+        "y": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "rotationDeg": 0.0,
+        "hudOpacity": 0.0
+      },
+      "bbox": [
+        18,
+        42,
+        142,
+        183
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "borderAlphaNonzero": 0
+    }
+  ],
+  "loopEndpointByteIdentical": null,
+  "reviewStatus": "passed_visual_contact_sheet_and_numeric_timing_review",
+  "reviewedAt": "2026-10-26T19:22:39.821234+00:00"
+}

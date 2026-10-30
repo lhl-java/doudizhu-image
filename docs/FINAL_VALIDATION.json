@@ -1,0 +1,316 @@
+{
+  "verifiedAt": "2026-10-26T12:50:48.859788+00:00",
+  "selectedPageCount": 60,
+  "allPagesSelectedAndVerified": true,
+  "requiredStateCoverage": {
+    "rendered": 122,
+    "shared_component": 101
+  },
+  "sharedAssetCount": 94,
+  "deckCount": 54,
+  "selectedBuiltinWithUndisclosedModelOrQuality": 50,
+  "errors": [],
+  "pages": [
+    {
+      "id": "01-launch-login",
+      "image": "designs/ui/core/01-launch-login-v1.png",
+      "errors": []
+    },
+    {
+      "id": "02-lobby",
+      "image": "designs/ui/core/02-lobby-v1.png",
+      "errors": []
+    },
+    {
+      "id": "03-classic-select",
+      "image": "designs/ui/core/03-classic-select-v1.png",
+      "errors": []
+    },
+    {
+      "id": "04-stakes-select",
+      "image": "designs/ui/core/04-stakes-select-v1.png",
+      "errors": []
+    },
+    {
+      "id": "05-matchmaking",
+      "image": "designs/ui/core/05-matchmaking-v1.png",
+      "errors": []
+    },
+    {
+      "id": "06-friend-room-entry",
+      "image": "designs/ui/core/06-friend-room-entry-v1.png",
+      "errors": []
+    },
+    {
+      "id": "07-create-room",
+      "image": "designs/ui/core/07-create-room-v1.png",
+      "errors": []
+    },
+    {
+      "id": "08-join-room",
+      "image": "designs/ui/core/08-join-room-v1.png",
+      "errors": []
+    },
+    {
+      "id": "09-room-waiting",
+      "image": "designs/ui/core/09-room-waiting-v1.png",
+      "errors": []
+    },
+    {
+      "id": "10-invite-friends",
+      "image": "designs/ui/core/10-invite-friends-v1.png",
+      "errors": []
+    },
+    {
+      "id": "11-deal-bid",
+      "image": "designs/ui/table/11-deal-bid-v2.png",
+      "errors": []
+    },
+    {
+      "id": "12-rob-landlord",
+      "image": "designs/ui/table/12-rob-landlord-v1.png",
+      "errors": []
+    },
+    {
+      "id": "13-double",
+      "image": "designs/ui/table/13-double-v2.png",
+      "errors": []
+    },
+    {
+      "id": "14-play-turn",
+      "image": "designs/ui/table/14-play-turn-v2.png",
+      "errors": []
+    },
+    {
+      "id": "15-follow-pass",
+      "image": "designs/ui/table/15-follow-pass-v2.png",
+      "errors": []
+    },
+    {
+      "id": "16-trustee",
+      "image": "designs/ui/table/16-trustee-v3.png",
+      "errors": []
+    },
+    {
+      "id": "17-reconnect",
+      "image": "designs/ui/table/17-reconnect-v2.png",
+      "errors": []
+    },
+    {
+      "id": "18-round-win",
+      "image": "designs/ui/table/18-round-win-v1.png",
+      "errors": []
+    },
+    {
+      "id": "19-round-loss",
+      "image": "designs/ui/table/19-round-loss-v1.png",
+      "errors": []
+    },
+    {
+      "id": "20-room-summary",
+      "image": "designs/ui/table/20-room-summary-v1.png",
+      "errors": []
+    },
+    {
+      "id": "21-table-settings",
+      "image": "designs/ui/table/21-table-settings-v2.png",
+      "errors": []
+    },
+    {
+      "id": "22-replay-history",
+      "image": "designs/ui/table/22-replay-history-v2.png",
+      "errors": []
+    },
+    {
+      "id": "23-ranked-lobby",
+      "image": "designs/ui/modes/23-ranked-lobby-v1.png",
+      "errors": []
+    },
+    {
+      "id": "24-ranked-progress",
+      "image": "designs/ui/modes/24-ranked-progress-v1.png",
+      "errors": []
+    },
+    {
+      "id": "25-ranked-result",
+      "image": "designs/ui/modes/25-ranked-result-v1.png",
+      "errors": []
+    },
+    {
+      "id": "26-tournament-lobby",
+      "image": "designs/ui/modes/26-tournament-lobby-v1.png",
+      "errors": []
+    },
+    {
+      "id": "27-tournament-detail",
+      "image": "designs/ui/modes/27-tournament-detail-v2.png",
+      "errors": []
+    },
+    {
+      "id": "28-tournament-waiting",
+      "image": "designs/ui/modes/28-tournament-waiting-v1.png",
+      "errors": []
+    },
+    {
+      "id": "29-tournament-result",
+      "image": "designs/ui/modes/29-tournament-result-v2.png",
+      "errors": []
+    },
+    {
+      "id": "30-puzzle-select",
+      "image": "designs/ui/modes/30-puzzle-select-v1.png",
+      "errors": []
+    },
+    {
+      "id": "31-puzzle-play",
+      "image": "designs/ui/modes/31-puzzle-play-v1.png",
+      "errors": []
+    },
+    {
+      "id": "32-puzzle-result",
+      "image": "designs/ui/modes/32-puzzle-result-v1.png",
+      "errors": []
+    },
+    {
+      "id": "33-character-select",
+      "image": "designs/ui/modes/33-character-select-v1.png",
+      "errors": []
+    },
+    {
+      "id": "34-character-detail",
+      "image": "designs/ui/modes/34-character-detail-v1.png",
+      "errors": []
+    },
+    {
+      "id": "35-wardrobe",
+      "image": "designs/ui/modes/35-wardrobe-v1.png",
+      "errors": []
+    },
+    {
+      "id": "36-shop",
+      "image": "designs/ui/modes/36-shop-v1.png",
+      "errors": []
+    },
+    {
+      "id": "37-item-detail",
+      "image": "designs/ui/support/37-item-detail-v1.png",
+      "errors": []
+    },
+    {
+      "id": "38-wallet",
+      "image": "designs/ui/support/38-wallet-v1.png",
+      "errors": []
+    },
+    {
+      "id": "39-inventory",
+      "image": "designs/ui/support/39-inventory-v1.png",
+      "errors": []
+    },
+    {
+      "id": "40-player-profile",
+      "image": "designs/ui/support/40-player-profile-v1.png",
+      "errors": []
+    },
+    {
+      "id": "41-friends",
+      "image": "designs/ui/support/41-friends-v1.png",
+      "errors": []
+    },
+    {
+      "id": "42-leaderboard",
+      "image": "designs/ui/support/42-leaderboard-v2.png",
+      "errors": []
+    },
+    {
+      "id": "43-daily-missions",
+      "image": "designs/ui/support/43-daily-missions-v1.png",
+      "errors": []
+    },
+    {
+      "id": "44-sign-in",
+      "image": "designs/ui/support/44-sign-in-v1.png",
+      "errors": []
+    },
+    {
+      "id": "45-events",
+      "image": "designs/ui/support/45-events-v1.png",
+      "errors": []
+    },
+    {
+      "id": "46-mail",
+      "image": "designs/ui/support/46-mail-v1.png",
+      "errors": []
+    },
+    {
+      "id": "47-settings",
+      "image": "designs/ui/support/47-settings-v1.png",
+      "errors": []
+    },
+    {
+      "id": "48-help-rules",
+      "image": "designs/ui/support/48-help-rules-v1.png",
+      "errors": []
+    },
+    {
+      "id": "49-support-notices",
+      "image": "designs/ui/support/49-support-notices-v1.png",
+      "errors": []
+    },
+    {
+      "id": "50-shared-dialogs",
+      "image": "designs/ui/components/50-shared-dialogs-v1.png",
+      "errors": []
+    },
+    {
+      "id": "51-common-components",
+      "image": "designs/ui/components/51-common-components-v1.png",
+      "errors": []
+    },
+    {
+      "id": "52-card-and-effects",
+      "image": "designs/ui/components/52-card-and-effects-v1.png",
+      "errors": []
+    },
+    {
+      "id": "53-table-chat",
+      "image": "designs/ui/table/53-table-chat-v2.png",
+      "errors": []
+    },
+    {
+      "id": "54-disband-vote",
+      "image": "designs/ui/table/54-disband-vote-v1.png",
+      "errors": []
+    },
+    {
+      "id": "55-card-counter",
+      "image": "designs/ui/table/55-card-counter-v2.png",
+      "errors": []
+    },
+    {
+      "id": "56-offline",
+      "image": "designs/ui/core/56-offline-v1.png",
+      "errors": []
+    },
+    {
+      "id": "57-hero-skills",
+      "image": "designs/ui/core/57-hero-skills-v1.png",
+      "errors": []
+    },
+    {
+      "id": "58-season-shop",
+      "image": "designs/ui/core/58-season-shop-v1.png",
+      "errors": []
+    },
+    {
+      "id": "59-achievements-growth",
+      "image": "designs/ui/support/59-achievements-growth-v2.png",
+      "errors": []
+    },
+    {
+      "id": "60-account-notices",
+      "image": "designs/ui/support/60-account-notices-v1.png",
+      "errors": []
+    }
+  ],
+  "note": "Visual review supplied per selected generation record and batch reports; mechanical checks validate selected files, hashes, native dimensions, state presence and asset completeness. Shared component states are design reuse, not separate native AI renders."
+}

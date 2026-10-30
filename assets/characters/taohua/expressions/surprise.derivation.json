@@ -1,0 +1,53 @@
+{
+  "id": "taohua_surprise",
+  "file": "assets/characters/taohua/expressions/surprise.png",
+  "record": "assets/characters/taohua/expressions/surprise.derivation.json",
+  "kind": "character_expression",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    244
+  ],
+  "sha256": "339b6440f166c28494ad6fd82e9e4753a0fb8ce70fd6e4384c7f84e1e7989690",
+  "operation": "grid-ownership-crop-with4px-alpha-padding-and-one-fixed-downscale-per-character-portrait",
+  "derivedFrom": {
+    "file": "designs/characters/runtime-20261026/taohua-expressions-v2.png",
+    "sha256": "68cf6b0f1851cde8c83287fe1b335691b5bbc8e3668ce991a8ddbee86d583e00",
+    "record": "designs/characters/runtime-20261026/taohua-expressions-v2.generation.json"
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "significantBorderPixels": 0,
+  "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+  "art_source": "existing",
+  "status": "asset_ready_user_review",
+  "expression": "surprise",
+  "expressionName": "惊讶",
+  "grid": {
+    "columns": 4,
+    "rows": 2,
+    "index": 4,
+    "cellRect": [
+      0,
+      444,
+      444,
+      887
+    ]
+  },
+  "sourceRect": [
+    80,
+    476,
+    444,
+    840
+  ],
+  "fixedScale": 0.5197215777262181,
+  "offset": [
+    32,
+    57
+  ],
+  "noUpscale": true,
+  "characterId": "taohua"
+}

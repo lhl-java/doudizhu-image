@@ -1,0 +1,1101 @@
+{
+  "schemaVersion": 1,
+  "batch": "core",
+  "updatedAt": "2026-10-26T11:29:38.2431775+00:00",
+  "scope": {
+    "source": "docs/UI_SCOPE.json",
+    "sha256": "7cffea58b804dd80e345fdf868b11b584495009448c30a843129c507432c6e38",
+    "assignedPages": 13,
+    "wholeProjectPages": 60,
+    "pageIds": [
+      "01-launch-login",
+      "02-lobby",
+      "03-classic-select",
+      "04-stakes-select",
+      "05-matchmaking",
+      "06-friend-room-entry",
+      "07-create-room",
+      "08-join-room",
+      "09-room-waiting",
+      "10-invite-friends",
+      "56-offline",
+      "57-hero-skills",
+      "58-season-shop"
+    ]
+  },
+  "status": "design_ready_user_review",
+  "userApproval": false,
+  "mainImages": {
+    "required": 13,
+    "present": 13,
+    "visuallyReviewed": 13,
+    "nativePngs": 13
+  },
+  "necessaryStateCoverage": {
+    "requiredTotal": 44,
+    "rendered": 26,
+    "shared_component": 18,
+    "specified_only": 0
+  },
+  "stateCoverageFile": "designs/ui/core/state-coverage.json",
+  "delivery": "本批13张独立核心主页面、逐图来源记录、提示词与44必要状态设计覆盖；只报告core，不代表全项目60项或客户端全部完成。",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "宿主管理，工具未披露实际模型/质量；generation内配置为用户目标，不作为实际运行证明。",
+  "nativeOutputPolicy": "按PNG原生尺寸和逐图记录核对；导出为字节一致复制，未放大冒充原生。",
+  "boundaries": [
+    "所有页面待用户评审，设计QA不是用户批准。",
+    "共享状态不是另画的整屏PNG。",
+    "客户端/服务器/真实登录/社交发送/支付/兑换接入不在本批美术声明内。",
+    "原image项目只读；本脚本不操作Git、上传或根索引。"
+  ],
+  "validation": {
+    "status": "passed",
+    "provenanceAudit": "designs/ui/core/validation.json",
+    "checks": [
+      "13个scope core IDs与文件齐全",
+      "PNG哈希/真实原生尺寸匹配generation",
+      "prompt与receipt哈希匹配",
+      "44必要状态逐字对齐scope，无重复遗漏",
+      "共享依赖实际文件哈希及来源记录匹配",
+      "QA和用户未批准状态一致",
+      "实际型号与质量未知字段保留"
+    ]
+  },
+  "pages": [
+    {
+      "pageId": "01-launch-login",
+      "title": "启动与登录",
+      "output": "designs/ui/core/01-launch-login-v1.png",
+      "sha256": "f3c4de0c983dc567de89ea2e91dda4c98ac922bc0d7ba8d7ad490753037ac3b1",
+      "generation": "designs/ui/core/01-launch-login-v1.generation.json",
+      "generationSha256": "77227bf6f5f687b3067e8a7c4a6a670cc2a63b2e217c4ebbbfc25ea1881be741",
+      "stateSpec": "designs/ui/core/01-launch-login.states.json",
+      "stateSpecSha256": "80e175cc39238f3dcfbbb526399dc68861934b29d96810c070e70d9c08ec7802",
+      "prompt": "prompts/core/01-launch-login-v1.txt",
+      "promptSha256": "5d1333872efe0bb20fa7232a00c2437dd7ee994b6782e7b05e3634af1854dde3",
+      "nativeResolution": {
+        "width": 1931,
+        "height": 814
+      },
+      "exportResolution": {
+        "width": 1931,
+        "height": 814,
+        "operation": "byte-identical-copy-of-generated-output-no-resize-or-redraw"
+      },
+      "requestedResolution": {
+        "width": 2560,
+        "height": 1080,
+        "note": "提示词中的尺寸目标；内置工具无独立尺寸选择参数，实际尺寸以上方实测值为准。"
+      },
+      "status": "design_ready_user_review",
+      "visualQA": {
+        "userApproval": false,
+        "blockingIssues": [],
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "image": "designs/ui/core/01-launch-login-v1.png",
+        "reviewer": "core_qa",
+        "status": "passed_for_design_review",
+        "method": "view_image",
+        "findings": [
+          {
+            "severity": "pass",
+            "detail": "玉绿标题/按钮、米白纸绢卡、暖金云纹与参考一致；三人物完整，登录卡独立，人物不遮文字及操作。",
+            "subject": "风格与构图"
+          },
+          {
+            "severity": "pass",
+            "detail": "斗地主、欢迎道友、微信登录、QQ登录、未勾选协议框、用户协议、隐私政策、切换账号、设置均实际可见且可读。",
+            "subject": "范围与文案"
+          },
+          {
+            "severity": "note",
+            "detail": "提示词要求中性登录图标；成图采用双对话气泡及企鹅轮廓，具有平台识别性。仅作为视觉设计示意，不代表已获得图标授权或已完成平台接入；不阻断本轮美术评审。",
+            "subject": "图标与提示词差异"
+          },
+          {
+            "severity": "pass",
+            "subject": "本轮逐张复核",
+            "detail": "实际可见欢迎道友、微信登录、QQ登录、未勾选协议、用户协议/隐私政策、切换账号和设置；三位角色完整不遮登录区。"
+          },
+          {
+            "severity": "note",
+            "subject": "状态覆盖",
+            "detail": "必需状态4项：主图可见2，共享视觉与原生文案设计2，仅说明0。共享态未另画整页，实际功能尚未接入。"
+          }
+        ],
+        "imageSha256": "f3c4de0c983dc567de89ea2e91dda4c98ac922bc0d7ba8d7ad490753037ac3b1",
+        "previousInspection": {
+          "reviewer": "art_review",
+          "inspectedAt": "2026-10-26T03:52:04.2198649-04:00",
+          "status": "passed_for_design_review"
+        }
+      },
+      "userApproval": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "coverage": {
+        "requiredTotal": 4,
+        "rendered": 2,
+        "shared_component": 2,
+        "specified_only": 0
+      }
+    },
+    {
+      "pageId": "02-lobby",
+      "title": "全功能大厅",
+      "output": "designs/ui/core/02-lobby-v1.png",
+      "sha256": "86f5e2879b919fcf8e81b3930ee8b3771a3ebc1bf8d614b687b673ad4c6f5bd6",
+      "generation": "designs/ui/core/02-lobby-v1.generation.json",
+      "generationSha256": "536f319ad349d459f4d1829278ccb7c64d696947e9e7e6ce2068dd0f6336f05d",
+      "stateSpec": "designs/ui/core/02-lobby.states.json",
+      "stateSpecSha256": "52a7456d4dddacd18b4f623db578a2babe352b0ba6ee1f9ed122f1883ea847b6",
+      "prompt": "prompts/core/02-lobby-v1.txt",
+      "promptSha256": "88ede50a8d5782459554cbb51f3003195db17c34a804b067c21b8d38ef83bdb0",
+      "nativeResolution": {
+        "width": 1931,
+        "height": 814
+      },
+      "exportResolution": {
+        "width": 1931,
+        "height": 814,
+        "operation": "byte-identical-copy-of-generated-output-no-resize-or-redraw"
+      },
+      "requestedResolution": {
+        "width": 2560,
+        "height": 1080,
+        "note": "提示词中的尺寸目标；内置工具无独立尺寸选择参数，实际尺寸以上方实测值为准。"
+      },
+      "status": "design_ready_user_review",
+      "visualQA": {
+        "blockingIssues": [],
+        "image": "designs/ui/core/02-lobby-v1.png",
+        "method": "view_image",
+        "userApproval": false,
+        "reviewer": "core_qa",
+        "status": "passed_for_design_review",
+        "findings": [
+          {
+            "severity": "pass",
+            "subject": "风格与构图",
+            "detail": "深玉绿、米白纸绢、暖金云纹保持同源。道童发饰及双鞋完整，牌背避免花色矛盾；经典入口仅一张正面A牌，角标与中心黑桃一致。"
+          },
+          {
+            "severity": "pass",
+            "subject": "范围与文字",
+            "detail": "scope要求的头像昵称、货币、经典、好友房、排位、赛事、残局、活动、商城、任务、邮件、设置和快速开始均可见；另含单机练习、英雄能力、好友、角色、背包、排行榜。中文清楚。"
+          },
+          {
+            "severity": "pass",
+            "subject": "红点",
+            "detail": "邮件入口右上方红点清晰，未遮挡图标或文字。"
+          },
+          {
+            "severity": "note",
+            "subject": "布局",
+            "detail": "快速开始跨越底栏作为中心主按钮，但未压住左右导航文字；各入口仍可辨，不构成阻断。"
+          },
+          {
+            "severity": "note",
+            "subject": "数据与覆盖",
+            "detail": "金豆12,800及点券680为设计示意；资源加载状态未绘制。"
+          },
+          {
+            "severity": "pass",
+            "subject": "本轮逐张复核",
+            "detail": "大厅全部范围入口实际可见，邮件红点清楚；角色足部和持牌牌背完整，快速开始未压住导航文字。"
+          },
+          {
+            "severity": "note",
+            "subject": "状态覆盖",
+            "detail": "必需状态3项：主图可见2，共享视觉与原生文案设计1，仅说明0。共享态未另画整页，实际功能尚未接入。"
+          }
+        ],
+        "imageSha256": "86f5e2879b919fcf8e81b3930ee8b3771a3ebc1bf8d614b687b673ad4c6f5bd6",
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "previousInspection": {
+          "reviewer": "art_review",
+          "inspectedAt": "2026-10-26T03:54:04.1849681-04:00",
+          "status": "passed_for_design_review"
+        }
+      },
+      "userApproval": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "coverage": {
+        "requiredTotal": 3,
+        "rendered": 2,
+        "shared_component": 1,
+        "specified_only": 0
+      }
+    },
+    {
+      "pageId": "03-classic-select",
+      "title": "经典玩法选择",
+      "output": "designs/ui/core/03-classic-select-v1.png",
+      "sha256": "80af01c640dc92242ce3f0b9ec3e5efdba758109a423cf0ace21ad2843cf624a",
+      "generation": "designs/ui/core/03-classic-select-v1.generation.json",
+      "generationSha256": "e8c3877662ebf3278f6127669dd7785ee6579ef25dda2ab2256fcd35d28a1167",
+      "stateSpec": "designs/ui/core/03-classic-select.states.json",
+      "stateSpecSha256": "78253d1984d0c34150fc5e7ef6edb3d3bddd19757fdb6e7c361151eae849f90f",
+      "prompt": "prompts/core/03-classic-select-v1.txt",
+      "promptSha256": "46d35921e564a9cd462338904270f5c12cae30e0b064dca0ad120f45aa22bea2",
+      "nativeResolution": {
+        "width": 1932,
+        "height": 814
+      },
+      "exportResolution": {
+        "width": 1932,
+        "height": 814,
+        "operation": "byte-identical-copy-of-generated-output-no-resize-or-redraw"
+      },
+      "requestedResolution": {
+        "width": 2560,
+        "height": 1080,
+        "note": "提示词中的尺寸目标；内置工具无独立尺寸选择参数，实际尺寸以上方实测值为准。"
+      },
+      "status": "design_ready_user_review",
+      "visualQA": {
+        "userApproval": false,
+        "reviewer": "core_qa",
+        "image": "designs/ui/core/03-classic-select-v1.png",
+        "blockingIssues": [],
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "status": "passed_for_design_review",
+        "imageSha256": "80af01c640dc92242ce3f0b9ec3e5efdba758109a423cf0ace21ad2843cf624a",
+        "findings": [
+          {
+            "severity": "pass",
+            "subject": "风格与布局",
+            "detail": "四张同规格米白玩法卡横向排列，玉绿标题、暖金细边及圆润云纹与参考一致；装饰未侵占中文区域。"
+          },
+          {
+            "severity": "pass",
+            "subject": "模式与选中态",
+            "detail": "经典、不洗牌、癞子、天地癞子四标题准确可读。经典卡浅玉绿底、金边高亮与勾选标识同时出现，下方已选择：经典提供文字确认。"
+          },
+          {
+            "severity": "pass",
+            "subject": "操作入口",
+            "detail": "返回、规则、选择场次均可见，下一步主按钮突出。"
+          },
+          {
+            "severity": "note",
+            "subject": "覆盖边界",
+            "detail": "本图只有选中状态。右上规则仅为入口，不证明规则提示弹窗已绘制；锁定状态亦未画。"
+          },
+          {
+            "severity": "note",
+            "subject": "说明文案",
+            "detail": "标准规则、牌型丰富、百变组合、双癞玩法为本项目概念说明，非腾讯当前规则的逐字记录。"
+          },
+          {
+            "severity": "pass",
+            "subject": "本轮逐张复核",
+            "detail": "四种玩法并列，经典卡高亮及勾选、已选择经典和选择场次相符；规则入口只证明入口。"
+          },
+          {
+            "severity": "note",
+            "subject": "状态覆盖",
+            "detail": "必需状态3项：主图可见1，共享视觉与原生文案设计2，仅说明0。共享态未另画整页，实际功能尚未接入。"
+          }
+        ],
+        "method": "view_image",
+        "previousInspection": {
+          "reviewer": "art_review",
+          "inspectedAt": "2026-10-26T03:57:02.5625516-04:00",
+          "status": "passed_for_design_review"
+        }
+      },
+      "userApproval": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "coverage": {
+        "requiredTotal": 3,
+        "rendered": 1,
+        "shared_component": 2,
+        "specified_only": 0
+      }
+    },
+    {
+      "pageId": "04-stakes-select",
+      "title": "场次选择",
+      "output": "designs/ui/core/04-stakes-select-v1.png",
+      "sha256": "7a4b773165ad7973a207477175594d9f5979930a82d8ed0873048cc9b3bb6e6e",
+      "generation": "designs/ui/core/04-stakes-select-v1.generation.json",
+      "generationSha256": "830905f937aede7fe4778bf81b8cf4bb20fc89ab3494e9b6f830679cc70e3d44",
+      "stateSpec": "designs/ui/core/04-stakes-select.states.json",
+      "stateSpecSha256": "0a87979fe1dcc732525bf34c90d552de950fb17fe4bad4b59d437614762b2afa",
+      "prompt": "prompts/core/04-stakes-select-v1.txt",
+      "promptSha256": "97b103ac8ddaf5c4bf741c3a2cf03903d132b6a9d9aa284c215b41f71fc13cf0",
+      "nativeResolution": {
+        "width": 1931,
+        "height": 814
+      },
+      "exportResolution": {
+        "width": 1931,
+        "height": 814,
+        "operation": "byte-identical-copy-of-generated-output-no-resize-or-redraw"
+      },
+      "requestedResolution": {
+        "width": 2560,
+        "height": 1080,
+        "note": "提示词中的尺寸目标；内置工具无独立尺寸选择参数，实际尺寸以上方实测值为准。"
+      },
+      "status": "design_ready_user_review",
+      "visualQA": {
+        "findings": [
+          {
+            "severity": "pass",
+            "subject": "场次与数据",
+            "detail": "新手、初级、中级、高级四场齐全，每卡均有底分、入场和封顶。金豆12,800足以进入前三档而低于高级20,000准入，卡片状态与示意余额一致。"
+          },
+          {
+            "severity": "pass",
+            "subject": "选中与推荐",
+            "detail": "初级场浅玉绿填色、金边勾选与推荐角标均可见，快速开始主按钮清楚。"
+          },
+          {
+            "severity": "pass",
+            "subject": "资源不足",
+            "detail": "高级场灰化、锁标和灰色金豆不足按钮共同表达资源不足；这是行内禁用卡状态，没有画资源不足弹窗。"
+          },
+          {
+            "severity": "note",
+            "subject": "业务边界",
+            "detail": "所有底分、准入和封顶数值均为本项目设计示意，不代表腾讯当期业务规则。"
+          },
+          {
+            "severity": "pass",
+            "subject": "本轮逐张复核",
+            "detail": "四场底分/入场/封顶清楚；初级推荐可进，高级门槛20000高于余额12800且金豆不足按钮禁用。"
+          },
+          {
+            "severity": "note",
+            "subject": "状态覆盖",
+            "detail": "必需状态3项：主图可见3，共享视觉与原生文案设计0，仅说明0。共享态未另画整页，实际功能尚未接入。"
+          }
+        ],
+        "reviewer": "core_qa",
+        "status": "passed_for_design_review",
+        "image": "designs/ui/core/04-stakes-select-v1.png",
+        "imageSha256": "7a4b773165ad7973a207477175594d9f5979930a82d8ed0873048cc9b3bb6e6e",
+        "userApproval": false,
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "method": "view_image",
+        "blockingIssues": [],
+        "previousInspection": {
+          "reviewer": "art_review",
+          "inspectedAt": "2026-10-26T04:08:10.6423862-04:00",
+          "status": "passed_for_design_review"
+        }
+      },
+      "userApproval": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "coverage": {
+        "requiredTotal": 3,
+        "rendered": 3,
+        "shared_component": 0,
+        "specified_only": 0
+      }
+    },
+    {
+      "pageId": "05-matchmaking",
+      "title": "匹配等待",
+      "output": "designs/ui/core/05-matchmaking-v1.png",
+      "sha256": "50e241523f4b0bffc69f72e5de08425dec95ab4cfd4c3679bea951cd54477003",
+      "generation": "designs/ui/core/05-matchmaking-v1.generation.json",
+      "generationSha256": "3e93f5f0f94030494b9d9835aa766b82a12a1fb23d998ff2a89bf0e74d307619",
+      "stateSpec": "designs/ui/core/05-matchmaking.states.json",
+      "stateSpecSha256": "eda56a15482c3ff8128bdb4e6bbe88c477ccc90c3599af392190610e2caf301b",
+      "prompt": "prompts/core/05-matchmaking-v1.txt",
+      "promptSha256": "27666167e650819d2185478f1cf1c301319339f40956a13b53020f999d6ea385",
+      "nativeResolution": {
+        "width": 1931,
+        "height": 814
+      },
+      "exportResolution": {
+        "width": 1931,
+        "height": 814,
+        "operation": "byte-identical-copy-of-generated-output-no-resize-or-redraw"
+      },
+      "requestedResolution": {
+        "width": 2560,
+        "height": 1080,
+        "note": "提示词中的尺寸目标；内置工具无独立尺寸选择参数，实际尺寸以上方实测值为准。"
+      },
+      "status": "design_ready_user_review",
+      "visualQA": {
+        "findings": [
+          {
+            "severity": "pass",
+            "subject": "匹配结构",
+            "detail": "三座席明确：本人道友头像及已就位、两个寻找中占位；正在寻找牌友、经典·初级场摘要和已等待00:08清楚。"
+          },
+          {
+            "severity": "pass",
+            "subject": "操作层级",
+            "detail": "取消匹配为独立米白按钮，未被装饰遮挡；右下请稍候与玉绿加载符号辅助说明等待状态。"
+          },
+          {
+            "severity": "note",
+            "subject": "覆盖边界",
+            "detail": "只绘制匹配中；取消结果与超时反馈不由本图按钮推断，它们另以已验证共享组件覆盖。00:08为静态示意。"
+          },
+          {
+            "severity": "pass",
+            "subject": "本轮逐张复核",
+            "detail": "自己与两待匹配席位、经典初级场、00:08和取消匹配均清楚；按钮不当作取消结果。"
+          },
+          {
+            "severity": "note",
+            "subject": "状态覆盖",
+            "detail": "必需状态3项：主图可见1，共享视觉与原生文案设计2，仅说明0。共享态未另画整页，实际功能尚未接入。"
+          }
+        ],
+        "status": "passed_for_design_review",
+        "image": "designs/ui/core/05-matchmaking-v1.png",
+        "reviewer": "core_qa",
+        "userApproval": false,
+        "imageSha256": "50e241523f4b0bffc69f72e5de08425dec95ab4cfd4c3679bea951cd54477003",
+        "blockingIssues": [],
+        "method": "view_image",
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "previousInspection": {
+          "reviewer": "art_review",
+          "inspectedAt": "2026-10-26T04:08:11.0076392-04:00",
+          "status": "passed_for_design_review"
+        }
+      },
+      "userApproval": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "coverage": {
+        "requiredTotal": 3,
+        "rendered": 1,
+        "shared_component": 2,
+        "specified_only": 0
+      }
+    },
+    {
+      "pageId": "06-friend-room-entry",
+      "title": "好友同玩入口",
+      "output": "designs/ui/core/06-friend-room-entry-v1.png",
+      "sha256": "8c347b82767eca01f40ad50d52b5a53ba0583ea624ed2f32f988531c1aba70b1",
+      "generation": "designs/ui/core/06-friend-room-entry-v1.generation.json",
+      "generationSha256": "c9db2044a41d6a6370302044ca003e98b4037a2c1198a5701c34c0411eee3ec7",
+      "stateSpec": "designs/ui/core/06-friend-room-entry.states.json",
+      "stateSpecSha256": "37e208e6a2e06af144fb92ccdbb36fc0033afee45c894f0cc38b3070c4da79b5",
+      "prompt": "prompts/core/06-friend-room-entry-v1.txt",
+      "promptSha256": "bbc7979c4e6b6385a53ff72b1b4abe3b9e6f87e5ed4bbb2c52113d2f2891faad",
+      "nativeResolution": {
+        "width": 1931,
+        "height": 814
+      },
+      "exportResolution": {
+        "width": 1931,
+        "height": 814,
+        "operation": "byte-identical-copy-of-generated-output-no-resize-or-redraw"
+      },
+      "requestedResolution": {
+        "width": 2560,
+        "height": 1080,
+        "note": "提示词中的尺寸目标；内置工具无独立尺寸选择参数，实际尺寸以上方实测值为准。"
+      },
+      "status": "design_ready_user_review",
+      "visualQA": {
+        "userApproval": false,
+        "findings": [
+          {
+            "severity": "pass",
+            "subject": "入口与最近房间",
+            "detail": "创建房间/加入房间双卡与创建/加入按钮明确；底部最近房间显示房号120816、经典·12局及进入按钮，返回入口清楚。"
+          },
+          {
+            "severity": "pass",
+            "subject": "风格与人物",
+            "detail": "玉绿纸绢金边与已核准主参考同源，道童双鞋完整、牌背不涉及花色矛盾。"
+          },
+          {
+            "severity": "note",
+            "subject": "装饰图标偏差",
+            "detail": "加入房间卡的装饰图案仅有5个清楚可见的空槽，右侧圆箭头可能遮住其余部分。它不是实际输入控件，不阻断本页；08实际房号输入页仍须严格验收6格。"
+          },
+          {
+            "severity": "note",
+            "subject": "数据与覆盖",
+            "detail": "房号120816、经典12局为设计示意；正常状态已画，无最近房间状态另由核验过的空态组件承接。"
+          },
+          {
+            "severity": "pass",
+            "subject": "本轮逐张复核",
+            "detail": "创建与加入两卡、最近房间120816及经典12局清楚；加入卡为装饰图，实际六位输入以08为准。"
+          },
+          {
+            "severity": "note",
+            "subject": "状态覆盖",
+            "detail": "必需状态2项：主图可见1，共享视觉与原生文案设计1，仅说明0。共享态未另画整页，实际功能尚未接入。"
+          }
+        ],
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "imageSha256": "8c347b82767eca01f40ad50d52b5a53ba0583ea624ed2f32f988531c1aba70b1",
+        "blockingIssues": [],
+        "image": "designs/ui/core/06-friend-room-entry-v1.png",
+        "reviewer": "core_qa",
+        "method": "view_image",
+        "status": "passed_for_design_review",
+        "previousInspection": {
+          "reviewer": "art_review",
+          "inspectedAt": "2026-10-26T04:08:11.3614156-04:00",
+          "status": "passed_for_design_review"
+        }
+      },
+      "userApproval": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "coverage": {
+        "requiredTotal": 2,
+        "rendered": 1,
+        "shared_component": 1,
+        "specified_only": 0
+      }
+    },
+    {
+      "pageId": "07-create-room",
+      "title": "创建房间",
+      "output": "designs/ui/core/07-create-room-v1.png",
+      "sha256": "5c98b35f7fec58d49592a9cfb956e540c6ab46fd4c31a4421020476d0e1bf398",
+      "generation": "designs/ui/core/07-create-room-v1.generation.json",
+      "generationSha256": "457d94db6fb18ab7bfe41982e9fbb1f40a900c125717b90dd0e16b5b04d0b9d4",
+      "stateSpec": "designs/ui/core/07-create-room.states.json",
+      "stateSpecSha256": "1c4f028a47ed68f7956126bee1c7a6bec4eedb3a62ff97e79affe01163e93db5",
+      "prompt": "prompts/core/07-create-room-v1.txt",
+      "promptSha256": "552b93c8d43fda6111de4c9330c789e514ff14e6e703b695c891164c167b8eae",
+      "nativeResolution": {
+        "width": 1931,
+        "height": 814
+      },
+      "exportResolution": {
+        "width": 1931,
+        "height": 814,
+        "operation": "byte-identical-copy-of-generated-output-no-resize-or-redraw"
+      },
+      "requestedResolution": {
+        "width": 2560,
+        "height": 1080,
+        "note": "提示词中的尺寸目标；内置工具无独立尺寸选择参数，实际尺寸以上方实测值为准。"
+      },
+      "status": "design_ready_user_review",
+      "visualQA": {
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "userApproval": false,
+        "status": "passed_for_design_review",
+        "blockingIssues": [],
+        "image": "designs/ui/core/07-create-room-v1.png",
+        "imageSha256": "5c98b35f7fec58d49592a9cfb956e540c6ab46fd4c31a4421020476d0e1bf398",
+        "reviewer": "core_qa",
+        "method": "view_image",
+        "findings": [
+          {
+            "severity": "pass",
+            "subject": "规则选项",
+            "detail": "玩法、局数、叫地主方式、加倍、封顶五行完整，选项排列对齐。经典、12局、抢地主、开启、32倍均以玉绿底和勾号表示选中。"
+          },
+          {
+            "severity": "pass",
+            "subject": "摘要一致性",
+            "detail": "底部摘要为经典·12局·抢地主·加倍·32倍封顶，与五组选中值一致。"
+          },
+          {
+            "severity": "pass",
+            "subject": "操作与风格",
+            "detail": "返回与创建房间按钮可读，主按钮为正常玉绿状态；纸绢、金边、标题和云纹沿用参考，留白充分。"
+          },
+          {
+            "severity": "note",
+            "subject": "规则边界",
+            "detail": "局数、叫地主方式、加倍和封顶为本项目设计示意，未表示已实现业务规则；创建失败通过已核验共享弹窗覆盖。"
+          },
+          {
+            "severity": "pass",
+            "subject": "本轮逐张复核",
+            "detail": "五组设置实际可见；经典/12局/抢地主/加倍开启/32倍封顶选中与摘要一致，创建房间可用。"
+          },
+          {
+            "severity": "note",
+            "subject": "状态覆盖",
+            "detail": "必需状态3项：主图可见2，共享视觉与原生文案设计1，仅说明0。共享态未另画整页，实际功能尚未接入。"
+          }
+        ],
+        "previousInspection": {
+          "reviewer": "art_review",
+          "inspectedAt": "2026-10-26T04:08:39.5525983-04:00",
+          "status": "passed_for_design_review"
+        }
+      },
+      "userApproval": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "coverage": {
+        "requiredTotal": 3,
+        "rendered": 2,
+        "shared_component": 1,
+        "specified_only": 0
+      }
+    },
+    {
+      "pageId": "08-join-room",
+      "title": "加入房间",
+      "output": "designs/ui/core/08-join-room-v1.png",
+      "sha256": "fac53d5dd2c30bf2fd7d5d287e6244f4a133a3a5281b13df9bb5e9b4a3782aad",
+      "generation": "designs/ui/core/08-join-room-v1.generation.json",
+      "generationSha256": "9889ee05e41c2044c789f755e00ab568e5d08c245a72b4866f3d07dd91702c1b",
+      "stateSpec": "designs/ui/core/08-join-room.states.json",
+      "stateSpecSha256": "28a33b18276c59a12375fa45a3a5a48d6933014b9717f3feb90e5104222ee837",
+      "prompt": "prompts/core/08-join-room-v1.txt",
+      "promptSha256": "6662cc3db3cb8bfc07e8b7c3f74285a0db39959b77d111f9dbb1a883eb30420a",
+      "nativeResolution": {
+        "width": 1931,
+        "height": 814
+      },
+      "exportResolution": {
+        "width": 1931,
+        "height": 814,
+        "operation": "byte-identical-copy-of-generated-output-no-resize-or-redraw"
+      },
+      "requestedResolution": {
+        "width": 2560,
+        "height": 1080,
+        "note": "提示词中的尺寸目标；内置工具无独立尺寸选择参数，实际尺寸以上方实测值为准。"
+      },
+      "status": "design_ready_user_review",
+      "visualQA": {
+        "findings": [
+          {
+            "severity": "pass",
+            "subject": "输入格数量与焦点",
+            "detail": "实际恰好6格；前4格为1、2、0、8，第5格是绿色焦点框和输入光标，第6格空白。两格未填，未多画或少画。"
+          },
+          {
+            "severity": "pass",
+            "subject": "数字键盘",
+            "detail": "3列4行键盘依次为1/2/3、4/5/6、7/8/9、清空/0/删除，数字唯一且完整。"
+          },
+          {
+            "severity": "pass",
+            "subject": "禁用与原因",
+            "detail": "加入房间按钮为灰色禁用样式，下方输入完整房号后加入明确解释原因，与4位输入状态一致。"
+          },
+          {
+            "severity": "pass",
+            "subject": "风格与可读性",
+            "detail": "玉绿标题、纸绢面板、暖金边和角色同源，人物未遮挡输入区及键盘，所有文字可读。"
+          },
+          {
+            "severity": "note",
+            "subject": "覆盖边界",
+            "detail": "本图只画输入中；房号错误、已满、已结束继续由核验过的共享弹窗覆盖，未另画这些整屏状态。"
+          },
+          {
+            "severity": "pass",
+            "subject": "本轮逐张复核",
+            "detail": "恰好六格：1208、第五格光标、第六格空白；0–9、清空、删除完整，未满六位禁用加入且原因清楚。"
+          },
+          {
+            "severity": "note",
+            "subject": "状态覆盖",
+            "detail": "必需状态4项：主图可见1，共享视觉与原生文案设计3，仅说明0。共享态未另画整页，实际功能尚未接入。"
+          }
+        ],
+        "blockingIssues": [],
+        "reviewer": "core_qa",
+        "image": "designs/ui/core/08-join-room-v1.png",
+        "status": "passed_for_design_review",
+        "method": "view_image",
+        "userApproval": false,
+        "imageSha256": "fac53d5dd2c30bf2fd7d5d287e6244f4a133a3a5281b13df9bb5e9b4a3782aad",
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "previousInspection": {
+          "reviewer": "art_review",
+          "inspectedAt": "2026-10-26T04:14:26.5289034-04:00",
+          "status": "passed_for_design_review"
+        }
+      },
+      "userApproval": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "coverage": {
+        "requiredTotal": 4,
+        "rendered": 1,
+        "shared_component": 3,
+        "specified_only": 0
+      }
+    },
+    {
+      "pageId": "09-room-waiting",
+      "title": "好友房等待",
+      "output": "designs/ui/core/09-room-waiting-v1.png",
+      "sha256": "43dad2058f52739f80bf7ebf5273e7317cda4b563e0f7fbc49ccde20f11c868a",
+      "generation": "designs/ui/core/09-room-waiting-v1.generation.json",
+      "generationSha256": "28fee41e50f9318e6b11c139c4d76db7d4363e38fd37d0407534ad7cb31374d1",
+      "stateSpec": "designs/ui/core/09-room-waiting.states.json",
+      "stateSpecSha256": "d9ad37ec01164045312df0cb0748119c46c099793b2383737924fc4456c343e0",
+      "prompt": "prompts/core/09-room-waiting-v1.txt",
+      "promptSha256": "c5d1dda19593d16a4d717e7a0e4a7bb17560dd0b1c948e918e449d6524bfe7b4",
+      "nativeResolution": {
+        "width": 1931,
+        "height": 814
+      },
+      "exportResolution": {
+        "width": 1931,
+        "height": 814,
+        "operation": "byte-identical-copy-of-generated-output-no-resize-or-redraw"
+      },
+      "requestedResolution": {
+        "width": 2560,
+        "height": 1080,
+        "note": "提示词中的尺寸目标；内置工具无独立尺寸选择参数，实际尺寸以上方实测值为准。"
+      },
+      "status": "design_ready_user_review",
+      "visualQA": {
+        "userApproval": false,
+        "findings": [
+          {
+            "severity": "pass",
+            "subject": "三座席与准备状态",
+            "detail": "严格三张席位卡；道友、花间客均显示已准备和绿色勾号，右侧为空闲座位并提供邀请好友。"
+          },
+          {
+            "severity": "pass",
+            "subject": "身份与规则",
+            "detail": "道友同时有房主和自己标签；房号120816、经典·12局·32倍封顶与创建房示意一致。房主标识未误用地主身份。"
+          },
+          {
+            "severity": "pass",
+            "subject": "操作与禁用原因",
+            "detail": "返回、离开房间、取消准备、邀请好友齐全；开始游戏为灰色禁用，下方等待3人到齐与当前两人状态一致。"
+          },
+          {
+            "severity": "note",
+            "subject": "覆盖边界",
+            "detail": "本图实际呈现空座、已准备、房主；未准备未在图中呈现，可用已核验51空白状态按钮及原生文字形成共享变体，不能记rendered。"
+          },
+          {
+            "severity": "pass",
+            "subject": "本轮逐张复核",
+            "detail": "恰好三席：房主本人已准备、花间客已准备、空座可邀请；房号和12局32倍信息明确，人数不足开始禁用。"
+          },
+          {
+            "severity": "note",
+            "subject": "状态覆盖",
+            "detail": "必需状态4项：主图可见3，共享视觉与原生文案设计1，仅说明0。共享态未另画整页，实际功能尚未接入。"
+          }
+        ],
+        "image": "designs/ui/core/09-room-waiting-v1.png",
+        "method": "view_image",
+        "status": "passed_for_design_review",
+        "reviewer": "core_qa",
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "imageSha256": "43dad2058f52739f80bf7ebf5273e7317cda4b563e0f7fbc49ccde20f11c868a",
+        "blockingIssues": [],
+        "previousInspection": {
+          "reviewer": "art_review",
+          "inspectedAt": "2026-10-26T04:16:48.8144443-04:00",
+          "status": "passed_for_design_review"
+        }
+      },
+      "userApproval": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "coverage": {
+        "requiredTotal": 4,
+        "rendered": 3,
+        "shared_component": 1,
+        "specified_only": 0
+      }
+    },
+    {
+      "pageId": "10-invite-friends",
+      "title": "邀请好友",
+      "output": "designs/ui/core/10-invite-friends-v1.png",
+      "sha256": "df93dd0ddaea2cef938ff50880ecbe007b084c6d4168b05a06f3dfc6ffda1f05",
+      "generation": "designs/ui/core/10-invite-friends-v1.generation.json",
+      "generationSha256": "414ca88a2f5ec4e3012f291f6574c34d27d7cdb3f6562dbb919c66a272ef2fcc",
+      "stateSpec": "designs/ui/core/10-invite-friends.states.json",
+      "stateSpecSha256": "c4b64dfeac4a3da8c0a991b0c7a37600e5ec007c875a3e3eee5af59d5aaa84bf",
+      "prompt": "prompts/core/10-invite-friends-v1.txt",
+      "promptSha256": "098eda570f9bba68013a7f4c47cbdefce5f3c297900b8cf2e871d54076689d43",
+      "nativeResolution": {
+        "width": 1931,
+        "height": 814
+      },
+      "exportResolution": {
+        "width": 1931,
+        "height": 814,
+        "operation": "byte-identical-copy-of-generated-output-no-resize-or-redraw"
+      },
+      "requestedResolution": {
+        "width": 2560,
+        "height": 1080,
+        "note": "提示词中的尺寸目标；内置工具无独立尺寸选择参数，实际尺寸以上方实测值为准。"
+      },
+      "status": "design_ready_user_review",
+      "visualQA": {
+        "blockingIssues": [],
+        "imageSha256": "df93dd0ddaea2cef938ff50880ecbe007b084c6d4168b05a06f3dfc6ffda1f05",
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "status": "passed_for_design_review",
+        "findings": [
+          {
+            "severity": "pass",
+            "subject": "好友状态区分",
+            "detail": "山间客为在线且玉绿邀请按钮；花间客为在线且灰绿已邀请按钮；松风客为离线且灰色离线按钮。头像与昵称区分清楚。"
+          },
+          {
+            "severity": "pass",
+            "subject": "范围与文案",
+            "detail": "邀请好友、搜索道友、好友3、房号120816、复制房号、分享房间和返回均清楚，列表和操作对齐。"
+          },
+          {
+            "severity": "pass",
+            "subject": "风格",
+            "detail": "米白纸绢列表、玉绿标题按钮、暖金细边与人物头像保持同源，无装饰压字。"
+          },
+          {
+            "severity": "pass",
+            "subject": "本轮逐张复核",
+            "detail": "在线可邀请、在线已邀请、离线三行分别呈现；搜索、好友3、房号120816、复制和分享入口完整。"
+          },
+          {
+            "severity": "note",
+            "subject": "状态覆盖",
+            "detail": "必需状态3项：主图可见2，共享视觉与原生文案设计1，仅说明0。共享态未另画整页，实际功能尚未接入。"
+          }
+        ],
+        "reviewer": "core_qa",
+        "image": "designs/ui/core/10-invite-friends-v1.png",
+        "method": "view_image",
+        "userApproval": false,
+        "previousInspection": {
+          "reviewer": "art_review",
+          "inspectedAt": "2026-10-26T04:54:29.6332144-04:00",
+          "status": "passed_for_design_review"
+        }
+      },
+      "userApproval": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "coverage": {
+        "requiredTotal": 3,
+        "rendered": 2,
+        "shared_component": 1,
+        "specified_only": 0
+      }
+    },
+    {
+      "pageId": "56-offline",
+      "title": "单机练习",
+      "output": "designs/ui/core/56-offline-v1.png",
+      "sha256": "323cb7a71683cf275e6c02a63392a84d26b6405a9bc4a21623fea59b1806a8bd",
+      "generation": "designs/ui/core/56-offline-v1.generation.json",
+      "generationSha256": "536bce6eb987caba6f5ad3ff0e0d5806fa29db9a4908eb327bc33554c7c472fb",
+      "stateSpec": "designs/ui/core/56-offline.states.json",
+      "stateSpecSha256": "914c62ae886e41bbb2bf68d15f3313b85c12c4524a0b798aa6b58299accad2d5",
+      "prompt": "prompts/core/56-offline-v1.txt",
+      "promptSha256": "56bac7cb899f230d1e0f0a508f8507ec9703368c7a97dcf5981c964875d243fc",
+      "nativeResolution": {
+        "width": 1931,
+        "height": 814
+      },
+      "exportResolution": {
+        "width": 1931,
+        "height": 814,
+        "operation": "byte-identical-copy-of-generated-output-no-resize-or-redraw"
+      },
+      "requestedResolution": {
+        "width": 2560,
+        "height": 1080,
+        "note": "提示词中的尺寸目标；内置工具无独立尺寸选择参数，实际尺寸以上方实测值为准。"
+      },
+      "status": "design_ready_user_review",
+      "visualQA": {
+        "status": "passed_for_design_review",
+        "reviewer": "root",
+        "inspectedAt": "2026-10-26T07:01:27.816186-04:00",
+        "method": "view_image",
+        "image": "designs/ui/core/56-offline-v1.png",
+        "imageSha256": "323cb7a71683cf275e6c02a63392a84d26b6405a9bc4a21623fea59b1806a8bd",
+        "userApproval": false,
+        "blockingIssues": [],
+        "findings": [
+          {
+            "severity": "pass",
+            "subject": "风格与结构",
+            "detail": "玉绿标题、米白金边卡片、仙山庭院及道童与两张主参考同源，文字无明显错漏。"
+          },
+          {
+            "severity": "pass",
+            "subject": "可开始与禁用",
+            "detail": "三档入门/进阶/挑战、入门选中和开始练习清晰；继续上局置灰并标暂无存档。"
+          },
+          {
+            "severity": "note",
+            "subject": "状态证据边界",
+            "detail": "主图仅实绘选择态；进行中复用14牌桌，暂停和结束复用50-D01及51组件，已记录具体原生文案与交互。"
+          }
+        ]
+      },
+      "userApproval": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "coverage": {
+        "requiredTotal": 4,
+        "rendered": 1,
+        "shared_component": 3,
+        "specified_only": 0
+      }
+    },
+    {
+      "pageId": "57-hero-skills",
+      "title": "英雄能力说明与选择",
+      "output": "designs/ui/core/57-hero-skills-v1.png",
+      "sha256": "40ef60f3c6c9b763272bf72ff0380a785492251e4f91a08449f3d3fc32ac2bb5",
+      "generation": "designs/ui/core/57-hero-skills-v1.generation.json",
+      "generationSha256": "df2670744df13ec252f71e1d15bf4be34e0664152eb6ed68c5efdf7983739e2b",
+      "stateSpec": "designs/ui/core/57-hero-skills.states.json",
+      "stateSpecSha256": "4621e1e2a457f11b0e2c4825208f16d01e0920c73d2bc5d475445270eb8e9beb",
+      "prompt": "prompts/core/57-hero-skills-v1.txt",
+      "promptSha256": "aa5c919fcfdf838109cb60fc6b0b681a0d285089d26e14eef310f8de43df9317",
+      "nativeResolution": {
+        "width": 1931,
+        "height": 814
+      },
+      "exportResolution": {
+        "width": 1931,
+        "height": 814,
+        "operation": "byte-identical-copy-of-generated-output-no-resize-or-redraw"
+      },
+      "requestedResolution": {
+        "width": 2560,
+        "height": 1080,
+        "note": "提示词中的尺寸目标；内置工具无独立尺寸选择参数，实际尺寸以上方实测值为准。"
+      },
+      "status": "design_ready_user_review",
+      "visualQA": {
+        "status": "passed_for_design_review",
+        "reviewer": "last_two_qa",
+        "inspectedAt": "2026-10-26T06:50:04.5930069-04:00",
+        "method": "view_image",
+        "image": "designs/ui/core/57-hero-skills-v1.png",
+        "imageSha256": "40ef60f3c6c9b763272bf72ff0380a785492251e4f91a08449f3d3fc32ac2bb5",
+        "userApproval": false,
+        "findings": [
+          {
+            "severity": "pass",
+            "detail": "三行人物头像不同；玉绿道童浅绿选中行与金勾、桃花女修已拥有、葫芦长者锁标/未解锁/获取均完整可辨。",
+            "subject": "角色与状态"
+          },
+          {
+            "severity": "pass",
+            "detail": "右侧静心说明实际包含获得一次出牌提示、每局可使用一次和仅英雄玩法生效；此状态依据实绘正文，不以技能说明按钮充当弹窗证据。",
+            "subject": "能力说明"
+          },
+          {
+            "severity": "pass",
+            "detail": "玉绿、米白纸绢、暖金边与道童全身同源；人物脚和卡片完整，正文和操作无遮挡。",
+            "subject": "布局与风格"
+          },
+          {
+            "severity": "note",
+            "detail": "静心及其效果为原创设计示意；已选用按钮仍用玉绿皮肤，重复提交由状态规范禁用，不声称静态图证明交互实现。",
+            "subject": "业务与交互边界"
+          }
+        ],
+        "blockingIssues": []
+      },
+      "userApproval": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "coverage": {
+        "requiredTotal": 4,
+        "rendered": 4,
+        "shared_component": 0,
+        "specified_only": 0
+      }
+    },
+    {
+      "pageId": "58-season-shop",
+      "title": "赛季兑换",
+      "output": "designs/ui/core/58-season-shop-v1.png",
+      "sha256": "65ab4f93908a8c87ef76a29551fe248108c4c6f123f5bdc3f2bd632ffc056dce",
+      "generation": "designs/ui/core/58-season-shop-v1.generation.json",
+      "generationSha256": "7aa07b7197ecabc175fa567cbc45ec3e5171372b6b7eac06e4b95e708413edc8",
+      "stateSpec": "designs/ui/core/58-season-shop.states.json",
+      "stateSpecSha256": "63ea47fb28259c22a4348717f20e1b8a384d512b4120cb492ecde4075a459352",
+      "prompt": "prompts/core/58-season-shop-v1.txt",
+      "promptSha256": "4637ec7780a6888d0a413219bfe3a6924c77475930371f10492fbef7fe110887",
+      "nativeResolution": {
+        "width": 1931,
+        "height": 814
+      },
+      "exportResolution": {
+        "width": 1931,
+        "height": 814,
+        "operation": "byte-identical-copy-of-generated-output-no-resize-or-redraw"
+      },
+      "requestedResolution": {
+        "width": 2560,
+        "height": 1080,
+        "note": "提示词中的尺寸目标；内置工具无独立尺寸选择参数，实际尺寸以上方实测值为准。"
+      },
+      "status": "design_ready_user_review",
+      "visualQA": {
+        "status": "passed_for_design_review",
+        "reviewer": "last_two_qa",
+        "inspectedAt": "2026-10-26T06:50:04.5930069-04:00",
+        "method": "view_image",
+        "image": "designs/ui/core/58-season-shop-v1.png",
+        "imageSha256": "65ab4f93908a8c87ef76a29551fe248108c4c6f123f5bdc3f2bd632ffc056dce",
+        "userApproval": false,
+        "findings": [
+          {
+            "severity": "pass",
+            "detail": "赛季令680、剩余12天可读；四卡名称、奖励图标及120/300/980/200成本完整；前两卡可兑换与余额一致。",
+            "subject": "商品与余额"
+          },
+          {
+            "severity": "pass",
+            "detail": "青云衣裳980高于680，按钮灰化并写代币不足；金豆礼包显示可兑0/1与已兑换印记，没有可点兑换按钮。",
+            "subject": "不足与已兑"
+          },
+          {
+            "severity": "pass",
+            "detail": "道童位于左侧，四张商品卡和底部赛季说明、兑换记录未被遮挡；手绘玉绿金玉和纸绢体系一致。",
+            "subject": "布局与风格"
+          },
+          {
+            "severity": "note",
+            "detail": "本图仍处于剩余12天，不能记为到期已画。到期复用实际查看且哈希核验的50-D06及51/透明控件，具体文案、按钮和禁用规则写入states，未另绘整屏。",
+            "subject": "到期覆盖"
+          },
+          {
+            "severity": "note",
+            "detail": "余额、成本、限兑次数、赛季期限均为设计示意，未接入兑换、支付或后台。",
+            "subject": "示例数据"
+          }
+        ],
+        "blockingIssues": []
+      },
+      "userApproval": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "coverage": {
+        "requiredTotal": 4,
+        "rendered": 3,
+        "shared_component": 1,
+        "specified_only": 0
+      }
+    }
+  ]
+}

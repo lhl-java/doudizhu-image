@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/ui/table/17-reconnect-v1.png",
+  "sha256": "9ffe52eac84e9d24012cd247d99cd6a2a2d6fb3d51eb79f6404e10a747328bb2",
+  "generatedAt": "2026-10-26 08:05:29 UTC",
+  "generatedAtEvidence": "工具返回后UTC时钟，作为完成时间代理；不是模型内部时间",
+  "recordedAt": "2026-10-26T04:20:52.1400727-04:00",
+  "width": 1931,
+  "height": 814,
+  "format": "PNG",
+  "nativeResolution": {
+    "height": 814,
+    "width": 1931
+  },
+  "exportOperation": "byte-identical-copy-no-resize",
+  "requestedResolution": {
+    "evidence": "提示词目标，工具无尺寸选择器，实际以上方实测为准",
+    "height": 1080,
+    "width": 2560
+  },
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "transparent_background": false,
+    "quality": null,
+    "model": null,
+    "referenced_image_paths": [
+      "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\doudizhu-image\\designs\\ui\\lobby-ui-v1.png",
+      "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据；配置和提示词不能作为实际分支或质量的证据",
+  "evidence": {
+    "hostOutputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a1772b-022e-7852-8cd0-9c61c117e140\\exec-5e659366-83e9-47da-a1dd-3df5b3a93626.png",
+    "metadataInspection": "System.Drawing读取实际尺寸和像素格式，未验证C2PA",
+    "toolReturnedKeys": [
+      "image_url",
+      "output_hint"
+    ],
+    "pixelFormat": "Format24bppRgb",
+    "receipt": "designs/ui/table/17-reconnect-v1.receipt.json"
+  },
+  "prompt": "prompts/table/17-reconnect-v1.txt",
+  "promptSha256": "e7bbe794ed81336522ab6e60a534d46d757dfa9a233e8907e3e5b79472cc8849",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "首要风格参考：玉绿米白暖金、纸绢、云纹、角色画法",
+      "usage": "actually-attached-to-imagegen"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "首要风格参考：标题、卡片、按钮、留白与头像",
+      "usage": "actually-attached-to-imagegen"
+    },
+    {
+      "file": "designs/ui/lobby-ui-v1.png",
+      "sha256": "6fb7c972b11f32d0454b32e38a85d50cf571205201e257638c29ee9eeedb8e3b",
+      "role": "本项目大厅同源风格",
+      "usage": "actually-attached-to-imagegen"
+    },
+    {
+      "file": "designs/characters/characters-trio-v1.png",
+      "sha256": "0c4dda70d4e16715527ed243a8d3efc2a401be2f06326b49601d1b184e7165ac",
+      "role": "本项目三人角色身份与画法",
+      "usage": "actually-attached-to-imagegen"
+    }
+  ],
+  "visualReview": {
+    "status": "pending_visual_review",
+    "note": "稍后逐图实际查看后记录"
+  }
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "image": "designs/ui/support/37-item-detail-v1.png",
+    "shared": 2,
+    "rendered": 2,
+    "specifiedOnly": 0,
+    "id": "37-item-detail"
+  },
+  {
+    "image": "designs/ui/support/38-wallet-v1.png",
+    "shared": 3,
+    "rendered": 1,
+    "specifiedOnly": 0,
+    "id": "38-wallet"
+  },
+  {
+    "image": "designs/ui/support/39-inventory-v1.png",
+    "shared": 3,
+    "rendered": 1,
+    "specifiedOnly": 0,
+    "id": "39-inventory"
+  },
+  {
+    "image": "designs/ui/support/40-player-profile-v1.png",
+    "shared": 3,
+    "rendered": 1,
+    "specifiedOnly": 0,
+    "id": "40-player-profile"
+  },
+  {
+    "image": "designs/ui/support/41-friends-v1.png",
+    "shared": 2,
+    "rendered": 2,
+    "specifiedOnly": 0,
+    "id": "41-friends"
+  },
+  {
+    "image": "designs/ui/support/42-leaderboard-v2.png",
+    "shared": 2,
+    "rendered": 1,
+    "specifiedOnly": 0,
+    "id": "42-leaderboard"
+  },
+  {
+    "image": "designs/ui/support/43-daily-missions-v1.png",
+    "shared": 1,
+    "rendered": 3,
+    "specifiedOnly": 0,
+    "id": "43-daily-missions"
+  },
+  {
+    "image": "designs/ui/support/44-sign-in-v1.png",
+    "shared": 1,
+    "rendered": 3,
+    "specifiedOnly": 0,
+    "id": "44-sign-in"
+  },
+  {
+    "image": "designs/ui/support/45-events-v1.png",
+    "shared": 1,
+    "rendered": 3,
+    "specifiedOnly": 0,
+    "id": "45-events"
+  },
+  {
+    "image": "designs/ui/support/46-mail-v1.png",
+    "shared": 1,
+    "rendered": 4,
+    "specifiedOnly": 0,
+    "id": "46-mail"
+  },
+  {
+    "image": "designs/ui/support/47-settings-v1.png",
+    "shared": 2,
+    "rendered": 2,
+    "specifiedOnly": 0,
+    "id": "47-settings"
+  },
+  {
+    "image": "designs/ui/support/48-help-rules-v1.png",
+    "shared": 1,
+    "rendered": 2,
+    "specifiedOnly": 0,
+    "id": "48-help-rules"
+  },
+  {
+    "image": "designs/ui/support/49-support-notices-v1.png",
+    "shared": 3,
+    "rendered": 1,
+    "specifiedOnly": 0,
+    "id": "49-support-notices"
+  },
+  {
+    "image": "designs/ui/support/59-achievements-growth-v2.png",
+    "shared": 1,
+    "rendered": 3,
+    "specifiedOnly": 0,
+    "id": "59-achievements-growth"
+  },
+  {
+    "image": "designs/ui/support/60-account-notices-v1.png",
+    "shared": 3,
+    "rendered": 1,
+    "specifiedOnly": 0,
+    "id": "60-account-notices"
+  }
+]

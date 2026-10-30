@@ -1,0 +1,22 @@
+{
+  "source": "designs/ui/table/16-trustee-v1.png",
+  "output": "designs/ui/table/16-trustee-v2.png",
+  "cardGroups": [
+    {
+      "role": "地主已确定后的三张公开底牌",
+      "rect": [
+        842,
+        180,
+        249,
+        119
+      ],
+      "cards": [
+        "spades-A",
+        "hearts-K",
+        "diamonds-3"
+      ],
+      "selectedIndexes": [],
+      "selectionLift": 0
+    }
+  ]
+}

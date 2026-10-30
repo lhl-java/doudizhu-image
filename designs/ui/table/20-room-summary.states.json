@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "20-room-summary",
+  "title": "好友房总战绩",
+  "primaryVisual": "designs/ui/table/20-room-summary-v1.png",
+  "generation": "designs/ui/table/20-room-summary-v1.generation.json",
+  "status": "design_ready_user_review",
+  "shownState": "满局总战绩；最佳玩家",
+  "renderedStateVerification": "已看图：房号、8/8局、三位总战绩、最佳玩家、两行示例与查看全部、返回与再开房清楚。总分+1200−400−800为0；表内仅显示两行设计示例，其他行由真实数据填充。",
+  "states": [
+    {
+      "name": "未满局",
+      "coverage": "shared_component",
+      "plannedCoverage": "shared_component",
+      "behavior": "显示当前已结束局数，继续房间与退出入口；未结算局不计入总分。",
+      "artwork": "assets/ui/manifest.json",
+      "verification": "rendered为当前已看图布局；shared_component为已有同源素材与原生动态层的复用规范，不表示已生成每个变体截图或已实现客户端"
+    },
+    {
+      "name": "满局",
+      "coverage": "rendered",
+      "plannedCoverage": "rendered",
+      "behavior": "显示8/8局、三人总分与本场最佳。",
+      "artwork": "designs/ui/table/20-room-summary-v1.png",
+      "verification": "rendered为当前已看图布局；shared_component为已有同源素材与原生动态层的复用规范，不表示已生成每个变体截图或已实现客户端"
+    },
+    {
+      "name": "解散",
+      "coverage": "shared_component",
+      "plannedCoverage": "shared_component",
+      "behavior": "表头显示房间已解散，保留已结算战绩与回大厅入口。",
+      "artwork": "assets/ui/manifest.json",
+      "verification": "rendered为当前已看图布局；shared_component为已有同源素材与原生动态层的复用规范，不表示已生成每个变体截图或已实现客户端"
+    }
+  ],
+  "dynamicFields": [
+    "玩家昵称、头像、身份",
+    "底牌、手牌、牌数、出牌组合",
+    "剩余时间、底分、倍数、分数",
+    "选择状态、连接状态、提示文案"
+  ],
+  "implementationNote": "背景和皮肤为视觉设计。所有中文、牌面、牌数、计时、分数、可用性应作为原生动态层；当前图片仅示意，不作为可运行或合法牌局验收。",
+  "sharedDependencies": [
+    "assets/ui/manifest.json",
+    "designs/ui/components/50-shared-dialogs-v1.png",
+    "designs/ui/components/51-common-components-v1.png",
+    "designs/ui/components/52-card-and-effects-v1.png"
+  ],
+  "copyAndRules": "示意计分、门槛、倍数和超时规则应由最终产品规则确认，不以本图取代真实回执。"
+}

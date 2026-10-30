@@ -1,0 +1,55 @@
+{
+  "id": "daotong_snow_lose",
+  "kind": "costume_pose",
+  "file": "assets/characters/daotong/costumes/snow-poses/lose.png",
+  "record": "assets/characters/daotong/costumes/snow-poses/lose.derivation.json",
+  "width": 1024,
+  "height": 1024,
+  "anchor": [
+    512,
+    920
+  ],
+  "sha256": "bab87bc6880ce89d39ddc3eabc24fe6dca8aac947978f518f5d31d37c73e1d48",
+  "route": "derived",
+  "noUpscale": true,
+  "fixedScale": 0.6389776357827476,
+  "sourceRect": [
+    95,
+    28,
+    1163,
+    1292
+  ],
+  "sourceAnchor": [
+    629.0,
+    1286
+  ],
+  "offset": [
+    171,
+    116
+  ],
+  "registration": "match the skin-master significant body height; feet anchored at512,920; per-source uniform downscale only",
+  "operation": "significant-alpha crop plus6px, premultiplied-alpha Lanczos downscale, foot-anchor registration; independent generated pose still",
+  "derivedFrom": [
+    {
+      "file": "designs/characters/costume-poses-20261029/snow-lose-v1.png",
+      "sha256": "d6a322c7ed1d7c0af85069aab8e967469d1319d9c8669477255da0c0e168ac32",
+      "record": "designs/characters/costume-poses-20261029/snow-lose-v1.generation.json"
+    }
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "edgeAlphaMax": 0,
+  "status": "passed_offline_art_review",
+  "recordedAt": "2026-10-30T04:34:58.096791+00:00",
+  "visualReview": {
+    "method": "actual imagegen returns plus light/dark five-costume master-win-lose contact inspected",
+    "passed": true,
+    "reviewedAt": "2026-10-30T05:04:57.799091+00:00",
+    "bodyHeight": 800,
+    "masterBodyHeight": 800,
+    "edgeAlphaMax": 0,
+    "footAnchorError": 0
+  }
+}

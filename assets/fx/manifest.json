@@ -1,0 +1,542 @@
+{
+  "schemaVersion": 1,
+  "logicalViewport": {
+    "width": 2560,
+    "height": 1080
+  },
+  "assets": [
+    {
+      "id": "deal-trail",
+      "file": "assets/fx/deal-trail.png",
+      "record": "assets/fx/deal-trail.png.generation.json",
+      "width": 512,
+      "height": 512,
+      "kind": "fx",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "z": 80,
+      "blend": "screen",
+      "event": "deal_card",
+      "durationMs": 480,
+      "loop": false,
+      "timeline": "assets/fx/deal-trail.timeline.json",
+      "frames": "assets/fx/frames/deal-trail/frames.json",
+      "status": "design_ready_user_review",
+      "animationKind": "derived_transform_spriteframes"
+    },
+    {
+      "id": "play-glow",
+      "file": "assets/fx/play-glow.png",
+      "record": "assets/fx/play-glow.png.generation.json",
+      "width": 512,
+      "height": 512,
+      "kind": "fx",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "z": 80,
+      "blend": "screen",
+      "event": "play_cards",
+      "durationMs": 650,
+      "loop": false,
+      "timeline": "assets/fx/play-glow.timeline.json",
+      "frames": "assets/fx/frames/play-glow/frames.json",
+      "status": "design_ready_user_review",
+      "animationKind": "derived_transform_spriteframes"
+    },
+    {
+      "id": "bomb-burst",
+      "file": "assets/fx/bomb-burst.png",
+      "record": "assets/fx/bomb-burst.png.generation.json",
+      "width": 512,
+      "height": 512,
+      "kind": "fx",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "z": 80,
+      "blend": "screen",
+      "event": "bomb_played",
+      "durationMs": 750,
+      "loop": false,
+      "timeline": "assets/fx/bomb-burst.timeline.json",
+      "frames": "assets/fx/frames/bomb-burst/frames.json",
+      "status": "design_ready_user_review",
+      "animationKind": "derived_transform_spriteframes"
+    },
+    {
+      "id": "rocket-trail",
+      "file": "assets/fx/rocket-trail.png",
+      "record": "assets/fx/rocket-trail.png.generation.json",
+      "width": 512,
+      "height": 512,
+      "kind": "fx",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "z": 80,
+      "blend": "screen",
+      "event": "rocket_played",
+      "durationMs": 900,
+      "loop": false,
+      "timeline": "assets/fx/rocket-trail.timeline.json",
+      "frames": "assets/fx/frames/rocket-trail/frames.json",
+      "status": "design_ready_user_review",
+      "animationKind": "derived_transform_spriteframes"
+    },
+    {
+      "id": "spring-petals",
+      "file": "assets/fx/spring-petals.png",
+      "record": "assets/fx/spring-petals.png.generation.json",
+      "width": 512,
+      "height": 512,
+      "kind": "fx",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "z": 80,
+      "blend": "normal",
+      "event": "spring",
+      "durationMs": 1500,
+      "loop": false,
+      "timeline": "assets/fx/spring-petals.timeline.json",
+      "frames": "assets/fx/frames/spring-petals/frames.json",
+      "status": "design_ready_user_review",
+      "animationKind": "derived_transform_spriteframes"
+    },
+    {
+      "id": "counter-spring-leaves",
+      "file": "assets/fx/counter-spring-leaves.png",
+      "record": "assets/fx/counter-spring-leaves.png.generation.json",
+      "width": 512,
+      "height": 512,
+      "kind": "fx",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "z": 80,
+      "blend": "normal",
+      "event": "counter_spring",
+      "durationMs": 1400,
+      "loop": false,
+      "timeline": "assets/fx/counter-spring-leaves.timeline.json",
+      "frames": "assets/fx/frames/counter-spring-leaves/frames.json",
+      "status": "design_ready_user_review",
+      "animationKind": "derived_transform_spriteframes"
+    },
+    {
+      "id": "win-gold",
+      "file": "assets/fx/win-gold.png",
+      "record": "assets/fx/win-gold.png.generation.json",
+      "width": 512,
+      "height": 512,
+      "kind": "fx",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "z": 80,
+      "blend": "screen",
+      "event": "round_win",
+      "durationMs": 1400,
+      "loop": false,
+      "timeline": "assets/fx/win-gold.timeline.json",
+      "frames": "assets/fx/frames/win-gold/frames.json",
+      "status": "design_ready_user_review",
+      "animationKind": "derived_transform_spriteframes"
+    },
+    {
+      "id": "lose-cloud",
+      "file": "assets/fx/lose-cloud.png",
+      "record": "assets/fx/lose-cloud.png.generation.json",
+      "width": 512,
+      "height": 512,
+      "kind": "fx",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "z": 80,
+      "blend": "normal",
+      "event": "round_loss",
+      "durationMs": 1100,
+      "loop": false,
+      "timeline": "assets/fx/lose-cloud.timeline.json",
+      "frames": "assets/fx/frames/lose-cloud/frames.json",
+      "status": "design_ready_user_review",
+      "animationKind": "derived_transform_spriteframes"
+    },
+    {
+      "id": "rank-up",
+      "file": "assets/fx/rank-up.png",
+      "record": "assets/fx/rank-up.png.generation.json",
+      "width": 512,
+      "height": 512,
+      "kind": "fx",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "z": 80,
+      "blend": "screen",
+      "event": "rank_promoted",
+      "durationMs": 1000,
+      "loop": false,
+      "timeline": "assets/fx/rank-up.timeline.json",
+      "frames": "assets/fx/frames/rank-up/frames.json",
+      "status": "design_ready_user_review",
+      "animationKind": "derived_transform_spriteframes"
+    },
+    {
+      "id": "reward-sparkle",
+      "file": "assets/fx/reward-sparkle.png",
+      "record": "assets/fx/reward-sparkle.png.generation.json",
+      "width": 512,
+      "height": 512,
+      "kind": "fx",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "z": 80,
+      "blend": "screen",
+      "event": "reward_claimed",
+      "durationMs": 800,
+      "loop": false,
+      "timeline": "assets/fx/reward-sparkle.timeline.json",
+      "frames": "assets/fx/frames/reward-sparkle/frames.json",
+      "status": "design_ready_user_review",
+      "animationKind": "derived_transform_spriteframes"
+    },
+    {
+      "id": "turn-ring",
+      "file": "assets/fx/turn-ring.png",
+      "record": "assets/fx/turn-ring.png.generation.json",
+      "width": 512,
+      "height": 512,
+      "kind": "fx",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "z": 80,
+      "blend": "screen",
+      "event": "turn_started",
+      "durationMs": 1200,
+      "loop": true,
+      "timeline": "assets/fx/turn-ring.timeline.json",
+      "frames": "assets/fx/frames/turn-ring/frames.json",
+      "status": "design_ready_user_review",
+      "animationKind": "derived_transform_spriteframes"
+    },
+    {
+      "id": "loading-ring",
+      "file": "assets/fx/loading-ring.png",
+      "record": "assets/fx/loading-ring.png.generation.json",
+      "width": 512,
+      "height": 512,
+      "kind": "fx",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "z": 80,
+      "blend": "normal",
+      "event": "loading_started",
+      "durationMs": 1200,
+      "loop": true,
+      "timeline": "assets/fx/loading-ring.timeline.json",
+      "frames": "assets/fx/frames/loading-ring/frames.json",
+      "status": "design_ready_user_review",
+      "animationKind": "derived_transform_spriteframes"
+    }
+  ],
+  "effects": [
+    {
+      "id": "deal-trail",
+      "file": "assets/fx/deal-trail.png",
+      "record": "assets/fx/deal-trail.png.generation.json",
+      "width": 512,
+      "height": 512,
+      "kind": "fx",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "z": 80,
+      "blend": "screen",
+      "event": "deal_card",
+      "durationMs": 480,
+      "loop": false,
+      "timeline": "assets/fx/deal-trail.timeline.json",
+      "frames": "assets/fx/frames/deal-trail/frames.json",
+      "status": "design_ready_user_review",
+      "animationKind": "derived_transform_spriteframes"
+    },
+    {
+      "id": "play-glow",
+      "file": "assets/fx/play-glow.png",
+      "record": "assets/fx/play-glow.png.generation.json",
+      "width": 512,
+      "height": 512,
+      "kind": "fx",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "z": 80,
+      "blend": "screen",
+      "event": "play_cards",
+      "durationMs": 650,
+      "loop": false,
+      "timeline": "assets/fx/play-glow.timeline.json",
+      "frames": "assets/fx/frames/play-glow/frames.json",
+      "status": "design_ready_user_review",
+      "animationKind": "derived_transform_spriteframes"
+    },
+    {
+      "id": "bomb-burst",
+      "file": "assets/fx/bomb-burst.png",
+      "record": "assets/fx/bomb-burst.png.generation.json",
+      "width": 512,
+      "height": 512,
+      "kind": "fx",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "z": 80,
+      "blend": "screen",
+      "event": "bomb_played",
+      "durationMs": 750,
+      "loop": false,
+      "timeline": "assets/fx/bomb-burst.timeline.json",
+      "frames": "assets/fx/frames/bomb-burst/frames.json",
+      "status": "design_ready_user_review",
+      "animationKind": "derived_transform_spriteframes"
+    },
+    {
+      "id": "rocket-trail",
+      "file": "assets/fx/rocket-trail.png",
+      "record": "assets/fx/rocket-trail.png.generation.json",
+      "width": 512,
+      "height": 512,
+      "kind": "fx",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "z": 80,
+      "blend": "screen",
+      "event": "rocket_played",
+      "durationMs": 900,
+      "loop": false,
+      "timeline": "assets/fx/rocket-trail.timeline.json",
+      "frames": "assets/fx/frames/rocket-trail/frames.json",
+      "status": "design_ready_user_review",
+      "animationKind": "derived_transform_spriteframes"
+    },
+    {
+      "id": "spring-petals",
+      "file": "assets/fx/spring-petals.png",
+      "record": "assets/fx/spring-petals.png.generation.json",
+      "width": 512,
+      "height": 512,
+      "kind": "fx",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "z": 80,
+      "blend": "normal",
+      "event": "spring",
+      "durationMs": 1500,
+      "loop": false,
+      "timeline": "assets/fx/spring-petals.timeline.json",
+      "frames": "assets/fx/frames/spring-petals/frames.json",
+      "status": "design_ready_user_review",
+      "animationKind": "derived_transform_spriteframes"
+    },
+    {
+      "id": "counter-spring-leaves",
+      "file": "assets/fx/counter-spring-leaves.png",
+      "record": "assets/fx/counter-spring-leaves.png.generation.json",
+      "width": 512,
+      "height": 512,
+      "kind": "fx",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "z": 80,
+      "blend": "normal",
+      "event": "counter_spring",
+      "durationMs": 1400,
+      "loop": false,
+      "timeline": "assets/fx/counter-spring-leaves.timeline.json",
+      "frames": "assets/fx/frames/counter-spring-leaves/frames.json",
+      "status": "design_ready_user_review",
+      "animationKind": "derived_transform_spriteframes"
+    },
+    {
+      "id": "win-gold",
+      "file": "assets/fx/win-gold.png",
+      "record": "assets/fx/win-gold.png.generation.json",
+      "width": 512,
+      "height": 512,
+      "kind": "fx",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "z": 80,
+      "blend": "screen",
+      "event": "round_win",
+      "durationMs": 1400,
+      "loop": false,
+      "timeline": "assets/fx/win-gold.timeline.json",
+      "frames": "assets/fx/frames/win-gold/frames.json",
+      "status": "design_ready_user_review",
+      "animationKind": "derived_transform_spriteframes"
+    },
+    {
+      "id": "lose-cloud",
+      "file": "assets/fx/lose-cloud.png",
+      "record": "assets/fx/lose-cloud.png.generation.json",
+      "width": 512,
+      "height": 512,
+      "kind": "fx",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "z": 80,
+      "blend": "normal",
+      "event": "round_loss",
+      "durationMs": 1100,
+      "loop": false,
+      "timeline": "assets/fx/lose-cloud.timeline.json",
+      "frames": "assets/fx/frames/lose-cloud/frames.json",
+      "status": "design_ready_user_review",
+      "animationKind": "derived_transform_spriteframes"
+    },
+    {
+      "id": "rank-up",
+      "file": "assets/fx/rank-up.png",
+      "record": "assets/fx/rank-up.png.generation.json",
+      "width": 512,
+      "height": 512,
+      "kind": "fx",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "z": 80,
+      "blend": "screen",
+      "event": "rank_promoted",
+      "durationMs": 1000,
+      "loop": false,
+      "timeline": "assets/fx/rank-up.timeline.json",
+      "frames": "assets/fx/frames/rank-up/frames.json",
+      "status": "design_ready_user_review",
+      "animationKind": "derived_transform_spriteframes"
+    },
+    {
+      "id": "reward-sparkle",
+      "file": "assets/fx/reward-sparkle.png",
+      "record": "assets/fx/reward-sparkle.png.generation.json",
+      "width": 512,
+      "height": 512,
+      "kind": "fx",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "z": 80,
+      "blend": "screen",
+      "event": "reward_claimed",
+      "durationMs": 800,
+      "loop": false,
+      "timeline": "assets/fx/reward-sparkle.timeline.json",
+      "frames": "assets/fx/frames/reward-sparkle/frames.json",
+      "status": "design_ready_user_review",
+      "animationKind": "derived_transform_spriteframes"
+    },
+    {
+      "id": "turn-ring",
+      "file": "assets/fx/turn-ring.png",
+      "record": "assets/fx/turn-ring.png.generation.json",
+      "width": 512,
+      "height": 512,
+      "kind": "fx",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "z": 80,
+      "blend": "screen",
+      "event": "turn_started",
+      "durationMs": 1200,
+      "loop": true,
+      "timeline": "assets/fx/turn-ring.timeline.json",
+      "frames": "assets/fx/frames/turn-ring/frames.json",
+      "status": "design_ready_user_review",
+      "animationKind": "derived_transform_spriteframes"
+    },
+    {
+      "id": "loading-ring",
+      "file": "assets/fx/loading-ring.png",
+      "record": "assets/fx/loading-ring.png.generation.json",
+      "width": 512,
+      "height": 512,
+      "kind": "fx",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "z": 80,
+      "blend": "normal",
+      "event": "loading_started",
+      "durationMs": 1200,
+      "loop": true,
+      "timeline": "assets/fx/loading-ring.timeline.json",
+      "frames": "assets/fx/frames/loading-ring/frames.json",
+      "status": "design_ready_user_review",
+      "animationKind": "derived_transform_spriteframes"
+    }
+  ],
+  "animationSemantics": {
+    "translationUnit": "fraction of baked384 frame",
+    "interpolation": "linear",
+    "scale": "uniform",
+    "rotation": "clockwise degrees",
+    "blend": "normal maps source-over, screen maps screen; renderer must honor blend",
+    "events": "trigger only on game-state event; looping animations stop on stopEvent",
+    "native_vs_derived": "Two AI-generated source sheets; 12 ownership-sliced runtime sprites; 192 transform-derived frames; no AI video."
+  },
+  "sourceSheets": [
+    {
+      "file": "designs/runtime-scenes-20261026/fx-sheet-a.png",
+      "record": "designs/runtime-scenes-20261026/fx-sheet-a.png.generation.json",
+      "runtimePacked": "designs/runtime-scenes-20261026/fx-sheet-a-runtime.png"
+    },
+    {
+      "file": "designs/runtime-scenes-20261026/fx-sheet-b.png",
+      "record": "designs/runtime-scenes-20261026/fx-sheet-b.png.generation.json",
+      "runtimePacked": "designs/runtime-scenes-20261026/fx-sheet-b-runtime.png"
+    }
+  ],
+  "rawQALimit": "A original WARN safe_frame/faint_specks; B original FAIL cross_cell_components/cross_cell_visible, WARN boundary_band/safe_frame/faint_specks. Runtime ownership slicing keeps all components and separates subjects; original reports retained. Final alpha/safety QC is separate.",
+  "qa": {
+    "status": "ready_with_documented_alpha_warnings",
+    "file": "designs/runtime-scenes-20261026/validation.json",
+    "rawSourceWarningsRetained": true
+  }
+}

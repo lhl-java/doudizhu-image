@@ -1,0 +1,29 @@
+{
+  "file": "assets/ui/cards-source/ace-spades.png",
+  "sha256": "035a2de2c45fb5053560ccb55376788753f19a5c7de35aae6974b52a5de67308",
+  "width": 229,
+  "height": 283,
+  "format": "PNG",
+  "operation": "crop-only-preserve-source-RGBA-no-resize",
+  "cropRect": [
+    461,
+    0,
+    694,
+    283
+  ],
+  "trimRect": [
+    4,
+    0,
+    233,
+    283
+  ],
+  "derivedFrom": {
+    "file": "designs/ui/components/52-card-and-effects-v1.png",
+    "sha256": "e8c4302a6d6111f092218681bf36d87ae1dcfeb0f45f58321847d178cb71855e",
+    "generationRecord": "designs/ui/components/52-card-and-effects-v1.generation.json"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+  "status": "derived_asset_ready_user_review"
+}

@@ -1,0 +1,202 @@
+{
+  "file": "designs/runtime-scenes-20261026/fx-frame-contact.jpg",
+  "sha256": "8a8e62e03cf703e0a8e29410cfbf45efa86d65e85a2fc53e695eba29b874ca28",
+  "route": "derived",
+  "operation": "Offline final frame contact; selected frame indices1,5,9,13, downscaled for QA only; not game screenshot or new art",
+  "width": 1024,
+  "height": 2688,
+  "derivedFrom": [
+    {
+      "file": "assets/fx/frames/deal-trail/001.png",
+      "sha256": "2b48150bca8f8164c36ce4f7d62b04ebe6023d2511232b60e780cddc931c9405"
+    },
+    {
+      "file": "assets/fx/frames/deal-trail/005.png",
+      "sha256": "d2a985119ae18e59d0066730821810a8e8ecaded844f115a3be206fda78e1243"
+    },
+    {
+      "file": "assets/fx/frames/deal-trail/009.png",
+      "sha256": "e456dd3f3e25fc742ce4b5345241b3dcb87e4a2e6f70eb582092b2b5974d1195"
+    },
+    {
+      "file": "assets/fx/frames/deal-trail/013.png",
+      "sha256": "5d57db60d00b61a64e6b50bc83c39b13a82d435804eb113b7a8f6a4345bab1a4"
+    },
+    {
+      "file": "assets/fx/frames/play-glow/001.png",
+      "sha256": "bb45162b93ba3fb5a27cc39564334ebb00bfffec25cbd36a5726522c77788b5b"
+    },
+    {
+      "file": "assets/fx/frames/play-glow/005.png",
+      "sha256": "c9234372175d526127cb2cc45049ef347a17d31a14767ed29f2ac9efeae0430a"
+    },
+    {
+      "file": "assets/fx/frames/play-glow/009.png",
+      "sha256": "b3df54cea805aaa1dc9c4d4e796abe158991029b1e402493b892ada898360fac"
+    },
+    {
+      "file": "assets/fx/frames/play-glow/013.png",
+      "sha256": "15d484573b718c692b706306ccf3d50d484eb77bf661eb0490e4cb30cffe25b4"
+    },
+    {
+      "file": "assets/fx/frames/bomb-burst/001.png",
+      "sha256": "26e511aad897a446f417acc2393a2f030117358b41ca938fe1946760742259b4"
+    },
+    {
+      "file": "assets/fx/frames/bomb-burst/005.png",
+      "sha256": "a0f6b1168cbe579adac1702c1cbe155d0b5b10a9998a0c5006504d32e9ed0008"
+    },
+    {
+      "file": "assets/fx/frames/bomb-burst/009.png",
+      "sha256": "ac2cb3a99086272ca0a86a21b98138bc3f5ef37a48dc3546965e7723c6714c2d"
+    },
+    {
+      "file": "assets/fx/frames/bomb-burst/013.png",
+      "sha256": "4e0e95e32267962e1979b4907e5dda68703645c4b97c06b24735755222ff7b63"
+    },
+    {
+      "file": "assets/fx/frames/rocket-trail/001.png",
+      "sha256": "9f8bdc593b4f6747fb2434161e8928ab8cf1e34f72740e4ac8075332e753bfcb"
+    },
+    {
+      "file": "assets/fx/frames/rocket-trail/005.png",
+      "sha256": "bf50b2246e53b5dd58aac7db35d1907364e9bcdd12e44418aaa0f90a0854d2f5"
+    },
+    {
+      "file": "assets/fx/frames/rocket-trail/009.png",
+      "sha256": "e203675eb030275fb3bb990009e7f71923b175e64c03852ddc95db31a90be36f"
+    },
+    {
+      "file": "assets/fx/frames/rocket-trail/013.png",
+      "sha256": "6a7c297147c2ab12efe71bf82d339480079be00134bc526f4cb5f0916c6bd304"
+    },
+    {
+      "file": "assets/fx/frames/spring-petals/001.png",
+      "sha256": "28123131b6ff7a7671aa7a6e39ef061b630a46581df33fbbc8c05119879c8a30"
+    },
+    {
+      "file": "assets/fx/frames/spring-petals/005.png",
+      "sha256": "18f370652ab405319cc4068083b62827173c07c3f47ecfe50ff4c30574963f92"
+    },
+    {
+      "file": "assets/fx/frames/spring-petals/009.png",
+      "sha256": "a6d98c02837062689cbd168af7d95690869db63c6efac54feab7ec3743af0ea5"
+    },
+    {
+      "file": "assets/fx/frames/spring-petals/013.png",
+      "sha256": "7dd6b8059b33b30c65f979102c76d99f93e635437c7b9a6130da0ca997e2e183"
+    },
+    {
+      "file": "assets/fx/frames/counter-spring-leaves/001.png",
+      "sha256": "19d0a6ded0f56bdc30eb1346460a0f34b8baad539507f7111e0ee9e31557fd0b"
+    },
+    {
+      "file": "assets/fx/frames/counter-spring-leaves/005.png",
+      "sha256": "44b9651e38f8ad2cd27cf45069347c9b22e4e40330b08043abccc75f42e866eb"
+    },
+    {
+      "file": "assets/fx/frames/counter-spring-leaves/009.png",
+      "sha256": "158e79a415fba476a616e0a42153f4d2323f079ebf60ffa6bc9b87dcc67fd199"
+    },
+    {
+      "file": "assets/fx/frames/counter-spring-leaves/013.png",
+      "sha256": "48f45bed295ce6ed38e36e12475fade3fa022e9f941a862a2296d01956ca3366"
+    },
+    {
+      "file": "assets/fx/frames/win-gold/001.png",
+      "sha256": "24dcac29af922838780de2173f8ea33964edaa87a597f9e69a34aecd95fa43d0"
+    },
+    {
+      "file": "assets/fx/frames/win-gold/005.png",
+      "sha256": "4acdbbaa0a696e862fe3955d17ecfffe022cdb68fd620406543dc24d0c9c216b"
+    },
+    {
+      "file": "assets/fx/frames/win-gold/009.png",
+      "sha256": "b56a97f405a38103cb21d485e3d3f7288b4c950f765b380e313cae346a398515"
+    },
+    {
+      "file": "assets/fx/frames/win-gold/013.png",
+      "sha256": "4b2536fe1eb31774edc023ab721108671289bd189f67b484b1e36d80ffb4657a"
+    },
+    {
+      "file": "assets/fx/frames/lose-cloud/001.png",
+      "sha256": "65d3b980707d3e9f7e6a1f28ca1831acf069f5ff3125373cc75101d6cd2e99fc"
+    },
+    {
+      "file": "assets/fx/frames/lose-cloud/005.png",
+      "sha256": "bae0fc955f7eabc4dbf60c6402c5a22a6c09ba8bf1e62846207c0b13bd3bb3bc"
+    },
+    {
+      "file": "assets/fx/frames/lose-cloud/009.png",
+      "sha256": "3339289be7ecc87750c25b4049a256c98a758427c98033e8e11e2bb4c8c192a0"
+    },
+    {
+      "file": "assets/fx/frames/lose-cloud/013.png",
+      "sha256": "91ba028dbb1da16b110bdf14e4a63131b40165234c3ad0573260eca7f6358473"
+    },
+    {
+      "file": "assets/fx/frames/rank-up/001.png",
+      "sha256": "af4f7639f58fd9824ff675d6366d45358d830c080a553c7f43256cf0fa57e276"
+    },
+    {
+      "file": "assets/fx/frames/rank-up/005.png",
+      "sha256": "0a9a73869c645e883b37304db57270d4a9820194d415219105e7b873c5cf4267"
+    },
+    {
+      "file": "assets/fx/frames/rank-up/009.png",
+      "sha256": "f7c6535a2d0d9375ae2bc0ecba36060417c206eeaa1e0e037537e03bb6c11438"
+    },
+    {
+      "file": "assets/fx/frames/rank-up/013.png",
+      "sha256": "36289e2c7ef1dc758f8cc0e91685a1efad823f52bce5aaf7d9770ba415082d0e"
+    },
+    {
+      "file": "assets/fx/frames/reward-sparkle/001.png",
+      "sha256": "5efe8b2d76e897e99ca95df82da8357c9de1f02700e94122892da7ccab2677f6"
+    },
+    {
+      "file": "assets/fx/frames/reward-sparkle/005.png",
+      "sha256": "3cf14637a2223fb4c8c69d908c5a17088e7cb7defa533466c9f9c7ec37d58560"
+    },
+    {
+      "file": "assets/fx/frames/reward-sparkle/009.png",
+      "sha256": "f2a0fc634fdc443eed2d6769df9eab398363325a020155051fbfdf2438e62b77"
+    },
+    {
+      "file": "assets/fx/frames/reward-sparkle/013.png",
+      "sha256": "71ba596a3dee2e10a8db594dd6d529d8c22add02a576a6b2106d9de4fb361cdb"
+    },
+    {
+      "file": "assets/fx/frames/turn-ring/001.png",
+      "sha256": "ae8e3d84c88a0fdd6c8e8d64f341acf0cd9706e9d367677c0789e5edca9ada89"
+    },
+    {
+      "file": "assets/fx/frames/turn-ring/005.png",
+      "sha256": "e870d578237c55ed35d4d1e70ec56d469a336bb849298e0908024a657d01f10c"
+    },
+    {
+      "file": "assets/fx/frames/turn-ring/009.png",
+      "sha256": "684e066596ccceb34a61401070e497a6e1e1d5d1e6efa4da57fbc498ef8a27c2"
+    },
+    {
+      "file": "assets/fx/frames/turn-ring/013.png",
+      "sha256": "b01874af0c2014deeeaae3f34f72ab65fdd1651479d140bdb7a70e25b70b5da3"
+    },
+    {
+      "file": "assets/fx/frames/loading-ring/001.png",
+      "sha256": "d3fc6a0e0f04edc779394a0a405e26aa582dd5a1808ddabbd30635173013ca05"
+    },
+    {
+      "file": "assets/fx/frames/loading-ring/005.png",
+      "sha256": "cc86152723011e5c13a86b70930a305c7d2c6250452e1e40586c65459de48d06"
+    },
+    {
+      "file": "assets/fx/frames/loading-ring/009.png",
+      "sha256": "8e3b02cbd6402d4cc0b657a643d03e5046c348b0ca703230a3dcaf4fe3a093de"
+    },
+    {
+      "file": "assets/fx/frames/loading-ring/013.png",
+      "sha256": "a58f23e0c3663cf27e154d0715fbb5cf9c0d8e8936a33d2d66effcf1d69a70fd"
+    }
+  ]
+}

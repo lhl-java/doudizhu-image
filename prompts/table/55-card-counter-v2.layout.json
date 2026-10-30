@@ -1,0 +1,299 @@
+{
+  "source": "designs/ui/table/55-card-counter-v1.png",
+  "output": "designs/ui/table/55-card-counter-v2.png",
+  "tray": {
+    "sourceRect": [
+      28,
+      0,
+      551,
+      267
+    ],
+    "rect": [
+      837,
+      337,
+      250,
+      103
+    ],
+    "border": 24,
+    "fillRect": [
+      846,
+      344,
+      232,
+      92
+    ]
+  },
+  "elements": [
+    {
+      "file": "assets/ui/cards-source/landlord.png",
+      "role": "左侧长者以外的女修为地主",
+      "rect": [
+        339,
+        372,
+        93,
+        66
+      ]
+    },
+    {
+      "file": "assets/ui/cards-source/farmer.png",
+      "role": "右侧长者为农民",
+      "rect": [
+        1781,
+        371,
+        89,
+        64
+      ]
+    },
+    {
+      "file": "assets/ui/cards-source/farmer.png",
+      "role": "自己为农民",
+      "rect": [
+        320,
+        712,
+        91,
+        65
+      ]
+    }
+  ],
+  "cardGroups": [
+    {
+      "role": "三张公开底牌（历史底牌显示不计入剩余牌额外数量）",
+      "rect": [
+        846,
+        341,
+        232,
+        95
+      ],
+      "cards": [
+        "spades-A",
+        "hearts-K",
+        "diamonds-3"
+      ],
+      "selectedIndexes": [],
+      "selectionLift": 0
+    }
+  ],
+  "textOverlays": [
+    {
+      "text": "1",
+      "rect": [
+        501,
+        250,
+        42,
+        44
+      ],
+      "font": "Georgia",
+      "size": 29,
+      "color": "#1b2b23",
+      "backgroundColor": "#f5ead4",
+      "role": "未出牌点数统计，包含自己手牌，合计48张"
+    },
+    {
+      "text": "1",
+      "rect": [
+        567,
+        250,
+        42,
+        44
+      ],
+      "font": "Georgia",
+      "size": 29,
+      "color": "#1b2b23",
+      "backgroundColor": "#f5ead4",
+      "role": "未出牌点数统计，包含自己手牌，合计48张"
+    },
+    {
+      "text": "4",
+      "rect": [
+        631,
+        250,
+        42,
+        44
+      ],
+      "font": "Georgia",
+      "size": 29,
+      "color": "#1b2b23",
+      "backgroundColor": "#f5ead4",
+      "role": "未出牌点数统计，包含自己手牌，合计48张"
+    },
+    {
+      "text": "2",
+      "rect": [
+        692,
+        250,
+        42,
+        44
+      ],
+      "font": "Georgia",
+      "size": 29,
+      "color": "#1b2b23",
+      "backgroundColor": "#f5ead4",
+      "role": "未出牌点数统计，包含自己手牌，合计48张"
+    },
+    {
+      "text": "2",
+      "rect": [
+        756,
+        250,
+        42,
+        44
+      ],
+      "font": "Georgia",
+      "size": 29,
+      "color": "#1b2b23",
+      "backgroundColor": "#f5ead4",
+      "role": "未出牌点数统计，包含自己手牌，合计48张"
+    },
+    {
+      "text": "3",
+      "rect": [
+        818,
+        250,
+        42,
+        44
+      ],
+      "font": "Georgia",
+      "size": 29,
+      "color": "#1b2b23",
+      "backgroundColor": "#f5ead4",
+      "role": "未出牌点数统计，包含自己手牌，合计48张"
+    },
+    {
+      "text": "4",
+      "rect": [
+        879,
+        250,
+        42,
+        44
+      ],
+      "font": "Georgia",
+      "size": 29,
+      "color": "#1b2b23",
+      "backgroundColor": "#f5ead4",
+      "role": "未出牌点数统计，包含自己手牌，合计48张"
+    },
+    {
+      "text": "4",
+      "rect": [
+        942,
+        250,
+        42,
+        44
+      ],
+      "font": "Georgia",
+      "size": 29,
+      "color": "#1b2b23",
+      "backgroundColor": "#f5ead4",
+      "role": "未出牌点数统计，包含自己手牌，合计48张"
+    },
+    {
+      "text": "4",
+      "rect": [
+        1006,
+        250,
+        42,
+        44
+      ],
+      "font": "Georgia",
+      "size": 29,
+      "color": "#1b2b23",
+      "backgroundColor": "#f5ead4",
+      "role": "未出牌点数统计，包含自己手牌，合计48张"
+    },
+    {
+      "text": "4",
+      "rect": [
+        1067,
+        250,
+        42,
+        44
+      ],
+      "font": "Georgia",
+      "size": 29,
+      "color": "#1b2b23",
+      "backgroundColor": "#f5ead4",
+      "role": "未出牌点数统计，包含自己手牌，合计48张"
+    },
+    {
+      "text": "4",
+      "rect": [
+        1133,
+        250,
+        42,
+        44
+      ],
+      "font": "Georgia",
+      "size": 29,
+      "color": "#1b2b23",
+      "backgroundColor": "#f5ead4",
+      "role": "未出牌点数统计，包含自己手牌，合计48张"
+    },
+    {
+      "text": "4",
+      "rect": [
+        1196,
+        250,
+        42,
+        44
+      ],
+      "font": "Georgia",
+      "size": 29,
+      "color": "#1b2b23",
+      "backgroundColor": "#f5ead4",
+      "role": "未出牌点数统计，包含自己手牌，合计48张"
+    },
+    {
+      "text": "4",
+      "rect": [
+        1257,
+        250,
+        42,
+        44
+      ],
+      "font": "Georgia",
+      "size": 29,
+      "color": "#1b2b23",
+      "backgroundColor": "#f5ead4",
+      "role": "未出牌点数统计，包含自己手牌，合计48张"
+    },
+    {
+      "text": "4",
+      "rect": [
+        1320,
+        250,
+        42,
+        44
+      ],
+      "font": "Georgia",
+      "size": 29,
+      "color": "#1b2b23",
+      "backgroundColor": "#f5ead4",
+      "role": "未出牌点数统计，包含自己手牌，合计48张"
+    },
+    {
+      "text": "3",
+      "rect": [
+        1383,
+        250,
+        42,
+        44
+      ],
+      "font": "Georgia",
+      "size": 29,
+      "color": "#1b2b23",
+      "backgroundColor": "#f5ead4",
+      "role": "未出牌点数统计，包含自己手牌，合计48张"
+    },
+    {
+      "text": "未出牌 48 张（含自己）",
+      "rect": [
+        1120,
+        326,
+        280,
+        30
+      ],
+      "size": 18,
+      "color": "#173f35",
+      "role": "记牌器统计口径"
+    }
+  ]
+}

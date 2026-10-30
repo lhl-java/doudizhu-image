@@ -1,0 +1,11 @@
+Use case: game UI component asset design.
+Create ONE high resolution 16:9 UI specification board, native detailed painting, target 2560x1440. This is a purposeful reusable DIALOG KIT, not a collage of complete game screens.
+Use BOTH attached reference images as actual style references: jade green, ivory silk-paper panels, thin warm gold cloud-shaped borders, rounded Daoist chibi Chinese game art. Match their refined hand-painted controls. No Tencent branding; the game working name is 斗地主.
+Plain warm ivory board background. Title at top “通用弹窗”. Arrange six large isolated dialog components in a clean 3 columns ×2 rows grid, generous gutters and fully visible edges. Each dialog has a jade green title plaque, ivory paper body, warm gold edge and appropriate simple drawn icon. Chinese text must be sharp and exact:
+Top left title “温馨提示”, body “是否返回大厅？”, buttons “取消” ivory and “确定” jade.
+Top middle title “网络异常”, body “连接中断，请重试”, buttons “返回” ivory and “重试” jade.
+Top right title “金币不足”, body “当前金币不足”, buttons “稍后” ivory and “去补充” jade.
+Bottom left title “获得奖励”, icon of a small warm gold coin pile, body “金币 ×1000”, jade button “领取”.
+Bottom middle title “加载中”, refined small jade circular spinner, body “正在连接牌桌…”, ivory button “取消”.
+Bottom right title “暂无内容”, small blank parchment scroll with one jade gourd, body “暂时没有记录”, jade button “返回”.
+Use consistent button heights, corner shapes, titles, ink-green body typography. Give each component a tiny outside label D01,D02,D03,D04,D05,D06 in muted green so it can be located. All six remain large enough to read at native size. Draw complete art without device frames, perspective, watermarks or dense background scenery. Do not bake a checkerboard. Every component outer edge separated from the next by empty margin; preserve clear silhouette. Highest visual detail target, no blur or cheap flat icons. Opaque board for visual review; export slices separately later.

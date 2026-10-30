@@ -1,0 +1,45 @@
+{
+  "durationMs": 1200,
+  "loop": true,
+  "blend": "normal",
+  "event": "loading_started",
+  "keyframes": [
+    {
+      "atMs": 0,
+      "alpha": 1,
+      "scale": 1,
+      "x": 0,
+      "y": 0,
+      "rotation": 0
+    },
+    {
+      "atMs": 1200,
+      "alpha": 1,
+      "scale": 1,
+      "x": 0,
+      "y": 0,
+      "rotation": 360
+    }
+  ],
+  "interpolation": "linear",
+  "translationUnit": "fraction-of-384px-frame",
+  "stopEvent": "loading_finished",
+  "kind": "fx",
+  "anchor": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "id": "loading-ring",
+  "file": "assets/fx/loading-ring.png",
+  "record": "assets/fx/loading-ring.png.generation.json",
+  "width": 512,
+  "height": 512,
+  "z": 80,
+  "sourceNativeCell": {
+    "width": 512,
+    "height": 512
+  },
+  "staticSource": true,
+  "animationSource": "runtime transforms of generated static illustration, not AI video",
+  "maxDisplaySize": 384
+}

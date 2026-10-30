@@ -1,0 +1,80 @@
+{
+  "file": "designs/ui/modes/27-tournament-detail-v1.png",
+  "sha256": "2ce08e1c5ee0cb1cb6cf5f467c83044581f033eb24add8f935eb9b6fc1ba7914",
+  "generatedAt": "2026-10-26T04:01:45.387822-04:00",
+  "width": 1931,
+  "height": 814,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据",
+  "evidence": {
+    "receipt": "designs\\ui\\modes\\27-tournament-detail-v1.receipt.json",
+    "returnedSourceFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a1772b-4166-7350-8473-50c63538bc86\\exec-e9cef0e5-3e95-4ad9-999b-a722f9c80c61.png",
+    "toolReturnKeys": [
+      "image_url",
+      "output_hint"
+    ],
+    "imagePayloadOmitted": "原生PNG已保存并计算哈希，避免重复base64"
+  },
+  "prompt": "prompts/modes/27-tournament-detail-v1.txt",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "主风格：配色材质控件"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "主风格：布局留白层级"
+    },
+    {
+      "file": "designs/characters/characters-trio-v1.png",
+      "sha256": "0c4dda70d4e16715527ed243a8d3efc2a401be2f06326b49601d1b184e7165ac",
+      "role": "同源角色身份设定"
+    }
+  ],
+  "review": {
+    "status": "design_ready_user_review",
+    "notes": "赛事规则、前三奖励、勾选与报名操作可读，风格一致。入场等级为示意且与赛事大厅样例不同，正式动态文案须由同一赛事配置统一；未作为业务规则验收。",
+    "renderedStates": [
+      "可报名"
+    ],
+    "userApproved": false
+  },
+  "imageRemoved": true,
+  "retention": {
+    "status": "removed_superseded_image",
+    "replacedBy": "designs/ui/modes/27-tournament-detail-v2.png",
+    "retainedGenerationRecord": "designs/ui/modes/27-tournament-detail-v1.generation.json",
+    "removedAt": "2026-10-26T12:50:47.0155508+00:00",
+    "reason": "成品v2已落盘、选用并核验；依用户素材保留规则删除替代图片，保留历史来源文字与哈希。"
+  }
+}

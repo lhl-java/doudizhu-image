@@ -1,0 +1,53 @@
+{
+  "id": "hulu_smile",
+  "file": "assets/characters/hulu/expressions/smile.png",
+  "record": "assets/characters/hulu/expressions/smile.derivation.json",
+  "kind": "character_expression",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    244
+  ],
+  "sha256": "df8b54b85a9a468bb599cf18d22d08e76bc340ffeda75b2c1b6c893e89309a2f",
+  "operation": "grid-ownership-crop-with4px-alpha-padding-and-one-fixed-downscale-per-character-portrait",
+  "derivedFrom": {
+    "file": "designs/characters/runtime-20261026/hulu-expressions-v2.png",
+    "sha256": "4187defc09877c1f8a04ccb2f150d8ff9bc1ac828f755b9bcf421a1a6b7f8921",
+    "record": "designs/characters/runtime-20261026/hulu-expressions-v2.generation.json"
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "significantBorderPixels": 0,
+  "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+  "art_source": "existing",
+  "status": "asset_ready_user_review",
+  "expression": "smile",
+  "expressionName": "微笑",
+  "grid": {
+    "columns": 4,
+    "rows": 2,
+    "index": 1,
+    "cellRect": [
+      444,
+      0,
+      887,
+      444
+    ]
+  },
+  "sourceRect": [
+    478,
+    73,
+    852,
+    422
+  ],
+  "fixedScale": 0.6103542234332425,
+  "offset": [
+    14,
+    33
+  ],
+  "noUpscale": true,
+  "characterId": "hulu"
+}

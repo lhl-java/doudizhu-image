@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/ui/table/17-reconnect-v2.png",
+  "sha256": "546cfdf1e3a6adcfb87fbf6dc6586992bed82356f653e4c383744132214774da",
+  "generatedAt": "2026-10-26T04:26:21.6675283-04:00",
+  "timestampMeaning": "UI组合导出时间，不是新模型生成时间",
+  "width": 1931,
+  "height": 814,
+  "format": "PNG",
+  "tool": "System.Drawing native UI composition",
+  "route": "derived",
+  "operation": "layered-ui-composition: original native artwork + generated panel/identity skins + deterministic card components and native dynamic text, only when specified in layout",
+  "nativeArtworkResolution": {
+    "height": 814,
+    "width": 1931
+  },
+  "exportResolution": {
+    "height": 814,
+    "width": 1931
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "submittedParameters": {
+    "quality": null,
+    "model": null
+  },
+  "unverifiedReason": "本图为UI素材组合导出，未再次调用生成模型；每个生成源的实际型号质量跟随derivedFrom记录，未披露仍为null",
+  "derivedFrom": [
+    {
+      "file": "designs/ui/table/17-reconnect-v1.png",
+      "sha256": "9ffe52eac84e9d24012cd247d99cd6a2a2d6fb3d51eb79f6404e10a747328bb2",
+      "record": "designs/ui/table/17-reconnect-v1.generation.json",
+      "role": "原生生成整屏底图，不放大"
+    },
+    {
+      "file": "assets/ui/controls/primary-normal.png",
+      "sha256": "a2aa9afff3b9ef559a23ddef8d1b991691c09a609b7ea96b453c56c586b5f021",
+      "record": "assets/ui/controls/primary-normal.derivation.json",
+      "role": "计数牌的同源玉绿皮肤"
+    }
+  ],
+  "layout": "prompts/table/17-reconnect-v2.layout.json",
+  "cardGroups": [],
+  "textOverlays": [
+    {
+      "text": "15",
+      "rect": [
+        102,
+        717,
+        44,
+        31
+      ],
+      "font": "Georgia",
+      "size": 24,
+      "color": "#f7f1df",
+      "role": "自己当前15张手牌的计数，修正原稿17标签"
+    }
+  ],
+  "visualReview": {
+    "status": "design_ready_user_review",
+    "note": "已看图：连接中断、正在重连、座位保留、返回/重连入口清楚；自己手牌可数15张，独立动态计数牌已修正为15并使用同源玉绿控件皮肤。弹窗不表示已实际联网恢复。"
+  }
+}

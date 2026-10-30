@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/scenes/jade-table-runtime.png",
+  "sha256": "ed7f7f3858c4d569dd741eb0f02aa03978216c551e3efe2a344c2eb9684c1451",
+  "width": 2060,
+  "height": 942,
+  "format": "PNG",
+  "createdAt": "2026-10-26T20:27:25.335596+00:00",
+  "route": "derived",
+  "art_source": "existing",
+  "tool": "Pillow/NumPy/SciPy deterministic asset processing",
+  "operation": "alpha-floor<=4 to zero; 64px transparent canvas padding on all sides; original artwork pixels kept 1:1, no resize",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Follow derivedFrom source generation record; processing is not new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/scenes/jade-table.png",
+      "sha256": "2effe9e0b35ebfcc90058c462a4abdc701bf91b410d62f5c8763d45519b3033f",
+      "record": "assets/scenes/jade-table.png.generation.json",
+      "role": "original native RGBA foreground"
+    }
+  ],
+  "alphaQA": {
+    "mode": "RGBA",
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "transparentPixels": 952736,
+    "softAlphaPixels": 987140,
+    "edgeVisiblePixelsAbove16": 0,
+    "bboxVisibleAbove16": [
+      97,
+      152,
+      1964,
+      797
+    ],
+    "status": "passed"
+  },
+  "visualReview": {
+    "status": "design_ready_user_review",
+    "note": "已实际查看原生场景与透明素材在明/暗底的组合；无字无UI无人，风格匹配；FX按所属组件保全切片，透明留白完整。保持原始QA告警记录；动画为静态源transform派生，不是AI视频。"
+  },
+  "nativeArtworkResolution": {
+    "width": 1932,
+    "height": 814
+  },
+  "canvasPadding": [
+    64,
+    64,
+    64,
+    64
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/scenes/courtyard-lobby.png",
+  "sha256": "019b75dfa37d04cb457f68e1799ce8e334e1e3ce5642429babb737219b89f875",
+  "generatedAt": "2026-10-26 18:18:49 UTC",
+  "generatedAtEvidence": "host tool return completion UTC proxy, not model internal timestamp",
+  "recordedAt": "2026-10-26T18:31:41.827643+00:00",
+  "width": 1931,
+  "height": 814,
+  "format": "PNG",
+  "nativeResolution": {
+    "width": 1931,
+    "height": 814
+  },
+  "exportOperation": "byte-identical-copy-no-resize",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "kind": "background",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:/work/doudizhu-image/references/style/01-mail-event.png",
+      "D:/work/doudizhu-image/references/style/team-ui-v2.png",
+      "D:/work/doudizhu-image/designs/ui/core/02-lobby-v1.png",
+      "D:/work/doudizhu-image/designs/ui/table/14-play-turn-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据；配置目标不是实际分支和质量证据",
+  "prompt": "prompts/runtime-scenes/courtyard-lobby.txt",
+  "promptSha256": "e388ec41d7922d6b0f308cd2573684003ab37324bd58f2827df60fbb11a1142e",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "actual reference input, first two primary style authority"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "actual reference input, first two primary style authority"
+    },
+    {
+      "file": "designs/ui/core/02-lobby-v1.png",
+      "sha256": "86f5e2879b919fcf8e81b3930ee8b3771a3ebc1bf8d614b687b673ad4c6f5bd6",
+      "role": "actual reference input, first two primary style authority"
+    },
+    {
+      "file": "designs/ui/table/14-play-turn-v2.png",
+      "sha256": "7977cb5f4b90af7f5f9108f4cd820681edff0d0f534960bb688699b24edb3728",
+      "role": "actual reference input, first two primary style authority"
+    }
+  ],
+  "evidence": {
+    "receipt": "designs/runtime-scenes-20261026/courtyard-lobby.receipt.json",
+    "hostOutputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a1772b-022e-7852-8cd0-9c61c117e140\\exec-1189c313-5e4f-494b-ae6a-20c95c2723ab.png",
+    "toolReturnedKeys": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "alphaQA": {
+    "mode": "RGB",
+    "width": 1931,
+    "height": 814,
+    "alphaMin": 255,
+    "alphaMax": 255,
+    "transparentPixelFraction": 0.0,
+    "softAlphaPixelFraction": 0.0,
+    "opaquePixelFraction": 1.0,
+    "visibleBBox": [
+      0,
+      0,
+      1931,
+      814
+    ],
+    "edgeVisiblePixelCount": 5490,
+    "expectedTransparent": false,
+    "isRealRGBAWithTransparency": false,
+    "status": "passed"
+  },
+  "visualReview": {
+    "status": "design_ready_user_review",
+    "note": "已实际查看原生场景与透明素材在明/暗底的组合；无字无UI无人，风格匹配；FX按所属组件保全切片，透明留白完整。保持原始QA告警记录；动画为静态源transform派生，不是AI视频。"
+  }
+}

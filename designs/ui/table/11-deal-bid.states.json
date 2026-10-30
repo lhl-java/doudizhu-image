@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "id": "11-deal-bid",
+  "title": "发牌与叫地主",
+  "primaryVisual": "designs/ui/table/11-deal-bid-v2.png",
+  "generation": "designs/ui/table/11-deal-bid-v2.generation.json",
+  "status": "design_ready_user_review",
+  "shownState": "待自己叫地主；17张手牌与三张未揭底牌",
+  "renderedStateVerification": "已实际查看组合图：17张手牌独立卡面与17张标签一致，点数/花色规范，无异常角标；原生牌桌画法和其他布局保留。新增手牌层和托盘为同源UI素材组合，非AI重新生成。",
+  "states": [
+    {
+      "name": "未叫",
+      "coverage": "rendered",
+      "plannedCoverage": "rendered",
+      "behavior": "显示叫地主与不叫两种选择，只在轮到自己时可用。",
+      "artwork": "designs/ui/table/11-deal-bid-v2.png",
+      "verification": "rendered为当前已看图布局；shared_component指已有同源公共皮肤加原生动态层，未称每种状态独立AI生成"
+    },
+    {
+      "name": "叫地主",
+      "coverage": "shared_component",
+      "plannedCoverage": "shared_component",
+      "behavior": "点击后禁用重复提交，成功回执显示叫地主气泡并转入抢地主。",
+      "artwork": "assets/ui/manifest.json",
+      "verification": "rendered为当前已看图布局；shared_component指已有同源公共皮肤加原生动态层，未称每种状态独立AI生成"
+    },
+    {
+      "name": "不叫",
+      "coverage": "shared_component",
+      "plannedCoverage": "shared_component",
+      "behavior": "显示不叫气泡，等待下一位。",
+      "artwork": "assets/ui/manifest.json",
+      "verification": "rendered为当前已看图布局；shared_component指已有同源公共皮肤加原生动态层，未称每种状态独立AI生成"
+    },
+    {
+      "name": "无叫重发",
+      "coverage": "shared_component",
+      "plannedCoverage": "shared_component",
+      "behavior": "显示无人叫地主提示和重发加载状态，倒计时暂时隐藏。",
+      "artwork": "assets/ui/manifest.json",
+      "verification": "rendered为当前已看图布局；shared_component指已有同源公共皮肤加原生动态层，未称每种状态独立AI生成"
+    }
+  ],
+  "dynamicFields": [
+    "玩家昵称、头像、身份",
+    "底牌、手牌、牌数、出牌组合",
+    "剩余时间、底分、倍数、分数",
+    "选择状态、连接状态、提示文案"
+  ],
+  "implementationNote": "背景和皮肤为视觉设计。所有中文、牌面、牌数、计时、分数、可用性应作为原生动态层；当前图片仅示意，不作为可运行或合法牌局验收。",
+  "sharedDependencies": [
+    "assets/ui/manifest.json",
+    "designs/ui/components/50-shared-dialogs-v1.png",
+    "designs/ui/components/51-common-components-v1.png",
+    "designs/ui/components/52-card-and-effects-v1.png"
+  ],
+  "copyAndRules": "示意计分、门槛、倍数和超时规则应由最终产品规则确认，不以本图取代真实回执。"
+}

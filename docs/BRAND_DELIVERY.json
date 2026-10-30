@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-29T03:50:31.013014+00:00",
+  "scope": "Name and logo delivery only; does not close whole-game art gaps.",
+  "status": "passed_for_brand_art_review",
+  "brandConfig": "config/brand.json",
+  "name": "道友请出牌",
+  "displayName": "道友请出牌·斗地主",
+  "slogan": "三位道友，一桌好牌。",
+  "assets": [
+    {
+      "file": "assets/brand/daoyou-qing-chupai/logo-native-v1.png",
+      "record": "assets/brand/daoyou-qing-chupai/logo-native-v1.generation.json",
+      "sha256": "38c75bc085a667189b880d01c6a82a56d2e8d4968500d9dcdec9102cd464f52b",
+      "width": 1774,
+      "height": 887,
+      "pixelMode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeAlphaMax": 1
+    },
+    {
+      "file": "assets/brand/daoyou-qing-chupai/logo-v1.png",
+      "record": "assets/brand/daoyou-qing-chupai/logo-v1.derivation.json",
+      "sha256": "a02b199821c32f5b3fbdcb1f7fcfdbc3ad6ca3b79fb58bb0e52010ad1dc1ad7c",
+      "width": 1902,
+      "height": 1015,
+      "pixelMode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeAlphaMax": 0
+    },
+    {
+      "file": "assets/brand/daoyou-qing-chupai/logo-1024.png",
+      "record": "assets/brand/daoyou-qing-chupai/logo-1024.derivation.json",
+      "sha256": "37dc62c28246cbc7fe1346425ef373814d419e8fe5db6a917294b39e24b21bdb",
+      "width": 1024,
+      "height": 546,
+      "pixelMode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeAlphaMax": 0
+    }
+  ],
+  "errors": [],
+  "checks": {
+    "actualReturnedImageViewed": true,
+    "textManuallyReviewed": true,
+    "mainText": "道友请出牌",
+    "subtitle": "斗地主",
+    "sourcePixelsPreservedInPaddedExport": true,
+    "runtimeLogicalIdRetained": "title",
+    "sourceReferenceHashesVerified": true,
+    "promptHashVerified": true
+  },
+  "limits": [
+    "Raster PNG logo, not vector or layered editable typography.",
+    "Built-in tool exposes no actual model/quality metadata; actual fields remain null.",
+    "Whole-game state layouts, independent costume motion and target-client review remain unfinished.",
+    "No new build, test suite, browser automation or engine process started while another project holds the heavy-work slot. Previous whole-game validation reports retain their original input hashes and are historical evidence until rerun."
+  ]
+}

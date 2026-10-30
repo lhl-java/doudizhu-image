@@ -1,0 +1,18 @@
+{
+  "file": "assets/brand/daoyou-qing-chupai/logo-1024.png",
+  "sha256": "37dc62c28246cbc7fe1346425ef373814d419e8fe5db6a917294b39e24b21bdb",
+  "width": 1024,
+  "height": 546,
+  "format": "PNG",
+  "pixelMode": "RGBA",
+  "route": "derived",
+  "operation": "Uniform Lanczos downscale of padded logo to1024px width; no repaint or new image generation.",
+  "noUpscale": true,
+  "derivedFrom": [
+    {
+      "file": "assets/brand/daoyou-qing-chupai/logo-v1.png",
+      "sha256": "a02b199821c32f5b3fbdcb1f7fcfdbc3ad6ca3b79fb58bb0e52010ad1dc1ad7c",
+      "record": "assets/brand/daoyou-qing-chupai/logo-v1.derivation.json"
+    }
+  ]
+}

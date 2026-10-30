@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/fx/rank-up.png",
+  "sha256": "4296ac4494a9e7f1b9e2063c743610f11796dfd67b68d513d9e43661802752b1",
+  "width": 512,
+  "height": 512,
+  "format": "PNG",
+  "createdAt": "2026-10-26T20:27:28.186222+00:00",
+  "route": "derived",
+  "art_source": "existing",
+  "tool": "Pillow/NumPy/SciPy deterministic asset processing",
+  "operation": "all visible connected components assigned by majority cell; alpha 5..16 halo assigned to nearest owned component; alpha<=4 cleared; ownership crop; uniform downscale only; center on 512 transparent safe canvas",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Follow derivedFrom source generation record; processing is not new AI generation",
+  "derivedFrom": [
+    {
+      "file": "designs/runtime-scenes-20261026/fx-sheet-b.png",
+      "sha256": "77d4ce2266436f84d6141a14827ab71d24ff03ac6a96bbf7748a5166101b5851",
+      "record": "designs/runtime-scenes-20261026/fx-sheet-b.png.generation.json",
+      "role": "generated transparent FX sheet"
+    }
+  ],
+  "alphaQA": {
+    "mode": "RGBA",
+    "alphaMin": 0,
+    "alphaMax": 254,
+    "transparentPixels": 195099,
+    "softAlphaPixels": 67045,
+    "edgeVisiblePixelsAbove16": 0,
+    "bboxVisibleAbove16": [
+      113,
+      91,
+      400,
+      420
+    ],
+    "status": "passed"
+  },
+  "visualReview": {
+    "status": "design_ready_user_review",
+    "note": "已实际查看原生场景与透明素材在明/暗底的组合；无字无UI无人，风格匹配；FX按所属组件保全切片，透明留白完整。保持原始QA告警记录；动画为静态源transform派生，不是AI视频。"
+  },
+  "sourceCell": {
+    "row": 0,
+    "col": 2,
+    "nominalBox": [
+      1024,
+      0,
+      1536,
+      512
+    ]
+  },
+  "ownedCropBox": [
+    1065,
+    31,
+    1511,
+    542
+  ],
+  "uniformScale": 0.6653620352250489,
+  "noLargestComponentFiltering": true
+}

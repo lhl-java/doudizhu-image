@@ -1,0 +1,43 @@
+{
+  "file": "designs/runtime-scenes-20261026/fx-sheet-a-runtime.png",
+  "sha256": "3f3c48d719b216a2d9ae16c677cefc0ed459ad97f4cccaa232d3c7470434a9e0",
+  "route": "derived",
+  "operation": "3x2 static sprite layout; preview JPG additionally composites over solid light/dark QA background",
+  "derivedFrom": [
+    {
+      "file": "assets/fx/deal-trail.png",
+      "sha256": "697af67ed434a506ec03f2c6a45a2db1f55cd210c1b611ef4fd9ba4a1b5b466a",
+      "record": "assets/fx/deal-trail.png.generation.json"
+    },
+    {
+      "file": "assets/fx/play-glow.png",
+      "sha256": "3c47be99f1b66cfedbe57522173fb6bf822f5018b8a55df28bfeb4a01bd5f879",
+      "record": "assets/fx/play-glow.png.generation.json"
+    },
+    {
+      "file": "assets/fx/bomb-burst.png",
+      "sha256": "62487a340e47072ee3ca163f9af2d9570e46ae005502ada5ed7f6f771107ed0a",
+      "record": "assets/fx/bomb-burst.png.generation.json"
+    },
+    {
+      "file": "assets/fx/rocket-trail.png",
+      "sha256": "e3e81846329d8e00df32c3ad20b826e8a2c32135533ac96b1350f0b50f556edb",
+      "record": "assets/fx/rocket-trail.png.generation.json"
+    },
+    {
+      "file": "assets/fx/spring-petals.png",
+      "sha256": "91fe910b44c1ca801dcc5399fd2a77ba8060c24078a138bad475884660a7c1e1",
+      "record": "assets/fx/spring-petals.png.generation.json"
+    },
+    {
+      "file": "assets/fx/counter-spring-leaves.png",
+      "sha256": "d3f67342271edc8607b43a687a256813f1847b60ab2e0437ae6dcbebed9f986a",
+      "record": "assets/fx/counter-spring-leaves.png.generation.json"
+    }
+  ],
+  "width": 1536,
+  "height": 1024,
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "qa_preview_only"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "daotong_snow",
+  "file": "assets/characters/daotong/costumes/snow.png",
+  "record": "assets/characters/daotong/costumes/snow.derivation.json",
+  "kind": "character_costume",
+  "width": 1024,
+  "height": 1024,
+  "anchor": [
+    512,
+    920
+  ],
+  "sha256": "eefdaa25dacfa6028768b2e64d259047b65a6f643898ab3dd98048b5cbe7c49a",
+  "operation": "AI-generated-costume-variant-cropped-and-scaled-with-daotong-fixed-profile",
+  "derivedFrom": {
+    "file": "designs/characters/runtime-20261026/daotong-costume-snow-v1.png",
+    "sha256": "c77e3c82ea88f7405feabc706fa99b934e0c024ed97bfbaa85181bf1067dcdb0",
+    "record": "designs/characters/runtime-20261026/daotong-costume-snow-v1.generation.json"
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "significantBorderPixels": 0,
+  "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+  "art_source": "existing",
+  "status": "asset_ready_user_review",
+  "costumeName": "雪色白衣",
+  "characterId": "daotong",
+  "sourceRect": [
+    166,
+    27,
+    1163,
+    1226
+  ],
+  "sourceAnchor": [
+    664.5,
+    1220
+  ],
+  "fixedScale": 0.6739679865206403,
+  "offset": [
+    176,
+    116
+  ],
+  "noUpscale": true
+}

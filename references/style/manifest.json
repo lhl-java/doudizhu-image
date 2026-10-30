@@ -1,0 +1,20 @@
+[
+  {
+    "file": "references/style/01-mail-event.png",
+    "source": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+    "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+    "role": "邮件界面：面板、按钮、配色、材质、人物完成度",
+    "operation": "byte-identical-copy",
+    "copiedOn": "2026-10-26",
+    "generation": "既有已确认参考图；复制不是新生成，未按当前配置补填历史模型"
+  },
+  {
+    "file": "references/style/team-ui-v2.png",
+    "source": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+    "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+    "role": "组队界面：控件层级、留白、列表、头像与按钮状态",
+    "operation": "byte-identical-copy",
+    "copiedOn": "2026-10-26",
+    "generation": "既有已确认参考图；复制不是新生成，未按当前配置补填历史模型"
+  }
+]

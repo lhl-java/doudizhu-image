@@ -1,0 +1,28 @@
+{
+  "file": "assets/animations/characters/hulu.review.jpg",
+  "sha256": "ecc19866e7584bbc9643f27cd29f9803d9ea533dd823178e9601d67843751ee6",
+  "operation": "QA contact sheet: four selected frames per action over ivory with timing labels; not game artwork",
+  "derivedFrom": [
+    {
+      "file": "assets/animations/characters/hulu_idle.png",
+      "sha256": "2ce0a71209a76c370887574f81edb444554b53b8587d1309ec74c09c1a1e5b51"
+    },
+    {
+      "file": "assets/animations/characters/hulu_think.png",
+      "sha256": "c98e7763883632e5b67cd1ef7413c6bb6757c354c99bc65d37559cfe47a0e5b3"
+    },
+    {
+      "file": "assets/animations/characters/hulu_play.png",
+      "sha256": "79e626e4ec04191381dd44464a1d96092b7324f392a9d6cc89dadbfcc132bb76"
+    },
+    {
+      "file": "assets/animations/characters/hulu_win.png",
+      "sha256": "c9b1686604ca47f9f8784f96cb08d4650ddb6742f43942b591934739b3c50eb7"
+    },
+    {
+      "file": "assets/animations/characters/hulu_lose.png",
+      "sha256": "243e390b0e369e670a044932103502dabf5d41ce92643c44e047174cc0d92a03"
+    }
+  ],
+  "createdAt": "2026-10-26T19:14:06.071617+00:00"
+}

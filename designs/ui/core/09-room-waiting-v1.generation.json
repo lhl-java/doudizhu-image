@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/ui/core/09-room-waiting-v1.png",
+  "absolutePath": "D:\\work\\doudizhu-image\\designs\\ui\\core\\09-room-waiting-v1.png",
+  "sha256": "43dad2058f52739f80bf7ebf5273e7317cda4b563e0f7fbc49ccde20f11c868a",
+  "generatedAt": "2026-10-26T04:14:59-04:00",
+  "generatedAtEvidence": {
+    "isProxy": true,
+    "source": "caller-provided-response-received-at",
+    "explanation": "以调用方提供的工具返回接收时间代理生成完成时间；不是模型内部生成时间。"
+  },
+  "recordedAt": "2026-10-26T04:15:17.8732453-04:00",
+  "startedAtUtc": "2026-10-26T04:13:33-04:00",
+  "finishedAtUtc": "2026-10-26T04:14:59-04:00",
+  "width": 1931,
+  "height": 814,
+  "format": "PNG",
+  "nativeResolution": {
+    "width": 1931,
+    "height": 814
+  },
+  "exportResolution": {
+    "width": 1931,
+    "height": 814,
+    "operation": "byte-identical-copy-of-generated-output-no-resize-or-redraw"
+  },
+  "requestedResolution": {
+    "width": 2560,
+    "height": 1080,
+    "note": "提示词中的尺寸目标；内置工具无独立尺寸选择参数，实际尺寸以上方实测值为准。"
+  },
+  "transparency": {
+    "requestedTransparentBackground": false,
+    "sourcePixelFormat": "Format24bppRgb",
+    "hasAlphaChannel": false,
+    "hasNonOpaquePixels": false,
+    "fullyOpaque": true,
+    "inspectionMethod": "source-format-reports-no-alpha"
+  },
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "callId": null,
+  "resultId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\doudizhu-image\\designs\\ui\\lobby-ui-v1.png",
+      "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png"
+    ],
+    "prompt": "Use case: ui-mockup\nAsset type: 道家 Q 版斗地主手游，一张独立完整界面的高清手绘 UI 概念稿。\nOutput target: 横屏约 2.37:1，期望 2560×1080。这个尺寸是视觉目标；请原生细致绘制，不放大模糊细节。平直正视的单一游戏画面，不是手机实拍或多屏展示板。\nInput images: Image 1＝01-mail-event.png，首要参考玉绿米白配色、纸绢、暖金细边、圆润如意云纹和手绘完成度；Image 2＝team-ui-v2.png，首要参考标题牌、卡片、留白、按钮与圆头像；Image 3＝lobby-ui-v1.png，支持参考同一个斗地主游戏的大厅与控件比例；Image 4＝characters-trio-v1.png，支持参考本游戏三位原创角色、头像与人物画法。只承接这些美术，不复制邮件、组队旧功能、旧文字或其他游戏名。角色头像与 Image 4 保持同源。\nVisual language: 深玉绿为标题、主要按钮、选中项；暖象牙米白纸绢为大面板；暖金细边、柔和圆润云纹。角色和图标采用精致二维高清手绘、柔和体积、温润金玉质感；避免塑料公仔、写实人物、现代扁平矢量。纸纹很轻，金边不厚重，桃粉、朱砂只作少量点缀。\nCommon frame: 四周约 3% 安全边距。统一玉绿金边居中标题牌，左上角清楚的返回箭头与“返回”。米白主面板边缘可露出低对比仙山庭院，背景不得干扰文字。所有按钮、标签、卡片对齐，留白充足，文字可读。\nGlobal constraints: 只画下面指定的一个主状态。不要把错误、加载、分享等其他状态画成多屏缩略拼图；不要额外弹层。不要旧游戏品牌、腾讯品牌、微信/QQ标志、充值价格、广告、水印、设备框。所有昵称、房号与规则数值只作本设计的示意，不要据此增加真实业务宣传文案。不要把“设计示意”“待审核”“原生尺寸”等制作说明印到游戏画面。\nPage ID: 09-room-waiting\nPrimary request: 好友房等待开局界面，恰好三个座席，标题“好友房”。\nRendered state: 房内已有两人，两人都已准备；第三席空缺。自己是房主，正在等待第三位好友。不得画成已开局桌面。\nLayout: 顶部标题下的小信息条清楚显示“房号 120816”，旁边一个简洁复制图标；另一侧显示规则摘要“经典 · 12局 · 32倍封顶”。中央横向三张同尺寸、留白均衡的座席卡片，所有卡片完整可见。左卡显示玉绿道童圆头像、昵称“道友”，配小暖金“房主”徽章和小玉绿“自己”徽章，下方玉绿勾与“已准备”；中卡显示桃花女修头像、昵称“花间客”，下方相同玉绿勾与“已准备”；右卡是空白浅金圆头像位与加号，文字“空闲座位”，卡片下方玉绿按钮“邀请好友”。三席不能变成团队五人列表，不加第四人。下方中央状态文字“等待第三位道友加入”。最底部左侧为米白次要按钮“离开房间”，中间为米白细金边按钮“取消准备”，右侧保留房主的“开始游戏”按钮，但因未满员而呈灰绿禁用状态，按钮下面小字“等待3人到齐”。不得遗漏房主开始入口，也不能把禁用开始画成亮绿色可点击状态。角色只出现在圆头像，不加大型角色遮盖座位。\nText (verbatim): “返回”“好友房”“房号 120816”“经典 · 12局 · 32倍封顶”“道友”“房主”“自己”“已准备”“花间客”“已准备”“空闲座位”“邀请好友”“等待第三位道友加入”“离开房间”“取消准备”“开始游戏”“等待3人到齐”。\nQuality check target: 席位数量严格为三，已准备只在两个有人座位出现，房主与自己属于同一个左席。信息层级与下一步邀请操作明确。\n\n"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据。当前内置 image_gen.imagegen 接口没有 model、quality 选择器，配置只表示用户目标；不能据此声称实际锁定 GPT Image 2.5 Sunburst 或 max。未检查或验证 C2PA。",
+  "prompt": "prompts/core/09-room-waiting-v1.txt",
+  "promptSha256": "c5d1dda19593d16a4d717e7a0e4a7bb17560dd0b1c948e918e449d6524bfe7b4",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "邮件界面：面板、按钮、配色、材质、人物完成度",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": "references/style/manifest.json",
+      "manifestSha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "manifestHashMatched": true
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "组队界面：控件层级、留白、列表、头像与按钮状态",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": "references/style/manifest.json",
+      "manifestSha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "manifestHashMatched": true
+    },
+    {
+      "file": "designs/ui/lobby-ui-v1.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\designs\\ui\\lobby-ui-v1.png",
+      "sha256": "6fb7c972b11f32d0454b32e38a85d50cf571205201e257638c29ee9eeedb8e3b",
+      "role": "本项目初版支持参考：人物、材质、布局同源；尚未获用户批准",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": null,
+      "manifestSha256": null,
+      "manifestHashMatched": null
+    },
+    {
+      "file": "designs/characters/characters-trio-v1.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png",
+      "sha256": "0c4dda70d4e16715527ed243a8d3efc2a401be2f06326b49601d1b184e7165ac",
+      "role": "本项目初版支持参考：人物、材质、布局同源；尚未获用户批准",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": null,
+      "manifestSha256": null,
+      "manifestHashMatched": null
+    }
+  ],
+  "evidence": {
+    "receipt": "designs/ui/core/.production/receipts/09-room-waiting-v1.receipt.json",
+    "receiptSha256": "e63f309df7d3ad03ba1164f515b09931a38806ec16e126a91805898802fb4464",
+    "returnedEvidence": {
+      "tool": "image_gen.imagegen",
+      "route": "builtin",
+      "invocationId": null,
+      "toolReturnKeys": [
+        "image_url",
+        "output_hint"
+      ],
+      "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1771a-2c53-7da1-9217-2d5e42c4d85e as C:\\Users\\luyua\\.codex\\generated_images\\01a1771a-2c53-7da1-9217-2d5e42c4d85e\\exec-b6318ef5-8f9d-44ad-9b21-787d0237afbe.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "hostOutputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a1771a-2c53-7da1-9217-2d5e42c4d85e\\exec-b6318ef5-8f9d-44ad-9b21-787d0237afbe.png",
+      "hostOutputFilenameIdentifier": "exec-b6318ef5-8f9d-44ad-9b21-787d0237afbe",
+      "identifierMeaning": "宿主输出文件名标识，不冒认为模型调用ID",
+      "imagePayload": {
+        "field": "image_url",
+        "omittedFromReceipt": true
+      },
+      "toolReturnedModel": null,
+      "toolReturnedQuality": null,
+      "submittedArguments": {
+        "prompt": "Use case: ui-mockup\nAsset type: 道家 Q 版斗地主手游，一张独立完整界面的高清手绘 UI 概念稿。\nOutput target: 横屏约 2.37:1，期望 2560×1080。这个尺寸是视觉目标；请原生细致绘制，不放大模糊细节。平直正视的单一游戏画面，不是手机实拍或多屏展示板。\nInput images: Image 1＝01-mail-event.png，首要参考玉绿米白配色、纸绢、暖金细边、圆润如意云纹和手绘完成度；Image 2＝team-ui-v2.png，首要参考标题牌、卡片、留白、按钮与圆头像；Image 3＝lobby-ui-v1.png，支持参考同一个斗地主游戏的大厅与控件比例；Image 4＝characters-trio-v1.png，支持参考本游戏三位原创角色、头像与人物画法。只承接这些美术，不复制邮件、组队旧功能、旧文字或其他游戏名。角色头像与 Image 4 保持同源。\nVisual language: 深玉绿为标题、主要按钮、选中项；暖象牙米白纸绢为大面板；暖金细边、柔和圆润云纹。角色和图标采用精致二维高清手绘、柔和体积、温润金玉质感；避免塑料公仔、写实人物、现代扁平矢量。纸纹很轻，金边不厚重，桃粉、朱砂只作少量点缀。\nCommon frame: 四周约 3% 安全边距。统一玉绿金边居中标题牌，左上角清楚的返回箭头与“返回”。米白主面板边缘可露出低对比仙山庭院，背景不得干扰文字。所有按钮、标签、卡片对齐，留白充足，文字可读。\nGlobal constraints: 只画下面指定的一个主状态。不要把错误、加载、分享等其他状态画成多屏缩略拼图；不要额外弹层。不要旧游戏品牌、腾讯品牌、微信/QQ标志、充值价格、广告、水印、设备框。所有昵称、房号与规则数值只作本设计的示意，不要据此增加真实业务宣传文案。不要把“设计示意”“待审核”“原生尺寸”等制作说明印到游戏画面。\nPage ID: 09-room-waiting\nPrimary request: 好友房等待开局界面，恰好三个座席，标题“好友房”。\nRendered state: 房内已有两人，两人都已准备；第三席空缺。自己是房主，正在等待第三位好友。不得画成已开局桌面。\nLayout: 顶部标题下的小信息条清楚显示“房号 120816”，旁边一个简洁复制图标；另一侧显示规则摘要“经典 · 12局 · 32倍封顶”。中央横向三张同尺寸、留白均衡的座席卡片，所有卡片完整可见。左卡显示玉绿道童圆头像、昵称“道友”，配小暖金“房主”徽章和小玉绿“自己”徽章，下方玉绿勾与“已准备”；中卡显示桃花女修头像、昵称“花间客”，下方相同玉绿勾与“已准备”；右卡是空白浅金圆头像位与加号，文字“空闲座位”，卡片下方玉绿按钮“邀请好友”。三席不能变成团队五人列表，不加第四人。下方中央状态文字“等待第三位道友加入”。最底部左侧为米白次要按钮“离开房间”，中间为米白细金边按钮“取消准备”，右侧保留房主的“开始游戏”按钮，但因未满员而呈灰绿禁用状态，按钮下面小字“等待3人到齐”。不得遗漏房主开始入口，也不能把禁用开始画成亮绿色可点击状态。角色只出现在圆头像，不加大型角色遮盖座位。\nText (verbatim): “返回”“好友房”“房号 120816”“经典 · 12局 · 32倍封顶”“道友”“房主”“自己”“已准备”“花间客”“已准备”“空闲座位”“邀请好友”“等待第三位道友加入”“离开房间”“取消准备”“开始游戏”“等待3人到齐”。\nQuality check target: 席位数量严格为三，已准备只在两个有人座位出现，房主与自己属于同一个左席。信息层级与下一步邀请操作明确。\n\n",
+        "referenced_image_paths": [
+          "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+          "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+          "D:\\work\\doudizhu-image\\designs\\ui\\lobby-ui-v1.png",
+          "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png"
+        ],
+        "transparent_background": false
+      },
+      "startedAtUtc": "2026-10-26 08:13:33 UTC",
+      "receivedAtUtc": "2026-10-26 08:14:59 UTC"
+    },
+    "metadataInspection": "System.Drawing 只读检查实际尺寸、格式和透明度；未验证 C2PA，未从配置推断实际模型或质量。",
+    "rawFormatGuid": "b96b3caf-0728-11d3-9d7b-0000f81ef32e"
+  },
+  "status": "design_ready_user_review",
+  "visualQA": {
+    "userApproval": false,
+    "findings": [
+      {
+        "severity": "pass",
+        "subject": "三座席与准备状态",
+        "detail": "严格三张席位卡；道友、花间客均显示已准备和绿色勾号，右侧为空闲座位并提供邀请好友。"
+      },
+      {
+        "severity": "pass",
+        "subject": "身份与规则",
+        "detail": "道友同时有房主和自己标签；房号120816、经典·12局·32倍封顶与创建房示意一致。房主标识未误用地主身份。"
+      },
+      {
+        "severity": "pass",
+        "subject": "操作与禁用原因",
+        "detail": "返回、离开房间、取消准备、邀请好友齐全；开始游戏为灰色禁用，下方等待3人到齐与当前两人状态一致。"
+      },
+      {
+        "severity": "note",
+        "subject": "覆盖边界",
+        "detail": "本图实际呈现空座、已准备、房主；未准备未在图中呈现，可用已核验51空白状态按钮及原生文字形成共享变体，不能记rendered。"
+      },
+      {
+        "severity": "pass",
+        "subject": "本轮逐张复核",
+        "detail": "恰好三席：房主本人已准备、花间客已准备、空座可邀请；房号和12局32倍信息明确，人数不足开始禁用。"
+      },
+      {
+        "severity": "note",
+        "subject": "状态覆盖",
+        "detail": "必需状态4项：主图可见3，共享视觉与原生文案设计1，仅说明0。共享态未另画整页，实际功能尚未接入。"
+      }
+    ],
+    "image": "designs/ui/core/09-room-waiting-v1.png",
+    "method": "view_image",
+    "status": "passed_for_design_review",
+    "reviewer": "core_qa",
+    "inspectedAt": "2026-10-26T11:24:53.858275+00:00",
+    "imageSha256": "43dad2058f52739f80bf7ebf5273e7317cda4b563e0f7fbc49ccde20f11c868a",
+    "blockingIssues": [],
+    "previousInspection": {
+      "reviewer": "art_review",
+      "inspectedAt": "2026-10-26T04:16:48.8144443-04:00",
+      "status": "passed_for_design_review"
+    }
+  },
+  "pageId": "09-room-waiting",
+  "userApproval": false
+}

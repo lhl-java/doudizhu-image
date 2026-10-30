@@ -1,0 +1,21 @@
+{
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "toolReturnKeys": [
+    "image_url",
+    "output_hint"
+  ],
+  "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1772b-71a9-7f61-b67a-7c35bfc09f10 as C:\\Users\\luyua\\.codex\\generated_images\\01a1772b-71a9-7f61-b67a-7c35bfc09f10\\exec-57c20d93-8edb-4412-9319-76a3c5bb127e.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "actualModel": null,
+  "actualQuality": null,
+  "recordedAt": "2026-10-26 07:59:32 UTC",
+  "submittedArguments": {
+    "prompt": "Use case: ui-mockup\nAsset type: 中国道家Q版横屏斗地主手游，独立完整UI视觉设计，正视平面全屏，不带手机边框，不是多屏拼贴。期望2560×1080约2.37:1，原生精细绘制，画布内安全留白3%。\nInput images: Image 1为邮件主参考，Image 2为组队主参考，实际继承两者的玉绿标题、米白纸绢大面板、暖金细边、云纹如意卷角、清晰中文和细腻手绘完成度。只承接画风和控件，不复制原功能、原文字或旧游戏名称。若附角色图，仅继承角色身份外形。\nScene: 窗口外缘少量仙山亭阁、桃花与小灯，背景低对比，不遮挡窗口。主要窗口占画面90%，玉绿标题牌居顶，米白内容大块留白。细金分隔线、整齐对齐、文字清楚、主次按钮分明。\nStyle: 温润二维高清手绘，玉绿/青绿主色，象牙米白与暖米纸绢，细暖金；少量朱砂流苏、桃粉点缀。圆润饱满，阴影柔和，精致而不厚重；不是塑料公仔或写实人物。\n\nPrimary request: 完整好友消息界面，顶部“好友”，右上关闭；顶部页签“好友”“申请”申请有小红点。左侧约35%是搜索框“搜索昵称或ID”，三行好友头像列表，桃夭女修绿色圆点“在线”，葫芦长者灰点“离线”，云中客在线，头像身份不同。底部“添加好友”。右侧65%为选中桃夭的聊天详情，顶部“桃夭 在线”，右上小“屏蔽”操作。聊天中两组简短气泡：“一起切磋牌艺吧！”“好呀，等我来。”底部消息输入框“输入消息”，表情小按钮、“发送”主按钮，靠上另有“邀请同玩”次按钮。只是UI，不实际发消息。\nText(verbatim): “好友”、“申请”、“搜索昵称或ID”、“桃夭”、“在线”、“葫芦长者”、“离线”、“云中客”、“添加好友”、“屏蔽”、“一起切磋牌艺吧！”、“好呀，等我来。”、“输入消息”、“发送”、“邀请同玩”\nConstraints: 所有主要功能清楚可读，同一张完整页面，不要旁边增加其他页面缩略图或状态板。按钮完整无裁切，图标和文字不重叠。示意数据仅用于视觉；不执行购买、登录或发送消息。不要把评审说明印在画面。只出现上述指定文字与必要数字。\nAvoid: 腾讯/欢乐斗地主品牌与角色、旧游戏名、写实皮肤、塑料高光、密集金纹噪点、粗硬边框、模糊拉伸、乱码水印、屏幕样机。",
+    "referenced_image_paths": [
+      "D:/work/doudizhu-image/references/style/01-mail-event.png",
+      "D:/work/doudizhu-image/references/style/team-ui-v2.png",
+      "D:/work/doudizhu-image/designs/characters/characters-trio-v1.png"
+    ],
+    "transparent_background": false
+  }
+}

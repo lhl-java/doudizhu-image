@@ -1,0 +1,55 @@
+{
+  "id": "daotong_spring_win",
+  "kind": "costume_pose",
+  "file": "assets/characters/daotong/costumes/spring-poses/win.png",
+  "record": "assets/characters/daotong/costumes/spring-poses/win.derivation.json",
+  "width": 1024,
+  "height": 1024,
+  "anchor": [
+    512,
+    920
+  ],
+  "sha256": "a3522ff28f498746c31f38b3b3efe6d5c6c6711e86c55be1effd4cce4cb55ab4",
+  "route": "derived",
+  "noUpscale": true,
+  "fixedScale": 0.6438906752411575,
+  "sourceRect": [
+    60,
+    12,
+    1204,
+    1268
+  ],
+  "sourceAnchor": [
+    632.0,
+    1262
+  ],
+  "offset": [
+    144,
+    115
+  ],
+  "registration": "match the skin-master significant body height; feet anchored at512,920; per-source uniform downscale only",
+  "operation": "significant-alpha crop plus6px, premultiplied-alpha Lanczos downscale, foot-anchor registration; independent generated pose still",
+  "derivedFrom": [
+    {
+      "file": "designs/characters/costume-poses-20261029/spring-win-v1.png",
+      "sha256": "f0a85ec4c1833ddf4e26d25d1ab14cf880b800570e53fc62904fd17cebf69787",
+      "record": "designs/characters/costume-poses-20261029/spring-win-v1.generation.json"
+    }
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "edgeAlphaMax": 0,
+  "status": "passed_offline_art_review",
+  "recordedAt": "2026-10-30T04:34:56.671186+00:00",
+  "visualReview": {
+    "method": "actual imagegen returns plus light/dark five-costume master-win-lose contact inspected",
+    "passed": true,
+    "reviewedAt": "2026-10-30T05:04:57.573990+00:00",
+    "bodyHeight": 801,
+    "masterBodyHeight": 801,
+    "edgeAlphaMax": 0,
+    "footAnchorError": 0
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "friend-room",
+  "kind": "icon",
+  "file": "assets/ui/runtime-kit/icons/friend-room.png",
+  "sha256": "5d820a937f248e707b73152385d341010b3bbec594ca92cb4fee574073ece2a4",
+  "width": 270,
+  "height": 206,
+  "format": "PNG",
+  "mode": "RGBA",
+  "operation": "adaptive transparent-gap crop + documented native-alpha hygiene; no resampling, no redrawing, no upscaling",
+  "derivedFrom": {
+    "file": "designs/ui/runtime-kit/icons-gameplay-v1.png",
+    "sha256": "4d34a4e89709ae095de206726e0b14f76be768391be7fcf34bd5655f7ea4e732",
+    "generationRecord": "designs/ui/runtime-kit/icons-gameplay-v1.generation.json"
+  },
+  "cellIndex": 1,
+  "row": 0,
+  "column": 1,
+  "sourceRect": [
+    337,
+    82,
+    607,
+    288
+  ],
+  "cellRect": [
+    320,
+    0,
+    626,
+    342
+  ],
+  "trimOffset": [
+    17,
+    82
+  ],
+  "alphaHygiene": {
+    "alphaFloor": 4,
+    "floorRemovedPixels": 144310,
+    "faintDetachedRemovedPixels": 4635,
+    "maxFaintRemovedAlpha": 31,
+    "method": "native alpha hygiene only, preserve RGB and all alpha>=32; faint alpha<32 kept within 2px of solid art"
+  },
+  "perimeterHazePixelsCleared": 0,
+  "alpha": {
+    "zeroPixels": 23897,
+    "partialPixels": 31671,
+    "opaquePixels": 52,
+    "extrema": [
+      0,
+      255
+    ]
+  },
+  "visiblePixelsPreserved": 30973,
+  "clipping": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Follow derivedFrom.generationRecord; this crop is not a new model call",
+  "status": "derived_asset_ready_user_review"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "hulu_lose",
+  "file": "assets/characters/hulu/lose.png",
+  "record": "assets/characters/hulu/lose.derivation.json",
+  "kind": "character_pose",
+  "width": 1024,
+  "height": 1024,
+  "anchor": [
+    512,
+    920
+  ],
+  "sha256": "35850b8b42fb029b3fb57e985a7b71009b302e9ff05303cf65eda75f118f555d",
+  "operation": "crop-to-significant-alpha-bounds-with6px-padding-and-one-fixed-downscale-per-character-registered-to-foot-anchor",
+  "derivedFrom": {
+    "file": "designs/characters/runtime-20261026/hulu-lose-v1.png",
+    "sha256": "d35a952d2c5c2c2192ba2622c6712743dd42b4f9da4bee9a9e1efac840929989",
+    "record": "designs/characters/runtime-20261026/hulu-lose-v1.generation.json"
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "significantBorderPixels": 0,
+  "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+  "art_source": "existing",
+  "status": "asset_ready_user_review",
+  "sourceRect": [
+    154,
+    52,
+    1112,
+    1220
+  ],
+  "sourceAnchor": [
+    633.0,
+    1214
+  ],
+  "fixedScale": 0.6861063464837049,
+  "offset": [
+    183,
+    123
+  ],
+  "noUpscale": true,
+  "pose": "lose",
+  "characterId": "hulu"
+}

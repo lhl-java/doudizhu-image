@@ -1,0 +1,45 @@
+{
+  "id": "taohua_lose",
+  "file": "assets/characters/taohua/lose.png",
+  "record": "assets/characters/taohua/lose.derivation.json",
+  "kind": "character_pose",
+  "width": 1024,
+  "height": 1024,
+  "anchor": [
+    512,
+    920
+  ],
+  "sha256": "eb52785b8f2c1fb0e5b5b736d0bc3fecbe352f65c4d371ed9d95bedec9d1bf73",
+  "operation": "crop-to-significant-alpha-bounds-with6px-padding-and-one-fixed-downscale-per-character-registered-to-foot-anchor",
+  "derivedFrom": {
+    "file": "designs/characters/runtime-20261026/taohua-lose-v1.png",
+    "sha256": "95faf08890ffc5354d359673c9205f6bc62083afcd75b23f1db0437ee3912faf",
+    "record": "designs/characters/runtime-20261026/taohua-lose-v1.generation.json"
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "significantBorderPixels": 0,
+  "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+  "art_source": "existing",
+  "status": "asset_ready_user_review",
+  "sourceRect": [
+    135,
+    33,
+    1123,
+    1231
+  ],
+  "sourceAnchor": [
+    629.0,
+    1225
+  ],
+  "fixedScale": 0.657354149548069,
+  "offset": [
+    187,
+    136
+  ],
+  "noUpscale": true,
+  "pose": "lose",
+  "characterId": "taohua"
+}

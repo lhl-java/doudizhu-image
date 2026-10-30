@@ -1,0 +1,29 @@
+{
+  "file": "assets/ui/controls/tab-normal.png",
+  "sha256": "6b67e215ff28fd153e1f104c76d5c4a36f813029eb3bc183a62687d21e6ec6bd",
+  "width": 269,
+  "height": 169,
+  "format": "PNG",
+  "operation": "crop-only-preserve-source-RGBA-no-resize",
+  "cropRect": [
+    1148,
+    331,
+    1448,
+    500
+  ],
+  "trimRect": [
+    1,
+    0,
+    270,
+    169
+  ],
+  "derivedFrom": {
+    "file": "designs/ui/components/51-common-components-v1.png",
+    "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+    "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+  "status": "derived_asset_ready_user_review"
+}

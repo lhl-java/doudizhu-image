@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/ui/table/53-table-chat-v2.png",
+  "sha256": "64731428e7306f040de942b5c20133e54c2633dc3dc9a2104ddfa5323d84c283",
+  "generatedAt": "2026-10-26T04:18:50.1751461-04:00",
+  "timestampMeaning": "UI组合导出时间，不是新模型生成时间",
+  "width": 1931,
+  "height": 814,
+  "format": "PNG",
+  "tool": "System.Drawing native UI composition",
+  "route": "derived",
+  "operation": "layered-ui-composition: original native artwork + nine-sliced generated panel skin + deterministic correctly ranked card components",
+  "nativeArtworkResolution": {
+    "width": 1931,
+    "height": 814
+  },
+  "exportResolution": {
+    "width": 1931,
+    "height": 814
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "submittedParameters": {
+    "quality": null,
+    "model": null
+  },
+  "unverifiedReason": "本图为UI素材组合导出，未再次调用生成模型；每个生成源的实际型号质量跟随derivedFrom记录，未披露仍为null",
+  "derivedFrom": [
+    {
+      "file": "designs/ui/table/53-table-chat-v1.png",
+      "sha256": "898bef568d28331ff4bb0b9657640c0f096bf6bdbdf2d9f59879dac2ed8fddda",
+      "record": "designs/ui/table/53-table-chat-v1.generation.json",
+      "role": "原生生成整屏底图，不放大"
+    },
+    {
+      "file": "assets/ui/controls/panel.png",
+      "sha256": "8cea325f107b9dae1b16addf4d4c5b3987defc6fef98dc89d65b0108c1321d6a",
+      "record": "assets/ui/controls/panel.derivation.json",
+      "role": "手牌托盘，原生框角九宫格排版，不新增绘画细节"
+    },
+    {
+      "file": "assets/ui/cards-source/farmer.png",
+      "sha256": "5cbe5643a0150da3710b0aba32952610644235020db7ba62250a49e19652763a",
+      "record": "assets/ui/cards-source/farmer.derivation.json",
+      "role": "女修为农民"
+    },
+    {
+      "file": "assets/ui/cards-source/landlord.png",
+      "sha256": "3dfee5ad7d76c3b638f3cfeb0b19303ad7ef1fdcaffb4074f26fa38f7425bc93",
+      "record": "assets/ui/cards-source/landlord.derivation.json",
+      "role": "长者为地主"
+    },
+    {
+      "file": "assets/ui/cards-source/farmer.png",
+      "sha256": "5cbe5643a0150da3710b0aba32952610644235020db7ba62250a49e19652763a",
+      "record": "assets/ui/cards-source/farmer.derivation.json",
+      "role": "自己为农民"
+    },
+    {
+      "file": "assets/ui/cards/spades-A.png",
+      "sha256": "981605aeb34fe49a9e9bb552f2aee61609f317cbfa1d986203c9350155a444ce",
+      "record": "assets/ui/cards/spades-A.derivation.json",
+      "role": "正确点数和花色的独立动态牌面层，缩小排版，不新增原生细节"
+    },
+    {
+      "file": "assets/ui/cards/hearts-K.png",
+      "sha256": "2a6cc03073e56fdf610f93f0e9a9d7587a3375d7114a4bd02fdff9a236825ae5",
+      "record": "assets/ui/cards/hearts-K.derivation.json",
+      "role": "正确点数和花色的独立动态牌面层，缩小排版，不新增原生细节"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-3.png",
+      "sha256": "8e2baa8cd4bb7e6e891083b0cec61e812d88759f4a34b5146699909da35879a8",
+      "record": "assets/ui/cards/diamonds-3.derivation.json",
+      "role": "正确点数和花色的独立动态牌面层，缩小排版，不新增原生细节"
+    }
+  ],
+  "layout": "prompts/table/53-table-chat-v2.layout.json",
+  "cardGroups": [
+    {
+      "role": "三张公开底牌",
+      "rect": [
+        623,
+        351,
+        270,
+        115
+      ],
+      "cards": [
+        "spades-A",
+        "hearts-K",
+        "diamonds-3"
+      ],
+      "selectedIndexes": [],
+      "selectionLift": 0
+    }
+  ],
+  "visualReview": {
+    "note": "已看图：四条快捷语、三页签、语音/屏蔽和四枚道童表情清楚；17张手牌可数，揭开底牌并补齐三席身份。为原生牌桌加独立同源素材的UI组合。",
+    "status": "design_ready_user_review"
+  }
+}

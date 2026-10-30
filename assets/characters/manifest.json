@@ -1,0 +1,2340 @@
+{
+  "schemaVersion": 1,
+  "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+  "status": "asset_ready_user_review",
+  "characters": [
+    {
+      "id": "daotong",
+      "name": "玉绿道童",
+      "art_source": "host_image",
+      "canvas": [
+        1024,
+        1024
+      ],
+      "anchor": [
+        512,
+        920
+      ],
+      "recommendedDisplayHeight": 520,
+      "faceDisplayHeight": 128,
+      "poses": {
+        "master": "assets/characters/daotong/master.png",
+        "win": "assets/characters/daotong/win.png",
+        "lose": "assets/characters/daotong/lose.png"
+      },
+      "expressions": {
+        "calm": "assets/characters/daotong/expressions/calm.png",
+        "smile": "assets/characters/daotong/expressions/smile.png",
+        "laugh": "assets/characters/daotong/expressions/laugh.png",
+        "thinking": "assets/characters/daotong/expressions/thinking.png",
+        "surprise": "assets/characters/daotong/expressions/surprise.png",
+        "smug": "assets/characters/daotong/expressions/smug.png",
+        "sad": "assets/characters/daotong/expressions/sad.png",
+        "angry": "assets/characters/daotong/expressions/angry.png"
+      },
+      "sourceToRuntimeScale": 0.6739679865206403,
+      "portraitScale": 0.5818181818181818,
+      "status": "asset_ready_user_review",
+      "animationBoundary": "Three independent still poses; root runtime authors 2D UI keyframe transforms and pose switches. Not image-to-video, skeletal full-body animation or generated in-between frames.",
+      "costumes": [
+        {
+          "id": "daotong_base",
+          "name": "青云衣",
+          "file": "assets/characters/daotong/master.png",
+          "record": "assets/characters/daotong/master.derivation.json"
+        },
+        {
+          "id": "daotong_spring",
+          "name": "桃花春衣",
+          "file": "assets/characters/daotong/costumes/spring.png",
+          "record": "assets/characters/daotong/costumes/spring.derivation.json",
+          "characterId": "daotong",
+          "anchor": [
+            512,
+            920
+          ],
+          "width": 1024,
+          "height": 1024,
+          "animationPolicy": "Resolve master/win/lose to this costume own independent PNGs; timeline is 2D pose-switch motion, not articulated animation.",
+          "poses": {
+            "master": "assets/characters/daotong/costumes/spring.png",
+            "win": "assets/characters/daotong/costumes/spring-poses/win.png",
+            "lose": "assets/characters/daotong/costumes/spring-poses/lose.png"
+          },
+          "poseRecords": {
+            "master": "assets/characters/daotong/costumes/spring.derivation.json",
+            "win": "assets/characters/daotong/costumes/spring-poses/win.derivation.json",
+            "lose": "assets/characters/daotong/costumes/spring-poses/lose.derivation.json"
+          }
+        },
+        {
+          "id": "daotong_ink",
+          "name": "暮色墨衣",
+          "file": "assets/characters/daotong/costumes/ink.png",
+          "record": "assets/characters/daotong/costumes/ink.derivation.json",
+          "characterId": "daotong",
+          "anchor": [
+            512,
+            920
+          ],
+          "width": 1024,
+          "height": 1024,
+          "animationPolicy": "Resolve master/win/lose to this costume own independent PNGs; timeline is 2D pose-switch motion, not articulated animation.",
+          "poses": {
+            "master": "assets/characters/daotong/costumes/ink.png",
+            "win": "assets/characters/daotong/costumes/ink-poses/win.png",
+            "lose": "assets/characters/daotong/costumes/ink-poses/lose.png"
+          },
+          "poseRecords": {
+            "master": "assets/characters/daotong/costumes/ink.derivation.json",
+            "win": "assets/characters/daotong/costumes/ink-poses/win.derivation.json",
+            "lose": "assets/characters/daotong/costumes/ink-poses/lose.derivation.json"
+          }
+        },
+        {
+          "id": "daotong_moon",
+          "name": "桂月金衣",
+          "file": "assets/characters/daotong/costumes/moon.png",
+          "record": "assets/characters/daotong/costumes/moon.derivation.json",
+          "characterId": "daotong",
+          "anchor": [
+            512,
+            920
+          ],
+          "width": 1024,
+          "height": 1024,
+          "animationPolicy": "Resolve master/win/lose to this costume own independent PNGs; timeline is 2D pose-switch motion, not articulated animation.",
+          "poses": {
+            "master": "assets/characters/daotong/costumes/moon.png",
+            "win": "assets/characters/daotong/costumes/moon-poses/win.png",
+            "lose": "assets/characters/daotong/costumes/moon-poses/lose.png"
+          },
+          "poseRecords": {
+            "master": "assets/characters/daotong/costumes/moon.derivation.json",
+            "win": "assets/characters/daotong/costumes/moon-poses/win.derivation.json",
+            "lose": "assets/characters/daotong/costumes/moon-poses/lose.derivation.json"
+          }
+        },
+        {
+          "id": "daotong_snow",
+          "name": "雪色白衣",
+          "file": "assets/characters/daotong/costumes/snow.png",
+          "record": "assets/characters/daotong/costumes/snow.derivation.json",
+          "characterId": "daotong",
+          "anchor": [
+            512,
+            920
+          ],
+          "width": 1024,
+          "height": 1024,
+          "animationPolicy": "Resolve master/win/lose to this costume own independent PNGs; timeline is 2D pose-switch motion, not articulated animation.",
+          "poses": {
+            "master": "assets/characters/daotong/costumes/snow.png",
+            "win": "assets/characters/daotong/costumes/snow-poses/win.png",
+            "lose": "assets/characters/daotong/costumes/snow-poses/lose.png"
+          },
+          "poseRecords": {
+            "master": "assets/characters/daotong/costumes/snow.derivation.json",
+            "win": "assets/characters/daotong/costumes/snow-poses/win.derivation.json",
+            "lose": "assets/characters/daotong/costumes/snow-poses/lose.derivation.json"
+          }
+        },
+        {
+          "id": "daotong_festival",
+          "name": "庆典红衣",
+          "file": "assets/characters/daotong/costumes/festival.png",
+          "record": "assets/characters/daotong/costumes/festival.derivation.json",
+          "characterId": "daotong",
+          "anchor": [
+            512,
+            920
+          ],
+          "width": 1024,
+          "height": 1024,
+          "animationPolicy": "Resolve master/win/lose to this costume own independent PNGs; timeline is 2D pose-switch motion, not articulated animation.",
+          "poses": {
+            "master": "assets/characters/daotong/costumes/festival.png",
+            "win": "assets/characters/daotong/costumes/festival-poses/win.png",
+            "lose": "assets/characters/daotong/costumes/festival-poses/lose.png"
+          },
+          "poseRecords": {
+            "master": "assets/characters/daotong/costumes/festival.derivation.json",
+            "win": "assets/characters/daotong/costumes/festival-poses/win.derivation.json",
+            "lose": "assets/characters/daotong/costumes/festival-poses/lose.derivation.json"
+          }
+        }
+      ],
+      "identity": {
+        "name": "玉绿道童",
+        "recognition": [
+          "短棕色刺发",
+          "金色云纹发带与飘带",
+          "大眼短身男孩",
+          "青绿金边短道袍、象牙白袖裤",
+          "腰间金色太极葫芦与红穗",
+          "手持玉绿背扑克牌"
+        ],
+        "baseCostume": "青云衣"
+      },
+      "expressionLabels": {
+        "calm": "平静",
+        "smile": "微笑",
+        "laugh": "大笑",
+        "thinking": "思考",
+        "surprise": "惊讶",
+        "smug": "得意",
+        "sad": "难过",
+        "angry": "生气"
+      },
+      "nativeSources": {
+        "master": "designs/characters/runtime-20261026/daotong-master-v1.png",
+        "win": "designs/characters/runtime-20261026/daotong-win-v1.png",
+        "lose": "designs/characters/runtime-20261026/daotong-lose-v1.png",
+        "expressions": "designs/characters/runtime-20261026/daotong-expressions-v2.png"
+      },
+      "registration": "Each source uses its significant-alpha horizontal centre and bottom as the source foot anchor; one fixed downscale per character. Exact sourceRect, sourceAnchor, scale and offset are in each derivation record."
+    },
+    {
+      "id": "taohua",
+      "name": "桃花女修",
+      "art_source": "host_image",
+      "canvas": [
+        1024,
+        1024
+      ],
+      "anchor": [
+        512,
+        920
+      ],
+      "recommendedDisplayHeight": 520,
+      "faceDisplayHeight": 128,
+      "poses": {
+        "master": "assets/characters/taohua/master.png",
+        "win": "assets/characters/taohua/win.png",
+        "lose": "assets/characters/taohua/lose.png"
+      },
+      "expressions": {
+        "calm": "assets/characters/taohua/expressions/calm.png",
+        "smile": "assets/characters/taohua/expressions/smile.png",
+        "laugh": "assets/characters/taohua/expressions/laugh.png",
+        "thinking": "assets/characters/taohua/expressions/thinking.png",
+        "surprise": "assets/characters/taohua/expressions/surprise.png",
+        "smug": "assets/characters/taohua/expressions/smug.png",
+        "sad": "assets/characters/taohua/expressions/sad.png",
+        "angry": "assets/characters/taohua/expressions/angry.png"
+      },
+      "sourceToRuntimeScale": 0.657354149548069,
+      "portraitScale": 0.5197215777262181,
+      "status": "asset_ready_user_review",
+      "animationBoundary": "Three independent still poses; root runtime authors 2D UI keyframe transforms and pose switches. Not image-to-video, skeletal full-body animation or generated in-between frames.",
+      "identity": {
+        "name": "桃花女修",
+        "recognition": [
+          "深棕长发与桃花发饰",
+          "玉珠发簪",
+          "粉绿飘带",
+          "象牙白与浅粉青绿裙装",
+          "桃花纹折扇",
+          "圆润少女脸型"
+        ]
+      },
+      "expressionLabels": {
+        "calm": "平静",
+        "smile": "微笑",
+        "laugh": "大笑",
+        "thinking": "思考",
+        "surprise": "惊讶",
+        "smug": "得意",
+        "sad": "难过",
+        "angry": "生气"
+      },
+      "nativeSources": {
+        "master": "designs/characters/runtime-20261026/taohua-master-v1.png",
+        "win": "designs/characters/runtime-20261026/taohua-win-v1.png",
+        "lose": "designs/characters/runtime-20261026/taohua-lose-v1.png",
+        "expressions": "designs/characters/runtime-20261026/taohua-expressions-v2.png"
+      },
+      "registration": "Each source uses its significant-alpha horizontal centre and bottom as the source foot anchor; one fixed downscale per character. Exact sourceRect, sourceAnchor, scale and offset are in each derivation record."
+    },
+    {
+      "id": "hulu",
+      "name": "葫芦长者",
+      "art_source": "host_image",
+      "canvas": [
+        1024,
+        1024
+      ],
+      "anchor": [
+        512,
+        920
+      ],
+      "recommendedDisplayHeight": 520,
+      "faceDisplayHeight": 128,
+      "poses": {
+        "master": "assets/characters/hulu/master.png",
+        "win": "assets/characters/hulu/win.png",
+        "lose": "assets/characters/hulu/lose.png"
+      },
+      "expressions": {
+        "calm": "assets/characters/hulu/expressions/calm.png",
+        "smile": "assets/characters/hulu/expressions/smile.png",
+        "laugh": "assets/characters/hulu/expressions/laugh.png",
+        "thinking": "assets/characters/hulu/expressions/thinking.png",
+        "surprise": "assets/characters/hulu/expressions/surprise.png",
+        "smug": "assets/characters/hulu/expressions/smug.png",
+        "sad": "assets/characters/hulu/expressions/sad.png",
+        "angry": "assets/characters/hulu/expressions/angry.png"
+      },
+      "sourceToRuntimeScale": 0.6861063464837049,
+      "portraitScale": 0.6103542234332425,
+      "status": "asset_ready_user_review",
+      "animationBoundary": "Three independent still poses; root runtime authors 2D UI keyframe transforms and pose switches. Not image-to-video, skeletal full-body animation or generated in-between frames.",
+      "identity": {
+        "name": "葫芦长者",
+        "recognition": [
+          "白发丸髻",
+          "浓白眉与长白胡须",
+          "圆润红颊老者",
+          "青绿暖金道袍与象牙白内衫",
+          "怀抱金色太极大葫芦",
+          "绿色发带与玉坠"
+        ]
+      },
+      "expressionLabels": {
+        "calm": "平静",
+        "smile": "微笑",
+        "laugh": "大笑",
+        "thinking": "思考",
+        "surprise": "惊讶",
+        "smug": "得意",
+        "sad": "难过",
+        "angry": "生气"
+      },
+      "nativeSources": {
+        "master": "designs/characters/runtime-20261026/hulu-master-v1.png",
+        "win": "designs/characters/runtime-20261026/hulu-win-v1.png",
+        "lose": "designs/characters/runtime-20261026/hulu-lose-v1.png",
+        "expressions": "designs/characters/runtime-20261026/hulu-expressions-v2.png"
+      },
+      "registration": "Each source uses its significant-alpha horizontal centre and bottom as the source foot anchor; one fixed downscale per character. Exact sourceRect, sourceAnchor, scale and offset are in each derivation record."
+    }
+  ],
+  "costumes": [
+    {
+      "id": "daotong_spring",
+      "name": "桃花春衣",
+      "file": "assets/characters/daotong/costumes/spring.png",
+      "record": "assets/characters/daotong/costumes/spring.derivation.json",
+      "characterId": "daotong",
+      "anchor": [
+        512,
+        920
+      ],
+      "width": 1024,
+      "height": 1024,
+      "animationPolicy": "Use this skin for UI transform clips; do not silently swap to base costume win/lose pose."
+    },
+    {
+      "id": "daotong_ink",
+      "name": "暮色墨衣",
+      "file": "assets/characters/daotong/costumes/ink.png",
+      "record": "assets/characters/daotong/costumes/ink.derivation.json",
+      "characterId": "daotong",
+      "anchor": [
+        512,
+        920
+      ],
+      "width": 1024,
+      "height": 1024,
+      "animationPolicy": "Use this skin for UI transform clips; do not silently swap to base costume win/lose pose."
+    },
+    {
+      "id": "daotong_moon",
+      "name": "桂月金衣",
+      "file": "assets/characters/daotong/costumes/moon.png",
+      "record": "assets/characters/daotong/costumes/moon.derivation.json",
+      "characterId": "daotong",
+      "anchor": [
+        512,
+        920
+      ],
+      "width": 1024,
+      "height": 1024,
+      "animationPolicy": "Use this skin for UI transform clips; do not silently swap to base costume win/lose pose."
+    },
+    {
+      "id": "daotong_snow",
+      "name": "雪色白衣",
+      "file": "assets/characters/daotong/costumes/snow.png",
+      "record": "assets/characters/daotong/costumes/snow.derivation.json",
+      "characterId": "daotong",
+      "anchor": [
+        512,
+        920
+      ],
+      "width": 1024,
+      "height": 1024,
+      "animationPolicy": "Use this skin for UI transform clips; do not silently swap to base costume win/lose pose."
+    },
+    {
+      "id": "daotong_festival",
+      "name": "庆典红衣",
+      "file": "assets/characters/daotong/costumes/festival.png",
+      "record": "assets/characters/daotong/costumes/festival.derivation.json",
+      "characterId": "daotong",
+      "anchor": [
+        512,
+        920
+      ],
+      "width": 1024,
+      "height": 1024,
+      "animationPolicy": "Use this skin for UI transform clips; do not silently swap to base costume win/lose pose."
+    }
+  ],
+  "assets": [
+    {
+      "id": "daotong_master",
+      "file": "assets/characters/daotong/master.png",
+      "record": "assets/characters/daotong/master.derivation.json",
+      "kind": "character_pose",
+      "width": 1024,
+      "height": 1024,
+      "anchor": [
+        512,
+        920
+      ],
+      "sha256": "38ba45b8c3dac51539dd72cef264867c2636670341995ab42f71aecdfc42cb7e",
+      "operation": "crop-to-significant-alpha-bounds-with6px-padding-and-one-fixed-downscale-per-character-registered-to-foot-anchor",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/daotong-master-v1.png",
+        "sha256": "c458e647cc47a506311e539e3f3882dfa3bb82d7af7345eb0b866c92e4fdf400",
+        "record": "designs/characters/runtime-20261026/daotong-master-v1.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "sourceRect": [
+        168,
+        26,
+        1150,
+        1225
+      ],
+      "sourceAnchor": [
+        659.0,
+        1219
+      ],
+      "fixedScale": 0.6739679865206403,
+      "offset": [
+        181,
+        116
+      ],
+      "noUpscale": true,
+      "pose": "master",
+      "characterId": "daotong"
+    },
+    {
+      "id": "daotong_win",
+      "file": "assets/characters/daotong/win.png",
+      "record": "assets/characters/daotong/win.derivation.json",
+      "kind": "character_pose",
+      "width": 1024,
+      "height": 1024,
+      "anchor": [
+        512,
+        920
+      ],
+      "sha256": "43c5d7885ff60d7189961d0f4325e48c7a4a3d6ee7711ff2e552c2256cdad179",
+      "operation": "crop-to-significant-alpha-bounds-with6px-padding-and-one-fixed-downscale-per-character-registered-to-foot-anchor",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/daotong-win-v1.png",
+        "sha256": "de32f7d96c2baef48c13e7c481a9ca0c3c9bce45427fda39030bde701bdb77de",
+        "record": "designs/characters/runtime-20261026/daotong-win-v1.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "sourceRect": [
+        125,
+        33,
+        1169,
+        1222
+      ],
+      "sourceAnchor": [
+        647.0,
+        1216
+      ],
+      "fixedScale": 0.6739679865206403,
+      "offset": [
+        160,
+        123
+      ],
+      "noUpscale": true,
+      "pose": "win",
+      "characterId": "daotong"
+    },
+    {
+      "id": "daotong_lose",
+      "file": "assets/characters/daotong/lose.png",
+      "record": "assets/characters/daotong/lose.derivation.json",
+      "kind": "character_pose",
+      "width": 1024,
+      "height": 1024,
+      "anchor": [
+        512,
+        920
+      ],
+      "sha256": "318a223caf574a327a54a834deb2f535f31d91c55c9fa61c44ca2a3dc550dbc0",
+      "operation": "crop-to-significant-alpha-bounds-with6px-padding-and-one-fixed-downscale-per-character-registered-to-foot-anchor",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/daotong-lose-v1.png",
+        "sha256": "bfaa88dbd0cef066f97edf358475e1450508b71f6e620deae26e56b74cc82da7",
+        "record": "designs/characters/runtime-20261026/daotong-lose-v1.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "sourceRect": [
+        196,
+        28,
+        1157,
+        1227
+      ],
+      "sourceAnchor": [
+        676.5,
+        1221
+      ],
+      "fixedScale": 0.6739679865206403,
+      "offset": [
+        188,
+        116
+      ],
+      "noUpscale": true,
+      "pose": "lose",
+      "characterId": "daotong"
+    },
+    {
+      "id": "daotong_calm",
+      "file": "assets/characters/daotong/expressions/calm.png",
+      "record": "assets/characters/daotong/expressions/calm.derivation.json",
+      "kind": "character_expression",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        244
+      ],
+      "sha256": "6efa8169e054cb4fc2b8d0c63373c13999b68fceea2514a55514cb38f2df1622",
+      "operation": "grid-ownership-crop-with4px-alpha-padding-and-one-fixed-downscale-per-character-portrait",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/daotong-expressions-v2.png",
+        "sha256": "99b488d0e62c6498277cd33a6a199e14a220332ffe5112c2524f129868b661d7",
+        "record": "designs/characters/runtime-20261026/daotong-expressions-v2.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "expression": "calm",
+      "expressionName": "平静",
+      "grid": {
+        "columns": 4,
+        "rows": 2,
+        "index": 0,
+        "cellRect": [
+          0,
+          0,
+          444,
+          444
+        ]
+      },
+      "sourceRect": [
+        42,
+        90,
+        431,
+        426
+      ],
+      "fixedScale": 0.5818181818181818,
+      "offset": [
+        15,
+        51
+      ],
+      "noUpscale": true,
+      "characterId": "daotong"
+    },
+    {
+      "id": "daotong_smile",
+      "file": "assets/characters/daotong/expressions/smile.png",
+      "record": "assets/characters/daotong/expressions/smile.derivation.json",
+      "kind": "character_expression",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        244
+      ],
+      "sha256": "613d2dbb615ff1ecc5a7cb76725b611e0ad1be0fda3cccf5487c9d8139f949cc",
+      "operation": "grid-ownership-crop-with4px-alpha-padding-and-one-fixed-downscale-per-character-portrait",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/daotong-expressions-v2.png",
+        "sha256": "99b488d0e62c6498277cd33a6a199e14a220332ffe5112c2524f129868b661d7",
+        "record": "designs/characters/runtime-20261026/daotong-expressions-v2.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "expression": "smile",
+      "expressionName": "微笑",
+      "grid": {
+        "columns": 4,
+        "rows": 2,
+        "index": 1,
+        "cellRect": [
+          444,
+          0,
+          887,
+          444
+        ]
+      },
+      "sourceRect": [
+        483,
+        89,
+        867,
+        429
+      ],
+      "fixedScale": 0.5818181818181818,
+      "offset": [
+        16,
+        49
+      ],
+      "noUpscale": true,
+      "characterId": "daotong"
+    },
+    {
+      "id": "daotong_laugh",
+      "file": "assets/characters/daotong/expressions/laugh.png",
+      "record": "assets/characters/daotong/expressions/laugh.derivation.json",
+      "kind": "character_expression",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        244
+      ],
+      "sha256": "84adf6c929291ed9080fa0799338c0dd5c2fd343fd888ccb748d2e4c8fbd6a98",
+      "operation": "grid-ownership-crop-with4px-alpha-padding-and-one-fixed-downscale-per-character-portrait",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/daotong-expressions-v2.png",
+        "sha256": "99b488d0e62c6498277cd33a6a199e14a220332ffe5112c2524f129868b661d7",
+        "record": "designs/characters/runtime-20261026/daotong-expressions-v2.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "expression": "laugh",
+      "expressionName": "大笑",
+      "grid": {
+        "columns": 4,
+        "rows": 2,
+        "index": 2,
+        "cellRect": [
+          887,
+          0,
+          1330,
+          444
+        ]
+      },
+      "sourceRect": [
+        925,
+        90,
+        1310,
+        426
+      ],
+      "fixedScale": 0.5818181818181818,
+      "offset": [
+        16,
+        51
+      ],
+      "noUpscale": true,
+      "characterId": "daotong"
+    },
+    {
+      "id": "daotong_thinking",
+      "file": "assets/characters/daotong/expressions/thinking.png",
+      "record": "assets/characters/daotong/expressions/thinking.derivation.json",
+      "kind": "character_expression",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        244
+      ],
+      "sha256": "395a20f37bc59a61c6090dc4ebfa1bdfdaae8e86ef96c1bb2d47d794df62a8f1",
+      "operation": "grid-ownership-crop-with4px-alpha-padding-and-one-fixed-downscale-per-character-portrait",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/daotong-expressions-v2.png",
+        "sha256": "99b488d0e62c6498277cd33a6a199e14a220332ffe5112c2524f129868b661d7",
+        "record": "designs/characters/runtime-20261026/daotong-expressions-v2.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "expression": "thinking",
+      "expressionName": "思考",
+      "grid": {
+        "columns": 4,
+        "rows": 2,
+        "index": 3,
+        "cellRect": [
+          1330,
+          0,
+          1774,
+          444
+        ]
+      },
+      "sourceRect": [
+        1370,
+        89,
+        1746,
+        428
+      ],
+      "fixedScale": 0.5818181818181818,
+      "offset": [
+        19,
+        49
+      ],
+      "noUpscale": true,
+      "characterId": "daotong"
+    },
+    {
+      "id": "daotong_surprise",
+      "file": "assets/characters/daotong/expressions/surprise.png",
+      "record": "assets/characters/daotong/expressions/surprise.derivation.json",
+      "kind": "character_expression",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        244
+      ],
+      "sha256": "cab0b8264e6c42c60ef8ac84bf2c9f1ddea9707b02b644dc182320bb85f91489",
+      "operation": "grid-ownership-crop-with4px-alpha-padding-and-one-fixed-downscale-per-character-portrait",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/daotong-expressions-v2.png",
+        "sha256": "99b488d0e62c6498277cd33a6a199e14a220332ffe5112c2524f129868b661d7",
+        "record": "designs/characters/runtime-20261026/daotong-expressions-v2.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "expression": "surprise",
+      "expressionName": "惊讶",
+      "grid": {
+        "columns": 4,
+        "rows": 2,
+        "index": 4,
+        "cellRect": [
+          0,
+          444,
+          444,
+          887
+        ]
+      },
+      "sourceRect": [
+        42,
+        483,
+        435,
+        823
+      ],
+      "fixedScale": 0.5818181818181818,
+      "offset": [
+        14,
+        49
+      ],
+      "noUpscale": true,
+      "characterId": "daotong"
+    },
+    {
+      "id": "daotong_smug",
+      "file": "assets/characters/daotong/expressions/smug.png",
+      "record": "assets/characters/daotong/expressions/smug.derivation.json",
+      "kind": "character_expression",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        244
+      ],
+      "sha256": "53f870aedf02265179294109ba6baa2fdd8d5611e6dd3ef931996cadfc6f6d2b",
+      "operation": "grid-ownership-crop-with4px-alpha-padding-and-one-fixed-downscale-per-character-portrait",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/daotong-expressions-v2.png",
+        "sha256": "99b488d0e62c6498277cd33a6a199e14a220332ffe5112c2524f129868b661d7",
+        "record": "designs/characters/runtime-20261026/daotong-expressions-v2.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "expression": "smug",
+      "expressionName": "得意",
+      "grid": {
+        "columns": 4,
+        "rows": 2,
+        "index": 5,
+        "cellRect": [
+          444,
+          444,
+          887,
+          887
+        ]
+      },
+      "sourceRect": [
+        484,
+        483,
+        868,
+        822
+      ],
+      "fixedScale": 0.5818181818181818,
+      "offset": [
+        16,
+        49
+      ],
+      "noUpscale": true,
+      "characterId": "daotong"
+    },
+    {
+      "id": "daotong_sad",
+      "file": "assets/characters/daotong/expressions/sad.png",
+      "record": "assets/characters/daotong/expressions/sad.derivation.json",
+      "kind": "character_expression",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        244
+      ],
+      "sha256": "f7ceb47db821393d8a4c18ac3554508eba69c909490c7e42fda1c506e7ae1418",
+      "operation": "grid-ownership-crop-with4px-alpha-padding-and-one-fixed-downscale-per-character-portrait",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/daotong-expressions-v2.png",
+        "sha256": "99b488d0e62c6498277cd33a6a199e14a220332ffe5112c2524f129868b661d7",
+        "record": "designs/characters/runtime-20261026/daotong-expressions-v2.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "expression": "sad",
+      "expressionName": "难过",
+      "grid": {
+        "columns": 4,
+        "rows": 2,
+        "index": 6,
+        "cellRect": [
+          887,
+          444,
+          1330,
+          887
+        ]
+      },
+      "sourceRect": [
+        925,
+        483,
+        1315,
+        824
+      ],
+      "fixedScale": 0.5818181818181818,
+      "offset": [
+        15,
+        48
+      ],
+      "noUpscale": true,
+      "characterId": "daotong"
+    },
+    {
+      "id": "daotong_angry",
+      "file": "assets/characters/daotong/expressions/angry.png",
+      "record": "assets/characters/daotong/expressions/angry.derivation.json",
+      "kind": "character_expression",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        244
+      ],
+      "sha256": "0466c0776192fdf32466af1d304dd0edb52faf8236554e2a19789a4c68ac5786",
+      "operation": "grid-ownership-crop-with4px-alpha-padding-and-one-fixed-downscale-per-character-portrait",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/daotong-expressions-v2.png",
+        "sha256": "99b488d0e62c6498277cd33a6a199e14a220332ffe5112c2524f129868b661d7",
+        "record": "designs/characters/runtime-20261026/daotong-expressions-v2.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "expression": "angry",
+      "expressionName": "生气",
+      "grid": {
+        "columns": 4,
+        "rows": 2,
+        "index": 7,
+        "cellRect": [
+          1330,
+          444,
+          1774,
+          887
+        ]
+      },
+      "sourceRect": [
+        1369,
+        481,
+        1752,
+        823
+      ],
+      "fixedScale": 0.5818181818181818,
+      "offset": [
+        17,
+        47
+      ],
+      "noUpscale": true,
+      "characterId": "daotong"
+    },
+    {
+      "id": "taohua_master",
+      "file": "assets/characters/taohua/master.png",
+      "record": "assets/characters/taohua/master.derivation.json",
+      "kind": "character_pose",
+      "width": 1024,
+      "height": 1024,
+      "anchor": [
+        512,
+        920
+      ],
+      "sha256": "06bec073cdcec9d47c9da586168e229c74f2d3c72deb5ae91e1509db378cace3",
+      "operation": "crop-to-significant-alpha-bounds-with6px-padding-and-one-fixed-downscale-per-character-registered-to-foot-anchor",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/taohua-master-v1.png",
+        "sha256": "a4c618b581a571b9ee70a791b9879abec4c15b4aa1f003c5b92f9790337f7736",
+        "record": "designs/characters/runtime-20261026/taohua-master-v1.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "sourceRect": [
+        134,
+        10,
+        1130,
+        1239
+      ],
+      "sourceAnchor": [
+        632.0,
+        1233
+      ],
+      "fixedScale": 0.657354149548069,
+      "offset": [
+        185,
+        116
+      ],
+      "noUpscale": true,
+      "pose": "master",
+      "characterId": "taohua"
+    },
+    {
+      "id": "taohua_win",
+      "file": "assets/characters/taohua/win.png",
+      "record": "assets/characters/taohua/win.derivation.json",
+      "kind": "character_pose",
+      "width": 1024,
+      "height": 1024,
+      "anchor": [
+        512,
+        920
+      ],
+      "sha256": "da228752e7004f98ea44861eeddc93dd840ce259af12b88217ffec1f714ea487",
+      "operation": "crop-to-significant-alpha-bounds-with6px-padding-and-one-fixed-downscale-per-character-registered-to-foot-anchor",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/taohua-win-v1.png",
+        "sha256": "41f79c31328fd78afbcc1d3331517f324f04ebcd87eb28f1a19c353b8f703c9e",
+        "record": "designs/characters/runtime-20261026/taohua-win-v1.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "sourceRect": [
+        85,
+        9,
+        1219,
+        1239
+      ],
+      "sourceAnchor": [
+        652.0,
+        1233
+      ],
+      "fixedScale": 0.657354149548069,
+      "offset": [
+        139,
+        115
+      ],
+      "noUpscale": true,
+      "pose": "win",
+      "characterId": "taohua"
+    },
+    {
+      "id": "taohua_lose",
+      "file": "assets/characters/taohua/lose.png",
+      "record": "assets/characters/taohua/lose.derivation.json",
+      "kind": "character_pose",
+      "width": 1024,
+      "height": 1024,
+      "anchor": [
+        512,
+        920
+      ],
+      "sha256": "eb52785b8f2c1fb0e5b5b736d0bc3fecbe352f65c4d371ed9d95bedec9d1bf73",
+      "operation": "crop-to-significant-alpha-bounds-with6px-padding-and-one-fixed-downscale-per-character-registered-to-foot-anchor",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/taohua-lose-v1.png",
+        "sha256": "95faf08890ffc5354d359673c9205f6bc62083afcd75b23f1db0437ee3912faf",
+        "record": "designs/characters/runtime-20261026/taohua-lose-v1.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "sourceRect": [
+        135,
+        33,
+        1123,
+        1231
+      ],
+      "sourceAnchor": [
+        629.0,
+        1225
+      ],
+      "fixedScale": 0.657354149548069,
+      "offset": [
+        187,
+        136
+      ],
+      "noUpscale": true,
+      "pose": "lose",
+      "characterId": "taohua"
+    },
+    {
+      "id": "taohua_calm",
+      "file": "assets/characters/taohua/expressions/calm.png",
+      "record": "assets/characters/taohua/expressions/calm.derivation.json",
+      "kind": "character_expression",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        244
+      ],
+      "sha256": "b8eaeeb0b9d5c06ad7b401c65d55692980191f66e542ac0d878d5c04db7a5204",
+      "operation": "grid-ownership-crop-with4px-alpha-padding-and-one-fixed-downscale-per-character-portrait",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/taohua-expressions-v2.png",
+        "sha256": "68cf6b0f1851cde8c83287fe1b335691b5bbc8e3668ce991a8ddbee86d583e00",
+        "record": "designs/characters/runtime-20261026/taohua-expressions-v2.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "expression": "calm",
+      "expressionName": "平静",
+      "grid": {
+        "columns": 4,
+        "rows": 2,
+        "index": 0,
+        "cellRect": [
+          0,
+          0,
+          444,
+          444
+        ]
+      },
+      "sourceRect": [
+        81,
+        63,
+        444,
+        427
+      ],
+      "fixedScale": 0.5197215777262181,
+      "offset": [
+        33,
+        57
+      ],
+      "noUpscale": true,
+      "characterId": "taohua"
+    },
+    {
+      "id": "taohua_smile",
+      "file": "assets/characters/taohua/expressions/smile.png",
+      "record": "assets/characters/taohua/expressions/smile.derivation.json",
+      "kind": "character_expression",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        244
+      ],
+      "sha256": "60717fdd3163e9e372e3c62ccf0b168d7834fe4f2879ba7c0dc1250b2d1d6695",
+      "operation": "grid-ownership-crop-with4px-alpha-padding-and-one-fixed-downscale-per-character-portrait",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/taohua-expressions-v2.png",
+        "sha256": "68cf6b0f1851cde8c83287fe1b335691b5bbc8e3668ce991a8ddbee86d583e00",
+        "record": "designs/characters/runtime-20261026/taohua-expressions-v2.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "expression": "smile",
+      "expressionName": "微笑",
+      "grid": {
+        "columns": 4,
+        "rows": 2,
+        "index": 1,
+        "cellRect": [
+          444,
+          0,
+          887,
+          444
+        ]
+      },
+      "sourceRect": [
+        444,
+        61,
+        879,
+        428
+      ],
+      "fixedScale": 0.5197215777262181,
+      "offset": [
+        16,
+        55
+      ],
+      "noUpscale": true,
+      "characterId": "taohua"
+    },
+    {
+      "id": "taohua_laugh",
+      "file": "assets/characters/taohua/expressions/laugh.png",
+      "record": "assets/characters/taohua/expressions/laugh.derivation.json",
+      "kind": "character_expression",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        244
+      ],
+      "sha256": "abf2e8e639d95dcfb9434d59e12c8a8662893e8f5aa34ffe7416c734d30a486b",
+      "operation": "grid-ownership-crop-with4px-alpha-padding-and-one-fixed-downscale-per-character-portrait",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/taohua-expressions-v2.png",
+        "sha256": "68cf6b0f1851cde8c83287fe1b335691b5bbc8e3668ce991a8ddbee86d583e00",
+        "record": "designs/characters/runtime-20261026/taohua-expressions-v2.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "expression": "laugh",
+      "expressionName": "大笑",
+      "grid": {
+        "columns": 4,
+        "rows": 2,
+        "index": 2,
+        "cellRect": [
+          887,
+          0,
+          1330,
+          444
+        ]
+      },
+      "sourceRect": [
+        940,
+        61,
+        1310,
+        428
+      ],
+      "fixedScale": 0.5197215777262181,
+      "offset": [
+        32,
+        55
+      ],
+      "noUpscale": true,
+      "characterId": "taohua"
+    },
+    {
+      "id": "taohua_thinking",
+      "file": "assets/characters/taohua/expressions/thinking.png",
+      "record": "assets/characters/taohua/expressions/thinking.derivation.json",
+      "kind": "character_expression",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        244
+      ],
+      "sha256": "2276475395e7693f8eee3dff882d1984a6a66b0405dcfb6652f5d1e5ae84f009",
+      "operation": "grid-ownership-crop-with4px-alpha-padding-and-one-fixed-downscale-per-character-portrait",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/taohua-expressions-v2.png",
+        "sha256": "68cf6b0f1851cde8c83287fe1b335691b5bbc8e3668ce991a8ddbee86d583e00",
+        "record": "designs/characters/runtime-20261026/taohua-expressions-v2.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "expression": "thinking",
+      "expressionName": "思考",
+      "grid": {
+        "columns": 4,
+        "rows": 2,
+        "index": 3,
+        "cellRect": [
+          1330,
+          0,
+          1774,
+          444
+        ]
+      },
+      "sourceRect": [
+        1369,
+        62,
+        1728,
+        428
+      ],
+      "fixedScale": 0.5197215777262181,
+      "offset": [
+        35,
+        56
+      ],
+      "noUpscale": true,
+      "characterId": "taohua"
+    },
+    {
+      "id": "taohua_surprise",
+      "file": "assets/characters/taohua/expressions/surprise.png",
+      "record": "assets/characters/taohua/expressions/surprise.derivation.json",
+      "kind": "character_expression",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        244
+      ],
+      "sha256": "339b6440f166c28494ad6fd82e9e4753a0fb8ce70fd6e4384c7f84e1e7989690",
+      "operation": "grid-ownership-crop-with4px-alpha-padding-and-one-fixed-downscale-per-character-portrait",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/taohua-expressions-v2.png",
+        "sha256": "68cf6b0f1851cde8c83287fe1b335691b5bbc8e3668ce991a8ddbee86d583e00",
+        "record": "designs/characters/runtime-20261026/taohua-expressions-v2.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "expression": "surprise",
+      "expressionName": "惊讶",
+      "grid": {
+        "columns": 4,
+        "rows": 2,
+        "index": 4,
+        "cellRect": [
+          0,
+          444,
+          444,
+          887
+        ]
+      },
+      "sourceRect": [
+        80,
+        476,
+        444,
+        840
+      ],
+      "fixedScale": 0.5197215777262181,
+      "offset": [
+        32,
+        57
+      ],
+      "noUpscale": true,
+      "characterId": "taohua"
+    },
+    {
+      "id": "taohua_smug",
+      "file": "assets/characters/taohua/expressions/smug.png",
+      "record": "assets/characters/taohua/expressions/smug.derivation.json",
+      "kind": "character_expression",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        244
+      ],
+      "sha256": "cee13a01412e4b196d45afbb2cad157ffe528c6ac737a40629dd233dfde696a0",
+      "operation": "grid-ownership-crop-with4px-alpha-padding-and-one-fixed-downscale-per-character-portrait",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/taohua-expressions-v2.png",
+        "sha256": "68cf6b0f1851cde8c83287fe1b335691b5bbc8e3668ce991a8ddbee86d583e00",
+        "record": "designs/characters/runtime-20261026/taohua-expressions-v2.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "expression": "smug",
+      "expressionName": "得意",
+      "grid": {
+        "columns": 4,
+        "rows": 2,
+        "index": 5,
+        "cellRect": [
+          444,
+          444,
+          887,
+          887
+        ]
+      },
+      "sourceRect": [
+        508,
+        477,
+        876,
+        841
+      ],
+      "fixedScale": 0.5197215777262181,
+      "offset": [
+        32,
+        57
+      ],
+      "noUpscale": true,
+      "characterId": "taohua"
+    },
+    {
+      "id": "taohua_sad",
+      "file": "assets/characters/taohua/expressions/sad.png",
+      "record": "assets/characters/taohua/expressions/sad.derivation.json",
+      "kind": "character_expression",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        244
+      ],
+      "sha256": "857320e27e9ccbdc0629d681a0aa05d43416ed0ccdf8ea5ad07b55a93863a32d",
+      "operation": "grid-ownership-crop-with4px-alpha-padding-and-one-fixed-downscale-per-character-portrait",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/taohua-expressions-v2.png",
+        "sha256": "68cf6b0f1851cde8c83287fe1b335691b5bbc8e3668ce991a8ddbee86d583e00",
+        "record": "designs/characters/runtime-20261026/taohua-expressions-v2.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "expression": "sad",
+      "expressionName": "难过",
+      "grid": {
+        "columns": 4,
+        "rows": 2,
+        "index": 6,
+        "cellRect": [
+          887,
+          444,
+          1330,
+          887
+        ]
+      },
+      "sourceRect": [
+        936,
+        476,
+        1305,
+        841
+      ],
+      "fixedScale": 0.5197215777262181,
+      "offset": [
+        32,
+        56
+      ],
+      "noUpscale": true,
+      "characterId": "taohua"
+    },
+    {
+      "id": "taohua_angry",
+      "file": "assets/characters/taohua/expressions/angry.png",
+      "record": "assets/characters/taohua/expressions/angry.derivation.json",
+      "kind": "character_expression",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        244
+      ],
+      "sha256": "21bbef14abf7eb97cc671f6ded0d9c9b2c2c89470e78d2b2c9374c0ef6c3bed2",
+      "operation": "grid-ownership-crop-with4px-alpha-padding-and-one-fixed-downscale-per-character-portrait",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/taohua-expressions-v2.png",
+        "sha256": "68cf6b0f1851cde8c83287fe1b335691b5bbc8e3668ce991a8ddbee86d583e00",
+        "record": "designs/characters/runtime-20261026/taohua-expressions-v2.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "expression": "angry",
+      "expressionName": "生气",
+      "grid": {
+        "columns": 4,
+        "rows": 2,
+        "index": 7,
+        "cellRect": [
+          1330,
+          444,
+          1774,
+          887
+        ]
+      },
+      "sourceRect": [
+        1365,
+        477,
+        1732,
+        841
+      ],
+      "fixedScale": 0.5197215777262181,
+      "offset": [
+        33,
+        57
+      ],
+      "noUpscale": true,
+      "characterId": "taohua"
+    },
+    {
+      "id": "hulu_master",
+      "file": "assets/characters/hulu/master.png",
+      "record": "assets/characters/hulu/master.derivation.json",
+      "kind": "character_pose",
+      "width": 1024,
+      "height": 1024,
+      "anchor": [
+        512,
+        920
+      ],
+      "sha256": "eb4fa72acfcb3e69610b208e46c70428f9aa0127bc014f256ccb6593d93630fe",
+      "operation": "crop-to-significant-alpha-bounds-with6px-padding-and-one-fixed-downscale-per-character-registered-to-foot-anchor",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/hulu-master-v1.png",
+        "sha256": "052b8a06b868e821c5b5638ccc82bd7de191cc104b80a1f2816b32f578541c02",
+        "record": "designs/characters/runtime-20261026/hulu-master-v1.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "sourceRect": [
+        114,
+        48,
+        1144,
+        1226
+      ],
+      "sourceAnchor": [
+        629.0,
+        1220
+      ],
+      "fixedScale": 0.6861063464837049,
+      "offset": [
+        159,
+        116
+      ],
+      "noUpscale": true,
+      "pose": "master",
+      "characterId": "hulu"
+    },
+    {
+      "id": "hulu_win",
+      "file": "assets/characters/hulu/win.png",
+      "record": "assets/characters/hulu/win.derivation.json",
+      "kind": "character_pose",
+      "width": 1024,
+      "height": 1024,
+      "anchor": [
+        512,
+        920
+      ],
+      "sha256": "5217dd726280ea1539fb0daa1f10ca449ad0df68807f8d3ecaef7493a322d059",
+      "operation": "crop-to-significant-alpha-bounds-with6px-padding-and-one-fixed-downscale-per-character-registered-to-foot-anchor",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/hulu-win-v1.png",
+        "sha256": "2d24967c6bd66bd66d188d53cbc1474789cdffa161e83d51ff60b3a5b7fd7371",
+        "record": "designs/characters/runtime-20261026/hulu-win-v1.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "sourceRect": [
+        47,
+        30,
+        1207,
+        1229
+      ],
+      "sourceAnchor": [
+        627.0,
+        1223
+      ],
+      "fixedScale": 0.6861063464837049,
+      "offset": [
+        114,
+        101
+      ],
+      "noUpscale": true,
+      "pose": "win",
+      "characterId": "hulu"
+    },
+    {
+      "id": "hulu_lose",
+      "file": "assets/characters/hulu/lose.png",
+      "record": "assets/characters/hulu/lose.derivation.json",
+      "kind": "character_pose",
+      "width": 1024,
+      "height": 1024,
+      "anchor": [
+        512,
+        920
+      ],
+      "sha256": "35850b8b42fb029b3fb57e985a7b71009b302e9ff05303cf65eda75f118f555d",
+      "operation": "crop-to-significant-alpha-bounds-with6px-padding-and-one-fixed-downscale-per-character-registered-to-foot-anchor",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/hulu-lose-v1.png",
+        "sha256": "d35a952d2c5c2c2192ba2622c6712743dd42b4f9da4bee9a9e1efac840929989",
+        "record": "designs/characters/runtime-20261026/hulu-lose-v1.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "sourceRect": [
+        154,
+        52,
+        1112,
+        1220
+      ],
+      "sourceAnchor": [
+        633.0,
+        1214
+      ],
+      "fixedScale": 0.6861063464837049,
+      "offset": [
+        183,
+        123
+      ],
+      "noUpscale": true,
+      "pose": "lose",
+      "characterId": "hulu"
+    },
+    {
+      "id": "hulu_calm",
+      "file": "assets/characters/hulu/expressions/calm.png",
+      "record": "assets/characters/hulu/expressions/calm.derivation.json",
+      "kind": "character_expression",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        244
+      ],
+      "sha256": "0ac33e45d01fa756a87a2658ed3cd2fd8faf259ca601afa86ff05ce77bd242ff",
+      "operation": "grid-ownership-crop-with4px-alpha-padding-and-one-fixed-downscale-per-character-portrait",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/hulu-expressions-v2.png",
+        "sha256": "4187defc09877c1f8a04ccb2f150d8ff9bc1ac828f755b9bcf421a1a6b7f8921",
+        "record": "designs/characters/runtime-20261026/hulu-expressions-v2.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "expression": "calm",
+      "expressionName": "平静",
+      "grid": {
+        "columns": 4,
+        "rows": 2,
+        "index": 0,
+        "cellRect": [
+          0,
+          0,
+          444,
+          444
+        ]
+      },
+      "sourceRect": [
+        34,
+        76,
+        409,
+        422
+      ],
+      "fixedScale": 0.6103542234332425,
+      "offset": [
+        14,
+        35
+      ],
+      "noUpscale": true,
+      "characterId": "hulu"
+    },
+    {
+      "id": "hulu_smile",
+      "file": "assets/characters/hulu/expressions/smile.png",
+      "record": "assets/characters/hulu/expressions/smile.derivation.json",
+      "kind": "character_expression",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        244
+      ],
+      "sha256": "df8b54b85a9a468bb599cf18d22d08e76bc340ffeda75b2c1b6c893e89309a2f",
+      "operation": "grid-ownership-crop-with4px-alpha-padding-and-one-fixed-downscale-per-character-portrait",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/hulu-expressions-v2.png",
+        "sha256": "4187defc09877c1f8a04ccb2f150d8ff9bc1ac828f755b9bcf421a1a6b7f8921",
+        "record": "designs/characters/runtime-20261026/hulu-expressions-v2.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "expression": "smile",
+      "expressionName": "微笑",
+      "grid": {
+        "columns": 4,
+        "rows": 2,
+        "index": 1,
+        "cellRect": [
+          444,
+          0,
+          887,
+          444
+        ]
+      },
+      "sourceRect": [
+        478,
+        73,
+        852,
+        422
+      ],
+      "fixedScale": 0.6103542234332425,
+      "offset": [
+        14,
+        33
+      ],
+      "noUpscale": true,
+      "characterId": "hulu"
+    },
+    {
+      "id": "hulu_laugh",
+      "file": "assets/characters/hulu/expressions/laugh.png",
+      "record": "assets/characters/hulu/expressions/laugh.derivation.json",
+      "kind": "character_expression",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        244
+      ],
+      "sha256": "91651d70e8c1cfc44ecf8e3e11c62ee37b6adeaeaaa0b493ef60cc303094ebed",
+      "operation": "grid-ownership-crop-with4px-alpha-padding-and-one-fixed-downscale-per-character-portrait",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/hulu-expressions-v2.png",
+        "sha256": "4187defc09877c1f8a04ccb2f150d8ff9bc1ac828f755b9bcf421a1a6b7f8921",
+        "record": "designs/characters/runtime-20261026/hulu-expressions-v2.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "expression": "laugh",
+      "expressionName": "大笑",
+      "grid": {
+        "columns": 4,
+        "rows": 2,
+        "index": 2,
+        "cellRect": [
+          887,
+          0,
+          1330,
+          444
+        ]
+      },
+      "sourceRect": [
+        919,
+        74,
+        1293,
+        422
+      ],
+      "fixedScale": 0.6103542234332425,
+      "offset": [
+        14,
+        34
+      ],
+      "noUpscale": true,
+      "characterId": "hulu"
+    },
+    {
+      "id": "hulu_thinking",
+      "file": "assets/characters/hulu/expressions/thinking.png",
+      "record": "assets/characters/hulu/expressions/thinking.derivation.json",
+      "kind": "character_expression",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        244
+      ],
+      "sha256": "c794dc94fa693ef529a6e0489b4d893d1572b9996c4e754d0f9b71dee03c289e",
+      "operation": "grid-ownership-crop-with4px-alpha-padding-and-one-fixed-downscale-per-character-portrait",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/hulu-expressions-v2.png",
+        "sha256": "4187defc09877c1f8a04ccb2f150d8ff9bc1ac828f755b9bcf421a1a6b7f8921",
+        "record": "designs/characters/runtime-20261026/hulu-expressions-v2.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "expression": "thinking",
+      "expressionName": "思考",
+      "grid": {
+        "columns": 4,
+        "rows": 2,
+        "index": 3,
+        "cellRect": [
+          1330,
+          0,
+          1774,
+          444
+        ]
+      },
+      "sourceRect": [
+        1363,
+        73,
+        1735,
+        422
+      ],
+      "fixedScale": 0.6103542234332425,
+      "offset": [
+        14,
+        33
+      ],
+      "noUpscale": true,
+      "characterId": "hulu"
+    },
+    {
+      "id": "hulu_surprise",
+      "file": "assets/characters/hulu/expressions/surprise.png",
+      "record": "assets/characters/hulu/expressions/surprise.derivation.json",
+      "kind": "character_expression",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        244
+      ],
+      "sha256": "208838b2cd797284fd6d02fd130823046c0897efc799db2c411eeda472fde96b",
+      "operation": "grid-ownership-crop-with4px-alpha-padding-and-one-fixed-downscale-per-character-portrait",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/hulu-expressions-v2.png",
+        "sha256": "4187defc09877c1f8a04ccb2f150d8ff9bc1ac828f755b9bcf421a1a6b7f8921",
+        "record": "designs/characters/runtime-20261026/hulu-expressions-v2.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "expression": "surprise",
+      "expressionName": "惊讶",
+      "grid": {
+        "columns": 4,
+        "rows": 2,
+        "index": 4,
+        "cellRect": [
+          0,
+          444,
+          444,
+          887
+        ]
+      },
+      "sourceRect": [
+        34,
+        480,
+        407,
+        825
+      ],
+      "fixedScale": 0.6103542234332425,
+      "offset": [
+        14,
+        36
+      ],
+      "noUpscale": true,
+      "characterId": "hulu"
+    },
+    {
+      "id": "hulu_smug",
+      "file": "assets/characters/hulu/expressions/smug.png",
+      "record": "assets/characters/hulu/expressions/smug.derivation.json",
+      "kind": "character_expression",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        244
+      ],
+      "sha256": "d8ef47e59187dc780138f6fc6cd3cd04b66c8ad584f979cb8fe09022aff046bd",
+      "operation": "grid-ownership-crop-with4px-alpha-padding-and-one-fixed-downscale-per-character-portrait",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/hulu-expressions-v2.png",
+        "sha256": "4187defc09877c1f8a04ccb2f150d8ff9bc1ac828f755b9bcf421a1a6b7f8921",
+        "record": "designs/characters/runtime-20261026/hulu-expressions-v2.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "expression": "smug",
+      "expressionName": "得意",
+      "grid": {
+        "columns": 4,
+        "rows": 2,
+        "index": 5,
+        "cellRect": [
+          444,
+          444,
+          887,
+          887
+        ]
+      },
+      "sourceRect": [
+        479,
+        482,
+        851,
+        825
+      ],
+      "fixedScale": 0.6103542234332425,
+      "offset": [
+        14,
+        37
+      ],
+      "noUpscale": true,
+      "characterId": "hulu"
+    },
+    {
+      "id": "hulu_sad",
+      "file": "assets/characters/hulu/expressions/sad.png",
+      "record": "assets/characters/hulu/expressions/sad.derivation.json",
+      "kind": "character_expression",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        244
+      ],
+      "sha256": "d6af4b7990e8defe4282bc67f4a5d847fc4b8307092fcb260bb8515c6fdff118",
+      "operation": "grid-ownership-crop-with4px-alpha-padding-and-one-fixed-downscale-per-character-portrait",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/hulu-expressions-v2.png",
+        "sha256": "4187defc09877c1f8a04ccb2f150d8ff9bc1ac828f755b9bcf421a1a6b7f8921",
+        "record": "designs/characters/runtime-20261026/hulu-expressions-v2.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "expression": "sad",
+      "expressionName": "难过",
+      "grid": {
+        "columns": 4,
+        "rows": 2,
+        "index": 6,
+        "cellRect": [
+          887,
+          444,
+          1330,
+          887
+        ]
+      },
+      "sourceRect": [
+        919,
+        482,
+        1291,
+        825
+      ],
+      "fixedScale": 0.6103542234332425,
+      "offset": [
+        14,
+        37
+      ],
+      "noUpscale": true,
+      "characterId": "hulu"
+    },
+    {
+      "id": "hulu_angry",
+      "file": "assets/characters/hulu/expressions/angry.png",
+      "record": "assets/characters/hulu/expressions/angry.derivation.json",
+      "kind": "character_expression",
+      "width": 256,
+      "height": 256,
+      "anchor": [
+        128,
+        244
+      ],
+      "sha256": "eb58fb53147916ebfc7432d039f4f828a9239f36e5c9508803f3146618a0033f",
+      "operation": "grid-ownership-crop-with4px-alpha-padding-and-one-fixed-downscale-per-character-portrait",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/hulu-expressions-v2.png",
+        "sha256": "4187defc09877c1f8a04ccb2f150d8ff9bc1ac828f755b9bcf421a1a6b7f8921",
+        "record": "designs/characters/runtime-20261026/hulu-expressions-v2.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "expression": "angry",
+      "expressionName": "生气",
+      "grid": {
+        "columns": 4,
+        "rows": 2,
+        "index": 7,
+        "cellRect": [
+          1330,
+          444,
+          1774,
+          887
+        ]
+      },
+      "sourceRect": [
+        1364,
+        482,
+        1734,
+        825
+      ],
+      "fixedScale": 0.6103542234332425,
+      "offset": [
+        15,
+        37
+      ],
+      "noUpscale": true,
+      "characterId": "hulu"
+    },
+    {
+      "id": "daotong_spring",
+      "file": "assets/characters/daotong/costumes/spring.png",
+      "record": "assets/characters/daotong/costumes/spring.derivation.json",
+      "kind": "character_costume",
+      "width": 1024,
+      "height": 1024,
+      "anchor": [
+        512,
+        920
+      ],
+      "sha256": "1308758543c2395e8e62dc006f4d9cdfb456acecba7a53b591d44769a75eb67b",
+      "operation": "AI-generated-costume-variant-cropped-and-scaled-with-daotong-fixed-profile",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/daotong-costume-spring-v1.png",
+        "sha256": "88d8f0edbd23dc724c44f73aef2e0a0eec56075abd1efd3c7f056184b5814593",
+        "record": "designs/characters/runtime-20261026/daotong-costume-spring-v1.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "costumeName": "桃花春衣",
+      "characterId": "daotong",
+      "sourceRect": [
+        164,
+        25,
+        1159,
+        1226
+      ],
+      "sourceAnchor": [
+        661.5,
+        1220
+      ],
+      "fixedScale": 0.6739679865206403,
+      "offset": [
+        177,
+        115
+      ],
+      "noUpscale": true
+    },
+    {
+      "id": "daotong_ink",
+      "file": "assets/characters/daotong/costumes/ink.png",
+      "record": "assets/characters/daotong/costumes/ink.derivation.json",
+      "kind": "character_costume",
+      "width": 1024,
+      "height": 1024,
+      "anchor": [
+        512,
+        920
+      ],
+      "sha256": "565a45196d14860bfcf5112f1c86550538a4faae511576cfb72481a214686ab3",
+      "operation": "AI-generated-costume-variant-cropped-and-scaled-with-daotong-fixed-profile",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/daotong-costume-ink-v1.png",
+        "sha256": "d824e52740794812bf81a89bdac83042e500997bfb6422ebf4426523fb6aee2f",
+        "record": "designs/characters/runtime-20261026/daotong-costume-ink-v1.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "costumeName": "暮色墨衣",
+      "characterId": "daotong",
+      "sourceRect": [
+        169,
+        27,
+        1159,
+        1225
+      ],
+      "sourceAnchor": [
+        664.0,
+        1219
+      ],
+      "fixedScale": 0.6739679865206403,
+      "offset": [
+        178,
+        117
+      ],
+      "noUpscale": true
+    },
+    {
+      "id": "daotong_moon",
+      "file": "assets/characters/daotong/costumes/moon.png",
+      "record": "assets/characters/daotong/costumes/moon.derivation.json",
+      "kind": "character_costume",
+      "width": 1024,
+      "height": 1024,
+      "anchor": [
+        512,
+        920
+      ],
+      "sha256": "422d2320b6d2c4420a098c1f99efe51d5ff0456adf059b7c5b2052dc8f50fd27",
+      "operation": "AI-generated-costume-variant-cropped-and-scaled-with-daotong-fixed-profile",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/daotong-costume-moon-v1.png",
+        "sha256": "78f6d73b9b41fe7c1dc6cb9c5f401f1029ac294cbbdb17e5b62cd1b75ac9674a",
+        "record": "designs/characters/runtime-20261026/daotong-costume-moon-v1.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "costumeName": "桂月金衣",
+      "characterId": "daotong",
+      "sourceRect": [
+        168,
+        26,
+        1153,
+        1226
+      ],
+      "sourceAnchor": [
+        660.5,
+        1220
+      ],
+      "fixedScale": 0.6739679865206403,
+      "offset": [
+        180,
+        115
+      ],
+      "noUpscale": true
+    },
+    {
+      "id": "daotong_snow",
+      "file": "assets/characters/daotong/costumes/snow.png",
+      "record": "assets/characters/daotong/costumes/snow.derivation.json",
+      "kind": "character_costume",
+      "width": 1024,
+      "height": 1024,
+      "anchor": [
+        512,
+        920
+      ],
+      "sha256": "eefdaa25dacfa6028768b2e64d259047b65a6f643898ab3dd98048b5cbe7c49a",
+      "operation": "AI-generated-costume-variant-cropped-and-scaled-with-daotong-fixed-profile",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/daotong-costume-snow-v1.png",
+        "sha256": "c77e3c82ea88f7405feabc706fa99b934e0c024ed97bfbaa85181bf1067dcdb0",
+        "record": "designs/characters/runtime-20261026/daotong-costume-snow-v1.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "costumeName": "雪色白衣",
+      "characterId": "daotong",
+      "sourceRect": [
+        166,
+        27,
+        1163,
+        1226
+      ],
+      "sourceAnchor": [
+        664.5,
+        1220
+      ],
+      "fixedScale": 0.6739679865206403,
+      "offset": [
+        176,
+        116
+      ],
+      "noUpscale": true
+    },
+    {
+      "id": "daotong_festival",
+      "file": "assets/characters/daotong/costumes/festival.png",
+      "record": "assets/characters/daotong/costumes/festival.derivation.json",
+      "kind": "character_costume",
+      "width": 1024,
+      "height": 1024,
+      "anchor": [
+        512,
+        920
+      ],
+      "sha256": "702667837115c219c4e24c5679ed741546cb8ea03c87ecf3020ebb737f985e19",
+      "operation": "AI-generated-costume-variant-cropped-and-scaled-with-daotong-fixed-profile",
+      "derivedFrom": {
+        "file": "designs/characters/runtime-20261026/daotong-costume-festival-v1.png",
+        "sha256": "47e4e726547471c32381f43dcfa5134b5491dda6a15ae9f37abeae2573d4b789",
+        "record": "designs/characters/runtime-20261026/daotong-costume-festival-v1.generation.json"
+      },
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "significantBorderPixels": 0,
+      "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+      "art_source": "existing",
+      "status": "asset_ready_user_review",
+      "costumeName": "庆典红衣",
+      "characterId": "daotong",
+      "sourceRect": [
+        181,
+        26,
+        1168,
+        1225
+      ],
+      "sourceAnchor": [
+        674.5,
+        1219
+      ],
+      "fixedScale": 0.6739679865206403,
+      "offset": [
+        179,
+        116
+      ],
+      "noUpscale": true
+    }
+  ],
+  "counts": {
+    "characters": 3,
+    "poses": 9,
+    "expressions": 24,
+    "costumes": 5,
+    "runtimePngs": 38,
+    "nativeGenerations": 20,
+    "selectedNativeGenerations": 17
+  },
+  "notes": [
+    "All runtime PNGs derived from actual built-in image generation/AI edits, RGBA alpha.",
+    "No runtime output upscaled. 1024 square poses registered foot anchor [512,920], 256 square expressions anchor [128,244].",
+    "Three rejected tight expression sheet images retain source records until selected references migration; source images can be removed after current source hashes recorded.",
+    "Character motion is an engine-authored 2D UI timeline, not AI video or full-body skeletal animation."
+  ],
+  "review": {
+    "status": "passed_for_runtime_art_review",
+    "reviewedAt": "2026-10-26T18:50:51.496409+00:00",
+    "backgrounds": [
+      "warm ivory #f7f1df",
+      "deep jade #12362f"
+    ],
+    "images": [
+      "assets/characters/review/poses-light-dark.jpg",
+      "assets/characters/review/costumes-light-dark.jpg",
+      "assets/characters/review/expressions-light-dark.jpg"
+    ],
+    "findings": [
+      "All 9 full-body poses and 5 costumes have complete silhouettes, visible footwear and accessories, consistent faces and identities.",
+      "All 24 portraits have complete hair/ribbons and eight readable facial states per character.",
+      "Light/dark composites show clean transparent edges with no opaque rectangular background."
+    ]
+  },
+  "retention": {
+    "selectedNativePngs": 17,
+    "supersededImagesRemoved": [
+      "designs/characters/runtime-20261026/daotong-expressions-v1.png",
+      "designs/characters/runtime-20261026/taohua-expressions-v1.png",
+      "designs/characters/runtime-20261026/hulu-expressions-v1.png"
+    ],
+    "textGenerationRecordsRetained": 20
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "52-card-and-effects",
+  "title": "牌面身份与特效",
+  "primaryArtwork": "designs/ui/components/52-card-and-effects-v1.png",
+  "controls": [
+    "牌框",
+    "四花色",
+    "大小王",
+    "牌背",
+    "地主农民",
+    "炸弹",
+    "王炸",
+    "春天"
+  ],
+  "states": [
+    {
+      "name": "正面",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/components/52-card-and-effects-v1.png",
+      "interaction": "原生四花色A及空白牌框；正式52张牌通过空白牌框+确定性原生文字导出",
+      "dependencies": []
+    },
+    {
+      "name": "牌背",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/components/52-card-and-effects-v1.png",
+      "interaction": "玉绿与象牙两种牌背",
+      "dependencies": []
+    },
+    {
+      "name": "选中",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/components/52-card-and-effects-v1.png",
+      "interaction": "第3行第4个透明玉绿牌框，selection切片",
+      "dependencies": []
+    },
+    {
+      "name": "禁用",
+      "coverage": "shared_component",
+      "renderedIn": null,
+      "interaction": "使用51禁用颜色语义与客户端整体不透明度，禁止输入；不是额外生成的灰牌图",
+      "dependencies": [
+        "assets/ui/controls/primary-disabled.png"
+      ]
+    },
+    {
+      "name": "身份",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/components/52-card-and-effects-v1.png",
+      "interaction": "地主、农民两枚身份徽章",
+      "dependencies": []
+    },
+    {
+      "name": "特效",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/components/52-card-and-effects-v1.png",
+      "interaction": "炸弹、王炸、春天、反春天四个静态特效源",
+      "dependencies": []
+    }
+  ],
+  "dynamicText": "正式客户端采用原生中文文字及动态业务数据。",
+  "sharedDependencies": [
+    "assets/ui/manifest.json"
+  ],
+  "status": "design_ready_user_review"
+}

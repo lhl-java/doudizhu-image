@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/ui/table/16-trustee-v2.png",
+  "sha256": "9c92e9b4920196275030f2228a80e48cff2bddc4bea7aaf0ab9856afbbd7672b",
+  "generatedAt": "2026-10-26T04:12:10.8062275-04:00",
+  "timestampMeaning": "UI组合导出时间，不是新模型生成时间",
+  "width": 1931,
+  "height": 814,
+  "format": "PNG",
+  "tool": "System.Drawing native UI composition",
+  "route": "derived",
+  "operation": "layered-ui-composition: original native artwork + nine-sliced generated panel skin + deterministic correctly ranked card components",
+  "nativeArtworkResolution": {
+    "height": 814,
+    "width": 1931
+  },
+  "exportResolution": {
+    "height": 814,
+    "width": 1931
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "submittedParameters": {
+    "quality": null,
+    "model": null
+  },
+  "unverifiedReason": "本图为UI素材组合导出，未再次调用生成模型；每个生成源的实际型号质量跟随derivedFrom记录，未披露仍为null",
+  "derivedFrom": [
+    {
+      "file": "designs/ui/table/16-trustee-v1.png",
+      "sha256": "8144ae28fd16b39339197026c166121a5f1a21ec108a1a36d58c51da03ac5fe3",
+      "record": "designs/ui/table/16-trustee-v1.generation.json",
+      "role": "原生生成整屏底图，不放大"
+    },
+    {
+      "file": "assets/ui/cards/spades-A.png",
+      "sha256": "981605aeb34fe49a9e9bb552f2aee61609f317cbfa1d986203c9350155a444ce",
+      "record": "assets/ui/cards/spades-A.derivation.json",
+      "role": "正确点数和花色的独立动态牌面层，缩小排版，不新增原生细节"
+    },
+    {
+      "file": "assets/ui/cards/hearts-K.png",
+      "sha256": "2a6cc03073e56fdf610f93f0e9a9d7587a3375d7114a4bd02fdff9a236825ae5",
+      "record": "assets/ui/cards/hearts-K.derivation.json",
+      "role": "正确点数和花色的独立动态牌面层，缩小排版，不新增原生细节"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-3.png",
+      "sha256": "8e2baa8cd4bb7e6e891083b0cec61e812d88759f4a34b5146699909da35879a8",
+      "record": "assets/ui/cards/diamonds-3.derivation.json",
+      "role": "正确点数和花色的独立动态牌面层，缩小排版，不新增原生细节"
+    }
+  ],
+  "layout": "prompts/table/16-trustee-v2.layout.json",
+  "cardGroups": [
+    {
+      "role": "地主已确定后的三张公开底牌",
+      "rect": [
+        842,
+        180,
+        249,
+        119
+      ],
+      "cards": [
+        "spades-A",
+        "hearts-K",
+        "diamonds-3"
+      ],
+      "selectedIndexes": [],
+      "selectionLift": 0
+    }
+  ],
+  "visualReview": {
+    "status": "design_ready_user_review",
+    "note": "已看图：托管罩层、手牌、取消托管清楚；使用已有正确牌面组件揭开三张底牌，数量与底牌（3张）标签一致。为UI图层组合导出，不称新原生生成或合法牌局验收。"
+  }
+}

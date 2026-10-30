@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "logicalViewport": {
+    "width": 2560,
+    "height": 1080
+  },
+  "sceneMode": "baked_scene_mode",
+  "art_source": "host_image",
+  "assets": [
+    {
+      "id": "courtyard-lobby",
+      "logicalId": "lobby",
+      "file": "assets/scenes/courtyard-lobby.png",
+      "record": "assets/scenes/courtyard-lobby.png.generation.json",
+      "width": 1931,
+      "height": 814,
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "background",
+      "z": 0,
+      "status": "design_ready_user_review",
+      "fit": "cover",
+      "safeAreaNormalized": {
+        "left": 0.14,
+        "top": 0.08,
+        "right": 0.86,
+        "bottom": 0.92
+      }
+    },
+    {
+      "id": "courtyard-day",
+      "logicalId": "day",
+      "file": "assets/scenes/courtyard-day.png",
+      "record": "assets/scenes/courtyard-day.png.generation.json",
+      "width": 1931,
+      "height": 814,
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "background",
+      "z": 0,
+      "status": "design_ready_user_review",
+      "fit": "cover",
+      "safeAreaNormalized": {
+        "left": 0.14,
+        "top": 0.08,
+        "right": 0.86,
+        "bottom": 0.92
+      }
+    },
+    {
+      "id": "courtyard-moon",
+      "logicalId": "night",
+      "file": "assets/scenes/courtyard-moon-v2.png",
+      "record": "assets/scenes/courtyard-moon-v2.png.generation.json",
+      "width": 1932,
+      "height": 814,
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "background",
+      "z": 0,
+      "status": "design_ready_user_review",
+      "fit": "cover",
+      "safeAreaNormalized": {
+        "left": 0.14,
+        "top": 0.08,
+        "right": 0.86,
+        "bottom": 0.92
+      }
+    },
+    {
+      "id": "jade-table",
+      "logicalId": "jade",
+      "file": "assets/scenes/jade-table-runtime.png",
+      "record": "assets/scenes/jade-table-runtime.png.generation.json",
+      "width": 2060,
+      "height": 942,
+      "kind": "foreground",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.82
+      },
+      "layer": "table",
+      "z": 20,
+      "status": "design_ready_user_review",
+      "fit": "contain",
+      "safeAreaNormalized": {
+        "left": 0.2,
+        "top": 0.27,
+        "right": 0.8,
+        "bottom": 0.68
+      }
+    },
+    {
+      "id": "peach-table",
+      "logicalId": "peach",
+      "file": "assets/scenes/peach-table-runtime.png",
+      "record": "assets/scenes/peach-table-runtime.png.generation.json",
+      "width": 2059,
+      "height": 942,
+      "kind": "foreground",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.82
+      },
+      "layer": "table",
+      "z": 20,
+      "status": "design_ready_user_review",
+      "fit": "contain",
+      "safeAreaNormalized": {
+        "left": 0.2,
+        "top": 0.27,
+        "right": 0.8,
+        "bottom": 0.68
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "id": "lobby",
+      "background": "courtyard-lobby",
+      "table": null
+    },
+    {
+      "id": "day",
+      "background": "courtyard-day",
+      "table": "jade-table"
+    },
+    {
+      "id": "night",
+      "background": "courtyard-moon",
+      "table": "peach-table"
+    }
+  ],
+  "cropPolicy": {
+    "2.37:1": "background centered cover, foreground contain-fit; native source retained",
+    "16:9": "center-crop background to 1.7778; preserve x .14-.86; foreground always contain-fit and reposition anchor, never crop table silhouette",
+    "ui": "separate native layers, no UI/people/text baked into these assets"
+  },
+  "runtimePlacement": {
+    "background": {
+      "x": 0.5,
+      "y": 0.5,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "z": 0
+    },
+    "table": {
+      "x": 0.5,
+      "y": 0.9,
+      "anchor": [
+        0.5,
+        0.82
+      ],
+      "maxWidth": 0.96,
+      "maxHeight": 0.68,
+      "z": 20
+    }
+  },
+  "note": "Source artwork is not a walkable map; no collision/nav claim. Runtime scaling changes display size, not source native detail.",
+  "qa": {
+    "status": "ready_with_documented_source_history",
+    "file": "designs/runtime-scenes-20261026/validation.json"
+  }
+}

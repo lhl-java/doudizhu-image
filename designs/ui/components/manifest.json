@@ -1,0 +1,38 @@
+{
+  "batch": "components",
+  "updatedAt": "2026-10-26T12:17:13.440499+00:00",
+  "total": 3,
+  "ready": 3,
+  "pages": [
+    {
+      "id": "50-shared-dialogs",
+      "title": "通用弹窗状态",
+      "output": "designs/ui/components/50-shared-dialogs-v1.png",
+      "generation": "designs/ui/components/50-shared-dialogs-v1.generation.json",
+      "stateSpec": "designs/ui/components/50-shared-dialogs.states.json",
+      "width": 1672,
+      "height": 941,
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "51-common-components",
+      "title": "控件状态规范",
+      "output": "designs/ui/components/51-common-components-v1.png",
+      "generation": "designs/ui/components/51-common-components-v1.generation.json",
+      "stateSpec": "designs/ui/components/51-common-components.states.json",
+      "width": 1448,
+      "height": 1086,
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "52-card-and-effects",
+      "title": "牌面身份与特效",
+      "output": "designs/ui/components/52-card-and-effects-v1.png",
+      "generation": "designs/ui/components/52-card-and-effects-v1.generation.json",
+      "stateSpec": "designs/ui/components/52-card-and-effects.states.json",
+      "width": 1448,
+      "height": 1086,
+      "status": "design_ready_user_review"
+    }
+  ]
+}

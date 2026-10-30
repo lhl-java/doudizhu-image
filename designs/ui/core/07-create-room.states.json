@@ -1,0 +1,429 @@
+{
+  "schemaVersion": 2,
+  "pageId": "07-create-room",
+  "title": "创建房间",
+  "scopeSource": "docs/UI_SCOPE.json",
+  "scopeControls": [
+    "经典/癞子",
+    "局数",
+    "叫地主方式",
+    "加倍",
+    "封顶",
+    "创建"
+  ],
+  "requiredStates": [
+    "选中",
+    "可创建",
+    "创建失败"
+  ],
+  "status": "design_ready_user_review",
+  "renderedState": {
+    "status": "design_ready_user_review",
+    "coverage": "rendered",
+    "description": "默认规则已选，可创建",
+    "plannedRequiredStates": [
+      "选中",
+      "可创建"
+    ],
+    "image": "designs/ui/core/07-create-room-v1.png",
+    "generation": "designs/ui/core/07-create-room-v1.generation.json",
+    "actualRequiredStates": [
+      "选中",
+      "可创建"
+    ]
+  },
+  "expectedOutput": "designs/ui/core/07-create-room-v1.png",
+  "expectedGeneration": "designs/ui/core/07-create-room-v1.generation.json",
+  "states": [
+    {
+      "name": "选中",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/07-create-room-v1.png",
+      "copy": [
+        "创建房间",
+        "经典",
+        "癞子",
+        "局数",
+        "叫地主方式",
+        "加倍",
+        "封顶"
+      ],
+      "behavior": [
+        "显示默认规则及单选控件；更改选项更新摘要，不自动创建。"
+      ],
+      "disabledReasons": [],
+      "dependencies": [],
+      "evidence": {
+        "method": "view_image",
+        "imageSha256": "5c98b35f7fec58d49592a9cfb956e540c6ab46fd4c31a4421020476d0e1bf398",
+        "inspectedAt": "2026-10-26T11:24:53.858275+00:00",
+        "note": "五组选项均存在明确的玉绿高亮与勾号，底部摘要一致。",
+        "reviewer": "core_qa"
+      },
+      "actualCopy": [
+        "玩法",
+        "经典",
+        "不洗牌",
+        "癞子",
+        "天地癞子",
+        "局数",
+        "6局",
+        "12局",
+        "24局",
+        "叫地主方式",
+        "叫分",
+        "抢地主",
+        "加倍",
+        "开启",
+        "关闭",
+        "封顶",
+        "16倍",
+        "32倍",
+        "64倍",
+        "经典·12局·抢地主·加倍·32倍封顶"
+      ]
+    },
+    {
+      "name": "可创建",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/07-create-room-v1.png",
+      "copy": [
+        "创建房间",
+        "返回"
+      ],
+      "behavior": [
+        "合法规则组合下可提交创建；校验通过后进入等待房间。"
+      ],
+      "disabledReasons": [],
+      "dependencies": [],
+      "evidence": {
+        "method": "view_image",
+        "imageSha256": "5c98b35f7fec58d49592a9cfb956e540c6ab46fd4c31a4421020476d0e1bf398",
+        "inspectedAt": "2026-10-26T11:24:53.858275+00:00",
+        "note": "右下创建房间按钮为清晰正常主按钮；无错误、禁用或创建中遮罩。",
+        "reviewer": "core_qa"
+      },
+      "actualCopy": [
+        "创建房间",
+        "返回"
+      ]
+    },
+    {
+      "name": "创建失败",
+      "coverage": "shared_component",
+      "status": "design_ready_user_review",
+      "image": null,
+      "copy": [
+        "创建失败，请重试",
+        "重试",
+        "返回"
+      ],
+      "behavior": [
+        "保留已选择规则供重试；显示可理解的失败反馈。"
+      ],
+      "disabledReasons": [],
+      "dependencies": [
+        {
+          "pageId": "50-shared-dialogs",
+          "sha256": "45d20f3f85aa8fd8133b8665f1962f8d7e7b06a7cf3b7d41799837cf689598f7",
+          "output": "designs/ui/components/50-shared-dialogs-v1.png",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "D01 通用警告与双按钮",
+          "sourceStatus": "design_ready_user_review",
+          "stateSpec": "designs/ui/components/50-shared-dialogs.states.json",
+          "generation": "designs/ui/components/50-shared-dialogs-v1.generation.json"
+        },
+        {
+          "output": "assets/ui/controls/primary-normal.png",
+          "sha256": "a2aa9afff3b9ef559a23ddef8d1b991691c09a609b7ea96b453c56c586b5f021",
+          "derivation": "assets/ui/controls/primary-normal.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "primary-normal transparent native control"
+        },
+        {
+          "output": "assets/ui/controls/secondary-normal.png",
+          "sha256": "9ba4a890ce8dc82f27a3468a1b8aad4586920da8111a35bc63ad1b801c93bd3d",
+          "derivation": "assets/ui/controls/secondary-normal.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "secondary-normal transparent native control"
+        },
+        {
+          "pageId": "07-create-room",
+          "output": "designs/ui/core/07-create-room-v1.png",
+          "sha256": "5c98b35f7fec58d49592a9cfb956e540c6ab46fd4c31a4421020476d0e1bf398",
+          "generation": "designs/ui/core/07-create-room-v1.generation.json",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "已绘主页面作为状态背景和位置依据"
+        }
+      ],
+      "evidence": {
+        "method": "verified_shared_component_reuse",
+        "reviewer": "core_qa",
+        "inspectedAt": "2026-10-26T11:24:53.858275+00:00",
+        "standaloneFullPageRendered": false,
+        "implementationStatus": "design_only_not_implemented",
+        "nativeTextAndDataReplacements": {
+          "title": "创建失败",
+          "body": "房间创建未成功，请重试",
+          "secondaryAction": "返回",
+          "primaryAction": "重试"
+        },
+        "note": "实际查看并核验共享图板、指定控件和主页面，定义原生文字/数据替换及行为；未另行合成整屏。"
+      },
+      "reusePlan": {
+        "sources": [
+          {
+            "pageId": "50-shared-dialogs",
+            "sha256": "45d20f3f85aa8fd8133b8665f1962f8d7e7b06a7cf3b7d41799837cf689598f7",
+            "output": "designs/ui/components/50-shared-dialogs-v1.png",
+            "verifiedFiles": true,
+            "verificationStatus": "file_record_and_visual_verified",
+            "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+            "method": "view_image and SHA256 comparison",
+            "locator": "D01 通用警告与双按钮",
+            "sourceStatus": "design_ready_user_review",
+            "stateSpec": "designs/ui/components/50-shared-dialogs.states.json",
+            "generation": "designs/ui/components/50-shared-dialogs-v1.generation.json"
+          },
+          {
+            "output": "assets/ui/controls/primary-normal.png",
+            "sha256": "a2aa9afff3b9ef559a23ddef8d1b991691c09a609b7ea96b453c56c586b5f021",
+            "derivation": "assets/ui/controls/primary-normal.derivation.json",
+            "derivedFrom": {
+              "file": "designs/ui/components/51-common-components-v1.png",
+              "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+              "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+            },
+            "verifiedFiles": true,
+            "verificationStatus": "file_record_and_visual_verified",
+            "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+            "method": "view_image and SHA256 comparison",
+            "locator": "primary-normal transparent native control"
+          },
+          {
+            "output": "assets/ui/controls/secondary-normal.png",
+            "sha256": "9ba4a890ce8dc82f27a3468a1b8aad4586920da8111a35bc63ad1b801c93bd3d",
+            "derivation": "assets/ui/controls/secondary-normal.derivation.json",
+            "derivedFrom": {
+              "file": "designs/ui/components/51-common-components-v1.png",
+              "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+              "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+            },
+            "verifiedFiles": true,
+            "verificationStatus": "file_record_and_visual_verified",
+            "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+            "method": "view_image and SHA256 comparison",
+            "locator": "secondary-normal transparent native control"
+          },
+          {
+            "pageId": "07-create-room",
+            "output": "designs/ui/core/07-create-room-v1.png",
+            "sha256": "5c98b35f7fec58d49592a9cfb956e540c6ab46fd4c31a4421020476d0e1bf398",
+            "generation": "designs/ui/core/07-create-room-v1.generation.json",
+            "verifiedFiles": true,
+            "verificationStatus": "file_record_and_visual_verified",
+            "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+            "method": "view_image and SHA256 comparison",
+            "locator": "已绘主页面作为状态背景和位置依据"
+          }
+        ],
+        "note": "保留用户已选择规则；仅复用警告弹窗，不声称创建服务已实现。",
+        "nativeTextAndDataReplacements": {
+          "title": "创建失败",
+          "body": "房间创建未成功，请重试",
+          "secondaryAction": "返回",
+          "primaryAction": "重试"
+        },
+        "standaloneFullPageRendered": false,
+        "method": "verified_shared_component_reuse",
+        "inspectedAt": "2026-10-26T11:24:53.858275+00:00",
+        "compositedPreviewProduced": false,
+        "implementationStatus": "design_only_not_implemented",
+        "actions": {
+          "返回": "关闭反馈，保留五项规则选择。",
+          "重试": "按原选择再次创建，请求中禁用重复创建。"
+        },
+        "layout": {
+          "placement": "主页面居中覆盖，共享图板对应弹窗皮肤；背景加半透明遮罩",
+          "readingOrder": [
+            "标题",
+            "正文/状态",
+            "操作按钮"
+          ],
+          "buttonOrder": "双按钮为左次要右主要；单按钮居中",
+          "textLayer": "原生中文文字替换图板示例文案，不把替换后的整页说成已另行生成",
+          "dismiss": "关闭等同次要返回/取消；请求中仍执行明确的取消语义"
+        }
+      }
+    }
+  ],
+  "supplementalStates": [
+    {
+      "name": "规则变化",
+      "description": "变更局数、叫地主方式、加倍或封顶后同步所选值；实际组合限制待确认。",
+      "coverage": "specified_only",
+      "status": "pending",
+      "image": null,
+      "dependencies": [],
+      "note": "补充交互说明，不替代scope必需状态。"
+    },
+    {
+      "name": "创建处理中",
+      "description": "显示等待并禁用重复提交。",
+      "coverage": "specified_only",
+      "status": "pending",
+      "image": null,
+      "dependencies": [],
+      "note": "补充交互说明，不替代scope必需状态。"
+    }
+  ],
+  "stateTransitions": [
+    {
+      "from": "选中",
+      "trigger": "规则组合合法",
+      "to": "可创建",
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "from": "可创建",
+      "trigger": "提交成功",
+      "to": "09-room-waiting/房主",
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "from": "可创建",
+      "trigger": "提交失败",
+      "to": "创建失败",
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "from": "创建失败",
+      "trigger": "修改规则",
+      "to": "选中",
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "from": "创建失败",
+      "trigger": "重试",
+      "to": "可创建",
+      "implementationStatus": "specified_only_not_implemented"
+    }
+  ],
+  "copy": {
+    "status": "main_image_and_shared_state_design_verified",
+    "roomNumber": null,
+    "partiallyEnteredRoomNumber": null,
+    "note": "actualVisibleText/actualCopy为主图实见内容；shared_component的nativeTextAndDataReplacements为指定原生文案层，未冒称已经烘焙到主图。",
+    "actualVisibleText": [
+      "创建房间",
+      "返回",
+      "玩法",
+      "经典",
+      "不洗牌",
+      "癞子",
+      "天地癞子",
+      "局数",
+      "6局",
+      "12局",
+      "24局",
+      "叫地主方式",
+      "叫分",
+      "抢地主",
+      "加倍",
+      "开启",
+      "关闭",
+      "封顶",
+      "16倍",
+      "32倍",
+      "64倍",
+      "经典·12局·抢地主·加倍·32倍封顶"
+    ]
+  },
+  "assumptions": [
+    "已逐字对齐 docs/UI_SCOPE.json 的 controls 与 requiredStates；页面和状态布局为本项目原创设计。",
+    "数值、房号120816、输入1208__、昵称和邀请文字均仅设计示意，不对应真实账户、房间、价格或业务记录。",
+    "默认规则、技能内容、货币门槛、限制、邀请策略和具体交互仍属设计假设；以最终产品规则为准。",
+    "公开资料仅核对模块范围；未逐屏实测腾讯当前客户端，不声称其各平台均采用此布局和行为。",
+    "只交付静态美术与状态规范，未实现客户端、服务器、支付或社交发送。",
+    "指定主画面需实际生成并看图后才可记 rendered；描述和未来共享依赖不能当作已画状态。"
+  ],
+  "userApproval": false,
+  "visualQA": {
+    "inspectedAt": "2026-10-26T11:24:53.858275+00:00",
+    "userApproval": false,
+    "status": "passed_for_design_review",
+    "blockingIssues": [],
+    "image": "designs/ui/core/07-create-room-v1.png",
+    "imageSha256": "5c98b35f7fec58d49592a9cfb956e540c6ab46fd4c31a4421020476d0e1bf398",
+    "reviewer": "core_qa",
+    "method": "view_image",
+    "findings": [
+      {
+        "severity": "pass",
+        "subject": "规则选项",
+        "detail": "玩法、局数、叫地主方式、加倍、封顶五行完整，选项排列对齐。经典、12局、抢地主、开启、32倍均以玉绿底和勾号表示选中。"
+      },
+      {
+        "severity": "pass",
+        "subject": "摘要一致性",
+        "detail": "底部摘要为经典·12局·抢地主·加倍·32倍封顶，与五组选中值一致。"
+      },
+      {
+        "severity": "pass",
+        "subject": "操作与风格",
+        "detail": "返回与创建房间按钮可读，主按钮为正常玉绿状态；纸绢、金边、标题和云纹沿用参考，留白充分。"
+      },
+      {
+        "severity": "note",
+        "subject": "规则边界",
+        "detail": "局数、叫地主方式、加倍和封顶为本项目设计示意，未表示已实现业务规则；创建失败通过已核验共享弹窗覆盖。"
+      },
+      {
+        "severity": "pass",
+        "subject": "本轮逐张复核",
+        "detail": "五组设置实际可见；经典/12局/抢地主/加倍开启/32倍封顶选中与摘要一致，创建房间可用。"
+      },
+      {
+        "severity": "note",
+        "subject": "状态覆盖",
+        "detail": "必需状态3项：主图可见2，共享视觉与原生文案设计1，仅说明0。共享态未另画整页，实际功能尚未接入。"
+      }
+    ],
+    "previousInspection": {
+      "reviewer": "art_review",
+      "inspectedAt": "2026-10-26T08:08:39.5525983+00:00",
+      "status": "passed_for_design_review"
+    }
+  },
+  "coverageSummary": {
+    "requiredTotal": 3,
+    "rendered": 2,
+    "shared_component": 1,
+    "specified_only": 0,
+    "note": "rendered为主图实际可见态；shared_component为已看图和哈希核验的共用皮肤加具体原生文案/行为设计。未另画共享态整页，未实现客户端交互。"
+  }
+}

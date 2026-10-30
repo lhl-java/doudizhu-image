@@ -1,0 +1,1421 @@
+{
+  "schemaVersion": 1,
+  "validatedAt": "2026-10-30T05:16:15.837172+00:00",
+  "status": "passed_offline_art_contract",
+  "contract": "docs/FULL_GAME_ART_CONTRACT.md",
+  "artFilesReady": true,
+  "productionRuntimeVerified": false,
+  "humanArtApproval": false,
+  "counts": {
+    "runtimePngs": 243,
+    "kinds": {
+      "ui-controls": 24,
+      "ui-cards-source": 16,
+      "ui-cards": 54,
+      "icon": 48,
+      "skin": 16,
+      "actor": 9,
+      "portrait": 24,
+      "costume": 5,
+      "costume-pose": 10,
+      "background": 3,
+      "foreground": 2,
+      "fx": 12,
+      "title": 1,
+      "app-icon": 1,
+      "event-banner": 3,
+      "actor-preview-sheet": 15
+    },
+    "atlasTextures": 2,
+    "atlasSprites": 194,
+    "characters": 3,
+    "actorClips": 15,
+    "actorPreviewFrames": 240,
+    "fx": 12,
+    "fxFrames": 192,
+    "screens": 60,
+    "states": 223,
+    "metrics": 88,
+    "platformIconExports": 9
+  },
+  "errors": [],
+  "warnings": [
+    {
+      "test": "historical_reference_removed_by_retention_policy",
+      "file": "assets/scenes/courtyard-moon.png",
+      "record": "assets/scenes/courtyard-moon.png.generation.json"
+    },
+    {
+      "test": "raw_fx_source_sheet_warnings_retained",
+      "detail": "A original WARN safe_frame/faint_specks; B original FAIL cross_cell_components/cross_cell_visible, WARN boundary_band/safe_frame/faint_specks. Runtime ownership slicing keeps all components and separates subjects; original reports retained. Final alpha/safety QC is separate."
+    }
+  ],
+  "checks": {
+    "runtime_art_count": 1,
+    "unique_runtime_ids": 1,
+    "art_kind_count": 16,
+    "file_exists": 1238,
+    "sha256_matches": 1238,
+    "manifest_dimensions_match": 243,
+    "runtime_png_format": 243,
+    "record_exists": 255,
+    "record_target_matches": 255,
+    "record_dimensions_match": 252,
+    "source_record_exists": 273,
+    "required_transparency": 127,
+    "no_significant_edge_clipping": 126,
+    "character_clear_perimeter": 48,
+    "character_no_upscale": 48,
+    "atlas_counts": 1,
+    "atlas_native_scale_and_gutter": 1,
+    "atlas_texture_dimensions": 2,
+    "atlas_no_rotation_or_trim": 194,
+    "atlas_rect_inside": 194,
+    "atlas_pixels_identical": 194,
+    "atlas_gutter_transparent": 776,
+    "atlas_no_overlap": 16201,
+    "character_count": 1,
+    "character_pose_expression_contract": 3,
+    "character_anchor": 3,
+    "character_indexed": 33,
+    "six_distinct_costume_sources": 1,
+    "costume_indexed": 6,
+    "costume_own_pose_matrix": 5,
+    "costume_pose_indexed": 15,
+    "character_batch_qa": 1,
+    "actor_clip_count": 1,
+    "actor_action_matrix": 1,
+    "actor_clip_duration": 15,
+    "actor_clip_manifest_matches": 15,
+    "actor_keyframe_bounds": 15,
+    "actor_animation_no_upscale": 15,
+    "actor_frame_clear_perimeter": 240,
+    "actor_loop_first_last_equal": 6,
+    "actor_preview_frame_count": 1,
+    "actor_webp_animated_preview": 3,
+    "actor_webp_total_duration": 3,
+    "actor_webp_decoded_frame_count": 3,
+    "actor_webp_segment_timing": 15,
+    "actor_webp_segments_cover_duration": 3,
+    "no_unlicensed_font_bytes_claimed": 1,
+    "kit_and_metrics_counts": 1,
+    "kit_final_qa": 1,
+    "metrics_file_indexed": 88,
+    "metrics_native_size": 88,
+    "non_nineslice_aspect_policy": 70,
+    "nine_slice_valid_source_insets": 18,
+    "scene_count": 1,
+    "scene_fx_final_status": 17,
+    "scene_fx_indexed": 17,
+    "fx_duration_consistency": 12,
+    "fx_loop_consistency": 12,
+    "fx_keyframe_bounds": 12,
+    "fx_translation_unit": 12,
+    "fx_sixteen_frames": 12,
+    "fx_baked_duration_with_documented_sentinel": 12,
+    "fx_frame_dimensions_mode": 192,
+    "fx_frame_contiguous_timing": 192,
+    "fx_has_visible_animation_frames": 12,
+    "fx_frames_no_significant_edge_clipping": 12,
+    "fx_count_and_frame_count": 1,
+    "scene_fx_qa_scope": 1,
+    "scene_fx_final_visual_qa": 1,
+    "resolved_screen_art_matches_index": 1,
+    "sixty_screen_bindings": 1,
+    "screen_state_count": 1,
+    "selected_design_exists": 60,
+    "screen_logical_art_resolved": 300,
+    "screen_control_art_resolved": 324,
+    "screen_control_icon_resolved": 105,
+    "screen_item_icon_resolved": 95,
+    "state_copy_binding_complete": 223,
+    "deck_fiftyfour_unique_cards": 1,
+    "deck_complete_ranks_suits": 1,
+    "canonical_runtime_currency": 1,
+    "original_ui_design_qa": 1,
+    "state_art_explicit_coverage": 1,
+    "state_art_copy_matches_design": 223,
+    "state_art_binding_complete": 223,
+    "costume_pose_review_passed": 1,
+    "runtime_mock_execution_report": 1,
+    "platform_icon_export_count": 1,
+    "platform_icon_dimensions": 9,
+    "platform_icon_no_upscale": 9
+  },
+  "method": "Real local file SHA256, PNG decoding, alpha-edge inspection, atlas pixel comparison, JSON timing and reference validation; existing mock execution report checked by evidence hash.",
+  "browserValidation": {
+    "performed": false,
+    "reason": "Local browser automation disabled in Work settings; no browser layout, visual playback or game-engine integration pass is claimed."
+  },
+  "limits": [
+    "Three-character 2D UI art scope; rigid-pose keyframe motion and real static pose changes, not AI video or articulated skeletal animation.",
+    "223 states have explicit native art-layout/copy bindings and mock execution coverage. Real browser appearance and production state logic are not verified.",
+    "Fonts use client system font stacks; no font binaries are distributed. Audio, server, gameplay and payment integration are outside visual art assets."
+  ],
+  "inputEvidence": [
+    {
+      "file": "assets/animations/characters/daotong-all-actions.derivation.json",
+      "sha256": "9592104777e380c830c72c37fee7c8b0e9e20cffd031c969f4ef6aa0393819d4"
+    },
+    {
+      "file": "assets/animations/characters/daotong_idle.derivation.json",
+      "sha256": "b8bc4432034104c6ec49ac92ec4936544f45a56cc34c33b3059403aecdb306c0"
+    },
+    {
+      "file": "assets/animations/characters/daotong_idle.json",
+      "sha256": "fd7d10ff002f85156b60ee55657b7099ef7f09d633a19aab360b9ed6a674f88f"
+    },
+    {
+      "file": "assets/animations/characters/daotong_lose.derivation.json",
+      "sha256": "b665d5ba7e8e5f982c4c4bc51b567709e3ca95190d6454a96c303db6282cfbb0"
+    },
+    {
+      "file": "assets/animations/characters/daotong_lose.json",
+      "sha256": "ed38fbc487299089da0916a4f601c0204af44ca5aa8d2597b362aace931e92ae"
+    },
+    {
+      "file": "assets/animations/characters/daotong_play.derivation.json",
+      "sha256": "e69a09e7d7ac08786f5ebe0bcafc647f03423811404ead187a137f334cf5c741"
+    },
+    {
+      "file": "assets/animations/characters/daotong_play.json",
+      "sha256": "7dcf171c9823e9598201928426fa01a459dba7a953309c1f23765b61e9561dcf"
+    },
+    {
+      "file": "assets/animations/characters/daotong_think.derivation.json",
+      "sha256": "ea56224f395b5c92b76dc9237b672ddf7964b45f722acf54ab4acb92a3b2e3d9"
+    },
+    {
+      "file": "assets/animations/characters/daotong_think.json",
+      "sha256": "b2fe025127ffde18bf8835116aecd3df43c4e567efbd84ce90e30ce2b988403a"
+    },
+    {
+      "file": "assets/animations/characters/daotong_win.derivation.json",
+      "sha256": "94928def1a1106e566dc83d8474509f65d7715907afe2ddd9fbd56945055d453"
+    },
+    {
+      "file": "assets/animations/characters/daotong_win.json",
+      "sha256": "daf93621ff1c85659c9196df94d0ca5d475b9b4cd28b4de59e1cf6d056f88472"
+    },
+    {
+      "file": "assets/animations/characters/hulu-all-actions.derivation.json",
+      "sha256": "ce74099162f6b67634fe739db23ae3fa7c9a6c5463ecf35c1e95c086fb5b865b"
+    },
+    {
+      "file": "assets/animations/characters/hulu_idle.derivation.json",
+      "sha256": "d7f97684ffe15a5912aac4cdc8730f1728efc3c76186eb270fcc1891e3c965b6"
+    },
+    {
+      "file": "assets/animations/characters/hulu_idle.json",
+      "sha256": "0ff61d9292d43c382cd96eaad6622ade652919e71f1e5980918cf52f707101d1"
+    },
+    {
+      "file": "assets/animations/characters/hulu_lose.derivation.json",
+      "sha256": "1e040ae80c54a83d07576cfd907a5bb83b5286e921cb2eddb09d6995ad97b23e"
+    },
+    {
+      "file": "assets/animations/characters/hulu_lose.json",
+      "sha256": "9aed39e066e0fe50200b411167059e4f0c71498dc7ac626ea2aaa4a6c0c3e4ad"
+    },
+    {
+      "file": "assets/animations/characters/hulu_play.derivation.json",
+      "sha256": "ef95017c8c9450e0e1c5a4926caedda33654c75eb2d148bbc4275c56d5c1a00b"
+    },
+    {
+      "file": "assets/animations/characters/hulu_play.json",
+      "sha256": "490178b460dfa8ce28af23c9d1e768010d8c9d2dee1dcd4be373a36e190129a6"
+    },
+    {
+      "file": "assets/animations/characters/hulu_think.derivation.json",
+      "sha256": "afc58cae739d6039580d73b09f6396d3959208b550a170b68e4ccf049cac220a"
+    },
+    {
+      "file": "assets/animations/characters/hulu_think.json",
+      "sha256": "b8d32758321c4c37570b311b4dc320fd7d33c60f59fa932a9f141fa30c34f1fc"
+    },
+    {
+      "file": "assets/animations/characters/hulu_win.derivation.json",
+      "sha256": "be7a7e7d6ba5b77d2d2009e1a90a45903c7366c644612fadcf82e657c7aeef91"
+    },
+    {
+      "file": "assets/animations/characters/hulu_win.json",
+      "sha256": "9167cf50e60dcf9e3bb9f67d7d079008d0a110bf7116a8851ac51f49c8b60748"
+    },
+    {
+      "file": "assets/animations/characters/manifest.json",
+      "sha256": "1e69859128c3b850c698280995ff44e0331093ee3b9fa740b2281b13e051540d"
+    },
+    {
+      "file": "assets/animations/characters/taohua-all-actions.derivation.json",
+      "sha256": "261fb6cd4113154cf4fe94f8ae8046bf4d0e70810f4f76b5f1405ba38bed73cc"
+    },
+    {
+      "file": "assets/animations/characters/taohua_idle.derivation.json",
+      "sha256": "4fcd02e8be9cb66db31708c40f43a8f8757a2a47a6c8427934c5149058d4e207"
+    },
+    {
+      "file": "assets/animations/characters/taohua_idle.json",
+      "sha256": "0ca6068f710beb7ee0c6145f1c6b8143ae65c6151fa0cec537319c4dbf0b26f5"
+    },
+    {
+      "file": "assets/animations/characters/taohua_lose.derivation.json",
+      "sha256": "749ab750dd20b286c71b42b66dd4f280d7e6d7b91af44cfa748dbb7bd3ee71a1"
+    },
+    {
+      "file": "assets/animations/characters/taohua_lose.json",
+      "sha256": "9f589e7ae9cc220061c09f7a9dc2f05ec9560e8958a41ad9c53833f8c3237d5b"
+    },
+    {
+      "file": "assets/animations/characters/taohua_play.derivation.json",
+      "sha256": "56553befc37cef02e04f7dd5b6ff90d676bb928cb6619b773d92ef2fd2265589"
+    },
+    {
+      "file": "assets/animations/characters/taohua_play.json",
+      "sha256": "140b1dae9d9bab78e66ca45157cf3801e97a711dc91271ae00e266f522c95530"
+    },
+    {
+      "file": "assets/animations/characters/taohua_think.derivation.json",
+      "sha256": "c70ba8a4c7ef0f5724dacea3b7ba50e106aa6f06abe8349359ea8070b769e869"
+    },
+    {
+      "file": "assets/animations/characters/taohua_think.json",
+      "sha256": "0b52ed03c4c279ab508d66290806272e0527791ce7021581acfba392c1f6d417"
+    },
+    {
+      "file": "assets/animations/characters/taohua_win.derivation.json",
+      "sha256": "5b617055f04564afbe32e67fce8bd81b8c8e92bd98be855e6b17b1b2dcc42d3f"
+    },
+    {
+      "file": "assets/animations/characters/taohua_win.json",
+      "sha256": "f13d37cbc40e75a06791287e532b287a958189805cda7542f3f2a82cc917b8a5"
+    },
+    {
+      "file": "assets/brand/app-icon.generation.json",
+      "sha256": "03388f1b759b8883f87e79de7ead8039ea9d8325e03c4b3a07239448e919c8cf"
+    },
+    {
+      "file": "assets/brand/daoyou-qing-chupai/logo-v1.derivation.json",
+      "sha256": "e6afca4d2788aad572e7608d02a2f9380bd0c0b28db31ff6e79506da315694da"
+    },
+    {
+      "file": "assets/brand/exports/app-icon-1024.derivation.json",
+      "sha256": "5e43e4cca3c88aa0a624a37062603d699979eeee10df4794ecfd4e972741c2e5"
+    },
+    {
+      "file": "assets/brand/exports/app-icon-128.derivation.json",
+      "sha256": "535a16956523061c500268abb965dfd36c71124ba06ba73293becdf846cb221d"
+    },
+    {
+      "file": "assets/brand/exports/app-icon-180.derivation.json",
+      "sha256": "51e4a7487ac7d05e00817e2df955547ff5e4d1116dc7a216f40f5feb6b69012a"
+    },
+    {
+      "file": "assets/brand/exports/app-icon-192.derivation.json",
+      "sha256": "768cce122fd97d0df1cb127c17999b0b36867e8829f1069fb6f018589c678f4e"
+    },
+    {
+      "file": "assets/brand/exports/app-icon-32.derivation.json",
+      "sha256": "d7e6a8f5d70cb38ed26d57ea22b87e0541ac3e16792672299ad71c6fd41b96cc"
+    },
+    {
+      "file": "assets/brand/exports/app-icon-48.derivation.json",
+      "sha256": "cf91f9002fdde841626517691317b853959e3cb6c44c4f2b0cfac367367f877f"
+    },
+    {
+      "file": "assets/brand/exports/app-icon-512.derivation.json",
+      "sha256": "3e7f43c2d9cace37edb95580eb4f5cf3cd272cb3d64ffe9d9401df13b11fb69d"
+    },
+    {
+      "file": "assets/brand/exports/app-icon-64.derivation.json",
+      "sha256": "c0f0fb30ff039982d784678ae97561e6cc23c917320283a2e41ba6bbb4951756"
+    },
+    {
+      "file": "assets/brand/exports/app-icon-96.derivation.json",
+      "sha256": "0249e8e370855a3562f37a7b7c768828e329df41a3338383c1debfae298a45f8"
+    },
+    {
+      "file": "assets/brand/exports/manifest.json",
+      "sha256": "692308c22c290c4a0fdb7aedff7ab0a0ad949bf6802082269f9fb3126242c4ba"
+    },
+    {
+      "file": "assets/characters/daotong/costumes/festival-poses/lose.derivation.json",
+      "sha256": "1ab21e5e025739349f6b57e7e1a395c4087ec98b482962f925bf71dbf342d3d0"
+    },
+    {
+      "file": "assets/characters/daotong/costumes/festival-poses/win.derivation.json",
+      "sha256": "1a12ee934ce482ebd02e33ece31ce9cc50696586d37295085dde910fa9e1428c"
+    },
+    {
+      "file": "assets/characters/daotong/costumes/festival.derivation.json",
+      "sha256": "0aee38a5ba1f8d82e9160440e20b8f299f016937828268c756c29ce7fc09ad85"
+    },
+    {
+      "file": "assets/characters/daotong/costumes/ink-poses/lose.derivation.json",
+      "sha256": "c89213a1cc16124b737ef6397dd736750df77adfe35a78fcafcc91f422fa954d"
+    },
+    {
+      "file": "assets/characters/daotong/costumes/ink-poses/win.derivation.json",
+      "sha256": "97a2914a29837abeaf2c9cf41a1f61a5c268be9c389af760eefca5c9be8e82fb"
+    },
+    {
+      "file": "assets/characters/daotong/costumes/ink.derivation.json",
+      "sha256": "8d0cd8e0da32b3255ec9af0b7bc8ba41d54354ed8c72fccc476a317e4f6c40ae"
+    },
+    {
+      "file": "assets/characters/daotong/costumes/moon-poses/lose.derivation.json",
+      "sha256": "c0361506bd907f340020a3b8de6d63e2af4a1259b30099625d73b9b3d23301f1"
+    },
+    {
+      "file": "assets/characters/daotong/costumes/moon-poses/win.derivation.json",
+      "sha256": "6fa69961033c5effc1cf484ace1e5ec63b9ed1c9a61a57b30685f32ff352dccb"
+    },
+    {
+      "file": "assets/characters/daotong/costumes/moon.derivation.json",
+      "sha256": "286104387e7326090111f67e979f424ffd77181c9d7d09d07e77611bcb84f849"
+    },
+    {
+      "file": "assets/characters/daotong/costumes/snow-poses/lose.derivation.json",
+      "sha256": "3bdafd4aeb7b25cfb8210205404327f823b7c353f916f4b117fd09eb21f9405b"
+    },
+    {
+      "file": "assets/characters/daotong/costumes/snow-poses/win.derivation.json",
+      "sha256": "72fea6547c9c0238a936ae14d77ccd027d43ae0d7eb18c260c16ceeb65d89c5d"
+    },
+    {
+      "file": "assets/characters/daotong/costumes/snow.derivation.json",
+      "sha256": "182cb220df8fbb00b37846b67993e6207f9eac367aded4126b5ead88cd52f87b"
+    },
+    {
+      "file": "assets/characters/daotong/costumes/spring-poses/lose.derivation.json",
+      "sha256": "697bcf5a19c4d09ccbd8a226b57d0f55fac1a53c7d5adfc85b859785e4dba56d"
+    },
+    {
+      "file": "assets/characters/daotong/costumes/spring-poses/win.derivation.json",
+      "sha256": "9af3cfe107f0bf89b0d443cdd7e98d29f45ef0b7d4462bae94c5d70e48c0adc5"
+    },
+    {
+      "file": "assets/characters/daotong/costumes/spring.derivation.json",
+      "sha256": "664d2acd11c8e896ef78f664650c50e262efec3168e0df709aa2124d0591f31e"
+    },
+    {
+      "file": "assets/characters/daotong/expressions/angry.derivation.json",
+      "sha256": "b14d3c38c492c4c4abb839fbf00afac6983aea3d4ed72b35dbe0d1230f1fa209"
+    },
+    {
+      "file": "assets/characters/daotong/expressions/calm.derivation.json",
+      "sha256": "829de82582724d157e3f2cbb77513353392bb7632f178f62a848166f044c5fd1"
+    },
+    {
+      "file": "assets/characters/daotong/expressions/laugh.derivation.json",
+      "sha256": "6e1c17ff50a7af990301fd896561e0a5e32d674c6626cf7901f11bf5fee1b226"
+    },
+    {
+      "file": "assets/characters/daotong/expressions/sad.derivation.json",
+      "sha256": "3ee0f3616cb786ca53c22f9e7fd8fa71462e310f863084685c2148a75cafa21b"
+    },
+    {
+      "file": "assets/characters/daotong/expressions/smile.derivation.json",
+      "sha256": "da1a728cf852544e5523d1fced6eef0fd6651325104097e5397373d37239a27b"
+    },
+    {
+      "file": "assets/characters/daotong/expressions/smug.derivation.json",
+      "sha256": "3bcd394199ed4f18aa8e0141eb70e4c7167e2ffe6b3c507a349ca30e4a268b43"
+    },
+    {
+      "file": "assets/characters/daotong/expressions/surprise.derivation.json",
+      "sha256": "ddf63cac59b5de70ad4785bdbb6624486c5534a48918538d53d32fa9801d95db"
+    },
+    {
+      "file": "assets/characters/daotong/expressions/thinking.derivation.json",
+      "sha256": "383ea3e00cb3543444d1fe8ecec2136d25fe5d35659a27801ca8e52fd760cf00"
+    },
+    {
+      "file": "assets/characters/daotong/lose.derivation.json",
+      "sha256": "c1c22e43ed68dfb2348b754598d0a96abb1c4f65c14d1ce7382505b533d638d1"
+    },
+    {
+      "file": "assets/characters/daotong/master.derivation.json",
+      "sha256": "46ef8d742386d3c2d017af108332af7c53428a77b155dd8679184eacf5751453"
+    },
+    {
+      "file": "assets/characters/daotong/win.derivation.json",
+      "sha256": "387e1632151acdb7e9c4be7a0ade3d7ac2b2c355b444585b5829e1f64fddb952"
+    },
+    {
+      "file": "assets/characters/hulu/expressions/angry.derivation.json",
+      "sha256": "2c0142913c4652e0f6cb2fff1a4ca319c33fd264cdaa41046424f0444b8258c4"
+    },
+    {
+      "file": "assets/characters/hulu/expressions/calm.derivation.json",
+      "sha256": "76c1fa1a272b0c8e0236d291d8c010a26f7fdce8e90f4dbc20dd77a9ad696c1a"
+    },
+    {
+      "file": "assets/characters/hulu/expressions/laugh.derivation.json",
+      "sha256": "ad9e99ec0b3a443d0ce553bf5ca596d99f83c092c22f57645816198ff6649e65"
+    },
+    {
+      "file": "assets/characters/hulu/expressions/sad.derivation.json",
+      "sha256": "77b8d6419973edca98e7ae220dc68e62b5d35f27133e5fb059e2b1e24f745d4f"
+    },
+    {
+      "file": "assets/characters/hulu/expressions/smile.derivation.json",
+      "sha256": "785c2e551b286e069c04ac4aa508d863d3c1627812086df5b55712cddd1b347e"
+    },
+    {
+      "file": "assets/characters/hulu/expressions/smug.derivation.json",
+      "sha256": "c9eb5550a576c1e0c2a477c9f5319cf1c901cdbccc64c63ff961859f56ff397c"
+    },
+    {
+      "file": "assets/characters/hulu/expressions/surprise.derivation.json",
+      "sha256": "4a87d298f6280cdc0bc72c3f0ec539d4e3bb132710ef5155b47536d827eeccfb"
+    },
+    {
+      "file": "assets/characters/hulu/expressions/thinking.derivation.json",
+      "sha256": "25a272d097e67df6e4f4acbfb0199f2a93f2d5e3deb9c17f736b966e3967839d"
+    },
+    {
+      "file": "assets/characters/hulu/lose.derivation.json",
+      "sha256": "70997f9c618cd809aaff6357cdf9e372074e876a9edeb2a6fa7af12db0b05b58"
+    },
+    {
+      "file": "assets/characters/hulu/master.derivation.json",
+      "sha256": "8df2fe94888c382618c08a4c7d3bc3b35c1b6744a64bc99ea8bf3c5e71b24706"
+    },
+    {
+      "file": "assets/characters/hulu/win.derivation.json",
+      "sha256": "ad0d891f3c23e2728380ed044e72ba3a97a6d81f1a8e930e4324e0a1b6dd21a0"
+    },
+    {
+      "file": "assets/characters/manifest.json",
+      "sha256": "751fcc56b6e1acce21a75740ff11bf97f5f57d5b29c4f8d888ffde45df140f1d"
+    },
+    {
+      "file": "assets/characters/taohua/expressions/angry.derivation.json",
+      "sha256": "e820caba156e37eafaa28164cf6c6c40d951f2cd94d310fccbb340d08afbaa6b"
+    },
+    {
+      "file": "assets/characters/taohua/expressions/calm.derivation.json",
+      "sha256": "bfc88b11b2df9f457b2acbb916dfb3fdfa56afc5d8b0a19a5ff3d4ddaaa567cf"
+    },
+    {
+      "file": "assets/characters/taohua/expressions/laugh.derivation.json",
+      "sha256": "3259d978d7921e5f27e8facda20a07addfa1b4b1d84da54f2da1d08c24f5c01c"
+    },
+    {
+      "file": "assets/characters/taohua/expressions/sad.derivation.json",
+      "sha256": "9e855f3676258432c94993cc2de4fe6e52c4497c9e5135fd6662f6512e16f043"
+    },
+    {
+      "file": "assets/characters/taohua/expressions/smile.derivation.json",
+      "sha256": "9ed71cec0abc8e71d865737d0e416ec593be4b45cef5b769b55ae057121af85b"
+    },
+    {
+      "file": "assets/characters/taohua/expressions/smug.derivation.json",
+      "sha256": "1e4ba2d3d66c2ea0decda54c0a5cbd3712ef6a9f5b3fcd41eda5806d4c3362b0"
+    },
+    {
+      "file": "assets/characters/taohua/expressions/surprise.derivation.json",
+      "sha256": "32b3a35c6290e5d2e065daad803e789739c32d929e708bffc964cd340250089f"
+    },
+    {
+      "file": "assets/characters/taohua/expressions/thinking.derivation.json",
+      "sha256": "e850f0659d8367da0d4fdade093760d16a5815465b664328c7df1e4477506f3d"
+    },
+    {
+      "file": "assets/characters/taohua/lose.derivation.json",
+      "sha256": "295dab2e13b328bfe4eb95d971da9249ea9ff61b54b2b99253e36536e1d96b73"
+    },
+    {
+      "file": "assets/characters/taohua/master.derivation.json",
+      "sha256": "7478a1cbf4c67598eee603c5e540f98dda95627edf44c767955e165eb4ccb67e"
+    },
+    {
+      "file": "assets/characters/taohua/win.derivation.json",
+      "sha256": "22896e22a77813802b837b22f7e7d81f588d5ea7dee3f411981daa3c5f402823"
+    },
+    {
+      "file": "assets/characters/validation.json",
+      "sha256": "e9669571ba0edbb2655f673e9614b75a9b52864f149de572c9d700ea1d996aa1"
+    },
+    {
+      "file": "assets/events/lantern-festival.generation.json",
+      "sha256": "f0521ab5f87b340fcdeeaa495d0295adf233ddb277e89398e4aaaf74a1b7199a"
+    },
+    {
+      "file": "assets/events/midautumn-festival.generation.json",
+      "sha256": "2e825ee97066fd382b8edab0e28cd61db9e78d5bb8e548feecef1a075d7bb0c7"
+    },
+    {
+      "file": "assets/events/spring-festival.generation.json",
+      "sha256": "349231590f16b334f7998231c9063d59f955827df1f59cfc0bbd02ae27f3e336"
+    },
+    {
+      "file": "assets/fx/bomb-burst.png.generation.json",
+      "sha256": "43e2191de62091b1fb0375c7c438d6fa2c365ae1be876d966eada3a5622cd575"
+    },
+    {
+      "file": "assets/fx/bomb-burst.timeline.json",
+      "sha256": "b04ff40e071d60f10958f8dde81e1e992dca90e9822e727a17dd3ea49dfdd5f0"
+    },
+    {
+      "file": "assets/fx/counter-spring-leaves.png.generation.json",
+      "sha256": "a332ba3de25d95e06c3dd43ee2adb12f85037001b33fc1e2ed76728316967632"
+    },
+    {
+      "file": "assets/fx/counter-spring-leaves.timeline.json",
+      "sha256": "d885031f4a0b3038786eb7d52d5048bf3656bd8b5433df2ab0beef61a2e6e451"
+    },
+    {
+      "file": "assets/fx/deal-trail.png.generation.json",
+      "sha256": "9d1c858197abd2dffd3892ab195542ac8f58bc0531e61a67b00275eae79a92be"
+    },
+    {
+      "file": "assets/fx/deal-trail.timeline.json",
+      "sha256": "00052ba21f4784efc6d75cf9068146bdb9bdf1355307c6bbd3e4e732199089af"
+    },
+    {
+      "file": "assets/fx/frames/bomb-burst/frames.json",
+      "sha256": "203d24618a12fb1f639e3e577b2bc4aee7b9688727d830c7432482b75038e4f7"
+    },
+    {
+      "file": "assets/fx/frames/counter-spring-leaves/frames.json",
+      "sha256": "6c508da337bfc458c58e74e920c81991d15687968d1ed740a706b5e7908c759d"
+    },
+    {
+      "file": "assets/fx/frames/deal-trail/frames.json",
+      "sha256": "83c737fd5cc45ad776d30fb2dc84be107c4d22cdcfdddcc6a105c4e2b764c4c9"
+    },
+    {
+      "file": "assets/fx/frames/loading-ring/frames.json",
+      "sha256": "a852b67074ef212767b04190e842804583aaa34bbdb98981f7e0ce5288db6e92"
+    },
+    {
+      "file": "assets/fx/frames/lose-cloud/frames.json",
+      "sha256": "84657672d3a9ab95f01b38b51214711dd28ec5fd62076acbb1f47808f6116ce7"
+    },
+    {
+      "file": "assets/fx/frames/play-glow/frames.json",
+      "sha256": "f7a02b909ddd15091abf015693d19839730230a09c27df3f4e52134dc93a18e0"
+    },
+    {
+      "file": "assets/fx/frames/rank-up/frames.json",
+      "sha256": "b84c87e2c70ebaeae98dfe50bc2b6c611213508abec564b754daeecf577ec303"
+    },
+    {
+      "file": "assets/fx/frames/reward-sparkle/frames.json",
+      "sha256": "8a34abca0ce50fcc4821f5d23206d25d1a5498d5ba0f811df714f59340cfe2c2"
+    },
+    {
+      "file": "assets/fx/frames/rocket-trail/frames.json",
+      "sha256": "ea2014ab91e7f81c7c0a93eb5cd5c126b3f2e14223fedd9b697bc7dfaaa15732"
+    },
+    {
+      "file": "assets/fx/frames/spring-petals/frames.json",
+      "sha256": "c9e623ca1092589127b179ff3a166692836e505dc6419ef29f59449f87d9cc32"
+    },
+    {
+      "file": "assets/fx/frames/turn-ring/frames.json",
+      "sha256": "6de4ce4c8a72191ec0c648982f5af9e0691e6c8451ab823fcf135dee89a21229"
+    },
+    {
+      "file": "assets/fx/frames/win-gold/frames.json",
+      "sha256": "c2e6576c0a2ba44e8ae09401d8a2502633ec15341605b86071c1f3dbaf1bf9c0"
+    },
+    {
+      "file": "assets/fx/loading-ring.png.generation.json",
+      "sha256": "a023b32e5defe931225763fc529085fa5bc0b81f7e87d1b8d4ee15e60ec2c86e"
+    },
+    {
+      "file": "assets/fx/loading-ring.timeline.json",
+      "sha256": "e11c2ca345699e60e97d365bbef90eec64acea6642858abb4f0b79f7187cdaa4"
+    },
+    {
+      "file": "assets/fx/lose-cloud.png.generation.json",
+      "sha256": "12ef08dfaa9c72c3c123cbb9675b581c48064dbb324ca3ba3518fd021c7691a3"
+    },
+    {
+      "file": "assets/fx/lose-cloud.timeline.json",
+      "sha256": "2493f52707d7520d7864273101b139f9861f02347b66f8bc66a0e9138db74805"
+    },
+    {
+      "file": "assets/fx/manifest.json",
+      "sha256": "4ee4badbe4e3611dc21cb9d47b16820ce7b35c56847ada129768c022c99dec78"
+    },
+    {
+      "file": "assets/fx/play-glow.png.generation.json",
+      "sha256": "eab1a7af09155444faa2b03644676a7b21500bc562a6aa668df2eaf99e50f858"
+    },
+    {
+      "file": "assets/fx/play-glow.timeline.json",
+      "sha256": "2c2defc2c129746a09f991f29d46294d50fc25e02b9000fb4408e26180c62261"
+    },
+    {
+      "file": "assets/fx/rank-up.png.generation.json",
+      "sha256": "b13c545564b3246854b49a5a722a68602161b9646388beb312026b2e3274d8d6"
+    },
+    {
+      "file": "assets/fx/rank-up.timeline.json",
+      "sha256": "0804750f698f96f74e4c19c5939e55bd839dc27809e230c4cc0b84ea1170365c"
+    },
+    {
+      "file": "assets/fx/reward-sparkle.png.generation.json",
+      "sha256": "02896411d557f5e3c2ef542a360cac257d41930e8ea59f1d241020d26c02d5e0"
+    },
+    {
+      "file": "assets/fx/reward-sparkle.timeline.json",
+      "sha256": "2adc14b9c67dfb6b91d72efed7b3b0f609ef7a4a7353a69eab1ee4781fb68091"
+    },
+    {
+      "file": "assets/fx/rocket-trail.png.generation.json",
+      "sha256": "565d527f6cfbb4b281c5818eaa52c503db4a71369c7ecb090270631aa92c18d3"
+    },
+    {
+      "file": "assets/fx/rocket-trail.timeline.json",
+      "sha256": "d6460d43869b2b384b8d308b164b0d318269c767bb780072611ac42fc25c0d7b"
+    },
+    {
+      "file": "assets/fx/spring-petals.png.generation.json",
+      "sha256": "13f5bb315a86c804858598e0bfc97bda71a158383d13b793935a2af653ac7a53"
+    },
+    {
+      "file": "assets/fx/spring-petals.timeline.json",
+      "sha256": "1de76f8677677877107c19237f8e1c2597f94518822efc7719bfbfab54580450"
+    },
+    {
+      "file": "assets/fx/turn-ring.png.generation.json",
+      "sha256": "677c292c4cd5822b4ea94174c5bcb5fcd473a1136e3e7e76280016500662a1c0"
+    },
+    {
+      "file": "assets/fx/turn-ring.timeline.json",
+      "sha256": "3841dd7bc38b4cac2ebf94fceced3c30a5cfe00dd873eca1fe12de2a23df0eb3"
+    },
+    {
+      "file": "assets/fx/win-gold.png.generation.json",
+      "sha256": "c761eccefb8f0012055ef32810cc53f12b0033d3663b515097b5f607982bd8eb"
+    },
+    {
+      "file": "assets/fx/win-gold.timeline.json",
+      "sha256": "1d39880ecc90375e74074dc05e8f349959b3889ccdef6035007a2398edf4e739"
+    },
+    {
+      "file": "assets/game/atlas.json",
+      "sha256": "da3e3d67b493822ab5d7271acbd9e188248dd0475a008b4cfe2d58dfd0ef2a0c"
+    },
+    {
+      "file": "assets/game/manifest.json",
+      "sha256": "99f9845d5f65ef50744c3998f3fac4c7b89bc45a700f10c6556a5830643cb5bb"
+    },
+    {
+      "file": "assets/game/resolved-screen-art.json",
+      "sha256": "ebf517a2dfc795b61b579b87e4785a0ced72cdd701e7f87d4fca62a90d0fb8e4"
+    },
+    {
+      "file": "assets/game/runtime-index.json",
+      "sha256": "84675e7ec67391789597231b89630a31b9809ea164545f28e52d9b55a245fc81"
+    },
+    {
+      "file": "assets/scenes/courtyard-day.png.generation.json",
+      "sha256": "aba9eaf09699caf30bdbef7cd1e8f359e1a364b2dbd7242c21e2d55da8b8e289"
+    },
+    {
+      "file": "assets/scenes/courtyard-lobby.png.generation.json",
+      "sha256": "4a7bd3e24eb9c87f375d6fdfa5b3c74950631816901fb9de08b477512d8703f4"
+    },
+    {
+      "file": "assets/scenes/courtyard-moon-v2.png.generation.json",
+      "sha256": "c9e80a6b6bee3b6031855409ec78f05c329adf78cc46a85fd72643a71f63055b"
+    },
+    {
+      "file": "assets/scenes/courtyard-moon.png.generation.json",
+      "sha256": "0a9d9f33bec782a2f6f60016a2d6a6575b7a7c244577dc8e8bab8bf00c8ce452"
+    },
+    {
+      "file": "assets/scenes/jade-table-runtime.png.generation.json",
+      "sha256": "1dedffeafd7b61d3afc7cede85959eb066d1d083c994cf57f89ee80475416d8e"
+    },
+    {
+      "file": "assets/scenes/peach-table-runtime.png.generation.json",
+      "sha256": "a38e7e5dcc6486d9d86b18c8fc183af1805b09e8829b15b268c2e3cb8b9cc520"
+    },
+    {
+      "file": "assets/scenes/scenes.json",
+      "sha256": "c61fff4105e8d35f4e562e77d9f16864183a4affedc5871976ad11d253176072"
+    },
+    {
+      "file": "assets/ui/cards-source/ace-clubs.derivation.json",
+      "sha256": "427d621860f82215cf87a1337ec0fd4d938b3caadee73b2e90aec2aba75e348b"
+    },
+    {
+      "file": "assets/ui/cards-source/ace-diamonds.derivation.json",
+      "sha256": "c299b6e716c049858fb381876aad10e52674fa45e34595691216beec7a1e5de1"
+    },
+    {
+      "file": "assets/ui/cards-source/ace-hearts.derivation.json",
+      "sha256": "d4ce9a026cd38758259181b174b30bed4aa0d7b70f1d3d8c3a9a8dec5892df2a"
+    },
+    {
+      "file": "assets/ui/cards-source/ace-spades.derivation.json",
+      "sha256": "52f9380bdfd16a508483d138b177d74d9b82d741f006b15800372b922260f4dd"
+    },
+    {
+      "file": "assets/ui/cards-source/back-ivory.derivation.json",
+      "sha256": "b448f25c2eef57e1936aa92e467001a8d64d095e727d6fb01a44c024b4d4e163"
+    },
+    {
+      "file": "assets/ui/cards-source/back-jade.derivation.json",
+      "sha256": "cdc2bf74d1baee50454b5ff7c50f734ce42a74a0c62725c5c6ec309b389c82d8"
+    },
+    {
+      "file": "assets/ui/cards-source/bomb.derivation.json",
+      "sha256": "e27b6ea45a52a4c6659df634e55cda0ca36cf7950cd337fcd193133065bf1c07"
+    },
+    {
+      "file": "assets/ui/cards-source/card-blank.derivation.json",
+      "sha256": "30e34a5aa59a5c1de5cb7e1a3d83a28e6b86cdf040d51ca23a26c2d00133a080"
+    },
+    {
+      "file": "assets/ui/cards-source/counter-spring.derivation.json",
+      "sha256": "523dcecd35a7ebe15a6c617de73b3330d9d0cafa8a7ece1edbba9ccad6ff88b0"
+    },
+    {
+      "file": "assets/ui/cards-source/farmer.derivation.json",
+      "sha256": "dae8e47ec392fb642b0733fb632f2b2d3f4cacbe391c5684cc48da8d80841f4d"
+    },
+    {
+      "file": "assets/ui/cards-source/joker-big.derivation.json",
+      "sha256": "43104d0b9e29e4b17ab4ebef052823438149ca2a3871071fcfe3c532656ff891"
+    },
+    {
+      "file": "assets/ui/cards-source/joker-small.derivation.json",
+      "sha256": "f73a513a3640e5cc1295be711eaae367d4e4a21afd62919a5a1429ff99a6e219"
+    },
+    {
+      "file": "assets/ui/cards-source/landlord.derivation.json",
+      "sha256": "cdd853c252a077763ccf70e77c39eb8465084444e0bb715ba2af0315f7e9f91d"
+    },
+    {
+      "file": "assets/ui/cards-source/rocket.derivation.json",
+      "sha256": "8d2a18f1d5f8761969b264e17cb07f33bf072463e4b6153bcd111146f482198a"
+    },
+    {
+      "file": "assets/ui/cards-source/selection.derivation.json",
+      "sha256": "016be24924bce0711eb51154cf32f49b8380954b3d62ce04339c9ff1950936c0"
+    },
+    {
+      "file": "assets/ui/cards-source/spring.derivation.json",
+      "sha256": "b5b5c0ab55e2f0ad675690ca88fec7cf20d65c9d77053cc84d455e0eee70fbd3"
+    },
+    {
+      "file": "assets/ui/cards/clubs-10.derivation.json",
+      "sha256": "f75248d7570ecc45811705ac7e7a584a6001be3d4f34de16b34800ac3e916674"
+    },
+    {
+      "file": "assets/ui/cards/clubs-2.derivation.json",
+      "sha256": "364530babd9464881d562c83093feef5f82ac85df79c392a7996dcd79554ecfd"
+    },
+    {
+      "file": "assets/ui/cards/clubs-3.derivation.json",
+      "sha256": "ef261135c28fd71bdb7b042a735ba19e628421af4d383cfe8dff32c70029c25e"
+    },
+    {
+      "file": "assets/ui/cards/clubs-4.derivation.json",
+      "sha256": "efa87bb1c9d9061b5257443ad29be865d91200124391f28bd7244a6160ad68c7"
+    },
+    {
+      "file": "assets/ui/cards/clubs-5.derivation.json",
+      "sha256": "94f62dc08426fd0501f2a7c1c3152055c214205144419e748091ef2078eef1b7"
+    },
+    {
+      "file": "assets/ui/cards/clubs-6.derivation.json",
+      "sha256": "1a8df26b447f2f734f6e75ea6243d45aec77a313298fcc25c6dbc28e8eb160de"
+    },
+    {
+      "file": "assets/ui/cards/clubs-7.derivation.json",
+      "sha256": "cd093075f65f2052200f0131428d7db07b91832bb19cc3a7e4c7e2e24dbc2ff3"
+    },
+    {
+      "file": "assets/ui/cards/clubs-8.derivation.json",
+      "sha256": "79a5c217c7cff0ac67f5c099dd32c52df4b59ee7bb15d6b22d3ae78445404004"
+    },
+    {
+      "file": "assets/ui/cards/clubs-9.derivation.json",
+      "sha256": "a878f5d5671dce25807146a9fc4d91a6173f0da3e79cc7fe4abdc0ffc5127f16"
+    },
+    {
+      "file": "assets/ui/cards/clubs-A.derivation.json",
+      "sha256": "dadf57ef5493c847298811faa42eff598ed42d45dce859dfd5cf50b2406ff171"
+    },
+    {
+      "file": "assets/ui/cards/clubs-J.derivation.json",
+      "sha256": "66efa0dc296a48b89db85b58bc3d34dae32ea76cc1a182ba55d2c0192fdd4b22"
+    },
+    {
+      "file": "assets/ui/cards/clubs-K.derivation.json",
+      "sha256": "0e48a8b3483f92d8c826cd8c872b99c00065cc5278a4d19d9a36f48e728817a3"
+    },
+    {
+      "file": "assets/ui/cards/clubs-Q.derivation.json",
+      "sha256": "91348de26177e5512ee12cfb6056ab5f0a58574a8580716295a657b88cbabc7b"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-10.derivation.json",
+      "sha256": "3635a39b62864b77b8cbba7ad289faf7b8aaf0329df238d5eabfc57f883d5134"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-2.derivation.json",
+      "sha256": "d73cea7abb664397c1133c18e17613e247c6a9e10da12c5fbeed276226d7d77b"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-3.derivation.json",
+      "sha256": "767ec92b9ce4960ca6c0b1b435767ff687f591fab577890d167098ae321fea77"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-4.derivation.json",
+      "sha256": "3280611eecb53d63a09b154113a566808b55e6622eb7ee85ac2e13f3b5e8f338"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-5.derivation.json",
+      "sha256": "83c518e7a5c4e19ec3519420a60f53d92a0beda3977a230838ed8026377bf589"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-6.derivation.json",
+      "sha256": "828ed57dc3d0e79d148e8e1a0cbef072ee26c6b8d43a80a2cb2ccab52e579a67"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-7.derivation.json",
+      "sha256": "074a24bc0eb242e5a0afa997fee1ebaebf284163a154db44cf1733dc6ccd969e"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-8.derivation.json",
+      "sha256": "78aaacc257e48eeca1f819f687bcfc7a4a5fec67b839d9c8a8ea855ff9573ecd"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-9.derivation.json",
+      "sha256": "6cf8b4da6f1459f5e62e9459d36817fc007d5d0926598e60935a5f9793912fcb"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-A.derivation.json",
+      "sha256": "61fdb56c98548effb58c7d39c9989a1c9a80aa3daf5105147d67a30ae888278c"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-J.derivation.json",
+      "sha256": "88608abdda0269de9cc2e15e93da971646672271c53012efdf07afc26bf3fe7a"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-K.derivation.json",
+      "sha256": "17e68d85d11f26c0167f76a746933aa161a80d5118b5024cc475f58c074ed888"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-Q.derivation.json",
+      "sha256": "36e3addbccd9d6b534869bcbc692933f2b348f6db700830221ef7e66e3e4b8b5"
+    },
+    {
+      "file": "assets/ui/cards/hearts-10.derivation.json",
+      "sha256": "94f7b03cc72088aa63131bfc9a284732fae3c86517da1f18e8cb7b9c36404355"
+    },
+    {
+      "file": "assets/ui/cards/hearts-2.derivation.json",
+      "sha256": "c8fd38e6df0e474404f51c91b1e6bdd326fc2677ee995b83cc3491253b7444b6"
+    },
+    {
+      "file": "assets/ui/cards/hearts-3.derivation.json",
+      "sha256": "2361646a8221f22e81b7eb21acded2e4b4d26c15b63ca395cbcdaeffcef9c96f"
+    },
+    {
+      "file": "assets/ui/cards/hearts-4.derivation.json",
+      "sha256": "03f7221d80d23194f983dad678a77c5a31518c490ede1e47c8d59d6e7fab8b10"
+    },
+    {
+      "file": "assets/ui/cards/hearts-5.derivation.json",
+      "sha256": "682f50ccf0c1f08ebca96b0efcaa9f0910ff7a2a9086bd6a23d38328ece4bf80"
+    },
+    {
+      "file": "assets/ui/cards/hearts-6.derivation.json",
+      "sha256": "b8a5d2827593746ed5e8e491a7f57c5b08afa1dc1d55f3dec5b02dd44d35d657"
+    },
+    {
+      "file": "assets/ui/cards/hearts-7.derivation.json",
+      "sha256": "813fab890f89cebae371bd1b34cec41dcf0984db95e3b2d9356922feaada2890"
+    },
+    {
+      "file": "assets/ui/cards/hearts-8.derivation.json",
+      "sha256": "29501d64c54b91bb1dcc259b0f5bfe225f829cef4a05d283bcc0cd43a9d3bd5b"
+    },
+    {
+      "file": "assets/ui/cards/hearts-9.derivation.json",
+      "sha256": "fd2a38985d809fa52b8a7c94b5570f33f548b60b55f7076e757bbe542ef923f8"
+    },
+    {
+      "file": "assets/ui/cards/hearts-A.derivation.json",
+      "sha256": "fef2add85072c1cee2e2b7eada3c2a20b000a5163afd2e919a6d72e3753f0953"
+    },
+    {
+      "file": "assets/ui/cards/hearts-J.derivation.json",
+      "sha256": "9cdb699f376b7c790e35d0a68e6e51ed1ae005a13416372d4f43bae036794837"
+    },
+    {
+      "file": "assets/ui/cards/hearts-K.derivation.json",
+      "sha256": "761ae73868a737095271d382948b9e90553d71b30603e2c055b429c6bfaa081e"
+    },
+    {
+      "file": "assets/ui/cards/hearts-Q.derivation.json",
+      "sha256": "201cfec3e3f04677e75ddf90d7cc404f2e91b30b6da1d23f6dd94056368cda63"
+    },
+    {
+      "file": "assets/ui/cards/joker-big.derivation.json",
+      "sha256": "55c0cb30349c972683e5864c08b8afb7ec232092cd40d03624c67ba4f7f41d1f"
+    },
+    {
+      "file": "assets/ui/cards/joker-small.derivation.json",
+      "sha256": "b195463d1fb8eaecccc2fc936b3c5f52af23ad5aeb2e320799c695049b250d0e"
+    },
+    {
+      "file": "assets/ui/cards/spades-10.derivation.json",
+      "sha256": "39ae71991820bfd212d363fc5f725d819b09eca8515e513df7e160451094df90"
+    },
+    {
+      "file": "assets/ui/cards/spades-2.derivation.json",
+      "sha256": "ab107c915a065a308370ae07539b12ce2062f140d4f3aecda0e1893408d754d3"
+    },
+    {
+      "file": "assets/ui/cards/spades-3.derivation.json",
+      "sha256": "d01f6c9e8624defe79be197fe4ffc7e1de7a660b564fe6a9b8861c095780be2c"
+    },
+    {
+      "file": "assets/ui/cards/spades-4.derivation.json",
+      "sha256": "418b7d25710fa627e7ce0e9af80ca84d00eeae35ba0098337ef0b6c2a0862b6b"
+    },
+    {
+      "file": "assets/ui/cards/spades-5.derivation.json",
+      "sha256": "655a9dda1279e7c29d79f8e9a70d5a5b69fe503680fba554dff0a90ecae33963"
+    },
+    {
+      "file": "assets/ui/cards/spades-6.derivation.json",
+      "sha256": "1defa2dde2b08ec939c8fe54b20f081292fe732078bcde6bd1c4a863a9529b38"
+    },
+    {
+      "file": "assets/ui/cards/spades-7.derivation.json",
+      "sha256": "105bf2d632b70c1ba719c47685cc1a2dc2a2cb3f5e4c0ed946f524af5317cab9"
+    },
+    {
+      "file": "assets/ui/cards/spades-8.derivation.json",
+      "sha256": "f0ee706729fd7072ae8457631e4c4f050be9087fbc1e38eab3f694918bf63b82"
+    },
+    {
+      "file": "assets/ui/cards/spades-9.derivation.json",
+      "sha256": "d4a4a440bd7be90aef7a646161270160fe8c98c6e61ea1ceabdec77111453251"
+    },
+    {
+      "file": "assets/ui/cards/spades-A.derivation.json",
+      "sha256": "4004d8ecd42f5a50e20f0b51167ac86bfa2e2b9803cd47039a85fb92d4bac6bf"
+    },
+    {
+      "file": "assets/ui/cards/spades-J.derivation.json",
+      "sha256": "b26cc5b5dd7cf024cc11fbc44ee09d5aa68237d468514eaf8a2588186a455f83"
+    },
+    {
+      "file": "assets/ui/cards/spades-K.derivation.json",
+      "sha256": "2d963c5db04d06a383cad75a81f50652855cfec194325eadfb322395a7eb8ea7"
+    },
+    {
+      "file": "assets/ui/cards/spades-Q.derivation.json",
+      "sha256": "dd6492f6b4c1b6c1609534aca253de58bdcd6a82c83c4115fdaf86b5fd156058"
+    },
+    {
+      "file": "assets/ui/controls/avatar-frame.derivation.json",
+      "sha256": "bca6d83aef54c94ba250bca2cad79bbc3e0284e0f2bd22b21ba6e5d187c16127"
+    },
+    {
+      "file": "assets/ui/controls/checkbox-off.derivation.json",
+      "sha256": "d515e6a1363ea431bbe12515bb68157cb5ca57a14298e3e8a152dde895648b1e"
+    },
+    {
+      "file": "assets/ui/controls/checkbox-on.derivation.json",
+      "sha256": "ccf6bea80fcb2eadc8501465702eb4291ba33b83ad5ab04dac0a29ea553fc9a6"
+    },
+    {
+      "file": "assets/ui/controls/close.derivation.json",
+      "sha256": "08c385e8ba9a4a8ca606b817a87bc53437005b614d2a585afdd5f864877201d9"
+    },
+    {
+      "file": "assets/ui/controls/input-focus.derivation.json",
+      "sha256": "3f15d693a3fa1a7db029c2853d8a0de9310fd3ab47b5d2d93756bade33b625a5"
+    },
+    {
+      "file": "assets/ui/controls/input-normal.derivation.json",
+      "sha256": "c93b119da43e9a0b17ce64158af28075a4f8e62cd1a4ea27bda5df85eae36649"
+    },
+    {
+      "file": "assets/ui/controls/panel.derivation.json",
+      "sha256": "875ff45d84cf50adf977259ce5f8fe81dab5bc9b44dfd5d97498e22c6a7251b5"
+    },
+    {
+      "file": "assets/ui/controls/primary-disabled.derivation.json",
+      "sha256": "60a74b5f51c77d9feb3c300ad88d0c55fea126b2dc504bd419e188415589f86d"
+    },
+    {
+      "file": "assets/ui/controls/primary-highlight.derivation.json",
+      "sha256": "3635adb95a2321fa61bd10d3f3c8cbec2b8a2879cbf58035b5e1f83932543082"
+    },
+    {
+      "file": "assets/ui/controls/primary-normal.derivation.json",
+      "sha256": "6ec249ec9663477ee9c1270b94ba6c8541253911277b2b3d005467c9cdde5763"
+    },
+    {
+      "file": "assets/ui/controls/primary-pressed.derivation.json",
+      "sha256": "a4ffdf8bfac7316c1e40f3ee66519b6085cc84284fadf096e3d194646e07dbfe"
+    },
+    {
+      "file": "assets/ui/controls/progress.derivation.json",
+      "sha256": "a622ed34e041a2a687ea904c386c1650b52e8a8058683fce6b9f353e868b1fc9"
+    },
+    {
+      "file": "assets/ui/controls/scrollbar.derivation.json",
+      "sha256": "f58c51eaa347bc0bbf977b997c0313cdd801892af238d8042875522b6679a99d"
+    },
+    {
+      "file": "assets/ui/controls/secondary-disabled.derivation.json",
+      "sha256": "5b71ddda68cddcd166667681593f884899a3dfe993193c1139ef36b03e3f5343"
+    },
+    {
+      "file": "assets/ui/controls/secondary-highlight.derivation.json",
+      "sha256": "218eb3a4385e7adb79ca238eb10b555c42c8101cf819b1f2c8bb650085439a65"
+    },
+    {
+      "file": "assets/ui/controls/secondary-normal.derivation.json",
+      "sha256": "18f543b4e4fbfc76c0859df9fa4bf15b98b672899c715499ef2362fcff3e1891"
+    },
+    {
+      "file": "assets/ui/controls/secondary-pressed.derivation.json",
+      "sha256": "69a095f0cf380ce077d0d7fdf504da9df038644532d26f953c2190b9c1349acd"
+    },
+    {
+      "file": "assets/ui/controls/slider.derivation.json",
+      "sha256": "a6fa0a63d9514c5ab8b0c3981f36f544a432f0c0764f72006cad2ca9e510fe81"
+    },
+    {
+      "file": "assets/ui/controls/tab-normal.derivation.json",
+      "sha256": "e11346c02d35c00e8e79145677c8c3e23c318af72133a10c2fa7bafd1ce7d067"
+    },
+    {
+      "file": "assets/ui/controls/tab-selected.derivation.json",
+      "sha256": "70107ec37e438f17b0ab62271eadd5fad73d3b7badbae1ae1b450c42b6b94413"
+    },
+    {
+      "file": "assets/ui/controls/title-primary.derivation.json",
+      "sha256": "2af043c854ac952250aea2b9be900d45286f4a32b4ac5e2c400db4c60c76076e"
+    },
+    {
+      "file": "assets/ui/controls/title-secondary.derivation.json",
+      "sha256": "08c3bf817944cfa0fb6ede482c669c94a65fce07bae41321390f00f615f63221"
+    },
+    {
+      "file": "assets/ui/controls/toggle-off.derivation.json",
+      "sha256": "2d82f9f6f2d449b822000d292fe263423c712fb5b47fb9e048f0ea84c45b60b4"
+    },
+    {
+      "file": "assets/ui/controls/toggle-on.derivation.json",
+      "sha256": "38495f7354f8d9e6d3c355242705a00197a56832dc2cad42792f0e794f867937"
+    },
+    {
+      "file": "assets/ui/runtime-kit/control-metrics.json",
+      "sha256": "3311e4a92831ead0b2cf4fddc56db05167ae8139749b9aa6d0d7aa52e19feb36"
+    },
+    {
+      "file": "assets/ui/runtime-kit/font-contract.json",
+      "sha256": "800299bee935008fff0de8e5f9e3eaed0426768f47523f9565ec6261ff4ed33e"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/add.derivation.json",
+      "sha256": "df5cc2a54981fbccff55c64e692da02f88bb67aae2eda4b9085237bbcb2e1c4d"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/back.derivation.json",
+      "sha256": "4863a54e029a76a846aa8f1f3b521fc140546158a37bd34387787cc5784364ba"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/bomb.derivation.json",
+      "sha256": "5d3563a631821e3fd2c2fa3f55c60c9ae53a5d90408b0864278e6ea6ba461d49"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/character.derivation.json",
+      "sha256": "6c23d8ac72c74a45bc74739dbb4eac03feda5ff7889ad7b676dfa60319035e04"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/chat.derivation.json",
+      "sha256": "7587b4f46ec919009702363939e7982299779e812c6275336c2115429b08f5a3"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/check.derivation.json",
+      "sha256": "cffed51360ccbb323f6c00ac17bf1cdf6203caf3cfe4de80fa13e2eaeb6e38c3"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/classic.derivation.json",
+      "sha256": "c3f9f73505ced3757414bca8a7e93e4e93c9d7dc52d904d394ce6adc07e14340"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/close.derivation.json",
+      "sha256": "a2720d6ab57ee7ebaa1f3a3d1ef76f90611152b00e752784935109fafb37416d"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/coin.derivation.json",
+      "sha256": "23f1d40f9759765887d2e730edae36a8d4d345ffe5533b4e92336558afcc199f"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/copy.derivation.json",
+      "sha256": "37eafbeb1af725354f8e80c83e70890828d4382f0bb6bacccdbda4df80e04639"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/emoji.derivation.json",
+      "sha256": "8d5ae5534ffd2166d42b1b9f35a52ad6a6318b28994f70d27d5897bf2342df2e"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/events.derivation.json",
+      "sha256": "dab088191733d85cb51b1f552ebe514098126db80cbc6ce939fcf15e8256bb9f"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/friend-room.derivation.json",
+      "sha256": "7be48b1e6c8cb8ef4a10b9014acd495809b724a485a9bf6995bbf153912d6992"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/friends.derivation.json",
+      "sha256": "081be6d9629374b7df6edaf99f452b9389bb357a8dda15de311262fb19356bda"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/gift.derivation.json",
+      "sha256": "394f9fa0b1927479eb13603649fc0f7d69f943596a33ac7bcbff7a6424564a0d"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/help.derivation.json",
+      "sha256": "1596e5bdd33e8e25624ec13e870eba5ba5b50eb9001abec63f4d422957beba6e"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/home.derivation.json",
+      "sha256": "3c2006843ac88877e70f8e80031794c1458a0e8732051049080e83f3859eda7b"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/inventory.derivation.json",
+      "sha256": "e35feec41b4c756432f681603dfa3af97989fb7a737291b544f861996cf85461"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/lock.derivation.json",
+      "sha256": "673b1306e0ff0c876d5c60b5d9bb2d266aba05d57739f7c6c1596c3708e70d4a"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/mail.derivation.json",
+      "sha256": "f94732c127e33e51a62861278e853d0fc65538224b48b7f767fc65c635cb17a3"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/music.derivation.json",
+      "sha256": "c638b64c72612fbe6522bf1ff77ef5ed9a2bfccade5a7b240d9ee5fcb41baa92"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/mute.derivation.json",
+      "sha256": "51def02bd5d62057f16db901e510a7546d1081a135417bd0f9fb831a3450f58a"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/network.derivation.json",
+      "sha256": "373ee5bd34c2698ab65ce36d430bb6584e5b2f1b0cf8e0ec981283804f083aa2"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/practice.derivation.json",
+      "sha256": "b5ccea61070f8299b2f9284e90020468caed7767fa662b8c762ef3a0a5e2d1ba"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/profile.derivation.json",
+      "sha256": "ee05f84d6790f36b08187a9e7dbc3353087504fa351224838c0b1b2b859d7028"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/puzzle.derivation.json",
+      "sha256": "3ec36b4a7f0029d4bcf3a1f987684cd8bcddac184433c844652aa520e244862f"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/rank.derivation.json",
+      "sha256": "0fb5da0a4f273d475511265991f8ce04bcdffeec93e40a0256cb885efe022ae0"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/refresh.derivation.json",
+      "sha256": "725b5cef0ae971347eaef5828bc842c751f202e543a5e15f0e89a4e41fdae4a1"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/replay.derivation.json",
+      "sha256": "82cfca7953f7de3aefda54d78804353d9c98c345924867267d73fad519f80917"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/rocket.derivation.json",
+      "sha256": "c7f913ccf7cc0eaa81362211dbb39df2766a4911cd055783b9513e8b918b8483"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/search.derivation.json",
+      "sha256": "73d32f95bf8e2f63a6d6857dc75c7f0e14ee6431995f78a9f26c6a9e1f18400f"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/season.derivation.json",
+      "sha256": "f1d6b65a7248fc49e2a33fadcd0ffd61daa8e3721202c28b7ac0e523f1b26634"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/settings.derivation.json",
+      "sha256": "946428ca524c3b713c2535035f29f24294ce968bc8eef67878019f9ce2694501"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/share.derivation.json",
+      "sha256": "16193d56e04820d99b24651e72fc744ad878639b2728e5a838636b6dbbb456c0"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/shop.derivation.json",
+      "sha256": "8fe445874057e3af0ebc7c3af8ba7abac435a2d0f23fa2209dcaf1a2eb167a5a"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/signin.derivation.json",
+      "sha256": "b5e91499b782c1446ac2a6766fce5c937df2cbdc3492b85ce1e6d38408e27da5"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/skills.derivation.json",
+      "sha256": "a94c99605cbb00f74dc0727e2ccbb482487243e8a153c11f26ae1c02490f5e56"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/sound.derivation.json",
+      "sha256": "5c03a05883f7ceceabbf1106d7f2c74e92b78312d9fa07a6665c138563a0c94c"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/star.derivation.json",
+      "sha256": "4564554fb4550d5d6fd13fd4acd2ea533c02dff6fee059c1356ed09e42d4008b"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/task.derivation.json",
+      "sha256": "03cc5b7315b8b23f80e78d3132517f4bf8ee6bc16f495c0ea5f523d9ecb16440"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/timer.derivation.json",
+      "sha256": "c96e7c40b989325bbca0d092d614ff93c3f6e301d05808591046659742c6f870"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/token.derivation.json",
+      "sha256": "936790b14d4aa1766dbef3dfb8af286aff350cc20c5648ea1f08fdf4d16cd708"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/tournament.derivation.json",
+      "sha256": "da9437e0e079ddf943def75aecaf1939878890d8bc4bae52368be922298b5a56"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/trash.derivation.json",
+      "sha256": "74591828fb9c2ed2799cdd50db3f89c982ff636a4df41c6ce40b924391b2ac69"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/trophy.derivation.json",
+      "sha256": "edb007f93da11d2113ba8eb19a50ebebedf58dbfd872613a3bca0722fc6958d8"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/vibration.derivation.json",
+      "sha256": "ff7de854fdc7a7d533f4f3fd7c6e36817af6fcc931bf4c526a7601877b279760"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/voice.derivation.json",
+      "sha256": "2e2d57ed70b3750c81a3856b86ca636a90598d1b2c6f610e10311ad402dd2411"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/wardrobe.derivation.json",
+      "sha256": "19c87900524641bee34c75b40b5ad0b91864146515271f86570fbe6cc23f0774"
+    },
+    {
+      "file": "assets/ui/runtime-kit/manifest.json",
+      "sha256": "9653003945ff51a0e52416965eebcf593058fda9fed9ff6aff8cd295df0aa2d4"
+    },
+    {
+      "file": "assets/ui/runtime-kit/qa-report.json",
+      "sha256": "692bd8bc4f5c5b6e9f668f23e78f1e3cf679d1d51841da7840026ccf225976e2"
+    },
+    {
+      "file": "assets/ui/runtime-kit/skins/dialog.derivation.json",
+      "sha256": "c2ad61df24b5ed96bb302e1a4c8fd7aee067ad7d81a1cdbb8e3f182bc2724424"
+    },
+    {
+      "file": "assets/ui/runtime-kit/skins/item-locked.derivation.json",
+      "sha256": "57b29dcccb5dcb65be0a1d6098dd7b5feff6a164cc786bcaddcb768208735b30"
+    },
+    {
+      "file": "assets/ui/runtime-kit/skins/item-normal.derivation.json",
+      "sha256": "2e2c894c12a2307231efd9032f4d03c9e65cec2b37fcc285cd891f40f3f14b02"
+    },
+    {
+      "file": "assets/ui/runtime-kit/skins/item-selected.derivation.json",
+      "sha256": "36548c685dc2497705c0dcaede57b41a4036886564c993e74766f818c2524a7f"
+    },
+    {
+      "file": "assets/ui/runtime-kit/skins/list-row-normal.derivation.json",
+      "sha256": "70d88c99e0cb10f6792daa59456d05eccb1d6dbac66456382b7a4d07073cfec1"
+    },
+    {
+      "file": "assets/ui/runtime-kit/skins/list-row-selected.derivation.json",
+      "sha256": "55600eff11202e79303bd5b22aba888853025b02843ae33453d7073ad05f836c"
+    },
+    {
+      "file": "assets/ui/runtime-kit/skins/portrait-normal.derivation.json",
+      "sha256": "1b75673df16f1c732ab83b68923f143ce4d07d1be22366c015b890bb62f3c630"
+    },
+    {
+      "file": "assets/ui/runtime-kit/skins/portrait-selected.derivation.json",
+      "sha256": "4abc5c0924b7e891b6758cdb6674079d873f8bbc145378c9ea4f260dd106bc01"
+    },
+    {
+      "file": "assets/ui/runtime-kit/skins/rarity-common.derivation.json",
+      "sha256": "a7710cf9e3f4d71e6dece776736e5b97de32c0ce576296edbfbeffc5d48048c3"
+    },
+    {
+      "file": "assets/ui/runtime-kit/skins/rarity-legendary.derivation.json",
+      "sha256": "80c75d715ed0c36c94535e7b7b3d2ee748d2a08e6d1f2826f3ef9420337a3e76"
+    },
+    {
+      "file": "assets/ui/runtime-kit/skins/rarity-rare.derivation.json",
+      "sha256": "962b367589aac64463e488a69944aeb48f6ddd83d380b09dd416eaf5bf906bce"
+    },
+    {
+      "file": "assets/ui/runtime-kit/skins/red-dot.derivation.json",
+      "sha256": "eb88b84a30d59b54c4008630184b17ce29cbd2c4851a22ca34c86b096678a1d4"
+    },
+    {
+      "file": "assets/ui/runtime-kit/skins/toast.derivation.json",
+      "sha256": "a2cfac333c371d264025e2cb1c96bb0914e1ee17bc84b830fe5648897905fc35"
+    },
+    {
+      "file": "assets/ui/runtime-kit/skins/tooltip.derivation.json",
+      "sha256": "a3fb5c586afed1bbc4a5d3ac9da5b5b59f0d9a8d2658f17e2b545af094a63d17"
+    },
+    {
+      "file": "assets/ui/runtime-kit/skins/window-normal.derivation.json",
+      "sha256": "af972adb5450e4aae0838ab49af5449f9c348d5e0436a05e0db0979c2bfe3b28"
+    },
+    {
+      "file": "assets/ui/runtime-kit/skins/window-wide.derivation.json",
+      "sha256": "ca71d666587cd4a48c2e97b2e7967323d6d9ac3266cf8185f712f59857c6f9db"
+    },
+    {
+      "file": "designs/runtime-scenes-20261026/validation.json",
+      "sha256": "7edb26ac8d3eaed6ec3557625f023c9c867239a3b98b521f3b7cf68eb4ce1e0f"
+    },
+    {
+      "file": "docs/COSTUME_POSES_VALIDATION.json",
+      "sha256": "38d1d70c7ae06a84b313a23033489bea5eaa467a867473362d73ae2c63fbf78c"
+    },
+    {
+      "file": "docs/FINAL_VALIDATION.json",
+      "sha256": "e315eb04487aeb3255b12f029cc111f91c6ee2cc4fb31749059c92e7a50c8fd5"
+    },
+    {
+      "file": "docs/RUNTIME_INTEGRATION_VALIDATION.json",
+      "sha256": "14d0b960cc344fa963e9dedec60356617be6576fa25de6602ebea420c29058af"
+    },
+    {
+      "file": "runtime/copy.zh-CN.json",
+      "sha256": "b8e39754a87fcecbc551aa6635e905769c5892985773d59bc22ff9ad565e33a2"
+    },
+    {
+      "file": "runtime/screens.json",
+      "sha256": "01b3c4ff532c25df683d8d77b968d3006508fd2f2f27d885ee8e8090d3beb595"
+    },
+    {
+      "file": "runtime/state-art.json",
+      "sha256": "83dd191b974d4e73931c4628e5cd3cc40a7532b8372a72194f00331695b1ad5d"
+    }
+  ]
+}

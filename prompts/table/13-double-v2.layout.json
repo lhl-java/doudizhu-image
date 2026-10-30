@@ -1,0 +1,60 @@
+{
+  "source": "designs/ui/table/13-double-v1.png",
+  "output": "designs/ui/table/13-double-v2.png",
+  "tray": {
+    "sourceRect": [
+      28,
+      0,
+      551,
+      267
+    ],
+    "rect": [
+      406,
+      576,
+      1246,
+      188
+    ],
+    "border": 32,
+    "fillRect": [
+      417,
+      584,
+      1226,
+      170
+    ]
+  },
+  "cardGroups": [
+    {
+      "role": "地主20张手牌，其中包含底牌A黑桃/K红桃/3方片",
+      "rect": [
+        421,
+        586,
+        1216,
+        164
+      ],
+      "cards": [
+        "joker-big",
+        "joker-small",
+        "spades-2",
+        "spades-A",
+        "hearts-A",
+        "clubs-A",
+        "spades-K",
+        "hearts-K",
+        "diamonds-K",
+        "hearts-Q",
+        "spades-J",
+        "clubs-10",
+        "hearts-9",
+        "spades-8",
+        "diamonds-7",
+        "clubs-6",
+        "spades-5",
+        "hearts-4",
+        "diamonds-3",
+        "clubs-3"
+      ],
+      "selectedIndexes": [],
+      "selectionLift": 0
+    }
+  ]
+}

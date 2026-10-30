@@ -1,0 +1,29 @@
+{
+  "file": "assets/ui/cards-source/farmer.png",
+  "sha256": "5cbe5643a0150da3710b0aba32952610644235020db7ba62250a49e19652763a",
+  "width": 309,
+  "height": 234,
+  "format": "PNG",
+  "operation": "crop-only-preserve-source-RGBA-no-resize",
+  "cropRect": [
+    737,
+    575,
+    1058,
+    825
+  ],
+  "trimRect": [
+    0,
+    7,
+    309,
+    241
+  ],
+  "derivedFrom": {
+    "file": "designs/ui/components/52-card-and-effects-v1.png",
+    "sha256": "e8c4302a6d6111f092218681bf36d87ae1dcfeb0f45f58321847d178cb71855e",
+    "generationRecord": "designs/ui/components/52-card-and-effects-v1.generation.json"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+  "status": "derived_asset_ready_user_review"
+}

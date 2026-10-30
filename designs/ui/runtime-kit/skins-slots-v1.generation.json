@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/ui/runtime-kit/skins-slots-v1.png",
+  "sha256": "e83de955a4505dca7d6064e1e84a9d8fc503835782cda141567c6856bd97048d",
+  "generatedAt": "2026-10-26 19:24:46 UTC",
+  "generatedAtEvidence": "UTC recorded immediately after tool return, proxy completion time",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/doudizhu-image/references/style/01-mail-event.png",
+      "D:/work/doudizhu-image/references/style/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据；配置目标不等于显式锁定分支或max",
+  "prompt": "prompts/runtime-kit/skins-slots-v1.txt",
+  "promptSha256": "48b2d80671a5267a38233eaf20fd36a66409367345036b633daf477ea1176dda",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "actual attached approved style reference"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "actual attached approved style reference"
+    }
+  ],
+  "nativeResolution": [
+    1774,
+    887
+  ],
+  "exportOperation": "byte-identical copy; no resize/redraw",
+  "alpha": {
+    "mode": "RGBA",
+    "extrema": [
+      0,
+      255
+    ],
+    "zeroPixels": 847921,
+    "partialPixels": 725291,
+    "opaquePixels": 326
+  },
+  "evidence": {
+    "receipt": "designs/ui/runtime-kit/skins-slots-v1.receipt.json",
+    "sourcePath": "C:\\Users\\luyua\\.codex\\generated_images\\01a1772b-71a9-7f61-b67a-7c35bfc09f10\\exec-d06e2c5d-105c-49ba-aabf-ddbf6ed06d39.png",
+    "toolReturnKeys": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "inspection": {
+    "status": "design_ready_user_review",
+    "notes": [
+      "实际看图：内容与row-major清单一致，画风继承实际主参考",
+      "等分网格可能穿越原生图标边缘；采用全局alpha>16零像素通道自适应切分，独立输出无可见主体裁损"
+    ],
+    "slicingStatus": "adaptive_crop_passed",
+    "hasActualTransparency": true
+  }
+}

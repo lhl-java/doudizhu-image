@@ -1,0 +1,151 @@
+{
+  "status": "passed",
+  "kind": "Node mock Canvas source-selection and time-sampling smoke check; no browser rendering assertion",
+  "rows": [
+    {
+      "actor": "daotong",
+      "action": "idle",
+      "atMs": 480,
+      "pose": "master",
+      "drawCalls": 1,
+      "status": "passed"
+    },
+    {
+      "actor": "daotong",
+      "action": "think",
+      "atMs": 480,
+      "pose": "master",
+      "drawCalls": 3,
+      "status": "passed"
+    },
+    {
+      "actor": "daotong",
+      "action": "play",
+      "atMs": 480,
+      "pose": "master",
+      "drawCalls": 4,
+      "status": "passed"
+    },
+    {
+      "actor": "daotong",
+      "action": "win",
+      "atMs": 120,
+      "pose": "win",
+      "drawCalls": 1,
+      "status": "passed"
+    },
+    {
+      "actor": "daotong",
+      "action": "lose",
+      "atMs": 120,
+      "pose": "lose",
+      "drawCalls": 1,
+      "status": "passed"
+    },
+    {
+      "actor": "daotong",
+      "skin": "spring",
+      "status": "passed_no_base_pose_swap_and_no_unmatched_hud"
+    },
+    {
+      "actor": "daotong",
+      "skin": "ink",
+      "status": "passed_no_base_pose_swap_and_no_unmatched_hud"
+    },
+    {
+      "actor": "daotong",
+      "skin": "moon",
+      "status": "passed_no_base_pose_swap_and_no_unmatched_hud"
+    },
+    {
+      "actor": "daotong",
+      "skin": "snow",
+      "status": "passed_no_base_pose_swap_and_no_unmatched_hud"
+    },
+    {
+      "actor": "daotong",
+      "skin": "festival",
+      "status": "passed_no_base_pose_swap_and_no_unmatched_hud"
+    },
+    {
+      "actor": "taohua",
+      "action": "idle",
+      "atMs": 480,
+      "pose": "master",
+      "drawCalls": 1,
+      "status": "passed"
+    },
+    {
+      "actor": "taohua",
+      "action": "think",
+      "atMs": 480,
+      "pose": "master",
+      "drawCalls": 3,
+      "status": "passed"
+    },
+    {
+      "actor": "taohua",
+      "action": "play",
+      "atMs": 480,
+      "pose": "master",
+      "drawCalls": 4,
+      "status": "passed"
+    },
+    {
+      "actor": "taohua",
+      "action": "win",
+      "atMs": 120,
+      "pose": "win",
+      "drawCalls": 1,
+      "status": "passed"
+    },
+    {
+      "actor": "taohua",
+      "action": "lose",
+      "atMs": 120,
+      "pose": "lose",
+      "drawCalls": 1,
+      "status": "passed"
+    },
+    {
+      "actor": "hulu",
+      "action": "idle",
+      "atMs": 480,
+      "pose": "master",
+      "drawCalls": 1,
+      "status": "passed"
+    },
+    {
+      "actor": "hulu",
+      "action": "think",
+      "atMs": 480,
+      "pose": "master",
+      "drawCalls": 3,
+      "status": "passed"
+    },
+    {
+      "actor": "hulu",
+      "action": "play",
+      "atMs": 480,
+      "pose": "master",
+      "drawCalls": 4,
+      "status": "passed"
+    },
+    {
+      "actor": "hulu",
+      "action": "win",
+      "atMs": 120,
+      "pose": "win",
+      "drawCalls": 1,
+      "status": "passed"
+    },
+    {
+      "actor": "hulu",
+      "action": "lose",
+      "atMs": 120,
+      "pose": "lose",
+      "drawCalls": 1,
+      "status": "passed"
+    }
+  ]
+}

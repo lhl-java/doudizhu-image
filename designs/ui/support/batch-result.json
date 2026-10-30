@@ -1,0 +1,168 @@
+{
+  "batch": "support",
+  "completedOn": "2026-10-26T04:24:34.6425119-04:00",
+  "selectedCount": 15,
+  "generatedCount": 17,
+  "requiredStateCoverage": {
+    "rendered": 30,
+    "shared_component": 29,
+    "specified_only": 0
+  },
+  "verification": "selected image/prompt/reference hashes match; common component hashes match; actual unverified fields null",
+  "selected": [
+    {
+      "id": "37-item-detail",
+      "image": "designs/ui/support/37-item-detail-v1.png",
+      "generation": "designs/ui/support/37-item-detail-v1.generation.json",
+      "stateSpec": "designs/ui/support/37-item-detail.states.json",
+      "sha256": "f3d8d0e749d62858a45a1c9c796c20e70942978af5ca302b81aa28cb0b8c7457",
+      "width": 1930,
+      "height": 815,
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "38-wallet",
+      "image": "designs/ui/support/38-wallet-v1.png",
+      "generation": "designs/ui/support/38-wallet-v1.generation.json",
+      "stateSpec": "designs/ui/support/38-wallet.states.json",
+      "sha256": "73cf20e97c39e480493a927c027ddcb94581f6e3a02cc9341db93270c9326a41",
+      "width": 1931,
+      "height": 814,
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "39-inventory",
+      "image": "designs/ui/support/39-inventory-v1.png",
+      "generation": "designs/ui/support/39-inventory-v1.generation.json",
+      "stateSpec": "designs/ui/support/39-inventory.states.json",
+      "sha256": "101168ad92dbc3fe21b2f48246199bae3d925289b5c9e6ce6237b40dc5e758dc",
+      "width": 1931,
+      "height": 814,
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "40-player-profile",
+      "image": "designs/ui/support/40-player-profile-v1.png",
+      "generation": "designs/ui/support/40-player-profile-v1.generation.json",
+      "stateSpec": "designs/ui/support/40-player-profile.states.json",
+      "sha256": "c90ad6106bb792236c02d4e3660f0df92bd62938a28bc5390836543d0da6e958",
+      "width": 1930,
+      "height": 815,
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "41-friends",
+      "image": "designs/ui/support/41-friends-v1.png",
+      "generation": "designs/ui/support/41-friends-v1.generation.json",
+      "stateSpec": "designs/ui/support/41-friends.states.json",
+      "sha256": "c0143b01155469337e04084433b303e6244abadb63454f2a292bc75ddb3ca4bb",
+      "width": 1931,
+      "height": 814,
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "42-leaderboard",
+      "image": "designs/ui/support/42-leaderboard-v2.png",
+      "generation": "designs/ui/support/42-leaderboard-v2.generation.json",
+      "stateSpec": "designs/ui/support/42-leaderboard.states.json",
+      "sha256": "cafc6aa003aea23d2872817456c1a93ad6b47200b9895421bb00b9c44cc0e557",
+      "width": 1932,
+      "height": 814,
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "43-daily-missions",
+      "image": "designs/ui/support/43-daily-missions-v1.png",
+      "generation": "designs/ui/support/43-daily-missions-v1.generation.json",
+      "stateSpec": "designs/ui/support/43-daily-missions.states.json",
+      "sha256": "56baf1c65fbac581516efd87d6d06b6e8314843eab5776111cd5252bc93179eb",
+      "width": 1931,
+      "height": 814,
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "44-sign-in",
+      "image": "designs/ui/support/44-sign-in-v1.png",
+      "generation": "designs/ui/support/44-sign-in-v1.generation.json",
+      "stateSpec": "designs/ui/support/44-sign-in.states.json",
+      "sha256": "065b49a4bb479030a79254bbaadb9ed0d7e6b1ad064b525b8d4407f5e0641452",
+      "width": 1931,
+      "height": 814,
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "45-events",
+      "image": "designs/ui/support/45-events-v1.png",
+      "generation": "designs/ui/support/45-events-v1.generation.json",
+      "stateSpec": "designs/ui/support/45-events.states.json",
+      "sha256": "e33a24f3b1b1a7d9fd1496914532193658453d98ec66e149c58009cdcef31513",
+      "width": 1932,
+      "height": 814,
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "46-mail",
+      "image": "designs/ui/support/46-mail-v1.png",
+      "generation": "designs/ui/support/46-mail-v1.generation.json",
+      "stateSpec": "designs/ui/support/46-mail.states.json",
+      "sha256": "53f1d69332f4a479256b4b39d7a3eb6194a77d7904075374880a5e0481ee11c6",
+      "width": 1931,
+      "height": 814,
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "47-settings",
+      "image": "designs/ui/support/47-settings-v1.png",
+      "generation": "designs/ui/support/47-settings-v1.generation.json",
+      "stateSpec": "designs/ui/support/47-settings.states.json",
+      "sha256": "1c557c94388be013611b92cf1efde8535abc029f892b68fa9da13ca51c3788fc",
+      "width": 1931,
+      "height": 814,
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "48-help-rules",
+      "image": "designs/ui/support/48-help-rules-v1.png",
+      "generation": "designs/ui/support/48-help-rules-v1.generation.json",
+      "stateSpec": "designs/ui/support/48-help-rules.states.json",
+      "sha256": "1f98282fe241ea5f6655eb2d445fc56481edae69170e9335e946219b614d36fd",
+      "width": 1931,
+      "height": 814,
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "49-support-notices",
+      "image": "designs/ui/support/49-support-notices-v1.png",
+      "generation": "designs/ui/support/49-support-notices-v1.generation.json",
+      "stateSpec": "designs/ui/support/49-support-notices.states.json",
+      "sha256": "27a7d897f19682ae71c818ddd5598558241e424466324b315923861dc4119135",
+      "width": 1932,
+      "height": 814,
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "59-achievements-growth",
+      "image": "designs/ui/support/59-achievements-growth-v2.png",
+      "generation": "designs/ui/support/59-achievements-growth-v2.generation.json",
+      "stateSpec": "designs/ui/support/59-achievements-growth.states.json",
+      "sha256": "8628eb1118e1a334b7ad1c5a2f960e77352e59a76b92463f242e2499e27d5c56",
+      "width": 1933,
+      "height": 814,
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "60-account-notices",
+      "image": "designs/ui/support/60-account-notices-v1.png",
+      "generation": "designs/ui/support/60-account-notices-v1.generation.json",
+      "stateSpec": "designs/ui/support/60-account-notices.states.json",
+      "sha256": "a802b4549a42efc4b39f23f5fa68a42d4c19440bd7c95aefb04585d201763427",
+      "width": 1932,
+      "height": 814,
+      "status": "design_ready_user_review"
+    }
+  ],
+  "supersededImageCleanupPending": [
+    "designs/ui/support/42-leaderboard-v1.png",
+    "designs/ui/support/59-achievements-growth-v1.png"
+  ]
+}

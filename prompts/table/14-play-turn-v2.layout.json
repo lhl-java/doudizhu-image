@@ -1,0 +1,65 @@
+{
+  "source": "designs/ui/table/14-play-turn-v1.png",
+  "output": "designs/ui/table/14-play-turn-v2.png",
+  "tray": {
+    "sourceRect": [
+      28,
+      0,
+      551,
+      267
+    ],
+    "rect": [
+      405,
+      601,
+      1220,
+      186
+    ],
+    "border": 30,
+    "fillRect": [
+      416,
+      608,
+      1198,
+      170
+    ]
+  },
+  "cardGroups": [
+    {
+      "role": "地主20张手牌，其中包含底牌A黑桃/K红桃/3方片，三张7抬起选中",
+      "rect": [
+        418,
+        632,
+        1191,
+        142
+      ],
+      "cards": [
+        "hearts-2",
+        "spades-A",
+        "hearts-A",
+        "spades-K",
+        "hearts-K",
+        "hearts-Q",
+        "clubs-Q",
+        "spades-J",
+        "hearts-10",
+        "spades-9",
+        "hearts-9",
+        "clubs-8",
+        "spades-7",
+        "hearts-7",
+        "diamonds-7",
+        "clubs-6",
+        "spades-5",
+        "hearts-4",
+        "clubs-4",
+        "diamonds-3"
+      ],
+      "selectedIndexes": [
+        12,
+        13,
+        14
+      ],
+      "selectionLift": 24,
+      "selectionAsset": "assets/ui/cards-source/selection.png"
+    }
+  ]
+}

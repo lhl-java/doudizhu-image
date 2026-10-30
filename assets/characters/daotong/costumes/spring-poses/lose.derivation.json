@@ -1,0 +1,55 @@
+{
+  "id": "daotong_spring_lose",
+  "kind": "costume_pose",
+  "file": "assets/characters/daotong/costumes/spring-poses/lose.png",
+  "record": "assets/characters/daotong/costumes/spring-poses/lose.derivation.json",
+  "width": 1024,
+  "height": 1024,
+  "anchor": [
+    512,
+    920
+  ],
+  "sha256": "2daae8f4ece668d4b10fb4ade70bbe86f4af423f8f4b564d73dcbeda271c4874",
+  "route": "derived",
+  "noUpscale": true,
+  "fixedScale": 0.6971279373368147,
+  "sourceRect": [
+    154,
+    59,
+    1142,
+    1220
+  ],
+  "sourceAnchor": [
+    648.0,
+    1214
+  ],
+  "offset": [
+    168,
+    115
+  ],
+  "registration": "match the skin-master significant body height; feet anchored at512,920; per-source uniform downscale only",
+  "operation": "significant-alpha crop plus6px, premultiplied-alpha Lanczos downscale, foot-anchor registration; independent generated pose still",
+  "derivedFrom": [
+    {
+      "file": "designs/characters/costume-poses-20261029/spring-lose-v1.png",
+      "sha256": "65ec7d8848bab28895dd2360aa4dd4ffcc8c6b154bc29de67462361e367a8ab9",
+      "record": "designs/characters/costume-poses-20261029/spring-lose-v1.generation.json"
+    }
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "edgeAlphaMax": 0,
+  "status": "passed_offline_art_review",
+  "recordedAt": "2026-10-30T04:34:56.769115+00:00",
+  "visualReview": {
+    "method": "actual imagegen returns plus light/dark five-costume master-win-lose contact inspected",
+    "passed": true,
+    "reviewedAt": "2026-10-30T05:04:57.604533+00:00",
+    "bodyHeight": 801,
+    "masterBodyHeight": 801,
+    "edgeAlphaMax": 0,
+    "footAnchorError": 0
+  }
+}

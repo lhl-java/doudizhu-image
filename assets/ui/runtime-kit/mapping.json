@@ -1,0 +1,3412 @@
+{
+  "schemaVersion": 1,
+  "pageCount": 60,
+  "referenceCanvas": [
+    2560,
+    1080
+  ],
+  "status": "ui_art_bound_external_art_pending",
+  "pages": [
+    {
+      "pageId": "01-launch-login",
+      "title": "启动与登录",
+      "designReference": "designs/ui/core/01-launch-login-v1.png",
+      "stateSpec": "designs/ui/core/01-launch-login.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "home",
+            "file": "assets/ui/runtime-kit/icons/home.png",
+            "record": "assets/ui/runtime-kit/icons/home.derivation.json"
+          },
+          {
+            "id": "profile",
+            "file": "assets/ui/runtime-kit/icons/profile.png",
+            "record": "assets/ui/runtime-kit/icons/profile.derivation.json"
+          },
+          {
+            "id": "check",
+            "file": "assets/ui/runtime-kit/icons/check.png",
+            "record": "assets/ui/runtime-kit/icons/check.derivation.json"
+          },
+          {
+            "id": "network",
+            "file": "assets/ui/runtime-kit/icons/network.png",
+            "record": "assets/ui/runtime-kit/icons/network.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "02-lobby",
+      "title": "全功能大厅",
+      "designReference": "designs/ui/core/02-lobby-v1.png",
+      "stateSpec": "designs/ui/core/02-lobby.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "classic",
+            "file": "assets/ui/runtime-kit/icons/classic.png",
+            "record": "assets/ui/runtime-kit/icons/classic.derivation.json"
+          },
+          {
+            "id": "friend-room",
+            "file": "assets/ui/runtime-kit/icons/friend-room.png",
+            "record": "assets/ui/runtime-kit/icons/friend-room.derivation.json"
+          },
+          {
+            "id": "rank",
+            "file": "assets/ui/runtime-kit/icons/rank.png",
+            "record": "assets/ui/runtime-kit/icons/rank.derivation.json"
+          },
+          {
+            "id": "tournament",
+            "file": "assets/ui/runtime-kit/icons/tournament.png",
+            "record": "assets/ui/runtime-kit/icons/tournament.derivation.json"
+          },
+          {
+            "id": "puzzle",
+            "file": "assets/ui/runtime-kit/icons/puzzle.png",
+            "record": "assets/ui/runtime-kit/icons/puzzle.derivation.json"
+          },
+          {
+            "id": "shop",
+            "file": "assets/ui/runtime-kit/icons/shop.png",
+            "record": "assets/ui/runtime-kit/icons/shop.derivation.json"
+          },
+          {
+            "id": "task",
+            "file": "assets/ui/runtime-kit/icons/task.png",
+            "record": "assets/ui/runtime-kit/icons/task.derivation.json"
+          },
+          {
+            "id": "mail",
+            "file": "assets/ui/runtime-kit/icons/mail.png",
+            "record": "assets/ui/runtime-kit/icons/mail.derivation.json"
+          },
+          {
+            "id": "settings",
+            "file": "assets/ui/runtime-kit/icons/settings.png",
+            "record": "assets/ui/runtime-kit/icons/settings.derivation.json"
+          },
+          {
+            "id": "character",
+            "file": "assets/ui/runtime-kit/icons/character.png",
+            "record": "assets/ui/runtime-kit/icons/character.derivation.json"
+          },
+          {
+            "id": "events",
+            "file": "assets/ui/runtime-kit/icons/events.png",
+            "record": "assets/ui/runtime-kit/icons/events.derivation.json"
+          },
+          {
+            "id": "signin",
+            "file": "assets/ui/runtime-kit/icons/signin.png",
+            "record": "assets/ui/runtime-kit/icons/signin.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [
+          {
+            "logicalId": "character.dao-child.idle",
+            "status": "awaiting_coordinator_binding"
+          },
+          {
+            "logicalId": "character.peach-cultivator.idle",
+            "status": "awaiting_coordinator_binding"
+          },
+          {
+            "logicalId": "character.gourd-elder.idle",
+            "status": "awaiting_coordinator_binding"
+          }
+        ],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "03-classic-select",
+      "title": "经典玩法选择",
+      "designReference": "designs/ui/core/03-classic-select-v1.png",
+      "stateSpec": "designs/ui/core/03-classic-select.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "classic",
+            "file": "assets/ui/runtime-kit/icons/classic.png",
+            "record": "assets/ui/runtime-kit/icons/classic.derivation.json"
+          },
+          {
+            "id": "help",
+            "file": "assets/ui/runtime-kit/icons/help.png",
+            "record": "assets/ui/runtime-kit/icons/help.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": "assets/ui/manifest.json"
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "04-stakes-select",
+      "title": "场次选择",
+      "designReference": "designs/ui/core/04-stakes-select-v1.png",
+      "stateSpec": "designs/ui/core/04-stakes-select.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "coin",
+            "file": "assets/ui/runtime-kit/icons/coin.png",
+            "record": "assets/ui/runtime-kit/icons/coin.derivation.json"
+          },
+          {
+            "id": "classic",
+            "file": "assets/ui/runtime-kit/icons/classic.png",
+            "record": "assets/ui/runtime-kit/icons/classic.derivation.json"
+          },
+          {
+            "id": "lock",
+            "file": "assets/ui/runtime-kit/icons/lock.png",
+            "record": "assets/ui/runtime-kit/icons/lock.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "05-matchmaking",
+      "title": "匹配等待",
+      "designReference": "designs/ui/core/05-matchmaking-v1.png",
+      "stateSpec": "designs/ui/core/05-matchmaking.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "timer",
+            "file": "assets/ui/runtime-kit/icons/timer.png",
+            "record": "assets/ui/runtime-kit/icons/timer.derivation.json"
+          },
+          {
+            "id": "network",
+            "file": "assets/ui/runtime-kit/icons/network.png",
+            "record": "assets/ui/runtime-kit/icons/network.derivation.json"
+          },
+          {
+            "id": "close",
+            "file": "assets/ui/runtime-kit/icons/close.png",
+            "record": "assets/ui/runtime-kit/icons/close.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "06-friend-room-entry",
+      "title": "好友同玩入口",
+      "designReference": "designs/ui/core/06-friend-room-entry-v1.png",
+      "stateSpec": "designs/ui/core/06-friend-room-entry.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "friend-room",
+            "file": "assets/ui/runtime-kit/icons/friend-room.png",
+            "record": "assets/ui/runtime-kit/icons/friend-room.derivation.json"
+          },
+          {
+            "id": "add",
+            "file": "assets/ui/runtime-kit/icons/add.png",
+            "record": "assets/ui/runtime-kit/icons/add.derivation.json"
+          },
+          {
+            "id": "search",
+            "file": "assets/ui/runtime-kit/icons/search.png",
+            "record": "assets/ui/runtime-kit/icons/search.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "07-create-room",
+      "title": "创建房间",
+      "designReference": "designs/ui/core/07-create-room-v1.png",
+      "stateSpec": "designs/ui/core/07-create-room.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "friend-room",
+            "file": "assets/ui/runtime-kit/icons/friend-room.png",
+            "record": "assets/ui/runtime-kit/icons/friend-room.derivation.json"
+          },
+          {
+            "id": "classic",
+            "file": "assets/ui/runtime-kit/icons/classic.png",
+            "record": "assets/ui/runtime-kit/icons/classic.derivation.json"
+          },
+          {
+            "id": "add",
+            "file": "assets/ui/runtime-kit/icons/add.png",
+            "record": "assets/ui/runtime-kit/icons/add.derivation.json"
+          },
+          {
+            "id": "check",
+            "file": "assets/ui/runtime-kit/icons/check.png",
+            "record": "assets/ui/runtime-kit/icons/check.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "08-join-room",
+      "title": "加入房间",
+      "designReference": "designs/ui/core/08-join-room-v1.png",
+      "stateSpec": "designs/ui/core/08-join-room.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "search",
+            "file": "assets/ui/runtime-kit/icons/search.png",
+            "record": "assets/ui/runtime-kit/icons/search.derivation.json"
+          },
+          {
+            "id": "back",
+            "file": "assets/ui/runtime-kit/icons/back.png",
+            "record": "assets/ui/runtime-kit/icons/back.derivation.json"
+          },
+          {
+            "id": "check",
+            "file": "assets/ui/runtime-kit/icons/check.png",
+            "record": "assets/ui/runtime-kit/icons/check.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "09-room-waiting",
+      "title": "好友房等待",
+      "designReference": "designs/ui/core/09-room-waiting-v1.png",
+      "stateSpec": "designs/ui/core/09-room-waiting.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "friend-room",
+            "file": "assets/ui/runtime-kit/icons/friend-room.png",
+            "record": "assets/ui/runtime-kit/icons/friend-room.derivation.json"
+          },
+          {
+            "id": "friends",
+            "file": "assets/ui/runtime-kit/icons/friends.png",
+            "record": "assets/ui/runtime-kit/icons/friends.derivation.json"
+          },
+          {
+            "id": "share",
+            "file": "assets/ui/runtime-kit/icons/share.png",
+            "record": "assets/ui/runtime-kit/icons/share.derivation.json"
+          },
+          {
+            "id": "copy",
+            "file": "assets/ui/runtime-kit/icons/copy.png",
+            "record": "assets/ui/runtime-kit/icons/copy.derivation.json"
+          },
+          {
+            "id": "check",
+            "file": "assets/ui/runtime-kit/icons/check.png",
+            "record": "assets/ui/runtime-kit/icons/check.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [
+          {
+            "logicalId": "character.dao-child.idle",
+            "status": "awaiting_coordinator_binding"
+          },
+          {
+            "logicalId": "character.peach-cultivator.idle",
+            "status": "awaiting_coordinator_binding"
+          },
+          {
+            "logicalId": "character.gourd-elder.idle",
+            "status": "awaiting_coordinator_binding"
+          }
+        ],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "10-invite-friends",
+      "title": "邀请好友",
+      "designReference": "designs/ui/core/10-invite-friends-v1.png",
+      "stateSpec": "designs/ui/core/10-invite-friends.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "friends",
+            "file": "assets/ui/runtime-kit/icons/friends.png",
+            "record": "assets/ui/runtime-kit/icons/friends.derivation.json"
+          },
+          {
+            "id": "search",
+            "file": "assets/ui/runtime-kit/icons/search.png",
+            "record": "assets/ui/runtime-kit/icons/search.derivation.json"
+          },
+          {
+            "id": "share",
+            "file": "assets/ui/runtime-kit/icons/share.png",
+            "record": "assets/ui/runtime-kit/icons/share.derivation.json"
+          },
+          {
+            "id": "check",
+            "file": "assets/ui/runtime-kit/icons/check.png",
+            "record": "assets/ui/runtime-kit/icons/check.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "11-deal-bid",
+      "title": "发牌与叫地主",
+      "designReference": "designs/ui/table/11-deal-bid-v2.png",
+      "stateSpec": "designs/ui/table/11-deal-bid.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-wide.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "timer",
+            "file": "assets/ui/runtime-kit/icons/timer.png",
+            "record": "assets/ui/runtime-kit/icons/timer.derivation.json"
+          },
+          {
+            "id": "classic",
+            "file": "assets/ui/runtime-kit/icons/classic.png",
+            "record": "assets/ui/runtime-kit/icons/classic.derivation.json"
+          },
+          {
+            "id": "help",
+            "file": "assets/ui/runtime-kit/icons/help.png",
+            "record": "assets/ui/runtime-kit/icons/help.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.table-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [
+          {
+            "logicalId": "character.dao-child.idle",
+            "status": "awaiting_coordinator_binding"
+          },
+          {
+            "logicalId": "character.peach-cultivator.idle",
+            "status": "awaiting_coordinator_binding"
+          },
+          {
+            "logicalId": "character.gourd-elder.idle",
+            "status": "awaiting_coordinator_binding"
+          }
+        ],
+        "deckManifest": "assets/ui/manifest.json"
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "12-rob-landlord",
+      "title": "抢地主",
+      "designReference": "designs/ui/table/12-rob-landlord-v1.png",
+      "stateSpec": "designs/ui/table/12-rob-landlord.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-wide.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "timer",
+            "file": "assets/ui/runtime-kit/icons/timer.png",
+            "record": "assets/ui/runtime-kit/icons/timer.derivation.json"
+          },
+          {
+            "id": "classic",
+            "file": "assets/ui/runtime-kit/icons/classic.png",
+            "record": "assets/ui/runtime-kit/icons/classic.derivation.json"
+          },
+          {
+            "id": "sound",
+            "file": "assets/ui/runtime-kit/icons/sound.png",
+            "record": "assets/ui/runtime-kit/icons/sound.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.table-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [
+          {
+            "logicalId": "character.dao-child.idle",
+            "status": "awaiting_coordinator_binding"
+          },
+          {
+            "logicalId": "character.peach-cultivator.idle",
+            "status": "awaiting_coordinator_binding"
+          },
+          {
+            "logicalId": "character.gourd-elder.idle",
+            "status": "awaiting_coordinator_binding"
+          }
+        ],
+        "deckManifest": "assets/ui/manifest.json"
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "13-double",
+      "title": "明牌与加倍",
+      "designReference": "designs/ui/table/13-double-v2.png",
+      "stateSpec": "designs/ui/table/13-double.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-wide.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "timer",
+            "file": "assets/ui/runtime-kit/icons/timer.png",
+            "record": "assets/ui/runtime-kit/icons/timer.derivation.json"
+          },
+          {
+            "id": "star",
+            "file": "assets/ui/runtime-kit/icons/star.png",
+            "record": "assets/ui/runtime-kit/icons/star.derivation.json"
+          },
+          {
+            "id": "check",
+            "file": "assets/ui/runtime-kit/icons/check.png",
+            "record": "assets/ui/runtime-kit/icons/check.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.table-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [
+          {
+            "logicalId": "character.dao-child.idle",
+            "status": "awaiting_coordinator_binding"
+          },
+          {
+            "logicalId": "character.peach-cultivator.idle",
+            "status": "awaiting_coordinator_binding"
+          },
+          {
+            "logicalId": "character.gourd-elder.idle",
+            "status": "awaiting_coordinator_binding"
+          }
+        ],
+        "deckManifest": "assets/ui/manifest.json"
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "14-play-turn",
+      "title": "主动出牌",
+      "designReference": "designs/ui/table/14-play-turn-v2.png",
+      "stateSpec": "designs/ui/table/14-play-turn.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-wide.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "timer",
+            "file": "assets/ui/runtime-kit/icons/timer.png",
+            "record": "assets/ui/runtime-kit/icons/timer.derivation.json"
+          },
+          {
+            "id": "chat",
+            "file": "assets/ui/runtime-kit/icons/chat.png",
+            "record": "assets/ui/runtime-kit/icons/chat.derivation.json"
+          },
+          {
+            "id": "voice",
+            "file": "assets/ui/runtime-kit/icons/voice.png",
+            "record": "assets/ui/runtime-kit/icons/voice.derivation.json"
+          },
+          {
+            "id": "settings",
+            "file": "assets/ui/runtime-kit/icons/settings.png",
+            "record": "assets/ui/runtime-kit/icons/settings.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.table-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [
+          {
+            "logicalId": "character.dao-child.idle",
+            "status": "awaiting_coordinator_binding"
+          },
+          {
+            "logicalId": "character.peach-cultivator.idle",
+            "status": "awaiting_coordinator_binding"
+          },
+          {
+            "logicalId": "character.gourd-elder.idle",
+            "status": "awaiting_coordinator_binding"
+          }
+        ],
+        "deckManifest": "assets/ui/manifest.json"
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "15-follow-pass",
+      "title": "跟牌与不出",
+      "designReference": "designs/ui/table/15-follow-pass-v2.png",
+      "stateSpec": "designs/ui/table/15-follow-pass.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-wide.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "timer",
+            "file": "assets/ui/runtime-kit/icons/timer.png",
+            "record": "assets/ui/runtime-kit/icons/timer.derivation.json"
+          },
+          {
+            "id": "chat",
+            "file": "assets/ui/runtime-kit/icons/chat.png",
+            "record": "assets/ui/runtime-kit/icons/chat.derivation.json"
+          },
+          {
+            "id": "voice",
+            "file": "assets/ui/runtime-kit/icons/voice.png",
+            "record": "assets/ui/runtime-kit/icons/voice.derivation.json"
+          },
+          {
+            "id": "settings",
+            "file": "assets/ui/runtime-kit/icons/settings.png",
+            "record": "assets/ui/runtime-kit/icons/settings.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.table-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [
+          {
+            "logicalId": "character.dao-child.idle",
+            "status": "awaiting_coordinator_binding"
+          },
+          {
+            "logicalId": "character.peach-cultivator.idle",
+            "status": "awaiting_coordinator_binding"
+          },
+          {
+            "logicalId": "character.gourd-elder.idle",
+            "status": "awaiting_coordinator_binding"
+          }
+        ],
+        "deckManifest": "assets/ui/manifest.json"
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "16-trustee",
+      "title": "托管与恢复",
+      "designReference": "designs/ui/table/16-trustee-v3.png",
+      "stateSpec": "designs/ui/table/16-trustee.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-wide.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "timer",
+            "file": "assets/ui/runtime-kit/icons/timer.png",
+            "record": "assets/ui/runtime-kit/icons/timer.derivation.json"
+          },
+          {
+            "id": "profile",
+            "file": "assets/ui/runtime-kit/icons/profile.png",
+            "record": "assets/ui/runtime-kit/icons/profile.derivation.json"
+          },
+          {
+            "id": "back",
+            "file": "assets/ui/runtime-kit/icons/back.png",
+            "record": "assets/ui/runtime-kit/icons/back.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.table-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [
+          {
+            "logicalId": "character.dao-child.idle",
+            "status": "awaiting_coordinator_binding"
+          },
+          {
+            "logicalId": "character.peach-cultivator.idle",
+            "status": "awaiting_coordinator_binding"
+          },
+          {
+            "logicalId": "character.gourd-elder.idle",
+            "status": "awaiting_coordinator_binding"
+          }
+        ],
+        "deckManifest": "assets/ui/manifest.json"
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "17-reconnect",
+      "title": "掉线与重连",
+      "designReference": "designs/ui/table/17-reconnect-v2.png",
+      "stateSpec": "designs/ui/table/17-reconnect.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-wide.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "network",
+            "file": "assets/ui/runtime-kit/icons/network.png",
+            "record": "assets/ui/runtime-kit/icons/network.derivation.json"
+          },
+          {
+            "id": "refresh",
+            "file": "assets/ui/runtime-kit/icons/refresh.png",
+            "record": "assets/ui/runtime-kit/icons/refresh.derivation.json"
+          },
+          {
+            "id": "back",
+            "file": "assets/ui/runtime-kit/icons/back.png",
+            "record": "assets/ui/runtime-kit/icons/back.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.table-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [
+          {
+            "logicalId": "character.dao-child.idle",
+            "status": "awaiting_coordinator_binding"
+          },
+          {
+            "logicalId": "character.peach-cultivator.idle",
+            "status": "awaiting_coordinator_binding"
+          },
+          {
+            "logicalId": "character.gourd-elder.idle",
+            "status": "awaiting_coordinator_binding"
+          }
+        ],
+        "deckManifest": "assets/ui/manifest.json"
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "18-round-win",
+      "title": "单局胜利",
+      "designReference": "designs/ui/table/18-round-win-v1.png",
+      "stateSpec": "designs/ui/table/18-round-win.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-wide.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "trophy",
+            "file": "assets/ui/runtime-kit/icons/trophy.png",
+            "record": "assets/ui/runtime-kit/icons/trophy.derivation.json"
+          },
+          {
+            "id": "coin",
+            "file": "assets/ui/runtime-kit/icons/coin.png",
+            "record": "assets/ui/runtime-kit/icons/coin.derivation.json"
+          },
+          {
+            "id": "star",
+            "file": "assets/ui/runtime-kit/icons/star.png",
+            "record": "assets/ui/runtime-kit/icons/star.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.table-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [
+          {
+            "logicalId": "character.dao-child.idle",
+            "status": "awaiting_coordinator_binding"
+          },
+          {
+            "logicalId": "character.peach-cultivator.idle",
+            "status": "awaiting_coordinator_binding"
+          },
+          {
+            "logicalId": "character.gourd-elder.idle",
+            "status": "awaiting_coordinator_binding"
+          }
+        ],
+        "deckManifest": "assets/ui/manifest.json"
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "19-round-loss",
+      "title": "单局失败",
+      "designReference": "designs/ui/table/19-round-loss-v1.png",
+      "stateSpec": "designs/ui/table/19-round-loss.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-wide.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "coin",
+            "file": "assets/ui/runtime-kit/icons/coin.png",
+            "record": "assets/ui/runtime-kit/icons/coin.derivation.json"
+          },
+          {
+            "id": "refresh",
+            "file": "assets/ui/runtime-kit/icons/refresh.png",
+            "record": "assets/ui/runtime-kit/icons/refresh.derivation.json"
+          },
+          {
+            "id": "back",
+            "file": "assets/ui/runtime-kit/icons/back.png",
+            "record": "assets/ui/runtime-kit/icons/back.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.table-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [
+          {
+            "logicalId": "character.dao-child.idle",
+            "status": "awaiting_coordinator_binding"
+          },
+          {
+            "logicalId": "character.peach-cultivator.idle",
+            "status": "awaiting_coordinator_binding"
+          },
+          {
+            "logicalId": "character.gourd-elder.idle",
+            "status": "awaiting_coordinator_binding"
+          }
+        ],
+        "deckManifest": "assets/ui/manifest.json"
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "20-room-summary",
+      "title": "好友房总战绩",
+      "designReference": "designs/ui/table/20-room-summary-v1.png",
+      "stateSpec": "designs/ui/table/20-room-summary.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-wide.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "trophy",
+            "file": "assets/ui/runtime-kit/icons/trophy.png",
+            "record": "assets/ui/runtime-kit/icons/trophy.derivation.json"
+          },
+          {
+            "id": "friends",
+            "file": "assets/ui/runtime-kit/icons/friends.png",
+            "record": "assets/ui/runtime-kit/icons/friends.derivation.json"
+          },
+          {
+            "id": "share",
+            "file": "assets/ui/runtime-kit/icons/share.png",
+            "record": "assets/ui/runtime-kit/icons/share.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.table-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [
+          {
+            "logicalId": "character.dao-child.idle",
+            "status": "awaiting_coordinator_binding"
+          },
+          {
+            "logicalId": "character.peach-cultivator.idle",
+            "status": "awaiting_coordinator_binding"
+          },
+          {
+            "logicalId": "character.gourd-elder.idle",
+            "status": "awaiting_coordinator_binding"
+          }
+        ],
+        "deckManifest": "assets/ui/manifest.json"
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "21-table-settings",
+      "title": "牌桌内设置",
+      "designReference": "designs/ui/table/21-table-settings-v2.png",
+      "stateSpec": "designs/ui/table/21-table-settings.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-wide.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "settings",
+            "file": "assets/ui/runtime-kit/icons/settings.png",
+            "record": "assets/ui/runtime-kit/icons/settings.derivation.json"
+          },
+          {
+            "id": "sound",
+            "file": "assets/ui/runtime-kit/icons/sound.png",
+            "record": "assets/ui/runtime-kit/icons/sound.derivation.json"
+          },
+          {
+            "id": "music",
+            "file": "assets/ui/runtime-kit/icons/music.png",
+            "record": "assets/ui/runtime-kit/icons/music.derivation.json"
+          },
+          {
+            "id": "vibration",
+            "file": "assets/ui/runtime-kit/icons/vibration.png",
+            "record": "assets/ui/runtime-kit/icons/vibration.derivation.json"
+          },
+          {
+            "id": "back",
+            "file": "assets/ui/runtime-kit/icons/back.png",
+            "record": "assets/ui/runtime-kit/icons/back.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.table-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": "assets/ui/manifest.json"
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "22-replay-history",
+      "title": "战绩与回放",
+      "designReference": "designs/ui/table/22-replay-history-v2.png",
+      "stateSpec": "designs/ui/table/22-replay-history.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-wide.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "replay",
+            "file": "assets/ui/runtime-kit/icons/replay.png",
+            "record": "assets/ui/runtime-kit/icons/replay.derivation.json"
+          },
+          {
+            "id": "timer",
+            "file": "assets/ui/runtime-kit/icons/timer.png",
+            "record": "assets/ui/runtime-kit/icons/timer.derivation.json"
+          },
+          {
+            "id": "back",
+            "file": "assets/ui/runtime-kit/icons/back.png",
+            "record": "assets/ui/runtime-kit/icons/back.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.table-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": "assets/ui/manifest.json"
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "23-ranked-lobby",
+      "title": "排位大厅",
+      "designReference": "designs/ui/modes/23-ranked-lobby-v1.png",
+      "stateSpec": "designs/ui/modes/23-ranked-lobby.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "rank",
+            "file": "assets/ui/runtime-kit/icons/rank.png",
+            "record": "assets/ui/runtime-kit/icons/rank.derivation.json"
+          },
+          {
+            "id": "season",
+            "file": "assets/ui/runtime-kit/icons/season.png",
+            "record": "assets/ui/runtime-kit/icons/season.derivation.json"
+          },
+          {
+            "id": "gift",
+            "file": "assets/ui/runtime-kit/icons/gift.png",
+            "record": "assets/ui/runtime-kit/icons/gift.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "24-ranked-progress",
+      "title": "段位赛季进度",
+      "designReference": "designs/ui/modes/24-ranked-progress-v1.png",
+      "stateSpec": "designs/ui/modes/24-ranked-progress.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "rank",
+            "file": "assets/ui/runtime-kit/icons/rank.png",
+            "record": "assets/ui/runtime-kit/icons/rank.derivation.json"
+          },
+          {
+            "id": "star",
+            "file": "assets/ui/runtime-kit/icons/star.png",
+            "record": "assets/ui/runtime-kit/icons/star.derivation.json"
+          },
+          {
+            "id": "lock",
+            "file": "assets/ui/runtime-kit/icons/lock.png",
+            "record": "assets/ui/runtime-kit/icons/lock.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "25-ranked-result",
+      "title": "排位结算",
+      "designReference": "designs/ui/modes/25-ranked-result-v1.png",
+      "stateSpec": "designs/ui/modes/25-ranked-result.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "rank",
+            "file": "assets/ui/runtime-kit/icons/rank.png",
+            "record": "assets/ui/runtime-kit/icons/rank.derivation.json"
+          },
+          {
+            "id": "star",
+            "file": "assets/ui/runtime-kit/icons/star.png",
+            "record": "assets/ui/runtime-kit/icons/star.derivation.json"
+          },
+          {
+            "id": "trophy",
+            "file": "assets/ui/runtime-kit/icons/trophy.png",
+            "record": "assets/ui/runtime-kit/icons/trophy.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "26-tournament-lobby",
+      "title": "赛事大厅",
+      "designReference": "designs/ui/modes/26-tournament-lobby-v1.png",
+      "stateSpec": "designs/ui/modes/26-tournament-lobby.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "tournament",
+            "file": "assets/ui/runtime-kit/icons/tournament.png",
+            "record": "assets/ui/runtime-kit/icons/tournament.derivation.json"
+          },
+          {
+            "id": "timer",
+            "file": "assets/ui/runtime-kit/icons/timer.png",
+            "record": "assets/ui/runtime-kit/icons/timer.derivation.json"
+          },
+          {
+            "id": "trophy",
+            "file": "assets/ui/runtime-kit/icons/trophy.png",
+            "record": "assets/ui/runtime-kit/icons/trophy.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "27-tournament-detail",
+      "title": "赛事详情报名",
+      "designReference": "designs/ui/modes/27-tournament-detail-v2.png",
+      "stateSpec": "designs/ui/modes/27-tournament-detail.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "tournament",
+            "file": "assets/ui/runtime-kit/icons/tournament.png",
+            "record": "assets/ui/runtime-kit/icons/tournament.derivation.json"
+          },
+          {
+            "id": "timer",
+            "file": "assets/ui/runtime-kit/icons/timer.png",
+            "record": "assets/ui/runtime-kit/icons/timer.derivation.json"
+          },
+          {
+            "id": "gift",
+            "file": "assets/ui/runtime-kit/icons/gift.png",
+            "record": "assets/ui/runtime-kit/icons/gift.derivation.json"
+          },
+          {
+            "id": "check",
+            "file": "assets/ui/runtime-kit/icons/check.png",
+            "record": "assets/ui/runtime-kit/icons/check.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "28-tournament-waiting",
+      "title": "赛事候场晋级",
+      "designReference": "designs/ui/modes/28-tournament-waiting-v1.png",
+      "stateSpec": "designs/ui/modes/28-tournament-waiting.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "timer",
+            "file": "assets/ui/runtime-kit/icons/timer.png",
+            "record": "assets/ui/runtime-kit/icons/timer.derivation.json"
+          },
+          {
+            "id": "trophy",
+            "file": "assets/ui/runtime-kit/icons/trophy.png",
+            "record": "assets/ui/runtime-kit/icons/trophy.derivation.json"
+          },
+          {
+            "id": "friends",
+            "file": "assets/ui/runtime-kit/icons/friends.png",
+            "record": "assets/ui/runtime-kit/icons/friends.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "29-tournament-result",
+      "title": "赛事成绩",
+      "designReference": "designs/ui/modes/29-tournament-result-v2.png",
+      "stateSpec": "designs/ui/modes/29-tournament-result.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "trophy",
+            "file": "assets/ui/runtime-kit/icons/trophy.png",
+            "record": "assets/ui/runtime-kit/icons/trophy.derivation.json"
+          },
+          {
+            "id": "gift",
+            "file": "assets/ui/runtime-kit/icons/gift.png",
+            "record": "assets/ui/runtime-kit/icons/gift.derivation.json"
+          },
+          {
+            "id": "coin",
+            "file": "assets/ui/runtime-kit/icons/coin.png",
+            "record": "assets/ui/runtime-kit/icons/coin.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "30-puzzle-select",
+      "title": "残局关卡",
+      "designReference": "designs/ui/modes/30-puzzle-select-v1.png",
+      "stateSpec": "designs/ui/modes/30-puzzle-select.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "puzzle",
+            "file": "assets/ui/runtime-kit/icons/puzzle.png",
+            "record": "assets/ui/runtime-kit/icons/puzzle.derivation.json"
+          },
+          {
+            "id": "star",
+            "file": "assets/ui/runtime-kit/icons/star.png",
+            "record": "assets/ui/runtime-kit/icons/star.derivation.json"
+          },
+          {
+            "id": "lock",
+            "file": "assets/ui/runtime-kit/icons/lock.png",
+            "record": "assets/ui/runtime-kit/icons/lock.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "31-puzzle-play",
+      "title": "残局挑战",
+      "designReference": "designs/ui/modes/31-puzzle-play-v1.png",
+      "stateSpec": "designs/ui/modes/31-puzzle-play.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-wide.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "puzzle",
+            "file": "assets/ui/runtime-kit/icons/puzzle.png",
+            "record": "assets/ui/runtime-kit/icons/puzzle.derivation.json"
+          },
+          {
+            "id": "help",
+            "file": "assets/ui/runtime-kit/icons/help.png",
+            "record": "assets/ui/runtime-kit/icons/help.derivation.json"
+          },
+          {
+            "id": "refresh",
+            "file": "assets/ui/runtime-kit/icons/refresh.png",
+            "record": "assets/ui/runtime-kit/icons/refresh.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.table-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": "assets/ui/manifest.json"
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "32-puzzle-result",
+      "title": "残局结果",
+      "designReference": "designs/ui/modes/32-puzzle-result-v1.png",
+      "stateSpec": "designs/ui/modes/32-puzzle-result.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "star",
+            "file": "assets/ui/runtime-kit/icons/star.png",
+            "record": "assets/ui/runtime-kit/icons/star.derivation.json"
+          },
+          {
+            "id": "trophy",
+            "file": "assets/ui/runtime-kit/icons/trophy.png",
+            "record": "assets/ui/runtime-kit/icons/trophy.derivation.json"
+          },
+          {
+            "id": "refresh",
+            "file": "assets/ui/runtime-kit/icons/refresh.png",
+            "record": "assets/ui/runtime-kit/icons/refresh.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "33-character-select",
+      "title": "角色选择",
+      "designReference": "designs/ui/modes/33-character-select-v1.png",
+      "stateSpec": "designs/ui/modes/33-character-select.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "character",
+            "file": "assets/ui/runtime-kit/icons/character.png",
+            "record": "assets/ui/runtime-kit/icons/character.derivation.json"
+          },
+          {
+            "id": "check",
+            "file": "assets/ui/runtime-kit/icons/check.png",
+            "record": "assets/ui/runtime-kit/icons/check.derivation.json"
+          },
+          {
+            "id": "lock",
+            "file": "assets/ui/runtime-kit/icons/lock.png",
+            "record": "assets/ui/runtime-kit/icons/lock.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [
+          {
+            "logicalId": "character.dao-child.idle",
+            "status": "awaiting_coordinator_binding"
+          },
+          {
+            "logicalId": "character.peach-cultivator.idle",
+            "status": "awaiting_coordinator_binding"
+          },
+          {
+            "logicalId": "character.gourd-elder.idle",
+            "status": "awaiting_coordinator_binding"
+          }
+        ],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "34-character-detail",
+      "title": "角色详情",
+      "designReference": "designs/ui/modes/34-character-detail-v1.png",
+      "stateSpec": "designs/ui/modes/34-character-detail.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "character",
+            "file": "assets/ui/runtime-kit/icons/character.png",
+            "record": "assets/ui/runtime-kit/icons/character.derivation.json"
+          },
+          {
+            "id": "voice",
+            "file": "assets/ui/runtime-kit/icons/voice.png",
+            "record": "assets/ui/runtime-kit/icons/voice.derivation.json"
+          },
+          {
+            "id": "emoji",
+            "file": "assets/ui/runtime-kit/icons/emoji.png",
+            "record": "assets/ui/runtime-kit/icons/emoji.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [
+          {
+            "logicalId": "character.dao-child.idle",
+            "status": "awaiting_coordinator_binding"
+          },
+          {
+            "logicalId": "character.peach-cultivator.idle",
+            "status": "awaiting_coordinator_binding"
+          },
+          {
+            "logicalId": "character.gourd-elder.idle",
+            "status": "awaiting_coordinator_binding"
+          }
+        ],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "35-wardrobe",
+      "title": "装扮牌桌",
+      "designReference": "designs/ui/modes/35-wardrobe-v1.png",
+      "stateSpec": "designs/ui/modes/35-wardrobe.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "wardrobe",
+            "file": "assets/ui/runtime-kit/icons/wardrobe.png",
+            "record": "assets/ui/runtime-kit/icons/wardrobe.derivation.json"
+          },
+          {
+            "id": "profile",
+            "file": "assets/ui/runtime-kit/icons/profile.png",
+            "record": "assets/ui/runtime-kit/icons/profile.derivation.json"
+          },
+          {
+            "id": "lock",
+            "file": "assets/ui/runtime-kit/icons/lock.png",
+            "record": "assets/ui/runtime-kit/icons/lock.derivation.json"
+          },
+          {
+            "id": "check",
+            "file": "assets/ui/runtime-kit/icons/check.png",
+            "record": "assets/ui/runtime-kit/icons/check.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [
+          {
+            "logicalId": "character.dao-child.idle",
+            "status": "awaiting_coordinator_binding"
+          },
+          {
+            "logicalId": "character.peach-cultivator.idle",
+            "status": "awaiting_coordinator_binding"
+          },
+          {
+            "logicalId": "character.gourd-elder.idle",
+            "status": "awaiting_coordinator_binding"
+          }
+        ],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "36-shop",
+      "title": "商城",
+      "designReference": "designs/ui/modes/36-shop-v1.png",
+      "stateSpec": "designs/ui/modes/36-shop.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "shop",
+            "file": "assets/ui/runtime-kit/icons/shop.png",
+            "record": "assets/ui/runtime-kit/icons/shop.derivation.json"
+          },
+          {
+            "id": "coin",
+            "file": "assets/ui/runtime-kit/icons/coin.png",
+            "record": "assets/ui/runtime-kit/icons/coin.derivation.json"
+          },
+          {
+            "id": "token",
+            "file": "assets/ui/runtime-kit/icons/token.png",
+            "record": "assets/ui/runtime-kit/icons/token.derivation.json"
+          },
+          {
+            "id": "gift",
+            "file": "assets/ui/runtime-kit/icons/gift.png",
+            "record": "assets/ui/runtime-kit/icons/gift.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "37-item-detail",
+      "title": "商品详情与确认",
+      "designReference": "designs/ui/support/37-item-detail-v1.png",
+      "stateSpec": "designs/ui/support/37-item-detail.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "gift",
+            "file": "assets/ui/runtime-kit/icons/gift.png",
+            "record": "assets/ui/runtime-kit/icons/gift.derivation.json"
+          },
+          {
+            "id": "coin",
+            "file": "assets/ui/runtime-kit/icons/coin.png",
+            "record": "assets/ui/runtime-kit/icons/coin.derivation.json"
+          },
+          {
+            "id": "add",
+            "file": "assets/ui/runtime-kit/icons/add.png",
+            "record": "assets/ui/runtime-kit/icons/add.derivation.json"
+          },
+          {
+            "id": "back",
+            "file": "assets/ui/runtime-kit/icons/back.png",
+            "record": "assets/ui/runtime-kit/icons/back.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "38-wallet",
+      "title": "货币与兑换",
+      "designReference": "designs/ui/support/38-wallet-v1.png",
+      "stateSpec": "designs/ui/support/38-wallet.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "coin",
+            "file": "assets/ui/runtime-kit/icons/coin.png",
+            "record": "assets/ui/runtime-kit/icons/coin.derivation.json"
+          },
+          {
+            "id": "token",
+            "file": "assets/ui/runtime-kit/icons/token.png",
+            "record": "assets/ui/runtime-kit/icons/token.derivation.json"
+          },
+          {
+            "id": "replay",
+            "file": "assets/ui/runtime-kit/icons/replay.png",
+            "record": "assets/ui/runtime-kit/icons/replay.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "39-inventory",
+      "title": "背包",
+      "designReference": "designs/ui/support/39-inventory-v1.png",
+      "stateSpec": "designs/ui/support/39-inventory.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "inventory",
+            "file": "assets/ui/runtime-kit/icons/inventory.png",
+            "record": "assets/ui/runtime-kit/icons/inventory.derivation.json"
+          },
+          {
+            "id": "gift",
+            "file": "assets/ui/runtime-kit/icons/gift.png",
+            "record": "assets/ui/runtime-kit/icons/gift.derivation.json"
+          },
+          {
+            "id": "lock",
+            "file": "assets/ui/runtime-kit/icons/lock.png",
+            "record": "assets/ui/runtime-kit/icons/lock.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "40-player-profile",
+      "title": "个人资料",
+      "designReference": "designs/ui/support/40-player-profile-v1.png",
+      "stateSpec": "designs/ui/support/40-player-profile.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "profile",
+            "file": "assets/ui/runtime-kit/icons/profile.png",
+            "record": "assets/ui/runtime-kit/icons/profile.derivation.json"
+          },
+          {
+            "id": "rank",
+            "file": "assets/ui/runtime-kit/icons/rank.png",
+            "record": "assets/ui/runtime-kit/icons/rank.derivation.json"
+          },
+          {
+            "id": "trophy",
+            "file": "assets/ui/runtime-kit/icons/trophy.png",
+            "record": "assets/ui/runtime-kit/icons/trophy.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [
+          {
+            "logicalId": "character.dao-child.idle",
+            "status": "awaiting_coordinator_binding"
+          },
+          {
+            "logicalId": "character.peach-cultivator.idle",
+            "status": "awaiting_coordinator_binding"
+          },
+          {
+            "logicalId": "character.gourd-elder.idle",
+            "status": "awaiting_coordinator_binding"
+          }
+        ],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "41-friends",
+      "title": "好友与消息",
+      "designReference": "designs/ui/support/41-friends-v1.png",
+      "stateSpec": "designs/ui/support/41-friends.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "friends",
+            "file": "assets/ui/runtime-kit/icons/friends.png",
+            "record": "assets/ui/runtime-kit/icons/friends.derivation.json"
+          },
+          {
+            "id": "chat",
+            "file": "assets/ui/runtime-kit/icons/chat.png",
+            "record": "assets/ui/runtime-kit/icons/chat.derivation.json"
+          },
+          {
+            "id": "search",
+            "file": "assets/ui/runtime-kit/icons/search.png",
+            "record": "assets/ui/runtime-kit/icons/search.derivation.json"
+          },
+          {
+            "id": "add",
+            "file": "assets/ui/runtime-kit/icons/add.png",
+            "record": "assets/ui/runtime-kit/icons/add.derivation.json"
+          },
+          {
+            "id": "share",
+            "file": "assets/ui/runtime-kit/icons/share.png",
+            "record": "assets/ui/runtime-kit/icons/share.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [
+          {
+            "logicalId": "character.dao-child.idle",
+            "status": "awaiting_coordinator_binding"
+          },
+          {
+            "logicalId": "character.peach-cultivator.idle",
+            "status": "awaiting_coordinator_binding"
+          },
+          {
+            "logicalId": "character.gourd-elder.idle",
+            "status": "awaiting_coordinator_binding"
+          }
+        ],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "42-leaderboard",
+      "title": "排行榜",
+      "designReference": "designs/ui/support/42-leaderboard-v2.png",
+      "stateSpec": "designs/ui/support/42-leaderboard.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "rank",
+            "file": "assets/ui/runtime-kit/icons/rank.png",
+            "record": "assets/ui/runtime-kit/icons/rank.derivation.json"
+          },
+          {
+            "id": "friends",
+            "file": "assets/ui/runtime-kit/icons/friends.png",
+            "record": "assets/ui/runtime-kit/icons/friends.derivation.json"
+          },
+          {
+            "id": "refresh",
+            "file": "assets/ui/runtime-kit/icons/refresh.png",
+            "record": "assets/ui/runtime-kit/icons/refresh.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "43-daily-missions",
+      "title": "任务与成就",
+      "designReference": "designs/ui/support/43-daily-missions-v1.png",
+      "stateSpec": "designs/ui/support/43-daily-missions.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "task",
+            "file": "assets/ui/runtime-kit/icons/task.png",
+            "record": "assets/ui/runtime-kit/icons/task.derivation.json"
+          },
+          {
+            "id": "gift",
+            "file": "assets/ui/runtime-kit/icons/gift.png",
+            "record": "assets/ui/runtime-kit/icons/gift.derivation.json"
+          },
+          {
+            "id": "coin",
+            "file": "assets/ui/runtime-kit/icons/coin.png",
+            "record": "assets/ui/runtime-kit/icons/coin.derivation.json"
+          },
+          {
+            "id": "check",
+            "file": "assets/ui/runtime-kit/icons/check.png",
+            "record": "assets/ui/runtime-kit/icons/check.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "44-sign-in",
+      "title": "签到福利",
+      "designReference": "designs/ui/support/44-sign-in-v1.png",
+      "stateSpec": "designs/ui/support/44-sign-in.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "signin",
+            "file": "assets/ui/runtime-kit/icons/signin.png",
+            "record": "assets/ui/runtime-kit/icons/signin.derivation.json"
+          },
+          {
+            "id": "gift",
+            "file": "assets/ui/runtime-kit/icons/gift.png",
+            "record": "assets/ui/runtime-kit/icons/gift.derivation.json"
+          },
+          {
+            "id": "check",
+            "file": "assets/ui/runtime-kit/icons/check.png",
+            "record": "assets/ui/runtime-kit/icons/check.derivation.json"
+          },
+          {
+            "id": "lock",
+            "file": "assets/ui/runtime-kit/icons/lock.png",
+            "record": "assets/ui/runtime-kit/icons/lock.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "45-events",
+      "title": "活动中心",
+      "designReference": "designs/ui/support/45-events-v1.png",
+      "stateSpec": "designs/ui/support/45-events.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "events",
+            "file": "assets/ui/runtime-kit/icons/events.png",
+            "record": "assets/ui/runtime-kit/icons/events.derivation.json"
+          },
+          {
+            "id": "gift",
+            "file": "assets/ui/runtime-kit/icons/gift.png",
+            "record": "assets/ui/runtime-kit/icons/gift.derivation.json"
+          },
+          {
+            "id": "timer",
+            "file": "assets/ui/runtime-kit/icons/timer.png",
+            "record": "assets/ui/runtime-kit/icons/timer.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "46-mail",
+      "title": "邮件通知",
+      "designReference": "designs/ui/support/46-mail-v1.png",
+      "stateSpec": "designs/ui/support/46-mail.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "mail",
+            "file": "assets/ui/runtime-kit/icons/mail.png",
+            "record": "assets/ui/runtime-kit/icons/mail.derivation.json"
+          },
+          {
+            "id": "gift",
+            "file": "assets/ui/runtime-kit/icons/gift.png",
+            "record": "assets/ui/runtime-kit/icons/gift.derivation.json"
+          },
+          {
+            "id": "trash",
+            "file": "assets/ui/runtime-kit/icons/trash.png",
+            "record": "assets/ui/runtime-kit/icons/trash.derivation.json"
+          },
+          {
+            "id": "check",
+            "file": "assets/ui/runtime-kit/icons/check.png",
+            "record": "assets/ui/runtime-kit/icons/check.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "47-settings",
+      "title": "系统设置",
+      "designReference": "designs/ui/support/47-settings-v1.png",
+      "stateSpec": "designs/ui/support/47-settings.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "settings",
+            "file": "assets/ui/runtime-kit/icons/settings.png",
+            "record": "assets/ui/runtime-kit/icons/settings.derivation.json"
+          },
+          {
+            "id": "music",
+            "file": "assets/ui/runtime-kit/icons/music.png",
+            "record": "assets/ui/runtime-kit/icons/music.derivation.json"
+          },
+          {
+            "id": "sound",
+            "file": "assets/ui/runtime-kit/icons/sound.png",
+            "record": "assets/ui/runtime-kit/icons/sound.derivation.json"
+          },
+          {
+            "id": "voice",
+            "file": "assets/ui/runtime-kit/icons/voice.png",
+            "record": "assets/ui/runtime-kit/icons/voice.derivation.json"
+          },
+          {
+            "id": "vibration",
+            "file": "assets/ui/runtime-kit/icons/vibration.png",
+            "record": "assets/ui/runtime-kit/icons/vibration.derivation.json"
+          },
+          {
+            "id": "network",
+            "file": "assets/ui/runtime-kit/icons/network.png",
+            "record": "assets/ui/runtime-kit/icons/network.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "48-help-rules",
+      "title": "玩法规则与教学",
+      "designReference": "designs/ui/support/48-help-rules-v1.png",
+      "stateSpec": "designs/ui/support/48-help-rules.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "help",
+            "file": "assets/ui/runtime-kit/icons/help.png",
+            "record": "assets/ui/runtime-kit/icons/help.derivation.json"
+          },
+          {
+            "id": "classic",
+            "file": "assets/ui/runtime-kit/icons/classic.png",
+            "record": "assets/ui/runtime-kit/icons/classic.derivation.json"
+          },
+          {
+            "id": "puzzle",
+            "file": "assets/ui/runtime-kit/icons/puzzle.png",
+            "record": "assets/ui/runtime-kit/icons/puzzle.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": "assets/ui/manifest.json"
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "49-support-notices",
+      "title": "公告与客服",
+      "designReference": "designs/ui/support/49-support-notices-v1.png",
+      "stateSpec": "designs/ui/support/49-support-notices.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "help",
+            "file": "assets/ui/runtime-kit/icons/help.png",
+            "record": "assets/ui/runtime-kit/icons/help.derivation.json"
+          },
+          {
+            "id": "chat",
+            "file": "assets/ui/runtime-kit/icons/chat.png",
+            "record": "assets/ui/runtime-kit/icons/chat.derivation.json"
+          },
+          {
+            "id": "mail",
+            "file": "assets/ui/runtime-kit/icons/mail.png",
+            "record": "assets/ui/runtime-kit/icons/mail.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "50-shared-dialogs",
+      "title": "通用弹窗状态",
+      "designReference": "designs/ui/components/50-shared-dialogs-v1.png",
+      "stateSpec": "designs/ui/components/50-shared-dialogs.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "check",
+            "file": "assets/ui/runtime-kit/icons/check.png",
+            "record": "assets/ui/runtime-kit/icons/check.derivation.json"
+          },
+          {
+            "id": "close",
+            "file": "assets/ui/runtime-kit/icons/close.png",
+            "record": "assets/ui/runtime-kit/icons/close.derivation.json"
+          },
+          {
+            "id": "network",
+            "file": "assets/ui/runtime-kit/icons/network.png",
+            "record": "assets/ui/runtime-kit/icons/network.derivation.json"
+          },
+          {
+            "id": "gift",
+            "file": "assets/ui/runtime-kit/icons/gift.png",
+            "record": "assets/ui/runtime-kit/icons/gift.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "51-common-components",
+      "title": "控件状态规范",
+      "designReference": "designs/ui/components/51-common-components-v1.png",
+      "stateSpec": "designs/ui/components/51-common-components.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "check",
+            "file": "assets/ui/runtime-kit/icons/check.png",
+            "record": "assets/ui/runtime-kit/icons/check.derivation.json"
+          },
+          {
+            "id": "close",
+            "file": "assets/ui/runtime-kit/icons/close.png",
+            "record": "assets/ui/runtime-kit/icons/close.derivation.json"
+          },
+          {
+            "id": "add",
+            "file": "assets/ui/runtime-kit/icons/add.png",
+            "record": "assets/ui/runtime-kit/icons/add.derivation.json"
+          },
+          {
+            "id": "search",
+            "file": "assets/ui/runtime-kit/icons/search.png",
+            "record": "assets/ui/runtime-kit/icons/search.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "52-card-and-effects",
+      "title": "牌面身份与特效",
+      "designReference": "designs/ui/components/52-card-and-effects-v1.png",
+      "stateSpec": "designs/ui/components/52-card-and-effects.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "classic",
+            "file": "assets/ui/runtime-kit/icons/classic.png",
+            "record": "assets/ui/runtime-kit/icons/classic.derivation.json"
+          },
+          {
+            "id": "bomb",
+            "file": "assets/ui/runtime-kit/icons/bomb.png",
+            "record": "assets/ui/runtime-kit/icons/bomb.derivation.json"
+          },
+          {
+            "id": "rocket",
+            "file": "assets/ui/runtime-kit/icons/rocket.png",
+            "record": "assets/ui/runtime-kit/icons/rocket.derivation.json"
+          },
+          {
+            "id": "star",
+            "file": "assets/ui/runtime-kit/icons/star.png",
+            "record": "assets/ui/runtime-kit/icons/star.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": "assets/ui/manifest.json"
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "53-table-chat",
+      "title": "对局聊天表情语音",
+      "designReference": "designs/ui/table/53-table-chat-v2.png",
+      "stateSpec": "designs/ui/table/53-table-chat.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-wide.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "chat",
+            "file": "assets/ui/runtime-kit/icons/chat.png",
+            "record": "assets/ui/runtime-kit/icons/chat.derivation.json"
+          },
+          {
+            "id": "emoji",
+            "file": "assets/ui/runtime-kit/icons/emoji.png",
+            "record": "assets/ui/runtime-kit/icons/emoji.derivation.json"
+          },
+          {
+            "id": "voice",
+            "file": "assets/ui/runtime-kit/icons/voice.png",
+            "record": "assets/ui/runtime-kit/icons/voice.derivation.json"
+          },
+          {
+            "id": "mute",
+            "file": "assets/ui/runtime-kit/icons/mute.png",
+            "record": "assets/ui/runtime-kit/icons/mute.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.table-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": "assets/ui/manifest.json"
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "54-disband-vote",
+      "title": "好友房解散投票",
+      "designReference": "designs/ui/table/54-disband-vote-v1.png",
+      "stateSpec": "designs/ui/table/54-disband-vote.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-wide.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "friends",
+            "file": "assets/ui/runtime-kit/icons/friends.png",
+            "record": "assets/ui/runtime-kit/icons/friends.derivation.json"
+          },
+          {
+            "id": "timer",
+            "file": "assets/ui/runtime-kit/icons/timer.png",
+            "record": "assets/ui/runtime-kit/icons/timer.derivation.json"
+          },
+          {
+            "id": "check",
+            "file": "assets/ui/runtime-kit/icons/check.png",
+            "record": "assets/ui/runtime-kit/icons/check.derivation.json"
+          },
+          {
+            "id": "close",
+            "file": "assets/ui/runtime-kit/icons/close.png",
+            "record": "assets/ui/runtime-kit/icons/close.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.table-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": "assets/ui/manifest.json"
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "55-card-counter",
+      "title": "记牌器与倍数详情",
+      "designReference": "designs/ui/table/55-card-counter-v2.png",
+      "stateSpec": "designs/ui/table/55-card-counter.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-wide.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "classic",
+            "file": "assets/ui/runtime-kit/icons/classic.png",
+            "record": "assets/ui/runtime-kit/icons/classic.derivation.json"
+          },
+          {
+            "id": "timer",
+            "file": "assets/ui/runtime-kit/icons/timer.png",
+            "record": "assets/ui/runtime-kit/icons/timer.derivation.json"
+          },
+          {
+            "id": "help",
+            "file": "assets/ui/runtime-kit/icons/help.png",
+            "record": "assets/ui/runtime-kit/icons/help.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.table-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": "assets/ui/manifest.json"
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "56-offline",
+      "title": "单机练习",
+      "designReference": "designs/ui/core/56-offline-v1.png",
+      "stateSpec": "designs/ui/core/56-offline.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-wide.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "practice",
+            "file": "assets/ui/runtime-kit/icons/practice.png",
+            "record": "assets/ui/runtime-kit/icons/practice.derivation.json"
+          },
+          {
+            "id": "classic",
+            "file": "assets/ui/runtime-kit/icons/classic.png",
+            "record": "assets/ui/runtime-kit/icons/classic.derivation.json"
+          },
+          {
+            "id": "help",
+            "file": "assets/ui/runtime-kit/icons/help.png",
+            "record": "assets/ui/runtime-kit/icons/help.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.table-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": "assets/ui/manifest.json"
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "57-hero-skills",
+      "title": "英雄能力说明与选择",
+      "designReference": "designs/ui/core/57-hero-skills-v1.png",
+      "stateSpec": "designs/ui/core/57-hero-skills.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "character",
+            "file": "assets/ui/runtime-kit/icons/character.png",
+            "record": "assets/ui/runtime-kit/icons/character.derivation.json"
+          },
+          {
+            "id": "skills",
+            "file": "assets/ui/runtime-kit/icons/skills.png",
+            "record": "assets/ui/runtime-kit/icons/skills.derivation.json"
+          },
+          {
+            "id": "lock",
+            "file": "assets/ui/runtime-kit/icons/lock.png",
+            "record": "assets/ui/runtime-kit/icons/lock.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "58-season-shop",
+      "title": "赛季兑换",
+      "designReference": "designs/ui/core/58-season-shop-v1.png",
+      "stateSpec": "designs/ui/core/58-season-shop.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "season",
+            "file": "assets/ui/runtime-kit/icons/season.png",
+            "record": "assets/ui/runtime-kit/icons/season.derivation.json"
+          },
+          {
+            "id": "token",
+            "file": "assets/ui/runtime-kit/icons/token.png",
+            "record": "assets/ui/runtime-kit/icons/token.derivation.json"
+          },
+          {
+            "id": "gift",
+            "file": "assets/ui/runtime-kit/icons/gift.png",
+            "record": "assets/ui/runtime-kit/icons/gift.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "59-achievements-growth",
+      "title": "成就与成长手册",
+      "designReference": "designs/ui/support/59-achievements-growth-v2.png",
+      "stateSpec": "designs/ui/support/59-achievements-growth.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "star",
+            "file": "assets/ui/runtime-kit/icons/star.png",
+            "record": "assets/ui/runtime-kit/icons/star.derivation.json"
+          },
+          {
+            "id": "trophy",
+            "file": "assets/ui/runtime-kit/icons/trophy.png",
+            "record": "assets/ui/runtime-kit/icons/trophy.derivation.json"
+          },
+          {
+            "id": "gift",
+            "file": "assets/ui/runtime-kit/icons/gift.png",
+            "record": "assets/ui/runtime-kit/icons/gift.derivation.json"
+          },
+          {
+            "id": "lock",
+            "file": "assets/ui/runtime-kit/icons/lock.png",
+            "record": "assets/ui/runtime-kit/icons/lock.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    },
+    {
+      "pageId": "60-account-notices",
+      "title": "账号与版本通知",
+      "designReference": "designs/ui/support/60-account-notices-v1.png",
+      "stateSpec": "designs/ui/support/60-account-notices.states.json",
+      "artBindings": {
+        "frame": "assets/ui/runtime-kit/skins/window-normal.png",
+        "dialog": "assets/ui/runtime-kit/skins/dialog.png",
+        "title": "assets/ui/controls/title-primary.png",
+        "closeIcon": "assets/ui/runtime-kit/icons/close.png",
+        "primaryButton": "assets/ui/controls/primary-normal.png",
+        "primaryDisabled": "assets/ui/controls/primary-disabled.png",
+        "secondaryButton": "assets/ui/controls/secondary-normal.png",
+        "tabSelected": "assets/ui/controls/tab-selected.png",
+        "tabNormal": "assets/ui/controls/tab-normal.png",
+        "input": "assets/ui/controls/input-normal.png",
+        "icons": [
+          {
+            "id": "profile",
+            "file": "assets/ui/runtime-kit/icons/profile.png",
+            "record": "assets/ui/runtime-kit/icons/profile.derivation.json"
+          },
+          {
+            "id": "network",
+            "file": "assets/ui/runtime-kit/icons/network.png",
+            "record": "assets/ui/runtime-kit/icons/network.derivation.json"
+          },
+          {
+            "id": "refresh",
+            "file": "assets/ui/runtime-kit/icons/refresh.png",
+            "record": "assets/ui/runtime-kit/icons/refresh.derivation.json"
+          },
+          {
+            "id": "help",
+            "file": "assets/ui/runtime-kit/icons/help.png",
+            "record": "assets/ui/runtime-kit/icons/help.derivation.json"
+          }
+        ],
+        "listRow": "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "listRowSelected": "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "itemSlot": "assets/ui/runtime-kit/skins/item-normal.png",
+        "avatarFrame": "assets/ui/runtime-kit/skins/portrait-normal.png"
+      },
+      "externalArt": {
+        "background": {
+          "logicalId": "background.ui-garden",
+          "status": "awaiting_coordinator_binding"
+        },
+        "characters": [],
+        "deckManifest": null
+      },
+      "fontContract": "assets/ui/runtime-kit/font-contract.json",
+      "metricsContract": "assets/ui/runtime-kit/control-metrics.json",
+      "scope": "runtime artwork bindings; layout/runtime behavior separately validated; background/actor logical IDs intentionally pending root coordination"
+    }
+  ]
+}

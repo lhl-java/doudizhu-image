@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "id": "lose-cloud",
+  "kind": "derived_spriteframes",
+  "route": "derived",
+  "operation": "translate/rotate/scale/alpha generated static illustration onto fixed384RGBA canvas, no invented paint details",
+  "derivedFrom": [
+    {
+      "file": "assets/fx/lose-cloud.png",
+      "sha256": "7a841d2c8692458805b042ff99ac2650edf33d7df9311f36e075017117f717ff",
+      "record": "assets/fx/lose-cloud.png.generation.json",
+      "role": "runtime FX static sprite"
+    }
+  ],
+  "timeline": "assets/fx/lose-cloud.timeline.json",
+  "durationMs": 1100,
+  "loop": false,
+  "blend": "normal",
+  "event": "round_loss",
+  "anchor": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "frames": [
+    {
+      "file": "assets/fx/frames/lose-cloud/000.png",
+      "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+      "atMs": 0,
+      "durationMs": 73,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.0,
+        "scale": 0.7,
+        "x": -0.04,
+        "y": 0.0,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/lose-cloud/001.png",
+      "sha256": "65d3b980707d3e9f7e6a1f28ca1831acf069f5ff3125373cc75101d6cd2e99fc",
+      "atMs": 73,
+      "durationMs": 74,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.28388888888888886,
+        "scale": 0.7892222222222223,
+        "x": -0.02377777777777778,
+        "y": 0.0,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/lose-cloud/002.png",
+      "sha256": "8904995c51ded99df5e69ea96c557292342093ff5efa0ecea3a3eb94b3030062",
+      "atMs": 147,
+      "durationMs": 73,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.5716666666666667,
+        "scale": 0.8796666666666667,
+        "x": -0.0073333333333333375,
+        "y": 0.0,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/lose-cloud/003.png",
+      "sha256": "a0bcf51137c8750b47b4ee9e4cf31a681b58e0e4c3496180c385202f769c1a42",
+      "atMs": 220,
+      "durationMs": 73,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.6872340425531914,
+        "scale": 0.9268085106382979,
+        "x": 0.00425531914893617,
+        "y": -0.001702127659574468,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/lose-cloud/004.png",
+      "sha256": "e34734c51549067ef2b642d38ec84e73ef8a4907eb7d8097d5955a718bd0d2c0",
+      "atMs": 293,
+      "durationMs": 74,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.663936170212766,
+        "scale": 0.9392340425531915,
+        "x": 0.01202127659574468,
+        "y": -0.004808510638297872,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/lose-cloud/005.png",
+      "sha256": "bae0fc955f7eabc4dbf60c6402c5a22a6c09ba8bf1e62846207c0b13bd3bb3bc",
+      "atMs": 367,
+      "durationMs": 73,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.6403191489361701,
+        "scale": 0.9518297872340425,
+        "x": 0.019893617021276597,
+        "y": -0.007957446808510639,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/lose-cloud/006.png",
+      "sha256": "e20971ccacadcacd60fd906b9ec477a21a403735dc963f3c37760e2e92d66215",
+      "atMs": 440,
+      "durationMs": 73,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.6170212765957447,
+        "scale": 0.9642553191489361,
+        "x": 0.027659574468085108,
+        "y": -0.011063829787234043,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/lose-cloud/007.png",
+      "sha256": "ffc32793c6c69e1fc0f5eefc490f0dde0a0f3d47ad50be1e84a706c2f008bcc8",
+      "atMs": 513,
+      "durationMs": 74,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.5937234042553192,
+        "scale": 0.9766808510638298,
+        "x": 0.035425531914893615,
+        "y": -0.014170212765957447,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/lose-cloud/008.png",
+      "sha256": "dc446600c33414de3ba915edf7692afec69bc6ea6d5219d877980ee055c2e190",
+      "atMs": 587,
+      "durationMs": 73,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.5701063829787234,
+        "scale": 0.9892765957446809,
+        "x": 0.043297872340425536,
+        "y": -0.017319148936170214,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/lose-cloud/009.png",
+      "sha256": "3339289be7ecc87750c25b4049a256c98a758427c98033e8e11e2bb4c8c192a0",
+      "atMs": 660,
+      "durationMs": 73,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.5377777777777778,
+        "scale": 1.0017777777777779,
+        "x": 0.051333333333333335,
+        "y": -0.020666666666666667,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/lose-cloud/010.png",
+      "sha256": "ea1fd0598ce86d9e726225675557837885a11749e6c9d18bdbeccbcf2beca461",
+      "atMs": 733,
+      "durationMs": 74,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.4485555555555556,
+        "scale": 1.0147555555555556,
+        "x": 0.06106666666666667,
+        "y": -0.025533333333333335,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/lose-cloud/011.png",
+      "sha256": "4b1a1aaccdc4ba474e46f13380247e298a666ac99f204b8329bad2e3e74ffa50",
+      "atMs": 807,
+      "durationMs": 73,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.35811111111111116,
+        "scale": 1.0279111111111112,
+        "x": 0.07093333333333333,
+        "y": -0.03046666666666667,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/lose-cloud/012.png",
+      "sha256": "47da1f25d63410494cfa2877fb2865d9ce873e3f8dd7dda7184dde8f46836f8e",
+      "atMs": 880,
+      "durationMs": 73,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.26888888888888896,
+        "scale": 1.040888888888889,
+        "x": 0.08066666666666666,
+        "y": -0.035333333333333335,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/lose-cloud/013.png",
+      "sha256": "91ba028dbb1da16b110bdf14e4a63131b40165234c3ad0573260eca7f6358473",
+      "atMs": 953,
+      "durationMs": 74,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.1796666666666667,
+        "scale": 1.0538666666666667,
+        "x": 0.09040000000000001,
+        "y": -0.0402,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/lose-cloud/014.png",
+      "sha256": "5c5852d7cb67b1cd4a3159cad6f00b1cd9a3ca82bff9c4036a4ce542c4ea9b4d",
+      "atMs": 1027,
+      "durationMs": 73,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.08922222222222226,
+        "scale": 1.0670222222222223,
+        "x": 0.10026666666666667,
+        "y": -0.04513333333333333,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/lose-cloud/015.png",
+      "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+      "atMs": 1100,
+      "durationMs": 1,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.0,
+        "scale": 1.08,
+        "x": 0.11,
+        "y": -0.05,
+        "rotation": 0.0
+      }
+    }
+  ],
+  "bakedPlaybackDurationMs": 1101,
+  "timelineDurationMs": 1100,
+  "terminalSentinelMs": 1,
+  "onComplete": "hide-and-release",
+  "status": "derived_animation_ready_user_review"
+}

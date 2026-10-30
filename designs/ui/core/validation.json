@@ -1,0 +1,165 @@
+{
+  "batch": "core",
+  "checkedAt": "2026-10-26T11:20:16.938674+00:00",
+  "status": "passed",
+  "pagesChecked": 13,
+  "method": "Read-only byte hashes, PNG header, JSON provenance checks; no image mutation.",
+  "pages": [
+    {
+      "pageId": "01-launch-login",
+      "sha256": "f3c4de0c983dc567de89ea2e91dda4c98ac922bc0d7ba8d7ad490753037ac3b1",
+      "nativeResolution": [
+        1931,
+        814
+      ],
+      "originalHostOutputMatched": true,
+      "promptAndReceiptMatched": true,
+      "allFourReferencesMatched": true,
+      "modelQualityUnknownPreserved": true
+    },
+    {
+      "pageId": "02-lobby",
+      "sha256": "86f5e2879b919fcf8e81b3930ee8b3771a3ebc1bf8d614b687b673ad4c6f5bd6",
+      "nativeResolution": [
+        1931,
+        814
+      ],
+      "originalHostOutputMatched": true,
+      "promptAndReceiptMatched": true,
+      "allFourReferencesMatched": true,
+      "modelQualityUnknownPreserved": true
+    },
+    {
+      "pageId": "03-classic-select",
+      "sha256": "80af01c640dc92242ce3f0b9ec3e5efdba758109a423cf0ace21ad2843cf624a",
+      "nativeResolution": [
+        1932,
+        814
+      ],
+      "originalHostOutputMatched": true,
+      "promptAndReceiptMatched": true,
+      "allFourReferencesMatched": true,
+      "modelQualityUnknownPreserved": true
+    },
+    {
+      "pageId": "04-stakes-select",
+      "sha256": "7a4b773165ad7973a207477175594d9f5979930a82d8ed0873048cc9b3bb6e6e",
+      "nativeResolution": [
+        1931,
+        814
+      ],
+      "originalHostOutputMatched": true,
+      "promptAndReceiptMatched": true,
+      "allFourReferencesMatched": true,
+      "modelQualityUnknownPreserved": true
+    },
+    {
+      "pageId": "05-matchmaking",
+      "sha256": "50e241523f4b0bffc69f72e5de08425dec95ab4cfd4c3679bea951cd54477003",
+      "nativeResolution": [
+        1931,
+        814
+      ],
+      "originalHostOutputMatched": true,
+      "promptAndReceiptMatched": true,
+      "allFourReferencesMatched": true,
+      "modelQualityUnknownPreserved": true
+    },
+    {
+      "pageId": "06-friend-room-entry",
+      "sha256": "8c347b82767eca01f40ad50d52b5a53ba0583ea624ed2f32f988531c1aba70b1",
+      "nativeResolution": [
+        1931,
+        814
+      ],
+      "originalHostOutputMatched": true,
+      "promptAndReceiptMatched": true,
+      "allFourReferencesMatched": true,
+      "modelQualityUnknownPreserved": true
+    },
+    {
+      "pageId": "07-create-room",
+      "sha256": "5c98b35f7fec58d49592a9cfb956e540c6ab46fd4c31a4421020476d0e1bf398",
+      "nativeResolution": [
+        1931,
+        814
+      ],
+      "originalHostOutputMatched": true,
+      "promptAndReceiptMatched": true,
+      "allFourReferencesMatched": true,
+      "modelQualityUnknownPreserved": true
+    },
+    {
+      "pageId": "08-join-room",
+      "sha256": "fac53d5dd2c30bf2fd7d5d287e6244f4a133a3a5281b13df9bb5e9b4a3782aad",
+      "nativeResolution": [
+        1931,
+        814
+      ],
+      "originalHostOutputMatched": true,
+      "promptAndReceiptMatched": true,
+      "allFourReferencesMatched": true,
+      "modelQualityUnknownPreserved": true
+    },
+    {
+      "pageId": "09-room-waiting",
+      "sha256": "43dad2058f52739f80bf7ebf5273e7317cda4b563e0f7fbc49ccde20f11c868a",
+      "nativeResolution": [
+        1931,
+        814
+      ],
+      "originalHostOutputMatched": true,
+      "promptAndReceiptMatched": true,
+      "allFourReferencesMatched": true,
+      "modelQualityUnknownPreserved": true
+    },
+    {
+      "pageId": "10-invite-friends",
+      "sha256": "df93dd0ddaea2cef938ff50880ecbe007b084c6d4168b05a06f3dfc6ffda1f05",
+      "nativeResolution": [
+        1931,
+        814
+      ],
+      "originalHostOutputMatched": true,
+      "promptAndReceiptMatched": true,
+      "allFourReferencesMatched": true,
+      "modelQualityUnknownPreserved": true
+    },
+    {
+      "pageId": "56-offline",
+      "sha256": "323cb7a71683cf275e6c02a63392a84d26b6405a9bc4a21623fea59b1806a8bd",
+      "nativeResolution": [
+        1931,
+        814
+      ],
+      "originalHostOutputMatched": true,
+      "promptAndReceiptMatched": true,
+      "allFourReferencesMatched": true,
+      "modelQualityUnknownPreserved": true
+    },
+    {
+      "pageId": "57-hero-skills",
+      "sha256": "40ef60f3c6c9b763272bf72ff0380a785492251e4f91a08449f3d3fc32ac2bb5",
+      "nativeResolution": [
+        1931,
+        814
+      ],
+      "originalHostOutputMatched": true,
+      "promptAndReceiptMatched": true,
+      "allFourReferencesMatched": true,
+      "modelQualityUnknownPreserved": true
+    },
+    {
+      "pageId": "58-season-shop",
+      "sha256": "65ab4f93908a8c87ef76a29551fe248108c4c6f123f5bdc3f2bd632ffc056dce",
+      "nativeResolution": [
+        1931,
+        814
+      ],
+      "originalHostOutputMatched": true,
+      "promptAndReceiptMatched": true,
+      "allFourReferencesMatched": true,
+      "modelQualityUnknownPreserved": true
+    }
+  ]
+}

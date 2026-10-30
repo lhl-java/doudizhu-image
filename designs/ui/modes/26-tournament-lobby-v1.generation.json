@@ -1,0 +1,74 @@
+{
+  "file": "designs/ui/modes/26-tournament-lobby-v1.png",
+  "sha256": "1d300bb4057ec1df58dbf7a73fe6bdc55cbefdbe6191a8c5f62314171d40b1aa",
+  "generatedAt": "2026-10-26T07:58:38.595491+00:00",
+  "width": 1932,
+  "height": 814,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据",
+  "evidence": {
+    "receipt": "designs\\ui\\modes\\26-tournament-lobby-v1.receipt.json",
+    "returnedSourceFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a1772b-4166-7350-8473-50c63538bc86\\exec-85b44a34-a844-453b-80d9-1c7d27ecc285.png",
+    "toolReturnKeys": [
+      "image_url",
+      "output_hint"
+    ],
+    "imagePayloadOmitted": "原生PNG已保存并计算哈希，避免重复base64"
+  },
+  "prompt": "prompts/modes/26-tournament-lobby-v1.txt",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "主风格：配色材质控件"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "主风格：布局留白层级"
+    },
+    {
+      "file": "designs/characters/characters-trio-v1.png",
+      "sha256": "0c4dda70d4e16715527ed243a8d3efc2a401be2f06326b49601d1b184e7165ac",
+      "role": "同源角色身份设定"
+    }
+  ],
+  "review": {
+    "status": "design_ready_user_review",
+    "notes": "三赛事卡分别呈现进行中、未开始与已报名，参赛条件、奖励与操作入口可读，同源三人物和米白玉绿层级一致。",
+    "renderedStates": [
+      "开放",
+      "未开始",
+      "已报名"
+    ],
+    "userApproved": false
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "durationMs": 1000,
+  "loop": false,
+  "blend": "screen",
+  "event": "rank_promoted",
+  "keyframes": [
+    {
+      "atMs": 0,
+      "alpha": 0,
+      "scale": 0.6,
+      "x": 0,
+      "y": 0.22,
+      "rotation": 0
+    },
+    {
+      "atMs": 120,
+      "alpha": 1,
+      "scale": 0.85,
+      "x": 0,
+      "y": 0.12,
+      "rotation": 0
+    },
+    {
+      "atMs": 520,
+      "alpha": 1,
+      "scale": 1,
+      "x": 0,
+      "y": -0.05,
+      "rotation": 0
+    },
+    {
+      "atMs": 1000,
+      "alpha": 0,
+      "scale": 1,
+      "x": 0,
+      "y": -0.24,
+      "rotation": 0
+    }
+  ],
+  "interpolation": "linear",
+  "translationUnit": "fraction-of-384px-frame",
+  "stopEvent": null,
+  "kind": "fx",
+  "anchor": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "id": "rank-up",
+  "file": "assets/fx/rank-up.png",
+  "record": "assets/fx/rank-up.png.generation.json",
+  "width": 512,
+  "height": 512,
+  "z": 80,
+  "sourceNativeCell": {
+    "width": 512,
+    "height": 512
+  },
+  "staticSource": true,
+  "animationSource": "runtime transforms of generated static illustration, not AI video",
+  "maxDisplaySize": 384
+}

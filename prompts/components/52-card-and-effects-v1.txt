@@ -1,0 +1,23 @@
+Create a transparent native hand-painted GAME CARD / IDENTITY / EFFECT ASSET ATLAS for the Chinese game 斗地主, matching BOTH attached Daoist chibi UI reference images. Target 2048x1536 landscape 4:3. TRUE RGBA transparent background with no scenery, no checkerboard, no canvas, no title.
+Exactly sixteen separated assets, arranged in four columns and four rows with LARGE transparent gutters and consistent cell centers. Preserve complete edges, no overlaps:
+ROW 1:
+1. One upright poker card front BLANK inside: ivory silk-paper rounded rectangle, thin warm-gold decorative cloud-corner frame, completely clean empty interior for future native typeset ranks.
+2. Upright ace of SPADES, exact A and black spade at corners, single large black spade center.
+3. Upright ace of HEARTS, exact A and cinnabar red heart at corners, single red heart center.
+4. Upright ace of CLUBS, exact A and black club at corners, single black club center.
+ROW 2:
+1. Upright ace of DIAMONDS, exact A and red diamond at corners and center.
+2. Upright SMALL JOKER card with an original tiny jade Daoist gourd sprite, dark ink-green “JOKER” letters, same card frame.
+3. Upright BIG JOKER card with an original gold-red Daoist gourd sprite, cinnabar “JOKER” letters, same card frame.
+4. Upright JADE CARD BACK, gold cloud pattern, subtle centered Taiji gourd medallion, thin gold edge.
+ROW 3:
+1. Upright IVORY CARD BACK, ivory cloud pattern, jade Taiji medallion, gold edge.
+2. Large rounded jade-gold LANDLORD identity badge, a miniature jade-gold crown/gourd and exact clear Chinese “地主”.
+3. Large rounded ivory-gold FARMER identity badge, small green bamboo leaf and exact clear Chinese “农民”.
+4. Empty transparent interior rounded card-sized selection outline in soft jade light, discrete restrained highlight frame only.
+ROW 4:
+1. Polished chibi painted BOMB effect icon, small round black bomb with gold Daoist trim, short orange fuse, cloud puff, no text.
+2. Painted ROCKET effect icon, two cute gold/jade paper rockets with tiny warm flame trails, no text.
+3. SPRING victory emblem, open peach blossom with graceful warm-gold cloud wreath and exact Chinese “春天”.
+4. COUNTERSPRING emblem, jade leaf and turning golden cloud arrow wreath and exact Chinese “反春天”.
+All normal cards identical dimensions and frames; rank and suit must be consistent and legible, no mismatched suit corner. This board supplies reusable source art; do NOT draw a full 54-card miniature grid. High fidelity hand-painted materials, jade/ivory/warm gold palette with restrained red. No plastic shine, no Tencent logos, no characters from other games, no watermark. Transparent isolated assets.

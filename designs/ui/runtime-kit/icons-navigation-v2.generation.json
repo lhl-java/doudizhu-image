@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/ui/runtime-kit/icons-navigation-v2.png",
+  "sha256": "9f2cf1c655babed6de9cbb825dd85fd7226aef3af88675e2134e8cfb57048e26",
+  "generatedAt": "2026-10-26 16:54:39 UTC",
+  "generatedAtEvidence": "UTC recorded immediately after tool return, proxy completion time",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/doudizhu-image/designs/ui/runtime-kit/icons-navigation-v1.png",
+      "D:/work/doudizhu-image/references/style/01-mail-event.png",
+      "D:/work/doudizhu-image/references/style/team-ui-v2.png",
+      "D:/work/doudizhu-image/designs/characters/characters-trio-v1.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据；配置目标不等于显式锁定分支或max",
+  "prompt": "prompts/runtime-kit/icons-navigation-v2.txt",
+  "promptSha256": "8f58063671f19d156e01da21db5a4cd2a10a817e61f74fb6f77301919772fa50",
+  "references": [
+    {
+      "file": "designs/ui/runtime-kit/icons-navigation-v1.png",
+      "sha256": "e48c4df5c45d9d74cb1203e487c91ed02d15b400cb7037eefc5dec2e0c85f293",
+      "role": "AI edit target: initial navigation sheet"
+    },
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "actual approved style reference: mail"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "actual approved style reference: team"
+    },
+    {
+      "file": "designs/characters/characters-trio-v1.png",
+      "sha256": "0c4dda70d4e16715527ed243a8d3efc2a401be2f06326b49601d1b184e7165ac",
+      "role": "actual attached approved character identity reference"
+    }
+  ],
+  "nativeResolution": [
+    1254,
+    1254
+  ],
+  "exportOperation": "byte-identical copy; no resize/redraw",
+  "alpha": {
+    "mode": "RGBA",
+    "extrema": [
+      0,
+      255
+    ],
+    "zeroPixels": 786096,
+    "partialPixels": 784980,
+    "opaquePixels": 1440
+  },
+  "evidence": {
+    "receipt": "designs/ui/runtime-kit/icons-navigation-v2.receipt.json",
+    "sourcePath": "C:\\Users\\luyua\\.codex\\generated_images\\01a1772b-71a9-7f61-b67a-7c35bfc09f10\\exec-585b808a-ad13-42d9-bc3a-6f2d0b904046.png",
+    "toolReturnKeys": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "inspection": {
+    "status": "design_ready_user_review",
+    "notes": [
+      "实际看图：内容与row-major清单一致，导航v2道童身份已修正",
+      "等分网格可能穿越原生图标边缘；采用全局alpha>16零像素通道自适应切分，独立输出无可见主体裁损"
+    ],
+    "slicingStatus": "adaptive_crop_passed",
+    "hasActualTransparency": true
+  },
+  "editedFrom": {
+    "file": "designs/ui/runtime-kit/icons-navigation-v1.png",
+    "sha256": "e48c4df5c45d9d74cb1203e487c91ed02d15b400cb7037eefc5dec2e0c85f293",
+    "generationRecord": "designs/ui/runtime-kit/icons-navigation-v1.generation.json",
+    "sourceImageRetained": false,
+    "note": "Superseded image removed after current v2 art/crops/links verified; historical text/hash retained"
+  }
+}

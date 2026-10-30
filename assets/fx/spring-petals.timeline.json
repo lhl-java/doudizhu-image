@@ -1,0 +1,61 @@
+{
+  "durationMs": 1500,
+  "loop": false,
+  "blend": "normal",
+  "event": "spring",
+  "keyframes": [
+    {
+      "atMs": 0,
+      "alpha": 0,
+      "scale": 0.75,
+      "x": -0.12,
+      "y": -0.18,
+      "rotation": -12
+    },
+    {
+      "atMs": 150,
+      "alpha": 1,
+      "scale": 0.85,
+      "x": -0.06,
+      "y": -0.12,
+      "rotation": -5
+    },
+    {
+      "atMs": 850,
+      "alpha": 0.9,
+      "scale": 1,
+      "x": 0.08,
+      "y": 0.06,
+      "rotation": 12
+    },
+    {
+      "atMs": 1500,
+      "alpha": 0,
+      "scale": 1.05,
+      "x": 0.16,
+      "y": 0.22,
+      "rotation": 25
+    }
+  ],
+  "interpolation": "linear",
+  "translationUnit": "fraction-of-384px-frame",
+  "stopEvent": null,
+  "kind": "fx",
+  "anchor": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "id": "spring-petals",
+  "file": "assets/fx/spring-petals.png",
+  "record": "assets/fx/spring-petals.png.generation.json",
+  "width": 512,
+  "height": 512,
+  "z": 80,
+  "sourceNativeCell": {
+    "width": 512,
+    "height": 512
+  },
+  "staticSource": true,
+  "animationSource": "runtime transforms of generated static illustration, not AI video",
+  "maxDisplaySize": 384
+}

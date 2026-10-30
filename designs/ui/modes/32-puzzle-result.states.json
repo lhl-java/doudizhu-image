@@ -1,0 +1,82 @@
+{
+  "id": "32-puzzle-result",
+  "title": "残局结果",
+  "primaryArtwork": "designs/ui/modes/32-puzzle-result-v1.png",
+  "controls": [
+    "成功/失败",
+    "星级",
+    "重试",
+    "下一关"
+  ],
+  "states": [
+    {
+      "name": "成功",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/modes/32-puzzle-result-v1.png",
+      "title": "挑战成功",
+      "copy": "第4关，步数6，使用提示0，铜钱100。",
+      "behavior": "展示三星、结算统计及重玩/下一关；奖励按真实回执更新。",
+      "buttons": [
+        "重玩本关",
+        "下一关"
+      ],
+      "dependencies": [],
+      "designEvidence": "原画可见状态，或实际已生成同源透明控件+明确原生文字与行为；不是额外AI整屏生成"
+    },
+    {
+      "name": "失败",
+      "coverage": "shared_component",
+      "renderedIn": null,
+      "title": "挑战未完成",
+      "copy": "这次没能率先出完手牌，再试一次吧。",
+      "behavior": "隐藏成功奖励，保留本关重试与关卡列表。",
+      "buttons": [
+        "返回关卡",
+        "重试"
+      ],
+      "dependencies": [
+        "assets/ui/controls/panel.png",
+        "assets/ui/controls/primary-normal.png",
+        "assets/ui/controls/primary-disabled.png",
+        "assets/ui/controls/secondary-normal.png",
+        "assets/ui/controls/tab-selected.png",
+        "assets/ui/manifest.json"
+      ],
+      "designEvidence": "原画可见状态，或实际已生成同源透明控件+明确原生文字与行为；不是额外AI整屏生成"
+    },
+    {
+      "name": "全部完成",
+      "coverage": "shared_component",
+      "renderedIn": null,
+      "title": "全部关卡已完成",
+      "copy": "当前难度的关卡已全部通关。",
+      "behavior": "下一关入口替换为返回关卡；已获得奖励不可重复发放。",
+      "buttons": [
+        "返回关卡",
+        "重玩本关"
+      ],
+      "dependencies": [
+        "assets/ui/controls/panel.png",
+        "assets/ui/controls/primary-normal.png",
+        "assets/ui/controls/primary-disabled.png",
+        "assets/ui/controls/secondary-normal.png",
+        "assets/ui/controls/tab-selected.png",
+        "assets/ui/manifest.json"
+      ],
+      "designEvidence": "原画可见状态，或实际已生成同源透明控件+明确原生文字与行为；不是额外AI整屏生成"
+    }
+  ],
+  "dynamicText": "昵称、余额、币种、数量、期限、步骤和回执由同一产品配置及原生文字层提供；原画为设计示意。",
+  "sharedDependencies": [
+    "assets/ui/controls/panel.png",
+    "assets/ui/controls/primary-normal.png",
+    "assets/ui/controls/primary-disabled.png",
+    "assets/ui/controls/secondary-normal.png",
+    "assets/ui/controls/tab-selected.png",
+    "assets/ui/manifest.json"
+  ],
+  "status": "design_ready_user_review",
+  "inspectionNotes": [
+    "已实际看image_gen返回原图：第4关、成功、三星、步数6、提示0、铜钱100、重玩和下一关完整可读；角色脚与按钮均完整。"
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "file": "preview/integration/table-day.png",
+  "sha256": "ec4f526c4b58da46ce49c8f1f075ff4d139def4e1cc0720bc4c629d607592778",
+  "width": 1932,
+  "height": 815,
+  "operation": "Offline Pillow composition of existing final art plus native Chinese text; downscaled sprites and nine-slice UI, no AI generation or browser rendering.",
+  "browserScreenshot": false,
+  "detail": "Layering check: independent scenery, transparent table and three characters, exact card faces, native text and nine-slice controls.",
+  "createdAt": "2026-10-28T07:51:24.481597+00:00",
+  "derivedFrom": [
+    {
+      "file": "assets/characters/daotong/master.png",
+      "sha256": "38ba45b8c3dac51539dd72cef264867c2636670341995ab42f71aecdfc42cb7e"
+    },
+    {
+      "file": "assets/characters/hulu/master.png",
+      "sha256": "eb4fa72acfcb3e69610b208e46c70428f9aa0127bc014f256ccb6593d93630fe"
+    },
+    {
+      "file": "assets/characters/taohua/master.png",
+      "sha256": "06bec073cdcec9d47c9da586168e229c74f2d3c72deb5ae91e1509db378cace3"
+    },
+    {
+      "file": "assets/scenes/courtyard-day.png",
+      "sha256": "f8203722e5ad59e0bd94661728146576a8d21c81efde2d306a7bd6092e366d5a"
+    },
+    {
+      "file": "assets/scenes/jade-table-runtime.png",
+      "sha256": "ed7f7f3858c4d569dd741eb0f02aa03978216c551e3efe2a344c2eb9684c1451"
+    },
+    {
+      "file": "assets/ui/cards-source/landlord.png",
+      "sha256": "3dfee5ad7d76c3b638f3cfeb0b19303ad7ef1fdcaffb4074f26fa38f7425bc93"
+    },
+    {
+      "file": "assets/ui/cards/clubs-6.png",
+      "sha256": "3f44df12a4fc174c248d8f9f6333e2a7295be8840a847daa9c4f3530e6c19746"
+    },
+    {
+      "file": "assets/ui/cards/clubs-8.png",
+      "sha256": "a6bcc5121332146f022c6f5b9301f1580860d40fa56f898412ade91abdb26cb4"
+    },
+    {
+      "file": "assets/ui/cards/clubs-J.png",
+      "sha256": "dee018718be32458bbea38a0f990dc71aeb52225f9ab85a9bdc8b61961705786"
+    },
+    {
+      "file": "assets/ui/cards/clubs-Q.png",
+      "sha256": "64d8b9c18d639ce15dc9f47a410fdebd23e14739b2dfd991f751b7c45ba402eb"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-3.png",
+      "sha256": "8e2baa8cd4bb7e6e891083b0cec61e812d88759f4a34b5146699909da35879a8"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-7.png",
+      "sha256": "47b6b77801195c5eed1f315d67b40ff5d777e07b613b4fc5ec4a6d14e2d624ab"
+    },
+    {
+      "file": "assets/ui/cards/hearts-10.png",
+      "sha256": "265e637c676d1383ee7ca8880d051dcbe6103002005ccb302527e82c6363d712"
+    },
+    {
+      "file": "assets/ui/cards/hearts-7.png",
+      "sha256": "a1c7f079b24c62474bb6116ccf7f6e2142092cf2c209e194c75a039eeba8be82"
+    },
+    {
+      "file": "assets/ui/cards/hearts-9.png",
+      "sha256": "7c7d2fa8ab00f54c9cdd4b67fd08b79da14fe17bd512d0aa1da75a279033593f"
+    },
+    {
+      "file": "assets/ui/cards/hearts-A.png",
+      "sha256": "9f2dcce97220cc85661fb6551f777d6289dc088f485a6fe3034c644f1e6a58c4"
+    },
+    {
+      "file": "assets/ui/cards/hearts-K.png",
+      "sha256": "2a6cc03073e56fdf610f93f0e9a9d7587a3375d7114a4bd02fdff9a236825ae5"
+    },
+    {
+      "file": "assets/ui/cards/hearts-Q.png",
+      "sha256": "573c8e85c1175872d7216d11e4da1eae86aae41e630a99289f3231ccfbd6fe7b"
+    },
+    {
+      "file": "assets/ui/cards/spades-2.png",
+      "sha256": "8608887cdfe8180f2c55ecd390861c54f37ecab05d06595246a2ae2dcfbc81b1"
+    },
+    {
+      "file": "assets/ui/cards/spades-5.png",
+      "sha256": "e890b180516ec511ea4ef971ec44e21839baed1d3c310477759f2434b9f3ddcf"
+    },
+    {
+      "file": "assets/ui/cards/spades-7.png",
+      "sha256": "e9725f7ba1597cf7b31d3c43d4543d16c61505e25b2f1ad1cf0e7c5b6f912cc2"
+    },
+    {
+      "file": "assets/ui/cards/spades-9.png",
+      "sha256": "f972070bc30e3ce972a0f29d5aac3a71d9120e0d2ab5e5f355b137147d5b3901"
+    },
+    {
+      "file": "assets/ui/cards/spades-A.png",
+      "sha256": "981605aeb34fe49a9e9bb552f2aee61609f317cbfa1d986203c9350155a444ce"
+    },
+    {
+      "file": "assets/ui/cards/spades-K.png",
+      "sha256": "8819cddcd6e1cec6bf483cfa1fae20332b4b30b9ba93d444276971643f16b4dc"
+    },
+    {
+      "file": "assets/ui/controls/panel.png",
+      "sha256": "8cea325f107b9dae1b16addf4d4c5b3987defc6fef98dc89d65b0108c1321d6a"
+    },
+    {
+      "file": "assets/ui/controls/primary-normal.png",
+      "sha256": "a2aa9afff3b9ef559a23ddef8d1b991691c09a609b7ea96b453c56c586b5f021"
+    },
+    {
+      "file": "assets/ui/controls/secondary-normal.png",
+      "sha256": "9ba4a890ce8dc82f27a3468a1b8aad4586920da8111a35bc63ad1b801c93bd3d"
+    }
+  ]
+}

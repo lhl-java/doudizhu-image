@@ -1,0 +1,189 @@
+{
+  "id": "26-tournament-lobby",
+  "title": "赛事大厅",
+  "primaryArtwork": "designs/ui/modes/26-tournament-lobby-v1.png",
+  "controls": [
+    "赛事分类",
+    "报名时间",
+    "奖励",
+    "入口"
+  ],
+  "states": [
+    {
+      "name": "开放",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/modes/26-tournament-lobby-v1.png",
+      "interaction": "立即报名只打开27详情，不能绕过条件检查直接入场。",
+      "nativeCopy": [
+        "可报名赛事",
+        "{tournament.name} · {tournament.formatLabel}",
+        "立即报名",
+        "赛事规则"
+      ],
+      "controls": [
+        {
+          "file": "assets/ui/controls/primary-normal.png",
+          "nativeText": "立即报名",
+          "enabled": true
+        },
+        {
+          "file": "assets/ui/controls/secondary-normal.png",
+          "nativeText": "赛事规则",
+          "enabled": true
+        }
+      ],
+      "assetFilesVerified": true,
+      "nativeText": {
+        "title": "可报名赛事",
+        "body": "{tournament.name} · {tournament.formatLabel}",
+        "primary": "立即报名",
+        "secondary": "赛事规则"
+      }
+    },
+    {
+      "name": "未开始",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/modes/26-tournament-lobby-v1.png",
+      "interaction": "预约显示已预约反馈，未开始时进入牌局禁用。",
+      "nativeCopy": [
+        "赛事尚未开放",
+        "开赛时间：{tournament.startAt}",
+        "预约提醒",
+        "查看详情"
+      ],
+      "controls": [
+        {
+          "file": "assets/ui/controls/primary-normal.png",
+          "nativeText": "预约提醒",
+          "enabled": true
+        },
+        {
+          "file": "assets/ui/controls/secondary-normal.png",
+          "nativeText": "查看详情",
+          "enabled": true
+        }
+      ],
+      "assetFilesVerified": true,
+      "nativeText": {
+        "title": "赛事尚未开放",
+        "body": "开赛时间：{tournament.startAt}",
+        "primary": "预约提醒",
+        "secondary": "查看详情"
+      }
+    },
+    {
+      "name": "已报名",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/modes/26-tournament-lobby-v1.png",
+      "interaction": "查看详情进入27；取消按退赛规则二次确认并以回执更新。",
+      "nativeCopy": [
+        "已报名",
+        "你已报名{tournament.name}。开赛后请保持在线。",
+        "查看详情",
+        "取消报名"
+      ],
+      "controls": [
+        {
+          "file": "assets/ui/controls/primary-normal.png",
+          "nativeText": "查看详情",
+          "enabled": true
+        },
+        {
+          "file": "assets/ui/controls/secondary-normal.png",
+          "nativeText": "取消报名",
+          "enabled": true
+        }
+      ],
+      "assetFilesVerified": true,
+      "nativeText": {
+        "title": "已报名",
+        "body": "你已报名{tournament.name}。开赛后请保持在线。",
+        "primary": "查看详情",
+        "secondary": "取消报名"
+      }
+    },
+    {
+      "name": "结束",
+      "coverage": "shared_component",
+      "renderedIn": null,
+      "interaction": "关闭报名入口，查看29结果，不重新扣除报名资源。",
+      "nativeCopy": [
+        "赛事已结束",
+        "{tournament.name}已结束，可查看个人成绩与奖励。",
+        "查看结果",
+        "返回赛事"
+      ],
+      "controls": [
+        {
+          "file": "assets/ui/controls/primary-normal.png",
+          "nativeText": "查看结果",
+          "enabled": true
+        },
+        {
+          "file": "assets/ui/controls/secondary-normal.png",
+          "nativeText": "返回赛事",
+          "enabled": true
+        }
+      ],
+      "composition": {
+        "kind": "opaque-shared-state-panel-over-same-page-skin",
+        "sourceArtwork": "designs/ui/modes/26-tournament-lobby-v1.png",
+        "panel": "assets/ui/controls/panel.png",
+        "titlePlate": "assets/ui/controls/title-primary.png",
+        "layers": [
+          {
+            "file": "assets/ui/controls/panel.png",
+            "role": "米白不透明状态内容层，覆盖原状态文字与不适用的胜利/奖励内容"
+          },
+          {
+            "file": "assets/ui/controls/title-primary.png",
+            "role": "标题牌，标题为nativeText.title"
+          },
+          {
+            "nativeText": "nativeText.body",
+            "role": "正文与动态数据"
+          },
+          {
+            "file": "assets/ui/controls/primary-normal.png",
+            "role": "主动作或禁用状态，标签为nativeText.primary"
+          },
+          {
+            "file": "assets/ui/controls/secondary-normal.png",
+            "role": "返回/次动作，标签为nativeText.secondary"
+          }
+        ],
+        "hideFromPrimaryArtwork": [
+          "原状态标题和结果文案",
+          "原奖励格或旧星级数据（该状态不适用时）",
+          "原庆祝人物/胜利字样（失利或淘汰状态）"
+        ],
+        "nativeData": "使用同一回执更新数字、段位、排名、开始时间、报名状态、奖励资格；不从整屏示意图读取。",
+        "keepSourceAspect": true,
+        "separateRasterVariantGenerated": false
+      },
+      "assetFilesVerified": true,
+      "nativeText": {
+        "title": "赛事已结束",
+        "body": "{tournament.name}已结束，可查看个人成绩与奖励。",
+        "primary": "查看结果",
+        "secondary": "返回赛事"
+      }
+    }
+  ],
+  "dynamicText": "昵称、积分、时间、价格、进度及规则由客户端与服务端原生文字提供；图内均为美术示意。",
+  "sharedDependencies": [
+    "assets/ui/controls/panel.png",
+    "assets/ui/controls/title-primary.png",
+    "assets/ui/controls/primary-normal.png",
+    "assets/ui/controls/primary-disabled.png",
+    "assets/ui/controls/secondary-normal.png",
+    "assets/ui/controls/secondary-disabled.png",
+    "assets/ui/controls/progress.png",
+    "assets/ui/controls/avatar-frame.png",
+    "assets/ui/controls/tab-selected.png",
+    "assets/ui/controls/tab-normal.png"
+  ],
+  "notes": "选用主图为独立已生成画面；其他语义状态用下列真实公共素材与原生文字组装。shared_component表示完整组成设计，未冒称另有整屏生成图。接入时使用原画皮肤与动态区域，不把整屏PNG内示例数字作为业务真值。",
+  "dynamicCopySource": "designs/ui/modes/demo-data-contract-existing.json + 同tournamentId/seasonId/playerId的服务端回执",
+  "requiredStatesComplete": true
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/fx/rocket-trail.png",
+  "sha256": "e3e81846329d8e00df32c3ad20b826e8a2c32135533ac96b1350f0b50f556edb",
+  "width": 512,
+  "height": 512,
+  "format": "PNG",
+  "createdAt": "2026-10-26T20:27:26.538605+00:00",
+  "route": "derived",
+  "art_source": "existing",
+  "tool": "Pillow/NumPy/SciPy deterministic asset processing",
+  "operation": "all visible connected components assigned by majority cell; alpha 5..16 halo assigned to nearest owned component; alpha<=4 cleared; ownership crop; uniform downscale only; center on 512 transparent safe canvas",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Follow derivedFrom source generation record; processing is not new AI generation",
+  "derivedFrom": [
+    {
+      "file": "designs/runtime-scenes-20261026/fx-sheet-a.png",
+      "sha256": "81581f74fcbdfa2cc468f75a9ad9da7a655b4d5ccd3765613391092b1ecd8e11",
+      "record": "designs/runtime-scenes-20261026/fx-sheet-a.png.generation.json",
+      "role": "generated transparent FX sheet"
+    }
+  ],
+  "alphaQA": {
+    "mode": "RGBA",
+    "alphaMin": 0,
+    "alphaMax": 253,
+    "transparentPixels": 210580,
+    "softAlphaPixels": 51564,
+    "edgeVisiblePixelsAbove16": 0,
+    "bboxVisibleAbove16": [
+      110,
+      89,
+      401,
+      423
+    ],
+    "status": "passed"
+  },
+  "visualReview": {
+    "status": "design_ready_user_review",
+    "note": "已实际查看原生场景与透明素材在明/暗底的组合；无字无UI无人，风格匹配；FX按所属组件保全切片，透明留白完整。保持原始QA告警记录；动画为静态源transform派生，不是AI视频。"
+  },
+  "sourceCell": {
+    "row": 1,
+    "col": 0,
+    "nominalBox": [
+      0,
+      512,
+      512,
+      1024
+    ]
+  },
+  "ownedCropBox": [
+    42,
+    524,
+    459,
+    996
+  ],
+  "uniformScale": 0.7203389830508474,
+  "noLargestComponentFiltering": true
+}

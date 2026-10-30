@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/fx/loading-ring.png",
+  "sha256": "111b7d5c9a2c9570b552aa1e8a947f56ab867be743dcf7a144bd3b4c94973cdc",
+  "width": 512,
+  "height": 512,
+  "format": "PNG",
+  "createdAt": "2026-10-26T20:27:29.045878+00:00",
+  "route": "derived",
+  "art_source": "existing",
+  "tool": "Pillow/NumPy/SciPy deterministic asset processing",
+  "operation": "all visible connected components assigned by majority cell; alpha 5..16 halo assigned to nearest owned component; alpha<=4 cleared; ownership crop; uniform downscale only; center on 512 transparent safe canvas",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Follow derivedFrom source generation record; processing is not new AI generation",
+  "derivedFrom": [
+    {
+      "file": "designs/runtime-scenes-20261026/fx-sheet-b.png",
+      "sha256": "77d4ce2266436f84d6141a14827ab71d24ff03ac6a96bbf7748a5166101b5851",
+      "record": "designs/runtime-scenes-20261026/fx-sheet-b.png.generation.json",
+      "role": "generated transparent FX sheet"
+    }
+  ],
+  "alphaQA": {
+    "mode": "RGBA",
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "transparentPixels": 212658,
+    "softAlphaPixels": 49468,
+    "edgeVisiblePixelsAbove16": 0,
+    "bboxVisibleAbove16": [
+      91,
+      90,
+      424,
+      420
+    ],
+    "status": "passed"
+  },
+  "visualReview": {
+    "status": "design_ready_user_review",
+    "note": "已实际查看原生场景与透明素材在明/暗底的组合；无字无UI无人，风格匹配；FX按所属组件保全切片，透明留白完整。保持原始QA告警记录；动画为静态源transform派生，不是AI视频。"
+  },
+  "sourceCell": {
+    "row": 1,
+    "col": 2,
+    "nominalBox": [
+      1024,
+      512,
+      1536,
+      1024
+    ]
+  },
+  "ownedCropBox": [
+    1105,
+    591,
+    1478,
+    955
+  ],
+  "uniformScale": 0.9115281501340483,
+  "noLargestComponentFiltering": true
+}

@@ -1,0 +1,45 @@
+{
+  "id": "daotong_ink",
+  "file": "assets/characters/daotong/costumes/ink.png",
+  "record": "assets/characters/daotong/costumes/ink.derivation.json",
+  "kind": "character_costume",
+  "width": 1024,
+  "height": 1024,
+  "anchor": [
+    512,
+    920
+  ],
+  "sha256": "565a45196d14860bfcf5112f1c86550538a4faae511576cfb72481a214686ab3",
+  "operation": "AI-generated-costume-variant-cropped-and-scaled-with-daotong-fixed-profile",
+  "derivedFrom": {
+    "file": "designs/characters/runtime-20261026/daotong-costume-ink-v1.png",
+    "sha256": "d824e52740794812bf81a89bdac83042e500997bfb6422ebf4426523fb6aee2f",
+    "record": "designs/characters/runtime-20261026/daotong-costume-ink-v1.generation.json"
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "significantBorderPixels": 0,
+  "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+  "art_source": "existing",
+  "status": "asset_ready_user_review",
+  "costumeName": "暮色墨衣",
+  "characterId": "daotong",
+  "sourceRect": [
+    169,
+    27,
+    1159,
+    1225
+  ],
+  "sourceAnchor": [
+    664.0,
+    1219
+  ],
+  "fixedScale": 0.6739679865206403,
+  "offset": [
+    178,
+    117
+  ],
+  "noUpscale": true
+}

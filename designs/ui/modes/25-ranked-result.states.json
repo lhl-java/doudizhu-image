@@ -1,0 +1,190 @@
+{
+  "id": "25-ranked-result",
+  "title": "排位结算",
+  "primaryArtwork": "designs/ui/modes/25-ranked-result-v1.png",
+  "controls": [
+    "胜负",
+    "竞技积分",
+    "加减星",
+    "段位变化",
+    "继续"
+  ],
+  "states": [
+    {
+      "name": "升星",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/modes/25-ranked-result-v1.png",
+      "interaction": "继续排位进入05；三人结果分别按participants[].rankScoreDelta展示。",
+      "nativeCopy": [
+        "星级提升",
+        "本局竞技积分{rank.scoreDeltaSigned}，段位{rank.afterName}，星级{rank.afterStars}/{rank.maxStars}。",
+        "继续排位",
+        "返回大厅"
+      ],
+      "controls": [
+        {
+          "file": "assets/ui/controls/primary-normal.png",
+          "nativeText": "继续排位",
+          "enabled": true
+        },
+        {
+          "file": "assets/ui/controls/secondary-normal.png",
+          "nativeText": "返回大厅",
+          "enabled": true
+        }
+      ],
+      "assetFilesVerified": true,
+      "nativeText": {
+        "title": "星级提升",
+        "body": "本局竞技积分{rank.scoreDeltaSigned}，段位{rank.afterName}，星级{rank.afterStars}/{rank.maxStars}。",
+        "primary": "继续排位",
+        "secondary": "返回大厅"
+      }
+    },
+    {
+      "name": "掉星",
+      "coverage": "shared_component",
+      "renderedIn": null,
+      "interaction": "在不显示原胜利文字的公共结果面板中呈现灰星和原生负号；继续匹配05。",
+      "nativeCopy": [
+        "本局失利",
+        "竞技积分{rank.scoreDeltaSigned}，星级减少1颗；当前{rank.afterName}。",
+        "继续排位",
+        "返回大厅"
+      ],
+      "controls": [
+        {
+          "file": "assets/ui/controls/primary-normal.png",
+          "nativeText": "继续排位",
+          "enabled": true
+        },
+        {
+          "file": "assets/ui/controls/secondary-normal.png",
+          "nativeText": "返回大厅",
+          "enabled": true
+        }
+      ],
+      "assetFilesVerified": true,
+      "nativeText": {
+        "title": "本局失利",
+        "body": "竞技积分{rank.scoreDeltaSigned}，星级减少1颗；当前{rank.afterName}。",
+        "primary": "继续排位",
+        "secondary": "返回大厅"
+      },
+      "composition": {
+        "kind": "opaque-shared-state-panel-over-same-page-skin",
+        "sourceArtwork": "designs/ui/modes/25-ranked-result-v1.png",
+        "panel": "assets/ui/controls/panel.png",
+        "titlePlate": "assets/ui/controls/title-primary.png",
+        "layers": [
+          {
+            "file": "assets/ui/controls/panel.png",
+            "role": "米白不透明状态内容层，覆盖原状态文字与不适用的胜利/奖励内容"
+          },
+          {
+            "file": "assets/ui/controls/title-primary.png",
+            "role": "标题牌，标题为nativeText.title"
+          },
+          {
+            "nativeText": "nativeText.body",
+            "role": "正文与动态数据"
+          },
+          {
+            "file": "assets/ui/controls/primary-normal.png",
+            "role": "主动作或禁用状态，标签为nativeText.primary"
+          },
+          {
+            "file": "assets/ui/controls/secondary-normal.png",
+            "role": "返回/次动作，标签为nativeText.secondary"
+          }
+        ],
+        "hideFromPrimaryArtwork": [
+          "原状态标题和结果文案",
+          "原奖励格或旧星级数据（该状态不适用时）",
+          "原庆祝人物/胜利字样（失利或淘汰状态）"
+        ],
+        "nativeData": "使用同一回执更新数字、段位、排名、开始时间、报名状态、奖励资格；不从整屏示意图读取。",
+        "keepSourceAspect": true,
+        "separateRasterVariantGenerated": false
+      }
+    },
+    {
+      "name": "升段",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/modes/25-ranked-result-v1.png",
+      "interaction": "徽章名与星级来自当前回执，不复用历史晋升数字。",
+      "nativeCopy": [
+        "段位晋升",
+        "{rank.beforeName} → {rank.afterName}",
+        "继续排位",
+        "返回大厅"
+      ],
+      "controls": [
+        {
+          "file": "assets/ui/controls/primary-normal.png",
+          "nativeText": "继续排位",
+          "enabled": true
+        },
+        {
+          "file": "assets/ui/controls/secondary-normal.png",
+          "nativeText": "返回大厅",
+          "enabled": true
+        }
+      ],
+      "assetFilesVerified": true,
+      "nativeText": {
+        "title": "段位晋升",
+        "body": "{rank.beforeName} → {rank.afterName}",
+        "primary": "继续排位",
+        "secondary": "返回大厅"
+      }
+    },
+    {
+      "name": "保护",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/modes/25-ranked-result-v1.png",
+      "interaction": "星级保持不变，保护次数仅以回执刷新，规则打开48。",
+      "nativeCopy": [
+        "段位保护生效",
+        "本次失败不扣星，剩余保护{rank.protectionRemaining}次。",
+        "继续排位",
+        "查看保护规则"
+      ],
+      "controls": [
+        {
+          "file": "assets/ui/controls/primary-normal.png",
+          "nativeText": "继续排位",
+          "enabled": true
+        },
+        {
+          "file": "assets/ui/controls/secondary-normal.png",
+          "nativeText": "查看保护规则",
+          "enabled": true
+        }
+      ],
+      "assetFilesVerified": true,
+      "nativeText": {
+        "title": "段位保护生效",
+        "body": "本次失败不扣星，剩余保护{rank.protectionRemaining}次。",
+        "primary": "继续排位",
+        "secondary": "查看保护规则"
+      }
+    }
+  ],
+  "dynamicText": "昵称、积分、时间、价格、进度及规则由客户端与服务端原生文字提供；图内均为美术示意。",
+  "sharedDependencies": [
+    "assets/ui/controls/panel.png",
+    "assets/ui/controls/title-primary.png",
+    "assets/ui/controls/primary-normal.png",
+    "assets/ui/controls/primary-disabled.png",
+    "assets/ui/controls/secondary-normal.png",
+    "assets/ui/controls/secondary-disabled.png",
+    "assets/ui/controls/progress.png",
+    "assets/ui/controls/avatar-frame.png",
+    "assets/ui/controls/tab-selected.png",
+    "assets/ui/controls/tab-normal.png"
+  ],
+  "notes": "选用主图为独立已生成画面；其他语义状态用下列真实公共素材与原生文字组装。shared_component表示完整组成设计，未冒称另有整屏生成图。接入时使用原画皮肤与动态区域，不把整屏PNG内示例数字作为业务真值。",
+  "dynamicCopySource": "designs/ui/modes/demo-data-contract-existing.json + 同tournamentId/seasonId/playerId的服务端回执",
+  "requiredStatesComplete": true
+}

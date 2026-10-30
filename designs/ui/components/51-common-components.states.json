@@ -1,0 +1,58 @@
+{
+  "id": "51-common-components",
+  "title": "控件状态规范",
+  "primaryArtwork": "designs/ui/components/51-common-components-v1.png",
+  "controls": [
+    "标题牌",
+    "按钮",
+    "页签",
+    "卡片",
+    "输入",
+    "勾选",
+    "滑块",
+    "滚动条",
+    "红点"
+  ],
+  "states": [
+    {
+      "name": "默认",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/components/51-common-components-v1.png",
+      "interaction": "第1/2行默认按钮；使用controls/primary-normal、secondary-normal",
+      "dependencies": []
+    },
+    {
+      "name": "按下",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/components/51-common-components-v1.png",
+      "interaction": "第1/2行第3个按钮；primary-pressed、secondary-pressed",
+      "dependencies": []
+    },
+    {
+      "name": "选中",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/components/51-common-components-v1.png",
+      "interaction": "第3行选中页签、勾选及开关；tab-selected、checkbox-on、toggle-on",
+      "dependencies": []
+    },
+    {
+      "name": "禁用",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/components/51-common-components-v1.png",
+      "interaction": "第1/2行第4个按钮；primary-disabled、secondary-disabled",
+      "dependencies": []
+    },
+    {
+      "name": "焦点",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/components/51-common-components-v1.png",
+      "interaction": "第5行第2个输入框；input-focus",
+      "dependencies": []
+    }
+  ],
+  "dynamicText": "正式客户端采用原生中文文字及动态业务数据。",
+  "sharedDependencies": [
+    "assets/ui/manifest.json"
+  ],
+  "status": "design_ready_user_review"
+}

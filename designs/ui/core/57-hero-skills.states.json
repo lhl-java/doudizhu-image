@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 2,
+  "pageId": "57-hero-skills",
+  "title": "英雄能力说明与选择",
+  "scopeSource": "docs/UI_SCOPE.json",
+  "scopeControls": [
+    "角色卡",
+    "技能说明",
+    "适用模式",
+    "选择",
+    "解锁"
+  ],
+  "requiredStates": [
+    "已拥有",
+    "锁定",
+    "已选",
+    "说明"
+  ],
+  "status": "design_ready_user_review",
+  "renderedState": {
+    "status": "design_ready_user_review",
+    "coverage": "rendered",
+    "description": "英雄能力完整主界面，拥有、锁定、已选与具体技能说明同屏可见",
+    "actualRequiredStates": [
+      "已拥有",
+      "锁定",
+      "已选",
+      "说明"
+    ],
+    "image": "designs/ui/core/57-hero-skills-v1.png",
+    "generation": "designs/ui/core/57-hero-skills-v1.generation.json"
+  },
+  "expectedOutput": "designs/ui/core/57-hero-skills-v1.png",
+  "expectedGeneration": "designs/ui/core/57-hero-skills-v1.generation.json",
+  "states": [
+    {
+      "name": "已拥有",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/57-hero-skills-v1.png",
+      "copy": [
+        "桃花女修",
+        "已拥有"
+      ],
+      "behavior": [
+        "点击已拥有角色行，更新右侧对应能力说明并展示选择操作；不改变对局地主/农民身份。"
+      ],
+      "disabledReasons": [],
+      "dependencies": [],
+      "evidence": {
+        "inspectedAt": "2026-10-26T10:50:04.5930069+00:00",
+        "method": "view_image",
+        "note": "左侧第2行的桃花女修头像与已拥有标签，角色可查看能力并选择。",
+        "imageSha256": "40ef60f3c6c9b763272bf72ff0380a785492251e4f91a08449f3d3fc32ac2bb5"
+      },
+      "actualCopy": [
+        "桃花女修",
+        "已拥有"
+      ]
+    },
+    {
+      "name": "锁定",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/57-hero-skills-v1.png",
+      "copy": [
+        "葫芦长者",
+        "未解锁",
+        "获取"
+      ],
+      "behavior": [
+        "锁定角色允许查看能力；获取按钮进入获取方式说明，拥有条件满足后转已拥有。"
+      ],
+      "disabledReasons": [
+        "尚未拥有葫芦长者，不能选择使用。"
+      ],
+      "dependencies": [],
+      "evidence": {
+        "inspectedAt": "2026-10-26T10:50:04.5930069+00:00",
+        "method": "view_image",
+        "note": "左侧第3行有锁标、未解锁及获取按钮；未呈现直接选用。",
+        "imageSha256": "40ef60f3c6c9b763272bf72ff0380a785492251e4f91a08449f3d3fc32ac2bb5"
+      },
+      "actualCopy": [
+        "葫芦长者",
+        "未解锁",
+        "获取"
+      ]
+    },
+    {
+      "name": "已选",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/57-hero-skills-v1.png",
+      "copy": [
+        "玉绿道童",
+        "已选择",
+        "已选用"
+      ],
+      "behavior": [
+        "当前角色已选用，重复点击不再次提交；切换至另一拥有角色后可选择。"
+      ],
+      "disabledReasons": [
+        "已是当前选择，无需重复提交。"
+      ],
+      "dependencies": [],
+      "evidence": {
+        "inspectedAt": "2026-10-26T10:50:04.5930069+00:00",
+        "method": "view_image",
+        "note": "左侧第1行浅玉绿选中和金勾；右侧主按钮实际写已选用。",
+        "imageSha256": "40ef60f3c6c9b763272bf72ff0380a785492251e4f91a08449f3d3fc32ac2bb5"
+      },
+      "actualCopy": [
+        "玉绿道童",
+        "已选择",
+        "已选用"
+      ]
+    },
+    {
+      "name": "说明",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/57-hero-skills-v1.png",
+      "copy": [
+        "静心",
+        "获得一次出牌提示",
+        "每局可使用一次",
+        "仅英雄玩法生效",
+        "技能说明"
+      ],
+      "behavior": [
+        "选中角色时读取该角色对应的技能名、效果、每局限制和适用模式；静心为本项目示意配置。"
+      ],
+      "disabledReasons": [],
+      "dependencies": [],
+      "evidence": {
+        "inspectedAt": "2026-10-26T10:50:04.5930069+00:00",
+        "method": "view_image",
+        "note": "右侧卡片已实际绘制具体能力名、效果、次数及适用玩法；技能说明按钮只作为进一步说明入口。",
+        "imageSha256": "40ef60f3c6c9b763272bf72ff0380a785492251e4f91a08449f3d3fc32ac2bb5"
+      },
+      "actualCopy": [
+        "静心",
+        "获得一次出牌提示",
+        "每局可使用一次",
+        "仅英雄玩法生效",
+        "技能说明"
+      ]
+    }
+  ],
+  "supplementalStates": [],
+  "stateTransitions": [
+    {
+      "from": "已拥有",
+      "trigger": "选择角色",
+      "to": "已选",
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "from": "已拥有",
+      "trigger": "查看能力",
+      "to": "说明",
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "from": "锁定",
+      "trigger": "满足解锁条件",
+      "to": "已拥有",
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "from": "已选",
+      "trigger": "查看能力",
+      "to": "说明",
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "from": "说明",
+      "trigger": "返回角色卡",
+      "to": "已拥有",
+      "implementationStatus": "specified_only_not_implemented"
+    }
+  ],
+  "copy": {
+    "status": "main_image_verified_shared_state_copy_specified",
+    "actualVisibleText": [
+      "返回",
+      "英雄能力",
+      "规则",
+      "玉绿道童",
+      "已选择",
+      "桃花女修",
+      "已拥有",
+      "葫芦长者",
+      "未解锁",
+      "获取",
+      "静心",
+      "获得一次出牌提示",
+      "每局可使用一次",
+      "仅英雄玩法生效",
+      "已选用",
+      "技能说明"
+    ],
+    "note": "actualVisibleText和各rendered项actualCopy为实际看图文字；shared_component原生替换文字是设计规范，不是已绘整页。"
+  },
+  "assumptions": [
+    "已逐字对齐 docs/UI_SCOPE.json 的 controls 与 requiredStates；页面和状态布局为本项目原创设计。",
+    "数值、房号120816、输入1208__、昵称和邀请文字均仅设计示意，不对应真实账户、房间、价格或业务记录。",
+    "默认规则、技能内容、货币门槛、限制、邀请策略和具体交互仍属设计假设；以最终产品规则为准。",
+    "公开资料仅核对模块范围；未逐屏实测腾讯当前客户端，不声称其各平台均采用此布局和行为。",
+    "只交付静态美术与状态规范，未实现客户端、服务器、支付或社交发送。",
+    "指定主画面需实际生成并看图后才可记 rendered；描述和未来共享依赖不能当作已画状态。"
+  ],
+  "userApproval": false,
+  "visualQA": {
+    "status": "passed_for_design_review",
+    "reviewer": "last_two_qa",
+    "inspectedAt": "2026-10-26T10:50:04.5930069+00:00",
+    "method": "view_image",
+    "image": "designs/ui/core/57-hero-skills-v1.png",
+    "imageSha256": "40ef60f3c6c9b763272bf72ff0380a785492251e4f91a08449f3d3fc32ac2bb5",
+    "userApproval": false,
+    "findings": [
+      {
+        "severity": "pass",
+        "detail": "三行人物头像不同；玉绿道童浅绿选中行与金勾、桃花女修已拥有、葫芦长者锁标/未解锁/获取均完整可辨。",
+        "subject": "角色与状态"
+      },
+      {
+        "severity": "pass",
+        "detail": "右侧静心说明实际包含获得一次出牌提示、每局可使用一次和仅英雄玩法生效；此状态依据实绘正文，不以技能说明按钮充当弹窗证据。",
+        "subject": "能力说明"
+      },
+      {
+        "severity": "pass",
+        "detail": "玉绿、米白纸绢、暖金边与道童全身同源；人物脚和卡片完整，正文和操作无遮挡。",
+        "subject": "布局与风格"
+      },
+      {
+        "severity": "note",
+        "detail": "静心及其效果为原创设计示意；已选用按钮仍用玉绿皮肤，重复提交由状态规范禁用，不声称静态图证明交互实现。",
+        "subject": "业务与交互边界"
+      }
+    ],
+    "blockingIssues": []
+  },
+  "coverageSummary": {
+    "requiredTotal": 4,
+    "rendered": 4,
+    "shared_component": 0,
+    "specified_only": 0,
+    "note": "仅统计scope requiredStates；rendered依据实际主图，shared_component依据已核验组件及具体状态映射；未另画整页且未实现动态交互。"
+  }
+}

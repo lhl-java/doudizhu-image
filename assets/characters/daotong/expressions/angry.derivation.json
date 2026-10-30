@@ -1,0 +1,53 @@
+{
+  "id": "daotong_angry",
+  "file": "assets/characters/daotong/expressions/angry.png",
+  "record": "assets/characters/daotong/expressions/angry.derivation.json",
+  "kind": "character_expression",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    244
+  ],
+  "sha256": "0466c0776192fdf32466af1d304dd0edb52faf8236554e2a19789a4c68ac5786",
+  "operation": "grid-ownership-crop-with4px-alpha-padding-and-one-fixed-downscale-per-character-portrait",
+  "derivedFrom": {
+    "file": "designs/characters/runtime-20261026/daotong-expressions-v2.png",
+    "sha256": "99b488d0e62c6498277cd33a6a199e14a220332ffe5112c2524f129868b661d7",
+    "record": "designs/characters/runtime-20261026/daotong-expressions-v2.generation.json"
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "significantBorderPixels": 0,
+  "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+  "art_source": "existing",
+  "status": "asset_ready_user_review",
+  "expression": "angry",
+  "expressionName": "生气",
+  "grid": {
+    "columns": 4,
+    "rows": 2,
+    "index": 7,
+    "cellRect": [
+      1330,
+      444,
+      1774,
+      887
+    ]
+  },
+  "sourceRect": [
+    1369,
+    481,
+    1752,
+    823
+  ],
+  "fixedScale": 0.5818181818181818,
+  "offset": [
+    17,
+    47
+  ],
+  "noUpscale": true,
+  "characterId": "daotong"
+}

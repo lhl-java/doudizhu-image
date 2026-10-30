@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "previews": [
+    {
+      "file": "designs/ui/runtime-kit/icons-navigation-v2-alpha-review.png",
+      "sha256": "8b8b23119c8a990d22bb2693f126ff6909a3c4f6fde030ad3272a59c61930cff",
+      "operation": "native-size compositing of runtime assets over ivory and jade backgrounds for review; no source art resized",
+      "sourceAssets": [
+        "assets/ui/runtime-kit/icons/home.png",
+        "assets/ui/runtime-kit/icons/back.png",
+        "assets/ui/runtime-kit/icons/close.png",
+        "assets/ui/runtime-kit/icons/settings.png",
+        "assets/ui/runtime-kit/icons/help.png",
+        "assets/ui/runtime-kit/icons/profile.png",
+        "assets/ui/runtime-kit/icons/friends.png",
+        "assets/ui/runtime-kit/icons/mail.png",
+        "assets/ui/runtime-kit/icons/task.png",
+        "assets/ui/runtime-kit/icons/signin.png",
+        "assets/ui/runtime-kit/icons/events.png",
+        "assets/ui/runtime-kit/icons/shop.png",
+        "assets/ui/runtime-kit/icons/inventory.png",
+        "assets/ui/runtime-kit/icons/wardrobe.png",
+        "assets/ui/runtime-kit/icons/character.png",
+        "assets/ui/runtime-kit/icons/rank.png"
+      ]
+    },
+    {
+      "file": "designs/ui/runtime-kit/icons-gameplay-v1-alpha-review.png",
+      "sha256": "434b8706267495b65c4d517142dc6ec0c51640f32b6de21af4d14a02ec5ee375",
+      "operation": "native-size compositing of runtime assets over ivory and jade backgrounds for review; no source art resized",
+      "sourceAssets": [
+        "assets/ui/runtime-kit/icons/classic.png",
+        "assets/ui/runtime-kit/icons/friend-room.png",
+        "assets/ui/runtime-kit/icons/tournament.png",
+        "assets/ui/runtime-kit/icons/puzzle.png",
+        "assets/ui/runtime-kit/icons/practice.png",
+        "assets/ui/runtime-kit/icons/skills.png",
+        "assets/ui/runtime-kit/icons/season.png",
+        "assets/ui/runtime-kit/icons/replay.png",
+        "assets/ui/runtime-kit/icons/chat.png",
+        "assets/ui/runtime-kit/icons/emoji.png",
+        "assets/ui/runtime-kit/icons/voice.png",
+        "assets/ui/runtime-kit/icons/mute.png",
+        "assets/ui/runtime-kit/icons/sound.png",
+        "assets/ui/runtime-kit/icons/music.png",
+        "assets/ui/runtime-kit/icons/vibration.png",
+        "assets/ui/runtime-kit/icons/network.png"
+      ]
+    },
+    {
+      "file": "designs/ui/runtime-kit/icons-resources-v1-alpha-review.png",
+      "sha256": "aacbf61569ec1607c89b9078df5d1dd0611af4bceecc1019802e15a68043a1b3",
+      "operation": "native-size compositing of runtime assets over ivory and jade backgrounds for review; no source art resized",
+      "sourceAssets": [
+        "assets/ui/runtime-kit/icons/coin.png",
+        "assets/ui/runtime-kit/icons/token.png",
+        "assets/ui/runtime-kit/icons/gift.png",
+        "assets/ui/runtime-kit/icons/trophy.png",
+        "assets/ui/runtime-kit/icons/star.png",
+        "assets/ui/runtime-kit/icons/lock.png",
+        "assets/ui/runtime-kit/icons/check.png",
+        "assets/ui/runtime-kit/icons/add.png",
+        "assets/ui/runtime-kit/icons/search.png",
+        "assets/ui/runtime-kit/icons/refresh.png",
+        "assets/ui/runtime-kit/icons/trash.png",
+        "assets/ui/runtime-kit/icons/share.png",
+        "assets/ui/runtime-kit/icons/copy.png",
+        "assets/ui/runtime-kit/icons/timer.png",
+        "assets/ui/runtime-kit/icons/bomb.png",
+        "assets/ui/runtime-kit/icons/rocket.png"
+      ]
+    },
+    {
+      "file": "designs/ui/runtime-kit/skins-windows-v1-alpha-review.png",
+      "sha256": "6f7f3c42ba0d209538655db35831a88537bd074ed7c81ff7c06c20da57d2f4e4",
+      "operation": "native-size compositing of runtime assets over ivory and jade backgrounds for review; no source art resized",
+      "sourceAssets": [
+        "assets/ui/runtime-kit/skins/window-normal.png",
+        "assets/ui/runtime-kit/skins/window-wide.png",
+        "assets/ui/runtime-kit/skins/dialog.png",
+        "assets/ui/runtime-kit/skins/list-row-normal.png",
+        "assets/ui/runtime-kit/skins/list-row-selected.png",
+        "assets/ui/runtime-kit/skins/tooltip.png",
+        "assets/ui/runtime-kit/skins/toast.png",
+        "assets/ui/runtime-kit/skins/red-dot.png"
+      ]
+    },
+    {
+      "file": "designs/ui/runtime-kit/skins-slots-v1-alpha-review.png",
+      "sha256": "4d5d1767303f162677062eacece7d491bf89eda15d037eea0d7decbe85887a75",
+      "operation": "native-size compositing of runtime assets over ivory and jade backgrounds for review; no source art resized",
+      "sourceAssets": [
+        "assets/ui/runtime-kit/skins/item-normal.png",
+        "assets/ui/runtime-kit/skins/item-selected.png",
+        "assets/ui/runtime-kit/skins/item-locked.png",
+        "assets/ui/runtime-kit/skins/portrait-normal.png",
+        "assets/ui/runtime-kit/skins/portrait-selected.png",
+        "assets/ui/runtime-kit/skins/rarity-common.png",
+        "assets/ui/runtime-kit/skins/rarity-rare.png",
+        "assets/ui/runtime-kit/skins/rarity-legendary.png"
+      ]
+    }
+  ],
+  "notGeneration": true
+}

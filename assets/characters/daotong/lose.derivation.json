@@ -1,0 +1,45 @@
+{
+  "id": "daotong_lose",
+  "file": "assets/characters/daotong/lose.png",
+  "record": "assets/characters/daotong/lose.derivation.json",
+  "kind": "character_pose",
+  "width": 1024,
+  "height": 1024,
+  "anchor": [
+    512,
+    920
+  ],
+  "sha256": "318a223caf574a327a54a834deb2f535f31d91c55c9fa61c44ca2a3dc550dbc0",
+  "operation": "crop-to-significant-alpha-bounds-with6px-padding-and-one-fixed-downscale-per-character-registered-to-foot-anchor",
+  "derivedFrom": {
+    "file": "designs/characters/runtime-20261026/daotong-lose-v1.png",
+    "sha256": "bfaa88dbd0cef066f97edf358475e1450508b71f6e620deae26e56b74cc82da7",
+    "record": "designs/characters/runtime-20261026/daotong-lose-v1.generation.json"
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "significantBorderPixels": 0,
+  "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+  "art_source": "existing",
+  "status": "asset_ready_user_review",
+  "sourceRect": [
+    196,
+    28,
+    1157,
+    1227
+  ],
+  "sourceAnchor": [
+    676.5,
+    1221
+  ],
+  "fixedScale": 0.6739679865206403,
+  "offset": [
+    188,
+    116
+  ],
+  "noUpscale": true,
+  "pose": "lose",
+  "characterId": "daotong"
+}

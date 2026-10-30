@@ -1,0 +1,1093 @@
+{
+  "status": "passed",
+  "validatedAt": "2026-10-26T18:50:51.496409+00:00",
+  "scope": "This character asset batch only; not whole-game completion or human approval.",
+  "counts": {
+    "characters": 3,
+    "poses": 9,
+    "expressions": 24,
+    "costumes": 5,
+    "runtimePngs": 38,
+    "nativeGenerations": 20,
+    "selectedNativeGenerations": 17
+  },
+  "checks": {
+    "runtimeTrueRgba": true,
+    "runtimeFullAlphaRange": true,
+    "runtimeSignificantAlphaClearBorder": true,
+    "noUpscale": true,
+    "hashAndSourceLinks": true,
+    "allFinalExportsVisuallyReviewedOnLightAndDark": true,
+    "allNativeGenerationsModelAndQualityEvidenceHonest": true
+  },
+  "modelEvidence": {
+    "target": "gpt-image-2.5-sunburst",
+    "qualityTarget": "max",
+    "submittedModel": null,
+    "submittedQuality": null,
+    "actualModel": null,
+    "actualQuality": null,
+    "reason": "built-in host image tool has no model/quality selector and returned no verifiable model/quality metadata"
+  },
+  "environment": {
+    "doctorFile": "tools/characters_runtime/doctor.json",
+    "doctorOverall": "WARN",
+    "stillImageRoute": "host_image ready, successfully used",
+    "nonblockingMissingForThisStillPngBatch": [
+      "scipy optional fast labelling",
+      "resvg SVG renderer; no SVG art used",
+      "ffmpeg not on PATH; no video used",
+      "API keys absent; no paid API used"
+    ],
+    "videoScope": "No video is claimed by this pack; three poses are independent stills for the root 2D UI animation runtime."
+  },
+  "runtime": [
+    {
+      "id": "daotong_master",
+      "file": "assets/characters/daotong/master.png",
+      "mode": "RGBA",
+      "width": 1024,
+      "height": 1024,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "38ba45b8c3dac51539dd72cef264867c2636670341995ab42f71aecdfc42cb7e",
+      "sourceSha256": "c458e647cc47a506311e539e3f3882dfa3bb82d7af7345eb0b866c92e4fdf400",
+      "scale": 0.6739679865206403,
+      "anchor": [
+        512,
+        920
+      ]
+    },
+    {
+      "id": "daotong_win",
+      "file": "assets/characters/daotong/win.png",
+      "mode": "RGBA",
+      "width": 1024,
+      "height": 1024,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "43c5d7885ff60d7189961d0f4325e48c7a4a3d6ee7711ff2e552c2256cdad179",
+      "sourceSha256": "de32f7d96c2baef48c13e7c481a9ca0c3c9bce45427fda39030bde701bdb77de",
+      "scale": 0.6739679865206403,
+      "anchor": [
+        512,
+        920
+      ]
+    },
+    {
+      "id": "daotong_lose",
+      "file": "assets/characters/daotong/lose.png",
+      "mode": "RGBA",
+      "width": 1024,
+      "height": 1024,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "318a223caf574a327a54a834deb2f535f31d91c55c9fa61c44ca2a3dc550dbc0",
+      "sourceSha256": "bfaa88dbd0cef066f97edf358475e1450508b71f6e620deae26e56b74cc82da7",
+      "scale": 0.6739679865206403,
+      "anchor": [
+        512,
+        920
+      ]
+    },
+    {
+      "id": "daotong_calm",
+      "file": "assets/characters/daotong/expressions/calm.png",
+      "mode": "RGBA",
+      "width": 256,
+      "height": 256,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "6efa8169e054cb4fc2b8d0c63373c13999b68fceea2514a55514cb38f2df1622",
+      "sourceSha256": "99b488d0e62c6498277cd33a6a199e14a220332ffe5112c2524f129868b661d7",
+      "scale": 0.5818181818181818,
+      "anchor": [
+        128,
+        244
+      ]
+    },
+    {
+      "id": "daotong_smile",
+      "file": "assets/characters/daotong/expressions/smile.png",
+      "mode": "RGBA",
+      "width": 256,
+      "height": 256,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "613d2dbb615ff1ecc5a7cb76725b611e0ad1be0fda3cccf5487c9d8139f949cc",
+      "sourceSha256": "99b488d0e62c6498277cd33a6a199e14a220332ffe5112c2524f129868b661d7",
+      "scale": 0.5818181818181818,
+      "anchor": [
+        128,
+        244
+      ]
+    },
+    {
+      "id": "daotong_laugh",
+      "file": "assets/characters/daotong/expressions/laugh.png",
+      "mode": "RGBA",
+      "width": 256,
+      "height": 256,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "84adf6c929291ed9080fa0799338c0dd5c2fd343fd888ccb748d2e4c8fbd6a98",
+      "sourceSha256": "99b488d0e62c6498277cd33a6a199e14a220332ffe5112c2524f129868b661d7",
+      "scale": 0.5818181818181818,
+      "anchor": [
+        128,
+        244
+      ]
+    },
+    {
+      "id": "daotong_thinking",
+      "file": "assets/characters/daotong/expressions/thinking.png",
+      "mode": "RGBA",
+      "width": 256,
+      "height": 256,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "395a20f37bc59a61c6090dc4ebfa1bdfdaae8e86ef96c1bb2d47d794df62a8f1",
+      "sourceSha256": "99b488d0e62c6498277cd33a6a199e14a220332ffe5112c2524f129868b661d7",
+      "scale": 0.5818181818181818,
+      "anchor": [
+        128,
+        244
+      ]
+    },
+    {
+      "id": "daotong_surprise",
+      "file": "assets/characters/daotong/expressions/surprise.png",
+      "mode": "RGBA",
+      "width": 256,
+      "height": 256,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "cab0b8264e6c42c60ef8ac84bf2c9f1ddea9707b02b644dc182320bb85f91489",
+      "sourceSha256": "99b488d0e62c6498277cd33a6a199e14a220332ffe5112c2524f129868b661d7",
+      "scale": 0.5818181818181818,
+      "anchor": [
+        128,
+        244
+      ]
+    },
+    {
+      "id": "daotong_smug",
+      "file": "assets/characters/daotong/expressions/smug.png",
+      "mode": "RGBA",
+      "width": 256,
+      "height": 256,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "53f870aedf02265179294109ba6baa2fdd8d5611e6dd3ef931996cadfc6f6d2b",
+      "sourceSha256": "99b488d0e62c6498277cd33a6a199e14a220332ffe5112c2524f129868b661d7",
+      "scale": 0.5818181818181818,
+      "anchor": [
+        128,
+        244
+      ]
+    },
+    {
+      "id": "daotong_sad",
+      "file": "assets/characters/daotong/expressions/sad.png",
+      "mode": "RGBA",
+      "width": 256,
+      "height": 256,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "f7ceb47db821393d8a4c18ac3554508eba69c909490c7e42fda1c506e7ae1418",
+      "sourceSha256": "99b488d0e62c6498277cd33a6a199e14a220332ffe5112c2524f129868b661d7",
+      "scale": 0.5818181818181818,
+      "anchor": [
+        128,
+        244
+      ]
+    },
+    {
+      "id": "daotong_angry",
+      "file": "assets/characters/daotong/expressions/angry.png",
+      "mode": "RGBA",
+      "width": 256,
+      "height": 256,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "0466c0776192fdf32466af1d304dd0edb52faf8236554e2a19789a4c68ac5786",
+      "sourceSha256": "99b488d0e62c6498277cd33a6a199e14a220332ffe5112c2524f129868b661d7",
+      "scale": 0.5818181818181818,
+      "anchor": [
+        128,
+        244
+      ]
+    },
+    {
+      "id": "taohua_master",
+      "file": "assets/characters/taohua/master.png",
+      "mode": "RGBA",
+      "width": 1024,
+      "height": 1024,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "06bec073cdcec9d47c9da586168e229c74f2d3c72deb5ae91e1509db378cace3",
+      "sourceSha256": "a4c618b581a571b9ee70a791b9879abec4c15b4aa1f003c5b92f9790337f7736",
+      "scale": 0.657354149548069,
+      "anchor": [
+        512,
+        920
+      ]
+    },
+    {
+      "id": "taohua_win",
+      "file": "assets/characters/taohua/win.png",
+      "mode": "RGBA",
+      "width": 1024,
+      "height": 1024,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "da228752e7004f98ea44861eeddc93dd840ce259af12b88217ffec1f714ea487",
+      "sourceSha256": "41f79c31328fd78afbcc1d3331517f324f04ebcd87eb28f1a19c353b8f703c9e",
+      "scale": 0.657354149548069,
+      "anchor": [
+        512,
+        920
+      ]
+    },
+    {
+      "id": "taohua_lose",
+      "file": "assets/characters/taohua/lose.png",
+      "mode": "RGBA",
+      "width": 1024,
+      "height": 1024,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "eb52785b8f2c1fb0e5b5b736d0bc3fecbe352f65c4d371ed9d95bedec9d1bf73",
+      "sourceSha256": "95faf08890ffc5354d359673c9205f6bc62083afcd75b23f1db0437ee3912faf",
+      "scale": 0.657354149548069,
+      "anchor": [
+        512,
+        920
+      ]
+    },
+    {
+      "id": "taohua_calm",
+      "file": "assets/characters/taohua/expressions/calm.png",
+      "mode": "RGBA",
+      "width": 256,
+      "height": 256,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "b8eaeeb0b9d5c06ad7b401c65d55692980191f66e542ac0d878d5c04db7a5204",
+      "sourceSha256": "68cf6b0f1851cde8c83287fe1b335691b5bbc8e3668ce991a8ddbee86d583e00",
+      "scale": 0.5197215777262181,
+      "anchor": [
+        128,
+        244
+      ]
+    },
+    {
+      "id": "taohua_smile",
+      "file": "assets/characters/taohua/expressions/smile.png",
+      "mode": "RGBA",
+      "width": 256,
+      "height": 256,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "60717fdd3163e9e372e3c62ccf0b168d7834fe4f2879ba7c0dc1250b2d1d6695",
+      "sourceSha256": "68cf6b0f1851cde8c83287fe1b335691b5bbc8e3668ce991a8ddbee86d583e00",
+      "scale": 0.5197215777262181,
+      "anchor": [
+        128,
+        244
+      ]
+    },
+    {
+      "id": "taohua_laugh",
+      "file": "assets/characters/taohua/expressions/laugh.png",
+      "mode": "RGBA",
+      "width": 256,
+      "height": 256,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "abf2e8e639d95dcfb9434d59e12c8a8662893e8f5aa34ffe7416c734d30a486b",
+      "sourceSha256": "68cf6b0f1851cde8c83287fe1b335691b5bbc8e3668ce991a8ddbee86d583e00",
+      "scale": 0.5197215777262181,
+      "anchor": [
+        128,
+        244
+      ]
+    },
+    {
+      "id": "taohua_thinking",
+      "file": "assets/characters/taohua/expressions/thinking.png",
+      "mode": "RGBA",
+      "width": 256,
+      "height": 256,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "2276475395e7693f8eee3dff882d1984a6a66b0405dcfb6652f5d1e5ae84f009",
+      "sourceSha256": "68cf6b0f1851cde8c83287fe1b335691b5bbc8e3668ce991a8ddbee86d583e00",
+      "scale": 0.5197215777262181,
+      "anchor": [
+        128,
+        244
+      ]
+    },
+    {
+      "id": "taohua_surprise",
+      "file": "assets/characters/taohua/expressions/surprise.png",
+      "mode": "RGBA",
+      "width": 256,
+      "height": 256,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "339b6440f166c28494ad6fd82e9e4753a0fb8ce70fd6e4384c7f84e1e7989690",
+      "sourceSha256": "68cf6b0f1851cde8c83287fe1b335691b5bbc8e3668ce991a8ddbee86d583e00",
+      "scale": 0.5197215777262181,
+      "anchor": [
+        128,
+        244
+      ]
+    },
+    {
+      "id": "taohua_smug",
+      "file": "assets/characters/taohua/expressions/smug.png",
+      "mode": "RGBA",
+      "width": 256,
+      "height": 256,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "cee13a01412e4b196d45afbb2cad157ffe528c6ac737a40629dd233dfde696a0",
+      "sourceSha256": "68cf6b0f1851cde8c83287fe1b335691b5bbc8e3668ce991a8ddbee86d583e00",
+      "scale": 0.5197215777262181,
+      "anchor": [
+        128,
+        244
+      ]
+    },
+    {
+      "id": "taohua_sad",
+      "file": "assets/characters/taohua/expressions/sad.png",
+      "mode": "RGBA",
+      "width": 256,
+      "height": 256,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "857320e27e9ccbdc0629d681a0aa05d43416ed0ccdf8ea5ad07b55a93863a32d",
+      "sourceSha256": "68cf6b0f1851cde8c83287fe1b335691b5bbc8e3668ce991a8ddbee86d583e00",
+      "scale": 0.5197215777262181,
+      "anchor": [
+        128,
+        244
+      ]
+    },
+    {
+      "id": "taohua_angry",
+      "file": "assets/characters/taohua/expressions/angry.png",
+      "mode": "RGBA",
+      "width": 256,
+      "height": 256,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "21bbef14abf7eb97cc671f6ded0d9c9b2c2c89470e78d2b2c9374c0ef6c3bed2",
+      "sourceSha256": "68cf6b0f1851cde8c83287fe1b335691b5bbc8e3668ce991a8ddbee86d583e00",
+      "scale": 0.5197215777262181,
+      "anchor": [
+        128,
+        244
+      ]
+    },
+    {
+      "id": "hulu_master",
+      "file": "assets/characters/hulu/master.png",
+      "mode": "RGBA",
+      "width": 1024,
+      "height": 1024,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "eb4fa72acfcb3e69610b208e46c70428f9aa0127bc014f256ccb6593d93630fe",
+      "sourceSha256": "052b8a06b868e821c5b5638ccc82bd7de191cc104b80a1f2816b32f578541c02",
+      "scale": 0.6861063464837049,
+      "anchor": [
+        512,
+        920
+      ]
+    },
+    {
+      "id": "hulu_win",
+      "file": "assets/characters/hulu/win.png",
+      "mode": "RGBA",
+      "width": 1024,
+      "height": 1024,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "5217dd726280ea1539fb0daa1f10ca449ad0df68807f8d3ecaef7493a322d059",
+      "sourceSha256": "2d24967c6bd66bd66d188d53cbc1474789cdffa161e83d51ff60b3a5b7fd7371",
+      "scale": 0.6861063464837049,
+      "anchor": [
+        512,
+        920
+      ]
+    },
+    {
+      "id": "hulu_lose",
+      "file": "assets/characters/hulu/lose.png",
+      "mode": "RGBA",
+      "width": 1024,
+      "height": 1024,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "35850b8b42fb029b3fb57e985a7b71009b302e9ff05303cf65eda75f118f555d",
+      "sourceSha256": "d35a952d2c5c2c2192ba2622c6712743dd42b4f9da4bee9a9e1efac840929989",
+      "scale": 0.6861063464837049,
+      "anchor": [
+        512,
+        920
+      ]
+    },
+    {
+      "id": "hulu_calm",
+      "file": "assets/characters/hulu/expressions/calm.png",
+      "mode": "RGBA",
+      "width": 256,
+      "height": 256,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "0ac33e45d01fa756a87a2658ed3cd2fd8faf259ca601afa86ff05ce77bd242ff",
+      "sourceSha256": "4187defc09877c1f8a04ccb2f150d8ff9bc1ac828f755b9bcf421a1a6b7f8921",
+      "scale": 0.6103542234332425,
+      "anchor": [
+        128,
+        244
+      ]
+    },
+    {
+      "id": "hulu_smile",
+      "file": "assets/characters/hulu/expressions/smile.png",
+      "mode": "RGBA",
+      "width": 256,
+      "height": 256,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "df8b54b85a9a468bb599cf18d22d08e76bc340ffeda75b2c1b6c893e89309a2f",
+      "sourceSha256": "4187defc09877c1f8a04ccb2f150d8ff9bc1ac828f755b9bcf421a1a6b7f8921",
+      "scale": 0.6103542234332425,
+      "anchor": [
+        128,
+        244
+      ]
+    },
+    {
+      "id": "hulu_laugh",
+      "file": "assets/characters/hulu/expressions/laugh.png",
+      "mode": "RGBA",
+      "width": 256,
+      "height": 256,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "91651d70e8c1cfc44ecf8e3e11c62ee37b6adeaeaaa0b493ef60cc303094ebed",
+      "sourceSha256": "4187defc09877c1f8a04ccb2f150d8ff9bc1ac828f755b9bcf421a1a6b7f8921",
+      "scale": 0.6103542234332425,
+      "anchor": [
+        128,
+        244
+      ]
+    },
+    {
+      "id": "hulu_thinking",
+      "file": "assets/characters/hulu/expressions/thinking.png",
+      "mode": "RGBA",
+      "width": 256,
+      "height": 256,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "c794dc94fa693ef529a6e0489b4d893d1572b9996c4e754d0f9b71dee03c289e",
+      "sourceSha256": "4187defc09877c1f8a04ccb2f150d8ff9bc1ac828f755b9bcf421a1a6b7f8921",
+      "scale": 0.6103542234332425,
+      "anchor": [
+        128,
+        244
+      ]
+    },
+    {
+      "id": "hulu_surprise",
+      "file": "assets/characters/hulu/expressions/surprise.png",
+      "mode": "RGBA",
+      "width": 256,
+      "height": 256,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "208838b2cd797284fd6d02fd130823046c0897efc799db2c411eeda472fde96b",
+      "sourceSha256": "4187defc09877c1f8a04ccb2f150d8ff9bc1ac828f755b9bcf421a1a6b7f8921",
+      "scale": 0.6103542234332425,
+      "anchor": [
+        128,
+        244
+      ]
+    },
+    {
+      "id": "hulu_smug",
+      "file": "assets/characters/hulu/expressions/smug.png",
+      "mode": "RGBA",
+      "width": 256,
+      "height": 256,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "d8ef47e59187dc780138f6fc6cd3cd04b66c8ad584f979cb8fe09022aff046bd",
+      "sourceSha256": "4187defc09877c1f8a04ccb2f150d8ff9bc1ac828f755b9bcf421a1a6b7f8921",
+      "scale": 0.6103542234332425,
+      "anchor": [
+        128,
+        244
+      ]
+    },
+    {
+      "id": "hulu_sad",
+      "file": "assets/characters/hulu/expressions/sad.png",
+      "mode": "RGBA",
+      "width": 256,
+      "height": 256,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "d6af4b7990e8defe4282bc67f4a5d847fc4b8307092fcb260bb8515c6fdff118",
+      "sourceSha256": "4187defc09877c1f8a04ccb2f150d8ff9bc1ac828f755b9bcf421a1a6b7f8921",
+      "scale": 0.6103542234332425,
+      "anchor": [
+        128,
+        244
+      ]
+    },
+    {
+      "id": "hulu_angry",
+      "file": "assets/characters/hulu/expressions/angry.png",
+      "mode": "RGBA",
+      "width": 256,
+      "height": 256,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "eb58fb53147916ebfc7432d039f4f828a9239f36e5c9508803f3146618a0033f",
+      "sourceSha256": "4187defc09877c1f8a04ccb2f150d8ff9bc1ac828f755b9bcf421a1a6b7f8921",
+      "scale": 0.6103542234332425,
+      "anchor": [
+        128,
+        244
+      ]
+    },
+    {
+      "id": "daotong_spring",
+      "file": "assets/characters/daotong/costumes/spring.png",
+      "mode": "RGBA",
+      "width": 1024,
+      "height": 1024,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "1308758543c2395e8e62dc006f4d9cdfb456acecba7a53b591d44769a75eb67b",
+      "sourceSha256": "88d8f0edbd23dc724c44f73aef2e0a0eec56075abd1efd3c7f056184b5814593",
+      "scale": 0.6739679865206403,
+      "anchor": [
+        512,
+        920
+      ]
+    },
+    {
+      "id": "daotong_ink",
+      "file": "assets/characters/daotong/costumes/ink.png",
+      "mode": "RGBA",
+      "width": 1024,
+      "height": 1024,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "565a45196d14860bfcf5112f1c86550538a4faae511576cfb72481a214686ab3",
+      "sourceSha256": "d824e52740794812bf81a89bdac83042e500997bfb6422ebf4426523fb6aee2f",
+      "scale": 0.6739679865206403,
+      "anchor": [
+        512,
+        920
+      ]
+    },
+    {
+      "id": "daotong_moon",
+      "file": "assets/characters/daotong/costumes/moon.png",
+      "mode": "RGBA",
+      "width": 1024,
+      "height": 1024,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "422d2320b6d2c4420a098c1f99efe51d5ff0456adf059b7c5b2052dc8f50fd27",
+      "sourceSha256": "78f6d73b9b41fe7c1dc6cb9c5f401f1029ac294cbbdb17e5b62cd1b75ac9674a",
+      "scale": 0.6739679865206403,
+      "anchor": [
+        512,
+        920
+      ]
+    },
+    {
+      "id": "daotong_snow",
+      "file": "assets/characters/daotong/costumes/snow.png",
+      "mode": "RGBA",
+      "width": 1024,
+      "height": 1024,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "eefdaa25dacfa6028768b2e64d259047b65a6f643898ab3dd98048b5cbe7c49a",
+      "sourceSha256": "c77e3c82ea88f7405feabc706fa99b934e0c024ed97bfbaa85181bf1067dcdb0",
+      "scale": 0.6739679865206403,
+      "anchor": [
+        512,
+        920
+      ]
+    },
+    {
+      "id": "daotong_festival",
+      "file": "assets/characters/daotong/costumes/festival.png",
+      "mode": "RGBA",
+      "width": 1024,
+      "height": 1024,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "edgeAlphaNonzero": 0,
+      "edgeAlphaAbove16": 0,
+      "sha256": "702667837115c219c4e24c5679ed741546cb8ea03c87ecf3020ebb737f985e19",
+      "sourceSha256": "47e4e726547471c32381f43dcfa5134b5491dda6a15ae9f37abeae2573d4b789",
+      "scale": 0.6739679865206403,
+      "anchor": [
+        512,
+        920
+      ]
+    }
+  ],
+  "nativeSources": [
+    {
+      "file": "designs/characters/runtime-20261026/daotong-costume-festival-v1.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "sha256": "47e4e726547471c32381f43dcfa5134b5491dda6a15ae9f37abeae2573d4b789",
+      "actualModel": null,
+      "actualQuality": null,
+      "configTarget": "gpt-image-2.5-sunburst",
+      "configQualityTarget": "max"
+    },
+    {
+      "file": "designs/characters/runtime-20261026/daotong-costume-ink-v1.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "sha256": "d824e52740794812bf81a89bdac83042e500997bfb6422ebf4426523fb6aee2f",
+      "actualModel": null,
+      "actualQuality": null,
+      "configTarget": "gpt-image-2.5-sunburst",
+      "configQualityTarget": "max"
+    },
+    {
+      "file": "designs/characters/runtime-20261026/daotong-costume-moon-v1.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "sha256": "78f6d73b9b41fe7c1dc6cb9c5f401f1029ac294cbbdb17e5b62cd1b75ac9674a",
+      "actualModel": null,
+      "actualQuality": null,
+      "configTarget": "gpt-image-2.5-sunburst",
+      "configQualityTarget": "max"
+    },
+    {
+      "file": "designs/characters/runtime-20261026/daotong-costume-snow-v1.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "sha256": "c77e3c82ea88f7405feabc706fa99b934e0c024ed97bfbaa85181bf1067dcdb0",
+      "actualModel": null,
+      "actualQuality": null,
+      "configTarget": "gpt-image-2.5-sunburst",
+      "configQualityTarget": "max"
+    },
+    {
+      "file": "designs/characters/runtime-20261026/daotong-costume-spring-v1.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "sha256": "88d8f0edbd23dc724c44f73aef2e0a0eec56075abd1efd3c7f056184b5814593",
+      "actualModel": null,
+      "actualQuality": null,
+      "configTarget": "gpt-image-2.5-sunburst",
+      "configQualityTarget": "max"
+    },
+    {
+      "file": "designs/characters/runtime-20261026/daotong-expressions-v2.png",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "sha256": "99b488d0e62c6498277cd33a6a199e14a220332ffe5112c2524f129868b661d7",
+      "actualModel": null,
+      "actualQuality": null,
+      "configTarget": "gpt-image-2.5-sunburst",
+      "configQualityTarget": "max"
+    },
+    {
+      "file": "designs/characters/runtime-20261026/daotong-lose-v1.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "sha256": "bfaa88dbd0cef066f97edf358475e1450508b71f6e620deae26e56b74cc82da7",
+      "actualModel": null,
+      "actualQuality": null,
+      "configTarget": "gpt-image-2.5-sunburst",
+      "configQualityTarget": "max"
+    },
+    {
+      "file": "designs/characters/runtime-20261026/daotong-master-v1.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "sha256": "c458e647cc47a506311e539e3f3882dfa3bb82d7af7345eb0b866c92e4fdf400",
+      "actualModel": null,
+      "actualQuality": null,
+      "configTarget": "gpt-image-2.5-sunburst",
+      "configQualityTarget": "max"
+    },
+    {
+      "file": "designs/characters/runtime-20261026/daotong-win-v1.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "sha256": "de32f7d96c2baef48c13e7c481a9ca0c3c9bce45427fda39030bde701bdb77de",
+      "actualModel": null,
+      "actualQuality": null,
+      "configTarget": "gpt-image-2.5-sunburst",
+      "configQualityTarget": "max"
+    },
+    {
+      "file": "designs/characters/runtime-20261026/hulu-expressions-v2.png",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "sha256": "4187defc09877c1f8a04ccb2f150d8ff9bc1ac828f755b9bcf421a1a6b7f8921",
+      "actualModel": null,
+      "actualQuality": null,
+      "configTarget": "gpt-image-2.5-sunburst",
+      "configQualityTarget": "max"
+    },
+    {
+      "file": "designs/characters/runtime-20261026/hulu-lose-v1.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "sha256": "d35a952d2c5c2c2192ba2622c6712743dd42b4f9da4bee9a9e1efac840929989",
+      "actualModel": null,
+      "actualQuality": null,
+      "configTarget": "gpt-image-2.5-sunburst",
+      "configQualityTarget": "max"
+    },
+    {
+      "file": "designs/characters/runtime-20261026/hulu-master-v1.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "sha256": "052b8a06b868e821c5b5638ccc82bd7de191cc104b80a1f2816b32f578541c02",
+      "actualModel": null,
+      "actualQuality": null,
+      "configTarget": "gpt-image-2.5-sunburst",
+      "configQualityTarget": "max"
+    },
+    {
+      "file": "designs/characters/runtime-20261026/hulu-win-v1.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "sha256": "2d24967c6bd66bd66d188d53cbc1474789cdffa161e83d51ff60b3a5b7fd7371",
+      "actualModel": null,
+      "actualQuality": null,
+      "configTarget": "gpt-image-2.5-sunburst",
+      "configQualityTarget": "max"
+    },
+    {
+      "file": "designs/characters/runtime-20261026/taohua-expressions-v2.png",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "sha256": "68cf6b0f1851cde8c83287fe1b335691b5bbc8e3668ce991a8ddbee86d583e00",
+      "actualModel": null,
+      "actualQuality": null,
+      "configTarget": "gpt-image-2.5-sunburst",
+      "configQualityTarget": "max"
+    },
+    {
+      "file": "designs/characters/runtime-20261026/taohua-lose-v1.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "sha256": "95faf08890ffc5354d359673c9205f6bc62083afcd75b23f1db0437ee3912faf",
+      "actualModel": null,
+      "actualQuality": null,
+      "configTarget": "gpt-image-2.5-sunburst",
+      "configQualityTarget": "max"
+    },
+    {
+      "file": "designs/characters/runtime-20261026/taohua-master-v1.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "sha256": "a4c618b581a571b9ee70a791b9879abec4c15b4aa1f003c5b92f9790337f7736",
+      "actualModel": null,
+      "actualQuality": null,
+      "configTarget": "gpt-image-2.5-sunburst",
+      "configQualityTarget": "max"
+    },
+    {
+      "file": "designs/characters/runtime-20261026/taohua-win-v1.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "sha256": "41f79c31328fd78afbcc1d3331517f324f04ebcd87eb28f1a19c353b8f703c9e",
+      "actualModel": null,
+      "actualQuality": null,
+      "configTarget": "gpt-image-2.5-sunburst",
+      "configQualityTarget": "max"
+    }
+  ],
+  "visualReview": [
+    {
+      "file": "assets/characters/review/poses-light-dark.jpg",
+      "sha256": "7f7f1e3713348f306219ec990da01f009409a9053da23942d43bfd1d29974312",
+      "record": "assets/characters/review/poses-light-dark.derivation.json",
+      "visuallyReviewed": true
+    },
+    {
+      "file": "assets/characters/review/costumes-light-dark.jpg",
+      "sha256": "8be15899261f24e38a767dbf7cf12e2eddc2d9cdb639c37ed740ff014da0b44f",
+      "record": "assets/characters/review/costumes-light-dark.derivation.json",
+      "visuallyReviewed": true
+    },
+    {
+      "file": "assets/characters/review/expressions-light-dark.jpg",
+      "sha256": "f08ffd9eef3e3703b4028cc766ac0187df40795ab5abc34a12525c31d2ff2fba",
+      "record": "assets/characters/review/expressions-light-dark.derivation.json",
+      "visuallyReviewed": true
+    }
+  ],
+  "retention": {
+    "selectedNativePngs": 17,
+    "supersededImagesRemoved": [
+      "designs/characters/runtime-20261026/daotong-expressions-v1.png",
+      "designs/characters/runtime-20261026/taohua-expressions-v1.png",
+      "designs/characters/runtime-20261026/hulu-expressions-v1.png"
+    ],
+    "textGenerationRecordsRetained": 20
+  },
+  "failures": []
+}

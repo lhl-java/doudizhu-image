@@ -1,0 +1,122 @@
+{
+  "id": "30-puzzle-select",
+  "title": "残局关卡",
+  "primaryArtwork": "designs/ui/modes/30-puzzle-select-v1.png",
+  "controls": [
+    "普通/困难/专家",
+    "关卡进度",
+    "锁定",
+    "星级"
+  ],
+  "states": [
+    {
+      "name": "可挑战",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/modes/30-puzzle-select-v1.png",
+      "interaction": "进入31指定关卡，选其他已解锁关卡更新selectedLevel。",
+      "nativeCopy": [
+        "当前关卡",
+        "{puzzle.difficultyLabel} · 第{puzzle.selectedLevel}关",
+        "开始挑战",
+        "返回大厅"
+      ],
+      "controls": [
+        {
+          "file": "assets/ui/controls/primary-normal.png",
+          "nativeText": "开始挑战",
+          "enabled": true
+        },
+        {
+          "file": "assets/ui/controls/secondary-normal.png",
+          "nativeText": "返回大厅",
+          "enabled": true
+        }
+      ],
+      "assetFilesVerified": true,
+      "nativeText": {
+        "title": "当前关卡",
+        "body": "{puzzle.difficultyLabel} · 第{puzzle.selectedLevel}关",
+        "primary": "开始挑战",
+        "secondary": "返回大厅"
+      }
+    },
+    {
+      "name": "锁定",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/modes/30-puzzle-select-v1.png",
+      "interaction": "显示锁并禁用开始，不跳转31，不消耗任何道具。",
+      "nativeCopy": [
+        "关卡未解锁",
+        "先完成第{puzzle.prerequisiteLevel}关，再挑战此关。",
+        "未解锁",
+        "返回关卡"
+      ],
+      "controls": [
+        {
+          "file": "assets/ui/controls/primary-disabled.png",
+          "nativeText": "未解锁",
+          "enabled": false
+        },
+        {
+          "file": "assets/ui/controls/secondary-normal.png",
+          "nativeText": "返回关卡",
+          "enabled": true
+        }
+      ],
+      "assetFilesVerified": true,
+      "nativeText": {
+        "title": "关卡未解锁",
+        "body": "先完成第{puzzle.prerequisiteLevel}关，再挑战此关。",
+        "primary": "未解锁",
+        "secondary": "返回关卡"
+      }
+    },
+    {
+      "name": "已完成",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/modes/30-puzzle-select-v1.png",
+      "interaction": "允许重玩；只保留最高星级，首次奖励不重复发放。",
+      "nativeCopy": [
+        "关卡已完成",
+        "第{puzzle.selectedLevel}关，最高{puzzle.bestStars}星。",
+        "重玩本关",
+        "返回关卡"
+      ],
+      "controls": [
+        {
+          "file": "assets/ui/controls/primary-normal.png",
+          "nativeText": "重玩本关",
+          "enabled": true
+        },
+        {
+          "file": "assets/ui/controls/secondary-normal.png",
+          "nativeText": "返回关卡",
+          "enabled": true
+        }
+      ],
+      "assetFilesVerified": true,
+      "nativeText": {
+        "title": "关卡已完成",
+        "body": "第{puzzle.selectedLevel}关，最高{puzzle.bestStars}星。",
+        "primary": "重玩本关",
+        "secondary": "返回关卡"
+      }
+    }
+  ],
+  "dynamicText": "昵称、积分、时间、价格、进度及规则由客户端与服务端原生文字提供；图内均为美术示意。",
+  "sharedDependencies": [
+    "assets/ui/controls/panel.png",
+    "assets/ui/controls/title-primary.png",
+    "assets/ui/controls/primary-normal.png",
+    "assets/ui/controls/primary-disabled.png",
+    "assets/ui/controls/secondary-normal.png",
+    "assets/ui/controls/secondary-disabled.png",
+    "assets/ui/controls/progress.png",
+    "assets/ui/controls/avatar-frame.png",
+    "assets/ui/controls/tab-selected.png",
+    "assets/ui/controls/tab-normal.png"
+  ],
+  "notes": "选用主图为独立已生成画面；其他语义状态用下列真实公共素材与原生文字组装。shared_component表示完整组成设计，未冒称另有整屏生成图。接入时使用原画皮肤与动态区域，不把整屏PNG内示例数字作为业务真值。",
+  "dynamicCopySource": "designs/ui/modes/demo-data-contract-existing.json + 同tournamentId/seasonId/playerId的服务端回执",
+  "requiredStatesComplete": true
+}

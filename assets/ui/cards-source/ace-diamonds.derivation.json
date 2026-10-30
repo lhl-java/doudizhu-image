@@ -1,0 +1,29 @@
+{
+  "file": "assets/ui/cards-source/ace-diamonds.png",
+  "sha256": "3b94e904d28c215910a38893f63866e797cfa1a88365b4070273e064a549461b",
+  "width": 212,
+  "height": 286,
+  "format": "PNG",
+  "operation": "crop-only-preserve-source-RGBA-no-resize",
+  "cropRect": [
+    155,
+    279,
+    385,
+    565
+  ],
+  "trimRect": [
+    17,
+    0,
+    229,
+    286
+  ],
+  "derivedFrom": {
+    "file": "designs/ui/components/52-card-and-effects-v1.png",
+    "sha256": "e8c4302a6d6111f092218681bf36d87ae1dcfeb0f45f58321847d178cb71855e",
+    "generationRecord": "designs/ui/components/52-card-and-effects-v1.generation.json"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+  "status": "derived_asset_ready_user_review"
+}

@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "id": "loading-ring",
+  "kind": "derived_spriteframes",
+  "route": "derived",
+  "operation": "translate/rotate/scale/alpha generated static illustration onto fixed384RGBA canvas, no invented paint details",
+  "derivedFrom": [
+    {
+      "file": "assets/fx/loading-ring.png",
+      "sha256": "111b7d5c9a2c9570b552aa1e8a947f56ab867be743dcf7a144bd3b4c94973cdc",
+      "record": "assets/fx/loading-ring.png.generation.json",
+      "role": "runtime FX static sprite"
+    }
+  ],
+  "timeline": "assets/fx/loading-ring.timeline.json",
+  "durationMs": 1200,
+  "loop": true,
+  "blend": "normal",
+  "event": "loading_started",
+  "anchor": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "frames": [
+    {
+      "file": "assets/fx/frames/loading-ring/000.png",
+      "sha256": "63554ea4b83e643756e4b11a419b298ed89938a580f341ace193575474fae5fe",
+      "atMs": 0,
+      "durationMs": 75,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 1.0,
+        "scale": 1.0,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/loading-ring/001.png",
+      "sha256": "d3fc6a0e0f04edc779394a0a405e26aa582dd5a1808ddabbd30635173013ca05",
+      "atMs": 75,
+      "durationMs": 75,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 1.0,
+        "scale": 1.0,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 22.5
+      }
+    },
+    {
+      "file": "assets/fx/frames/loading-ring/002.png",
+      "sha256": "c4629386a43bfaa94b5f2cbdf7ab8ce2602ed0fb9f2e077d92c6bd036213f9a5",
+      "atMs": 150,
+      "durationMs": 75,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 1.0,
+        "scale": 1.0,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 45.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/loading-ring/003.png",
+      "sha256": "e784f2037d7c721c0174d4f2062742d2fc545bd94b7383278f47f8a223548a82",
+      "atMs": 225,
+      "durationMs": 75,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 1.0,
+        "scale": 1.0,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 67.5
+      }
+    },
+    {
+      "file": "assets/fx/frames/loading-ring/004.png",
+      "sha256": "662684e79f2de4bcb0e16f8ae50dcd4da9edae2f9f1f55149584523161eeb0a1",
+      "atMs": 300,
+      "durationMs": 75,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 1.0,
+        "scale": 1.0,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 90.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/loading-ring/005.png",
+      "sha256": "cc86152723011e5c13a86b70930a305c7d2c6250452e1e40586c65459de48d06",
+      "atMs": 375,
+      "durationMs": 75,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 1.0,
+        "scale": 1.0,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 112.5
+      }
+    },
+    {
+      "file": "assets/fx/frames/loading-ring/006.png",
+      "sha256": "0937254653a0cf9d3e4b624ab1db623eaccc794f839df86c3a5d5d2b7764e6ca",
+      "atMs": 450,
+      "durationMs": 75,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 1.0,
+        "scale": 1.0,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 135.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/loading-ring/007.png",
+      "sha256": "84039964272e8b44c729663f133eb18d3acccddd39f45e535921b4aafb32f1c5",
+      "atMs": 525,
+      "durationMs": 75,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 1.0,
+        "scale": 1.0,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 157.5
+      }
+    },
+    {
+      "file": "assets/fx/frames/loading-ring/008.png",
+      "sha256": "33f41667e97659bd4039d3cf586c0ca7b305470a1c3c2b96ce520fa89bb38354",
+      "atMs": 600,
+      "durationMs": 75,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 1.0,
+        "scale": 1.0,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 180.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/loading-ring/009.png",
+      "sha256": "8e3b02cbd6402d4cc0b657a643d03e5046c348b0ca703230a3dcaf4fe3a093de",
+      "atMs": 675,
+      "durationMs": 75,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 1.0,
+        "scale": 1.0,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 202.5
+      }
+    },
+    {
+      "file": "assets/fx/frames/loading-ring/010.png",
+      "sha256": "3778ebb6d523a5659a0dddd106f12ce71bd3d0def8495871859b9fc8d37e90bd",
+      "atMs": 750,
+      "durationMs": 75,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 1.0,
+        "scale": 1.0,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 225.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/loading-ring/011.png",
+      "sha256": "08c3c939f10a5501ef36e594648266cfe28abc61fd9764aa409a572bc9ac86c4",
+      "atMs": 825,
+      "durationMs": 75,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 1.0,
+        "scale": 1.0,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 247.5
+      }
+    },
+    {
+      "file": "assets/fx/frames/loading-ring/012.png",
+      "sha256": "dfb57ad728fd40384002d85f57134d1df4ea06cf6d200b320a951130d41792ce",
+      "atMs": 900,
+      "durationMs": 75,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 1.0,
+        "scale": 1.0,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 270.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/loading-ring/013.png",
+      "sha256": "a58f23e0c3663cf27e154d0715fbb5cf9c0d8e8936a33d2d66effcf1d69a70fd",
+      "atMs": 975,
+      "durationMs": 75,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 1.0,
+        "scale": 1.0,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 292.5
+      }
+    },
+    {
+      "file": "assets/fx/frames/loading-ring/014.png",
+      "sha256": "e1e570a179a23d91a353201f2fbb0b8846f58fe286f2bfe038d0310e9664b1f5",
+      "atMs": 1050,
+      "durationMs": 75,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 1.0,
+        "scale": 1.0,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 315.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/loading-ring/015.png",
+      "sha256": "c56119d4749693dafd5750b7eb4f8a90c45c9e04e7751086a0da53e0d0bf37fd",
+      "atMs": 1125,
+      "durationMs": 75,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 1.0,
+        "scale": 1.0,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 337.5
+      }
+    }
+  ],
+  "bakedPlaybackDurationMs": 1200,
+  "timelineDurationMs": 1200,
+  "terminalSentinelMs": 0,
+  "onComplete": "repeat",
+  "status": "derived_animation_ready_user_review"
+}

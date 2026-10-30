@@ -1,0 +1,101 @@
+{
+  "file": "designs/characters/runtime-20261026/daotong-costume-spring-v1.png",
+  "sha256": "88d8f0edbd23dc724c44f73aef2e0a0eec56075abd1efd3c7f056184b5814593",
+  "generatedAt": "2026-10-26T18:28:40.957763+00:00",
+  "generatedAtEvidence": "timestamp recorded immediately after host output adoption, not internal model clock",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "pixelMode": "RGBA",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\doudizhu-image\\designs\\characters\\runtime-20261026\\daotong-master-v1.png",
+      "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\doudizhu-image\\designs\\ui\\modes\\35-wardrobe-v1.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据",
+  "prompt": "prompts/characters-runtime/daotong-costume-spring-v1.txt",
+  "references": [
+    {
+      "file": "designs/characters/runtime-20261026/daotong-master-v1.png",
+      "sha256": "c458e647cc47a506311e539e3f3882dfa3bb82d7af7345eb0b866c92e4fdf400",
+      "role": "primary confirmed style or selected character identity/pose"
+    },
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "primary confirmed style or selected character identity/pose"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "primary confirmed style or selected character identity/pose"
+    },
+    {
+      "file": "designs/ui/modes/35-wardrobe-v1.png",
+      "sha256": "15108a7ec7ce706f11e22de5fabdc7a6e91a81e0a319b2b76f660172d2720ab8",
+      "role": "primary confirmed style or selected character identity/pose"
+    }
+  ],
+  "evidence": {
+    "hostOutputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a178e0-3945-7ad2-bb27-1219450b45c3\\exec-17c11d09-544f-4867-b278-94242f11c549.png",
+    "receipt": "designs/characters/runtime-20261026/daotong-costume-spring-v1.receipt.json"
+  },
+  "transparency": {
+    "hasAlpha": true,
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "nonTransparentBounds": [
+      0,
+      29,
+      1202,
+      1254
+    ],
+    "borderPixelsWithAlpha": 17
+  },
+  "nativeResolution": {
+    "width": 1254,
+    "height": 1254
+  },
+  "exportOperation": "byte-identical-copy-no-resize",
+  "status": "asset_ready_user_review",
+  "editedFrom": {
+    "file": "designs/characters/runtime-20261026/daotong-master-v1.png",
+    "sha256": "c458e647cc47a506311e539e3f3882dfa3bb82d7af7345eb0b866c92e4fdf400",
+    "generationRecord": "designs/characters/runtime-20261026/daotong-master-v1.generation.json"
+  },
+  "visualQA": {
+    "status": "passed_for_runtime_art_review",
+    "method": "actual image_gen output inspected",
+    "findings": [
+      "Full character, same face and stance, matching wardrobe variant with newly generated embroidery.",
+      "Native RGBA, complete shoes/headband/gourd, no background."
+    ]
+  }
+}

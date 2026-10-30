@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-28T08:36:20.946268+00:00",
+  "source": "assets/brand/app-icon.png",
+  "exports": [
+    {
+      "file": "assets/brand/exports/app-icon-1024.png",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "06018a61a2ba99bda507d3e7ab7f4187dc241b96174d573ffb33d523b4d6c49c",
+      "route": "derived",
+      "operation": "Uniform Lanczos downscale of final square icon; no repainting, no AI generation, no upscaling.",
+      "derivedFrom": [
+        {
+          "file": "assets/brand/app-icon.png",
+          "sha256": "b89da0957cfdd0ea50fa8de17e8b3ed195e6ff076b0afd633b2c9dad929a68a2",
+          "record": "assets/brand/app-icon.generation.json"
+        }
+      ],
+      "record": "assets/brand/exports/app-icon-1024.derivation.json"
+    },
+    {
+      "file": "assets/brand/exports/app-icon-512.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "620391d83e60dfd176e3358dd04b495cffe6069265673b6ee91dd1b5d8dba076",
+      "route": "derived",
+      "operation": "Uniform Lanczos downscale of final square icon; no repainting, no AI generation, no upscaling.",
+      "derivedFrom": [
+        {
+          "file": "assets/brand/app-icon.png",
+          "sha256": "b89da0957cfdd0ea50fa8de17e8b3ed195e6ff076b0afd633b2c9dad929a68a2",
+          "record": "assets/brand/app-icon.generation.json"
+        }
+      ],
+      "record": "assets/brand/exports/app-icon-512.derivation.json"
+    },
+    {
+      "file": "assets/brand/exports/app-icon-192.png",
+      "width": 192,
+      "height": 192,
+      "sha256": "917c279c49a9ff61be178dcc252a8cec2503039848510b36a521355f30f1b96a",
+      "route": "derived",
+      "operation": "Uniform Lanczos downscale of final square icon; no repainting, no AI generation, no upscaling.",
+      "derivedFrom": [
+        {
+          "file": "assets/brand/app-icon.png",
+          "sha256": "b89da0957cfdd0ea50fa8de17e8b3ed195e6ff076b0afd633b2c9dad929a68a2",
+          "record": "assets/brand/app-icon.generation.json"
+        }
+      ],
+      "record": "assets/brand/exports/app-icon-192.derivation.json"
+    },
+    {
+      "file": "assets/brand/exports/app-icon-180.png",
+      "width": 180,
+      "height": 180,
+      "sha256": "34ad272c5444fd229476ae552683a40b619d3fa8e4e6f9814d5454281a454d9e",
+      "route": "derived",
+      "operation": "Uniform Lanczos downscale of final square icon; no repainting, no AI generation, no upscaling.",
+      "derivedFrom": [
+        {
+          "file": "assets/brand/app-icon.png",
+          "sha256": "b89da0957cfdd0ea50fa8de17e8b3ed195e6ff076b0afd633b2c9dad929a68a2",
+          "record": "assets/brand/app-icon.generation.json"
+        }
+      ],
+      "record": "assets/brand/exports/app-icon-180.derivation.json"
+    },
+    {
+      "file": "assets/brand/exports/app-icon-128.png",
+      "width": 128,
+      "height": 128,
+      "sha256": "3f380083c0146ec2ae3083b2be5b49b9b381ce8c1e8ed4d4e665cb17b4b3aa9c",
+      "route": "derived",
+      "operation": "Uniform Lanczos downscale of final square icon; no repainting, no AI generation, no upscaling.",
+      "derivedFrom": [
+        {
+          "file": "assets/brand/app-icon.png",
+          "sha256": "b89da0957cfdd0ea50fa8de17e8b3ed195e6ff076b0afd633b2c9dad929a68a2",
+          "record": "assets/brand/app-icon.generation.json"
+        }
+      ],
+      "record": "assets/brand/exports/app-icon-128.derivation.json"
+    },
+    {
+      "file": "assets/brand/exports/app-icon-96.png",
+      "width": 96,
+      "height": 96,
+      "sha256": "13be5213cc277fb58c503d0810bf40894dad73390dcb945c43fc5e84ec66add8",
+      "route": "derived",
+      "operation": "Uniform Lanczos downscale of final square icon; no repainting, no AI generation, no upscaling.",
+      "derivedFrom": [
+        {
+          "file": "assets/brand/app-icon.png",
+          "sha256": "b89da0957cfdd0ea50fa8de17e8b3ed195e6ff076b0afd633b2c9dad929a68a2",
+          "record": "assets/brand/app-icon.generation.json"
+        }
+      ],
+      "record": "assets/brand/exports/app-icon-96.derivation.json"
+    },
+    {
+      "file": "assets/brand/exports/app-icon-64.png",
+      "width": 64,
+      "height": 64,
+      "sha256": "4d0b543602e30ac394ff46ffa32ecc039fd4eecb41cf6b846b84fbe439abae3e",
+      "route": "derived",
+      "operation": "Uniform Lanczos downscale of final square icon; no repainting, no AI generation, no upscaling.",
+      "derivedFrom": [
+        {
+          "file": "assets/brand/app-icon.png",
+          "sha256": "b89da0957cfdd0ea50fa8de17e8b3ed195e6ff076b0afd633b2c9dad929a68a2",
+          "record": "assets/brand/app-icon.generation.json"
+        }
+      ],
+      "record": "assets/brand/exports/app-icon-64.derivation.json"
+    },
+    {
+      "file": "assets/brand/exports/app-icon-48.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "341d1b4919a519b047bbbd3a4b42e3432da7b141c42275fc6a31a70bb0a63730",
+      "route": "derived",
+      "operation": "Uniform Lanczos downscale of final square icon; no repainting, no AI generation, no upscaling.",
+      "derivedFrom": [
+        {
+          "file": "assets/brand/app-icon.png",
+          "sha256": "b89da0957cfdd0ea50fa8de17e8b3ed195e6ff076b0afd633b2c9dad929a68a2",
+          "record": "assets/brand/app-icon.generation.json"
+        }
+      ],
+      "record": "assets/brand/exports/app-icon-48.derivation.json"
+    },
+    {
+      "file": "assets/brand/exports/app-icon-32.png",
+      "width": 32,
+      "height": 32,
+      "sha256": "3e2dba825e677cce2bf5015519762649d180fadc8defe074f645ca5a915e667b",
+      "route": "derived",
+      "operation": "Uniform Lanczos downscale of final square icon; no repainting, no AI generation, no upscaling.",
+      "derivedFrom": [
+        {
+          "file": "assets/brand/app-icon.png",
+          "sha256": "b89da0957cfdd0ea50fa8de17e8b3ed195e6ff076b0afd633b2c9dad929a68a2",
+          "record": "assets/brand/app-icon.generation.json"
+        }
+      ],
+      "record": "assets/brand/exports/app-icon-32.derivation.json"
+    }
+  ],
+  "note": "Generic square PNG exports. Platform signing, store listings, screenshots, and adaptive launcher layer configuration are application release integration."
+}

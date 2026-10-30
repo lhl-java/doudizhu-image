@@ -1,0 +1,20 @@
+{
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "toolReturnKeys": [
+    "image_url",
+    "output_hint"
+  ],
+  "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1772b-71a9-7f61-b67a-7c35bfc09f10 as C:\\Users\\luyua\\.codex\\generated_images\\01a1772b-71a9-7f61-b67a-7c35bfc09f10\\exec-88e97f35-da7f-4181-a053-0f30dcd05f90.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "actualModel": null,
+  "actualQuality": null,
+  "recordedAt": "2026-10-26 07:54:29 UTC",
+  "submittedArguments": {
+    "prompt": "Use case: ui-mockup\nAsset type: 中国道家Q版横屏斗地主手游，独立完整UI视觉设计，正视平面全屏，不带手机边框，不是多屏拼贴。期望2560×1080约2.37:1，原生精细绘制，画布内安全留白3%。\nInput images: Image 1为邮件主参考，Image 2为组队主参考，实际继承两者的玉绿标题、米白纸绢大面板、暖金细边、云纹如意卷角、清晰中文和细腻手绘完成度。只承接画风和控件，不复制原功能、原文字或旧游戏名称。若附角色图，仅继承角色身份外形。\nScene: 窗口外缘少量仙山亭阁、桃花与小灯，背景低对比，不遮挡窗口。主要窗口占画面90%，玉绿标题牌居顶，米白内容大块留白。细金分隔线、整齐对齐、文字清楚、主次按钮分明。\nStyle: 温润二维高清手绘，玉绿/青绿主色，象牙米白与暖米纸绢，细暖金；少量朱砂流苏、桃粉点缀。圆润饱满，阴影柔和，精致而不厚重；不是塑料公仔或写实人物。\n\nPrimary request: 完整货币兑换页。顶部标题“仙豆兑换”，右上关闭；右上小货币条“仙豆 12,800”“玉珠 240”。左竖页签“仙豆兑换”“兑换记录”，首项玉绿选中。主区三张同宽米白金边兑换卡：1,000仙豆/100玉珠，3,000仙豆/280玉珠，6,000仙豆/520玉珠；第一卡选中有细玉绿描边、第二卡带小“推荐”。卡上用独立手绘金币堆表现档位，字符清晰。下方说明“兑换前请确认数量”，选中第一卡，主按钮“兑换 1,000 仙豆”。底部轻量“查看兑换记录”入口。资源数值只是设计示意，勿加真实货币标识。\nText(verbatim): “仙豆兑换”、“兑换记录”、“仙豆 12,800”、“玉珠 240”、“1,000 仙豆”、“100 玉珠”、“3,000 仙豆”、“280 玉珠”、“6,000 仙豆”、“520 玉珠”、“推荐”、“兑换前请确认数量”、“兑换 1,000 仙豆”、“查看兑换记录”\nConstraints: 所有主要功能清楚可读，同一张完整页面，不要旁边增加其他页面缩略图或状态板。按钮完整无裁切，图标和文字不重叠。示意数据仅用于视觉；不执行购买、登录或发送消息。不要把评审说明印在画面。只出现上述指定文字与必要数字。\nAvoid: 腾讯/欢乐斗地主品牌与角色、旧游戏名、写实皮肤、塑料高光、密集金纹噪点、粗硬边框、模糊拉伸、乱码水印、屏幕样机。",
+    "referenced_image_paths": [
+      "D:/work/doudizhu-image/references/style/01-mail-event.png",
+      "D:/work/doudizhu-image/references/style/team-ui-v2.png"
+    ],
+    "transparent_background": false
+  }
+}

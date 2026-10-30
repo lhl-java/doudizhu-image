@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/ui/table/15-follow-pass-v2.png",
+  "sha256": "69319714827a6ba97226adc053db8d55e26dbcf0b7ba13b6d34dafccc292c1b7",
+  "generatedAt": "2026-10-26T04:13:53.9514198-04:00",
+  "timestampMeaning": "UI组合导出时间，不是新模型生成时间",
+  "width": 1931,
+  "height": 814,
+  "format": "PNG",
+  "tool": "System.Drawing native UI composition",
+  "route": "derived",
+  "operation": "layered-ui-composition: original native artwork + nine-sliced generated panel skin + deterministic correctly ranked card components",
+  "nativeArtworkResolution": {
+    "width": 1931,
+    "height": 814
+  },
+  "exportResolution": {
+    "width": 1931,
+    "height": 814
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "submittedParameters": {
+    "model": null,
+    "quality": null
+  },
+  "unverifiedReason": "本图为UI素材组合导出，未再次调用生成模型；每个生成源的实际型号质量跟随derivedFrom记录，未披露仍为null",
+  "derivedFrom": [
+    {
+      "file": "designs/ui/table/15-follow-pass-v1.png",
+      "sha256": "9b906c044610618f602d48bcf1c711d485c70ab1bea3316135a4400bcfd938c6",
+      "record": "designs/ui/table/15-follow-pass-v1.generation.json",
+      "role": "原生生成整屏底图，不放大"
+    },
+    {
+      "file": "assets/ui/cards-source/farmer.png",
+      "sha256": "5cbe5643a0150da3710b0aba32952610644235020db7ba62250a49e19652763a",
+      "record": "assets/ui/cards-source/farmer.derivation.json",
+      "role": "左侧女修为农民"
+    },
+    {
+      "file": "assets/ui/cards-source/landlord.png",
+      "sha256": "3dfee5ad7d76c3b638f3cfeb0b19303ad7ef1fdcaffb4074f26fa38f7425bc93",
+      "record": "assets/ui/cards-source/landlord.derivation.json",
+      "role": "右侧长者为地主"
+    },
+    {
+      "file": "assets/ui/cards-source/farmer.png",
+      "sha256": "5cbe5643a0150da3710b0aba32952610644235020db7ba62250a49e19652763a",
+      "record": "assets/ui/cards-source/farmer.derivation.json",
+      "role": "自己为农民"
+    }
+  ],
+  "layout": "prompts/table/15-follow-pass-v2.layout.json",
+  "cardGroups": [],
+  "visualReview": {
+    "status": "design_ready_user_review",
+    "note": "已看图：13张手牌与标签一致、KK可压QQ、操作清楚。用已有地主/农民徽章补齐三席身份，身份徽章为同源UI组件排版，无新生成细节。"
+  }
+}

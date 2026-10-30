@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "id": "17-reconnect",
+  "title": "掉线与重连",
+  "primaryVisual": "designs/ui/table/17-reconnect-v2.png",
+  "generation": "designs/ui/table/17-reconnect-v2.generation.json",
+  "status": "design_ready_user_review",
+  "shownState": "连接中断弹窗；重试与返回入口",
+  "renderedStateVerification": "已看图：连接中断、正在重连、座位保留、返回/重连入口清楚；自己手牌可数15张，独立动态计数牌已修正为15并使用同源玉绿控件皮肤。弹窗不表示已实际联网恢复。",
+  "states": [
+    {
+      "name": "连接中",
+      "coverage": "rendered",
+      "plannedCoverage": "rendered",
+      "behavior": "显示连接中断与正在重新连接，保留牌局背景。",
+      "artwork": "designs/ui/table/17-reconnect-v2.png",
+      "verification": "rendered为当前已看图布局；shared_component为已有同源素材与原生动态层的复用规范，不表示已生成每个变体截图或已实现客户端"
+    },
+    {
+      "name": "失败",
+      "coverage": "shared_component",
+      "plannedCoverage": "shared_component",
+      "behavior": "网络失败弹窗提供重试和返回，保留座位状态由回执决定。",
+      "artwork": "assets/ui/manifest.json",
+      "verification": "rendered为当前已看图布局；shared_component为已有同源素材与原生动态层的复用规范，不表示已生成每个变体截图或已实现客户端"
+    },
+    {
+      "name": "恢复",
+      "coverage": "shared_component",
+      "plannedCoverage": "shared_component",
+      "behavior": "关闭弹窗并恢复服务器最新牌局，不能重新出旧牌。",
+      "artwork": "assets/ui/manifest.json",
+      "verification": "rendered为当前已看图布局；shared_component为已有同源素材与原生动态层的复用规范，不表示已生成每个变体截图或已实现客户端"
+    },
+    {
+      "name": "座位保留",
+      "coverage": "rendered",
+      "plannedCoverage": "rendered",
+      "behavior": "清楚显示你的座位已保留提示。",
+      "artwork": "designs/ui/table/17-reconnect-v2.png",
+      "verification": "rendered为当前已看图布局；shared_component为已有同源素材与原生动态层的复用规范，不表示已生成每个变体截图或已实现客户端"
+    }
+  ],
+  "dynamicFields": [
+    "玩家昵称、头像、身份",
+    "底牌、手牌、牌数、出牌组合",
+    "剩余时间、底分、倍数、分数",
+    "选择状态、连接状态、提示文案"
+  ],
+  "implementationNote": "背景和皮肤为视觉设计。所有中文、牌面、牌数、计时、分数、可用性应作为原生动态层；当前图片仅示意，不作为可运行或合法牌局验收。",
+  "sharedDependencies": [
+    "assets/ui/manifest.json",
+    "designs/ui/components/50-shared-dialogs-v1.png",
+    "designs/ui/components/51-common-components-v1.png",
+    "designs/ui/components/52-card-and-effects-v1.png"
+  ],
+  "copyAndRules": "示意计分、门槛、倍数和超时规则应由最终产品规则确认，不以本图取代真实回执。"
+}

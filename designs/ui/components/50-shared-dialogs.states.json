@@ -1,0 +1,55 @@
+{
+  "id": "50-shared-dialogs",
+  "title": "通用弹窗状态",
+  "primaryArtwork": "designs/ui/components/50-shared-dialogs-v1.png",
+  "controls": [
+    "确认",
+    "网络错误",
+    "资源不足",
+    "获得奖励",
+    "加载",
+    "空态"
+  ],
+  "states": [
+    {
+      "name": "确认",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/components/50-shared-dialogs-v1.png",
+      "interaction": "D01，返回大厅确认；取消保留当前上下文，确定返回大厅",
+      "dependencies": []
+    },
+    {
+      "name": "取消",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/components/50-shared-dialogs-v1.png",
+      "interaction": "D01/D05 次按钮；关闭不产生业务操作",
+      "dependencies": []
+    },
+    {
+      "name": "重试",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/components/50-shared-dialogs-v1.png",
+      "interaction": "D02 网络重试，处理中禁用重试按钮，保留返回",
+      "dependencies": []
+    },
+    {
+      "name": "奖励",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/components/50-shared-dialogs-v1.png",
+      "interaction": "D04 奖励结果，实际奖励列表由原生文字替换示意",
+      "dependencies": []
+    },
+    {
+      "name": "空态",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/components/50-shared-dialogs-v1.png",
+      "interaction": "D06 无记录，返回上级；不保留上次数据",
+      "dependencies": []
+    }
+  ],
+  "dynamicText": "正式客户端采用原生中文文字及动态业务数据。",
+  "sharedDependencies": [
+    "assets/ui/manifest.json"
+  ],
+  "status": "design_ready_user_review"
+}

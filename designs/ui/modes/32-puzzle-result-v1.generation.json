@@ -1,0 +1,76 @@
+{
+  "file": "designs/ui/modes/32-puzzle-result-v1.png",
+  "sha256": "0902d5d1edf8d97754af1db89fe65fb6df3b84a1820d01c2ac934943925311a5",
+  "generatedAt": "2026-10-26T11:33:12.668642+00:00",
+  "generatedAtEvidence": "recorded after tool completion; service internal timestamp not disclosed",
+  "width": 1931,
+  "height": 814,
+  "format": "PNG",
+  "nativeResolution": {
+    "width": 1931,
+    "height": 814
+  },
+  "exportOperation": "byte-identical-copy-no-resize",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据",
+  "evidence": {
+    "hostOutputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a17714-4402-7063-9782-93f78261cb48\\exec-57a233eb-4835-4d36-986d-d74357790005.png",
+    "toolReceipt": "designs\\ui\\modes\\32-puzzle-result-v1.receipt.json"
+  },
+  "prompt": "prompts/modes/32-puzzle-result-v1.txt",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "user-confirmed-primary-style"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "user-confirmed-primary-style"
+    },
+    {
+      "file": "designs/characters/characters-trio-v1.png",
+      "sha256": "0c4dda70d4e16715527ed243a8d3efc2a401be2f06326b49601d1b184e7165ac",
+      "role": "current-three-character-identities"
+    }
+  ],
+  "pixelMode": "RGB",
+  "alphaExtrema": null,
+  "status": "design_ready_user_review",
+  "visualQA": {
+    "status": "passed_for_design_review",
+    "method": "actual image_gen image display inspected by root, plus view_image for recovered 31",
+    "inspectedAt": "2026-10-26T12:02:05.145998+00:00",
+    "findings": [
+      "已实际看image_gen返回原图：第4关、成功、三星、步数6、提示0、铜钱100、重玩和下一关完整可读；角色脚与按钮均完整。"
+    ]
+  }
+}

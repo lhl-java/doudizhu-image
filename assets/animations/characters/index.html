@@ -1,0 +1,16 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>角色 UI 关键帧预览</title>
+<style>body{font:16px system-ui;margin:24px;color:#173d31;background:#f7f1df}main{display:flex;gap:24px;flex-wrap:wrap}article{border:1px solid #b09b5c;border-radius:16px;padding:12px;background:#fffaf0}canvas{display:block;width:320px;height:400px;background:repeating-conic-gradient(#f1ead8 0 25%,#e5dfcf 0 50%) 0/24px 24px}button,select{font:inherit;margin:4px;padding:6px 10px}pre{white-space:pre-wrap;font-size:12px;max-width:320px;height:50px;overflow:auto}p{max-width:1000px;line-height:1.6}</style>
+<h1>角色 UI 关键帧预览</h1><p>直接播放原有透明角色图的整体变换及三张姿态切换。思考头像为独立 HUD，出牌使用已有牌背。此处不是 AI 视频或骨骼全身连续动作；烘焙透明图集为 160×200 预览，此画布使用原 1024×1024 资产显示。</p><main id="actors"></main>
+<script type="module">
+import {createActorPlayer} from './player.mjs';
+const names={daotong:'玉绿道童',taohua:'桃花女修',hulu:'葫芦长者'};
+const labels={idle:'待机',think:'思考',play:'出牌',win:'胜利',lose:'失败'};
+for(const [actor,name] of Object.entries(names)) {
+ const box=document.createElement('article');box.innerHTML=`<h2>${name}</h2><canvas></canvas><div></div><pre>正在载入</pre>`;document.querySelector('main').append(box);
+ const log=box.querySelector('pre'), player=await createActorPlayer(box.querySelector('canvas'),{actor,onEvent:e=>{log.textContent=`${e.clipId} ${e.atMs}ms ${e.type}`;}});
+ for(const [action,label] of Object.entries(labels)){const b=document.createElement('button');b.textContent=label;b.onclick=()=>player.play(action);box.querySelector('div').append(b);}
+ if(actor==='daotong') {const s=document.createElement('select');for(const [key,label] of Object.entries({base:'青云衣',spring:'桃花春衣',ink:'暮色墨衣',moon:'桂月金衣',snow:'雪色白衣',festival:'庆典红衣'})){const o=document.createElement('option');o.value='daotong_'+key;o.textContent=label;s.append(o);}s.onchange=()=>player.setSkin(s.value);box.append(s);}
+ log.textContent='已载入，待机循环中';
+}
+window.actorPreviewReady=true;
+</script></html>

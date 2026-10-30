@@ -1,0 +1,29 @@
+{
+  "file": "assets/ui/cards-source/ace-hearts.png",
+  "sha256": "0498be74f6019491563d6964dc441146bef2a0901ee2119683b68d82dfb1b0b0",
+  "width": 230,
+  "height": 283,
+  "format": "PNG",
+  "operation": "crop-only-preserve-source-RGBA-no-resize",
+  "cropRect": [
+    764,
+    0,
+    994,
+    283
+  ],
+  "trimRect": [
+    0,
+    0,
+    230,
+    283
+  ],
+  "derivedFrom": {
+    "file": "designs/ui/components/52-card-and-effects-v1.png",
+    "sha256": "e8c4302a6d6111f092218681bf36d87ae1dcfeb0f45f58321847d178cb71855e",
+    "generationRecord": "designs/ui/components/52-card-and-effects-v1.generation.json"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+  "status": "derived_asset_ready_user_review"
+}

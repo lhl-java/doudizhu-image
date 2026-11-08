@@ -1,0 +1,555 @@
+{
+  "schemaVersion": 2,
+  "pageId": "05-matchmaking",
+  "title": "匹配等待",
+  "scopeSource": "docs/UI_SCOPE.json",
+  "scopeControls": [
+    "匹配进度",
+    "耗时",
+    "取消",
+    "规则摘要"
+  ],
+  "requiredStates": [
+    "匹配中",
+    "取消",
+    "超时重试"
+  ],
+  "status": "design_ready_user_review",
+  "renderedState": {
+    "status": "design_ready_user_review",
+    "coverage": "rendered",
+    "description": "匹配中，可取消",
+    "plannedRequiredStates": [
+      "匹配中"
+    ],
+    "image": "designs/ui/core/05-matchmaking-v1.png",
+    "generation": "designs/ui/core/05-matchmaking-v1.generation.json",
+    "actualRequiredStates": [
+      "匹配中"
+    ]
+  },
+  "expectedOutput": "designs/ui/core/05-matchmaking-v1.png",
+  "expectedGeneration": "designs/ui/core/05-matchmaking-v1.generation.json",
+  "states": [
+    {
+      "name": "匹配中",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/05-matchmaking-v1.png",
+      "copy": [
+        "正在匹配",
+        "正在寻找牌友…",
+        "等待时间",
+        "经典玩法 · 初级场",
+        "取消匹配"
+      ],
+      "behavior": [
+        "显示匹配进度、耗时和规则摘要；取消入口保持可识别。"
+      ],
+      "disabledReasons": [],
+      "dependencies": [],
+      "evidence": {
+        "inspectedAt": "2026-10-26T11:24:53.858275+00:00",
+        "imageSha256": "50e241523f4b0bffc69f72e5de08425dec95ab4cfd4c3679bea951cd54477003",
+        "note": "本人已就位，两席寻找中，已等待00:08及取消匹配同时可见。",
+        "method": "view_image",
+        "reviewer": "core_qa"
+      },
+      "actualCopy": [
+        "匹配中",
+        "经典·初级场",
+        "正在寻找牌友",
+        "道友",
+        "已就位",
+        "寻找中",
+        "已等待 00:08",
+        "取消匹配",
+        "请稍候"
+      ]
+    },
+    {
+      "name": "取消",
+      "coverage": "shared_component",
+      "status": "design_ready_user_review",
+      "image": null,
+      "copy": [
+        "已取消匹配",
+        "返回"
+      ],
+      "behavior": [
+        "取消成功后返回来源页面；从快速开始进入时回大厅，从场次选择进入时回场次页。"
+      ],
+      "disabledReasons": [],
+      "dependencies": [
+        {
+          "pageId": "51-common-components",
+          "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+          "output": "designs/ui/components/51-common-components-v1.png",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "第6行第1项空白面板、第3行标题牌、第1行默认主按钮",
+          "sourceStatus": "design_ready_user_review",
+          "stateSpec": "designs/ui/components/51-common-components.states.json",
+          "generation": "designs/ui/components/51-common-components-v1.generation.json"
+        },
+        {
+          "output": "assets/ui/controls/panel.png",
+          "sha256": "8cea325f107b9dae1b16addf4d4c5b3987defc6fef98dc89d65b0108c1321d6a",
+          "derivation": "assets/ui/controls/panel.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "panel transparent native control"
+        },
+        {
+          "output": "assets/ui/controls/title-primary.png",
+          "sha256": "08b86b529771c2b9ba5c968b04aa3dc4bb2806f4f9bccb311fd2a3f66c61629e",
+          "derivation": "assets/ui/controls/title-primary.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "title-primary transparent native control"
+        },
+        {
+          "output": "assets/ui/controls/primary-normal.png",
+          "sha256": "a2aa9afff3b9ef559a23ddef8d1b991691c09a609b7ea96b453c56c586b5f021",
+          "derivation": "assets/ui/controls/primary-normal.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "primary-normal transparent native control"
+        },
+        {
+          "pageId": "05-matchmaking",
+          "output": "designs/ui/core/05-matchmaking-v1.png",
+          "sha256": "50e241523f4b0bffc69f72e5de08425dec95ab4cfd4c3679bea951cd54477003",
+          "generation": "designs/ui/core/05-matchmaking-v1.generation.json",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "已绘主页面作为状态背景和位置依据"
+        }
+      ],
+      "evidence": {
+        "method": "verified_shared_component_reuse",
+        "reviewer": "core_qa",
+        "inspectedAt": "2026-10-26T11:24:53.858275+00:00",
+        "standaloneFullPageRendered": false,
+        "implementationStatus": "design_only_not_implemented",
+        "nativeTextAndDataReplacements": {
+          "title": "匹配已取消",
+          "body": "已停止寻找牌友",
+          "primaryAction": "返回"
+        },
+        "note": "实际查看并核验共享图板、指定控件和主页面，定义原生文字/数据替换及行为；未另行合成整屏。"
+      },
+      "reusePlan": {
+        "sources": [
+          {
+            "pageId": "51-common-components",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "output": "designs/ui/components/51-common-components-v1.png",
+            "verifiedFiles": true,
+            "verificationStatus": "file_record_and_visual_verified",
+            "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+            "method": "view_image and SHA256 comparison",
+            "locator": "第6行第1项空白面板、第3行标题牌、第1行默认主按钮",
+            "sourceStatus": "design_ready_user_review",
+            "stateSpec": "designs/ui/components/51-common-components.states.json",
+            "generation": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          {
+            "output": "assets/ui/controls/panel.png",
+            "sha256": "8cea325f107b9dae1b16addf4d4c5b3987defc6fef98dc89d65b0108c1321d6a",
+            "derivation": "assets/ui/controls/panel.derivation.json",
+            "derivedFrom": {
+              "file": "designs/ui/components/51-common-components-v1.png",
+              "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+              "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+            },
+            "verifiedFiles": true,
+            "verificationStatus": "file_record_and_visual_verified",
+            "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+            "method": "view_image and SHA256 comparison",
+            "locator": "panel transparent native control"
+          },
+          {
+            "output": "assets/ui/controls/title-primary.png",
+            "sha256": "08b86b529771c2b9ba5c968b04aa3dc4bb2806f4f9bccb311fd2a3f66c61629e",
+            "derivation": "assets/ui/controls/title-primary.derivation.json",
+            "derivedFrom": {
+              "file": "designs/ui/components/51-common-components-v1.png",
+              "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+              "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+            },
+            "verifiedFiles": true,
+            "verificationStatus": "file_record_and_visual_verified",
+            "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+            "method": "view_image and SHA256 comparison",
+            "locator": "title-primary transparent native control"
+          },
+          {
+            "output": "assets/ui/controls/primary-normal.png",
+            "sha256": "a2aa9afff3b9ef559a23ddef8d1b991691c09a609b7ea96b453c56c586b5f021",
+            "derivation": "assets/ui/controls/primary-normal.derivation.json",
+            "derivedFrom": {
+              "file": "designs/ui/components/51-common-components-v1.png",
+              "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+              "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+            },
+            "verifiedFiles": true,
+            "verificationStatus": "file_record_and_visual_verified",
+            "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+            "method": "view_image and SHA256 comparison",
+            "locator": "primary-normal transparent native control"
+          },
+          {
+            "pageId": "05-matchmaking",
+            "output": "designs/ui/core/05-matchmaking-v1.png",
+            "sha256": "50e241523f4b0bffc69f72e5de08425dec95ab4cfd4c3679bea951cd54477003",
+            "generation": "designs/ui/core/05-matchmaking-v1.generation.json",
+            "verifiedFiles": true,
+            "verificationStatus": "file_record_and_visual_verified",
+            "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+            "method": "view_image and SHA256 comparison",
+            "locator": "已绘主页面作为状态背景和位置依据"
+          }
+        ],
+        "note": "取消结果弹窗由已画面板和按钮承载；未把主页面取消按钮当作取消结果画面。",
+        "nativeTextAndDataReplacements": {
+          "title": "匹配已取消",
+          "body": "已停止寻找牌友",
+          "primaryAction": "返回"
+        },
+        "standaloneFullPageRendered": false,
+        "method": "verified_shared_component_reuse",
+        "inspectedAt": "2026-10-26T11:24:53.858275+00:00",
+        "compositedPreviewProduced": false,
+        "implementationStatus": "design_only_not_implemented",
+        "actions": {
+          "返回": "已取消请求后返回来源大厅或场次页；不保留仍在匹配的计时状态。"
+        },
+        "layout": {
+          "placement": "主页面居中覆盖，共享图板对应弹窗皮肤；背景加半透明遮罩",
+          "readingOrder": [
+            "标题",
+            "正文/状态",
+            "操作按钮"
+          ],
+          "buttonOrder": "双按钮为左次要右主要；单按钮居中",
+          "textLayer": "原生中文文字替换图板示例文案，不把替换后的整页说成已另行生成",
+          "dismiss": "关闭等同次要返回/取消；请求中仍执行明确的取消语义"
+        }
+      }
+    },
+    {
+      "name": "超时重试",
+      "coverage": "shared_component",
+      "status": "design_ready_user_review",
+      "image": null,
+      "copy": [
+        "匹配超时，请重试",
+        "重新匹配",
+        "返回"
+      ],
+      "behavior": [
+        "超时后停止增长式等待反馈，允许重试或退出。"
+      ],
+      "disabledReasons": [],
+      "dependencies": [
+        {
+          "pageId": "50-shared-dialogs",
+          "sha256": "45d20f3f85aa8fd8133b8665f1962f8d7e7b06a7cf3b7d41799837cf689598f7",
+          "output": "designs/ui/components/50-shared-dialogs-v1.png",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "D01 警告与双按钮",
+          "sourceStatus": "design_ready_user_review",
+          "stateSpec": "designs/ui/components/50-shared-dialogs.states.json",
+          "generation": "designs/ui/components/50-shared-dialogs-v1.generation.json"
+        },
+        {
+          "output": "assets/ui/controls/primary-normal.png",
+          "sha256": "a2aa9afff3b9ef559a23ddef8d1b991691c09a609b7ea96b453c56c586b5f021",
+          "derivation": "assets/ui/controls/primary-normal.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "primary-normal transparent native control"
+        },
+        {
+          "output": "assets/ui/controls/secondary-normal.png",
+          "sha256": "9ba4a890ce8dc82f27a3468a1b8aad4586920da8111a35bc63ad1b801c93bd3d",
+          "derivation": "assets/ui/controls/secondary-normal.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "secondary-normal transparent native control"
+        },
+        {
+          "pageId": "05-matchmaking",
+          "output": "designs/ui/core/05-matchmaking-v1.png",
+          "sha256": "50e241523f4b0bffc69f72e5de08425dec95ab4cfd4c3679bea951cd54477003",
+          "generation": "designs/ui/core/05-matchmaking-v1.generation.json",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "已绘主页面作为状态背景和位置依据"
+        }
+      ],
+      "evidence": {
+        "method": "verified_shared_component_reuse",
+        "reviewer": "core_qa",
+        "inspectedAt": "2026-10-26T11:24:53.858275+00:00",
+        "standaloneFullPageRendered": false,
+        "implementationStatus": "design_only_not_implemented",
+        "nativeTextAndDataReplacements": {
+          "title": "匹配超时",
+          "body": "等待时间较长，请重新匹配",
+          "secondaryAction": "返回",
+          "primaryAction": "重新匹配"
+        },
+        "note": "实际查看并核验共享图板、指定控件和主页面，定义原生文字/数据替换及行为；未另行合成整屏。"
+      },
+      "reusePlan": {
+        "sources": [
+          {
+            "pageId": "50-shared-dialogs",
+            "sha256": "45d20f3f85aa8fd8133b8665f1962f8d7e7b06a7cf3b7d41799837cf689598f7",
+            "output": "designs/ui/components/50-shared-dialogs-v1.png",
+            "verifiedFiles": true,
+            "verificationStatus": "file_record_and_visual_verified",
+            "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+            "method": "view_image and SHA256 comparison",
+            "locator": "D01 警告与双按钮",
+            "sourceStatus": "design_ready_user_review",
+            "stateSpec": "designs/ui/components/50-shared-dialogs.states.json",
+            "generation": "designs/ui/components/50-shared-dialogs-v1.generation.json"
+          },
+          {
+            "output": "assets/ui/controls/primary-normal.png",
+            "sha256": "a2aa9afff3b9ef559a23ddef8d1b991691c09a609b7ea96b453c56c586b5f021",
+            "derivation": "assets/ui/controls/primary-normal.derivation.json",
+            "derivedFrom": {
+              "file": "designs/ui/components/51-common-components-v1.png",
+              "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+              "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+            },
+            "verifiedFiles": true,
+            "verificationStatus": "file_record_and_visual_verified",
+            "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+            "method": "view_image and SHA256 comparison",
+            "locator": "primary-normal transparent native control"
+          },
+          {
+            "output": "assets/ui/controls/secondary-normal.png",
+            "sha256": "9ba4a890ce8dc82f27a3468a1b8aad4586920da8111a35bc63ad1b801c93bd3d",
+            "derivation": "assets/ui/controls/secondary-normal.derivation.json",
+            "derivedFrom": {
+              "file": "designs/ui/components/51-common-components-v1.png",
+              "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+              "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+            },
+            "verifiedFiles": true,
+            "verificationStatus": "file_record_and_visual_verified",
+            "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+            "method": "view_image and SHA256 comparison",
+            "locator": "secondary-normal transparent native control"
+          },
+          {
+            "pageId": "05-matchmaking",
+            "output": "designs/ui/core/05-matchmaking-v1.png",
+            "sha256": "50e241523f4b0bffc69f72e5de08425dec95ab4cfd4c3679bea951cd54477003",
+            "generation": "designs/ui/core/05-matchmaking-v1.generation.json",
+            "verifiedFiles": true,
+            "verificationStatus": "file_record_and_visual_verified",
+            "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+            "method": "view_image and SHA256 comparison",
+            "locator": "已绘主页面作为状态背景和位置依据"
+          }
+        ],
+        "note": "复用通用警告弹窗；超时阈值与结果逻辑由业务提供。",
+        "nativeTextAndDataReplacements": {
+          "title": "匹配超时",
+          "body": "等待时间较长，请重新匹配",
+          "secondaryAction": "返回",
+          "primaryAction": "重新匹配"
+        },
+        "standaloneFullPageRendered": false,
+        "method": "verified_shared_component_reuse",
+        "inspectedAt": "2026-10-26T11:24:53.858275+00:00",
+        "compositedPreviewProduced": false,
+        "implementationStatus": "design_only_not_implemented",
+        "actions": {
+          "返回": "退出匹配并回来源页。",
+          "重新匹配": "提交新的匹配请求并从00:00重新计时；防止双击重复提交。"
+        },
+        "layout": {
+          "placement": "主页面居中覆盖，共享图板对应弹窗皮肤；背景加半透明遮罩",
+          "readingOrder": [
+            "标题",
+            "正文/状态",
+            "操作按钮"
+          ],
+          "buttonOrder": "双按钮为左次要右主要；单按钮居中",
+          "textLayer": "原生中文文字替换图板示例文案，不把替换后的整页说成已另行生成",
+          "dismiss": "关闭等同次要返回/取消；请求中仍执行明确的取消语义"
+        }
+      }
+    }
+  ],
+  "supplementalStates": [
+    {
+      "name": "匹配成功",
+      "description": "对手已齐的短暂反馈；随后进入牌局，未单独绘制。",
+      "coverage": "specified_only",
+      "status": "pending",
+      "image": null,
+      "dependencies": [],
+      "note": "补充交互说明，不替代scope必需状态。"
+    }
+  ],
+  "stateTransitions": [
+    {
+      "from": "匹配中",
+      "trigger": "取消成功",
+      "to": "取消",
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "from": "匹配中",
+      "trigger": "服务端超时",
+      "to": "超时重试",
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "from": "超时重试",
+      "trigger": "重新匹配",
+      "to": "匹配中",
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "from": "取消",
+      "trigger": "返回来源",
+      "to": "04-stakes-select/可进入",
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "from": "匹配中",
+      "trigger": "匹配成功",
+      "to": "11-deal-bid/未叫",
+      "implementationStatus": "specified_only_not_implemented"
+    }
+  ],
+  "copy": {
+    "status": "main_image_and_shared_state_design_verified",
+    "roomNumber": null,
+    "partiallyEnteredRoomNumber": null,
+    "note": "actualVisibleText/actualCopy为主图实见内容；shared_component的nativeTextAndDataReplacements为指定原生文案层，未冒称已经烘焙到主图。",
+    "actualVisibleText": [
+      "匹配中",
+      "经典·初级场",
+      "正在寻找牌友",
+      "道友",
+      "已就位",
+      "寻找中",
+      "已等待 00:08",
+      "取消匹配",
+      "请稍候"
+    ]
+  },
+  "assumptions": [
+    "已逐字对齐 docs/UI_SCOPE.json 的 controls 与 requiredStates；页面和状态布局为本项目原创设计。",
+    "数值、房号120816、输入1208__、昵称和邀请文字均仅设计示意，不对应真实账户、房间、价格或业务记录。",
+    "默认规则、技能内容、货币门槛、限制、邀请策略和具体交互仍属设计假设；以最终产品规则为准。",
+    "公开资料仅核对模块范围；未逐屏实测腾讯当前客户端，不声称其各平台均采用此布局和行为。",
+    "只交付静态美术与状态规范，未实现客户端、服务器、支付或社交发送。",
+    "指定主画面需实际生成并看图后才可记 rendered；描述和未来共享依赖不能当作已画状态。"
+  ],
+  "userApproval": false,
+  "visualQA": {
+    "findings": [
+      {
+        "severity": "pass",
+        "subject": "匹配结构",
+        "detail": "三座席明确：本人道友头像及已就位、两个寻找中占位；正在寻找牌友、经典·初级场摘要和已等待00:08清楚。"
+      },
+      {
+        "severity": "pass",
+        "subject": "操作层级",
+        "detail": "取消匹配为独立米白按钮，未被装饰遮挡；右下请稍候与玉绿加载符号辅助说明等待状态。"
+      },
+      {
+        "severity": "note",
+        "subject": "覆盖边界",
+        "detail": "只绘制匹配中；取消结果与超时反馈不由本图按钮推断，它们另以已验证共享组件覆盖。00:08为静态示意。"
+      },
+      {
+        "severity": "pass",
+        "subject": "本轮逐张复核",
+        "detail": "自己与两待匹配席位、经典初级场、00:08和取消匹配均清楚；按钮不当作取消结果。"
+      },
+      {
+        "severity": "note",
+        "subject": "状态覆盖",
+        "detail": "必需状态3项：主图可见1，共享视觉与原生文案设计2，仅说明0。共享态未另画整页，实际功能尚未接入。"
+      }
+    ],
+    "status": "passed_for_design_review",
+    "image": "designs/ui/core/05-matchmaking-v1.png",
+    "reviewer": "core_qa",
+    "userApproval": false,
+    "imageSha256": "50e241523f4b0bffc69f72e5de08425dec95ab4cfd4c3679bea951cd54477003",
+    "blockingIssues": [],
+    "method": "view_image",
+    "inspectedAt": "2026-10-26T11:24:53.858275+00:00",
+    "previousInspection": {
+      "reviewer": "art_review",
+      "inspectedAt": "2026-10-26T08:08:11.0076392+00:00",
+      "status": "passed_for_design_review"
+    }
+  },
+  "coverageSummary": {
+    "requiredTotal": 3,
+    "rendered": 1,
+    "shared_component": 2,
+    "specified_only": 0,
+    "note": "rendered为主图实际可见态；shared_component为已看图和哈希核验的共用皮肤加具体原生文案/行为设计。未另画共享态整页，未实现客户端交互。"
+  }
+}

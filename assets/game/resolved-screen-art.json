@@ -1,0 +1,77 @@
+{
+  "source": "assets/ui/runtime-kit/mapping.json",
+  "sourceSha256": "ef20a71b202c9e63769d209c1558a75644a0df271301cfae35d6e880459c3eba",
+  "backgroundLogicalIds": {
+    "lobby": "assets/scenes/courtyard-lobby.png",
+    "day": "assets/scenes/courtyard-day.png",
+    "night": "assets/scenes/courtyard-moon-v2.png"
+  },
+  "tableLogicalIds": {
+    "jade": "assets/scenes/jade-table-runtime.png",
+    "peach": "assets/scenes/peach-table-runtime.png"
+  },
+  "actorLogicalIds": {
+    "daotong": {
+      "name": "玉绿道童",
+      "master": "assets/characters/daotong/master.png",
+      "win": "assets/characters/daotong/win.png",
+      "lose": "assets/characters/daotong/lose.png",
+      "expressions": {
+        "calm": "assets/characters/daotong/expressions/calm.png",
+        "smile": "assets/characters/daotong/expressions/smile.png",
+        "laugh": "assets/characters/daotong/expressions/laugh.png",
+        "thinking": "assets/characters/daotong/expressions/thinking.png",
+        "surprise": "assets/characters/daotong/expressions/surprise.png",
+        "smug": "assets/characters/daotong/expressions/smug.png",
+        "sad": "assets/characters/daotong/expressions/sad.png",
+        "angry": "assets/characters/daotong/expressions/angry.png"
+      },
+      "anchor": [
+        512,
+        920
+      ]
+    },
+    "taohua": {
+      "name": "桃花女修",
+      "master": "assets/characters/taohua/master.png",
+      "win": "assets/characters/taohua/win.png",
+      "lose": "assets/characters/taohua/lose.png",
+      "expressions": {
+        "calm": "assets/characters/taohua/expressions/calm.png",
+        "smile": "assets/characters/taohua/expressions/smile.png",
+        "laugh": "assets/characters/taohua/expressions/laugh.png",
+        "thinking": "assets/characters/taohua/expressions/thinking.png",
+        "surprise": "assets/characters/taohua/expressions/surprise.png",
+        "smug": "assets/characters/taohua/expressions/smug.png",
+        "sad": "assets/characters/taohua/expressions/sad.png",
+        "angry": "assets/characters/taohua/expressions/angry.png"
+      },
+      "anchor": [
+        512,
+        920
+      ]
+    },
+    "hulu": {
+      "name": "葫芦长者",
+      "master": "assets/characters/hulu/master.png",
+      "win": "assets/characters/hulu/win.png",
+      "lose": "assets/characters/hulu/lose.png",
+      "expressions": {
+        "calm": "assets/characters/hulu/expressions/calm.png",
+        "smile": "assets/characters/hulu/expressions/smile.png",
+        "laugh": "assets/characters/hulu/expressions/laugh.png",
+        "thinking": "assets/characters/hulu/expressions/thinking.png",
+        "surprise": "assets/characters/hulu/expressions/surprise.png",
+        "smug": "assets/characters/hulu/expressions/smug.png",
+        "sad": "assets/characters/hulu/expressions/sad.png",
+        "angry": "assets/characters/hulu/expressions/angry.png"
+      },
+      "anchor": [
+        512,
+        920
+      ]
+    }
+  },
+  "resolution": "all files exist and are indexed",
+  "screenBindings": "runtime/screens.json"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "daotong_ink_win",
+  "kind": "costume_pose",
+  "file": "assets/characters/daotong/costumes/ink-poses/win.png",
+  "record": "assets/characters/daotong/costumes/ink-poses/win.derivation.json",
+  "width": 1024,
+  "height": 1024,
+  "anchor": [
+    512,
+    920
+  ],
+  "sha256": "a7e26616615c9c6ccc50abc6587abae5983143c0bc4a257a2ff77647ae918823",
+  "route": "derived",
+  "noUpscale": true,
+  "fixedScale": 0.6527777777777778,
+  "sourceRect": [
+    92,
+    6,
+    1182,
+    1242
+  ],
+  "sourceAnchor": [
+    637.0,
+    1236
+  ],
+  "offset": [
+    156,
+    117
+  ],
+  "registration": "match the skin-master significant body height; feet anchored at512,920; per-source uniform downscale only",
+  "operation": "significant-alpha crop plus6px, premultiplied-alpha Lanczos downscale, foot-anchor registration; independent generated pose still",
+  "derivedFrom": [
+    {
+      "file": "designs/characters/costume-poses-20261029/ink-win-v1.png",
+      "sha256": "c0ca516b325ca39cd2e396aad7cfa108a3fd9faf8dc65409c8b428f46aea5bdd",
+      "record": "designs/characters/costume-poses-20261029/ink-win-v1.generation.json"
+    }
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "edgeAlphaMax": 0,
+  "status": "passed_offline_art_review",
+  "recordedAt": "2026-10-30T04:34:57.135843+00:00",
+  "visualReview": {
+    "method": "actual imagegen returns plus light/dark five-costume master-win-lose contact inspected",
+    "passed": true,
+    "reviewedAt": "2026-10-30T05:04:57.636978+00:00",
+    "bodyHeight": 799,
+    "masterBodyHeight": 799,
+    "edgeAlphaMax": 0,
+    "footAnchorError": 0
+  }
+}

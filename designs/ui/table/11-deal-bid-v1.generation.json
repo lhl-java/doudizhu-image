@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/ui/table/11-deal-bid-v1.png",
+  "sha256": "db4524345131a32e20d1de67a53815c1730a26e8c15c640a41cbd76e0f892473",
+  "generatedAt": "2026-10-26 07:57:33 UTC",
+  "generatedAtEvidence": "工具返回后UTC时钟，作为完成时间代理；不是模型内部时间",
+  "recordedAt": "2026-10-26T03:59:39.7900227-04:00",
+  "width": 1931,
+  "height": 814,
+  "format": "PNG",
+  "nativeResolution": {
+    "height": 814,
+    "width": 1931
+  },
+  "exportOperation": "byte-identical-copy-no-resize",
+  "requestedResolution": {
+    "width": 2560,
+    "evidence": "提示词目标，工具无尺寸选择器，实际以上方实测为准",
+    "height": 1080
+  },
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "referenced_image_paths": [
+      "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\doudizhu-image\\designs\\ui\\lobby-ui-v1.png",
+      "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png"
+    ],
+    "model": null,
+    "transparent_background": false,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据；配置和提示词不能作为实际分支或质量的证据",
+  "evidence": {
+    "receipt": "designs/ui/table/11-deal-bid-v1.receipt.json",
+    "metadataInspection": "System.Drawing读取实际尺寸和像素格式，未验证C2PA",
+    "pixelFormat": "Format24bppRgb",
+    "toolReturnedKeys": [
+      "image_url",
+      "output_hint"
+    ],
+    "hostOutputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a1772b-022e-7852-8cd0-9c61c117e140\\exec-99be27b2-25ce-4c4c-88bb-365e999c2e98.png"
+  },
+  "prompt": "prompts/table/11-deal-bid-v1.txt",
+  "promptSha256": "f6456b672fa29e474144900bbf347da53918ced06efb6976d952357d11bb6325",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "首要风格参考：玉绿米白暖金、纸绢、云纹、角色画法",
+      "usage": "actually-attached-to-imagegen"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "首要风格参考：标题、卡片、按钮、留白与头像",
+      "usage": "actually-attached-to-imagegen"
+    },
+    {
+      "file": "designs/ui/lobby-ui-v1.png",
+      "sha256": "6fb7c972b11f32d0454b32e38a85d50cf571205201e257638c29ee9eeedb8e3b",
+      "role": "本项目大厅同源风格",
+      "usage": "actually-attached-to-imagegen"
+    },
+    {
+      "file": "designs/characters/characters-trio-v1.png",
+      "sha256": "0c4dda70d4e16715527ed243a8d3efc2a401be2f06326b49601d1b184e7165ac",
+      "role": "本项目三人角色身份与画法",
+      "usage": "actually-attached-to-imagegen"
+    }
+  ],
+  "visualReview": {
+    "status": "needs_fix",
+    "note": "已实际查看：画风、三席、底牌、叫地主按钮与倒计时清楚；手牌角标含一处异常，视觉可数18张与17张提示不一致。牌面属示意，不作为合法牌局验收。需修复手牌数量/点数字形后作为正式整屏。"
+  }
+}

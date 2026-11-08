@@ -1,0 +1,80 @@
+{
+  "id": "36-shop",
+  "title": "商城",
+  "primaryArtwork": "designs/ui/modes/36-shop-v1.png",
+  "controls": [
+    "货币",
+    "角色",
+    "装扮",
+    "道具分类",
+    "价格",
+    "推荐"
+  ],
+  "states": [
+    {
+      "name": "正常",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/modes/36-shop-v1.png",
+      "title": "商城",
+      "copy": "推荐、角色、装扮、道具；六件商品。",
+      "behavior": "商品进入37详情；数量、价格、币种和余额使用产品配置的原生文字层。",
+      "buttons": [
+        "查看详情"
+      ],
+      "dependencies": [],
+      "designEvidence": "原画可见状态，或实际已生成同源透明控件+明确原生文字与行为；不是额外AI整屏生成"
+    },
+    {
+      "name": "售罄",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/modes/36-shop-v1.png",
+      "title": "售罄",
+      "copy": "桃花桌布已售罄。",
+      "behavior": "购买动作禁用，保留查看说明；刷新库存后再判断。",
+      "buttons": [
+        "查看说明"
+      ],
+      "dependencies": [],
+      "designEvidence": "原画可见状态，或实际已生成同源透明控件+明确原生文字与行为；不是额外AI整屏生成"
+    },
+    {
+      "name": "限时",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/modes/36-shop-v1.png",
+      "title": "限时",
+      "copy": "三人主题头像框为限时商品。",
+      "behavior": "期限由服务端提供，结束后撤下限时购买入口。",
+      "buttons": [
+        "查看详情"
+      ],
+      "dependencies": [],
+      "designEvidence": "原画可见状态，或实际已生成同源透明控件+明确原生文字与行为；不是额外AI整屏生成"
+    },
+    {
+      "name": "已拥有",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/modes/36-shop-v1.png",
+      "title": "已拥有",
+      "copy": "葫芦表情包已拥有。",
+      "behavior": "不可重复购买不可叠加的装扮；前往背包可使用。",
+      "buttons": [
+        "前往背包"
+      ],
+      "dependencies": [],
+      "designEvidence": "原画可见状态，或实际已生成同源透明控件+明确原生文字与行为；不是额外AI整屏生成"
+    }
+  ],
+  "dynamicText": "昵称、余额、币种、数量、期限、步骤和回执由同一产品配置及原生文字层提供；原画为设计示意。",
+  "sharedDependencies": [
+    "assets/ui/controls/panel.png",
+    "assets/ui/controls/primary-normal.png",
+    "assets/ui/controls/primary-disabled.png",
+    "assets/ui/controls/secondary-normal.png",
+    "assets/ui/controls/tab-selected.png",
+    "assets/ui/manifest.json"
+  ],
+  "status": "design_ready_user_review",
+  "inspectionNotes": [
+    "已实际看image_gen返回原图：六商品、四分类、余额、限时/售罄/已拥有可辨，商品说明与返回大厅完整。币种价格均为美术示意，由统一配置的原生文案提供。"
+  ]
+}

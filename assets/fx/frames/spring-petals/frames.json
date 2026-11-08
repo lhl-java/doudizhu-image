@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "id": "spring-petals",
+  "kind": "derived_spriteframes",
+  "route": "derived",
+  "operation": "translate/rotate/scale/alpha generated static illustration onto fixed384RGBA canvas, no invented paint details",
+  "derivedFrom": [
+    {
+      "file": "assets/fx/spring-petals.png",
+      "sha256": "91fe910b44c1ca801dcc5399fd2a77ba8060c24078a138bad475884660a7c1e1",
+      "record": "assets/fx/spring-petals.png.generation.json",
+      "role": "runtime FX static sprite"
+    }
+  ],
+  "timeline": "assets/fx/spring-petals.timeline.json",
+  "durationMs": 1500,
+  "loop": false,
+  "blend": "normal",
+  "event": "spring",
+  "anchor": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "frames": [
+    {
+      "file": "assets/fx/frames/spring-petals/000.png",
+      "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+      "atMs": 0,
+      "durationMs": 100,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.0,
+        "scale": 0.75,
+        "x": -0.12,
+        "y": -0.18,
+        "rotation": -12.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/spring-petals/001.png",
+      "sha256": "28123131b6ff7a7671aa7a6e39ef061b630a46581df33fbbc8c05119879c8a30",
+      "atMs": 100,
+      "durationMs": 100,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.6666666666666666,
+        "scale": 0.8166666666666667,
+        "x": -0.08,
+        "y": -0.14,
+        "rotation": -7.333333333333334
+      }
+    },
+    {
+      "file": "assets/fx/frames/spring-petals/002.png",
+      "sha256": "956d3397afa8deac174d16abd528f9acfffdfc04e3e0073d2fa439dce21cb125",
+      "atMs": 200,
+      "durationMs": 100,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.9928571428571429,
+        "scale": 0.8607142857142857,
+        "x": -0.049999999999999996,
+        "y": -0.10714285714285714,
+        "rotation": -3.7857142857142856
+      }
+    },
+    {
+      "file": "assets/fx/frames/spring-petals/003.png",
+      "sha256": "9c177926553442682746fbd0e542bc2409f650dfef9adb1e9e31034e4dd317bb",
+      "atMs": 300,
+      "durationMs": 100,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.9785714285714285,
+        "scale": 0.8821428571428571,
+        "x": -0.029999999999999995,
+        "y": -0.08142857142857143,
+        "rotation": -1.3571428571428572
+      }
+    },
+    {
+      "file": "assets/fx/frames/spring-petals/004.png",
+      "sha256": "885f9791abf52fda2f1a75adcd9ed95c6730f20ff2a8c23c3908541a8ea948fb",
+      "atMs": 400,
+      "durationMs": 100,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.9642857142857143,
+        "scale": 0.9035714285714286,
+        "x": -0.009999999999999995,
+        "y": -0.055714285714285716,
+        "rotation": 1.0714285714285712
+      }
+    },
+    {
+      "file": "assets/fx/frames/spring-petals/005.png",
+      "sha256": "18f370652ab405319cc4068083b62827173c07c3f47ecfe50ff4c30574963f92",
+      "atMs": 500,
+      "durationMs": 100,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.95,
+        "scale": 0.925,
+        "x": 0.010000000000000009,
+        "y": -0.03,
+        "rotation": 3.5
+      }
+    },
+    {
+      "file": "assets/fx/frames/spring-petals/006.png",
+      "sha256": "e75afdfbffdb05ad555e0e47a9d9adbd2bdc8e5f35b70a13da5851ffef721fc6",
+      "atMs": 600,
+      "durationMs": 100,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.9357142857142857,
+        "scale": 0.9464285714285714,
+        "x": 0.030000000000000013,
+        "y": -0.004285714285714282,
+        "rotation": 5.928571428571429
+      }
+    },
+    {
+      "file": "assets/fx/frames/spring-petals/007.png",
+      "sha256": "a57910ec66a08f8e5ee850c1fb26d0a1e30af4ed55dde570727c04937258ce20",
+      "atMs": 700,
+      "durationMs": 100,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.9214285714285715,
+        "scale": 0.9678571428571429,
+        "x": 0.05000000000000002,
+        "y": 0.021428571428571436,
+        "rotation": 8.357142857142858
+      }
+    },
+    {
+      "file": "assets/fx/frames/spring-petals/008.png",
+      "sha256": "7f41e203b8bef5012b1259b93786cf91015fa138628bf95da423d233116c4bbe",
+      "atMs": 800,
+      "durationMs": 100,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.9071428571428571,
+        "scale": 0.9892857142857143,
+        "x": 0.07,
+        "y": 0.04714285714285715,
+        "rotation": 10.785714285714286
+      }
+    },
+    {
+      "file": "assets/fx/frames/spring-petals/009.png",
+      "sha256": "a6d98c02837062689cbd168af7d95690869db63c6efac54feab7ec3743af0ea5",
+      "atMs": 900,
+      "durationMs": 100,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.8307692307692308,
+        "scale": 1.0038461538461538,
+        "x": 0.08615384615384615,
+        "y": 0.07230769230769231,
+        "rotation": 13.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/spring-petals/010.png",
+      "sha256": "7fcb0340c293311ed55fecce4479716ef6399f308bf19a0a3453da4b0734337d",
+      "atMs": 1000,
+      "durationMs": 100,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.6923076923076923,
+        "scale": 1.0115384615384615,
+        "x": 0.09846153846153846,
+        "y": 0.09692307692307692,
+        "rotation": 15.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/spring-petals/011.png",
+      "sha256": "a7ed4b05961918f0ccd30e18f94f5276a18599941762675509278656e7f60d6d",
+      "atMs": 1100,
+      "durationMs": 100,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.5538461538461539,
+        "scale": 1.0192307692307692,
+        "x": 0.11076923076923077,
+        "y": 0.12153846153846154,
+        "rotation": 17.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/spring-petals/012.png",
+      "sha256": "b52c629f6c6942712a5e56fa8bda593a83dd83955ae5bb4e7216b9c31be9413e",
+      "atMs": 1200,
+      "durationMs": 100,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.4153846153846154,
+        "scale": 1.026923076923077,
+        "x": 0.12307692307692308,
+        "y": 0.14615384615384613,
+        "rotation": 19.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/spring-petals/013.png",
+      "sha256": "7dd6b8059b33b30c65f979102c76d99f93e635437c7b9a6130da0ca997e2e183",
+      "atMs": 1300,
+      "durationMs": 100,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.27692307692307694,
+        "scale": 1.0346153846153847,
+        "x": 0.13538461538461538,
+        "y": 0.17076923076923078,
+        "rotation": 21.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/spring-petals/014.png",
+      "sha256": "6b99410757d8b51d066af27a1f98e9fd3270bf88d88034a8ab3afc996a6dbfd1",
+      "atMs": 1400,
+      "durationMs": 100,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.13846153846153852,
+        "scale": 1.0423076923076924,
+        "x": 0.14769230769230768,
+        "y": 0.19538461538461538,
+        "rotation": 23.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/spring-petals/015.png",
+      "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+      "atMs": 1500,
+      "durationMs": 1,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.0,
+        "scale": 1.05,
+        "x": 0.16,
+        "y": 0.22,
+        "rotation": 25.0
+      }
+    }
+  ],
+  "bakedPlaybackDurationMs": 1501,
+  "timelineDurationMs": 1500,
+  "terminalSentinelMs": 1,
+  "onComplete": "hide-and-release",
+  "status": "derived_animation_ready_user_review"
+}

@@ -1,0 +1,51 @@
+{
+  "source": "designs/ui/table/11-deal-bid-v1.png",
+  "output": "designs/ui/table/11-deal-bid-v2.png",
+  "tray": {
+    "sourceRect": [
+      28,
+      0,
+      551,
+      267
+    ],
+    "rect": [
+      362,
+      565,
+      1358,
+      201
+    ],
+    "border": 42
+  },
+  "cardGroups": [
+    {
+      "role": "自己的17张手牌",
+      "rect": [
+        382,
+        578,
+        1318,
+        174
+      ],
+      "cards": [
+        "joker-big",
+        "joker-small",
+        "spades-2",
+        "hearts-A",
+        "clubs-A",
+        "spades-K",
+        "diamonds-K",
+        "hearts-Q",
+        "spades-J",
+        "clubs-10",
+        "hearts-9",
+        "spades-8",
+        "diamonds-7",
+        "clubs-6",
+        "spades-5",
+        "hearts-4",
+        "clubs-3"
+      ],
+      "selectedIndexes": [],
+      "selectionLift": 0
+    }
+  ]
+}

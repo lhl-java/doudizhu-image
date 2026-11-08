@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/ui/core/08-join-room-v1.png",
+  "absolutePath": "D:\\work\\doudizhu-image\\designs\\ui\\core\\08-join-room-v1.png",
+  "sha256": "fac53d5dd2c30bf2fd7d5d287e6244f4a133a3a5281b13df9bb5e9b4a3782aad",
+  "generatedAt": "2026-10-26T04:13:11-04:00",
+  "generatedAtEvidence": {
+    "isProxy": true,
+    "source": "caller-provided-response-received-at",
+    "explanation": "以调用方提供的工具返回接收时间代理生成完成时间；不是模型内部生成时间。"
+  },
+  "recordedAt": "2026-10-26T04:13:33.322481-04:00",
+  "startedAtUtc": "2026-10-26T04:06:47-04:00",
+  "finishedAtUtc": "2026-10-26T04:13:11-04:00",
+  "width": 1931,
+  "height": 814,
+  "format": "PNG",
+  "nativeResolution": {
+    "width": 1931,
+    "height": 814
+  },
+  "exportResolution": {
+    "width": 1931,
+    "height": 814,
+    "operation": "byte-identical-copy-of-generated-output-no-resize-or-redraw"
+  },
+  "requestedResolution": {
+    "width": 2560,
+    "height": 1080,
+    "note": "提示词中的尺寸目标；内置工具无独立尺寸选择参数，实际尺寸以上方实测值为准。"
+  },
+  "transparency": {
+    "requestedTransparentBackground": false,
+    "sourcePixelFormat": "Format24bppRgb",
+    "hasAlphaChannel": false,
+    "hasNonOpaquePixels": false,
+    "fullyOpaque": true,
+    "inspectionMethod": "source-format-reports-no-alpha"
+  },
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "callId": null,
+  "resultId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\doudizhu-image\\designs\\ui\\lobby-ui-v1.png",
+      "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png"
+    ],
+    "prompt": "Use case: ui-mockup\nAsset type: 道家 Q 版斗地主手游，一张独立完整界面的高清手绘 UI 概念稿。\nOutput target: 横屏约 2.37:1，期望 2560×1080。这个尺寸是视觉目标；请原生细致绘制，不放大模糊细节。平直正视的单一游戏画面，不是手机实拍或多屏展示板。\nInput images: Image 1＝01-mail-event.png，首要参考玉绿米白配色、纸绢、暖金细边、圆润如意云纹和手绘完成度；Image 2＝team-ui-v2.png，首要参考标题牌、卡片、留白、按钮与圆头像；Image 3＝lobby-ui-v1.png，支持参考同一个斗地主游戏的大厅与控件比例；Image 4＝characters-trio-v1.png，支持参考本游戏三位原创角色、头像与人物画法。只承接这些美术，不复制邮件、组队旧功能、旧文字或其他游戏名。角色头像与 Image 4 保持同源。\nVisual language: 深玉绿为标题、主要按钮、选中项；暖象牙米白纸绢为大面板；暖金细边、柔和圆润云纹。角色和图标采用精致二维高清手绘、柔和体积、温润金玉质感；避免塑料公仔、写实人物、现代扁平矢量。纸纹很轻，金边不厚重，桃粉、朱砂只作少量点缀。\nCommon frame: 四周约 3% 安全边距。统一玉绿金边居中标题牌，左上角清楚的返回箭头与“返回”。米白主面板边缘可露出低对比仙山庭院，背景不得干扰文字。所有按钮、标签、卡片对齐，留白充足，文字可读。\nGlobal constraints: 只画下面指定的一个主状态。不要把错误、加载、分享等其他状态画成多屏缩略拼图；不要额外弹层。不要旧游戏品牌、腾讯品牌、微信/QQ标志、充值价格、广告、水印、设备框。所有昵称、房号与规则数值只作本设计的示意，不要据此增加真实业务宣传文案。不要把“设计示意”“待审核”“原生尺寸”等制作说明印到游戏画面。\nPage ID: 08-join-room\nPrimary request: 输入房号加入好友房的完整界面，标题“加入房间”。\nRendered state: 六位房号已输入前四位 1、2、0、8；第五格聚焦但为空，第六格为空。未输入完整，加入按钮为禁用状态；不要画错误弹窗。\nLayout: 主面板清楚而克制。上方居中说明“请输入6位房号”，下方一行恰好六个等大的米白方格，金色边框圆角，依次显示“1”“2”“0”“8”、空白、空白；第五格用玉绿外描边和细短光标表达焦点。不要把空格写成零或横线。输入格下方是宽松的 3 列 × 4 行数字键盘：第一行 1 2 3；第二行 4 5 6；第三行 7 8 9；第四行左“清空”、中“0”、右“删除”。数字键用米白纸绢按钮、暖金细边、深绿数字，触控面积充足。键盘右侧留一小块区域放灰绿禁用的大按钮“加入房间”，其下小字“输入完整房号后加入”。通过位置安排让宽屏不拥挤；不再增加第二个键盘或多个房号示例。装饰云纹只在主面板边缘。\nText (verbatim): “返回”“加入房间”“请输入6位房号”“清空”“删除”“输入完整房号后加入”。数字仅为输入格中的 1 2 0 8，以及键盘中的 1 至 9 和 0。\nQuality check target: 恰好六格、四位已填、两位空白，键盘各数字出现一次且顺序正确；禁用加入按钮仍然可辨识，输入区与操作区无重叠。\n\n"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据。当前内置 image_gen.imagegen 接口没有 model、quality 选择器，配置只表示用户目标；不能据此声称实际锁定 GPT Image 2.5 Sunburst 或 max。未检查或验证 C2PA。",
+  "prompt": "prompts/core/08-join-room-v1.txt",
+  "promptSha256": "6662cc3db3cb8bfc07e8b7c3f74285a0db39959b77d111f9dbb1a883eb30420a",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "邮件界面：面板、按钮、配色、材质、人物完成度",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": "references/style/manifest.json",
+      "manifestSha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "manifestHashMatched": true
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "组队界面：控件层级、留白、列表、头像与按钮状态",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": "references/style/manifest.json",
+      "manifestSha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "manifestHashMatched": true
+    },
+    {
+      "file": "designs/ui/lobby-ui-v1.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\designs\\ui\\lobby-ui-v1.png",
+      "sha256": "6fb7c972b11f32d0454b32e38a85d50cf571205201e257638c29ee9eeedb8e3b",
+      "role": "本项目初版支持参考：人物、材质、布局同源；尚未获用户批准",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": null,
+      "manifestSha256": null,
+      "manifestHashMatched": null
+    },
+    {
+      "file": "designs/characters/characters-trio-v1.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png",
+      "sha256": "0c4dda70d4e16715527ed243a8d3efc2a401be2f06326b49601d1b184e7165ac",
+      "role": "本项目初版支持参考：人物、材质、布局同源；尚未获用户批准",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": null,
+      "manifestSha256": null,
+      "manifestHashMatched": null
+    }
+  ],
+  "evidence": {
+    "receipt": "designs/ui/core/.production/receipts/08-join-room-v1.receipt.json",
+    "receiptSha256": "fcef2bee25f0b08c99ad375b9e3a344cd9d73b362bb15ebed220f23401b509d6",
+    "returnedEvidence": {
+      "tool": "image_gen.imagegen",
+      "route": "builtin",
+      "invocationId": null,
+      "toolReturnKeys": [
+        "image_url",
+        "output_hint"
+      ],
+      "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1771a-2c53-7da1-9217-2d5e42c4d85e as C:\\Users\\luyua\\.codex\\generated_images\\01a1771a-2c53-7da1-9217-2d5e42c4d85e\\exec-5425da97-f6a3-414c-ac2c-038ef8f3917f.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "hostOutputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a1771a-2c53-7da1-9217-2d5e42c4d85e\\exec-5425da97-f6a3-414c-ac2c-038ef8f3917f.png",
+      "hostOutputFilenameIdentifier": "exec-5425da97-f6a3-414c-ac2c-038ef8f3917f",
+      "identifierMeaning": "宿主输出文件名标识，不冒认为模型调用ID",
+      "imagePayload": {
+        "field": "image_url",
+        "omittedFromReceipt": true
+      },
+      "toolReturnedModel": null,
+      "toolReturnedQuality": null,
+      "submittedArguments": {
+        "prompt": "Use case: ui-mockup\nAsset type: 道家 Q 版斗地主手游，一张独立完整界面的高清手绘 UI 概念稿。\nOutput target: 横屏约 2.37:1，期望 2560×1080。这个尺寸是视觉目标；请原生细致绘制，不放大模糊细节。平直正视的单一游戏画面，不是手机实拍或多屏展示板。\nInput images: Image 1＝01-mail-event.png，首要参考玉绿米白配色、纸绢、暖金细边、圆润如意云纹和手绘完成度；Image 2＝team-ui-v2.png，首要参考标题牌、卡片、留白、按钮与圆头像；Image 3＝lobby-ui-v1.png，支持参考同一个斗地主游戏的大厅与控件比例；Image 4＝characters-trio-v1.png，支持参考本游戏三位原创角色、头像与人物画法。只承接这些美术，不复制邮件、组队旧功能、旧文字或其他游戏名。角色头像与 Image 4 保持同源。\nVisual language: 深玉绿为标题、主要按钮、选中项；暖象牙米白纸绢为大面板；暖金细边、柔和圆润云纹。角色和图标采用精致二维高清手绘、柔和体积、温润金玉质感；避免塑料公仔、写实人物、现代扁平矢量。纸纹很轻，金边不厚重，桃粉、朱砂只作少量点缀。\nCommon frame: 四周约 3% 安全边距。统一玉绿金边居中标题牌，左上角清楚的返回箭头与“返回”。米白主面板边缘可露出低对比仙山庭院，背景不得干扰文字。所有按钮、标签、卡片对齐，留白充足，文字可读。\nGlobal constraints: 只画下面指定的一个主状态。不要把错误、加载、分享等其他状态画成多屏缩略拼图；不要额外弹层。不要旧游戏品牌、腾讯品牌、微信/QQ标志、充值价格、广告、水印、设备框。所有昵称、房号与规则数值只作本设计的示意，不要据此增加真实业务宣传文案。不要把“设计示意”“待审核”“原生尺寸”等制作说明印到游戏画面。\nPage ID: 08-join-room\nPrimary request: 输入房号加入好友房的完整界面，标题“加入房间”。\nRendered state: 六位房号已输入前四位 1、2、0、8；第五格聚焦但为空，第六格为空。未输入完整，加入按钮为禁用状态；不要画错误弹窗。\nLayout: 主面板清楚而克制。上方居中说明“请输入6位房号”，下方一行恰好六个等大的米白方格，金色边框圆角，依次显示“1”“2”“0”“8”、空白、空白；第五格用玉绿外描边和细短光标表达焦点。不要把空格写成零或横线。输入格下方是宽松的 3 列 × 4 行数字键盘：第一行 1 2 3；第二行 4 5 6；第三行 7 8 9；第四行左“清空”、中“0”、右“删除”。数字键用米白纸绢按钮、暖金细边、深绿数字，触控面积充足。键盘右侧留一小块区域放灰绿禁用的大按钮“加入房间”，其下小字“输入完整房号后加入”。通过位置安排让宽屏不拥挤；不再增加第二个键盘或多个房号示例。装饰云纹只在主面板边缘。\nText (verbatim): “返回”“加入房间”“请输入6位房号”“清空”“删除”“输入完整房号后加入”。数字仅为输入格中的 1 2 0 8，以及键盘中的 1 至 9 和 0。\nQuality check target: 恰好六格、四位已填、两位空白，键盘各数字出现一次且顺序正确；禁用加入按钮仍然可辨识，输入区与操作区无重叠。\n\n",
+        "referenced_image_paths": [
+          "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+          "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+          "D:\\work\\doudizhu-image\\designs\\ui\\lobby-ui-v1.png",
+          "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png"
+        ],
+        "transparent_background": false
+      },
+      "startedAtUtc": "2026-10-26 08:06:47 UTC",
+      "receivedAtUtc": "2026-10-26 08:13:11 UTC"
+    },
+    "metadataInspection": "System.Drawing 只读检查实际尺寸、格式和透明度；未验证 C2PA，未从配置推断实际模型或质量。",
+    "rawFormatGuid": "b96b3caf-0728-11d3-9d7b-0000f81ef32e"
+  },
+  "status": "design_ready_user_review",
+  "visualQA": {
+    "findings": [
+      {
+        "severity": "pass",
+        "subject": "输入格数量与焦点",
+        "detail": "实际恰好6格；前4格为1、2、0、8，第5格是绿色焦点框和输入光标，第6格空白。两格未填，未多画或少画。"
+      },
+      {
+        "severity": "pass",
+        "subject": "数字键盘",
+        "detail": "3列4行键盘依次为1/2/3、4/5/6、7/8/9、清空/0/删除，数字唯一且完整。"
+      },
+      {
+        "severity": "pass",
+        "subject": "禁用与原因",
+        "detail": "加入房间按钮为灰色禁用样式，下方输入完整房号后加入明确解释原因，与4位输入状态一致。"
+      },
+      {
+        "severity": "pass",
+        "subject": "风格与可读性",
+        "detail": "玉绿标题、纸绢面板、暖金边和角色同源，人物未遮挡输入区及键盘，所有文字可读。"
+      },
+      {
+        "severity": "note",
+        "subject": "覆盖边界",
+        "detail": "本图只画输入中；房号错误、已满、已结束继续由核验过的共享弹窗覆盖，未另画这些整屏状态。"
+      },
+      {
+        "severity": "pass",
+        "subject": "本轮逐张复核",
+        "detail": "恰好六格：1208、第五格光标、第六格空白；0–9、清空、删除完整，未满六位禁用加入且原因清楚。"
+      },
+      {
+        "severity": "note",
+        "subject": "状态覆盖",
+        "detail": "必需状态4项：主图可见1，共享视觉与原生文案设计3，仅说明0。共享态未另画整页，实际功能尚未接入。"
+      }
+    ],
+    "blockingIssues": [],
+    "reviewer": "core_qa",
+    "image": "designs/ui/core/08-join-room-v1.png",
+    "status": "passed_for_design_review",
+    "method": "view_image",
+    "userApproval": false,
+    "imageSha256": "fac53d5dd2c30bf2fd7d5d287e6244f4a133a3a5281b13df9bb5e9b4a3782aad",
+    "inspectedAt": "2026-10-26T11:24:53.858275+00:00",
+    "previousInspection": {
+      "reviewer": "art_review",
+      "inspectedAt": "2026-10-26T08:14:26.5289034+00:00",
+      "status": "passed_for_design_review"
+    }
+  },
+  "pageId": "08-join-room",
+  "userApproval": false
+}

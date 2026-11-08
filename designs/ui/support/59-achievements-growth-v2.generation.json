@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/ui/support/59-achievements-growth-v2.png",
+  "sha256": "8628eb1118e1a334b7ad1c5a2f960e77352e59a76b92463f242e2499e27d5c56",
+  "generatedAt": "2026-10-26 08:20:32 UTC",
+  "generatedAtEvidence": "工具返回后记录的UTC完成时间代理；非模型内部时间",
+  "width": 1933,
+  "height": 814,
+  "format": "PNG",
+  "nativeResolution": {
+    "width": 1933,
+    "height": 814
+  },
+  "exportOperation": "byte-identical-copy; no resize or redraw",
+  "requestedResolution": {
+    "width": 2560,
+    "height": 1080,
+    "note": "提示词目标；工具未提供尺寸选择器"
+  },
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "callId": null,
+  "resultId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:/work/doudizhu-image/designs/ui/support/59-achievements-growth-v1.png",
+      "D:/work/doudizhu-image/references/style/01-mail-event.png",
+      "D:/work/doudizhu-image/references/style/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据；无型号与质量选择器，配置不能证明实际锁定Sunburst/max",
+  "prompt": "prompts/support/59-achievements-growth-v2.txt",
+  "promptSha256": "45c0c332e32a797b50729683b26fba2724a08e4d05396e36e50b3e4e0eaa3df2",
+  "references": [
+    {
+      "file": "designs/ui/support/59-achievements-growth-v1.png",
+      "sha256": "5d8a51577e6f953038b3e4f23e9b84c1f7a7d5d9b3b9c6879aaa9cf679fa8dc8",
+      "role": "AI edit target：修正前完整页面",
+      "imageRemoved": true,
+      "retainedRecord": "designs/ui/support/59-achievements-growth-v1.generation.json"
+    },
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "实际附带风格或人物参考"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "实际附带风格或人物参考"
+    }
+  ],
+  "evidence": {
+    "receipt": "designs/ui/support/receipts/59-achievements-growth-v2.receipt.json",
+    "sourcePath": "C:\\Users\\luyua\\.codex\\generated_images\\01a1772b-71a9-7f61-b67a-7c35bfc09f10\\exec-0fa2583e-39e6-4111-86a8-53043446eba4.png",
+    "toolReturnKeys": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "inspection": {
+    "status": "design_ready_user_review",
+    "notes": [
+      "已实际查看v2：初试身手小图标已改为三张扑克牌，其余等级奖励、未达可领已领、成就进度与道童形象完整；当前选用v2。"
+    ],
+    "pixelFormat": "Format24bppRgb",
+    "reviewedAt": "2026-10-26T04:20:48.7060505-04:00"
+  },
+  "editedFrom": {
+    "file": "designs/ui/support/59-achievements-growth-v1.png",
+    "sha256": "5d8a51577e6f953038b3e4f23e9b84c1f7a7d5d9b3b9c6879aaa9cf679fa8dc8",
+    "generationRecord": "designs/ui/support/59-achievements-growth-v1.generation.json",
+    "operation": "targeted-AI-edit; native output size changed as returned, no resize",
+    "imageRemoved": true
+  }
+}

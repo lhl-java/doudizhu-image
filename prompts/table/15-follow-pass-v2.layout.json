@@ -1,0 +1,37 @@
+{
+  "source": "designs/ui/table/15-follow-pass-v1.png",
+  "output": "designs/ui/table/15-follow-pass-v2.png",
+  "elements": [
+    {
+      "file": "assets/ui/cards-source/farmer.png",
+      "role": "左侧女修为农民",
+      "rect": [
+        236,
+        398,
+        86,
+        63
+      ]
+    },
+    {
+      "file": "assets/ui/cards-source/landlord.png",
+      "role": "右侧长者为地主",
+      "rect": [
+        1650,
+        401,
+        94,
+        66
+      ]
+    },
+    {
+      "file": "assets/ui/cards-source/farmer.png",
+      "role": "自己为农民",
+      "rect": [
+        334,
+        699,
+        88,
+        64
+      ]
+    }
+  ],
+  "cardGroups": []
+}

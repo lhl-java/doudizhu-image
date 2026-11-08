@@ -1,0 +1,29 @@
+{
+  "file": "assets/ui/controls/checkbox-on.png",
+  "sha256": "faa9f934c990c37703c5b98fc1a07f7fe75b82cea0396a4f573206afb45c8b31",
+  "width": 247,
+  "height": 157,
+  "format": "PNG",
+  "operation": "crop-only-preserve-source-RGBA-no-resize",
+  "cropRect": [
+    425,
+    500,
+    682,
+    657
+  ],
+  "trimRect": [
+    10,
+    0,
+    257,
+    157
+  ],
+  "derivedFrom": {
+    "file": "designs/ui/components/51-common-components-v1.png",
+    "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+    "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+  "status": "derived_asset_ready_user_review"
+}

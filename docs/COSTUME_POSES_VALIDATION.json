@@ -1,0 +1,123 @@
+{
+  "status": "passed_offline_art_review",
+  "counts": {
+    "costumes": 5,
+    "independentGeneratedPoseStills": 10,
+    "registeredPngs": 10
+  },
+  "assets": [
+    {
+      "file": "assets/characters/daotong/costumes/spring-poses/win.png",
+      "sha256": "a3522ff28f498746c31f38b3b3efe6d5c6c6711e86c55be1effd4cce4cb55ab4",
+      "method": "actual imagegen returns plus light/dark five-costume master-win-lose contact inspected",
+      "passed": true,
+      "reviewedAt": "2026-10-30T05:04:57.573990+00:00",
+      "bodyHeight": 801,
+      "masterBodyHeight": 801,
+      "edgeAlphaMax": 0,
+      "footAnchorError": 0
+    },
+    {
+      "file": "assets/characters/daotong/costumes/spring-poses/lose.png",
+      "sha256": "2daae8f4ece668d4b10fb4ade70bbe86f4af423f8f4b564d73dcbeda271c4874",
+      "method": "actual imagegen returns plus light/dark five-costume master-win-lose contact inspected",
+      "passed": true,
+      "reviewedAt": "2026-10-30T05:04:57.604533+00:00",
+      "bodyHeight": 801,
+      "masterBodyHeight": 801,
+      "edgeAlphaMax": 0,
+      "footAnchorError": 0
+    },
+    {
+      "file": "assets/characters/daotong/costumes/ink-poses/win.png",
+      "sha256": "a7e26616615c9c6ccc50abc6587abae5983143c0bc4a257a2ff77647ae918823",
+      "method": "actual imagegen returns plus light/dark five-costume master-win-lose contact inspected",
+      "passed": true,
+      "reviewedAt": "2026-10-30T05:04:57.636978+00:00",
+      "bodyHeight": 799,
+      "masterBodyHeight": 799,
+      "edgeAlphaMax": 0,
+      "footAnchorError": 0
+    },
+    {
+      "file": "assets/characters/daotong/costumes/ink-poses/lose.png",
+      "sha256": "15dcb261972807c0b05cdfd7ad0acb202f371a96eec3171b147b26b59956137c",
+      "method": "actual imagegen returns plus light/dark five-costume master-win-lose contact inspected",
+      "passed": true,
+      "reviewedAt": "2026-10-30T05:04:57.668486+00:00",
+      "bodyHeight": 799,
+      "masterBodyHeight": 799,
+      "edgeAlphaMax": 0,
+      "footAnchorError": 0
+    },
+    {
+      "file": "assets/characters/daotong/costumes/moon-poses/win.png",
+      "sha256": "d5732ebd514bf5c52071eaa1522c0891908de5a081f39f97d0ce296b68ad6503",
+      "method": "actual imagegen returns plus light/dark five-costume master-win-lose contact inspected",
+      "passed": true,
+      "reviewedAt": "2026-10-30T05:04:57.705149+00:00",
+      "bodyHeight": 801,
+      "masterBodyHeight": 801,
+      "edgeAlphaMax": 0,
+      "footAnchorError": 0
+    },
+    {
+      "file": "assets/characters/daotong/costumes/moon-poses/lose.png",
+      "sha256": "91904040ed7452f5ea3ee7b2749bfa8a9d15d0d4f5ebe3d8486204adf3d2ff21",
+      "method": "actual imagegen returns plus light/dark five-costume master-win-lose contact inspected",
+      "passed": true,
+      "reviewedAt": "2026-10-30T05:04:57.740215+00:00",
+      "bodyHeight": 801,
+      "masterBodyHeight": 801,
+      "edgeAlphaMax": 0,
+      "footAnchorError": 0
+    },
+    {
+      "file": "assets/characters/daotong/costumes/snow-poses/win.png",
+      "sha256": "a60b085659fc5fb127e24d36d65f117e96b594ee7a3cebfbb2ae16814341e6a6",
+      "method": "actual imagegen returns plus light/dark five-costume master-win-lose contact inspected",
+      "passed": true,
+      "reviewedAt": "2026-10-30T05:04:57.770316+00:00",
+      "bodyHeight": 800,
+      "masterBodyHeight": 800,
+      "edgeAlphaMax": 0,
+      "footAnchorError": 0
+    },
+    {
+      "file": "assets/characters/daotong/costumes/snow-poses/lose.png",
+      "sha256": "bab87bc6880ce89d39ddc3eabc24fe6dca8aac947978f518f5d31d37c73e1d48",
+      "method": "actual imagegen returns plus light/dark five-costume master-win-lose contact inspected",
+      "passed": true,
+      "reviewedAt": "2026-10-30T05:04:57.799091+00:00",
+      "bodyHeight": 800,
+      "masterBodyHeight": 800,
+      "edgeAlphaMax": 0,
+      "footAnchorError": 0
+    },
+    {
+      "file": "assets/characters/daotong/costumes/festival-poses/win.png",
+      "sha256": "bb23de87650487d143cc2d3641cc13b54afa01a2cbf8bc825ea8df442457c636",
+      "method": "actual imagegen returns plus light/dark five-costume master-win-lose contact inspected",
+      "passed": true,
+      "reviewedAt": "2026-10-30T05:04:57.829133+00:00",
+      "bodyHeight": 800,
+      "masterBodyHeight": 800,
+      "edgeAlphaMax": 0,
+      "footAnchorError": 0
+    },
+    {
+      "file": "assets/characters/daotong/costumes/festival-poses/lose.png",
+      "sha256": "709656d0bcdeb796db88fe3937b1e63197871683b7b2f950ec75f1dadf5996bb",
+      "method": "actual imagegen returns plus light/dark five-costume master-win-lose contact inspected",
+      "passed": true,
+      "reviewedAt": "2026-10-30T05:04:57.861036+00:00",
+      "bodyHeight": 800,
+      "masterBodyHeight": 800,
+      "edgeAlphaMax": 0,
+      "footAnchorError": 0
+    }
+  ],
+  "contact": "assets/characters/review/costume-poses-light-dark.png",
+  "animationScope": "Own-costume master/win/lose sources loaded by existing 2D keyframe player; no generated in-between frames, no skeletal animation claim",
+  "wholeGameClientVerified": false
+}

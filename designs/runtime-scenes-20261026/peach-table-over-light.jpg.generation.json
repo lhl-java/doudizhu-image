@@ -1,0 +1,18 @@
+{
+  "file": "designs/runtime-scenes-20261026/peach-table-over-light.jpg",
+  "sha256": "0f845d28c272f21a286c7bf58cee121b616e69de5f828942b25ac4c8ae6ea2b2",
+  "route": "derived",
+  "operation": "RGBA composited over solid QA background, no artwork resize",
+  "derivedFrom": [
+    {
+      "file": "assets/scenes/peach-table-runtime.png",
+      "sha256": "a6289c2ee501a8bb059a10dcd48cd28cd6a17f9fcdc2b9e80fe8616e54960071",
+      "record": "assets/scenes/peach-table-runtime.png.generation.json"
+    }
+  ],
+  "width": 2059,
+  "height": 942,
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "qa_preview_only"
+}

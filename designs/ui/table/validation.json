@@ -1,0 +1,13 @@
+{
+  "batch": "table",
+  "checkedAt": "2026-10-26T08:31:32.5315651+00:00",
+  "selectedPages": 15,
+  "ready": 15,
+  "selectedHashes": "checked",
+  "requiredStates": "checked",
+  "directSourceHashEntries": 141,
+  "referenceHashEntries": 20,
+  "failures": [],
+  "status": "passed",
+  "limit": "文件/哈希/状态映射核验及本批逐图视觉检查，不代表客户端、逐状态截图或完整牌局合法性验收"
+}

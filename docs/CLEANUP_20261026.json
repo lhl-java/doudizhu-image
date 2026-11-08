@@ -1,0 +1,35 @@
+{
+  "recordedAt": "2026-10-26T12:50:47.1492348+00:00",
+  "removedImageCount": 4,
+  "files": [
+    {
+      "file": "designs/ui/modes/27-tournament-detail-v1.png",
+      "sha256": "2ce08e1c5ee0cb1cb6cf5f467c83044581f033eb24add8f935eb9b6fc1ba7914",
+      "selected": "designs/ui/modes/27-tournament-detail-v2.png",
+      "selectedSha256": "eb2e4abfcfe53b16681ddae428166fa291eeba0cdd72752eded1d3d83d4d8d82",
+      "action": "deleted-image-only-retained-generation-metadata"
+    },
+    {
+      "file": "designs/ui/modes/29-tournament-result-v1.png",
+      "sha256": "a5a27028908077e419c8f4c623ab51f1494f9d9a7dc87e2851a39a52a55de38d",
+      "selected": "designs/ui/modes/29-tournament-result-v2.png",
+      "selectedSha256": "97fe5c97d3165b77a16cf779e0e5b5a98b2e4e1aa27b9a0c24adb712a0712548",
+      "action": "deleted-image-only-retained-generation-metadata"
+    },
+    {
+      "file": "designs/ui/support/42-leaderboard-v1.png",
+      "sha256": "689acae496323b2ba3ad6a056dc20abe75289e0f5757a365f8298677c6bf5d0a",
+      "selected": "designs/ui/support/42-leaderboard-v2.png",
+      "selectedSha256": "cafc6aa003aea23d2872817456c1a93ad6b47200b9895421bb00b9c44cc0e557",
+      "action": "deleted-image-only-retained-generation-metadata"
+    },
+    {
+      "file": "designs/ui/support/59-achievements-growth-v1.png",
+      "sha256": "5d8a51577e6f953038b3e4f23e9b84c1f7a7d5d9b3b9c6879aaa9cf679fa8dc8",
+      "selected": "designs/ui/support/59-achievements-growth-v2.png",
+      "selectedSha256": "8628eb1118e1a334b7ad1c5a2f960e77352e59a76b92463f242e2499e27d5c56",
+      "action": "deleted-image-only-retained-generation-metadata"
+    }
+  ],
+  "retainedPurpose": "已选组合图所需的当前背景和组件源仍是有效制作资源；本次只清理四张AI编辑前替代稿。"
+}

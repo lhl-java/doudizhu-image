@@ -1,0 +1,45 @@
+{
+  "id": "hulu_master",
+  "file": "assets/characters/hulu/master.png",
+  "record": "assets/characters/hulu/master.derivation.json",
+  "kind": "character_pose",
+  "width": 1024,
+  "height": 1024,
+  "anchor": [
+    512,
+    920
+  ],
+  "sha256": "eb4fa72acfcb3e69610b208e46c70428f9aa0127bc014f256ccb6593d93630fe",
+  "operation": "crop-to-significant-alpha-bounds-with6px-padding-and-one-fixed-downscale-per-character-registered-to-foot-anchor",
+  "derivedFrom": {
+    "file": "designs/characters/runtime-20261026/hulu-master-v1.png",
+    "sha256": "052b8a06b868e821c5b5638ccc82bd7de191cc104b80a1f2816b32f578541c02",
+    "record": "designs/characters/runtime-20261026/hulu-master-v1.generation.json"
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "significantBorderPixels": 0,
+  "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+  "art_source": "existing",
+  "status": "asset_ready_user_review",
+  "sourceRect": [
+    114,
+    48,
+    1144,
+    1226
+  ],
+  "sourceAnchor": [
+    629.0,
+    1220
+  ],
+  "fixedScale": 0.6861063464837049,
+  "offset": [
+    159,
+    116
+  ],
+  "noUpscale": true,
+  "pose": "master",
+  "characterId": "hulu"
+}

@@ -1,0 +1,32 @@
+{
+  "source": "designs/ui/table/17-reconnect-v1.png",
+  "output": "designs/ui/table/17-reconnect-v2.png",
+  "cardGroups": [],
+  "textOverlays": [
+    {
+      "text": "15",
+      "rect": [
+        102,
+        717,
+        44,
+        31
+      ],
+      "font": "Georgia",
+      "size": 24,
+      "color": "#f7f1df",
+      "role": "自己当前15张手牌的计数，修正原稿17标签"
+    }
+  ],
+  "elements": [
+    {
+      "file": "assets/ui/controls/primary-normal.png",
+      "role": "计数牌的同源玉绿皮肤",
+      "rect": [
+        91,
+        708,
+        66,
+        50
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4290 @@
+{
+  "schemaVersion": 1,
+  "textures": [
+    {
+      "file": "assets/game/atlases/atlas-00.png",
+      "width": 4096,
+      "height": 4096,
+      "sha256": "0455054015b87fd19791a0048c09c2efacdda05960fadc18e1256e8f6bdfb659"
+    },
+    {
+      "file": "assets/game/atlases/atlas-01.png",
+      "width": 4096,
+      "height": 512,
+      "sha256": "7ec5d4b37df0beeaec34373e240c32319c2d21128e00c64c25b99da9a763953d"
+    }
+  ],
+  "frames": [
+    {
+      "id": "bomb-burst",
+      "source": "assets/fx/bomb-burst.png",
+      "sourceSha256": "62487a340e47072ee3ca163f9af2d9570e46ae005502ada5ed7f6f771107ed0a",
+      "texture": 0,
+      "rect": [
+        4,
+        4,
+        512,
+        512
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "counter-spring-leaves",
+      "source": "assets/fx/counter-spring-leaves.png",
+      "sourceSha256": "d3f67342271edc8607b43a687a256813f1847b60ab2e0437ae6dcbebed9f986a",
+      "texture": 0,
+      "rect": [
+        520,
+        4,
+        512,
+        512
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "deal-trail",
+      "source": "assets/fx/deal-trail.png",
+      "sourceSha256": "697af67ed434a506ec03f2c6a45a2db1f55cd210c1b611ef4fd9ba4a1b5b466a",
+      "texture": 0,
+      "rect": [
+        1036,
+        4,
+        512,
+        512
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "loading-ring",
+      "source": "assets/fx/loading-ring.png",
+      "sourceSha256": "111b7d5c9a2c9570b552aa1e8a947f56ab867be743dcf7a144bd3b4c94973cdc",
+      "texture": 0,
+      "rect": [
+        1552,
+        4,
+        512,
+        512
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "lose-cloud",
+      "source": "assets/fx/lose-cloud.png",
+      "sourceSha256": "7a841d2c8692458805b042ff99ac2650edf33d7df9311f36e075017117f717ff",
+      "texture": 0,
+      "rect": [
+        2068,
+        4,
+        512,
+        512
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "play-glow",
+      "source": "assets/fx/play-glow.png",
+      "sourceSha256": "3c47be99f1b66cfedbe57522173fb6bf822f5018b8a55df28bfeb4a01bd5f879",
+      "texture": 0,
+      "rect": [
+        2584,
+        4,
+        512,
+        512
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "rank-up",
+      "source": "assets/fx/rank-up.png",
+      "sourceSha256": "4296ac4494a9e7f1b9e2063c743610f11796dfd67b68d513d9e43661802752b1",
+      "texture": 0,
+      "rect": [
+        3100,
+        4,
+        512,
+        512
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "reward-sparkle",
+      "source": "assets/fx/reward-sparkle.png",
+      "sourceSha256": "2354c13d7174a6499bd2c0f01faebf2a3e3a2d3cc7d5aa65f0ce9889290a35c5",
+      "texture": 0,
+      "rect": [
+        4,
+        520,
+        512,
+        512
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "rocket-trail",
+      "source": "assets/fx/rocket-trail.png",
+      "sourceSha256": "e3e81846329d8e00df32c3ad20b826e8a2c32135533ac96b1350f0b50f556edb",
+      "texture": 0,
+      "rect": [
+        520,
+        520,
+        512,
+        512
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "spring-petals",
+      "source": "assets/fx/spring-petals.png",
+      "sourceSha256": "91fe910b44c1ca801dcc5399fd2a77ba8060c24078a138bad475884660a7c1e1",
+      "texture": 0,
+      "rect": [
+        1036,
+        520,
+        512,
+        512
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "turn-ring",
+      "source": "assets/fx/turn-ring.png",
+      "sourceSha256": "e5d4ebc500d0f098af027b77538c33d7280b5eba113bd21c339b096bbd63f7a0",
+      "texture": 0,
+      "rect": [
+        1552,
+        520,
+        512,
+        512
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "win-gold",
+      "source": "assets/fx/win-gold.png",
+      "sourceSha256": "afe2805a23380a5a9c62d1e1292f4b656084b92943b5c3bb5353bde599891e5b",
+      "texture": 0,
+      "rect": [
+        2068,
+        520,
+        512,
+        512
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "portrait-selected",
+      "source": "assets/ui/runtime-kit/skins/portrait-selected.png",
+      "sourceSha256": "97d4eb2b67addd49fc5049063009cbb52158ef5641b689f2d13f536cace96a87",
+      "texture": 0,
+      "rect": [
+        2584,
+        520,
+        420,
+        401
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        420,
+        401
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "rarity-legendary",
+      "source": "assets/ui/runtime-kit/skins/rarity-legendary.png",
+      "sourceSha256": "1ef698618c569b200a28cd12e28afc915632e9715e11c00c99e662da9616d97f",
+      "texture": 0,
+      "rect": [
+        3008,
+        520,
+        371,
+        395
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        371,
+        395
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "portrait-normal",
+      "source": "assets/ui/runtime-kit/skins/portrait-normal.png",
+      "sourceSha256": "f30f4922ba0d5a75981500187429a1fe932f47d94c70bc76714ae3a08332ad47",
+      "texture": 0,
+      "rect": [
+        3383,
+        520,
+        387,
+        372
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        387,
+        372
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "item-normal",
+      "source": "assets/ui/runtime-kit/skins/item-normal.png",
+      "sourceSha256": "f84bbdbcb369de5b6e725ad436be2334cc2ee53d17064587c09610d4d8d24094",
+      "texture": 0,
+      "rect": [
+        4,
+        1036,
+        365,
+        364
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        365,
+        364
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "item-selected",
+      "source": "assets/ui/runtime-kit/skins/item-selected.png",
+      "sourceSha256": "c9c5a05961ecead83ff998f429d0c4643bfd1f87a632ccdd7a9c6a4cc90a6870",
+      "texture": 0,
+      "rect": [
+        373,
+        1036,
+        367,
+        363
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        367,
+        363
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "item-locked",
+      "source": "assets/ui/runtime-kit/skins/item-locked.png",
+      "sourceSha256": "1e1061a45bd51ecbd412d8afb1e691b44ec89a221c4ebcca0574da8612036ed9",
+      "texture": 0,
+      "rect": [
+        744,
+        1036,
+        366,
+        362
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        366,
+        362
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "rarity-rare",
+      "source": "assets/ui/runtime-kit/skins/rarity-rare.png",
+      "sourceSha256": "76849370488fbc0973e0f64bfaaae9ee352084b1c31e7e76a811f42d47ca81a9",
+      "texture": 0,
+      "rect": [
+        1114,
+        1036,
+        326,
+        337
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        326,
+        337
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "rarity-common",
+      "source": "assets/ui/runtime-kit/skins/rarity-common.png",
+      "sourceSha256": "8051bfb333ef4e2c08fe5d893561c38607bcea1e2d8531f73f6d5af3abd5e549",
+      "texture": 0,
+      "rect": [
+        1444,
+        1036,
+        325,
+        336
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        325,
+        336
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "dialog",
+      "source": "assets/ui/runtime-kit/skins/dialog.png",
+      "sourceSha256": "9c5965190d269164aab08c0a47b71dbf77b50d3941f89fe74fa88140fdbbfe91",
+      "texture": 0,
+      "rect": [
+        1773,
+        1036,
+        572,
+        308
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        572,
+        308
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.controls.panel.png",
+      "source": "assets/ui/controls/panel.png",
+      "sourceSha256": "8cea325f107b9dae1b16addf4d4c5b3987defc6fef98dc89d65b0108c1321d6a",
+      "texture": 0,
+      "rect": [
+        2349,
+        1036,
+        594,
+        296
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        594,
+        296
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.controls.avatar-frame.png",
+      "source": "assets/ui/controls/avatar-frame.png",
+      "sourceSha256": "14dca6eb2f735d820480ffb2c1dc17c6e4b19356a45d0b90940afb452cfdcdb3",
+      "texture": 0,
+      "rect": [
+        2947,
+        1036,
+        347,
+        296
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        347,
+        296
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.controls.scrollbar.png",
+      "source": "assets/ui/controls/scrollbar.png",
+      "sourceSha256": "1ad01b2e653c253bfad234ee14919172ef550a7043a7765f6c46e64587af7621",
+      "texture": 0,
+      "rect": [
+        3298,
+        1036,
+        135,
+        296
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        135,
+        296
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.controls.close.png",
+      "source": "assets/ui/controls/close.png",
+      "sourceSha256": "27d1ff0f868a0a167bb6a8bb1ee56fdfda0e5af4da37d9e775908860646a5731",
+      "texture": 0,
+      "rect": [
+        3437,
+        1036,
+        284,
+        295
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        284,
+        295
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards-source.selection.png",
+      "source": "assets/ui/cards-source/selection.png",
+      "sourceSha256": "7202172378ca8f1590a18175b68a168829bdb971bf1d5aec0dfb0e19378c8bd3",
+      "texture": 0,
+      "rect": [
+        3725,
+        1036,
+        218,
+        289
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        218,
+        289
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards-source.joker-small.png",
+      "source": "assets/ui/cards-source/joker-small.png",
+      "sourceSha256": "e4b34532ab37f0fc92375a5f9b9e3c347010648d633459b1d1a596fc7fba42a2",
+      "texture": 0,
+      "rect": [
+        4,
+        1404,
+        231,
+        286
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        231,
+        286
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.joker-small.png",
+      "source": "assets/ui/cards/joker-small.png",
+      "sourceSha256": "e4b34532ab37f0fc92375a5f9b9e3c347010648d633459b1d1a596fc7fba42a2",
+      "texture": 0,
+      "rect": [
+        239,
+        1404,
+        231,
+        286
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        231,
+        286
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards-source.joker-big.png",
+      "source": "assets/ui/cards-source/joker-big.png",
+      "sourceSha256": "34c70cd279d33d5bd127a87cf11eee1a7e6c8ead14f39f6add0225b336bce401",
+      "texture": 0,
+      "rect": [
+        474,
+        1404,
+        229,
+        286
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        229,
+        286
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.joker-big.png",
+      "source": "assets/ui/cards/joker-big.png",
+      "sourceSha256": "34c70cd279d33d5bd127a87cf11eee1a7e6c8ead14f39f6add0225b336bce401",
+      "texture": 0,
+      "rect": [
+        707,
+        1404,
+        229,
+        286
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        229,
+        286
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards-source.back-jade.png",
+      "source": "assets/ui/cards-source/back-jade.png",
+      "sourceSha256": "74d4830f3777e97394952b2990064ecf71eaa874983ff54a474d6777806dd863",
+      "texture": 0,
+      "rect": [
+        940,
+        1404,
+        218,
+        286
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        218,
+        286
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards-source.ace-diamonds.png",
+      "source": "assets/ui/cards-source/ace-diamonds.png",
+      "sourceSha256": "3b94e904d28c215910a38893f63866e797cfa1a88365b4070273e064a549461b",
+      "texture": 0,
+      "rect": [
+        1162,
+        1404,
+        212,
+        286
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        212,
+        286
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards-source.back-ivory.png",
+      "source": "assets/ui/cards-source/back-ivory.png",
+      "sourceSha256": "1f1dac6b3710dbcc7a61094b8e3737d4e4f7ca15abab10751e5841b52a3b265d",
+      "texture": 0,
+      "rect": [
+        1378,
+        1404,
+        216,
+        285
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        285
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards-source.ace-hearts.png",
+      "source": "assets/ui/cards-source/ace-hearts.png",
+      "sourceSha256": "0498be74f6019491563d6964dc441146bef2a0901ee2119683b68d82dfb1b0b0",
+      "texture": 0,
+      "rect": [
+        1598,
+        1404,
+        230,
+        283
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        230,
+        283
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards-source.ace-spades.png",
+      "source": "assets/ui/cards-source/ace-spades.png",
+      "sourceSha256": "035a2de2c45fb5053560ccb55376788753f19a5c7de35aae6974b52a5de67308",
+      "texture": 0,
+      "rect": [
+        1832,
+        1404,
+        229,
+        283
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        229,
+        283
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards-source.ace-clubs.png",
+      "source": "assets/ui/cards-source/ace-clubs.png",
+      "sourceSha256": "2c443b89e20358a0ac31c90651c159617e9308d34c7de312a9640089b42206f3",
+      "texture": 0,
+      "rect": [
+        2065,
+        1404,
+        216,
+        283
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        283
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards-source.card-blank.png",
+      "source": "assets/ui/cards-source/card-blank.png",
+      "sourceSha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+      "texture": 0,
+      "rect": [
+        2285,
+        1404,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.clubs-10.png",
+      "source": "assets/ui/cards/clubs-10.png",
+      "sourceSha256": "564dedabee3c00a475fe0a0a4bb53d550f481ff78949d8782a45985cf05fb8df",
+      "texture": 0,
+      "rect": [
+        2505,
+        1404,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.clubs-2.png",
+      "source": "assets/ui/cards/clubs-2.png",
+      "sourceSha256": "df1d9c37bea4244112943353a4d95d980e059c6159565e98d7c784384c1150b5",
+      "texture": 0,
+      "rect": [
+        2725,
+        1404,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.clubs-3.png",
+      "source": "assets/ui/cards/clubs-3.png",
+      "sourceSha256": "0e658f4a1c5966e5d1b6578864eecdf2c537f19a813d37d5c46e62ad29ca02eb",
+      "texture": 0,
+      "rect": [
+        2945,
+        1404,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.clubs-4.png",
+      "source": "assets/ui/cards/clubs-4.png",
+      "sourceSha256": "2b05c2c9da5216a8e55c10b8b3c7c4ef34fd91fecf8ee8b14106e95d099941a5",
+      "texture": 0,
+      "rect": [
+        3165,
+        1404,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.clubs-5.png",
+      "source": "assets/ui/cards/clubs-5.png",
+      "sourceSha256": "4cdd70a7d75fd87b02c93338946b04497f10b98215d306488446b538120ee8e0",
+      "texture": 0,
+      "rect": [
+        3385,
+        1404,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.clubs-6.png",
+      "source": "assets/ui/cards/clubs-6.png",
+      "sourceSha256": "3f44df12a4fc174c248d8f9f6333e2a7295be8840a847daa9c4f3530e6c19746",
+      "texture": 0,
+      "rect": [
+        3605,
+        1404,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.clubs-7.png",
+      "source": "assets/ui/cards/clubs-7.png",
+      "sourceSha256": "b2931fa5a207cdc3fa1f7c9d2c13d36eae024e787c90323ad3a3714780cb61d6",
+      "texture": 0,
+      "rect": [
+        3825,
+        1404,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.clubs-8.png",
+      "source": "assets/ui/cards/clubs-8.png",
+      "sourceSha256": "a6bcc5121332146f022c6f5b9301f1580860d40fa56f898412ade91abdb26cb4",
+      "texture": 0,
+      "rect": [
+        4,
+        1694,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.clubs-9.png",
+      "source": "assets/ui/cards/clubs-9.png",
+      "sourceSha256": "80b9b2b6687990709a6d3797332ef6b4673e44e12483c52f644440db9f3aaff9",
+      "texture": 0,
+      "rect": [
+        224,
+        1694,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.clubs-A.png",
+      "source": "assets/ui/cards/clubs-A.png",
+      "sourceSha256": "253c82202cd37c3c667712fad8309ee4c097634abd0ed945929667ad33950bc7",
+      "texture": 0,
+      "rect": [
+        444,
+        1694,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.clubs-J.png",
+      "source": "assets/ui/cards/clubs-J.png",
+      "sourceSha256": "dee018718be32458bbea38a0f990dc71aeb52225f9ab85a9bdc8b61961705786",
+      "texture": 0,
+      "rect": [
+        664,
+        1694,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.clubs-K.png",
+      "source": "assets/ui/cards/clubs-K.png",
+      "sourceSha256": "5bec4838332f10707a11f251ae36b995b3206b73a3125fe51f87fb3f14fd0a53",
+      "texture": 0,
+      "rect": [
+        884,
+        1694,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.clubs-Q.png",
+      "source": "assets/ui/cards/clubs-Q.png",
+      "sourceSha256": "64d8b9c18d639ce15dc9f47a410fdebd23e14739b2dfd991f751b7c45ba402eb",
+      "texture": 0,
+      "rect": [
+        1104,
+        1694,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.diamonds-10.png",
+      "source": "assets/ui/cards/diamonds-10.png",
+      "sourceSha256": "7c03ec5c6a26fc65c363e5f4250eef61313a468e83fb9b816a817d2f529528be",
+      "texture": 0,
+      "rect": [
+        1324,
+        1694,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.diamonds-2.png",
+      "source": "assets/ui/cards/diamonds-2.png",
+      "sourceSha256": "7107c9fa42cd08c8342fd5a7ac6d49709f2f64aaed313eabbe4bdd5f10f24cf7",
+      "texture": 0,
+      "rect": [
+        1544,
+        1694,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.diamonds-3.png",
+      "source": "assets/ui/cards/diamonds-3.png",
+      "sourceSha256": "8e2baa8cd4bb7e6e891083b0cec61e812d88759f4a34b5146699909da35879a8",
+      "texture": 0,
+      "rect": [
+        1764,
+        1694,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.diamonds-4.png",
+      "source": "assets/ui/cards/diamonds-4.png",
+      "sourceSha256": "923e283220bc451f1aaa195b72801de2fc18ea5fe81c3f4efa1adfeb4cc4336e",
+      "texture": 0,
+      "rect": [
+        1984,
+        1694,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.diamonds-5.png",
+      "source": "assets/ui/cards/diamonds-5.png",
+      "sourceSha256": "fe4d1214b61ab92beb5214f378efac01bb2576a3655326b1c2b9df46bb7fb2c4",
+      "texture": 0,
+      "rect": [
+        2204,
+        1694,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.diamonds-6.png",
+      "source": "assets/ui/cards/diamonds-6.png",
+      "sourceSha256": "9c21d0bd859f11696d616e9e31e0da526074dab62e1e04a2cb51d622928669f4",
+      "texture": 0,
+      "rect": [
+        2424,
+        1694,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.diamonds-7.png",
+      "source": "assets/ui/cards/diamonds-7.png",
+      "sourceSha256": "47b6b77801195c5eed1f315d67b40ff5d777e07b613b4fc5ec4a6d14e2d624ab",
+      "texture": 0,
+      "rect": [
+        2644,
+        1694,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.diamonds-8.png",
+      "source": "assets/ui/cards/diamonds-8.png",
+      "sourceSha256": "4b63c595e7457f508ee4ec92c78136f3c4d9d7d4b51b7f6689962e703b7947ab",
+      "texture": 0,
+      "rect": [
+        2864,
+        1694,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.diamonds-9.png",
+      "source": "assets/ui/cards/diamonds-9.png",
+      "sourceSha256": "2d8af0d754a0c7d7c38748ed87698d67cf32a50c29de250f3d72a9340b1ef614",
+      "texture": 0,
+      "rect": [
+        3084,
+        1694,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.diamonds-A.png",
+      "source": "assets/ui/cards/diamonds-A.png",
+      "sourceSha256": "897e767ce1463c2f0abf4ccb032bad08e018cfd8e54b0d461c4faf801ea08901",
+      "texture": 0,
+      "rect": [
+        3304,
+        1694,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.diamonds-J.png",
+      "source": "assets/ui/cards/diamonds-J.png",
+      "sourceSha256": "565149033407ad88395fa21f858e96e4eca73a0ad2284ef76bab5a9c07d02cda",
+      "texture": 0,
+      "rect": [
+        3524,
+        1694,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.diamonds-K.png",
+      "source": "assets/ui/cards/diamonds-K.png",
+      "sourceSha256": "f0bca3a5649a8b56ae7ee9b65b7233d743662ede72b37a1c823841a464f01941",
+      "texture": 0,
+      "rect": [
+        3744,
+        1694,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.diamonds-Q.png",
+      "source": "assets/ui/cards/diamonds-Q.png",
+      "sourceSha256": "a5b4aa94c0538adbed3ae69241e1c9f81fd426c058e20219f77be3bf1cd1e72f",
+      "texture": 0,
+      "rect": [
+        4,
+        1980,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.hearts-10.png",
+      "source": "assets/ui/cards/hearts-10.png",
+      "sourceSha256": "265e637c676d1383ee7ca8880d051dcbe6103002005ccb302527e82c6363d712",
+      "texture": 0,
+      "rect": [
+        224,
+        1980,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.hearts-2.png",
+      "source": "assets/ui/cards/hearts-2.png",
+      "sourceSha256": "12beab955297097a1084eaf45e171a3d663d5fad6dba957a01fc9a155acfb97e",
+      "texture": 0,
+      "rect": [
+        444,
+        1980,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.hearts-3.png",
+      "source": "assets/ui/cards/hearts-3.png",
+      "sourceSha256": "857f206ae6ee7c85a16f1b0517036a2ca224b2b15889e318151931b0c589498a",
+      "texture": 0,
+      "rect": [
+        664,
+        1980,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.hearts-4.png",
+      "source": "assets/ui/cards/hearts-4.png",
+      "sourceSha256": "55686b0a0348834780919f1d36a3434acdc188bf7e9044e7eb82b0f260a41b8e",
+      "texture": 0,
+      "rect": [
+        884,
+        1980,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.hearts-5.png",
+      "source": "assets/ui/cards/hearts-5.png",
+      "sourceSha256": "b9fdf4a64a4e8f52a0f2a914aa9ac2e0b1f99ab1c091d689b79d27505b21f9c3",
+      "texture": 0,
+      "rect": [
+        1104,
+        1980,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.hearts-6.png",
+      "source": "assets/ui/cards/hearts-6.png",
+      "sourceSha256": "3f6e71b53cd8aaa71216516ec853338ce30b9746a40479b3fe10861fb58b866d",
+      "texture": 0,
+      "rect": [
+        1324,
+        1980,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.hearts-7.png",
+      "source": "assets/ui/cards/hearts-7.png",
+      "sourceSha256": "a1c7f079b24c62474bb6116ccf7f6e2142092cf2c209e194c75a039eeba8be82",
+      "texture": 0,
+      "rect": [
+        1544,
+        1980,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.hearts-8.png",
+      "source": "assets/ui/cards/hearts-8.png",
+      "sourceSha256": "070257e2b734ec206b2a91402952abe25e6fd17b8b7d28b904dfe86f3fcf3912",
+      "texture": 0,
+      "rect": [
+        1764,
+        1980,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.hearts-9.png",
+      "source": "assets/ui/cards/hearts-9.png",
+      "sourceSha256": "7c7d2fa8ab00f54c9cdd4b67fd08b79da14fe17bd512d0aa1da75a279033593f",
+      "texture": 0,
+      "rect": [
+        1984,
+        1980,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.hearts-A.png",
+      "source": "assets/ui/cards/hearts-A.png",
+      "sourceSha256": "9f2dcce97220cc85661fb6551f777d6289dc088f485a6fe3034c644f1e6a58c4",
+      "texture": 0,
+      "rect": [
+        2204,
+        1980,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.hearts-J.png",
+      "source": "assets/ui/cards/hearts-J.png",
+      "sourceSha256": "85725f10216fb547e579fe5fa6de0d0df5eecb68cb7f3778bcbc2a2cc741360d",
+      "texture": 0,
+      "rect": [
+        2424,
+        1980,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.hearts-K.png",
+      "source": "assets/ui/cards/hearts-K.png",
+      "sourceSha256": "2a6cc03073e56fdf610f93f0e9a9d7587a3375d7114a4bd02fdff9a236825ae5",
+      "texture": 0,
+      "rect": [
+        2644,
+        1980,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.hearts-Q.png",
+      "source": "assets/ui/cards/hearts-Q.png",
+      "sourceSha256": "573c8e85c1175872d7216d11e4da1eae86aae41e630a99289f3231ccfbd6fe7b",
+      "texture": 0,
+      "rect": [
+        2864,
+        1980,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.spades-10.png",
+      "source": "assets/ui/cards/spades-10.png",
+      "sourceSha256": "48a01e6644e7f99c44210dd61daddee68bfc20396dcd809343ea08fdfdd715ca",
+      "texture": 0,
+      "rect": [
+        3084,
+        1980,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.spades-2.png",
+      "source": "assets/ui/cards/spades-2.png",
+      "sourceSha256": "8608887cdfe8180f2c55ecd390861c54f37ecab05d06595246a2ae2dcfbc81b1",
+      "texture": 0,
+      "rect": [
+        3304,
+        1980,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.spades-3.png",
+      "source": "assets/ui/cards/spades-3.png",
+      "sourceSha256": "c765eebbc9de000a231fd45432356ba3caffd397048f4fd4d3bf0b3561cfe6d3",
+      "texture": 0,
+      "rect": [
+        3524,
+        1980,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.spades-4.png",
+      "source": "assets/ui/cards/spades-4.png",
+      "sourceSha256": "0d10930522f6c82d54d45bb6324de1d4aa53e5bb101cd402143c3db719f53ec7",
+      "texture": 0,
+      "rect": [
+        3744,
+        1980,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.spades-5.png",
+      "source": "assets/ui/cards/spades-5.png",
+      "sourceSha256": "e890b180516ec511ea4ef971ec44e21839baed1d3c310477759f2434b9f3ddcf",
+      "texture": 0,
+      "rect": [
+        4,
+        2266,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.spades-6.png",
+      "source": "assets/ui/cards/spades-6.png",
+      "sourceSha256": "d482d85f2175507391cc5105faae6c12147df72b3a1fb918ce1e30274815633f",
+      "texture": 0,
+      "rect": [
+        224,
+        2266,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.spades-7.png",
+      "source": "assets/ui/cards/spades-7.png",
+      "sourceSha256": "e9725f7ba1597cf7b31d3c43d4543d16c61505e25b2f1ad1cf0e7c5b6f912cc2",
+      "texture": 0,
+      "rect": [
+        444,
+        2266,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.spades-8.png",
+      "source": "assets/ui/cards/spades-8.png",
+      "sourceSha256": "7ea38709d02afb8b75a1d395dd3e6862793f6506f848cfb2d46f7f491b53305b",
+      "texture": 0,
+      "rect": [
+        664,
+        2266,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.spades-9.png",
+      "source": "assets/ui/cards/spades-9.png",
+      "sourceSha256": "f972070bc30e3ce972a0f29d5aac3a71d9120e0d2ab5e5f355b137147d5b3901",
+      "texture": 0,
+      "rect": [
+        884,
+        2266,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.spades-A.png",
+      "source": "assets/ui/cards/spades-A.png",
+      "sourceSha256": "981605aeb34fe49a9e9bb552f2aee61609f317cbfa1d986203c9350155a444ce",
+      "texture": 0,
+      "rect": [
+        1104,
+        2266,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.spades-J.png",
+      "source": "assets/ui/cards/spades-J.png",
+      "sourceSha256": "e73206bf5db17fb77d55645e16520fd4f5da313179e3e05f623e3df1cc20c5f7",
+      "texture": 0,
+      "rect": [
+        1324,
+        2266,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.spades-K.png",
+      "source": "assets/ui/cards/spades-K.png",
+      "sourceSha256": "8819cddcd6e1cec6bf483cfa1fae20332b4b30b9ba93d444276971643f16b4dc",
+      "texture": 0,
+      "rect": [
+        1544,
+        2266,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards.spades-Q.png",
+      "source": "assets/ui/cards/spades-Q.png",
+      "sourceSha256": "142512c74b67b44f59fc3be51b1ee0c9e95f9f4359948a35f72640b4326cc8ab",
+      "texture": 0,
+      "rect": [
+        1764,
+        2266,
+        216,
+        282
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        216,
+        282
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "events",
+      "source": "assets/ui/runtime-kit/icons/events.png",
+      "sourceSha256": "700008e3cc21c760cee48080dac1abcae9a5da823aa3ab5c24be1d80fe84b78d",
+      "texture": 0,
+      "rect": [
+        1984,
+        2266,
+        275,
+        281
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        275,
+        281
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "trophy",
+      "source": "assets/ui/runtime-kit/icons/trophy.png",
+      "sourceSha256": "6dcd9eb8af7ede490fc0e9494dfc95dbafac4dde5c5ba994b40682f97b5a9054",
+      "texture": 0,
+      "rect": [
+        2263,
+        2266,
+        270,
+        281
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        270,
+        281
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "shop",
+      "source": "assets/ui/runtime-kit/icons/shop.png",
+      "sourceSha256": "e8bc6d8445daebdf62956bbad11060f924e2781f45c276373bbaf89c99a6bc52",
+      "texture": 0,
+      "rect": [
+        2537,
+        2266,
+        283,
+        276
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        283,
+        276
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "home",
+      "source": "assets/ui/runtime-kit/icons/home.png",
+      "sourceSha256": "934502fa338c31d588fe1c6d76043ca71c166f3d26beb934d84f5e4fe829eeb7",
+      "texture": 0,
+      "rect": [
+        2824,
+        2266,
+        305,
+        273
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        305,
+        273
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "character",
+      "source": "assets/ui/runtime-kit/icons/character.png",
+      "sourceSha256": "8c0af45ec83033b046b304daf87c8bb137358cd9c4b4e32d56636a91afecb2a6",
+      "texture": 0,
+      "rect": [
+        3133,
+        2266,
+        306,
+        272
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        306,
+        272
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "bomb",
+      "source": "assets/ui/runtime-kit/icons/bomb.png",
+      "sourceSha256": "ca865e72c498e493ef4a6ae5bca028bdc64377ea0a47175f1a4cd51d03df6571",
+      "texture": 0,
+      "rect": [
+        3443,
+        2266,
+        256,
+        272
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        256,
+        272
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "task",
+      "source": "assets/ui/runtime-kit/icons/task.png",
+      "sourceSha256": "dd7e1fd95954fdc46342b212d3f610f8b2452b50e97e9a99838426ebab556ddb",
+      "texture": 0,
+      "rect": [
+        3703,
+        2266,
+        272,
+        269
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        272,
+        269
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "inventory",
+      "source": "assets/ui/runtime-kit/icons/inventory.png",
+      "sourceSha256": "5eba977919746360e76ea2a1d77e84022f79b9b9ce9615423f9cde1a606d5595",
+      "texture": 0,
+      "rect": [
+        4,
+        2552,
+        264,
+        269
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        264,
+        269
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "search",
+      "source": "assets/ui/runtime-kit/icons/search.png",
+      "sourceSha256": "8d06253cde0dc8a66ff855277de5a682d27bcf9bdd8ef06b97ec2560559e9e86",
+      "texture": 0,
+      "rect": [
+        272,
+        2552,
+        246,
+        263
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        246,
+        263
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "gift",
+      "source": "assets/ui/runtime-kit/icons/gift.png",
+      "sourceSha256": "977ac5669ae728347fda21c6783a9623d0b27ba01ce10b933c995ac36e6e2f03",
+      "texture": 0,
+      "rect": [
+        522,
+        2552,
+        285,
+        260
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        285,
+        260
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "close",
+      "source": "assets/ui/runtime-kit/icons/close.png",
+      "sourceSha256": "18a5913805d489078d2264b1cac5d3a0c36af0c806785f0a3c67e3200ca6b8e8",
+      "texture": 0,
+      "rect": [
+        811,
+        2552,
+        257,
+        259
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        257,
+        259
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "timer",
+      "source": "assets/ui/runtime-kit/icons/timer.png",
+      "sourceSha256": "49c332a1c9ae0f321ddc819029b014235ea5070df9cc9d79eaabeee1d38ebb14",
+      "texture": 0,
+      "rect": [
+        1072,
+        2552,
+        243,
+        259
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        243,
+        259
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "settings",
+      "source": "assets/ui/runtime-kit/icons/settings.png",
+      "sourceSha256": "9da711eb650a151cbb98a7d050b2752d71f5dfcf020e8538381be853d346b767",
+      "texture": 0,
+      "rect": [
+        1319,
+        2552,
+        252,
+        257
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        252,
+        257
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "daotong_angry",
+      "source": "assets/characters/daotong/expressions/angry.png",
+      "sourceSha256": "0466c0776192fdf32466af1d304dd0edb52faf8236554e2a19789a4c68ac5786",
+      "texture": 0,
+      "rect": [
+        1575,
+        2552,
+        256,
+        256
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "daotong_calm",
+      "source": "assets/characters/daotong/expressions/calm.png",
+      "sourceSha256": "6efa8169e054cb4fc2b8d0c63373c13999b68fceea2514a55514cb38f2df1622",
+      "texture": 0,
+      "rect": [
+        1835,
+        2552,
+        256,
+        256
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "daotong_laugh",
+      "source": "assets/characters/daotong/expressions/laugh.png",
+      "sourceSha256": "84adf6c929291ed9080fa0799338c0dd5c2fd343fd888ccb748d2e4c8fbd6a98",
+      "texture": 0,
+      "rect": [
+        2095,
+        2552,
+        256,
+        256
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "daotong_sad",
+      "source": "assets/characters/daotong/expressions/sad.png",
+      "sourceSha256": "f7ceb47db821393d8a4c18ac3554508eba69c909490c7e42fda1c506e7ae1418",
+      "texture": 0,
+      "rect": [
+        2355,
+        2552,
+        256,
+        256
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "daotong_smile",
+      "source": "assets/characters/daotong/expressions/smile.png",
+      "sourceSha256": "613d2dbb615ff1ecc5a7cb76725b611e0ad1be0fda3cccf5487c9d8139f949cc",
+      "texture": 0,
+      "rect": [
+        2615,
+        2552,
+        256,
+        256
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "daotong_smug",
+      "source": "assets/characters/daotong/expressions/smug.png",
+      "sourceSha256": "53f870aedf02265179294109ba6baa2fdd8d5611e6dd3ef931996cadfc6f6d2b",
+      "texture": 0,
+      "rect": [
+        2875,
+        2552,
+        256,
+        256
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "daotong_surprise",
+      "source": "assets/characters/daotong/expressions/surprise.png",
+      "sourceSha256": "cab0b8264e6c42c60ef8ac84bf2c9f1ddea9707b02b644dc182320bb85f91489",
+      "texture": 0,
+      "rect": [
+        3135,
+        2552,
+        256,
+        256
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "daotong_thinking",
+      "source": "assets/characters/daotong/expressions/thinking.png",
+      "sourceSha256": "395a20f37bc59a61c6090dc4ebfa1bdfdaae8e86ef96c1bb2d47d794df62a8f1",
+      "texture": 0,
+      "rect": [
+        3395,
+        2552,
+        256,
+        256
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "hulu_angry",
+      "source": "assets/characters/hulu/expressions/angry.png",
+      "sourceSha256": "eb58fb53147916ebfc7432d039f4f828a9239f36e5c9508803f3146618a0033f",
+      "texture": 0,
+      "rect": [
+        3655,
+        2552,
+        256,
+        256
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "hulu_calm",
+      "source": "assets/characters/hulu/expressions/calm.png",
+      "sourceSha256": "0ac33e45d01fa756a87a2658ed3cd2fd8faf259ca601afa86ff05ce77bd242ff",
+      "texture": 0,
+      "rect": [
+        4,
+        2825,
+        256,
+        256
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "hulu_laugh",
+      "source": "assets/characters/hulu/expressions/laugh.png",
+      "sourceSha256": "91651d70e8c1cfc44ecf8e3e11c62ee37b6adeaeaaa0b493ef60cc303094ebed",
+      "texture": 0,
+      "rect": [
+        264,
+        2825,
+        256,
+        256
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "hulu_sad",
+      "source": "assets/characters/hulu/expressions/sad.png",
+      "sourceSha256": "d6af4b7990e8defe4282bc67f4a5d847fc4b8307092fcb260bb8515c6fdff118",
+      "texture": 0,
+      "rect": [
+        524,
+        2825,
+        256,
+        256
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "hulu_smile",
+      "source": "assets/characters/hulu/expressions/smile.png",
+      "sourceSha256": "df8b54b85a9a468bb599cf18d22d08e76bc340ffeda75b2c1b6c893e89309a2f",
+      "texture": 0,
+      "rect": [
+        784,
+        2825,
+        256,
+        256
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "hulu_smug",
+      "source": "assets/characters/hulu/expressions/smug.png",
+      "sourceSha256": "d8ef47e59187dc780138f6fc6cd3cd04b66c8ad584f979cb8fe09022aff046bd",
+      "texture": 0,
+      "rect": [
+        1044,
+        2825,
+        256,
+        256
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "hulu_surprise",
+      "source": "assets/characters/hulu/expressions/surprise.png",
+      "sourceSha256": "208838b2cd797284fd6d02fd130823046c0897efc799db2c411eeda472fde96b",
+      "texture": 0,
+      "rect": [
+        1304,
+        2825,
+        256,
+        256
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "hulu_thinking",
+      "source": "assets/characters/hulu/expressions/thinking.png",
+      "sourceSha256": "c794dc94fa693ef529a6e0489b4d893d1572b9996c4e754d0f9b71dee03c289e",
+      "texture": 0,
+      "rect": [
+        1564,
+        2825,
+        256,
+        256
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "taohua_angry",
+      "source": "assets/characters/taohua/expressions/angry.png",
+      "sourceSha256": "21bbef14abf7eb97cc671f6ded0d9c9b2c2c89470e78d2b2c9374c0ef6c3bed2",
+      "texture": 0,
+      "rect": [
+        1824,
+        2825,
+        256,
+        256
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "taohua_calm",
+      "source": "assets/characters/taohua/expressions/calm.png",
+      "sourceSha256": "b8eaeeb0b9d5c06ad7b401c65d55692980191f66e542ac0d878d5c04db7a5204",
+      "texture": 0,
+      "rect": [
+        2084,
+        2825,
+        256,
+        256
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "taohua_laugh",
+      "source": "assets/characters/taohua/expressions/laugh.png",
+      "sourceSha256": "abf2e8e639d95dcfb9434d59e12c8a8662893e8f5aa34ffe7416c734d30a486b",
+      "texture": 0,
+      "rect": [
+        2344,
+        2825,
+        256,
+        256
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "taohua_sad",
+      "source": "assets/characters/taohua/expressions/sad.png",
+      "sourceSha256": "857320e27e9ccbdc0629d681a0aa05d43416ed0ccdf8ea5ad07b55a93863a32d",
+      "texture": 0,
+      "rect": [
+        2604,
+        2825,
+        256,
+        256
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "taohua_smile",
+      "source": "assets/characters/taohua/expressions/smile.png",
+      "sourceSha256": "60717fdd3163e9e372e3c62ccf0b168d7834fe4f2879ba7c0dc1250b2d1d6695",
+      "texture": 0,
+      "rect": [
+        2864,
+        2825,
+        256,
+        256
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "taohua_smug",
+      "source": "assets/characters/taohua/expressions/smug.png",
+      "sourceSha256": "cee13a01412e4b196d45afbb2cad157ffe528c6ac737a40629dd233dfde696a0",
+      "texture": 0,
+      "rect": [
+        3124,
+        2825,
+        256,
+        256
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "taohua_surprise",
+      "source": "assets/characters/taohua/expressions/surprise.png",
+      "sourceSha256": "339b6440f166c28494ad6fd82e9e4753a0fb8ce70fd6e4384c7f84e1e7989690",
+      "texture": 0,
+      "rect": [
+        3384,
+        2825,
+        256,
+        256
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "taohua_thinking",
+      "source": "assets/characters/taohua/expressions/thinking.png",
+      "sourceSha256": "2276475395e7693f8eee3dff882d1984a6a66b0405dcfb6652f5d1e5ae84f009",
+      "texture": 0,
+      "rect": [
+        3644,
+        2825,
+        256,
+        256
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "share",
+      "source": "assets/ui/runtime-kit/icons/share.png",
+      "sourceSha256": "66bc966900989a607dcadc3123d2ce0912a0a8b62b87ca84ac8130c4eeba975f",
+      "texture": 0,
+      "rect": [
+        4,
+        3085,
+        246,
+        255
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        246,
+        255
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "signin",
+      "source": "assets/ui/runtime-kit/icons/signin.png",
+      "sourceSha256": "ddc17f6e1557f9d292715d6d26ab39464495253e182aacbdd13f5ff4ade92f88",
+      "texture": 0,
+      "rect": [
+        254,
+        3085,
+        280,
+        254
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        280,
+        254
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "season",
+      "source": "assets/ui/runtime-kit/icons/season.png",
+      "sourceSha256": "46eabc61a9d06339dc7339ab73930dac86b150113fad1782ed49c7ac979d293a",
+      "texture": 0,
+      "rect": [
+        538,
+        3085,
+        256,
+        253
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        256,
+        253
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "rocket",
+      "source": "assets/ui/runtime-kit/icons/rocket.png",
+      "sourceSha256": "a55e38cb86470e7219e735a496c9b113d45876df7ab48b5b363eb1eab3c108f9",
+      "texture": 0,
+      "rect": [
+        798,
+        3085,
+        233,
+        253
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        233,
+        253
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "trash",
+      "source": "assets/ui/runtime-kit/icons/trash.png",
+      "sourceSha256": "78e3657a9ce961300ef82750cdff86bda9acb37ac14e6b76da7d154653a879ce",
+      "texture": 0,
+      "rect": [
+        1035,
+        3085,
+        205,
+        253
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        205,
+        253
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "practice",
+      "source": "assets/ui/runtime-kit/icons/practice.png",
+      "sourceSha256": "ed4e39daece78800aa08283844085f1e84a7f363ee31e51cd5c5d8dc06d986e7",
+      "texture": 0,
+      "rect": [
+        1244,
+        3085,
+        249,
+        252
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        249,
+        252
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "help",
+      "source": "assets/ui/runtime-kit/icons/help.png",
+      "sourceSha256": "7094d2ca6e4089c1a8926f51cdbdba185ea486c303b93244932deb69fa201372",
+      "texture": 0,
+      "rect": [
+        1497,
+        3085,
+        294,
+        251
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        294,
+        251
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "wardrobe",
+      "source": "assets/ui/runtime-kit/icons/wardrobe.png",
+      "sourceSha256": "909ebac4529dce660ec1182265ceadede264534d0a900c2f9fb85a915eb0cb7b",
+      "texture": 0,
+      "rect": [
+        1795,
+        3085,
+        284,
+        251
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        284,
+        251
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "rank",
+      "source": "assets/ui/runtime-kit/icons/rank.png",
+      "sourceSha256": "6445a02e10d33ae7cf1da93eacecf84d5a8f69cf8d7da71095ccd2e3281eda92",
+      "texture": 0,
+      "rect": [
+        2083,
+        3085,
+        272,
+        251
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        272,
+        251
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "lock",
+      "source": "assets/ui/runtime-kit/icons/lock.png",
+      "sourceSha256": "686ddb7ae4414a4b2439e44f4efe9f6229077f64a2be6e3e999bbdc5807a80b7",
+      "texture": 0,
+      "rect": [
+        2359,
+        3085,
+        259,
+        250
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        259,
+        250
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "skills",
+      "source": "assets/ui/runtime-kit/icons/skills.png",
+      "sourceSha256": "9344435f16596ce33ba20e4706c3ea1a60b0090a24eaccc1ed5b2c314f49b6d6",
+      "texture": 0,
+      "rect": [
+        2622,
+        3085,
+        268,
+        247
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        268,
+        247
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "friends",
+      "source": "assets/ui/runtime-kit/icons/friends.png",
+      "sourceSha256": "8dd481fd062087e22f6575ba1d8582f139dcc0f8530ed3db50aa9f5c86548776",
+      "texture": 0,
+      "rect": [
+        2894,
+        3085,
+        266,
+        247
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        266,
+        247
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "back",
+      "source": "assets/ui/runtime-kit/icons/back.png",
+      "sourceSha256": "4a09866bb7e8e2b004c099a2bce05c8d4ab041f4e5aa45133d6f2a6f99e3afc8",
+      "texture": 0,
+      "rect": [
+        3164,
+        3085,
+        242,
+        247
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        242,
+        247
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards-source.landlord.png",
+      "source": "assets/ui/cards-source/landlord.png",
+      "sourceSha256": "3dfee5ad7d76c3b638f3cfeb0b19303ad7ef1fdcaffb4074f26fa38f7425bc93",
+      "texture": 0,
+      "rect": [
+        3410,
+        3085,
+        338,
+        246
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        338,
+        246
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "replay",
+      "source": "assets/ui/runtime-kit/icons/replay.png",
+      "sourceSha256": "a17153b17ce81530b1b5c033934d11b5d132b098b3e8960c5d5d9a3a8effd0ff",
+      "texture": 0,
+      "rect": [
+        3752,
+        3085,
+        256,
+        244
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        256,
+        244
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "mute",
+      "source": "assets/ui/runtime-kit/icons/mute.png",
+      "sourceSha256": "b95b3f6e2ac57ea987032e60c7f42cf028a2213a6f8501f8821f107df25566bf",
+      "texture": 0,
+      "rect": [
+        4,
+        3344,
+        206,
+        244
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        206,
+        244
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "voice",
+      "source": "assets/ui/runtime-kit/icons/voice.png",
+      "sourceSha256": "047d80008abe71c60ea17d4ff4a297b657b55b93da5b4f88e2cf4ac5d2d77937",
+      "texture": 0,
+      "rect": [
+        214,
+        3344,
+        222,
+        242
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        222,
+        242
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "profile",
+      "source": "assets/ui/runtime-kit/icons/profile.png",
+      "sourceSha256": "0dd68b2a4512ea40dbb8eb4798ffff52374db3be0d1a3fc557d001ec11719df2",
+      "texture": 0,
+      "rect": [
+        440,
+        3344,
+        234,
+        241
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        234,
+        241
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards-source.rocket.png",
+      "source": "assets/ui/cards-source/rocket.png",
+      "sourceSha256": "6b7cbf593bd30516da6d0efbf0a89517a6c2ce48a1d176d33f216a2f710ea356",
+      "texture": 0,
+      "rect": [
+        678,
+        3344,
+        312,
+        239
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        312,
+        239
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards-source.spring.png",
+      "source": "assets/ui/cards-source/spring.png",
+      "sourceSha256": "cc5078c5c5731777f2a72d23824deacc8878f334ddd338849dd256779b892ea0",
+      "texture": 0,
+      "rect": [
+        994,
+        3344,
+        311,
+        239
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        311,
+        239
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards-source.counter-spring.png",
+      "source": "assets/ui/cards-source/counter-spring.png",
+      "sourceSha256": "6ab4113bb6c1f35cfabeffaa708ecfadcbedc162e83fe363f3ee71c0f4a3a9c1",
+      "texture": 0,
+      "rect": [
+        1309,
+        3344,
+        279,
+        239
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        279,
+        239
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "classic",
+      "source": "assets/ui/runtime-kit/icons/classic.png",
+      "sourceSha256": "17f4efc319bff8f3aaa77f0e6260f026da16d2ac1a4d072557f369038fcfcee7",
+      "texture": 0,
+      "rect": [
+        1592,
+        3344,
+        269,
+        239
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        269,
+        239
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "tournament",
+      "source": "assets/ui/runtime-kit/icons/tournament.png",
+      "sourceSha256": "2179eb8a1af548aa187429f8ea06fe96ee7d845b35e670276659d0d496809dd7",
+      "texture": 0,
+      "rect": [
+        1865,
+        3344,
+        265,
+        238
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        265,
+        238
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "coin",
+      "source": "assets/ui/runtime-kit/icons/coin.png",
+      "sourceSha256": "8ba640f476a8e6ccddc78aea72c28e78e1eac7f5e6240aed9b89e9b3ab083778",
+      "texture": 0,
+      "rect": [
+        2134,
+        3344,
+        259,
+        238
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        259,
+        238
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "star",
+      "source": "assets/ui/runtime-kit/icons/star.png",
+      "sourceSha256": "ce2a5292d7e7f5ffbba3a22d5d4b2cd99b568de1c72d9895c09d0a5a363b2e41",
+      "texture": 0,
+      "rect": [
+        2397,
+        3344,
+        248,
+        238
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        248,
+        238
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "window-normal",
+      "source": "assets/ui/runtime-kit/skins/window-normal.png",
+      "sourceSha256": "40ada120220ca52e0f777a0a0c20cc3ecd1e9968d6fd8effdd012b73216e067c",
+      "texture": 0,
+      "rect": [
+        2649,
+        3344,
+        518,
+        237
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        518,
+        237
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "sound",
+      "source": "assets/ui/runtime-kit/icons/sound.png",
+      "sourceSha256": "a3914e35ab295f54fe0f9f7ec54327894dabc887d93d584ad2e661ad4953fe3c",
+      "texture": 0,
+      "rect": [
+        3171,
+        3344,
+        267,
+        236
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        267,
+        236
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "puzzle",
+      "source": "assets/ui/runtime-kit/icons/puzzle.png",
+      "sourceSha256": "13533c7057b57c528d563ed898f04c6662616dd066a680b01a38faa3c4936208",
+      "texture": 0,
+      "rect": [
+        3442,
+        3344,
+        259,
+        236
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        259,
+        236
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards-source.farmer.png",
+      "source": "assets/ui/cards-source/farmer.png",
+      "sourceSha256": "5cbe5643a0150da3710b0aba32952610644235020db7ba62250a49e19652763a",
+      "texture": 0,
+      "rect": [
+        3705,
+        3344,
+        309,
+        234
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        309,
+        234
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "copy",
+      "source": "assets/ui/runtime-kit/icons/copy.png",
+      "sourceSha256": "1a332a66a19fb7c7f09de82793bf7f4db5b6c3a5eee1747d252abf9f3f81dd94",
+      "texture": 0,
+      "rect": [
+        4,
+        3592,
+        269,
+        232
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        269,
+        232
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "mail",
+      "source": "assets/ui/runtime-kit/icons/mail.png",
+      "sourceSha256": "39a2bf8fb84486a1b97f00d79d2cae87c6b1a303bb5da34d82695c0664a6ce00",
+      "texture": 0,
+      "rect": [
+        277,
+        3592,
+        280,
+        230
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        280,
+        230
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.cards-source.bomb.png",
+      "source": "assets/ui/cards-source/bomb.png",
+      "sourceSha256": "223424a6653f93df91bfbdf5fd44666a9f2fbec3dc0a0fb123c7d38a7e370294",
+      "texture": 0,
+      "rect": [
+        561,
+        3592,
+        298,
+        229
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        298,
+        229
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "emoji",
+      "source": "assets/ui/runtime-kit/icons/emoji.png",
+      "sourceSha256": "4ccbcafb06874c8cd37896229a89a2308a1f4af4e11b6a114efdb78b9d64034b",
+      "texture": 0,
+      "rect": [
+        863,
+        3592,
+        236,
+        228
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        236,
+        228
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "refresh",
+      "source": "assets/ui/runtime-kit/icons/refresh.png",
+      "sourceSha256": "9e2701e4944dd2699ada84f3986a96863b8099720bddcdd10053487fe48c4494",
+      "texture": 0,
+      "rect": [
+        1103,
+        3592,
+        226,
+        228
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        226,
+        228
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "chat",
+      "source": "assets/ui/runtime-kit/icons/chat.png",
+      "sourceSha256": "0cf014d0b7afeb0ea8d087ae77e7126dd5aada1502742800918b1c0d3008da0c",
+      "texture": 0,
+      "rect": [
+        1333,
+        3592,
+        269,
+        226
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        269,
+        226
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "token",
+      "source": "assets/ui/runtime-kit/icons/token.png",
+      "sourceSha256": "a6a051729fc21d6b42d0b02318226d7f1cf7681909cc2aaf93015c3594061205",
+      "texture": 0,
+      "rect": [
+        1606,
+        3592,
+        249,
+        222
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        249,
+        222
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "vibration",
+      "source": "assets/ui/runtime-kit/icons/vibration.png",
+      "sourceSha256": "454fe5fd04fbe1f7c9b465681e2f74b781e2b63ff0a25e2a7ca2948d3cb854cd",
+      "texture": 0,
+      "rect": [
+        1859,
+        3592,
+        237,
+        222
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        237,
+        222
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "check",
+      "source": "assets/ui/runtime-kit/icons/check.png",
+      "sourceSha256": "d1ea9bdc52505ee476e896034e94a79e892da8e23a36169684a1e99f5718e33f",
+      "texture": 0,
+      "rect": [
+        2100,
+        3592,
+        266,
+        217
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        266,
+        217
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "add",
+      "source": "assets/ui/runtime-kit/icons/add.png",
+      "sourceSha256": "49b80d5bd5c151a33907aa82d0596178b7457186f0956d7b09c8c7e0889f7d39",
+      "texture": 0,
+      "rect": [
+        2370,
+        3592,
+        223,
+        214
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        223,
+        214
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "music",
+      "source": "assets/ui/runtime-kit/icons/music.png",
+      "sourceSha256": "52156de9859b5f00579286f3f1cde73b784790fb8ceda99f67a8984e1fae683c",
+      "texture": 0,
+      "rect": [
+        2597,
+        3592,
+        250,
+        213
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        250,
+        213
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "window-wide",
+      "source": "assets/ui/runtime-kit/skins/window-wide.png",
+      "sourceSha256": "666d5dd55e8302babc0f06ce3d0aeb476fa8150c363586cc14059331f589f80b",
+      "texture": 0,
+      "rect": [
+        2851,
+        3592,
+        693,
+        208
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        693,
+        208
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "network",
+      "source": "assets/ui/runtime-kit/icons/network.png",
+      "sourceSha256": "367dd21bc8df83f0106c43f2575e295c00599691257204cb28cb0fd143cedfec",
+      "texture": 0,
+      "rect": [
+        3548,
+        3592,
+        257,
+        208
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        257,
+        208
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "friend-room",
+      "source": "assets/ui/runtime-kit/icons/friend-room.png",
+      "sourceSha256": "5d820a937f248e707b73152385d341010b3bbec594ca92cb4fee574073ece2a4",
+      "texture": 0,
+      "rect": [
+        3809,
+        3592,
+        270,
+        206
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        270,
+        206
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "tooltip",
+      "source": "assets/ui/runtime-kit/skins/tooltip.png",
+      "sourceSha256": "95f0f8afa963313d6ef4d6a7dac142b8195c137cb2977c7b810772363f96f998",
+      "texture": 0,
+      "rect": [
+        4,
+        3828,
+        454,
+        188
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        454,
+        188
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.controls.primary-normal.png",
+      "source": "assets/ui/controls/primary-normal.png",
+      "sourceSha256": "a2aa9afff3b9ef559a23ddef8d1b991691c09a609b7ea96b453c56c586b5f021",
+      "texture": 0,
+      "rect": [
+        462,
+        3828,
+        363,
+        182
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        363,
+        182
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.controls.primary-pressed.png",
+      "source": "assets/ui/controls/primary-pressed.png",
+      "sourceSha256": "442aea5dc36d63ea8622e0d0f8ae4de97c6cebe08af8fbad82e0e98f6c52f107",
+      "texture": 0,
+      "rect": [
+        829,
+        3828,
+        349,
+        182
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        349,
+        182
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.controls.primary-highlight.png",
+      "source": "assets/ui/controls/primary-highlight.png",
+      "sourceSha256": "b6f0726e83081bbe6a5fc0fe78d252122d818fceb94b8731d4d5ca4b95f34e10",
+      "texture": 0,
+      "rect": [
+        1182,
+        3828,
+        372,
+        181
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        372,
+        181
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.controls.title-primary.png",
+      "source": "assets/ui/controls/title-primary.png",
+      "sourceSha256": "08b86b529771c2b9ba5c968b04aa3dc4bb2806f4f9bccb311fd2a3f66c61629e",
+      "texture": 0,
+      "rect": [
+        1558,
+        3828,
+        453,
+        169
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        453,
+        169
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.controls.title-secondary.png",
+      "source": "assets/ui/controls/title-secondary.png",
+      "sourceSha256": "c1665d05e48d43184bd64c9f13627bc4a91f2809cb1a767725e815fad4de4a5d",
+      "texture": 0,
+      "rect": [
+        2015,
+        3828,
+        400,
+        169
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        400,
+        169
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.controls.tab-normal.png",
+      "source": "assets/ui/controls/tab-normal.png",
+      "sourceSha256": "6b67e215ff28fd153e1f104c76d5c4a36f813029eb3bc183a62687d21e6ec6bd",
+      "texture": 0,
+      "rect": [
+        2419,
+        3828,
+        269,
+        169
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        269,
+        169
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.controls.primary-disabled.png",
+      "source": "assets/ui/controls/primary-disabled.png",
+      "sourceSha256": "50eefaee2e8cdca171361b6c861eadb2ad1b664b772261f0c68690cb94b36490",
+      "texture": 0,
+      "rect": [
+        2692,
+        3828,
+        348,
+        167
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        348,
+        167
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.controls.toggle-off.png",
+      "source": "assets/ui/controls/toggle-off.png",
+      "sourceSha256": "37ab08af24796c0d08ef8dfb889f2baf339264d44cf99bca6b6ead61133b647d",
+      "texture": 0,
+      "rect": [
+        3044,
+        3828,
+        345,
+        157
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        345,
+        157
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.controls.toggle-on.png",
+      "source": "assets/ui/controls/toggle-on.png",
+      "sourceSha256": "a6ad4b03104105c9175e0c045b0ad42bf6185858cd8495841a1427c0756ff87f",
+      "texture": 0,
+      "rect": [
+        3393,
+        3828,
+        265,
+        157
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        265,
+        157
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.controls.checkbox-on.png",
+      "source": "assets/ui/controls/checkbox-on.png",
+      "sourceSha256": "faa9f934c990c37703c5b98fc1a07f7fe75b82cea0396a4f573206afb45c8b31",
+      "texture": 0,
+      "rect": [
+        3662,
+        3828,
+        247,
+        157
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        247,
+        157
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.controls.tab-selected.png",
+      "source": "assets/ui/controls/tab-selected.png",
+      "sourceSha256": "d61f3cd52dc6469e625d2c3ac4a55aa80939f721a6a8f60c6781100f78938081",
+      "texture": 1,
+      "rect": [
+        4,
+        4,
+        263,
+        153
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        263,
+        153
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.controls.secondary-highlight.png",
+      "source": "assets/ui/controls/secondary-highlight.png",
+      "sourceSha256": "99950b5d816b379ce5ecf4ddb28f723220cd4fa23a0225c59bad4d9a946b4f00",
+      "texture": 1,
+      "rect": [
+        271,
+        4,
+        372,
+        141
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        372,
+        141
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.controls.secondary-normal.png",
+      "source": "assets/ui/controls/secondary-normal.png",
+      "sourceSha256": "9ba4a890ce8dc82f27a3468a1b8aad4586920da8111a35bc63ad1b801c93bd3d",
+      "texture": 1,
+      "rect": [
+        647,
+        4,
+        363,
+        141
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        363,
+        141
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.controls.secondary-pressed.png",
+      "source": "assets/ui/controls/secondary-pressed.png",
+      "sourceSha256": "4a1e93330493da258aa241e6cfecd6ec5d79908375d4b57c2a5ee55c8270d37f",
+      "texture": 1,
+      "rect": [
+        1014,
+        4,
+        349,
+        141
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        349,
+        141
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.controls.secondary-disabled.png",
+      "source": "assets/ui/controls/secondary-disabled.png",
+      "sourceSha256": "0b48192b12595d3607eaec5aa843654ef9404fa30684e49cbad4f1375867d478",
+      "texture": 1,
+      "rect": [
+        1367,
+        4,
+        335,
+        141
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        335,
+        141
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.controls.checkbox-off.png",
+      "source": "assets/ui/controls/checkbox-off.png",
+      "sourceSha256": "abd5ab528f4736c55980784b5626b54bb03523601c54738c43296a073493613c",
+      "texture": 1,
+      "rect": [
+        1706,
+        4,
+        217,
+        141
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        217,
+        141
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "toast",
+      "source": "assets/ui/runtime-kit/skins/toast.png",
+      "sourceSha256": "88c66f029d225ef662cec584a1c83b7f2c42a5b33bcdef0bbabd1f64b2d70d0f",
+      "texture": 1,
+      "rect": [
+        1927,
+        4,
+        712,
+        135
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        712,
+        135
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.controls.input-normal.png",
+      "source": "assets/ui/controls/input-normal.png",
+      "sourceSha256": "dd484f83f0b99c428769449d98231ef68bb67a88ecb97a5727e7b9391b8cbf3b",
+      "texture": 1,
+      "rect": [
+        2643,
+        4,
+        370,
+        133
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        370,
+        133
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.controls.input-focus.png",
+      "source": "assets/ui/controls/input-focus.png",
+      "sourceSha256": "b7a1485cf5cbc9f846768b83fb786bb04d6589d3b1d498e1646b2c93ee29eb30",
+      "texture": 1,
+      "rect": [
+        3017,
+        4,
+        364,
+        133
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        364,
+        133
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.controls.progress.png",
+      "source": "assets/ui/controls/progress.png",
+      "sourceSha256": "e0c7a90ca832b183dcec3f3a3f83061880d8b972432cebcd72cd80341b2670bc",
+      "texture": 1,
+      "rect": [
+        3385,
+        4,
+        343,
+        133
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        343,
+        133
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "ui.controls.slider.png",
+      "source": "assets/ui/controls/slider.png",
+      "sourceSha256": "8190058d7d208afdf844a179ee9e62d040093137be0fdf29ee354f77aebb26a6",
+      "texture": 1,
+      "rect": [
+        3732,
+        4,
+        335,
+        133
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        335,
+        133
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "list-row-selected",
+      "source": "assets/ui/runtime-kit/skins/list-row-selected.png",
+      "sourceSha256": "104310e2e9a32a013f3f99aab5ef12554213fd2e71242a784d49aec5df952c96",
+      "texture": 1,
+      "rect": [
+        4,
+        161,
+        655,
+        113
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        655,
+        113
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "list-row-normal",
+      "source": "assets/ui/runtime-kit/skins/list-row-normal.png",
+      "sourceSha256": "78c4347a6838459020afc3bad41a62c34ada567cc6b9e26c442473864b3e506f",
+      "texture": 1,
+      "rect": [
+        663,
+        161,
+        623,
+        102
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        623,
+        102
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "red-dot",
+      "source": "assets/ui/runtime-kit/skins/red-dot.png",
+      "sourceSha256": "0d4702e13f0a707f763b072982be0a75b14a65145339751c24a2a3f92a2bea64",
+      "texture": 1,
+      "rect": [
+        1290,
+        161,
+        76,
+        77
+      ],
+      "rotated": false,
+      "trimmed": false,
+      "sourceSize": [
+        76,
+        77
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    }
+  ],
+  "coordinateSystem": "top-left pixels, straight RGBA alpha, source-sized sprites",
+  "gutter": 4,
+  "scale": 1
+}

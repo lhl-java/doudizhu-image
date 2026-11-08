@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-11-08T08:09:33.907790+00:00",
+  "repository": "https://github.com/lhl-java/doudizhu-image",
+  "priorVerifiedCommit": "f20e4f7ccf384edb90f894c42449f3101bb8445f",
+  "priorTree": "edc29ac5c64873ed04f92afa926cc5bf319db4a8",
+  "purpose": "Retain source/provenance and current publication evidence before authorized local directory removal",
+  "originalPublishedResourceBytesRetained": true,
+  "priorBlobCount": 1703,
+  "supplementaryFiles": [
+    {
+      "file": "docs/publication-verification-20261104.json",
+      "bytes": 786,
+      "sha256": "b0f84464d03a0a8e84dc49327b294786a45fe5221bf90bc4c25b7fe6fd221898"
+    }
+  ],
+  "reviewedLocalExclusions": [
+    ".work private Git, downloaded archive and local transport scripts/logs",
+    ".work check outputs duplicate results already recorded in docs/FULL_GAME_ART_VALIDATION.json"
+  ],
+  "artAcceptanceUnchanged": true,
+  "entry": "runtime/index.html",
+  "priorManifestsKeepTheirOriginalFixedBatchMeaning": true
+}

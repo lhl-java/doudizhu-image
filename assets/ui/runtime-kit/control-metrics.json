@@ -1,0 +1,3575 @@
+{
+  "schemaVersion": 1,
+  "referenceCanvas": [
+    2560,
+    1080
+  ],
+  "units": {
+    "source": "texture texels",
+    "layout": "logical pixels at reference canvas; global viewport scale applied once"
+  },
+  "status": "runtime_art_contract_user_review",
+  "nineSlicePolicy": "Insets are conservative proposed source-space contract for engine validation, not claimed measured runtime success; inspect at minimum and wide sizes.",
+  "assets": [
+    {
+      "id": "home",
+      "key": "icon/home",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/home.png",
+      "nativeSize": [
+        305,
+        273
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "back",
+      "key": "icon/back",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/back.png",
+      "nativeSize": [
+        242,
+        247
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "close",
+      "key": "icon/close",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/close.png",
+      "nativeSize": [
+        257,
+        259
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "settings",
+      "key": "icon/settings",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/settings.png",
+      "nativeSize": [
+        252,
+        257
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "help",
+      "key": "icon/help",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/help.png",
+      "nativeSize": [
+        294,
+        251
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "profile",
+      "key": "icon/profile",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/profile.png",
+      "nativeSize": [
+        234,
+        241
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "friends",
+      "key": "icon/friends",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/friends.png",
+      "nativeSize": [
+        266,
+        247
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "mail",
+      "key": "icon/mail",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/mail.png",
+      "nativeSize": [
+        280,
+        230
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "task",
+      "key": "icon/task",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/task.png",
+      "nativeSize": [
+        272,
+        269
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "signin",
+      "key": "icon/signin",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/signin.png",
+      "nativeSize": [
+        280,
+        254
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "events",
+      "key": "icon/events",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/events.png",
+      "nativeSize": [
+        275,
+        281
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "shop",
+      "key": "icon/shop",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/shop.png",
+      "nativeSize": [
+        283,
+        276
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "inventory",
+      "key": "icon/inventory",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/inventory.png",
+      "nativeSize": [
+        264,
+        269
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "wardrobe",
+      "key": "icon/wardrobe",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/wardrobe.png",
+      "nativeSize": [
+        284,
+        251
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "character",
+      "key": "icon/character",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/character.png",
+      "nativeSize": [
+        306,
+        272
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "rank",
+      "key": "icon/rank",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/rank.png",
+      "nativeSize": [
+        272,
+        251
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "classic",
+      "key": "icon/classic",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/classic.png",
+      "nativeSize": [
+        269,
+        239
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "friend-room",
+      "key": "icon/friend-room",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/friend-room.png",
+      "nativeSize": [
+        270,
+        206
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "tournament",
+      "key": "icon/tournament",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/tournament.png",
+      "nativeSize": [
+        265,
+        238
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "puzzle",
+      "key": "icon/puzzle",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/puzzle.png",
+      "nativeSize": [
+        259,
+        236
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "practice",
+      "key": "icon/practice",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/practice.png",
+      "nativeSize": [
+        249,
+        252
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "skills",
+      "key": "icon/skills",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/skills.png",
+      "nativeSize": [
+        268,
+        247
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "season",
+      "key": "icon/season",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/season.png",
+      "nativeSize": [
+        256,
+        253
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "replay",
+      "key": "icon/replay",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/replay.png",
+      "nativeSize": [
+        256,
+        244
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "chat",
+      "key": "icon/chat",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/chat.png",
+      "nativeSize": [
+        269,
+        226
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "emoji",
+      "key": "icon/emoji",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/emoji.png",
+      "nativeSize": [
+        236,
+        228
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "voice",
+      "key": "icon/voice",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/voice.png",
+      "nativeSize": [
+        222,
+        242
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "mute",
+      "key": "icon/mute",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/mute.png",
+      "nativeSize": [
+        206,
+        244
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "sound",
+      "key": "icon/sound",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/sound.png",
+      "nativeSize": [
+        267,
+        236
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "music",
+      "key": "icon/music",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/music.png",
+      "nativeSize": [
+        250,
+        213
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "vibration",
+      "key": "icon/vibration",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/vibration.png",
+      "nativeSize": [
+        237,
+        222
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "network",
+      "key": "icon/network",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/network.png",
+      "nativeSize": [
+        257,
+        208
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "coin",
+      "key": "icon/coin",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/coin.png",
+      "nativeSize": [
+        259,
+        238
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "token",
+      "key": "icon/token",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/token.png",
+      "nativeSize": [
+        249,
+        222
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "gift",
+      "key": "icon/gift",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/gift.png",
+      "nativeSize": [
+        285,
+        260
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "trophy",
+      "key": "icon/trophy",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/trophy.png",
+      "nativeSize": [
+        270,
+        281
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "star",
+      "key": "icon/star",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/star.png",
+      "nativeSize": [
+        248,
+        238
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "lock",
+      "key": "icon/lock",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/lock.png",
+      "nativeSize": [
+        259,
+        250
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "check",
+      "key": "icon/check",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/check.png",
+      "nativeSize": [
+        266,
+        217
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "add",
+      "key": "icon/add",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/add.png",
+      "nativeSize": [
+        223,
+        214
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "search",
+      "key": "icon/search",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/search.png",
+      "nativeSize": [
+        246,
+        263
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "refresh",
+      "key": "icon/refresh",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/refresh.png",
+      "nativeSize": [
+        226,
+        228
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "trash",
+      "key": "icon/trash",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/trash.png",
+      "nativeSize": [
+        205,
+        253
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "share",
+      "key": "icon/share",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/share.png",
+      "nativeSize": [
+        246,
+        255
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "copy",
+      "key": "icon/copy",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/copy.png",
+      "nativeSize": [
+        269,
+        232
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "timer",
+      "key": "icon/timer",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/timer.png",
+      "nativeSize": [
+        243,
+        259
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "bomb",
+      "key": "icon/bomb",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/bomb.png",
+      "nativeSize": [
+        256,
+        272
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "rocket",
+      "key": "icon/rocket",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/rocket.png",
+      "nativeSize": [
+        233,
+        253
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        64,
+        64
+      ],
+      "recommendedLogicalSize": [
+        80,
+        80
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          88
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "window-normal",
+      "key": "skin/window-normal",
+      "kind": "skin",
+      "file": "assets/ui/runtime-kit/skins/window-normal.png",
+      "nativeSize": [
+        518,
+        237
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 24,
+        "top": 18,
+        "right": 24,
+        "bottom": 18,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        337,
+        154
+      ],
+      "recommendedLogicalSize": [
+        518,
+        237
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          337,
+          154
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "window-wide",
+      "key": "skin/window-wide",
+      "kind": "skin",
+      "file": "assets/ui/runtime-kit/skins/window-wide.png",
+      "nativeSize": [
+        693,
+        208
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 24,
+        "top": 18,
+        "right": 24,
+        "bottom": 18,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        450,
+        135
+      ],
+      "recommendedLogicalSize": [
+        693,
+        208
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          450,
+          135
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "dialog",
+      "key": "skin/dialog",
+      "kind": "skin",
+      "file": "assets/ui/runtime-kit/skins/dialog.png",
+      "nativeSize": [
+        572,
+        308
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 24,
+        "top": 18,
+        "right": 24,
+        "bottom": 18,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        372,
+        200
+      ],
+      "recommendedLogicalSize": [
+        572,
+        308
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          372,
+          200
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "list-row-normal",
+      "key": "skin/list-row-normal",
+      "kind": "skin",
+      "file": "assets/ui/runtime-kit/skins/list-row-normal.png",
+      "nativeSize": [
+        623,
+        102
+      ],
+      "resizeMode": "nine_slice",
+      "nineSliceInsets": {
+        "left": 64,
+        "top": 22,
+        "right": 64,
+        "bottom": 22,
+        "units": "source_texels",
+        "centerRegion": [
+          64,
+          22,
+          559,
+          80
+        ]
+      },
+      "padding": {
+        "left": 24,
+        "top": 18,
+        "right": 24,
+        "bottom": 18,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        152,
+        68
+      ],
+      "recommendedLogicalSize": [
+        623,
+        102
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          152,
+          68
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Preserve corner texels with nine-slice; native text separate; do not stretch entire bitmap.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "list-row-selected",
+      "key": "skin/list-row-selected",
+      "kind": "skin",
+      "file": "assets/ui/runtime-kit/skins/list-row-selected.png",
+      "nativeSize": [
+        655,
+        113
+      ],
+      "resizeMode": "nine_slice",
+      "nineSliceInsets": {
+        "left": 64,
+        "top": 25,
+        "right": 64,
+        "bottom": 25,
+        "units": "source_texels",
+        "centerRegion": [
+          64,
+          25,
+          591,
+          88
+        ]
+      },
+      "padding": {
+        "left": 24,
+        "top": 18,
+        "right": 24,
+        "bottom": 18,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        152,
+        74
+      ],
+      "recommendedLogicalSize": [
+        655,
+        113
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          152,
+          74
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Preserve corner texels with nine-slice; native text separate; do not stretch entire bitmap.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "tooltip",
+      "key": "skin/tooltip",
+      "kind": "skin",
+      "file": "assets/ui/runtime-kit/skins/tooltip.png",
+      "nativeSize": [
+        454,
+        188
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 24,
+        "top": 18,
+        "right": 24,
+        "bottom": 18,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        295,
+        122
+      ],
+      "recommendedLogicalSize": [
+        454,
+        188
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          295,
+          122
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "toast",
+      "key": "skin/toast",
+      "kind": "skin",
+      "file": "assets/ui/runtime-kit/skins/toast.png",
+      "nativeSize": [
+        712,
+        135
+      ],
+      "resizeMode": "nine_slice",
+      "nineSliceInsets": {
+        "left": 64,
+        "top": 30,
+        "right": 64,
+        "bottom": 30,
+        "units": "source_texels",
+        "centerRegion": [
+          64,
+          30,
+          648,
+          105
+        ]
+      },
+      "padding": {
+        "left": 24,
+        "top": 18,
+        "right": 24,
+        "bottom": 18,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        152,
+        84
+      ],
+      "recommendedLogicalSize": [
+        712,
+        135
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          152,
+          84
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Preserve corner texels with nine-slice; native text separate; do not stretch entire bitmap.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "red-dot",
+      "key": "skin/red-dot",
+      "kind": "skin",
+      "file": "assets/ui/runtime-kit/skins/red-dot.png",
+      "nativeSize": [
+        76,
+        77
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        12,
+        12
+      ],
+      "recommendedLogicalSize": [
+        20,
+        20
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          56
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "item-normal",
+      "key": "skin/item-normal",
+      "kind": "skin",
+      "file": "assets/ui/runtime-kit/skins/item-normal.png",
+      "nativeSize": [
+        365,
+        364
+      ],
+      "resizeMode": "nine_slice",
+      "nineSliceInsets": {
+        "left": 64,
+        "top": 64,
+        "right": 64,
+        "bottom": 64,
+        "units": "source_texels",
+        "centerRegion": [
+          64,
+          64,
+          301,
+          300
+        ]
+      },
+      "padding": {
+        "left": 24,
+        "top": 18,
+        "right": 24,
+        "bottom": 18,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        152,
+        152
+      ],
+      "recommendedLogicalSize": [
+        365,
+        364
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          152,
+          152
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Preserve corner texels with nine-slice; native text separate; do not stretch entire bitmap.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "item-selected",
+      "key": "skin/item-selected",
+      "kind": "skin",
+      "file": "assets/ui/runtime-kit/skins/item-selected.png",
+      "nativeSize": [
+        367,
+        363
+      ],
+      "resizeMode": "nine_slice",
+      "nineSliceInsets": {
+        "left": 64,
+        "top": 64,
+        "right": 64,
+        "bottom": 64,
+        "units": "source_texels",
+        "centerRegion": [
+          64,
+          64,
+          303,
+          299
+        ]
+      },
+      "padding": {
+        "left": 24,
+        "top": 18,
+        "right": 24,
+        "bottom": 18,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        152,
+        152
+      ],
+      "recommendedLogicalSize": [
+        367,
+        363
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          152,
+          152
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Preserve corner texels with nine-slice; native text separate; do not stretch entire bitmap.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "item-locked",
+      "key": "skin/item-locked",
+      "kind": "skin",
+      "file": "assets/ui/runtime-kit/skins/item-locked.png",
+      "nativeSize": [
+        366,
+        362
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 24,
+        "top": 18,
+        "right": 24,
+        "bottom": 18,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        238,
+        235
+      ],
+      "recommendedLogicalSize": [
+        366,
+        362
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          238,
+          235
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "portrait-normal",
+      "key": "skin/portrait-normal",
+      "kind": "skin",
+      "file": "assets/ui/runtime-kit/skins/portrait-normal.png",
+      "nativeSize": [
+        387,
+        372
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 62,
+        "top": 60,
+        "right": 62,
+        "bottom": 60,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        72,
+        72
+      ],
+      "recommendedLogicalSize": [
+        144,
+        144
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          72
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "portrait-selected",
+      "key": "skin/portrait-selected",
+      "kind": "skin",
+      "file": "assets/ui/runtime-kit/skins/portrait-selected.png",
+      "nativeSize": [
+        420,
+        401
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 67,
+        "top": 64,
+        "right": 67,
+        "bottom": 64,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        72,
+        72
+      ],
+      "recommendedLogicalSize": [
+        144,
+        144
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          72
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "rarity-common",
+      "key": "skin/rarity-common",
+      "kind": "skin",
+      "file": "assets/ui/runtime-kit/skins/rarity-common.png",
+      "nativeSize": [
+        325,
+        336
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        32,
+        32
+      ],
+      "recommendedLogicalSize": [
+        48,
+        48
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          56
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "rarity-rare",
+      "key": "skin/rarity-rare",
+      "kind": "skin",
+      "file": "assets/ui/runtime-kit/skins/rarity-rare.png",
+      "nativeSize": [
+        326,
+        337
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        32,
+        32
+      ],
+      "recommendedLogicalSize": [
+        48,
+        48
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          56
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "rarity-legendary",
+      "key": "skin/rarity-legendary",
+      "kind": "skin",
+      "file": "assets/ui/runtime-kit/skins/rarity-legendary.png",
+      "nativeSize": [
+        371,
+        395
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        32,
+        32
+      ],
+      "recommendedLogicalSize": [
+        48,
+        48
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          56
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "primary-normal",
+      "key": "existing_control/primary-normal",
+      "kind": "existing_control",
+      "file": "assets/ui/controls/primary-normal.png",
+      "nativeSize": [
+        363,
+        182
+      ],
+      "resizeMode": "nine_slice",
+      "nineSliceInsets": {
+        "left": 65,
+        "top": 40,
+        "right": 65,
+        "bottom": 40,
+        "units": "source_texels",
+        "centerRegion": [
+          65,
+          40,
+          298,
+          142
+        ]
+      },
+      "padding": {
+        "left": 24,
+        "top": 18,
+        "right": 24,
+        "bottom": 18,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        154,
+        104
+      ],
+      "recommendedLogicalSize": [
+        363,
+        182
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          154,
+          104
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Preserve corner texels with nine-slice; native text separate; do not stretch entire bitmap.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "primary-highlight",
+      "key": "existing_control/primary-highlight",
+      "kind": "existing_control",
+      "file": "assets/ui/controls/primary-highlight.png",
+      "nativeSize": [
+        372,
+        181
+      ],
+      "resizeMode": "nine_slice",
+      "nineSliceInsets": {
+        "left": 67,
+        "top": 40,
+        "right": 67,
+        "bottom": 40,
+        "units": "source_texels",
+        "centerRegion": [
+          67,
+          40,
+          305,
+          141
+        ]
+      },
+      "padding": {
+        "left": 24,
+        "top": 18,
+        "right": 24,
+        "bottom": 18,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        158,
+        104
+      ],
+      "recommendedLogicalSize": [
+        372,
+        181
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          158,
+          104
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Preserve corner texels with nine-slice; native text separate; do not stretch entire bitmap.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "primary-pressed",
+      "key": "existing_control/primary-pressed",
+      "kind": "existing_control",
+      "file": "assets/ui/controls/primary-pressed.png",
+      "nativeSize": [
+        349,
+        182
+      ],
+      "resizeMode": "nine_slice",
+      "nineSliceInsets": {
+        "left": 63,
+        "top": 40,
+        "right": 63,
+        "bottom": 40,
+        "units": "source_texels",
+        "centerRegion": [
+          63,
+          40,
+          286,
+          142
+        ]
+      },
+      "padding": {
+        "left": 24,
+        "top": 18,
+        "right": 24,
+        "bottom": 18,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        150,
+        104
+      ],
+      "recommendedLogicalSize": [
+        349,
+        182
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          150,
+          104
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Preserve corner texels with nine-slice; native text separate; do not stretch entire bitmap.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "primary-disabled",
+      "key": "existing_control/primary-disabled",
+      "kind": "existing_control",
+      "file": "assets/ui/controls/primary-disabled.png",
+      "nativeSize": [
+        348,
+        167
+      ],
+      "resizeMode": "nine_slice",
+      "nineSliceInsets": {
+        "left": 63,
+        "top": 37,
+        "right": 63,
+        "bottom": 37,
+        "units": "source_texels",
+        "centerRegion": [
+          63,
+          37,
+          285,
+          130
+        ]
+      },
+      "padding": {
+        "left": 24,
+        "top": 18,
+        "right": 24,
+        "bottom": 18,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        150,
+        98
+      ],
+      "recommendedLogicalSize": [
+        348,
+        167
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          150,
+          98
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Preserve corner texels with nine-slice; native text separate; do not stretch entire bitmap.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "secondary-normal",
+      "key": "existing_control/secondary-normal",
+      "kind": "existing_control",
+      "file": "assets/ui/controls/secondary-normal.png",
+      "nativeSize": [
+        363,
+        141
+      ],
+      "resizeMode": "nine_slice",
+      "nineSliceInsets": {
+        "left": 65,
+        "top": 31,
+        "right": 65,
+        "bottom": 31,
+        "units": "source_texels",
+        "centerRegion": [
+          65,
+          31,
+          298,
+          110
+        ]
+      },
+      "padding": {
+        "left": 24,
+        "top": 18,
+        "right": 24,
+        "bottom": 18,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        154,
+        86
+      ],
+      "recommendedLogicalSize": [
+        363,
+        141
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          154,
+          86
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Preserve corner texels with nine-slice; native text separate; do not stretch entire bitmap.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "secondary-highlight",
+      "key": "existing_control/secondary-highlight",
+      "kind": "existing_control",
+      "file": "assets/ui/controls/secondary-highlight.png",
+      "nativeSize": [
+        372,
+        141
+      ],
+      "resizeMode": "nine_slice",
+      "nineSliceInsets": {
+        "left": 67,
+        "top": 31,
+        "right": 67,
+        "bottom": 31,
+        "units": "source_texels",
+        "centerRegion": [
+          67,
+          31,
+          305,
+          110
+        ]
+      },
+      "padding": {
+        "left": 24,
+        "top": 18,
+        "right": 24,
+        "bottom": 18,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        158,
+        86
+      ],
+      "recommendedLogicalSize": [
+        372,
+        141
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          158,
+          86
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Preserve corner texels with nine-slice; native text separate; do not stretch entire bitmap.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "secondary-pressed",
+      "key": "existing_control/secondary-pressed",
+      "kind": "existing_control",
+      "file": "assets/ui/controls/secondary-pressed.png",
+      "nativeSize": [
+        349,
+        141
+      ],
+      "resizeMode": "nine_slice",
+      "nineSliceInsets": {
+        "left": 63,
+        "top": 31,
+        "right": 63,
+        "bottom": 31,
+        "units": "source_texels",
+        "centerRegion": [
+          63,
+          31,
+          286,
+          110
+        ]
+      },
+      "padding": {
+        "left": 24,
+        "top": 18,
+        "right": 24,
+        "bottom": 18,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        150,
+        86
+      ],
+      "recommendedLogicalSize": [
+        349,
+        141
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          150,
+          86
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Preserve corner texels with nine-slice; native text separate; do not stretch entire bitmap.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "secondary-disabled",
+      "key": "existing_control/secondary-disabled",
+      "kind": "existing_control",
+      "file": "assets/ui/controls/secondary-disabled.png",
+      "nativeSize": [
+        335,
+        141
+      ],
+      "resizeMode": "nine_slice",
+      "nineSliceInsets": {
+        "left": 60,
+        "top": 31,
+        "right": 60,
+        "bottom": 31,
+        "units": "source_texels",
+        "centerRegion": [
+          60,
+          31,
+          275,
+          110
+        ]
+      },
+      "padding": {
+        "left": 24,
+        "top": 18,
+        "right": 24,
+        "bottom": 18,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        144,
+        86
+      ],
+      "recommendedLogicalSize": [
+        335,
+        141
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          144,
+          86
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Preserve corner texels with nine-slice; native text separate; do not stretch entire bitmap.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "title-primary",
+      "key": "existing_control/title-primary",
+      "kind": "existing_control",
+      "file": "assets/ui/controls/title-primary.png",
+      "nativeSize": [
+        453,
+        169
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 24,
+        "top": 18,
+        "right": 24,
+        "bottom": 18,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        294,
+        110
+      ],
+      "recommendedLogicalSize": [
+        453,
+        169
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          294,
+          110
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "title-secondary",
+      "key": "existing_control/title-secondary",
+      "kind": "existing_control",
+      "file": "assets/ui/controls/title-secondary.png",
+      "nativeSize": [
+        400,
+        169
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 24,
+        "top": 18,
+        "right": 24,
+        "bottom": 18,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        260,
+        110
+      ],
+      "recommendedLogicalSize": [
+        400,
+        169
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          260,
+          110
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "tab-selected",
+      "key": "existing_control/tab-selected",
+      "kind": "existing_control",
+      "file": "assets/ui/controls/tab-selected.png",
+      "nativeSize": [
+        263,
+        153
+      ],
+      "resizeMode": "nine_slice",
+      "nineSliceInsets": {
+        "left": 47,
+        "top": 34,
+        "right": 47,
+        "bottom": 34,
+        "units": "source_texels",
+        "centerRegion": [
+          47,
+          34,
+          216,
+          119
+        ]
+      },
+      "padding": {
+        "left": 24,
+        "top": 18,
+        "right": 24,
+        "bottom": 18,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        118,
+        92
+      ],
+      "recommendedLogicalSize": [
+        263,
+        153
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          118,
+          92
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Preserve corner texels with nine-slice; native text separate; do not stretch entire bitmap.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "tab-normal",
+      "key": "existing_control/tab-normal",
+      "kind": "existing_control",
+      "file": "assets/ui/controls/tab-normal.png",
+      "nativeSize": [
+        269,
+        169
+      ],
+      "resizeMode": "nine_slice",
+      "nineSliceInsets": {
+        "left": 48,
+        "top": 37,
+        "right": 48,
+        "bottom": 37,
+        "units": "source_texels",
+        "centerRegion": [
+          48,
+          37,
+          221,
+          132
+        ]
+      },
+      "padding": {
+        "left": 24,
+        "top": 18,
+        "right": 24,
+        "bottom": 18,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        120,
+        98
+      ],
+      "recommendedLogicalSize": [
+        269,
+        169
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          120,
+          98
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Preserve corner texels with nine-slice; native text separate; do not stretch entire bitmap.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "checkbox-off",
+      "key": "existing_control/checkbox-off",
+      "kind": "existing_control",
+      "file": "assets/ui/controls/checkbox-off.png",
+      "nativeSize": [
+        217,
+        141
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 24,
+        "top": 18,
+        "right": 24,
+        "bottom": 18,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        141,
+        92
+      ],
+      "recommendedLogicalSize": [
+        217,
+        141
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          141,
+          92
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "checkbox-on",
+      "key": "existing_control/checkbox-on",
+      "kind": "existing_control",
+      "file": "assets/ui/controls/checkbox-on.png",
+      "nativeSize": [
+        247,
+        157
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 24,
+        "top": 18,
+        "right": 24,
+        "bottom": 18,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        161,
+        102
+      ],
+      "recommendedLogicalSize": [
+        247,
+        157
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          161,
+          102
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "toggle-on",
+      "key": "existing_control/toggle-on",
+      "kind": "existing_control",
+      "file": "assets/ui/controls/toggle-on.png",
+      "nativeSize": [
+        265,
+        157
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 24,
+        "top": 18,
+        "right": 24,
+        "bottom": 18,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        172,
+        102
+      ],
+      "recommendedLogicalSize": [
+        265,
+        157
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          172,
+          102
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "toggle-off",
+      "key": "existing_control/toggle-off",
+      "kind": "existing_control",
+      "file": "assets/ui/controls/toggle-off.png",
+      "nativeSize": [
+        345,
+        157
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 24,
+        "top": 18,
+        "right": 24,
+        "bottom": 18,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        224,
+        102
+      ],
+      "recommendedLogicalSize": [
+        345,
+        157
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          224,
+          102
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "input-normal",
+      "key": "existing_control/input-normal",
+      "kind": "existing_control",
+      "file": "assets/ui/controls/input-normal.png",
+      "nativeSize": [
+        370,
+        133
+      ],
+      "resizeMode": "nine_slice",
+      "nineSliceInsets": {
+        "left": 64,
+        "top": 29,
+        "right": 64,
+        "bottom": 29,
+        "units": "source_texels",
+        "centerRegion": [
+          64,
+          29,
+          306,
+          104
+        ]
+      },
+      "padding": {
+        "left": 24,
+        "top": 18,
+        "right": 24,
+        "bottom": 18,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        152,
+        82
+      ],
+      "recommendedLogicalSize": [
+        370,
+        133
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          152,
+          82
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Preserve corner texels with nine-slice; native text separate; do not stretch entire bitmap.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "input-focus",
+      "key": "existing_control/input-focus",
+      "kind": "existing_control",
+      "file": "assets/ui/controls/input-focus.png",
+      "nativeSize": [
+        364,
+        133
+      ],
+      "resizeMode": "nine_slice",
+      "nineSliceInsets": {
+        "left": 64,
+        "top": 29,
+        "right": 64,
+        "bottom": 29,
+        "units": "source_texels",
+        "centerRegion": [
+          64,
+          29,
+          300,
+          104
+        ]
+      },
+      "padding": {
+        "left": 24,
+        "top": 18,
+        "right": 24,
+        "bottom": 18,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        152,
+        82
+      ],
+      "recommendedLogicalSize": [
+        364,
+        133
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          152,
+          82
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Preserve corner texels with nine-slice; native text separate; do not stretch entire bitmap.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "progress",
+      "key": "existing_control/progress",
+      "kind": "existing_control",
+      "file": "assets/ui/controls/progress.png",
+      "nativeSize": [
+        343,
+        133
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 24,
+        "top": 18,
+        "right": 24,
+        "bottom": 18,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        223,
+        86
+      ],
+      "recommendedLogicalSize": [
+        343,
+        133
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          223,
+          86
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "slider",
+      "key": "existing_control/slider",
+      "kind": "existing_control",
+      "file": "assets/ui/controls/slider.png",
+      "nativeSize": [
+        335,
+        133
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 24,
+        "top": 18,
+        "right": 24,
+        "bottom": 18,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        218,
+        86
+      ],
+      "recommendedLogicalSize": [
+        335,
+        133
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          218,
+          86
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "panel",
+      "key": "existing_control/panel",
+      "kind": "existing_control",
+      "file": "assets/ui/controls/panel.png",
+      "nativeSize": [
+        594,
+        296
+      ],
+      "resizeMode": "nine_slice",
+      "nineSliceInsets": {
+        "left": 64,
+        "top": 64,
+        "right": 64,
+        "bottom": 64,
+        "units": "source_texels",
+        "centerRegion": [
+          64,
+          64,
+          530,
+          232
+        ]
+      },
+      "padding": {
+        "left": 24,
+        "top": 18,
+        "right": 24,
+        "bottom": 18,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        152,
+        152
+      ],
+      "recommendedLogicalSize": [
+        594,
+        296
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          152,
+          152
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Preserve corner texels with nine-slice; native text separate; do not stretch entire bitmap.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "close",
+      "key": "existing_control/close",
+      "kind": "existing_control",
+      "file": "assets/ui/controls/close.png",
+      "nativeSize": [
+        284,
+        295
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 24,
+        "top": 18,
+        "right": 24,
+        "bottom": 18,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        185,
+        192
+      ],
+      "recommendedLogicalSize": [
+        284,
+        295
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          185,
+          192
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "scrollbar",
+      "key": "existing_control/scrollbar",
+      "kind": "existing_control",
+      "file": "assets/ui/controls/scrollbar.png",
+      "nativeSize": [
+        135,
+        296
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 24,
+        "top": 18,
+        "right": 24,
+        "bottom": 18,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        88,
+        192
+      ],
+      "recommendedLogicalSize": [
+        135,
+        296
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          192
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    },
+    {
+      "id": "avatar-frame",
+      "key": "existing_control/avatar-frame",
+      "kind": "existing_control",
+      "file": "assets/ui/controls/avatar-frame.png",
+      "nativeSize": [
+        347,
+        296
+      ],
+      "resizeMode": "uniform_contain",
+      "nineSliceInsets": null,
+      "padding": {
+        "left": 56,
+        "top": 47,
+        "right": 56,
+        "bottom": 47,
+        "units": "reference_canvas_logical_px"
+      },
+      "minimumLogicalSize": [
+        72,
+        72
+      ],
+      "recommendedLogicalSize": [
+        144,
+        144
+      ],
+      "hitbox": {
+        "mode": "rect",
+        "minimumLogicalSize": [
+          88,
+          72
+        ],
+        "alphaHitTest": false,
+        "note": "pointer/touch hitbox is logical UI geometry; do not shrink to decorative alpha outline"
+      },
+      "constraints": "Keep aspect; no nine-slice for symbols/medallions/avatars/tassels/tooltips. For arbitrary aspect body panels use existing controls/panel.png and separate title/ornaments.",
+      "qualityLimit": "Native source dimensions recorded; scaling in engine is rendering only, never a claim of new detail."
+    }
+  ]
+}

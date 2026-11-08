@@ -1,0 +1,13 @@
+{
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "sourceFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a1772b-4166-7350-8473-50c63538bc86\\exec-62c16b60-33b6-45b6-81a4-f45fc64766a3.png",
+  "sourceSha256": "522b9b9a3f91f98793b1dae1a013a815b8e8f54a4122d14aec9a4a0a9eaf0d2e",
+  "record": "31-original-inflight-generation.json",
+  "originalToolReturnAvailable": false,
+  "recovery": "本工原生成目录中30页之后唯一新增PNG；实际像素对应原已提交31页提示词。",
+  "actualModel": null,
+  "actualQuality": null,
+  "selection": "unselected; coordinator decides",
+  "sourceNotCopied": true
+}

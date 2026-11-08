@@ -1,0 +1,5001 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-30T05:16:10.964333+00:00",
+  "source": "runtime/screens.json",
+  "sourceSha256": "01b3c4ff532c25df683d8d77b968d3006508fd2f2f27d885ee8e8090d3beb595",
+  "scope": "223 native art-state layouts with exact source copy and disabled reasons; local visual feedback only",
+  "states": [
+    {
+      "id": "01-launch-login.state.0",
+      "screen": "01-launch-login",
+      "index": 0,
+      "name": "首次进入",
+      "title": "首次进入",
+      "body": "斗地主\n登录游戏\n切换账号\n我已阅读并同意《用户协议》和《隐私政策》",
+      "layout": "login",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "进入游戏",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "展示启动背景与账号登录入口；首入协议默认不勾选。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "01-launch-login.state.1",
+      "screen": "01-launch-login",
+      "index": 1,
+      "name": "协议未勾选",
+      "title": "协议未勾选",
+      "body": "请先阅读并同意用户协议与隐私政策",
+      "layout": "login",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "进入游戏",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [
+        "未勾选协议时不得进入登录请求。"
+      ],
+      "interactionSpec": "点击协议链接可阅读；主动勾选后可发起登录；未勾选点击登录则拦截。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "01-launch-login.state.2",
+      "screen": "01-launch-login",
+      "index": 2,
+      "name": "登录中",
+      "title": "登录中",
+      "body": "登录中…",
+      "layout": "loading",
+      "scene": "lobby",
+      "icon": "refresh",
+      "actions": [
+        {
+          "label": "取消",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [
+        "登录请求处理中，登录按钮不可重复提交。"
+      ],
+      "interactionSpec": "展示加载反馈，等待认证返回，防止重复提交。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "01-launch-login.state.3",
+      "screen": "01-launch-login",
+      "index": 3,
+      "name": "登录失败",
+      "title": "登录失败",
+      "body": "登录失败，请重试\n重试\n切换账号",
+      "layout": "error",
+      "scene": "lobby",
+      "icon": "network",
+      "actions": [
+        {
+          "label": "重试",
+          "disabled": false
+        },
+        {
+          "label": "返回",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "保留协议状态与账号信息，允许重试或切换账号。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "02-lobby.state.0",
+      "screen": "02-lobby",
+      "index": 0,
+      "name": "正常",
+      "title": "正常",
+      "body": "斗地主\n道友\n经典\n好友房\n排位\n赛事\n残局\n活动\n商城\n任务\n邮件\n设置\n快速开始",
+      "layout": "inline",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "快速开始",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "展示scope规定的全部功能入口、头像昵称和货币；入口由各页ID承接。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "02-lobby.state.1",
+      "screen": "02-lobby",
+      "index": 1,
+      "name": "红点",
+      "title": "红点",
+      "body": "新消息",
+      "layout": "badge",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "关闭",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "任务、邮件或活动有更新时显示红点；红点本身不替代入口文字。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "02-lobby.state.2",
+      "screen": "02-lobby",
+      "index": 2,
+      "name": "资源加载",
+      "title": "资源加载",
+      "body": "资源加载中…\n重试",
+      "layout": "loading",
+      "scene": "lobby",
+      "icon": "refresh",
+      "actions": [
+        {
+          "label": "取消",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [
+        "目标页面资源尚未准备好。"
+      ],
+      "interactionSpec": "显示资源进度与失败重试；仅依赖未完成资源的入口禁用。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "03-classic-select.state.0",
+      "screen": "03-classic-select",
+      "index": 0,
+      "name": "选中",
+      "title": "选中",
+      "body": "经典\n不洗牌\n癞子\n天地癞子\n已选中\n玩法规则\n选择场次",
+      "layout": "selection",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "选择场次",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "选中经典卡片；切换卡片同步更新说明与下一步上下文。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "03-classic-select.state.1",
+      "screen": "03-classic-select",
+      "index": 1,
+      "name": "锁定",
+      "title": "锁定",
+      "body": "暂未开放\n查看条件",
+      "layout": "locked",
+      "scene": "lobby",
+      "icon": "lock",
+      "actions": [
+        {
+          "label": "返回",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [
+        "该玩法尚未开放或未满足条件；具体条件待产品确认。"
+      ],
+      "interactionSpec": "锁定状态使用卡片弱化、共享禁用按钮和“暂未开放”原生文本，不要求尚未存在的锁具图标；点击条件入口显示具体原因。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "03-classic-select.state.2",
+      "screen": "03-classic-select",
+      "index": 2,
+      "name": "规则提示",
+      "title": "规则提示",
+      "body": "玩法规则\n知道了",
+      "layout": "rules",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "关闭",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "打开当前玩法说明，关闭后保留原先选中项。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "04-stakes-select.state.0",
+      "screen": "04-stakes-select",
+      "index": 0,
+      "name": "可进入",
+      "title": "可进入",
+      "body": "新手场\n初级场\n中级场\n高级场\n底分\n准入\n封顶\n快速开始",
+      "layout": "inline",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "开始匹配",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "四类场次展示进入条件；当前选中初级场，可进入并开始匹配。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "04-stakes-select.state.1",
+      "screen": "04-stakes-select",
+      "index": 1,
+      "name": "资源不足",
+      "title": "资源不足",
+      "body": "高级场\n铜钱不足",
+      "layout": "resource",
+      "scene": "lobby",
+      "icon": "coin",
+      "actions": [
+        {
+          "label": "开始匹配",
+          "disabled": true
+        }
+      ],
+      "disabledReasons": [
+        "当前示意铜钱12,800低于高级场入场门槛20,000。"
+      ],
+      "interactionSpec": "本画面的资源不足状态为高级场卡片弱化、锁图标及禁用按钮；点击时不进入匹配。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "04-stakes-select.state.2",
+      "screen": "04-stakes-select",
+      "index": 2,
+      "name": "推荐",
+      "title": "推荐",
+      "body": "推荐",
+      "layout": "selection",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "开始匹配",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "在建议场次标推荐标签；推荐不替代选中态，可自由选择其他可进入场次。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "05-matchmaking.state.0",
+      "screen": "05-matchmaking",
+      "index": 0,
+      "name": "匹配中",
+      "title": "匹配中",
+      "body": "正在匹配\n正在寻找牌友…\n等待时间\n经典玩法 · 初级场\n取消匹配",
+      "layout": "loading",
+      "scene": "lobby",
+      "icon": "refresh",
+      "actions": [
+        {
+          "label": "取消",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "显示匹配进度、耗时和规则摘要；取消入口保持可识别。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "05-matchmaking.state.1",
+      "screen": "05-matchmaking",
+      "index": 1,
+      "name": "取消",
+      "title": "取消",
+      "body": "已取消匹配\n返回",
+      "layout": "inline",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "取消匹配",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "取消成功后返回来源页面；从快速开始进入时回大厅，从场次选择进入时回场次页。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "05-matchmaking.state.2",
+      "screen": "05-matchmaking",
+      "index": 2,
+      "name": "超时重试",
+      "title": "超时重试",
+      "body": "匹配超时，请重试\n重新匹配\n返回",
+      "layout": "error",
+      "scene": "lobby",
+      "icon": "network",
+      "actions": [
+        {
+          "label": "重试",
+          "disabled": false
+        },
+        {
+          "label": "返回",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "超时后停止增长式等待反馈，允许重试或退出。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "06-friend-room-entry.state.0",
+      "screen": "06-friend-room-entry",
+      "index": 0,
+      "name": "正常",
+      "title": "正常",
+      "body": "好友同玩\n创建房间\n加入房间\n最近房间\n返回大厅",
+      "layout": "inline",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "创建房间",
+          "disabled": false
+        },
+        {
+          "label": "加入房间",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "创建、加入入口并列；最近房间展示可识别摘要，不保证历史房间仍可加入。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "06-friend-room-entry.state.1",
+      "screen": "06-friend-room-entry",
+      "index": 1,
+      "name": "无最近房间",
+      "title": "无最近房间",
+      "body": "暂无最近房间\n创建房间\n加入房间",
+      "layout": "empty",
+      "scene": "lobby",
+      "icon": "inventory",
+      "actions": [
+        {
+          "label": "返回",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "最近房间为空时显示空态，创建/加入入口继续可用。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "07-create-room.state.0",
+      "screen": "07-create-room",
+      "index": 0,
+      "name": "选中",
+      "title": "选中",
+      "body": "创建房间\n经典\n癞子\n局数\n叫地主方式\n加倍\n封顶",
+      "layout": "selection",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "创建房间",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "显示默认规则及单选控件；更改选项更新摘要，不自动创建。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "07-create-room.state.1",
+      "screen": "07-create-room",
+      "index": 1,
+      "name": "可创建",
+      "title": "可创建",
+      "body": "创建房间\n返回",
+      "layout": "inline",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "创建房间",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "合法规则组合下可提交创建；校验通过后进入等待房间。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "07-create-room.state.2",
+      "screen": "07-create-room",
+      "index": 2,
+      "name": "创建失败",
+      "title": "创建失败",
+      "body": "创建失败，请重试\n重试\n返回",
+      "layout": "error",
+      "scene": "lobby",
+      "icon": "network",
+      "actions": [
+        {
+          "label": "重试",
+          "disabled": false
+        },
+        {
+          "label": "返回",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "保留已选择规则供重试；显示可理解的失败反馈。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "08-join-room.state.0",
+      "screen": "08-join-room",
+      "index": 0,
+      "name": "输入中",
+      "title": "输入中",
+      "body": "加入房间\n请输入6位房号\n1208（后2格空白）\n清空\n删除\n输入完整房号后加入",
+      "layout": "form",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "取消",
+          "disabled": false
+        },
+        {
+          "label": "保存",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [
+        "只输入4位，未满6位；画面实际提示“输入完整房号后加入”。"
+      ],
+      "interactionSpec": "六格中前四格为1、2、0、8，最后两格留空；数字键盘输入与删除同步刷新；完整示意房号为120816。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "08-join-room.state.1",
+      "screen": "08-join-room",
+      "index": 1,
+      "name": "房号错误",
+      "title": "房号错误",
+      "body": "房号错误，请重新输入\n重新输入",
+      "layout": "error",
+      "scene": "lobby",
+      "icon": "network",
+      "actions": [
+        {
+          "label": "重试",
+          "disabled": false
+        },
+        {
+          "label": "返回",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "保留或选中原房号供修改；不误报房间已加入。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "08-join-room.state.2",
+      "screen": "08-join-room",
+      "index": 2,
+      "name": "已满",
+      "title": "已满",
+      "body": "房间已满\n重新输入\n返回",
+      "layout": "error",
+      "scene": "lobby",
+      "icon": "network",
+      "actions": [
+        {
+          "label": "重试",
+          "disabled": false
+        },
+        {
+          "label": "返回",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [
+        "目标房间没有空位。"
+      ],
+      "interactionSpec": "告知该房间无空位，允许更换房号或返回。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "08-join-room.state.3",
+      "screen": "08-join-room",
+      "index": 3,
+      "name": "已结束",
+      "title": "已结束",
+      "body": "房间已结束\n重新输入\n返回",
+      "layout": "error",
+      "scene": "lobby",
+      "icon": "network",
+      "actions": [
+        {
+          "label": "重试",
+          "disabled": false
+        },
+        {
+          "label": "返回",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [
+        "目标房间已经结束。"
+      ],
+      "interactionSpec": "告知房间不可加入，允许更换房号。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "09-room-waiting.state.0",
+      "screen": "09-room-waiting",
+      "index": 0,
+      "name": "空座",
+      "title": "空座",
+      "body": "等待牌友\n邀请好友\n房间号 120816",
+      "layout": "seats",
+      "scene": "day",
+      "icon": "friends",
+      "actions": [
+        {
+          "label": "邀请好友",
+          "disabled": false
+        },
+        {
+          "label": "准备",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [
+        "未满3人时房主开始按钮禁用。"
+      ],
+      "interactionSpec": "三座席中保留一空位，以邀请入口承接好友页。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "09-room-waiting.state.1",
+      "screen": "09-room-waiting",
+      "index": 1,
+      "name": "未准备",
+      "title": "未准备",
+      "body": "未准备\n准备",
+      "layout": "seats",
+      "scene": "day",
+      "icon": "friends",
+      "actions": [
+        {
+          "label": "邀请好友",
+          "disabled": false
+        },
+        {
+          "label": "准备",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [
+        "尚有玩家未准备时不能开始。"
+      ],
+      "interactionSpec": "已入座但未准备的玩家显示未准备，本人可点击准备。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "09-room-waiting.state.2",
+      "screen": "09-room-waiting",
+      "index": 2,
+      "name": "已准备",
+      "title": "已准备",
+      "body": "已准备\n取消准备",
+      "layout": "seats",
+      "scene": "day",
+      "icon": "friends",
+      "actions": [
+        {
+          "label": "邀请好友",
+          "disabled": false
+        },
+        {
+          "label": "准备",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "已准备玩家显示状态；是否允许取消准备由房间规则确定。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "09-room-waiting.state.3",
+      "screen": "09-room-waiting",
+      "index": 3,
+      "name": "房主",
+      "title": "房主",
+      "body": "房主\n开始游戏\n离开房间",
+      "layout": "seats",
+      "scene": "day",
+      "icon": "friends",
+      "actions": [
+        {
+          "label": "邀请好友",
+          "disabled": false
+        },
+        {
+          "label": "准备",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [
+        "人数不足或尚有人未准备时开始按钮禁用；非房主没有开始权限。"
+      ],
+      "interactionSpec": "房主身份与对局地主身份区分；只有房主可操作开始，且需满足人数和准备条件。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "10-invite-friends.state.0",
+      "screen": "10-invite-friends",
+      "index": 0,
+      "name": "可邀请",
+      "title": "可邀请",
+      "body": "邀请好友\n搜索好友\n在线\n离线\n邀请\n分享房间",
+      "layout": "list",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "邀请",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [
+        "离线行邀请入口弱化/禁用，离线是否可推送邀请待业务确认。"
+      ],
+      "interactionSpec": "展示好友昵称、头像及在线状态；可邀请好友的按钮明确；搜索可筛选列表。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "10-invite-friends.state.1",
+      "screen": "10-invite-friends",
+      "index": 1,
+      "name": "已邀请",
+      "title": "已邀请",
+      "body": "已邀请\n邀请已发送",
+      "layout": "list",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "邀请",
+          "disabled": true
+        }
+      ],
+      "disabledReasons": [
+        "邀请已发送，短时防止重复提交。"
+      ],
+      "interactionSpec": "同一好友收到邀请反馈后行内按钮切换已邀请；重邀冷却规则待确认。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "10-invite-friends.state.2",
+      "screen": "10-invite-friends",
+      "index": 2,
+      "name": "无在线好友",
+      "title": "无在线好友",
+      "body": "暂无在线好友\n分享房间",
+      "layout": "empty",
+      "scene": "lobby",
+      "icon": "inventory",
+      "actions": [
+        {
+          "label": "返回",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "保留搜索和分享入口，离线好友可继续显示；不能以空好友列表替代无在线好友的语义。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "11-deal-bid.state.0",
+      "screen": "11-deal-bid",
+      "index": 0,
+      "name": "未叫",
+      "title": "未叫",
+      "body": "未叫",
+      "layout": "table",
+      "scene": "day",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "不叫",
+          "disabled": false
+        },
+        {
+          "label": "叫地主",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "显示叫地主与不叫两种选择，只在轮到自己时可用。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "11-deal-bid.state.1",
+      "screen": "11-deal-bid",
+      "index": 1,
+      "name": "叫地主",
+      "title": "叫地主",
+      "body": "叫地主",
+      "layout": "table",
+      "scene": "day",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "不叫",
+          "disabled": false
+        },
+        {
+          "label": "叫地主",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "点击后禁用重复提交，成功回执显示叫地主气泡并转入抢地主。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "11-deal-bid.state.2",
+      "screen": "11-deal-bid",
+      "index": 2,
+      "name": "不叫",
+      "title": "不叫",
+      "body": "不叫",
+      "layout": "table",
+      "scene": "day",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "不叫",
+          "disabled": false
+        },
+        {
+          "label": "叫地主",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "显示不叫气泡，等待下一位。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "11-deal-bid.state.3",
+      "screen": "11-deal-bid",
+      "index": 3,
+      "name": "无叫重发",
+      "title": "无叫重发",
+      "body": "无叫重发",
+      "layout": "table",
+      "scene": "day",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "不叫",
+          "disabled": false
+        },
+        {
+          "label": "叫地主",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "显示无人叫地主提示和重发加载状态，倒计时暂时隐藏。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "12-rob-landlord.state.0",
+      "screen": "12-rob-landlord",
+      "index": 0,
+      "name": "待抢",
+      "title": "待抢",
+      "body": "待抢",
+      "layout": "table",
+      "scene": "day",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "不抢",
+          "disabled": false
+        },
+        {
+          "label": "抢地主",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "保持三张未揭底牌，突出抢地主与不抢。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "12-rob-landlord.state.1",
+      "screen": "12-rob-landlord",
+      "index": 1,
+      "name": "抢地主",
+      "title": "抢地主",
+      "body": "抢地主",
+      "layout": "table",
+      "scene": "day",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "不抢",
+          "disabled": false
+        },
+        {
+          "label": "抢地主",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "更新抢地主气泡与倍数来源，回执前按钮禁用。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "12-rob-landlord.state.2",
+      "screen": "12-rob-landlord",
+      "index": 2,
+      "name": "不抢",
+      "title": "不抢",
+      "body": "不抢",
+      "layout": "table",
+      "scene": "day",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "不抢",
+          "disabled": false
+        },
+        {
+          "label": "抢地主",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "记录不抢后继续顺序，不提前确定身份。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "12-rob-landlord.state.3",
+      "screen": "12-rob-landlord",
+      "index": 3,
+      "name": "已确定",
+      "title": "已确定",
+      "body": "已确定",
+      "layout": "table",
+      "scene": "day",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "不抢",
+          "disabled": false
+        },
+        {
+          "label": "抢地主",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "转入13加倍页，展示底牌与三席身份。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "13-double.state.0",
+      "screen": "13-double",
+      "index": 0,
+      "name": "待选择",
+      "title": "待选择",
+      "body": "待选择",
+      "layout": "table",
+      "scene": "day",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "不加倍",
+          "disabled": false
+        },
+        {
+          "label": "加倍",
+          "disabled": false
+        },
+        {
+          "label": "明牌",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "显示加倍与不加倍，身份与底牌已确定。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "13-double.state.1",
+      "screen": "13-double",
+      "index": 1,
+      "name": "加倍",
+      "title": "加倍",
+      "body": "加倍",
+      "layout": "table",
+      "scene": "day",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "不加倍",
+          "disabled": false
+        },
+        {
+          "label": "加倍",
+          "disabled": false
+        },
+        {
+          "label": "明牌",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "选择成功后按规则更新倍数，显示已加倍。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "13-double.state.2",
+      "screen": "13-double",
+      "index": 2,
+      "name": "不加倍",
+      "title": "不加倍",
+      "body": "不加倍",
+      "layout": "table",
+      "scene": "day",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "不加倍",
+          "disabled": false
+        },
+        {
+          "label": "加倍",
+          "disabled": false
+        },
+        {
+          "label": "明牌",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "显示不加倍并停止个人选择倒计时。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "13-double.state.3",
+      "screen": "13-double",
+      "index": 3,
+      "name": "明牌",
+      "title": "明牌",
+      "body": "明牌",
+      "layout": "table",
+      "scene": "day",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "不加倍",
+          "disabled": false
+        },
+        {
+          "label": "加倍",
+          "disabled": false
+        },
+        {
+          "label": "明牌",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "明牌切换牌背为规范牌面，显示明牌徽记；限制由对应模式规则控制。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "14-play-turn.state.0",
+      "screen": "14-play-turn",
+      "index": 0,
+      "name": "未选",
+      "title": "未选",
+      "body": "未选",
+      "layout": "table",
+      "scene": "day",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "提示",
+          "disabled": false
+        },
+        {
+          "label": "出牌",
+          "disabled": true
+        }
+      ],
+      "disabledReasons": [
+        "未选"
+      ],
+      "interactionSpec": "手牌不抬起，出牌按钮禁用并显示请选择手牌。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "14-play-turn.state.1",
+      "screen": "14-play-turn",
+      "index": 1,
+      "name": "已选",
+      "title": "已选",
+      "body": "已选",
+      "layout": "table",
+      "scene": "day",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "提示",
+          "disabled": false
+        },
+        {
+          "label": "出牌",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "合法选牌抬高并描玉绿边，出牌主按钮可用。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "14-play-turn.state.2",
+      "screen": "14-play-turn",
+      "index": 2,
+      "name": "不合法牌型",
+      "title": "不合法牌型",
+      "body": "不合法牌型",
+      "layout": "table",
+      "scene": "day",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "提示",
+          "disabled": false
+        },
+        {
+          "label": "出牌",
+          "disabled": true
+        }
+      ],
+      "disabledReasons": [
+        "不合法牌型"
+      ],
+      "interactionSpec": "保留选牌，禁用出牌，短提示牌型不符合规则。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "14-play-turn.state.3",
+      "screen": "14-play-turn",
+      "index": 3,
+      "name": "剩余一张",
+      "title": "剩余一张",
+      "body": "剩余一张",
+      "layout": "table",
+      "scene": "day",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "提示",
+          "disabled": false
+        },
+        {
+          "label": "出牌",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "剩余数字为1并显示一张牌提醒；不改变出牌权限。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "15-follow-pass.state.0",
+      "screen": "15-follow-pass",
+      "index": 0,
+      "name": "可跟",
+      "title": "可跟",
+      "body": "可跟",
+      "layout": "table",
+      "scene": "day",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "不出",
+          "disabled": false
+        },
+        {
+          "label": "提示",
+          "disabled": false
+        },
+        {
+          "label": "出牌",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "显示上家牌与选中可压制牌型，出牌可用。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "15-follow-pass.state.1",
+      "screen": "15-follow-pass",
+      "index": 1,
+      "name": "要不起",
+      "title": "要不起",
+      "body": "要不起",
+      "layout": "table",
+      "scene": "day",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "不出",
+          "disabled": false
+        },
+        {
+          "label": "提示",
+          "disabled": false
+        },
+        {
+          "label": "出牌",
+          "disabled": true
+        }
+      ],
+      "disabledReasons": [
+        "要不起"
+      ],
+      "interactionSpec": "无法压制时禁用出牌，保留不出并显示要不起。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "15-follow-pass.state.2",
+      "screen": "15-follow-pass",
+      "index": 2,
+      "name": "不出",
+      "title": "不出",
+      "body": "不出",
+      "layout": "table",
+      "scene": "day",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "不出",
+          "disabled": false
+        },
+        {
+          "label": "提示",
+          "disabled": false
+        },
+        {
+          "label": "出牌",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "出牌区显示不出气泡，保留手牌。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "15-follow-pass.state.3",
+      "screen": "15-follow-pass",
+      "index": 3,
+      "name": "轮次结束",
+      "title": "轮次结束",
+      "body": "轮次结束",
+      "layout": "table",
+      "scene": "day",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "不出",
+          "disabled": false
+        },
+        {
+          "label": "提示",
+          "disabled": false
+        },
+        {
+          "label": "出牌",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "两家不出后清理本轮出牌区，转回主动出牌页。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "16-trustee.state.0",
+      "screen": "16-trustee",
+      "index": 0,
+      "name": "托管中",
+      "title": "托管中",
+      "body": "托管中",
+      "layout": "table",
+      "scene": "day",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "取消托管",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "托管状态罩层不遮关键手牌信息，取消托管始终可用。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "16-trustee.state.1",
+      "screen": "16-trustee",
+      "index": 1,
+      "name": "取消",
+      "title": "取消",
+      "body": "取消",
+      "layout": "table",
+      "scene": "day",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "取消托管",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "回执成功后移除托管罩层并恢复当前轮次可用操作。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "16-trustee.state.2",
+      "screen": "16-trustee",
+      "index": 2,
+      "name": "超时托管",
+      "title": "超时托管",
+      "body": "超时托管",
+      "layout": "table",
+      "scene": "day",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "取消托管",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "自动托管提示明确原因为操作超时，复用托管罩层。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "17-reconnect.state.0",
+      "screen": "17-reconnect",
+      "index": 0,
+      "name": "连接中",
+      "title": "连接中",
+      "body": "连接中",
+      "layout": "loading",
+      "scene": "day",
+      "icon": "refresh",
+      "actions": [
+        {
+          "label": "取消",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "显示连接中断与正在重新连接，保留牌局背景。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "17-reconnect.state.1",
+      "screen": "17-reconnect",
+      "index": 1,
+      "name": "失败",
+      "title": "失败",
+      "body": "失败",
+      "layout": "error",
+      "scene": "day",
+      "icon": "network",
+      "actions": [
+        {
+          "label": "重试",
+          "disabled": false
+        },
+        {
+          "label": "返回",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "网络失败弹窗提供重试和返回，保留座位状态由回执决定。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "17-reconnect.state.2",
+      "screen": "17-reconnect",
+      "index": 2,
+      "name": "恢复",
+      "title": "恢复",
+      "body": "恢复",
+      "layout": "inline",
+      "scene": "day",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "返回大厅",
+          "disabled": false
+        },
+        {
+          "label": "重连",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "关闭弹窗并恢复服务器最新牌局，不能重新出旧牌。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "17-reconnect.state.3",
+      "screen": "17-reconnect",
+      "index": 3,
+      "name": "座位保留",
+      "title": "座位保留",
+      "body": "座位保留",
+      "layout": "seats",
+      "scene": "day",
+      "icon": "friends",
+      "actions": [
+        {
+          "label": "邀请好友",
+          "disabled": false
+        },
+        {
+          "label": "准备",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "清楚显示你的座位已保留提示。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "18-round-win.state.0",
+      "screen": "18-round-win",
+      "index": 0,
+      "name": "地主胜",
+      "title": "地主胜",
+      "body": "地主胜",
+      "layout": "result",
+      "scene": "lobby",
+      "icon": "trophy",
+      "actions": [
+        {
+          "label": "返回大厅",
+          "disabled": false
+        },
+        {
+          "label": "再来一局",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "展示地主胜利和三人零和计分示例。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "18-round-win.state.1",
+      "screen": "18-round-win",
+      "index": 1,
+      "name": "农民胜",
+      "title": "农民胜",
+      "body": "农民胜",
+      "layout": "result",
+      "scene": "lobby",
+      "icon": "trophy",
+      "actions": [
+        {
+          "label": "返回大厅",
+          "disabled": false
+        },
+        {
+          "label": "再来一局",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "复用同一结算皮肤，替换胜方身份与三人分数，两个农民共同胜利。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "18-round-win.state.2",
+      "screen": "18-round-win",
+      "index": 2,
+      "name": "春天",
+      "title": "春天",
+      "body": "春天",
+      "layout": "result",
+      "scene": "lobby",
+      "icon": "trophy",
+      "actions": [
+        {
+          "label": "返回大厅",
+          "disabled": false
+        },
+        {
+          "label": "再来一局",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "用春天徽章表示特殊倍数来源，详情解释另见倍数面板。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "18-round-win.state.3",
+      "screen": "18-round-win",
+      "index": 3,
+      "name": "反春天",
+      "title": "反春天",
+      "body": "反春天",
+      "layout": "result",
+      "scene": "lobby",
+      "icon": "trophy",
+      "actions": [
+        {
+          "label": "返回大厅",
+          "disabled": false
+        },
+        {
+          "label": "再来一局",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "同源特效牌替换为反春天；分数及倍数跟随真实规则。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "19-round-loss.state.0",
+      "screen": "19-round-loss",
+      "index": 0,
+      "name": "地主负",
+      "title": "地主负",
+      "body": "地主负",
+      "layout": "result",
+      "scene": "lobby",
+      "icon": "trophy",
+      "actions": [
+        {
+          "label": "返回大厅",
+          "disabled": false
+        },
+        {
+          "label": "再来一局",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "结算皮肤复用，自己身份改地主，两位农民为胜方。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "19-round-loss.state.1",
+      "screen": "19-round-loss",
+      "index": 1,
+      "name": "农民负",
+      "title": "农民负",
+      "body": "农民负",
+      "layout": "result",
+      "scene": "lobby",
+      "icon": "trophy",
+      "actions": [
+        {
+          "label": "返回大厅",
+          "disabled": false
+        },
+        {
+          "label": "再来一局",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "当前图示农民失败和三人得分。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "19-round-loss.state.2",
+      "screen": "19-round-loss",
+      "index": 2,
+      "name": "资源不足",
+      "title": "资源不足",
+      "body": "资源不足",
+      "layout": "resource",
+      "scene": "lobby",
+      "icon": "coin",
+      "actions": [
+        {
+          "label": "返回大厅",
+          "disabled": false
+        },
+        {
+          "label": "再来一局",
+          "disabled": true
+        }
+      ],
+      "disabledReasons": [
+        "资源不足"
+      ],
+      "interactionSpec": "继续游戏不可用并说明资源不足，提供返回与补充入口。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "20-room-summary.state.0",
+      "screen": "20-room-summary",
+      "index": 0,
+      "name": "未满局",
+      "title": "未满局",
+      "body": "未满局",
+      "layout": "result",
+      "scene": "lobby",
+      "icon": "trophy",
+      "actions": [
+        {
+          "label": "返回大厅",
+          "disabled": false
+        },
+        {
+          "label": "继续同玩",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "显示当前已结束局数，继续房间与退出入口；未结算局不计入总分。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "20-room-summary.state.1",
+      "screen": "20-room-summary",
+      "index": 1,
+      "name": "满局",
+      "title": "满局",
+      "body": "满局",
+      "layout": "result",
+      "scene": "lobby",
+      "icon": "trophy",
+      "actions": [
+        {
+          "label": "返回大厅",
+          "disabled": false
+        },
+        {
+          "label": "继续同玩",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "显示8/8局、三人总分与本场最佳。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "20-room-summary.state.2",
+      "screen": "20-room-summary",
+      "index": 2,
+      "name": "解散",
+      "title": "解散",
+      "body": "解散",
+      "layout": "confirm",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "取消",
+          "disabled": false
+        },
+        {
+          "label": "确认",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "表头显示房间已解散，保留已结算战绩与回大厅入口。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "21-table-settings.state.0",
+      "screen": "21-table-settings",
+      "index": 0,
+      "name": "音量开关",
+      "title": "音量开关",
+      "body": "音量开关",
+      "layout": "settings",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "保存设置",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "音乐音效滑块与震动开关的当前状态清楚。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "21-table-settings.state.1",
+      "screen": "21-table-settings",
+      "index": 1,
+      "name": "离开确认",
+      "title": "离开确认",
+      "body": "离开确认",
+      "layout": "confirm",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "取消",
+          "disabled": false
+        },
+        {
+          "label": "确认",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "通用确认弹窗说明进行中牌局的离开后果，确认或返回。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "21-table-settings.state.2",
+      "screen": "21-table-settings",
+      "index": 2,
+      "name": "更换牌面",
+      "title": "更换牌面",
+      "body": "更换牌面",
+      "layout": "cards",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "关闭",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "牌背缩略图有选中描边，点击保存仅更换视觉皮肤。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "22-replay-history.state.0",
+      "screen": "22-replay-history",
+      "index": 0,
+      "name": "无记录",
+      "title": "无记录",
+      "body": "无记录",
+      "layout": "empty",
+      "scene": "day",
+      "icon": "inventory",
+      "actions": [
+        {
+          "label": "返回",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "列表空态文案暂无战绩，隐藏旧回放内容。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "22-replay-history.state.1",
+      "screen": "22-replay-history",
+      "index": 1,
+      "name": "回放中",
+      "title": "回放中",
+      "body": "回放中",
+      "layout": "table",
+      "scene": "day",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "暂停",
+          "disabled": false
+        },
+        {
+          "label": "下一手",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "显示当前记录、进度、暂停与逐手操作。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "22-replay-history.state.2",
+      "screen": "22-replay-history",
+      "index": 2,
+      "name": "暂停",
+      "title": "暂停",
+      "body": "暂停",
+      "layout": "table",
+      "scene": "day",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "暂停",
+          "disabled": false
+        },
+        {
+          "label": "下一手",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "播放控制切换继续，进度静止。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "22-replay-history.state.3",
+      "screen": "22-replay-history",
+      "index": 3,
+      "name": "结束",
+      "title": "结束",
+      "body": "结束",
+      "layout": "result",
+      "scene": "day",
+      "icon": "trophy",
+      "actions": [
+        {
+          "label": "暂停",
+          "disabled": false
+        },
+        {
+          "label": "下一手",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "进度到末尾，提供重新播放与返回列表。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "23-ranked-lobby.state.0",
+      "screen": "23-ranked-lobby",
+      "index": 0,
+      "name": "正常",
+      "title": "正常",
+      "body": "正常",
+      "layout": "inline",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "开始排位",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "开始排位进入05匹配，返回大厅进入02大厅。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "23-ranked-lobby.state.1",
+      "screen": "23-ranked-lobby",
+      "index": 1,
+      "name": "奖励可领",
+      "title": "奖励可领",
+      "body": "奖励可领",
+      "layout": "reward",
+      "scene": "lobby",
+      "icon": "gift",
+      "actions": [
+        {
+          "label": "领取",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "查看奖励打开24赛季进度；奖励成功回执后清除红点。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "23-ranked-lobby.state.2",
+      "screen": "23-ranked-lobby",
+      "index": 2,
+      "name": "赛季结束",
+      "title": "赛季结束",
+      "body": "赛季结束",
+      "layout": "locked",
+      "scene": "lobby",
+      "icon": "lock",
+      "actions": [
+        {
+          "label": "返回",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [
+        "赛季结束"
+      ],
+      "interactionSpec": "禁用开始排位；打开24结算摘要，不触发匹配。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "24-ranked-progress.state.0",
+      "screen": "24-ranked-progress",
+      "index": 0,
+      "name": "当前",
+      "title": "当前",
+      "body": "当前",
+      "layout": "progress",
+      "scene": "lobby",
+      "icon": "star",
+      "actions": [
+        {
+          "label": "领取奖励",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "高亮当前节点；可查看其他段位，返回23。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "24-ranked-progress.state.1",
+      "screen": "24-ranked-progress",
+      "index": 1,
+      "name": "已达",
+      "title": "已达",
+      "body": "已达",
+      "layout": "progress",
+      "scene": "lobby",
+      "icon": "star",
+      "actions": [
+        {
+          "label": "领取奖励",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "领取按钮禁用；查看背包进入39。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "24-ranked-progress.state.2",
+      "screen": "24-ranked-progress",
+      "index": 2,
+      "name": "未达",
+      "title": "未达",
+      "body": "未达",
+      "layout": "locked",
+      "scene": "lobby",
+      "icon": "lock",
+      "actions": [
+        {
+          "label": "返回",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [
+        "未达"
+      ],
+      "interactionSpec": "领取禁用且显示具体门槛，返回23继续排位。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "24-ranked-progress.state.3",
+      "screen": "24-ranked-progress",
+      "index": 3,
+      "name": "可领",
+      "title": "可领",
+      "body": "可领",
+      "layout": "reward",
+      "scene": "lobby",
+      "icon": "gift",
+      "actions": [
+        {
+          "label": "领取",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "请求发放奖励；处理中禁用一次提交，成功切已达，失败恢复可领取。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "25-ranked-result.state.0",
+      "screen": "25-ranked-result",
+      "index": 0,
+      "name": "升星",
+      "title": "升星",
+      "body": "升星",
+      "layout": "result",
+      "scene": "lobby",
+      "icon": "trophy",
+      "actions": [
+        {
+          "label": "继续排位",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "继续排位进入05；三人结果分别按participants[].rankScoreDelta展示。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "25-ranked-result.state.1",
+      "screen": "25-ranked-result",
+      "index": 1,
+      "name": "掉星",
+      "title": "掉星",
+      "body": "掉星",
+      "layout": "result",
+      "scene": "lobby",
+      "icon": "trophy",
+      "actions": [
+        {
+          "label": "继续排位",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "在不显示原胜利文字的公共结果面板中呈现灰星和原生负号；继续匹配05。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "25-ranked-result.state.2",
+      "screen": "25-ranked-result",
+      "index": 2,
+      "name": "升段",
+      "title": "升段",
+      "body": "升段",
+      "layout": "result",
+      "scene": "lobby",
+      "icon": "trophy",
+      "actions": [
+        {
+          "label": "继续排位",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "徽章名与星级来自当前回执，不复用历史晋升数字。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "25-ranked-result.state.3",
+      "screen": "25-ranked-result",
+      "index": 3,
+      "name": "保护",
+      "title": "保护",
+      "body": "保护",
+      "layout": "progress",
+      "scene": "lobby",
+      "icon": "star",
+      "actions": [
+        {
+          "label": "继续排位",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "星级保持不变，保护次数仅以回执刷新，规则打开48。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "26-tournament-lobby.state.0",
+      "screen": "26-tournament-lobby",
+      "index": 0,
+      "name": "开放",
+      "title": "开放",
+      "body": "开放",
+      "layout": "list",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "查看赛事",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "立即报名只打开27详情，不能绕过条件检查直接入场。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "26-tournament-lobby.state.1",
+      "screen": "26-tournament-lobby",
+      "index": 1,
+      "name": "未开始",
+      "title": "未开始",
+      "body": "未开始",
+      "layout": "locked",
+      "scene": "lobby",
+      "icon": "lock",
+      "actions": [
+        {
+          "label": "返回",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [
+        "未开始"
+      ],
+      "interactionSpec": "预约显示已预约反馈，未开始时进入牌局禁用。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "26-tournament-lobby.state.2",
+      "screen": "26-tournament-lobby",
+      "index": 2,
+      "name": "已报名",
+      "title": "已报名",
+      "body": "已报名",
+      "layout": "list",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "查看赛事",
+          "disabled": true
+        }
+      ],
+      "disabledReasons": [
+        "已报名"
+      ],
+      "interactionSpec": "查看详情进入27；取消按退赛规则二次确认并以回执更新。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "26-tournament-lobby.state.3",
+      "screen": "26-tournament-lobby",
+      "index": 3,
+      "name": "结束",
+      "title": "结束",
+      "body": "结束",
+      "layout": "locked",
+      "scene": "lobby",
+      "icon": "lock",
+      "actions": [
+        {
+          "label": "返回",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [
+        "结束"
+      ],
+      "interactionSpec": "关闭报名入口，查看29结果，不重新扣除报名资源。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "27-tournament-detail.state.0",
+      "screen": "27-tournament-detail",
+      "index": 0,
+      "name": "可报名",
+      "title": "可报名",
+      "body": "可报名",
+      "layout": "inline",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "报名",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "勾选比赛规则后允许报名；提交中禁用防重入，成功进入28。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "27-tournament-detail.state.1",
+      "screen": "27-tournament-detail",
+      "index": 1,
+      "name": "条件不足",
+      "title": "条件不足",
+      "body": "条件不足",
+      "layout": "resource",
+      "scene": "lobby",
+      "icon": "coin",
+      "actions": [
+        {
+          "label": "报名",
+          "disabled": true
+        }
+      ],
+      "disabledReasons": [
+        "条件不足"
+      ],
+      "interactionSpec": "主按钮禁用，并保留返回，不发送报名请求。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "27-tournament-detail.state.2",
+      "screen": "27-tournament-detail",
+      "index": 2,
+      "name": "已报名",
+      "title": "已报名",
+      "body": "已报名",
+      "layout": "inline",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "报名",
+          "disabled": true
+        }
+      ],
+      "disabledReasons": [
+        "已报名"
+      ],
+      "interactionSpec": "已报名不会再扣除资源；进入28并展示服务端倒计时。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "28-tournament-waiting.state.0",
+      "screen": "28-tournament-waiting",
+      "index": 0,
+      "name": "候场",
+      "title": "候场",
+      "body": "候场",
+      "layout": "loading",
+      "scene": "lobby",
+      "icon": "refresh",
+      "actions": [
+        {
+          "label": "取消",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "保持在线是状态牌不响应点击；退出候场弹退赛确认。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "28-tournament-waiting.state.1",
+      "screen": "28-tournament-waiting",
+      "index": 1,
+      "name": "晋级",
+      "title": "晋级",
+      "body": "晋级",
+      "layout": "result",
+      "scene": "lobby",
+      "icon": "trophy",
+      "actions": [
+        {
+          "label": "取消报名",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "倒计时切换至下一轮；入口仅在服务端允许时启用。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "28-tournament-waiting.state.2",
+      "screen": "28-tournament-waiting",
+      "index": 2,
+      "name": "淘汰",
+      "title": "淘汰",
+      "body": "淘汰",
+      "layout": "result",
+      "scene": "lobby",
+      "icon": "trophy",
+      "actions": [
+        {
+          "label": "取消报名",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "停止候场与下一轮计时，查看29，不保留进入下一轮动作。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "28-tournament-waiting.state.3",
+      "screen": "28-tournament-waiting",
+      "index": 3,
+      "name": "取消",
+      "title": "取消",
+      "body": "取消",
+      "layout": "confirm",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "取消",
+          "disabled": false
+        },
+        {
+          "label": "确认",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "解除本地倒计时与候场订阅；不可继续跳转到该轮牌局。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "29-tournament-result.state.0",
+      "screen": "29-tournament-result",
+      "index": 0,
+      "name": "可领取",
+      "title": "可领取",
+      "body": "可领取",
+      "layout": "reward",
+      "scene": "lobby",
+      "icon": "gift",
+      "actions": [
+        {
+          "label": "领取",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "领取中禁用主按钮，成功后奖励从待领取变已领取。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "29-tournament-result.state.1",
+      "screen": "29-tournament-result",
+      "index": 1,
+      "name": "已领取",
+      "title": "已领取",
+      "body": "已领取",
+      "layout": "reward",
+      "scene": "lobby",
+      "icon": "gift",
+      "actions": [
+        {
+          "label": "领取",
+          "disabled": true
+        }
+      ],
+      "disabledReasons": [
+        "已领取"
+      ],
+      "interactionSpec": "已领取按钮禁用；查看背包进入39，不重复发奖。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "29-tournament-result.state.2",
+      "screen": "29-tournament-result",
+      "index": 2,
+      "name": "无奖励",
+      "title": "无奖励",
+      "body": "无奖励",
+      "layout": "empty",
+      "scene": "lobby",
+      "icon": "inventory",
+      "actions": [
+        {
+          "label": "返回",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "隐藏原可领奖励格与领奖红点；返回26或查看27规则。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "30-puzzle-select.state.0",
+      "screen": "30-puzzle-select",
+      "index": 0,
+      "name": "可挑战",
+      "title": "可挑战",
+      "body": "可挑战",
+      "layout": "selection",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "开始挑战",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "进入31指定关卡，选其他已解锁关卡更新selectedLevel。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "30-puzzle-select.state.1",
+      "screen": "30-puzzle-select",
+      "index": 1,
+      "name": "锁定",
+      "title": "锁定",
+      "body": "锁定",
+      "layout": "locked",
+      "scene": "lobby",
+      "icon": "lock",
+      "actions": [
+        {
+          "label": "返回",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [
+        "锁定"
+      ],
+      "interactionSpec": "显示锁并禁用开始，不跳转31，不消耗任何道具。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "30-puzzle-select.state.2",
+      "screen": "30-puzzle-select",
+      "index": 2,
+      "name": "已完成",
+      "title": "已完成",
+      "body": "已完成",
+      "layout": "selection",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "开始挑战",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "允许重玩；只保留最高星级，首次奖励不重复发放。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "31-puzzle-play.state.0",
+      "screen": "31-puzzle-play",
+      "index": 0,
+      "name": "挑战中",
+      "title": "残局对局",
+      "body": "第4关，率先出完手牌。",
+      "layout": "table",
+      "scene": "day",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "提示",
+          "disabled": false
+        },
+        {
+          "label": "重来",
+          "disabled": false
+        },
+        {
+          "label": "出牌",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "保留8张AAKK9876、QQ待压制牌面与三席身份；可选牌出牌或重来。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "31-puzzle-play.state.1",
+      "screen": "31-puzzle-play",
+      "index": 1,
+      "name": "提示",
+      "title": "出牌提示",
+      "body": "当前待压制牌为一对Q，可参考一对K或一对A。",
+      "layout": "table",
+      "scene": "day",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "返回牌局",
+          "disabled": false
+        },
+        {
+          "label": "知道了",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "仅为此示例局面提示；确认后关闭，恢复原选择；正式最优解由残局逻辑给出。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "31-puzzle-play.state.2",
+      "screen": "31-puzzle-play",
+      "index": 2,
+      "name": "无可行出牌",
+      "title": "暂无可出的牌",
+      "body": "当前选择无法组成可出的牌型。",
+      "layout": "table",
+      "scene": "day",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "清除选择",
+          "disabled": false
+        },
+        {
+          "label": "重来",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "出牌按钮禁用并说明原因；可清除选择、重来或返回关卡，不擅自跳过服务端校验。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "32-puzzle-result.state.0",
+      "screen": "32-puzzle-result",
+      "index": 0,
+      "name": "成功",
+      "title": "挑战成功",
+      "body": "第4关，步数6，使用提示0，铜钱100。",
+      "layout": "result",
+      "scene": "lobby",
+      "icon": "trophy",
+      "actions": [
+        {
+          "label": "重玩本关",
+          "disabled": false
+        },
+        {
+          "label": "下一关",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "展示三星、结算统计及重玩/下一关；奖励按真实回执更新。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "32-puzzle-result.state.1",
+      "screen": "32-puzzle-result",
+      "index": 1,
+      "name": "失败",
+      "title": "挑战未完成",
+      "body": "这次没能率先出完手牌，再试一次吧。",
+      "layout": "result",
+      "scene": "lobby",
+      "icon": "trophy",
+      "actions": [
+        {
+          "label": "返回关卡",
+          "disabled": false
+        },
+        {
+          "label": "重试",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "隐藏成功奖励，保留本关重试与关卡列表。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "32-puzzle-result.state.2",
+      "screen": "32-puzzle-result",
+      "index": 2,
+      "name": "全部完成",
+      "title": "全部关卡已完成",
+      "body": "当前难度的关卡已全部通关。",
+      "layout": "result",
+      "scene": "lobby",
+      "icon": "trophy",
+      "actions": [
+        {
+          "label": "返回关卡",
+          "disabled": false
+        },
+        {
+          "label": "重玩本关",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "下一关入口替换为返回关卡；已获得奖励不可重复发放。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "33-character-select.state.0",
+      "screen": "33-character-select",
+      "index": 0,
+      "name": "已拥有",
+      "title": "已拥有",
+      "body": "桃花女修已拥有，可点击使用。",
+      "layout": "selection",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "使用",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "选中后更新底部介绍和试听；使用需保存成功回执。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "33-character-select.state.1",
+      "screen": "33-character-select",
+      "index": 1,
+      "name": "未拥有",
+      "title": "未拥有",
+      "body": "葫芦长者尚未拥有。",
+      "layout": "locked",
+      "scene": "lobby",
+      "icon": "lock",
+      "actions": [
+        {
+          "label": "获取",
+          "disabled": true
+        }
+      ],
+      "disabledReasons": [
+        "未拥有"
+      ],
+      "interactionSpec": "显示获取入口；不得在未获取时直接设置使用中。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "33-character-select.state.2",
+      "screen": "33-character-select",
+      "index": 2,
+      "name": "使用中",
+      "title": "使用中",
+      "body": "玉绿道童当前使用中。",
+      "layout": "selection",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "使用中",
+          "disabled": true
+        }
+      ],
+      "disabledReasons": [
+        "使用中"
+      ],
+      "interactionSpec": "金玉选框及状态文字同时表示当前角色，避免仅靠颜色。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "34-character-detail.state.0",
+      "screen": "34-character-detail",
+      "index": 0,
+      "name": "使用中",
+      "title": "角色使用中",
+      "body": "桃花女修已设为当前角色。",
+      "layout": "selection",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "返回",
+          "disabled": false
+        },
+        {
+          "label": "使用中",
+          "disabled": true
+        }
+      ],
+      "disabledReasons": [
+        "使用中"
+      ],
+      "interactionSpec": "使用按钮替换为禁用的使用中，角色选择同步更新；返回和试听仍可用。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "34-character-detail.state.1",
+      "screen": "34-character-detail",
+      "index": 1,
+      "name": "可使用",
+      "title": "桃花女修",
+      "body": "清风入扇，笑看牌局。",
+      "layout": "selection",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "返回",
+          "disabled": false
+        },
+        {
+          "label": "使用角色",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "已拥有、三段试听、四枚表情与使用角色入口清楚。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "34-character-detail.state.2",
+      "screen": "34-character-detail",
+      "index": 2,
+      "name": "未解锁",
+      "title": "角色尚未解锁",
+      "body": "解锁后即可使用桃花女修。",
+      "layout": "locked",
+      "scene": "lobby",
+      "icon": "lock",
+      "actions": [
+        {
+          "label": "返回",
+          "disabled": false
+        },
+        {
+          "label": "前往获取",
+          "disabled": true
+        }
+      ],
+      "disabledReasons": [
+        "未解锁"
+      ],
+      "interactionSpec": "显示具体获取条件及获取入口；不改变已保存的当前角色。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "35-wardrobe.state.0",
+      "screen": "35-wardrobe",
+      "index": 0,
+      "name": "未拥有",
+      "title": "未拥有",
+      "body": "雪色白衣、庆典红衣尚未拥有。",
+      "layout": "locked",
+      "scene": "lobby",
+      "icon": "lock",
+      "actions": [
+        {
+          "label": "获取",
+          "disabled": true
+        }
+      ],
+      "disabledReasons": [
+        "未拥有"
+      ],
+      "interactionSpec": "小锁与文字共同表达；允许查看和试穿预览，不允许直接保存未拥有装扮。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "35-wardrobe.state.1",
+      "screen": "35-wardrobe",
+      "index": 1,
+      "name": "已拥有",
+      "title": "已拥有",
+      "body": "暮色墨衣、桂月金衣已拥有。",
+      "layout": "selection",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "试穿",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "可试穿并保存；物品分类与已使用标记分开。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "35-wardrobe.state.2",
+      "screen": "35-wardrobe",
+      "index": 2,
+      "name": "试穿",
+      "title": "试穿预览",
+      "body": "当前试穿：桃花春衣。",
+      "layout": "costume",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "还原",
+          "disabled": false
+        },
+        {
+          "label": "保存装扮",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "图内桃花春衣卡绘及试穿入口提供视觉来源；试穿保持未提交态，左侧预览与选中卡同步由角色皮肤层提供，保存前可还原。未把卡面预览宣称为新角色全身资产。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "35-wardrobe.state.3",
+      "screen": "35-wardrobe",
+      "index": 3,
+      "name": "已使用",
+      "title": "已使用",
+      "body": "青云衣当前使用中。",
+      "layout": "costume",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "还原",
+          "disabled": false
+        },
+        {
+          "label": "保存装扮",
+          "disabled": true
+        }
+      ],
+      "disabledReasons": [
+        "已使用"
+      ],
+      "interactionSpec": "当前左侧青云衣预览、金色选框和已使用标签一致；保存其他装扮成功后转移标记。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "36-shop.state.0",
+      "screen": "36-shop",
+      "index": 0,
+      "name": "正常",
+      "title": "商城",
+      "body": "推荐、角色、装扮、道具；六件商品。",
+      "layout": "list",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "查看详情",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "商品进入37详情；数量、价格、币种和余额使用产品配置的原生文字层。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "36-shop.state.1",
+      "screen": "36-shop",
+      "index": 1,
+      "name": "售罄",
+      "title": "售罄",
+      "body": "桃花桌布已售罄。",
+      "layout": "locked",
+      "scene": "lobby",
+      "icon": "lock",
+      "actions": [
+        {
+          "label": "查看说明",
+          "disabled": true
+        }
+      ],
+      "disabledReasons": [
+        "售罄"
+      ],
+      "interactionSpec": "购买动作禁用，保留查看说明；刷新库存后再判断。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "36-shop.state.2",
+      "screen": "36-shop",
+      "index": 2,
+      "name": "限时",
+      "title": "限时",
+      "body": "三人主题头像框为限时商品。",
+      "layout": "list",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "查看详情",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "期限由服务端提供，结束后撤下限时购买入口。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "36-shop.state.3",
+      "screen": "36-shop",
+      "index": 3,
+      "name": "已拥有",
+      "title": "已拥有",
+      "body": "葫芦表情包已拥有。",
+      "layout": "selection",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "前往背包",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "不可重复购买不可叠加的装扮；前往背包可使用。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "37-item-detail.state.0",
+      "screen": "37-item-detail",
+      "index": 0,
+      "name": "可购买",
+      "title": "可购买",
+      "body": "可购买",
+      "layout": "resource",
+      "scene": "lobby",
+      "icon": "coin",
+      "actions": [
+        {
+          "label": "取消",
+          "disabled": false
+        },
+        {
+          "label": "确认",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "突出主动作，操作中防重复；以真实回执更新完成态并显示奖励/消耗明细。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "37-item-detail.state.1",
+      "screen": "37-item-detail",
+      "index": 1,
+      "name": "余额不足",
+      "title": "仙豆不足",
+      "body": "本次需要300仙豆，当前余额不足。",
+      "layout": "resource",
+      "scene": "lobby",
+      "icon": "coin",
+      "actions": [
+        {
+          "label": "前往兑换",
+          "disabled": true
+        },
+        {
+          "label": "取消",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [
+        "余额不足"
+      ],
+      "interactionSpec": "禁用确认购买并显示缺额；前往兑换打开38-wallet，取消返回商品详情保留数量。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "37-item-detail.state.2",
+      "screen": "37-item-detail",
+      "index": 2,
+      "name": "确认",
+      "title": "确认",
+      "body": "确认",
+      "layout": "confirm",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "取消",
+          "disabled": false
+        },
+        {
+          "label": "确认",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "显示对象与数量/影响，提供明确确认和取消；取消不改变当前状态。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "37-item-detail.state.3",
+      "screen": "37-item-detail",
+      "index": 3,
+      "name": "结果",
+      "title": "购买结果",
+      "body": "购买成功后显示“已获得 云纹牌背”；失败显示原因并允许重试。",
+      "layout": "reward",
+      "scene": "lobby",
+      "icon": "gift",
+      "actions": [
+        {
+          "label": "查看背包",
+          "disabled": false
+        },
+        {
+          "label": "返回商城",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "成功仅在回执后扣减300仙豆并更新拥有状态；失败保留原余额和商品详情。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "38-wallet.state.0",
+      "screen": "38-wallet",
+      "index": 0,
+      "name": "可兑换",
+      "title": "可兑换",
+      "body": "可兑换",
+      "layout": "resource",
+      "scene": "lobby",
+      "icon": "coin",
+      "actions": [
+        {
+          "label": "确认兑换",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "突出主动作，操作中防重复；以真实回执更新完成态并显示奖励/消耗明细。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "38-wallet.state.1",
+      "screen": "38-wallet",
+      "index": 1,
+      "name": "不足",
+      "title": "玉珠不足",
+      "body": "兑换1,000仙豆需要100玉珠，请选择其他档位。",
+      "layout": "resource",
+      "scene": "lobby",
+      "icon": "coin",
+      "actions": [
+        {
+          "label": "返回兑换",
+          "disabled": true
+        }
+      ],
+      "disabledReasons": [
+        "不足"
+      ],
+      "interactionSpec": "所选档位不可用时主动作禁用，其他可用档位仍可选择。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "38-wallet.state.2",
+      "screen": "38-wallet",
+      "index": 2,
+      "name": "确认",
+      "title": "确认兑换",
+      "body": "消耗100玉珠，获得1,000仙豆。",
+      "layout": "confirm",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "确认兑换",
+          "disabled": false
+        },
+        {
+          "label": "取消",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "确认提交时锁定重复操作；取消返回兑换页，余额不变。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "38-wallet.state.3",
+      "screen": "38-wallet",
+      "index": 3,
+      "name": "结果",
+      "title": "兑换结果",
+      "body": "兑换成功：仙豆 +1,000，玉珠 -100。失败时显示实际原因。",
+      "layout": "reward",
+      "scene": "lobby",
+      "icon": "gift",
+      "actions": [
+        {
+          "label": "确定",
+          "disabled": false
+        },
+        {
+          "label": "查看记录",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "按真实回执刷新两种余额并追加记录；失败不扣资源，可回到当前档位重试。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "39-inventory.state.0",
+      "screen": "39-inventory",
+      "index": 0,
+      "name": "有物品",
+      "title": "有物品",
+      "body": "有物品",
+      "layout": "list",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "使用",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "正文、选中项与主动作一致；操作中显示反馈，成功/失败遵循页面流程。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "39-inventory.state.1",
+      "screen": "39-inventory",
+      "index": 1,
+      "name": "空背包",
+      "title": "背包空空如也",
+      "body": "暂时没有可用物品，去任务或商城看看吧。",
+      "layout": "empty",
+      "scene": "lobby",
+      "icon": "inventory",
+      "actions": [
+        {
+          "label": "前往任务",
+          "disabled": false
+        },
+        {
+          "label": "前往商城",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "清空物品格详情和使用按钮；保留分类与关闭，不显示上次选中物品。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "39-inventory.state.2",
+      "screen": "39-inventory",
+      "index": 2,
+      "name": "过期",
+      "title": "物品已过期",
+      "body": "当前物品已超过有效期，暂时无法使用。",
+      "layout": "locked",
+      "scene": "lobby",
+      "icon": "lock",
+      "actions": [
+        {
+          "label": "知道了",
+          "disabled": true
+        }
+      ],
+      "disabledReasons": [
+        "过期"
+      ],
+      "interactionSpec": "在详情显示到期时间和原因，使用按钮禁用，不减少可用物品数量。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "39-inventory.state.3",
+      "screen": "39-inventory",
+      "index": 3,
+      "name": "已使用",
+      "title": "使用成功",
+      "body": "记牌器已使用，剩余数量以背包回执为准。",
+      "layout": "inline",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "确定",
+          "disabled": true
+        }
+      ],
+      "disabledReasons": [
+        "已使用"
+      ],
+      "interactionSpec": "按回执减数量或显示有效期；数量为0后重新选择同类物品或清空详情。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "40-player-profile.state.0",
+      "screen": "40-player-profile",
+      "index": 0,
+      "name": "自己",
+      "title": "自己",
+      "body": "自己",
+      "layout": "profile",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "关闭",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "提供编辑或输入控件，保留取消与保存语义；输入按约束校验，提交前不改变已保存值。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "40-player-profile.state.1",
+      "screen": "40-player-profile",
+      "index": 1,
+      "name": "他人",
+      "title": "道友资料",
+      "body": "显示道友公开昵称、ID、称号与战绩。",
+      "layout": "profile",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "添加好友",
+          "disabled": false
+        },
+        {
+          "label": "邀请同玩",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "沿用资料三统计卡布局，隐藏铅笔和编辑资料；按钮按好友/在线关系启用。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "40-player-profile.state.2",
+      "screen": "40-player-profile",
+      "index": 2,
+      "name": "编辑",
+      "title": "编辑资料",
+      "body": "昵称：云游小道；称号：青云牌友。",
+      "layout": "form",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "保存",
+          "disabled": false
+        },
+        {
+          "label": "取消",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "用输入框编辑昵称，头像点击打开已有角色头像选择；取消恢复原值，昵称空或超长禁止保存。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "40-player-profile.state.3",
+      "screen": "40-player-profile",
+      "index": 3,
+      "name": "保存",
+      "title": "资料已保存",
+      "body": "你的资料已更新。",
+      "layout": "inline",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "确定",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "成功后回填头像昵称称号并关闭编辑；失败保留输入，用“保存失败，请重试”提示。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "41-friends.state.0",
+      "screen": "41-friends",
+      "index": 0,
+      "name": "在线",
+      "title": "在线",
+      "body": "在线",
+      "layout": "list",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "添加好友",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "以状态圆点和文字共同表达；离线不提供即时加入，邀请状态以回执为准。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "41-friends.state.1",
+      "screen": "41-friends",
+      "index": 1,
+      "name": "离线",
+      "title": "离线",
+      "body": "离线",
+      "layout": "list",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "添加好友",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "以状态圆点和文字共同表达；离线不提供即时加入，邀请状态以回执为准。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "41-friends.state.2",
+      "screen": "41-friends",
+      "index": 2,
+      "name": "空列表",
+      "title": "暂无好友",
+      "body": "添加道友，一起切磋牌艺吧。",
+      "layout": "empty",
+      "scene": "lobby",
+      "icon": "inventory",
+      "actions": [
+        {
+          "label": "添加好友",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "隐藏聊天历史和发送动作，保留搜索与添加；搜索无结果用“未找到这位道友”。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "41-friends.state.3",
+      "screen": "41-friends",
+      "index": 3,
+      "name": "申请",
+      "title": "好友申请",
+      "body": "申请列表显示头像、昵称与申请时间。",
+      "layout": "list",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "同意",
+          "disabled": false
+        },
+        {
+          "label": "拒绝",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "沿用左导航与列表卡，申请行右侧一主一次按钮；成功更新关系并移除该行，空申请显示“暂无好友申请”。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "42-leaderboard.state.0",
+      "screen": "42-leaderboard",
+      "index": 0,
+      "name": "正常",
+      "title": "正常",
+      "body": "正常",
+      "layout": "list",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "刷新",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "正文、选中项与主动作一致；操作中显示反馈，成功/失败遵循页面流程。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "42-leaderboard.state.1",
+      "screen": "42-leaderboard",
+      "index": 1,
+      "name": "未上榜",
+      "title": "尚未上榜",
+      "body": "参与对局积累积分，即可登上榜单。",
+      "layout": "empty",
+      "scene": "lobby",
+      "icon": "inventory",
+      "actions": [
+        {
+          "label": "前往对局",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "只替换底部自己的排名为“未上榜”；其余排行榜保留，分数为实际值。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "42-leaderboard.state.2",
+      "screen": "42-leaderboard",
+      "index": 2,
+      "name": "刷新中",
+      "title": "正在刷新",
+      "body": "正在获取最新榜单…",
+      "layout": "loading",
+      "scene": "lobby",
+      "icon": "refresh",
+      "actions": [
+        {
+          "label": "取消",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "保留已有榜单，刷新按钮暂时禁用；成功替换数据，失败提示“刷新失败，请重试”。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "43-daily-missions.state.0",
+      "screen": "43-daily-missions",
+      "index": 0,
+      "name": "未完成",
+      "title": "未完成",
+      "body": "未完成",
+      "layout": "progress",
+      "scene": "lobby",
+      "icon": "star",
+      "actions": [
+        {
+          "label": "领取奖励",
+          "disabled": true
+        }
+      ],
+      "disabledReasons": [
+        "未完成"
+      ],
+      "interactionSpec": "正文、选中项与主动作一致；操作中显示反馈，成功/失败遵循页面流程。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "43-daily-missions.state.1",
+      "screen": "43-daily-missions",
+      "index": 1,
+      "name": "可领取",
+      "title": "可领取",
+      "body": "可领取",
+      "layout": "reward",
+      "scene": "lobby",
+      "icon": "gift",
+      "actions": [
+        {
+          "label": "领取",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "突出主动作，操作中防重复；以真实回执更新完成态并显示奖励/消耗明细。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "43-daily-missions.state.2",
+      "screen": "43-daily-missions",
+      "index": 2,
+      "name": "已领取",
+      "title": "已领取",
+      "body": "已领取",
+      "layout": "reward",
+      "scene": "lobby",
+      "icon": "gift",
+      "actions": [
+        {
+          "label": "领取",
+          "disabled": true
+        }
+      ],
+      "disabledReasons": [
+        "已领取"
+      ],
+      "interactionSpec": "用勾记和文字表达完成态，动作禁用，不能重复领取或使用。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "43-daily-missions.state.3",
+      "screen": "43-daily-missions",
+      "index": 3,
+      "name": "空",
+      "title": "暂无任务",
+      "body": "当前任务已全部完成，请稍后再来。",
+      "layout": "empty",
+      "scene": "lobby",
+      "icon": "inventory",
+      "actions": [
+        {
+          "label": "返回大厅",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "清空任务行与详情，活跃条按当前真值保留，一键领取禁用。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "44-sign-in.state.0",
+      "screen": "44-sign-in",
+      "index": 0,
+      "name": "可签",
+      "title": "可签",
+      "body": "可签",
+      "layout": "reward",
+      "scene": "lobby",
+      "icon": "gift",
+      "actions": [
+        {
+          "label": "领取",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "突出主动作，操作中防重复；以真实回执更新完成态并显示奖励/消耗明细。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "44-sign-in.state.1",
+      "screen": "44-sign-in",
+      "index": 1,
+      "name": "已签",
+      "title": "已签",
+      "body": "已签",
+      "layout": "reward",
+      "scene": "lobby",
+      "icon": "gift",
+      "actions": [
+        {
+          "label": "领取",
+          "disabled": true
+        }
+      ],
+      "disabledReasons": [
+        "已签"
+      ],
+      "interactionSpec": "用勾记和文字表达完成态，动作禁用，不能重复领取或使用。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "44-sign-in.state.2",
+      "screen": "44-sign-in",
+      "index": 2,
+      "name": "未到",
+      "title": "未到",
+      "body": "未到",
+      "layout": "locked",
+      "scene": "lobby",
+      "icon": "lock",
+      "actions": [
+        {
+          "label": "返回",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [
+        "未到"
+      ],
+      "interactionSpec": "用锁定/进度明确条件，未达到时奖励动作禁用。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "44-sign-in.state.3",
+      "screen": "44-sign-in",
+      "index": 3,
+      "name": "补签",
+      "title": "补签说明",
+      "body": "补签规则、所需道具与可补日期以活动配置为准。",
+      "layout": "confirm",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "确认补签",
+          "disabled": false
+        },
+        {
+          "label": "取消",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "用共享面板显示选中漏签日期及消耗；不可补日期/道具不足时禁用确认并解释原因。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "45-events.state.0",
+      "screen": "45-events",
+      "index": 0,
+      "name": "进行中",
+      "title": "进行中",
+      "body": "进行中",
+      "layout": "list",
+      "scene": "night",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "前往活动",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "正文、选中项与主动作一致；操作中显示反馈，成功/失败遵循页面流程。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "45-events.state.1",
+      "screen": "45-events",
+      "index": 1,
+      "name": "可领",
+      "title": "可领",
+      "body": "可领",
+      "layout": "reward",
+      "scene": "night",
+      "icon": "gift",
+      "actions": [
+        {
+          "label": "领取",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "突出主动作，操作中防重复；以真实回执更新完成态并显示奖励/消耗明细。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "45-events.state.2",
+      "screen": "45-events",
+      "index": 2,
+      "name": "已领",
+      "title": "已领",
+      "body": "已领",
+      "layout": "reward",
+      "scene": "night",
+      "icon": "gift",
+      "actions": [
+        {
+          "label": "领取",
+          "disabled": true
+        }
+      ],
+      "disabledReasons": [
+        "已领"
+      ],
+      "interactionSpec": "用勾记和文字表达完成态，动作禁用，不能重复领取或使用。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "45-events.state.3",
+      "screen": "45-events",
+      "index": 3,
+      "name": "结束",
+      "title": "活动已结束",
+      "body": "本期活动已经结束，请关注后续活动。",
+      "layout": "locked",
+      "scene": "night",
+      "icon": "lock",
+      "actions": [
+        {
+          "label": "查看其他活动",
+          "disabled": true
+        }
+      ],
+      "disabledReasons": [
+        "结束"
+      ],
+      "interactionSpec": "保留活动说明与已获得记录，领取和兑换禁用，不再显示进行中倒计时。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "46-mail.state.0",
+      "screen": "46-mail",
+      "index": 0,
+      "name": "未读",
+      "title": "未读",
+      "body": "未读",
+      "layout": "mail",
+      "scene": "night",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "领取附件",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "正文、选中项与主动作一致；操作中显示反馈，成功/失败遵循页面流程。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "46-mail.state.1",
+      "screen": "46-mail",
+      "index": 1,
+      "name": "可领",
+      "title": "可领",
+      "body": "可领",
+      "layout": "reward",
+      "scene": "night",
+      "icon": "gift",
+      "actions": [
+        {
+          "label": "领取",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "突出主动作，操作中防重复；以真实回执更新完成态并显示奖励/消耗明细。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "46-mail.state.2",
+      "screen": "46-mail",
+      "index": 2,
+      "name": "已领",
+      "title": "已领",
+      "body": "已领",
+      "layout": "mail",
+      "scene": "night",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "领取附件",
+          "disabled": true
+        }
+      ],
+      "disabledReasons": [
+        "已领"
+      ],
+      "interactionSpec": "用勾记和文字表达完成态，动作禁用，不能重复领取或使用。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "46-mail.state.3",
+      "screen": "46-mail",
+      "index": 3,
+      "name": "过期",
+      "title": "过期",
+      "body": "过期",
+      "layout": "locked",
+      "scene": "night",
+      "icon": "lock",
+      "actions": [
+        {
+          "label": "返回",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [
+        "过期"
+      ],
+      "interactionSpec": "标注到期时间与不可操作原因，禁止再次领取或使用。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "46-mail.state.4",
+      "screen": "46-mail",
+      "index": 4,
+      "name": "空",
+      "title": "暂无邮件",
+      "body": "收到新的通知和奖励时，会显示在这里。",
+      "layout": "empty",
+      "scene": "night",
+      "icon": "mail",
+      "actions": [
+        {
+          "label": "返回大厅",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "清空左列表与右正文附件，领取删除与批量动作禁用，不能残留旧信内容。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "47-settings.state.0",
+      "screen": "47-settings",
+      "index": 0,
+      "name": "开关",
+      "title": "开关",
+      "body": "开关",
+      "layout": "settings",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "保存设置",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "使用开/关文字与位置双重反馈；按设置范围即时预览或保存后生效。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "47-settings.state.1",
+      "screen": "47-settings",
+      "index": 1,
+      "name": "滑块",
+      "title": "滑块",
+      "body": "滑块",
+      "layout": "settings",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "保存设置",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "显示当前百分比并可拖动；支持0到100，保存或取消遵循设置页约定。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "47-settings.state.2",
+      "screen": "47-settings",
+      "index": 2,
+      "name": "已保存",
+      "title": "设置已保存",
+      "body": "当前音乐、音效与画面偏好已保存。",
+      "layout": "inline",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "确定",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "按设置项生效范围更新；失败保留可编辑值并显示“保存失败，请重试”。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "47-settings.state.3",
+      "screen": "47-settings",
+      "index": 3,
+      "name": "切换确认",
+      "title": "切换账号",
+      "body": "切换后将返回登录界面，是否继续？",
+      "layout": "confirm",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "确认切换",
+          "disabled": false
+        },
+        {
+          "label": "取消",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "确认后先退出当前会话再回登录；取消留在设置页。进行中的牌局需先处理离开确认。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "48-help-rules.state.0",
+      "screen": "48-help-rules",
+      "index": 0,
+      "name": "目录",
+      "title": "目录",
+      "body": "目录",
+      "layout": "rules",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "关闭",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "目录选中与正文同步，步骤有前后导航与退出入口；当前页保持可读留白。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "48-help-rules.state.1",
+      "screen": "48-help-rules",
+      "index": 1,
+      "name": "详情",
+      "title": "详情",
+      "body": "详情",
+      "layout": "rules",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "关闭",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "目录选中与正文同步，步骤有前后导航与退出入口；当前页保持可读留白。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "48-help-rules.state.2",
+      "screen": "48-help-rules",
+      "index": 2,
+      "name": "新手步骤",
+      "title": "新手教学",
+      "body": "第1步：认清底牌和身份。第2步：选中手牌。第3步：点击出牌。",
+      "layout": "rules",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "下一步",
+          "disabled": false
+        },
+        {
+          "label": "退出教学",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "共享面板作为教学浮层，一次展示一步，在对应主界面控件旁指示；末步“开始练习”进入56-offline。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "49-support-notices.state.0",
+      "screen": "49-support-notices",
+      "index": 0,
+      "name": "公告",
+      "title": "游戏公告",
+      "body": "欢迎来到牌桌。游戏维护与版本更新信息将在这里发布。",
+      "layout": "rules",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "返回列表",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "复用左四页签，右侧共享米白面板展示标题、发布日期与可滚动正文；列表项点击同步正文。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "49-support-notices.state.1",
+      "screen": "49-support-notices",
+      "index": 1,
+      "name": "反馈编辑",
+      "title": "反馈编辑",
+      "body": "反馈编辑",
+      "layout": "form",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "取消",
+          "disabled": false
+        },
+        {
+          "label": "保存",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "提供编辑或输入控件，保留取消与保存语义；输入按约束校验，提交前不改变已保存值。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "49-support-notices.state.2",
+      "screen": "49-support-notices",
+      "index": 2,
+      "name": "提交结果",
+      "title": "反馈已提交",
+      "body": "已收到你的反馈，可在“反馈进度”中查看处理状态。",
+      "layout": "inline",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "查看进度",
+          "disabled": false
+        },
+        {
+          "label": "完成",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "成功以回执编号显示进度；失败显示原因、保留描述与附件，可重试；不得模拟实际发送成功。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "49-support-notices.state.3",
+      "screen": "49-support-notices",
+      "index": 3,
+      "name": "空",
+      "title": "暂无反馈记录",
+      "body": "提交反馈后，可在这里查看处理进度。",
+      "layout": "empty",
+      "scene": "lobby",
+      "icon": "inventory",
+      "actions": [
+        {
+          "label": "意见反馈",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "进度页清空记录与旧详情，保留切换意见反馈入口。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "50-shared-dialogs.state.0",
+      "screen": "50-shared-dialogs",
+      "index": 0,
+      "name": "确认",
+      "title": "确认",
+      "body": "确认",
+      "layout": "confirm",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "取消",
+          "disabled": false
+        },
+        {
+          "label": "确认",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "D01，返回大厅确认；取消保留当前上下文，确定返回大厅",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "50-shared-dialogs.state.1",
+      "screen": "50-shared-dialogs",
+      "index": 1,
+      "name": "取消",
+      "title": "取消",
+      "body": "取消",
+      "layout": "confirm",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "取消",
+          "disabled": false
+        },
+        {
+          "label": "确认",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "D01/D05 次按钮；关闭不产生业务操作",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "50-shared-dialogs.state.2",
+      "screen": "50-shared-dialogs",
+      "index": 2,
+      "name": "重试",
+      "title": "重试",
+      "body": "重试",
+      "layout": "error",
+      "scene": "lobby",
+      "icon": "network",
+      "actions": [
+        {
+          "label": "重试",
+          "disabled": false
+        },
+        {
+          "label": "返回",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "D02 网络重试，处理中禁用重试按钮，保留返回",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "50-shared-dialogs.state.3",
+      "screen": "50-shared-dialogs",
+      "index": 3,
+      "name": "奖励",
+      "title": "奖励",
+      "body": "奖励",
+      "layout": "reward",
+      "scene": "lobby",
+      "icon": "gift",
+      "actions": [
+        {
+          "label": "领取",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "D04 奖励结果，实际奖励列表由原生文字替换示意",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "50-shared-dialogs.state.4",
+      "screen": "50-shared-dialogs",
+      "index": 4,
+      "name": "空态",
+      "title": "空态",
+      "body": "空态",
+      "layout": "empty",
+      "scene": "lobby",
+      "icon": "inventory",
+      "actions": [
+        {
+          "label": "返回",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "D06 无记录，返回上级；不保留上次数据",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "51-common-components.state.0",
+      "screen": "51-common-components",
+      "index": 0,
+      "name": "默认",
+      "title": "默认",
+      "body": "默认",
+      "layout": "components",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "关闭",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "第1/2行默认按钮；使用controls/primary-normal、secondary-normal",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "51-common-components.state.1",
+      "screen": "51-common-components",
+      "index": 1,
+      "name": "按下",
+      "title": "按下",
+      "body": "按下",
+      "layout": "components",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "关闭",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "第1/2行第3个按钮；primary-pressed、secondary-pressed",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "51-common-components.state.2",
+      "screen": "51-common-components",
+      "index": 2,
+      "name": "选中",
+      "title": "选中",
+      "body": "选中",
+      "layout": "components",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "关闭",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "第3行选中页签、勾选及开关；tab-selected、checkbox-on、toggle-on",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "51-common-components.state.3",
+      "screen": "51-common-components",
+      "index": 3,
+      "name": "禁用",
+      "title": "禁用",
+      "body": "禁用",
+      "layout": "components",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "关闭",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "第1/2行第4个按钮；primary-disabled、secondary-disabled",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "51-common-components.state.4",
+      "screen": "51-common-components",
+      "index": 4,
+      "name": "焦点",
+      "title": "焦点",
+      "body": "焦点",
+      "layout": "components",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "关闭",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "第5行第2个输入框；input-focus",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "52-card-and-effects.state.0",
+      "screen": "52-card-and-effects",
+      "index": 0,
+      "name": "正面",
+      "title": "正面",
+      "body": "正面",
+      "layout": "cards",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "关闭",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "原生四花色A及空白牌框；正式52张牌通过空白牌框+确定性原生文字导出",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "52-card-and-effects.state.1",
+      "screen": "52-card-and-effects",
+      "index": 1,
+      "name": "牌背",
+      "title": "牌背",
+      "body": "牌背",
+      "layout": "cards",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "关闭",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "玉绿与象牙两种牌背",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "52-card-and-effects.state.2",
+      "screen": "52-card-and-effects",
+      "index": 2,
+      "name": "选中",
+      "title": "选中",
+      "body": "选中",
+      "layout": "cards",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "关闭",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "第3行第4个透明玉绿牌框，selection切片",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "52-card-and-effects.state.3",
+      "screen": "52-card-and-effects",
+      "index": 3,
+      "name": "禁用",
+      "title": "禁用",
+      "body": "禁用",
+      "layout": "cards",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "关闭",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "使用51禁用颜色语义与客户端整体不透明度，禁止输入；不是额外生成的灰牌图",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "52-card-and-effects.state.4",
+      "screen": "52-card-and-effects",
+      "index": 4,
+      "name": "身份",
+      "title": "身份",
+      "body": "身份",
+      "layout": "cards",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "关闭",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "地主、农民两枚身份徽章",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "52-card-and-effects.state.5",
+      "screen": "52-card-and-effects",
+      "index": 5,
+      "name": "特效",
+      "title": "特效",
+      "body": "特效",
+      "layout": "cards",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "关闭",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "炸弹、王炸、春天、反春天四个静态特效源",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "53-table-chat.state.0",
+      "screen": "53-table-chat",
+      "index": 0,
+      "name": "快捷语",
+      "title": "快捷语",
+      "body": "快捷语",
+      "layout": "chat",
+      "scene": "day",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "发送",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "快捷语页签选中，可发送预设语句。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "53-table-chat.state.1",
+      "screen": "53-table-chat",
+      "index": 1,
+      "name": "表情",
+      "title": "表情",
+      "body": "表情",
+      "layout": "chat",
+      "scene": "day",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "发送",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "当前图显示表情入口与四枚表情预览，完整表情列表复用卡片列表。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "53-table-chat.state.2",
+      "screen": "53-table-chat",
+      "index": 2,
+      "name": "语音中",
+      "title": "语音中",
+      "body": "语音中",
+      "layout": "voice",
+      "scene": "day",
+      "icon": "voice",
+      "actions": [
+        {
+          "label": "关闭",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "按住说话时显示录音中及取消提示，释放后发送由客户端实现。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "53-table-chat.state.3",
+      "screen": "53-table-chat",
+      "index": 3,
+      "name": "静音",
+      "title": "静音",
+      "body": "静音",
+      "layout": "voice",
+      "scene": "day",
+      "icon": "voice",
+      "actions": [
+        {
+          "label": "关闭",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "屏蔽开关选中并显示语音已屏蔽，不屏蔽文字。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "54-disband-vote.state.0",
+      "screen": "54-disband-vote",
+      "index": 0,
+      "name": "待投票",
+      "title": "待投票",
+      "body": "待投票",
+      "layout": "seats",
+      "scene": "day",
+      "icon": "friends",
+      "actions": [
+        {
+          "label": "邀请好友",
+          "disabled": false
+        },
+        {
+          "label": "准备",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "自己尚未选择，三位状态与剩余时间清晰。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "54-disband-vote.state.1",
+      "screen": "54-disband-vote",
+      "index": 1,
+      "name": "通过",
+      "title": "通过",
+      "body": "通过",
+      "layout": "inline",
+      "scene": "day",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "拒绝",
+          "disabled": false
+        },
+        {
+          "label": "同意",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "展示同意结果与已结算战绩入口；按规则完成当前局后结算。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "54-disband-vote.state.2",
+      "screen": "54-disband-vote",
+      "index": 2,
+      "name": "拒绝",
+      "title": "拒绝",
+      "body": "拒绝",
+      "layout": "inline",
+      "scene": "day",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "拒绝",
+          "disabled": false
+        },
+        {
+          "label": "同意",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "显示申请被拒绝，关闭投票并返回牌局。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "54-disband-vote.state.3",
+      "screen": "54-disband-vote",
+      "index": 3,
+      "name": "超时",
+      "title": "超时",
+      "body": "超时",
+      "layout": "error",
+      "scene": "day",
+      "icon": "network",
+      "actions": [
+        {
+          "label": "重试",
+          "disabled": false
+        },
+        {
+          "label": "返回",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "依据具体房间规则展示超时结果，不预设超时自动同意。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "55-card-counter.state.0",
+      "screen": "55-card-counter",
+      "index": 0,
+      "name": "可用",
+      "title": "可用",
+      "body": "可用",
+      "layout": "cards",
+      "scene": "day",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "关闭",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "记牌器可见并列出剩余点数数量，设计示意不是牌局合法性证明。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "55-card-counter.state.1",
+      "screen": "55-card-counter",
+      "index": 1,
+      "name": "未启用",
+      "title": "未启用",
+      "body": "未启用",
+      "layout": "locked",
+      "scene": "day",
+      "icon": "lock",
+      "actions": [
+        {
+          "label": "返回",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [
+        "未启用"
+      ],
+      "interactionSpec": "收起记牌器并显示启用入口。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "55-card-counter.state.2",
+      "screen": "55-card-counter",
+      "index": 2,
+      "name": "用尽",
+      "title": "用尽",
+      "body": "用尽",
+      "layout": "resource",
+      "scene": "day",
+      "icon": "coin",
+      "actions": [
+        {
+          "label": "关闭",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [
+        "用尽"
+      ],
+      "interactionSpec": "入口禁用且解释次数已用尽，不能残留旧计数。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "55-card-counter.state.3",
+      "screen": "55-card-counter",
+      "index": 3,
+      "name": "倍率明细",
+      "title": "倍率明细",
+      "body": "倍率明细",
+      "layout": "rules",
+      "scene": "day",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "关闭",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "显示底分、叫抢与加倍来源以及当前倍数。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "56-offline.state.0",
+      "screen": "56-offline",
+      "index": 0,
+      "name": "可开始",
+      "title": "可开始",
+      "body": "单机练习\n返回\n无需网络\n选择难度\n入门\n进阶\n挑战\n练习说明\n与两位电脑牌友对局\n练习不计入排位战绩\n开始练习\n继续上局\n暂无存档",
+      "layout": "inline",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "开始练习",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [
+        "无本地存档时继续上局为灰色且不响应点击，说明为暂无存档。"
+      ],
+      "interactionSpec": "选择一档难度，选中卡显示玉绿底和金勾；点击开始练习进入本地三人对局。\n返回进入大厅；本页无需网络。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "56-offline.state.1",
+      "screen": "56-offline",
+      "index": 1,
+      "name": "进行中",
+      "title": "进行中",
+      "body": "单机练习\n无需网络\n难度：{入门/进阶/挑战}\n电脑·桃花女修\n电脑·葫芦长者\n提示\n出牌\n暂停",
+      "layout": "table",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "开始练习",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [
+        "非本方回合或选择无效牌型时出牌不可用；无可压过牌时保留不出选择，不能虚假提交。"
+      ],
+      "interactionSpec": "复用14已绘制的三人牌桌布局与52牌面皮肤，两个对手绑定本地电脑；按真实牌型和回合更新手牌、底牌及身份。\n顶端模式栏原生文字改为单机练习及所选难度；保留无需网络标识，联网余额和排位数据不进入本局。\n右上设置位置使用51次按钮皮肤和原生文字暂停；点击进入暂停层，手牌与选中牌保留。\n提示/出牌沿用14的点击/选牌反馈，未选择合法牌时出牌禁用；电脑操作与计时由本地回合驱动。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "56-offline.state.2",
+      "screen": "56-offline",
+      "index": 2,
+      "name": "暂停",
+      "title": "暂停",
+      "body": "练习已暂停\n本地对局已暂停，手牌和当前回合将保留。\n继续练习\n重新开始\n退出练习",
+      "layout": "confirm",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "取消",
+          "disabled": false
+        },
+        {
+          "label": "确认",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [
+        "暂停遮罩期间手牌、提示、出牌和电脑轮次操作禁用，必须继续或明确退出。"
+      ],
+      "interactionSpec": "在进行中的牌桌上显示50-D01同款中央米白弹窗，标题为练习已暂停；遮罩拦截牌桌点击。\n继续练习为玉绿主按钮；重新开始为米白次按钮；退出练习为弹窗底部原生文字操作。\n关闭和继续均恢复原本地手牌/轮次/计时；暂停期间电脑决策和本地计时停住。\n重新开始触发D01二次确认：重新开始练习？/本局进度将被重置。/取消/重新开始；确认后同难度重开。\n退出触发D01二次确认：退出本次练习？/本局进度将不会保存。/取消/退出；确认回到难度页。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "56-offline.state.3",
+      "screen": "56-offline",
+      "index": 3,
+      "name": "结束",
+      "title": "结束",
+      "body": "本局练习结束\n{练习胜利 / 再接再厉}\n难度：{难度}\n本局身份：{地主/农民}\n练习不计入排位战绩，不结算铜钱。\n再练一局\n返回",
+      "layout": "result",
+      "scene": "lobby",
+      "icon": "trophy",
+      "actions": [
+        {
+          "label": "开始练习",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [
+        "结算层显示时手牌、提示、出牌不可操作；重开处理中主按钮暂禁用并显示正在开始。"
+      ],
+      "interactionSpec": "结束时冻结已完成牌桌，以50-D01同款双按钮结果面板显示原生结果、所选难度及本局身份。\n主按钮再练一局按相同难度创建新本地牌局；次按钮返回与关闭均回单机难度选择页。\n本地结果仅写练习记录；不显示联网货币增减、充值入口或伪造排位奖励。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "57-hero-skills.state.0",
+      "screen": "57-hero-skills",
+      "index": 0,
+      "name": "已拥有",
+      "title": "已拥有",
+      "body": "桃花女修\n已拥有",
+      "layout": "selection",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "选择角色",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "点击已拥有角色行，更新右侧对应能力说明并展示选择操作；不改变对局地主/农民身份。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "57-hero-skills.state.1",
+      "screen": "57-hero-skills",
+      "index": 1,
+      "name": "锁定",
+      "title": "锁定",
+      "body": "葫芦长者\n未解锁\n获取",
+      "layout": "locked",
+      "scene": "lobby",
+      "icon": "lock",
+      "actions": [
+        {
+          "label": "返回",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [
+        "尚未拥有葫芦长者，不能选择使用。"
+      ],
+      "interactionSpec": "锁定角色允许查看能力；获取按钮进入获取方式说明，拥有条件满足后转已拥有。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "57-hero-skills.state.2",
+      "screen": "57-hero-skills",
+      "index": 2,
+      "name": "已选",
+      "title": "已选",
+      "body": "玉绿道童\n已选择\n已选用",
+      "layout": "selection",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "选择角色",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [
+        "已是当前选择，无需重复提交。"
+      ],
+      "interactionSpec": "当前角色已选用，重复点击不再次提交；切换至另一拥有角色后可选择。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "57-hero-skills.state.3",
+      "screen": "57-hero-skills",
+      "index": 3,
+      "name": "说明",
+      "title": "说明",
+      "body": "静心\n获得一次出牌提示\n每局可使用一次\n仅英雄玩法生效\n技能说明",
+      "layout": "rules",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "关闭",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "选中角色时读取该角色对应的技能名、效果、每局限制和适用模式；静心为本项目示意配置。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "58-season-shop.state.0",
+      "screen": "58-season-shop",
+      "index": 0,
+      "name": "可兑",
+      "title": "可兑",
+      "body": "玉牌 680\n本赛季剩余 12天\n云纹牌背\n120 玉牌\n可兑 1/1\n兑换\n桃花头像框\n300 玉牌",
+      "layout": "resource",
+      "scene": "lobby",
+      "icon": "coin",
+      "actions": [
+        {
+          "label": "兑换",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "点击兑换打开确认提示；确认后提交当前奖励与一次兑换数量，成功后刷新余额和剩余次数。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "58-season-shop.state.1",
+      "screen": "58-season-shop",
+      "index": 1,
+      "name": "不足",
+      "title": "不足",
+      "body": "青云衣裳\n980 玉牌\n可兑 1/1\n玉牌不足",
+      "layout": "resource",
+      "scene": "lobby",
+      "icon": "coin",
+      "actions": [
+        {
+          "label": "兑换",
+          "disabled": true
+        }
+      ],
+      "disabledReasons": [
+        "当前示意余额680低于980成本，缺少300玉牌。"
+      ],
+      "interactionSpec": "本页余额不足卡的兑换操作禁用；可打开商品详情查看成本与当前余额，不发起兑换请求。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "58-season-shop.state.2",
+      "screen": "58-season-shop",
+      "index": 2,
+      "name": "已兑",
+      "title": "已兑",
+      "body": "铜钱礼包\n200 玉牌\n可兑 0/1\n已兑换",
+      "layout": "reward",
+      "scene": "lobby",
+      "icon": "gift",
+      "actions": [
+        {
+          "label": "领取",
+          "disabled": true
+        }
+      ],
+      "disabledReasons": [
+        "剩余兑换次数为0，本赛季已达到该奖励限兑上限。"
+      ],
+      "interactionSpec": "达到本赛季限兑次数后保留奖励及价格，兑换操作停用；兑换记录入口保留。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "58-season-shop.state.3",
+      "screen": "58-season-shop",
+      "index": 3,
+      "name": "到期",
+      "title": "到期",
+      "body": "本期兑换已结束\n兑换已结束\n本赛季兑换已到期，当前奖励暂不可兑换。\n已结束\n查看说明\n返回",
+      "layout": "locked",
+      "scene": "lobby",
+      "icon": "lock",
+      "actions": [
+        {
+          "label": "返回",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [
+        "兑换期限已结束，所有奖励停止兑换提交。"
+      ],
+      "interactionSpec": "到期由当前赛季结束时间触发；保留58主图的奖励卡结构，将剩余12天替换为本期兑换已结束。\n所有可兑换操作换用已核验primary-disabled皮肤并写已结束；无论余额与次数如何均不提交兑换。已兑记录继续可查看。\n按50-D06空态布局和51/panel、close、secondary-normal透明皮肤提供到期提示；原生文字层使用所列copy。\n查看说明打开具体赛季规则；返回或关闭仅退出提示并回到禁用兑换页；玉牌处置规则由最终业务文案提供，不自动清零。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "59-achievements-growth.state.0",
+      "screen": "59-achievements-growth",
+      "index": 0,
+      "name": "未达",
+      "title": "未达",
+      "body": "未达",
+      "layout": "progress",
+      "scene": "lobby",
+      "icon": "star",
+      "actions": [
+        {
+          "label": "领取奖励",
+          "disabled": true
+        }
+      ],
+      "disabledReasons": [
+        "未达"
+      ],
+      "interactionSpec": "用锁定/进度明确条件，未达到时奖励动作禁用。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "59-achievements-growth.state.1",
+      "screen": "59-achievements-growth",
+      "index": 1,
+      "name": "可领",
+      "title": "可领",
+      "body": "可领",
+      "layout": "reward",
+      "scene": "lobby",
+      "icon": "gift",
+      "actions": [
+        {
+          "label": "领取",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "突出主动作，操作中防重复；以真实回执更新完成态并显示奖励/消耗明细。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "59-achievements-growth.state.2",
+      "screen": "59-achievements-growth",
+      "index": 2,
+      "name": "已领",
+      "title": "已领",
+      "body": "已领",
+      "layout": "reward",
+      "scene": "lobby",
+      "icon": "gift",
+      "actions": [
+        {
+          "label": "领取",
+          "disabled": true
+        }
+      ],
+      "disabledReasons": [
+        "已领"
+      ],
+      "interactionSpec": "用勾记和文字表达完成态，动作禁用，不能重复领取或使用。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "59-achievements-growth.state.3",
+      "screen": "59-achievements-growth",
+      "index": 3,
+      "name": "满级",
+      "title": "已达最高等级",
+      "body": "当前成长等级已满，已获得奖励可在背包查看。",
+      "layout": "progress",
+      "scene": "lobby",
+      "icon": "star",
+      "actions": [
+        {
+          "label": "查看背包",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "经验条改为满级标识，隐藏升级动作；仍允许领取已达条件但未领取的成就奖励。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "60-account-notices.state.0",
+      "screen": "60-account-notices",
+      "index": 0,
+      "name": "切换确认",
+      "title": "切换账号",
+      "body": "切换后返回登录界面，当前下载进度将保留。",
+      "layout": "confirm",
+      "scene": "lobby",
+      "icon": "help",
+      "actions": [
+        {
+          "label": "确认切换",
+          "disabled": false
+        },
+        {
+          "label": "取消",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "确认退出当前会话，安全保存资源进度；取消继续停留版本页。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "60-account-notices.state.1",
+      "screen": "60-account-notices",
+      "index": 1,
+      "name": "维护",
+      "title": "服务器维护中",
+      "body": "当前服务暂不可用，请关注维护公告并稍后重试。",
+      "layout": "error",
+      "scene": "lobby",
+      "icon": "network",
+      "actions": [
+        {
+          "label": "查看公告",
+          "disabled": false
+        },
+        {
+          "label": "返回登录",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "登录/进入牌局禁用，维护时间仅展示真实公告内容；已有本地单机功能仍按可用条件进入。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "60-account-notices.state.2",
+      "screen": "60-account-notices",
+      "index": 2,
+      "name": "更新",
+      "title": "更新",
+      "body": "更新",
+      "layout": "loading",
+      "scene": "lobby",
+      "icon": "refresh",
+      "actions": [
+        {
+          "label": "取消",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "展示当前与目标版本、进度、暂停/继续和稍后；必要更新完成后才进入游戏。",
+      "visualReview": "pending_browser_visual_review"
+    },
+    {
+      "id": "60-account-notices.state.3",
+      "screen": "60-account-notices",
+      "index": 3,
+      "name": "下载失败",
+      "title": "资源下载失败",
+      "body": "请检查网络连接后重试，已下载的资源会保留。",
+      "layout": "error",
+      "scene": "lobby",
+      "icon": "network",
+      "actions": [
+        {
+          "label": "重新下载",
+          "disabled": false
+        },
+        {
+          "label": "稍后更新",
+          "disabled": false
+        }
+      ],
+      "disabledReasons": [],
+      "interactionSpec": "保留进度，停止重复请求；重试从安全断点恢复，必要更新未完成时禁用进入在线游戏。",
+      "visualReview": "pending_browser_visual_review"
+    }
+  ],
+  "counts": {
+    "total": 223,
+    "layouts": {
+      "login": 2,
+      "loading": 7,
+      "error": 11,
+      "inline": 16,
+      "badge": 1,
+      "selection": 13,
+      "locked": 17,
+      "rules": 7,
+      "resource": 10,
+      "empty": 11,
+      "form": 3,
+      "seats": 6,
+      "list": 12,
+      "table": 29,
+      "result": 18,
+      "confirm": 11,
+      "settings": 3,
+      "cards": 8,
+      "reward": 17,
+      "progress": 6,
+      "costume": 2,
+      "profile": 2,
+      "mail": 2,
+      "components": 5,
+      "chat": 2,
+      "voice": 2
+    }
+  },
+  "browserVisualReviewPassed": false
+}

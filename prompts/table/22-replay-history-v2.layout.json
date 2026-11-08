@@ -1,0 +1,169 @@
+{
+  "source": "designs/ui/table/22-replay-history-v1.png",
+  "output": "designs/ui/table/22-replay-history-v2.png",
+  "trays": [
+    {
+      "sourceRect": [
+        28,
+        0,
+        551,
+        267
+      ],
+      "rect": [
+        946,
+        532,
+        684,
+        146
+      ],
+      "border": 26,
+      "fillRect": [
+        955,
+        541,
+        665,
+        129
+      ]
+    },
+    {
+      "sourceRect": [
+        28,
+        0,
+        551,
+        267
+      ],
+      "rect": [
+        1106,
+        280,
+        167,
+        86
+      ],
+      "border": 20,
+      "fillRect": [
+        1117,
+        289,
+        149,
+        71
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "file": "assets/ui/cards-source/farmer.png",
+      "role": "女修为农民",
+      "rect": [
+        626,
+        432,
+        74,
+        54
+      ]
+    },
+    {
+      "file": "assets/ui/cards-source/landlord.png",
+      "role": "长者为地主",
+      "rect": [
+        1704,
+        449,
+        82,
+        58
+      ]
+    },
+    {
+      "file": "assets/ui/cards-source/farmer.png",
+      "role": "自己为农民",
+      "rect": [
+        639,
+        648,
+        68,
+        49
+      ]
+    }
+  ],
+  "cardGroups": [
+    {
+      "role": "回放中的14张手牌",
+      "rect": [
+        958,
+        540,
+        657,
+        130
+      ],
+      "cards": [
+        "spades-2",
+        "hearts-2",
+        "clubs-A",
+        "diamonds-K",
+        "spades-Q",
+        "spades-J",
+        "spades-10",
+        "hearts-9",
+        "hearts-8",
+        "clubs-8",
+        "clubs-7",
+        "diamonds-6",
+        "diamonds-5",
+        "clubs-3"
+      ],
+      "selectedIndexes": [],
+      "selectionLift": 0
+    },
+    {
+      "role": "回放中的三张公开底牌",
+      "rect": [
+        1115,
+        284,
+        152,
+        78
+      ],
+      "cards": [
+        "spades-A",
+        "hearts-K",
+        "diamonds-3"
+      ],
+      "selectedIndexes": [],
+      "selectionLift": 0
+    }
+  ],
+  "textOverlays": [
+    {
+      "text": "倍率 ×4",
+      "rect": [
+        445,
+        311,
+        96,
+        28
+      ],
+      "size": 18,
+      "color": "#14382c",
+      "backgroundColor": "#f2ead3",
+      "role": "胜利+800的底分100地主倍率4"
+    },
+    {
+      "text": "倍率 ×4",
+      "rect": [
+        445,
+        456,
+        96,
+        28
+      ],
+      "size": 18,
+      "color": "#14382c",
+      "backgroundColor": "#f4eddc",
+      "role": "农民失败−400的底分100倍率4"
+    },
+    {
+      "text": "底分 100  倍率 ×4",
+      "rect": [
+        1359,
+        194,
+        160,
+        31
+      ],
+      "size": 16,
+      "color": "#f5efd5",
+      "backgroundSamplePixel": [
+        1370,
+        197
+      ],
+      "role": "回放选中记录的倍率"
+    }
+  ]
+}

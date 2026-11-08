@@ -1,0 +1,591 @@
+{
+  "schemaVersion": 2,
+  "pageId": "58-season-shop",
+  "title": "赛季兑换",
+  "scopeSource": "docs/UI_SCOPE.json",
+  "scopeControls": [
+    "赛季代币",
+    "奖励",
+    "限兑次数",
+    "兑换"
+  ],
+  "requiredStates": [
+    "可兑",
+    "不足",
+    "已兑",
+    "到期"
+  ],
+  "status": "design_ready_user_review",
+  "renderedState": {
+    "status": "design_ready_user_review",
+    "coverage": "rendered",
+    "description": "赛季兑换完整主界面，可兑、不足与已兑同屏可见；到期通过公共控件复用设计",
+    "actualRequiredStates": [
+      "可兑",
+      "不足",
+      "已兑"
+    ],
+    "image": "designs/ui/core/58-season-shop-v1.png",
+    "generation": "designs/ui/core/58-season-shop-v1.generation.json"
+  },
+  "expectedOutput": "designs/ui/core/58-season-shop-v1.png",
+  "expectedGeneration": "designs/ui/core/58-season-shop-v1.generation.json",
+  "states": [
+    {
+      "name": "可兑",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/58-season-shop-v1.png",
+      "copy": [
+        "赛季令 680",
+        "本赛季剩余 12天",
+        "云纹牌背",
+        "120 赛季令",
+        "可兑 1/1",
+        "兑换",
+        "桃花头像框",
+        "300 赛季令"
+      ],
+      "behavior": [
+        "点击兑换打开确认提示；确认后提交当前奖励与一次兑换数量，成功后刷新余额和剩余次数。"
+      ],
+      "disabledReasons": [],
+      "dependencies": [],
+      "evidence": {
+        "inspectedAt": "2026-10-26T10:50:04.5930069+00:00",
+        "method": "view_image",
+        "note": "四卡左侧两卡的兑换按钮为可用玉绿态，成本120和300均不超过余额680，限兑1/1。",
+        "imageSha256": "65ab4f93908a8c87ef76a29551fe248108c4c6f123f5bdc3f2bd632ffc056dce"
+      },
+      "actualCopy": [
+        "赛季令 680",
+        "本赛季剩余 12天",
+        "云纹牌背",
+        "120 赛季令",
+        "可兑 1/1",
+        "兑换",
+        "桃花头像框",
+        "300 赛季令"
+      ]
+    },
+    {
+      "name": "不足",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/58-season-shop-v1.png",
+      "copy": [
+        "青云衣裳",
+        "980 赛季令",
+        "可兑 1/1",
+        "代币不足"
+      ],
+      "behavior": [
+        "本页余额不足卡的兑换操作禁用；可打开商品详情查看成本与当前余额，不发起兑换请求。"
+      ],
+      "disabledReasons": [
+        "当前示意余额680低于980成本，缺少300赛季令。"
+      ],
+      "dependencies": [],
+      "evidence": {
+        "inspectedAt": "2026-10-26T10:50:04.5930069+00:00",
+        "method": "view_image",
+        "note": "第3卡青云衣裳成本980，余额680；灰绿代币不足按钮实际可见。",
+        "imageSha256": "65ab4f93908a8c87ef76a29551fe248108c4c6f123f5bdc3f2bd632ffc056dce"
+      },
+      "actualCopy": [
+        "青云衣裳",
+        "980 赛季令",
+        "可兑 1/1",
+        "代币不足"
+      ]
+    },
+    {
+      "name": "已兑",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/58-season-shop-v1.png",
+      "copy": [
+        "金豆礼包",
+        "200 赛季令",
+        "可兑 0/1",
+        "已兑换"
+      ],
+      "behavior": [
+        "达到本赛季限兑次数后保留奖励及价格，兑换操作停用；兑换记录入口保留。"
+      ],
+      "disabledReasons": [
+        "剩余兑换次数为0，本赛季已达到该奖励限兑上限。"
+      ],
+      "dependencies": [],
+      "evidence": {
+        "inspectedAt": "2026-10-26T10:50:04.5930069+00:00",
+        "method": "view_image",
+        "note": "最右金豆礼包以已兑换印记和可兑0/1呈现上限已用尽，无可点击兑换按钮。",
+        "imageSha256": "65ab4f93908a8c87ef76a29551fe248108c4c6f123f5bdc3f2bd632ffc056dce"
+      },
+      "actualCopy": [
+        "金豆礼包",
+        "200 赛季令",
+        "可兑 0/1",
+        "已兑换"
+      ]
+    },
+    {
+      "name": "到期",
+      "coverage": "shared_component",
+      "status": "design_ready_user_review",
+      "image": null,
+      "copy": [
+        "本期兑换已结束",
+        "兑换已结束",
+        "本赛季兑换已到期，当前奖励暂不可兑换。",
+        "已结束",
+        "查看说明",
+        "返回"
+      ],
+      "behavior": [
+        "到期由当前赛季结束时间触发；保留58主图的奖励卡结构，将剩余12天替换为本期兑换已结束。",
+        "所有可兑换操作换用已核验primary-disabled皮肤并写已结束；无论余额与次数如何均不提交兑换。已兑记录继续可查看。",
+        "按50-D06空态布局和51/panel、close、secondary-normal透明皮肤提供到期提示；原生文字层使用所列copy。",
+        "查看说明打开具体赛季规则；返回或关闭仅退出提示并回到禁用兑换页；代币处置规则由最终业务文案提供，不自动清零。"
+      ],
+      "disabledReasons": [
+        "兑换期限已结束，所有奖励停止兑换提交。"
+      ],
+      "dependencies": [
+        {
+          "output": "designs/ui/components/50-shared-dialogs-v1.png",
+          "generation": "designs/ui/components/50-shared-dialogs-v1.generation.json",
+          "sha256": "45d20f3f85aa8fd8133b8665f1962f8d7e7b06a7cf3b7d41799837cf689598f7",
+          "locator": "D06：右下暂无内容面板，纸绢金边、空态插画和返回按钮；只复用已画皮肤与布局",
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedFiles": true,
+          "verifiedAt": "2026-10-26T10:50:04.5930069+00:00",
+          "method": "view_image and SHA256 comparison",
+          "sourceStatus": "design_ready_user_review"
+        },
+        {
+          "output": "designs/ui/components/51-common-components-v1.png",
+          "generation": "designs/ui/components/51-common-components-v1.generation.json",
+          "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+          "locator": "第1行主按钮（正常与禁用）、第2行次按钮、第6行空白面板和关闭按钮",
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedFiles": true,
+          "verifiedAt": "2026-10-26T10:50:04.5930069+00:00",
+          "method": "view_image and SHA256 comparison",
+          "sourceStatus": "design_ready_user_review"
+        },
+        {
+          "output": "assets/ui/controls/primary-disabled.png",
+          "generation": "assets/ui/controls/primary-disabled.derivation.json",
+          "sha256": "50eefaee2e8cdca171361b6c861eadb2ad1b664b772261f0c68690cb94b36490",
+          "locator": "透明禁用主按钮，源51第1行第4项，348×167原生裁切",
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedFiles": true,
+          "verifiedAt": "2026-10-26T10:50:04.5930069+00:00",
+          "method": "view_image and SHA256 comparison",
+          "sourceStatus": "derived_asset_ready_user_review"
+        },
+        {
+          "output": "assets/ui/controls/panel.png",
+          "generation": "assets/ui/controls/panel.derivation.json",
+          "sha256": "8cea325f107b9dae1b16addf4d4c5b3987defc6fef98dc89d65b0108c1321d6a",
+          "locator": "透明纸绢面板，源51第6行第1项，594×296原生裁切",
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedFiles": true,
+          "verifiedAt": "2026-10-26T10:50:04.5930069+00:00",
+          "method": "view_image and SHA256 comparison",
+          "sourceStatus": "derived_asset_ready_user_review"
+        },
+        {
+          "output": "assets/ui/controls/close.png",
+          "generation": "assets/ui/controls/close.derivation.json",
+          "sha256": "27d1ff0f868a0a167bb6a8bb1ee56fdfda0e5af4da37d9e775908860646a5731",
+          "locator": "透明圆形关闭，源51第6行第2项，284×295原生裁切",
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedFiles": true,
+          "verifiedAt": "2026-10-26T10:50:04.5930069+00:00",
+          "method": "view_image and SHA256 comparison",
+          "sourceStatus": "derived_asset_ready_user_review"
+        },
+        {
+          "output": "assets/ui/controls/secondary-normal.png",
+          "generation": "assets/ui/controls/secondary-normal.derivation.json",
+          "sha256": "9ba4a890ce8dc82f27a3468a1b8aad4586920da8111a35bc63ad1b801c93bd3d",
+          "locator": "透明米白次按钮，源51第2行第1项",
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedFiles": true,
+          "verifiedAt": "2026-10-26T10:50:04.5930069+00:00",
+          "method": "view_image and SHA256 comparison",
+          "sourceStatus": "derived_asset_ready_user_review"
+        }
+      ],
+      "evidence": {
+        "method": "view_image_and_verified_shared_component_reuse",
+        "inspectedAt": "2026-10-26T10:50:04.5930069+00:00",
+        "mainPageImage": "designs/ui/core/58-season-shop-v1.png",
+        "mainPageSha256": "65ab4f93908a8c87ef76a29551fe248108c4c6f123f5bdc3f2bd632ffc056dce",
+        "nativeTextAndDataReplacements": {
+          "pageTitle": "赛季兑换",
+          "countdown": "本期兑换已结束",
+          "dialogTitle": "兑换已结束",
+          "body": "本赛季兑换已到期，当前奖励暂不可兑换。",
+          "disabledAction": "已结束",
+          "primaryAction": "查看说明",
+          "secondaryAction": "返回",
+          "tokenBalance": "保留实际赛季令余额，页面不推断代币作废或自动转换规则"
+        },
+        "standaloneFullPageRendered": false,
+        "implementationStatus": "specified_only_not_implemented",
+        "note": "主图未绘到期。已实际检查50-D06和51透明板及本项列明的实际切片，再定义相同商品布局上的到期文案和禁用操作；此为共享视觉状态设计，不冒称另画过期屏。"
+      },
+      "reusePlan": {
+        "sources": [
+          {
+            "output": "designs/ui/components/50-shared-dialogs-v1.png",
+            "generation": "designs/ui/components/50-shared-dialogs-v1.generation.json",
+            "sha256": "45d20f3f85aa8fd8133b8665f1962f8d7e7b06a7cf3b7d41799837cf689598f7",
+            "locator": "D06：右下暂无内容面板，纸绢金边、空态插画和返回按钮；只复用已画皮肤与布局",
+            "verificationStatus": "file_record_and_visual_verified",
+            "verifiedFiles": true,
+            "verifiedAt": "2026-10-26T10:50:04.5930069+00:00",
+            "method": "view_image and SHA256 comparison",
+            "sourceStatus": "design_ready_user_review"
+          },
+          {
+            "output": "designs/ui/components/51-common-components-v1.png",
+            "generation": "designs/ui/components/51-common-components-v1.generation.json",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "locator": "第1行主按钮（正常与禁用）、第2行次按钮、第6行空白面板和关闭按钮",
+            "verificationStatus": "file_record_and_visual_verified",
+            "verifiedFiles": true,
+            "verifiedAt": "2026-10-26T10:50:04.5930069+00:00",
+            "method": "view_image and SHA256 comparison",
+            "sourceStatus": "design_ready_user_review"
+          },
+          {
+            "output": "assets/ui/controls/primary-disabled.png",
+            "generation": "assets/ui/controls/primary-disabled.derivation.json",
+            "sha256": "50eefaee2e8cdca171361b6c861eadb2ad1b664b772261f0c68690cb94b36490",
+            "locator": "透明禁用主按钮，源51第1行第4项，348×167原生裁切",
+            "verificationStatus": "file_record_and_visual_verified",
+            "verifiedFiles": true,
+            "verifiedAt": "2026-10-26T10:50:04.5930069+00:00",
+            "method": "view_image and SHA256 comparison",
+            "sourceStatus": "derived_asset_ready_user_review"
+          },
+          {
+            "output": "assets/ui/controls/panel.png",
+            "generation": "assets/ui/controls/panel.derivation.json",
+            "sha256": "8cea325f107b9dae1b16addf4d4c5b3987defc6fef98dc89d65b0108c1321d6a",
+            "locator": "透明纸绢面板，源51第6行第1项，594×296原生裁切",
+            "verificationStatus": "file_record_and_visual_verified",
+            "verifiedFiles": true,
+            "verifiedAt": "2026-10-26T10:50:04.5930069+00:00",
+            "method": "view_image and SHA256 comparison",
+            "sourceStatus": "derived_asset_ready_user_review"
+          },
+          {
+            "output": "assets/ui/controls/close.png",
+            "generation": "assets/ui/controls/close.derivation.json",
+            "sha256": "27d1ff0f868a0a167bb6a8bb1ee56fdfda0e5af4da37d9e775908860646a5731",
+            "locator": "透明圆形关闭，源51第6行第2项，284×295原生裁切",
+            "verificationStatus": "file_record_and_visual_verified",
+            "verifiedFiles": true,
+            "verifiedAt": "2026-10-26T10:50:04.5930069+00:00",
+            "method": "view_image and SHA256 comparison",
+            "sourceStatus": "derived_asset_ready_user_review"
+          },
+          {
+            "output": "assets/ui/controls/secondary-normal.png",
+            "generation": "assets/ui/controls/secondary-normal.derivation.json",
+            "sha256": "9ba4a890ce8dc82f27a3468a1b8aad4586920da8111a35bc63ad1b801c93bd3d",
+            "locator": "透明米白次按钮，源51第2行第1项",
+            "verificationStatus": "file_record_and_visual_verified",
+            "verifiedFiles": true,
+            "verifiedAt": "2026-10-26T10:50:04.5930069+00:00",
+            "method": "view_image and SHA256 comparison",
+            "sourceStatus": "derived_asset_ready_user_review"
+          }
+        ],
+        "nativeTextAndDataReplacements": {
+          "pageTitle": "赛季兑换",
+          "countdown": "本期兑换已结束",
+          "dialogTitle": "兑换已结束",
+          "body": "本赛季兑换已到期，当前奖励暂不可兑换。",
+          "disabledAction": "已结束",
+          "primaryAction": "查看说明",
+          "secondaryAction": "返回",
+          "tokenBalance": "保留实际赛季令余额，页面不推断代币作废或自动转换规则"
+        },
+        "standaloneFullPageRendered": false,
+        "layout": "保留58主图四商品卡与余额；顶部剩余时间替换成到期提示；禁用兑换，D06样式中央说明可关闭。"
+      }
+    }
+  ],
+  "supplementalStates": [
+    {
+      "name": "兑换确认",
+      "coverage": "shared_component",
+      "status": "design_ready_user_review",
+      "image": null,
+      "description": "采用50-D01确认框的双按钮布局及51透明面板、主次按钮；不另画整页。",
+      "dependencies": [
+        {
+          "output": "designs/ui/components/50-shared-dialogs-v1.png",
+          "generation": "designs/ui/components/50-shared-dialogs-v1.generation.json",
+          "sha256": "45d20f3f85aa8fd8133b8665f1962f8d7e7b06a7cf3b7d41799837cf689598f7",
+          "locator": "D01左上确认框：标题、正文、取消/确定双按钮",
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedFiles": true,
+          "verifiedAt": "2026-10-26T10:50:04.5930069+00:00",
+          "method": "view_image and SHA256 comparison",
+          "sourceStatus": "design_ready_user_review"
+        },
+        {
+          "output": "assets/ui/controls/panel.png",
+          "generation": "assets/ui/controls/panel.derivation.json",
+          "sha256": "8cea325f107b9dae1b16addf4d4c5b3987defc6fef98dc89d65b0108c1321d6a",
+          "locator": "透明纸绢面板，源51第6行第1项，594×296原生裁切",
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedFiles": true,
+          "verifiedAt": "2026-10-26T10:50:04.5930069+00:00",
+          "method": "view_image and SHA256 comparison",
+          "sourceStatus": "derived_asset_ready_user_review"
+        },
+        {
+          "output": "assets/ui/controls/primary-normal.png",
+          "generation": "assets/ui/controls/primary-normal.derivation.json",
+          "sha256": "a2aa9afff3b9ef559a23ddef8d1b991691c09a609b7ea96b453c56c586b5f021",
+          "locator": "透明玉绿正常主按钮，源51第1行第1项",
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedFiles": true,
+          "verifiedAt": "2026-10-26T10:50:04.5930069+00:00",
+          "method": "view_image and SHA256 comparison",
+          "sourceStatus": "derived_asset_ready_user_review"
+        },
+        {
+          "output": "assets/ui/controls/secondary-normal.png",
+          "generation": "assets/ui/controls/secondary-normal.derivation.json",
+          "sha256": "9ba4a890ce8dc82f27a3468a1b8aad4586920da8111a35bc63ad1b801c93bd3d",
+          "locator": "透明米白次按钮，源51第2行第1项",
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedFiles": true,
+          "verifiedAt": "2026-10-26T10:50:04.5930069+00:00",
+          "method": "view_image and SHA256 comparison",
+          "sourceStatus": "derived_asset_ready_user_review"
+        },
+        {
+          "output": "assets/ui/controls/close.png",
+          "generation": "assets/ui/controls/close.derivation.json",
+          "sha256": "27d1ff0f868a0a167bb6a8bb1ee56fdfda0e5af4da37d9e775908860646a5731",
+          "locator": "透明圆形关闭，源51第6行第2项，284×295原生裁切",
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedFiles": true,
+          "verifiedAt": "2026-10-26T10:50:04.5930069+00:00",
+          "method": "view_image and SHA256 comparison",
+          "sourceStatus": "derived_asset_ready_user_review"
+        }
+      ],
+      "copy": [
+        "确认兑换",
+        "使用120赛季令兑换云纹牌背？",
+        "取消",
+        "兑换"
+      ],
+      "behavior": [
+        "将商品名、成本和数量替换为实际选择；取消不提交；兑换提交一次并锁住重复点击。"
+      ],
+      "disabledReasons": [
+        "提交期间禁止重复兑换；余额、次数或期限失效时取消提交并刷新对应必需状态。"
+      ],
+      "evidence": {
+        "method": "view_image_and_verified_shared_component_reuse",
+        "standaloneFullPageRendered": false,
+        "implementationStatus": "specified_only_not_implemented",
+        "inspectedAt": "2026-10-26T10:50:04.5930069+00:00"
+      },
+      "note": "补充状态，不计入scope四个必要状态。"
+    },
+    {
+      "name": "兑换成功",
+      "coverage": "shared_component",
+      "status": "design_ready_user_review",
+      "image": null,
+      "description": "采用50-D04获得奖励布局；奖励图标来自58主图对应商品，皮肤复用51透明面板与主按钮。",
+      "dependencies": [
+        {
+          "output": "designs/ui/components/50-shared-dialogs-v1.png",
+          "generation": "designs/ui/components/50-shared-dialogs-v1.generation.json",
+          "sha256": "45d20f3f85aa8fd8133b8665f1962f8d7e7b06a7cf3b7d41799837cf689598f7",
+          "locator": "D04左下获得奖励：奖励图标、名称数量、确认按钮",
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedFiles": true,
+          "verifiedAt": "2026-10-26T10:50:04.5930069+00:00",
+          "method": "view_image and SHA256 comparison",
+          "sourceStatus": "design_ready_user_review"
+        },
+        {
+          "output": "assets/ui/controls/panel.png",
+          "generation": "assets/ui/controls/panel.derivation.json",
+          "sha256": "8cea325f107b9dae1b16addf4d4c5b3987defc6fef98dc89d65b0108c1321d6a",
+          "locator": "透明纸绢面板，源51第6行第1项，594×296原生裁切",
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedFiles": true,
+          "verifiedAt": "2026-10-26T10:50:04.5930069+00:00",
+          "method": "view_image and SHA256 comparison",
+          "sourceStatus": "derived_asset_ready_user_review"
+        },
+        {
+          "output": "assets/ui/controls/primary-normal.png",
+          "generation": "assets/ui/controls/primary-normal.derivation.json",
+          "sha256": "a2aa9afff3b9ef559a23ddef8d1b991691c09a609b7ea96b453c56c586b5f021",
+          "locator": "透明玉绿正常主按钮，源51第1行第1项",
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedFiles": true,
+          "verifiedAt": "2026-10-26T10:50:04.5930069+00:00",
+          "method": "view_image and SHA256 comparison",
+          "sourceStatus": "derived_asset_ready_user_review"
+        },
+        {
+          "output": "assets/ui/controls/close.png",
+          "generation": "assets/ui/controls/close.derivation.json",
+          "sha256": "27d1ff0f868a0a167bb6a8bb1ee56fdfda0e5af4da37d9e775908860646a5731",
+          "locator": "透明圆形关闭，源51第6行第2项，284×295原生裁切",
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedFiles": true,
+          "verifiedAt": "2026-10-26T10:50:04.5930069+00:00",
+          "method": "view_image and SHA256 comparison",
+          "sourceStatus": "derived_asset_ready_user_review"
+        }
+      ],
+      "copy": [
+        "兑换成功",
+        "云纹牌背 ×1",
+        "确定"
+      ],
+      "behavior": [
+        "成功后显示实际奖励名称与数量；刷新余额和剩余限兑次数；确定或关闭返回商品页。"
+      ],
+      "disabledReasons": [],
+      "evidence": {
+        "method": "view_image_and_verified_shared_component_reuse",
+        "note": "复用D04布局，不将其金币图标当作云纹牌背；奖励视觉引用58实际商品图。",
+        "standaloneFullPageRendered": false,
+        "implementationStatus": "specified_only_not_implemented",
+        "inspectedAt": "2026-10-26T10:50:04.5930069+00:00"
+      },
+      "note": "补充状态，不计入scope四个必要状态。"
+    }
+  ],
+  "stateTransitions": [
+    {
+      "from": "可兑",
+      "trigger": "余额减少不足",
+      "to": "不足",
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "from": "不足",
+      "trigger": "补足代币",
+      "to": "可兑",
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "from": "可兑",
+      "trigger": "兑换成功且达到限兑上限",
+      "to": "已兑",
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "from": "可兑",
+      "trigger": "兑换期结束",
+      "to": "到期",
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "from": "不足",
+      "trigger": "兑换期结束",
+      "to": "到期",
+      "implementationStatus": "specified_only_not_implemented"
+    }
+  ],
+  "copy": {
+    "status": "main_image_verified_shared_state_copy_specified",
+    "actualVisibleText": [
+      "返回",
+      "赛季兑换",
+      "赛季令 680",
+      "本赛季剩余 12天",
+      "云纹牌背",
+      "120 赛季令",
+      "可兑 1/1",
+      "兑换",
+      "桃花头像框",
+      "300 赛季令",
+      "青云衣裳",
+      "980 赛季令",
+      "代币不足",
+      "金豆礼包",
+      "200 赛季令",
+      "可兑 0/1",
+      "已兑换",
+      "赛季说明",
+      "兑换记录"
+    ],
+    "note": "actualVisibleText和各rendered项actualCopy为实际看图文字；shared_component原生替换文字是设计规范，不是已绘整页。"
+  },
+  "assumptions": [
+    "已逐字对齐 docs/UI_SCOPE.json 的 controls 与 requiredStates；页面和状态布局为本项目原创设计。",
+    "数值、房号120816、输入1208__、昵称和邀请文字均仅设计示意，不对应真实账户、房间、价格或业务记录。",
+    "默认规则、技能内容、货币门槛、限制、邀请策略和具体交互仍属设计假设；以最终产品规则为准。",
+    "公开资料仅核对模块范围；未逐屏实测腾讯当前客户端，不声称其各平台均采用此布局和行为。",
+    "只交付静态美术与状态规范，未实现客户端、服务器、支付或社交发送。",
+    "指定主画面需实际生成并看图后才可记 rendered；描述和未来共享依赖不能当作已画状态。"
+  ],
+  "userApproval": false,
+  "visualQA": {
+    "status": "passed_for_design_review",
+    "reviewer": "last_two_qa",
+    "inspectedAt": "2026-10-26T10:50:04.5930069+00:00",
+    "method": "view_image",
+    "image": "designs/ui/core/58-season-shop-v1.png",
+    "imageSha256": "65ab4f93908a8c87ef76a29551fe248108c4c6f123f5bdc3f2bd632ffc056dce",
+    "userApproval": false,
+    "findings": [
+      {
+        "severity": "pass",
+        "detail": "赛季令680、剩余12天可读；四卡名称、奖励图标及120/300/980/200成本完整；前两卡可兑换与余额一致。",
+        "subject": "商品与余额"
+      },
+      {
+        "severity": "pass",
+        "detail": "青云衣裳980高于680，按钮灰化并写代币不足；金豆礼包显示可兑0/1与已兑换印记，没有可点兑换按钮。",
+        "subject": "不足与已兑"
+      },
+      {
+        "severity": "pass",
+        "detail": "道童位于左侧，四张商品卡和底部赛季说明、兑换记录未被遮挡；手绘玉绿金玉和纸绢体系一致。",
+        "subject": "布局与风格"
+      },
+      {
+        "severity": "note",
+        "detail": "本图仍处于剩余12天，不能记为到期已画。到期复用实际查看且哈希核验的50-D06及51/透明控件，具体文案、按钮和禁用规则写入states，未另绘整屏。",
+        "subject": "到期覆盖"
+      },
+      {
+        "severity": "note",
+        "detail": "余额、成本、限兑次数、赛季期限均为设计示意，未接入兑换、支付或后台。",
+        "subject": "示例数据"
+      }
+    ],
+    "blockingIssues": []
+  },
+  "coverageSummary": {
+    "requiredTotal": 4,
+    "rendered": 3,
+    "shared_component": 1,
+    "specified_only": 0,
+    "note": "仅统计scope requiredStates；rendered依据实际主图，shared_component依据已核验组件及具体状态映射；未另画整页且未实现动态交互。"
+  }
+}

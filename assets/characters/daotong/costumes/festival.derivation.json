@@ -1,0 +1,45 @@
+{
+  "id": "daotong_festival",
+  "file": "assets/characters/daotong/costumes/festival.png",
+  "record": "assets/characters/daotong/costumes/festival.derivation.json",
+  "kind": "character_costume",
+  "width": 1024,
+  "height": 1024,
+  "anchor": [
+    512,
+    920
+  ],
+  "sha256": "702667837115c219c4e24c5679ed741546cb8ea03c87ecf3020ebb737f985e19",
+  "operation": "AI-generated-costume-variant-cropped-and-scaled-with-daotong-fixed-profile",
+  "derivedFrom": {
+    "file": "designs/characters/runtime-20261026/daotong-costume-festival-v1.png",
+    "sha256": "47e4e726547471c32381f43dcfa5134b5491dda6a15ae9f37abeae2573d4b789",
+    "record": "designs/characters/runtime-20261026/daotong-costume-festival-v1.generation.json"
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "significantBorderPixels": 0,
+  "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+  "art_source": "existing",
+  "status": "asset_ready_user_review",
+  "costumeName": "庆典红衣",
+  "characterId": "daotong",
+  "sourceRect": [
+    181,
+    26,
+    1168,
+    1225
+  ],
+  "sourceAnchor": [
+    674.5,
+    1219
+  ],
+  "fixedScale": 0.6739679865206403,
+  "offset": [
+    179,
+    116
+  ],
+  "noUpscale": true
+}

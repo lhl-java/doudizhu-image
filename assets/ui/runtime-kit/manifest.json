@@ -1,0 +1,2315 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-26T15:40:00.849972-04:00",
+  "art_source": "host_image",
+  "route": "builtin",
+  "status": "runtime_kit_ready_user_review",
+  "note": "48 icons + 16 blank skins planned. True native RGBA; adaptive transparent-gap crops and alpha hygiene, no source art resized or code-drawn. Dynamic labels are native text per font-contract.",
+  "counts": {
+    "icons": 48,
+    "skins": 16,
+    "total": 64
+  },
+  "assets": [
+    {
+      "id": "home",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/home.png",
+      "record": "assets/ui/runtime-kit/icons/home.derivation.json",
+      "sha256": "934502fa338c31d588fe1c6d76043ca71c166f3d26beb934d84f5e4fe829eeb7",
+      "width": 305,
+      "height": 273,
+      "alpha": {
+        "zeroPixels": 29531,
+        "partialPixels": 53660,
+        "opaquePixels": 74,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-navigation-v2",
+      "sourceRect": [
+        27,
+        58,
+        332,
+        331
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "back",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/back.png",
+      "record": "assets/ui/runtime-kit/icons/back.derivation.json",
+      "sha256": "4a09866bb7e8e2b004c099a2bce05c8d4ab041f4e5aa45133d6f2a6f99e3afc8",
+      "width": 242,
+      "height": 247,
+      "alpha": {
+        "zeroPixels": 32596,
+        "partialPixels": 27111,
+        "opaquePixels": 67,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-navigation-v2",
+      "sourceRect": [
+        370,
+        88,
+        612,
+        335
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "close",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/close.png",
+      "record": "assets/ui/runtime-kit/icons/close.derivation.json",
+      "sha256": "18a5913805d489078d2264b1cac5d3a0c36af0c806785f0a3c67e3200ca6b8e8",
+      "width": 257,
+      "height": 259,
+      "alpha": {
+        "zeroPixels": 22783,
+        "partialPixels": 43677,
+        "opaquePixels": 103,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-navigation-v2",
+      "sourceRect": [
+        663,
+        67,
+        920,
+        326
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "settings",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/settings.png",
+      "record": "assets/ui/runtime-kit/icons/settings.derivation.json",
+      "sha256": "9da711eb650a151cbb98a7d050b2752d71f5dfcf020e8538381be853d346b767",
+      "width": 252,
+      "height": 257,
+      "alpha": {
+        "zeroPixels": 22978,
+        "partialPixels": 41659,
+        "opaquePixels": 127,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-navigation-v2",
+      "sourceRect": [
+        956,
+        75,
+        1208,
+        332
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "help",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/help.png",
+      "record": "assets/ui/runtime-kit/icons/help.derivation.json",
+      "sha256": "7094d2ca6e4089c1a8926f51cdbdba185ea486c303b93244932deb69fa201372",
+      "width": 294,
+      "height": 251,
+      "alpha": {
+        "zeroPixels": 25077,
+        "partialPixels": 48621,
+        "opaquePixels": 96,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-navigation-v2",
+      "sourceRect": [
+        44,
+        369,
+        338,
+        620
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "profile",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/profile.png",
+      "record": "assets/ui/runtime-kit/icons/profile.derivation.json",
+      "sha256": "0dd68b2a4512ea40dbb8eb4798ffff52374db3be0d1a3fc557d001ec11719df2",
+      "width": 234,
+      "height": 241,
+      "alpha": {
+        "zeroPixels": 22003,
+        "partialPixels": 34344,
+        "opaquePixels": 47,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-navigation-v2",
+      "sourceRect": [
+        383,
+        366,
+        617,
+        607
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "friends",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/friends.png",
+      "record": "assets/ui/runtime-kit/icons/friends.derivation.json",
+      "sha256": "8dd481fd062087e22f6575ba1d8582f139dcc0f8530ed3db50aa9f5c86548776",
+      "width": 266,
+      "height": 247,
+      "alpha": {
+        "zeroPixels": 25662,
+        "partialPixels": 39986,
+        "opaquePixels": 54,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-navigation-v2",
+      "sourceRect": [
+        653,
+        368,
+        919,
+        615
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "mail",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/mail.png",
+      "record": "assets/ui/runtime-kit/icons/mail.derivation.json",
+      "sha256": "39a2bf8fb84486a1b97f00d79d2cae87c6b1a303bb5da34d82695c0664a6ce00",
+      "width": 280,
+      "height": 230,
+      "alpha": {
+        "zeroPixels": 24861,
+        "partialPixels": 39464,
+        "opaquePixels": 75,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-navigation-v2",
+      "sourceRect": [
+        948,
+        376,
+        1228,
+        606
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "task",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/task.png",
+      "record": "assets/ui/runtime-kit/icons/task.derivation.json",
+      "sha256": "dd7e1fd95954fdc46342b212d3f610f8b2452b50e97e9a99838426ebab556ddb",
+      "width": 272,
+      "height": 269,
+      "alpha": {
+        "zeroPixels": 25419,
+        "partialPixels": 47644,
+        "opaquePixels": 105,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-navigation-v2",
+      "sourceRect": [
+        38,
+        634,
+        310,
+        903
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "signin",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/signin.png",
+      "record": "assets/ui/runtime-kit/icons/signin.derivation.json",
+      "sha256": "ddc17f6e1557f9d292715d6d26ab39464495253e182aacbdd13f5ff4ade92f88",
+      "width": 280,
+      "height": 254,
+      "alpha": {
+        "zeroPixels": 23763,
+        "partialPixels": 47299,
+        "opaquePixels": 58,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-navigation-v2",
+      "sourceRect": [
+        341,
+        640,
+        621,
+        894
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "events",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/events.png",
+      "record": "assets/ui/runtime-kit/icons/events.derivation.json",
+      "sha256": "700008e3cc21c760cee48080dac1abcae9a5da823aa3ab5c24be1d80fe84b78d",
+      "width": 275,
+      "height": 281,
+      "alpha": {
+        "zeroPixels": 40065,
+        "partialPixels": 37143,
+        "opaquePixels": 67,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-navigation-v2",
+      "sourceRect": [
+        638,
+        638,
+        913,
+        919
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "shop",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/shop.png",
+      "record": "assets/ui/runtime-kit/icons/shop.derivation.json",
+      "sha256": "e8bc6d8445daebdf62956bbad11060f924e2781f45c276373bbaf89c99a6bc52",
+      "width": 283,
+      "height": 276,
+      "alpha": {
+        "zeroPixels": 24396,
+        "partialPixels": 53616,
+        "opaquePixels": 96,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-navigation-v2",
+      "sourceRect": [
+        940,
+        630,
+        1223,
+        906
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "inventory",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/inventory.png",
+      "record": "assets/ui/runtime-kit/icons/inventory.derivation.json",
+      "sha256": "5eba977919746360e76ea2a1d77e84022f79b9b9ce9615423f9cde1a606d5595",
+      "width": 264,
+      "height": 269,
+      "alpha": {
+        "zeroPixels": 22523,
+        "partialPixels": 48354,
+        "opaquePixels": 139,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-navigation-v2",
+      "sourceRect": [
+        35,
+        929,
+        299,
+        1198
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "wardrobe",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/wardrobe.png",
+      "record": "assets/ui/runtime-kit/icons/wardrobe.derivation.json",
+      "sha256": "909ebac4529dce660ec1182265ceadede264534d0a900c2f9fb85a915eb0cb7b",
+      "width": 284,
+      "height": 251,
+      "alpha": {
+        "zeroPixels": 22019,
+        "partialPixels": 49201,
+        "opaquePixels": 64,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-navigation-v2",
+      "sourceRect": [
+        335,
+        944,
+        619,
+        1195
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "character",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/character.png",
+      "record": "assets/ui/runtime-kit/icons/character.derivation.json",
+      "sha256": "8c0af45ec83033b046b304daf87c8bb137358cd9c4b4e32d56636a91afecb2a6",
+      "width": 306,
+      "height": 272,
+      "alpha": {
+        "zeroPixels": 31285,
+        "partialPixels": 51834,
+        "opaquePixels": 113,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-navigation-v2",
+      "sourceRect": [
+        636,
+        928,
+        942,
+        1200
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "rank",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/rank.png",
+      "record": "assets/ui/runtime-kit/icons/rank.derivation.json",
+      "sha256": "6445a02e10d33ae7cf1da93eacecf84d5a8f69cf8d7da71095ccd2e3281eda92",
+      "width": 272,
+      "height": 251,
+      "alpha": {
+        "zeroPixels": 19416,
+        "partialPixels": 48701,
+        "opaquePixels": 155,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-navigation-v2",
+      "sourceRect": [
+        946,
+        941,
+        1218,
+        1192
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "classic",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/classic.png",
+      "record": "assets/ui/runtime-kit/icons/classic.derivation.json",
+      "sha256": "17f4efc319bff8f3aaa77f0e6260f026da16d2ac1a4d072557f369038fcfcee7",
+      "width": 269,
+      "height": 239,
+      "alpha": {
+        "zeroPixels": 28513,
+        "partialPixels": 35743,
+        "opaquePixels": 35,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-gameplay-v1",
+      "sourceRect": [
+        36,
+        79,
+        305,
+        318
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "friend-room",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/friend-room.png",
+      "record": "assets/ui/runtime-kit/icons/friend-room.derivation.json",
+      "sha256": "5d820a937f248e707b73152385d341010b3bbec594ca92cb4fee574073ece2a4",
+      "width": 270,
+      "height": 206,
+      "alpha": {
+        "zeroPixels": 23897,
+        "partialPixels": 31671,
+        "opaquePixels": 52,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-gameplay-v1",
+      "sourceRect": [
+        337,
+        82,
+        607,
+        288
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "tournament",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/tournament.png",
+      "record": "assets/ui/runtime-kit/icons/tournament.derivation.json",
+      "sha256": "2179eb8a1af548aa187429f8ea06fe96ee7d845b35e670276659d0d496809dd7",
+      "width": 265,
+      "height": 238,
+      "alpha": {
+        "zeroPixels": 20207,
+        "partialPixels": 42802,
+        "opaquePixels": 61,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-gameplay-v1",
+      "sourceRect": [
+        647,
+        75,
+        912,
+        313
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "puzzle",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/puzzle.png",
+      "record": "assets/ui/runtime-kit/icons/puzzle.derivation.json",
+      "sha256": "13533c7057b57c528d563ed898f04c6662616dd066a680b01a38faa3c4936208",
+      "width": 259,
+      "height": 236,
+      "alpha": {
+        "zeroPixels": 25525,
+        "partialPixels": 35544,
+        "opaquePixels": 55,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-gameplay-v1",
+      "sourceRect": [
+        971,
+        73,
+        1230,
+        309
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "practice",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/practice.png",
+      "record": "assets/ui/runtime-kit/icons/practice.derivation.json",
+      "sha256": "ed4e39daece78800aa08283844085f1e84a7f363ee31e51cd5c5d8dc06d986e7",
+      "width": 249,
+      "height": 252,
+      "alpha": {
+        "zeroPixels": 24741,
+        "partialPixels": 37974,
+        "opaquePixels": 33,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-gameplay-v1",
+      "sourceRect": [
+        36,
+        374,
+        285,
+        626
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "skills",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/skills.png",
+      "record": "assets/ui/runtime-kit/icons/skills.derivation.json",
+      "sha256": "9344435f16596ce33ba20e4706c3ea1a60b0090a24eaccc1ed5b2c314f49b6d6",
+      "width": 268,
+      "height": 247,
+      "alpha": {
+        "zeroPixels": 27912,
+        "partialPixels": 38261,
+        "opaquePixels": 23,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-gameplay-v1",
+      "sourceRect": [
+        343,
+        369,
+        611,
+        616
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "season",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/season.png",
+      "record": "assets/ui/runtime-kit/icons/season.derivation.json",
+      "sha256": "46eabc61a9d06339dc7339ab73930dac86b150113fad1782ed49c7ac979d293a",
+      "width": 256,
+      "height": 253,
+      "alpha": {
+        "zeroPixels": 24035,
+        "partialPixels": 40722,
+        "opaquePixels": 11,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-gameplay-v1",
+      "sourceRect": [
+        656,
+        366,
+        912,
+        619
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "replay",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/replay.png",
+      "record": "assets/ui/runtime-kit/icons/replay.derivation.json",
+      "sha256": "a17153b17ce81530b1b5c033934d11b5d132b098b3e8960c5d5d9a3a8effd0ff",
+      "width": 256,
+      "height": 244,
+      "alpha": {
+        "zeroPixels": 29579,
+        "partialPixels": 32867,
+        "opaquePixels": 18,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-gameplay-v1",
+      "sourceRect": [
+        965,
+        374,
+        1221,
+        618
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "chat",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/chat.png",
+      "record": "assets/ui/runtime-kit/icons/chat.derivation.json",
+      "sha256": "0cf014d0b7afeb0ea8d087ae77e7126dd5aada1502742800918b1c0d3008da0c",
+      "width": 269,
+      "height": 226,
+      "alpha": {
+        "zeroPixels": 25077,
+        "partialPixels": 35686,
+        "opaquePixels": 31,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-gameplay-v1",
+      "sourceRect": [
+        36,
+        681,
+        305,
+        907
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "emoji",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/emoji.png",
+      "record": "assets/ui/runtime-kit/icons/emoji.derivation.json",
+      "sha256": "4ccbcafb06874c8cd37896229a89a2308a1f4af4e11b6a114efdb78b9d64034b",
+      "width": 236,
+      "height": 228,
+      "alpha": {
+        "zeroPixels": 19848,
+        "partialPixels": 33919,
+        "opaquePixels": 41,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-gameplay-v1",
+      "sourceRect": [
+        360,
+        687,
+        596,
+        915
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "voice",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/voice.png",
+      "record": "assets/ui/runtime-kit/icons/voice.derivation.json",
+      "sha256": "047d80008abe71c60ea17d4ff4a297b657b55b93da5b4f88e2cf4ac5d2d77937",
+      "width": 222,
+      "height": 242,
+      "alpha": {
+        "zeroPixels": 23221,
+        "partialPixels": 30473,
+        "opaquePixels": 30,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-gameplay-v1",
+      "sourceRect": [
+        673,
+        665,
+        895,
+        907
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "mute",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/mute.png",
+      "record": "assets/ui/runtime-kit/icons/mute.derivation.json",
+      "sha256": "b95b3f6e2ac57ea987032e60c7f42cf028a2213a6f8501f8821f107df25566bf",
+      "width": 206,
+      "height": 244,
+      "alpha": {
+        "zeroPixels": 22699,
+        "partialPixels": 27519,
+        "opaquePixels": 46,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-gameplay-v1",
+      "sourceRect": [
+        996,
+        665,
+        1202,
+        909
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "sound",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/sound.png",
+      "record": "assets/ui/runtime-kit/icons/sound.derivation.json",
+      "sha256": "a3914e35ab295f54fe0f9f7ec54327894dabc887d93d584ad2e661ad4953fe3c",
+      "width": 267,
+      "height": 236,
+      "alpha": {
+        "zeroPixels": 31736,
+        "partialPixels": 31227,
+        "opaquePixels": 49,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-gameplay-v1",
+      "sourceRect": [
+        33,
+        970,
+        300,
+        1206
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "music",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/music.png",
+      "record": "assets/ui/runtime-kit/icons/music.derivation.json",
+      "sha256": "52156de9859b5f00579286f3f1cde73b784790fb8ceda99f67a8984e1fae683c",
+      "width": 250,
+      "height": 213,
+      "alpha": {
+        "zeroPixels": 32070,
+        "partialPixels": 21150,
+        "opaquePixels": 30,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-gameplay-v1",
+      "sourceRect": [
+        350,
+        977,
+        600,
+        1190
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "vibration",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/vibration.png",
+      "record": "assets/ui/runtime-kit/icons/vibration.derivation.json",
+      "sha256": "454fe5fd04fbe1f7c9b465681e2f74b781e2b63ff0a25e2a7ca2948d3cb854cd",
+      "width": 237,
+      "height": 222,
+      "alpha": {
+        "zeroPixels": 21656,
+        "partialPixels": 30918,
+        "opaquePixels": 40,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-gameplay-v1",
+      "sourceRect": [
+        666,
+        968,
+        903,
+        1190
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "network",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/network.png",
+      "record": "assets/ui/runtime-kit/icons/network.derivation.json",
+      "sha256": "367dd21bc8df83f0106c43f2575e295c00599691257204cb28cb0fd143cedfec",
+      "width": 257,
+      "height": 208,
+      "alpha": {
+        "zeroPixels": 29078,
+        "partialPixels": 24348,
+        "opaquePixels": 30,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-gameplay-v1",
+      "sourceRect": [
+        973,
+        977,
+        1230,
+        1185
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "coin",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/coin.png",
+      "record": "assets/ui/runtime-kit/icons/coin.derivation.json",
+      "sha256": "8ba640f476a8e6ccddc78aea72c28e78e1eac7f5e6240aed9b89e9b3ab083778",
+      "width": 259,
+      "height": 238,
+      "alpha": {
+        "zeroPixels": 21462,
+        "partialPixels": 40113,
+        "opaquePixels": 67,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-resources-v1",
+      "sourceRect": [
+        34,
+        77,
+        293,
+        315
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "token",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/token.png",
+      "record": "assets/ui/runtime-kit/icons/token.derivation.json",
+      "sha256": "a6a051729fc21d6b42d0b02318226d7f1cf7681909cc2aaf93015c3594061205",
+      "width": 249,
+      "height": 222,
+      "alpha": {
+        "zeroPixels": 17773,
+        "partialPixels": 37451,
+        "opaquePixels": 54,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-resources-v1",
+      "sourceRect": [
+        354,
+        85,
+        603,
+        307
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "gift",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/gift.png",
+      "record": "assets/ui/runtime-kit/icons/gift.derivation.json",
+      "sha256": "977ac5669ae728347fda21c6783a9623d0b27ba01ce10b933c995ac36e6e2f03",
+      "width": 285,
+      "height": 260,
+      "alpha": {
+        "zeroPixels": 23717,
+        "partialPixels": 50297,
+        "opaquePixels": 86,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-resources-v1",
+      "sourceRect": [
+        659,
+        70,
+        944,
+        330
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "trophy",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/trophy.png",
+      "record": "assets/ui/runtime-kit/icons/trophy.derivation.json",
+      "sha256": "6dcd9eb8af7ede490fc0e9494dfc95dbafac4dde5c5ba994b40682f97b5a9054",
+      "width": 270,
+      "height": 281,
+      "alpha": {
+        "zeroPixels": 33145,
+        "partialPixels": 42650,
+        "opaquePixels": 75,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-resources-v1",
+      "sourceRect": [
+        965,
+        51,
+        1235,
+        332
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "star",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/star.png",
+      "record": "assets/ui/runtime-kit/icons/star.derivation.json",
+      "sha256": "ce2a5292d7e7f5ffbba3a22d5d4b2cd99b568de1c72d9895c09d0a5a363b2e41",
+      "width": 248,
+      "height": 238,
+      "alpha": {
+        "zeroPixels": 27810,
+        "partialPixels": 31184,
+        "opaquePixels": 30,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-resources-v1",
+      "sourceRect": [
+        46,
+        374,
+        294,
+        612
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "lock",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/lock.png",
+      "record": "assets/ui/runtime-kit/icons/lock.derivation.json",
+      "sha256": "686ddb7ae4414a4b2439e44f4efe9f6229077f64a2be6e3e999bbdc5807a80b7",
+      "width": 259,
+      "height": 250,
+      "alpha": {
+        "zeroPixels": 24200,
+        "partialPixels": 40525,
+        "opaquePixels": 25,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-resources-v1",
+      "sourceRect": [
+        351,
+        365,
+        610,
+        615
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "check",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/check.png",
+      "record": "assets/ui/runtime-kit/icons/check.derivation.json",
+      "sha256": "d1ea9bdc52505ee476e896034e94a79e892da8e23a36169684a1e99f5718e33f",
+      "width": 266,
+      "height": 217,
+      "alpha": {
+        "zeroPixels": 32195,
+        "partialPixels": 25509,
+        "opaquePixels": 18,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-resources-v1",
+      "sourceRect": [
+        654,
+        393,
+        920,
+        610
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "add",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/add.png",
+      "record": "assets/ui/runtime-kit/icons/add.derivation.json",
+      "sha256": "49b80d5bd5c151a33907aa82d0596178b7457186f0956d7b09c8c7e0889f7d39",
+      "width": 223,
+      "height": 214,
+      "alpha": {
+        "zeroPixels": 25621,
+        "partialPixels": 22074,
+        "opaquePixels": 27,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-resources-v1",
+      "sourceRect": [
+        985,
+        391,
+        1208,
+        605
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "search",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/search.png",
+      "record": "assets/ui/runtime-kit/icons/search.derivation.json",
+      "sha256": "8d06253cde0dc8a66ff855277de5a682d27bcf9bdd8ef06b97ec2560559e9e86",
+      "width": 246,
+      "height": 263,
+      "alpha": {
+        "zeroPixels": 32078,
+        "partialPixels": 32591,
+        "opaquePixels": 29,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-resources-v1",
+      "sourceRect": [
+        53,
+        660,
+        299,
+        923
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "refresh",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/refresh.png",
+      "record": "assets/ui/runtime-kit/icons/refresh.derivation.json",
+      "sha256": "9e2701e4944dd2699ada84f3986a96863b8099720bddcdd10053487fe48c4494",
+      "width": 226,
+      "height": 228,
+      "alpha": {
+        "zeroPixels": 22264,
+        "partialPixels": 29220,
+        "opaquePixels": 44,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-resources-v1",
+      "sourceRect": [
+        380,
+        674,
+        606,
+        902
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "trash",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/trash.png",
+      "record": "assets/ui/runtime-kit/icons/trash.derivation.json",
+      "sha256": "78e3657a9ce961300ef82750cdff86bda9acb37ac14e6b76da7d154653a879ce",
+      "width": 205,
+      "height": 253,
+      "alpha": {
+        "zeroPixels": 16816,
+        "partialPixels": 35002,
+        "opaquePixels": 47,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-resources-v1",
+      "sourceRect": [
+        680,
+        662,
+        885,
+        915
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "share",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/share.png",
+      "record": "assets/ui/runtime-kit/icons/share.derivation.json",
+      "sha256": "66bc966900989a607dcadc3123d2ce0912a0a8b62b87ca84ac8130c4eeba975f",
+      "width": 246,
+      "height": 255,
+      "alpha": {
+        "zeroPixels": 36664,
+        "partialPixels": 26021,
+        "opaquePixels": 45,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-resources-v1",
+      "sourceRect": [
+        968,
+        660,
+        1214,
+        915
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "copy",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/copy.png",
+      "record": "assets/ui/runtime-kit/icons/copy.derivation.json",
+      "sha256": "1a332a66a19fb7c7f09de82793bf7f4db5b6c3a5eee1747d252abf9f3f81dd94",
+      "width": 269,
+      "height": 232,
+      "alpha": {
+        "zeroPixels": 25364,
+        "partialPixels": 36964,
+        "opaquePixels": 80,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-resources-v1",
+      "sourceRect": [
+        32,
+        970,
+        301,
+        1202
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "timer",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/timer.png",
+      "record": "assets/ui/runtime-kit/icons/timer.derivation.json",
+      "sha256": "49c332a1c9ae0f321ddc819029b014235ea5070df9cc9d79eaabeee1d38ebb14",
+      "width": 243,
+      "height": 259,
+      "alpha": {
+        "zeroPixels": 25118,
+        "partialPixels": 37763,
+        "opaquePixels": 56,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-resources-v1",
+      "sourceRect": [
+        361,
+        939,
+        604,
+        1198
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "bomb",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/bomb.png",
+      "record": "assets/ui/runtime-kit/icons/bomb.derivation.json",
+      "sha256": "ca865e72c498e493ef4a6ae5bca028bdc64377ea0a47175f1a4cd51d03df6571",
+      "width": 256,
+      "height": 272,
+      "alpha": {
+        "zeroPixels": 35104,
+        "partialPixels": 34460,
+        "opaquePixels": 68,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-resources-v1",
+      "sourceRect": [
+        663,
+        936,
+        919,
+        1208
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "rocket",
+      "kind": "icon",
+      "file": "assets/ui/runtime-kit/icons/rocket.png",
+      "record": "assets/ui/runtime-kit/icons/rocket.derivation.json",
+      "sha256": "a55e38cb86470e7219e735a496c9b113d45876df7ab48b5b363eb1eab3c108f9",
+      "width": 233,
+      "height": 253,
+      "alpha": {
+        "zeroPixels": 29928,
+        "partialPixels": 28953,
+        "opaquePixels": 68,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "icons-resources-v1",
+      "sourceRect": [
+        987,
+        948,
+        1220,
+        1201
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "window-normal",
+      "kind": "skin",
+      "file": "assets/ui/runtime-kit/skins/window-normal.png",
+      "record": "assets/ui/runtime-kit/skins/window-normal.derivation.json",
+      "sha256": "40ada120220ca52e0f777a0a0c20cc3ecd1e9968d6fd8effdd012b73216e067c",
+      "width": 518,
+      "height": 237,
+      "alpha": {
+        "zeroPixels": 20194,
+        "partialPixels": 102231,
+        "opaquePixels": 341,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "skins-windows-v1",
+      "sourceRect": [
+        28,
+        113,
+        546,
+        350
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "window-wide",
+      "kind": "skin",
+      "file": "assets/ui/runtime-kit/skins/window-wide.png",
+      "record": "assets/ui/runtime-kit/skins/window-wide.derivation.json",
+      "sha256": "666d5dd55e8302babc0f06ce3d0aeb476fa8150c363586cc14059331f589f80b",
+      "width": 693,
+      "height": 208,
+      "alpha": {
+        "zeroPixels": 21511,
+        "partialPixels": 122439,
+        "opaquePixels": 194,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "skins-windows-v1",
+      "sourceRect": [
+        547,
+        137,
+        1240,
+        345
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "dialog",
+      "kind": "skin",
+      "file": "assets/ui/runtime-kit/skins/dialog.png",
+      "record": "assets/ui/runtime-kit/skins/dialog.derivation.json",
+      "sha256": "9c5965190d269164aab08c0a47b71dbf77b50d3941f89fe74fa88140fdbbfe91",
+      "width": 572,
+      "height": 308,
+      "alpha": {
+        "zeroPixels": 32350,
+        "partialPixels": 143573,
+        "opaquePixels": 253,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "skins-windows-v1",
+      "sourceRect": [
+        28,
+        428,
+        600,
+        736
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "list-row-normal",
+      "kind": "skin",
+      "file": "assets/ui/runtime-kit/skins/list-row-normal.png",
+      "record": "assets/ui/runtime-kit/skins/list-row-normal.derivation.json",
+      "sha256": "78c4347a6838459020afc3bad41a62c34ada567cc6b9e26c442473864b3e506f",
+      "width": 623,
+      "height": 102,
+      "alpha": {
+        "zeroPixels": 10581,
+        "partialPixels": 52846,
+        "opaquePixels": 119,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "skins-windows-v1",
+      "sourceRect": [
+        608,
+        538,
+        1231,
+        640
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "list-row-selected",
+      "kind": "skin",
+      "file": "assets/ui/runtime-kit/skins/list-row-selected.png",
+      "record": "assets/ui/runtime-kit/skins/list-row-selected.derivation.json",
+      "sha256": "104310e2e9a32a013f3f99aab5ef12554213fd2e71242a784d49aec5df952c96",
+      "width": 655,
+      "height": 113,
+      "alpha": {
+        "zeroPixels": 11525,
+        "partialPixels": 62485,
+        "opaquePixels": 5,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "skins-windows-v1",
+      "sourceRect": [
+        38,
+        831,
+        693,
+        944
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "tooltip",
+      "kind": "skin",
+      "file": "assets/ui/runtime-kit/skins/tooltip.png",
+      "record": "assets/ui/runtime-kit/skins/tooltip.derivation.json",
+      "sha256": "95f0f8afa963313d6ef4d6a7dac142b8195c137cb2977c7b810772363f96f998",
+      "width": 454,
+      "height": 188,
+      "alpha": {
+        "zeroPixels": 20823,
+        "partialPixels": 64479,
+        "opaquePixels": 50,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "skins-windows-v1",
+      "sourceRect": [
+        733,
+        796,
+        1187,
+        984
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "toast",
+      "kind": "skin",
+      "file": "assets/ui/runtime-kit/skins/toast.png",
+      "record": "assets/ui/runtime-kit/skins/toast.derivation.json",
+      "sha256": "88c66f029d225ef662cec584a1c83b7f2c42a5b33bcdef0bbabd1f64b2d70d0f",
+      "width": 712,
+      "height": 135,
+      "alpha": {
+        "zeroPixels": 18249,
+        "partialPixels": 77858,
+        "opaquePixels": 13,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "skins-windows-v1",
+      "sourceRect": [
+        44,
+        1040,
+        756,
+        1175
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "red-dot",
+      "kind": "skin",
+      "file": "assets/ui/runtime-kit/skins/red-dot.png",
+      "record": "assets/ui/runtime-kit/skins/red-dot.derivation.json",
+      "sha256": "0d4702e13f0a707f763b072982be0a75b14a65145339751c24a2a3f92a2bea64",
+      "width": 76,
+      "height": 77,
+      "alpha": {
+        "zeroPixels": 2491,
+        "partialPixels": 3352,
+        "opaquePixels": 9,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "skins-windows-v1",
+      "sourceRect": [
+        936,
+        1071,
+        1012,
+        1148
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "item-normal",
+      "kind": "skin",
+      "file": "assets/ui/runtime-kit/skins/item-normal.png",
+      "record": "assets/ui/runtime-kit/skins/item-normal.derivation.json",
+      "sha256": "f84bbdbcb369de5b6e725ad436be2334cc2ee53d17064587c09610d4d8d24094",
+      "width": 365,
+      "height": 364,
+      "alpha": {
+        "zeroPixels": 14122,
+        "partialPixels": 118692,
+        "opaquePixels": 46,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "skins-slots-v1",
+      "sourceRect": [
+        64,
+        44,
+        429,
+        408
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "item-selected",
+      "kind": "skin",
+      "file": "assets/ui/runtime-kit/skins/item-selected.png",
+      "record": "assets/ui/runtime-kit/skins/item-selected.derivation.json",
+      "sha256": "c9c5a05961ecead83ff998f429d0c4643bfd1f87a632ccdd7a9c6a4cc90a6870",
+      "width": 367,
+      "height": 363,
+      "alpha": {
+        "zeroPixels": 13246,
+        "partialPixels": 119964,
+        "opaquePixels": 11,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "skins-slots-v1",
+      "sourceRect": [
+        487,
+        45,
+        854,
+        408
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "item-locked",
+      "kind": "skin",
+      "file": "assets/ui/runtime-kit/skins/item-locked.png",
+      "record": "assets/ui/runtime-kit/skins/item-locked.derivation.json",
+      "sha256": "1e1061a45bd51ecbd412d8afb1e691b44ec89a221c4ebcca0574da8612036ed9",
+      "width": 366,
+      "height": 362,
+      "alpha": {
+        "zeroPixels": 13883,
+        "partialPixels": 118586,
+        "opaquePixels": 23,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "skins-slots-v1",
+      "sourceRect": [
+        919,
+        45,
+        1285,
+        407
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "portrait-normal",
+      "kind": "skin",
+      "file": "assets/ui/runtime-kit/skins/portrait-normal.png",
+      "record": "assets/ui/runtime-kit/skins/portrait-normal.derivation.json",
+      "sha256": "f30f4922ba0d5a75981500187429a1fe932f47d94c70bc76714ae3a08332ad47",
+      "width": 387,
+      "height": 372,
+      "alpha": {
+        "zeroPixels": 92173,
+        "partialPixels": 51686,
+        "opaquePixels": 105,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "skins-slots-v1",
+      "sourceRect": [
+        1337,
+        43,
+        1724,
+        415
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "portrait-selected",
+      "kind": "skin",
+      "file": "assets/ui/runtime-kit/skins/portrait-selected.png",
+      "record": "assets/ui/runtime-kit/skins/portrait-selected.derivation.json",
+      "sha256": "97d4eb2b67addd49fc5049063009cbb52158ef5641b689f2d13f536cace96a87",
+      "width": 420,
+      "height": 401,
+      "alpha": {
+        "zeroPixels": 109782,
+        "partialPixels": 58590,
+        "opaquePixels": 48,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "skins-slots-v1",
+      "sourceRect": [
+        35,
+        432,
+        455,
+        833
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "rarity-common",
+      "kind": "skin",
+      "file": "assets/ui/runtime-kit/skins/rarity-common.png",
+      "record": "assets/ui/runtime-kit/skins/rarity-common.derivation.json",
+      "sha256": "8051bfb333ef4e2c08fe5d893561c38607bcea1e2d8531f73f6d5af3abd5e549",
+      "width": 325,
+      "height": 336,
+      "alpha": {
+        "zeroPixels": 51914,
+        "partialPixels": 57261,
+        "opaquePixels": 25,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "skins-slots-v1",
+      "sourceRect": [
+        512,
+        474,
+        837,
+        810
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "rarity-rare",
+      "kind": "skin",
+      "file": "assets/ui/runtime-kit/skins/rarity-rare.png",
+      "record": "assets/ui/runtime-kit/skins/rarity-rare.derivation.json",
+      "sha256": "76849370488fbc0973e0f64bfaaae9ee352084b1c31e7e76a811f42d47ca81a9",
+      "width": 326,
+      "height": 337,
+      "alpha": {
+        "zeroPixels": 52249,
+        "partialPixels": 57586,
+        "opaquePixels": 27,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "skins-slots-v1",
+      "sourceRect": [
+        939,
+        474,
+        1265,
+        811
+      ],
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "id": "rarity-legendary",
+      "kind": "skin",
+      "file": "assets/ui/runtime-kit/skins/rarity-legendary.png",
+      "record": "assets/ui/runtime-kit/skins/rarity-legendary.derivation.json",
+      "sha256": "1ef698618c569b200a28cd12e28afc915632e9715e11c00c99e662da9616d97f",
+      "width": 371,
+      "height": 395,
+      "alpha": {
+        "zeroPixels": 71384,
+        "partialPixels": 75120,
+        "opaquePixels": 41,
+        "extrema": [
+          0,
+          255
+        ]
+      },
+      "sourceSheet": "skins-slots-v1",
+      "sourceRect": [
+        1350,
+        449,
+        1721,
+        844
+      ],
+      "status": "derived_asset_ready_user_review"
+    }
+  ],
+  "sheets": [
+    {
+      "id": "icons-navigation-v2",
+      "file": "designs/ui/runtime-kit/icons-navigation-v2.png",
+      "record": "designs/ui/runtime-kit/icons-navigation-v2.generation.json",
+      "sha256": "9f2cf1c655babed6de9cbb825dd85fd7226aef3af88675e2134e8cfb57048e26",
+      "width": 1254,
+      "height": 1254,
+      "grid": [
+        4,
+        4
+      ],
+      "cutsXByRow": [
+        [
+          0,
+          350,
+          637,
+          938,
+          1254
+        ],
+        [
+          0,
+          359,
+          634,
+          933,
+          1254
+        ],
+        [
+          0,
+          325,
+          629,
+          926,
+          1254
+        ],
+        [
+          0,
+          316,
+          627,
+          944,
+          1254
+        ]
+      ],
+      "cutsY": [
+        0,
+        350,
+        624,
+        923,
+        1254
+      ],
+      "cutEvidence": {
+        "xByRow": [
+          [
+            {
+              "nominal": 314,
+              "actual": 350,
+              "visiblePixelsOnCut": 0
+            },
+            {
+              "nominal": 627,
+              "actual": 637,
+              "visiblePixelsOnCut": 0
+            },
+            {
+              "nominal": 940,
+              "actual": 938,
+              "visiblePixelsOnCut": 0
+            }
+          ],
+          [
+            {
+              "nominal": 314,
+              "actual": 359,
+              "visiblePixelsOnCut": 0
+            },
+            {
+              "nominal": 627,
+              "actual": 634,
+              "visiblePixelsOnCut": 0
+            },
+            {
+              "nominal": 940,
+              "actual": 933,
+              "visiblePixelsOnCut": 0
+            }
+          ],
+          [
+            {
+              "nominal": 314,
+              "actual": 325,
+              "visiblePixelsOnCut": 0
+            },
+            {
+              "nominal": 627,
+              "actual": 629,
+              "visiblePixelsOnCut": 0
+            },
+            {
+              "nominal": 940,
+              "actual": 926,
+              "visiblePixelsOnCut": 0
+            }
+          ],
+          [
+            {
+              "nominal": 314,
+              "actual": 316,
+              "visiblePixelsOnCut": 0
+            },
+            {
+              "nominal": 627,
+              "actual": 627,
+              "visiblePixelsOnCut": 0
+            },
+            {
+              "nominal": 940,
+              "actual": 944,
+              "visiblePixelsOnCut": 0
+            }
+          ]
+        ],
+        "y": [
+          {
+            "nominal": 314,
+            "actual": 350,
+            "visiblePixelsOnCut": 0
+          },
+          {
+            "nominal": 627,
+            "actual": 624,
+            "visiblePixelsOnCut": 0
+          },
+          {
+            "nominal": 940,
+            "actual": 923,
+            "visiblePixelsOnCut": 0
+          }
+        ]
+      },
+      "alphaHygiene": {
+        "alphaFloor": 4,
+        "floorRemovedPixels": 71703,
+        "faintDetachedRemovedPixels": 963,
+        "maxFaintRemovedAlpha": 31,
+        "method": "native alpha hygiene only, preserve RGB and all alpha>=32; faint alpha<32 kept within 2px of solid art"
+      },
+      "nativePixelOperation": "crop only plus alpha cleanup, no resampling",
+      "visiblePixelsLostAtCuts": 0
+    },
+    {
+      "id": "icons-gameplay-v1",
+      "file": "designs/ui/runtime-kit/icons-gameplay-v1.png",
+      "record": "designs/ui/runtime-kit/icons-gameplay-v1.generation.json",
+      "sha256": "4d34a4e89709ae095de206726e0b14f76be768391be7fcf34bd5655f7ea4e732",
+      "width": 1254,
+      "height": 1254,
+      "grid": [
+        4,
+        4
+      ],
+      "cutsXByRow": [
+        [
+          0,
+          320,
+          626,
+          941,
+          1254
+        ],
+        [
+          0,
+          314,
+          633,
+          938,
+          1254
+        ],
+        [
+          0,
+          332,
+          634,
+          945,
+          1254
+        ],
+        [
+          0,
+          324,
+          632,
+          938,
+          1254
+        ]
+      ],
+      "cutsY": [
+        0,
+        342,
+        645,
+        941,
+        1254
+      ],
+      "cutEvidence": {
+        "xByRow": [
+          [
+            {
+              "nominal": 314,
+              "actual": 320,
+              "visiblePixelsOnCut": 0
+            },
+            {
+              "nominal": 627,
+              "actual": 626,
+              "visiblePixelsOnCut": 0
+            },
+            {
+              "nominal": 940,
+              "actual": 941,
+              "visiblePixelsOnCut": 0
+            }
+          ],
+          [
+            {
+              "nominal": 314,
+              "actual": 314,
+              "visiblePixelsOnCut": 0
+            },
+            {
+              "nominal": 627,
+              "actual": 633,
+              "visiblePixelsOnCut": 0
+            },
+            {
+              "nominal": 940,
+              "actual": 938,
+              "visiblePixelsOnCut": 0
+            }
+          ],
+          [
+            {
+              "nominal": 314,
+              "actual": 332,
+              "visiblePixelsOnCut": 0
+            },
+            {
+              "nominal": 627,
+              "actual": 634,
+              "visiblePixelsOnCut": 0
+            },
+            {
+              "nominal": 940,
+              "actual": 945,
+              "visiblePixelsOnCut": 0
+            }
+          ],
+          [
+            {
+              "nominal": 314,
+              "actual": 324,
+              "visiblePixelsOnCut": 0
+            },
+            {
+              "nominal": 627,
+              "actual": 632,
+              "visiblePixelsOnCut": 0
+            },
+            {
+              "nominal": 940,
+              "actual": 938,
+              "visiblePixelsOnCut": 0
+            }
+          ]
+        ],
+        "y": [
+          {
+            "nominal": 314,
+            "actual": 342,
+            "visiblePixelsOnCut": 0
+          },
+          {
+            "nominal": 627,
+            "actual": 645,
+            "visiblePixelsOnCut": 0
+          },
+          {
+            "nominal": 940,
+            "actual": 941,
+            "visiblePixelsOnCut": 0
+          }
+        ]
+      },
+      "alphaHygiene": {
+        "alphaFloor": 4,
+        "floorRemovedPixels": 144310,
+        "faintDetachedRemovedPixels": 4635,
+        "maxFaintRemovedAlpha": 31,
+        "method": "native alpha hygiene only, preserve RGB and all alpha>=32; faint alpha<32 kept within 2px of solid art"
+      },
+      "nativePixelOperation": "crop only plus alpha cleanup, no resampling",
+      "visiblePixelsLostAtCuts": 0
+    },
+    {
+      "id": "icons-resources-v1",
+      "file": "designs/ui/runtime-kit/icons-resources-v1.png",
+      "record": "designs/ui/runtime-kit/icons-resources-v1.generation.json",
+      "sha256": "f8b647528e2409951e76491011d12366145d9ab2534cdcbef9110247f4ae03e1",
+      "width": 1254,
+      "height": 1254,
+      "grid": [
+        4,
+        4
+      ],
+      "cutsXByRow": [
+        [
+          0,
+          323,
+          630,
+          954,
+          1254
+        ],
+        [
+          0,
+          322,
+          632,
+          952,
+          1254
+        ],
+        [
+          0,
+          339,
+          642,
+          926,
+          1254
+        ],
+        [
+          0,
+          330,
+          633,
+          952,
+          1254
+        ]
+      ],
+      "cutsY": [
+        0,
+        348,
+        637,
+        929,
+        1254
+      ],
+      "cutEvidence": {
+        "xByRow": [
+          [
+            {
+              "nominal": 314,
+              "actual": 323,
+              "visiblePixelsOnCut": 0
+            },
+            {
+              "nominal": 627,
+              "actual": 630,
+              "visiblePixelsOnCut": 0
+            },
+            {
+              "nominal": 940,
+              "actual": 954,
+              "visiblePixelsOnCut": 0
+            }
+          ],
+          [
+            {
+              "nominal": 314,
+              "actual": 322,
+              "visiblePixelsOnCut": 0
+            },
+            {
+              "nominal": 627,
+              "actual": 632,
+              "visiblePixelsOnCut": 0
+            },
+            {
+              "nominal": 940,
+              "actual": 952,
+              "visiblePixelsOnCut": 0
+            }
+          ],
+          [
+            {
+              "nominal": 314,
+              "actual": 339,
+              "visiblePixelsOnCut": 0
+            },
+            {
+              "nominal": 627,
+              "actual": 642,
+              "visiblePixelsOnCut": 0
+            },
+            {
+              "nominal": 940,
+              "actual": 926,
+              "visiblePixelsOnCut": 0
+            }
+          ],
+          [
+            {
+              "nominal": 314,
+              "actual": 330,
+              "visiblePixelsOnCut": 0
+            },
+            {
+              "nominal": 627,
+              "actual": 633,
+              "visiblePixelsOnCut": 0
+            },
+            {
+              "nominal": 940,
+              "actual": 952,
+              "visiblePixelsOnCut": 0
+            }
+          ]
+        ],
+        "y": [
+          {
+            "nominal": 314,
+            "actual": 348,
+            "visiblePixelsOnCut": 0
+          },
+          {
+            "nominal": 627,
+            "actual": 637,
+            "visiblePixelsOnCut": 0
+          },
+          {
+            "nominal": 940,
+            "actual": 929,
+            "visiblePixelsOnCut": 0
+          }
+        ]
+      },
+      "alphaHygiene": {
+        "alphaFloor": 4,
+        "floorRemovedPixels": 74924,
+        "faintDetachedRemovedPixels": 1562,
+        "maxFaintRemovedAlpha": 31,
+        "method": "native alpha hygiene only, preserve RGB and all alpha>=32; faint alpha<32 kept within 2px of solid art"
+      },
+      "nativePixelOperation": "crop only plus alpha cleanup, no resampling",
+      "visiblePixelsLostAtCuts": 0
+    },
+    {
+      "id": "skins-windows-v1",
+      "file": "designs/ui/runtime-kit/skins-windows-v1.png",
+      "record": "designs/ui/runtime-kit/skins-windows-v1.generation.json",
+      "sha256": "bebd2ef3045e9e4aa83b6ffa76c7b46062e7462cf91e0485bcefb812b98768b4",
+      "width": 1254,
+      "height": 1254,
+      "grid": [
+        4,
+        2
+      ],
+      "cutsXByRow": [
+        [
+          0,
+          546,
+          1254
+        ],
+        [
+          0,
+          604,
+          1254
+        ],
+        [
+          0,
+          712,
+          1254
+        ],
+        [
+          0,
+          760,
+          1254
+        ]
+      ],
+      "cutsY": [
+        0,
+        365,
+        754,
+        995,
+        1254
+      ],
+      "cutEvidence": {
+        "xByRow": [
+          [
+            {
+              "nominal": 627,
+              "actual": 546,
+              "visiblePixelsOnCut": 0
+            }
+          ],
+          [
+            {
+              "nominal": 627,
+              "actual": 604,
+              "visiblePixelsOnCut": 0
+            }
+          ],
+          [
+            {
+              "nominal": 627,
+              "actual": 712,
+              "visiblePixelsOnCut": 0
+            }
+          ],
+          [
+            {
+              "nominal": 627,
+              "actual": 760,
+              "visiblePixelsOnCut": 0
+            }
+          ]
+        ],
+        "y": [
+          {
+            "nominal": 314,
+            "actual": 365,
+            "visiblePixelsOnCut": 0
+          },
+          {
+            "nominal": 627,
+            "actual": 754,
+            "visiblePixelsOnCut": 0
+          },
+          {
+            "nominal": 940,
+            "actual": 995,
+            "visiblePixelsOnCut": 0
+          }
+        ]
+      },
+      "alphaHygiene": {
+        "alphaFloor": 4,
+        "floorRemovedPixels": 74252,
+        "faintDetachedRemovedPixels": 1243,
+        "maxFaintRemovedAlpha": 31,
+        "method": "native alpha hygiene only, preserve RGB and all alpha>=32; faint alpha<32 kept within 2px of solid art"
+      },
+      "nativePixelOperation": "crop only plus alpha cleanup, no resampling",
+      "visiblePixelsLostAtCuts": 0
+    },
+    {
+      "id": "skins-slots-v1",
+      "file": "designs/ui/runtime-kit/skins-slots-v1.png",
+      "record": "designs/ui/runtime-kit/skins-slots-v1.generation.json",
+      "sha256": "e83de955a4505dca7d6064e1e84a9d8fc503835782cda141567c6856bd97048d",
+      "width": 1774,
+      "height": 887,
+      "grid": [
+        2,
+        4
+      ],
+      "cutsXByRow": [
+        [
+          0,
+          458,
+          886,
+          1310,
+          1774
+        ],
+        [
+          0,
+          483,
+          888,
+          1307,
+          1774
+        ]
+      ],
+      "cutsY": [
+        0,
+        423,
+        887
+      ],
+      "cutEvidence": {
+        "xByRow": [
+          [
+            {
+              "nominal": 444,
+              "actual": 458,
+              "visiblePixelsOnCut": 0
+            },
+            {
+              "nominal": 887,
+              "actual": 886,
+              "visiblePixelsOnCut": 0
+            },
+            {
+              "nominal": 1330,
+              "actual": 1310,
+              "visiblePixelsOnCut": 0
+            }
+          ],
+          [
+            {
+              "nominal": 444,
+              "actual": 483,
+              "visiblePixelsOnCut": 0
+            },
+            {
+              "nominal": 887,
+              "actual": 888,
+              "visiblePixelsOnCut": 0
+            },
+            {
+              "nominal": 1330,
+              "actual": 1307,
+              "visiblePixelsOnCut": 0
+            }
+          ]
+        ],
+        "y": [
+          {
+            "nominal": 444,
+            "actual": 423,
+            "visiblePixelsOnCut": 0
+          }
+        ]
+      },
+      "alphaHygiene": {
+        "alphaFloor": 4,
+        "floorRemovedPixels": 64769,
+        "faintDetachedRemovedPixels": 3037,
+        "maxFaintRemovedAlpha": 31,
+        "method": "native alpha hygiene only, preserve RGB and all alpha>=32; faint alpha<32 kept within 2px of solid art"
+      },
+      "nativePixelOperation": "crop only plus alpha cleanup, no resampling",
+      "visiblePixelsLostAtCuts": 0
+    }
+  ],
+  "reuseManifest": "assets/ui/manifest.json",
+  "generationCounts": {
+    "actualCalls": 6,
+    "currentSourceSheets": 5,
+    "supersededSourceSheets": 1,
+    "sourceArtPolicy": "Selected source sheets retained as necessary input for runtime crops; superseded image removed with hashes retained"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "assets": [
+    {
+      "id": "lantern-festival",
+      "file": "assets/events/lantern-festival.png",
+      "record": "assets/events/lantern-festival.generation.json",
+      "width": 2098,
+      "height": 749,
+      "sha256": "80806ca52412555891029c25cd4e7bde3ed3eb844714ada92e27e1cf82d22bb9",
+      "kind": "event-banner"
+    },
+    {
+      "id": "midautumn-festival",
+      "file": "assets/events/midautumn-festival.png",
+      "record": "assets/events/midautumn-festival.generation.json",
+      "width": 2098,
+      "height": 749,
+      "sha256": "1d739144de18148ee7979110aeeb4bbc721fc9c2faca0df3fcc4ea46b3d40fd4",
+      "kind": "event-banner"
+    },
+    {
+      "id": "spring-festival",
+      "file": "assets/events/spring-festival.png",
+      "record": "assets/events/spring-festival.generation.json",
+      "width": 2098,
+      "height": 749,
+      "sha256": "70e2f35f9248d37e2d89eaa4af6618ee6d0396cb3841d809b7948c20eaa24ac8",
+      "kind": "event-banner"
+    }
+  ]
+}

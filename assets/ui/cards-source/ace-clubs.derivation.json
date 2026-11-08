@@ -1,0 +1,29 @@
+{
+  "file": "assets/ui/cards-source/ace-clubs.png",
+  "sha256": "2c443b89e20358a0ac31c90651c159617e9308d34c7de312a9640089b42206f3",
+  "width": 216,
+  "height": 283,
+  "format": "PNG",
+  "operation": "crop-only-preserve-source-RGBA-no-resize",
+  "cropRect": [
+    1062,
+    0,
+    1297,
+    283
+  ],
+  "trimRect": [
+    9,
+    0,
+    225,
+    283
+  ],
+  "derivedFrom": {
+    "file": "designs/ui/components/52-card-and-effects-v1.png",
+    "sha256": "e8c4302a6d6111f092218681bf36d87ae1dcfeb0f45f58321847d178cb71855e",
+    "generationRecord": "designs/ui/components/52-card-and-effects-v1.generation.json"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+  "status": "derived_asset_ready_user_review"
+}

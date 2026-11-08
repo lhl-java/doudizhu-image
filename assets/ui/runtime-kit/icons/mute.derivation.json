@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "mute",
+  "kind": "icon",
+  "file": "assets/ui/runtime-kit/icons/mute.png",
+  "sha256": "b95b3f6e2ac57ea987032e60c7f42cf028a2213a6f8501f8821f107df25566bf",
+  "width": 206,
+  "height": 244,
+  "format": "PNG",
+  "mode": "RGBA",
+  "operation": "adaptive transparent-gap crop + documented native-alpha hygiene; no resampling, no redrawing, no upscaling",
+  "derivedFrom": {
+    "file": "designs/ui/runtime-kit/icons-gameplay-v1.png",
+    "sha256": "4d34a4e89709ae095de206726e0b14f76be768391be7fcf34bd5655f7ea4e732",
+    "generationRecord": "designs/ui/runtime-kit/icons-gameplay-v1.generation.json"
+  },
+  "cellIndex": 11,
+  "row": 2,
+  "column": 3,
+  "sourceRect": [
+    996,
+    665,
+    1202,
+    909
+  ],
+  "cellRect": [
+    945,
+    645,
+    1254,
+    941
+  ],
+  "trimOffset": [
+    51,
+    20
+  ],
+  "alphaHygiene": {
+    "alphaFloor": 4,
+    "floorRemovedPixels": 144310,
+    "faintDetachedRemovedPixels": 4635,
+    "maxFaintRemovedAlpha": 31,
+    "method": "native alpha hygiene only, preserve RGB and all alpha>=32; faint alpha<32 kept within 2px of solid art"
+  },
+  "perimeterHazePixelsCleared": 0,
+  "alpha": {
+    "zeroPixels": 22699,
+    "partialPixels": 27519,
+    "opaquePixels": 46,
+    "extrema": [
+      0,
+      255
+    ]
+  },
+  "visiblePixelsPreserved": 26198,
+  "clipping": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Follow derivedFrom.generationRecord; this crop is not a new model call",
+  "status": "derived_asset_ready_user_review"
+}

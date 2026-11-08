@@ -1,0 +1,264 @@
+{
+  "id": "28-tournament-waiting",
+  "title": "赛事候场晋级",
+  "primaryArtwork": "designs/ui/modes/28-tournament-waiting-v1.png",
+  "controls": [
+    "倒计时",
+    "人数",
+    "轮次",
+    "积分",
+    "名次",
+    "下一轮"
+  ],
+  "states": [
+    {
+      "name": "候场",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/modes/28-tournament-waiting-v1.png",
+      "interaction": "保持在线是状态牌不响应点击；退出候场弹退赛确认。",
+      "nativeCopy": [
+        "等待开赛",
+        "已报名{tournament.joinedCount}/{tournament.capacity}人；距离开赛{tournament.countdown}。",
+        "保持在线",
+        "退出候场"
+      ],
+      "controls": [
+        {
+          "file": "assets/ui/controls/primary-normal.png",
+          "nativeText": "保持在线",
+          "enabled": false,
+          "role": "status"
+        },
+        {
+          "file": "assets/ui/controls/secondary-normal.png",
+          "nativeText": "退出候场",
+          "enabled": true
+        }
+      ],
+      "assetFilesVerified": true,
+      "nativeText": {
+        "title": "等待开赛",
+        "body": "已报名{tournament.joinedCount}/{tournament.capacity}人；距离开赛{tournament.countdown}。",
+        "primary": "保持在线",
+        "secondary": "退出候场"
+      }
+    },
+    {
+      "name": "晋级",
+      "coverage": "shared_component",
+      "renderedIn": null,
+      "interaction": "倒计时切换至下一轮；入口仅在服务端允许时启用。",
+      "nativeCopy": [
+        "已晋级下一轮",
+        "第{tournament.roundIndex}轮已完成，当前排名{tournament.myRank}。",
+        "进入下一轮",
+        "查看成绩"
+      ],
+      "controls": [
+        {
+          "file": "assets/ui/controls/primary-normal.png",
+          "nativeText": "进入下一轮",
+          "enabled": true
+        },
+        {
+          "file": "assets/ui/controls/secondary-normal.png",
+          "nativeText": "查看成绩",
+          "enabled": true
+        }
+      ],
+      "assetFilesVerified": true,
+      "nativeText": {
+        "title": "已晋级下一轮",
+        "body": "第{tournament.roundIndex}轮已完成，当前排名{tournament.myRank}。",
+        "primary": "进入下一轮",
+        "secondary": "查看成绩"
+      },
+      "composition": {
+        "kind": "opaque-shared-state-panel-over-same-page-skin",
+        "sourceArtwork": "designs/ui/modes/28-tournament-waiting-v1.png",
+        "panel": "assets/ui/controls/panel.png",
+        "titlePlate": "assets/ui/controls/title-primary.png",
+        "layers": [
+          {
+            "file": "assets/ui/controls/panel.png",
+            "role": "米白不透明状态内容层，覆盖原状态文字与不适用的胜利/奖励内容"
+          },
+          {
+            "file": "assets/ui/controls/title-primary.png",
+            "role": "标题牌，标题为nativeText.title"
+          },
+          {
+            "nativeText": "nativeText.body",
+            "role": "正文与动态数据"
+          },
+          {
+            "file": "assets/ui/controls/primary-normal.png",
+            "role": "主动作或禁用状态，标签为nativeText.primary"
+          },
+          {
+            "file": "assets/ui/controls/secondary-normal.png",
+            "role": "返回/次动作，标签为nativeText.secondary"
+          }
+        ],
+        "hideFromPrimaryArtwork": [
+          "原状态标题和结果文案",
+          "原奖励格或旧星级数据（该状态不适用时）",
+          "原庆祝人物/胜利字样（失利或淘汰状态）"
+        ],
+        "nativeData": "使用同一回执更新数字、段位、排名、开始时间、报名状态、奖励资格；不从整屏示意图读取。",
+        "keepSourceAspect": true,
+        "separateRasterVariantGenerated": false
+      }
+    },
+    {
+      "name": "淘汰",
+      "coverage": "shared_component",
+      "renderedIn": null,
+      "interaction": "停止候场与下一轮计时，查看29，不保留进入下一轮动作。",
+      "nativeCopy": [
+        "本次赛事已结束",
+        "本轮未能晋级，最终排名{tournament.myRank}。",
+        "查看成绩",
+        "返回赛事"
+      ],
+      "controls": [
+        {
+          "file": "assets/ui/controls/primary-normal.png",
+          "nativeText": "查看成绩",
+          "enabled": true
+        },
+        {
+          "file": "assets/ui/controls/secondary-normal.png",
+          "nativeText": "返回赛事",
+          "enabled": true
+        }
+      ],
+      "assetFilesVerified": true,
+      "nativeText": {
+        "title": "本次赛事已结束",
+        "body": "本轮未能晋级，最终排名{tournament.myRank}。",
+        "primary": "查看成绩",
+        "secondary": "返回赛事"
+      },
+      "composition": {
+        "kind": "opaque-shared-state-panel-over-same-page-skin",
+        "sourceArtwork": "designs/ui/modes/28-tournament-waiting-v1.png",
+        "panel": "assets/ui/controls/panel.png",
+        "titlePlate": "assets/ui/controls/title-primary.png",
+        "layers": [
+          {
+            "file": "assets/ui/controls/panel.png",
+            "role": "米白不透明状态内容层，覆盖原状态文字与不适用的胜利/奖励内容"
+          },
+          {
+            "file": "assets/ui/controls/title-primary.png",
+            "role": "标题牌，标题为nativeText.title"
+          },
+          {
+            "nativeText": "nativeText.body",
+            "role": "正文与动态数据"
+          },
+          {
+            "file": "assets/ui/controls/primary-normal.png",
+            "role": "主动作或禁用状态，标签为nativeText.primary"
+          },
+          {
+            "file": "assets/ui/controls/secondary-normal.png",
+            "role": "返回/次动作，标签为nativeText.secondary"
+          }
+        ],
+        "hideFromPrimaryArtwork": [
+          "原状态标题和结果文案",
+          "原奖励格或旧星级数据（该状态不适用时）",
+          "原庆祝人物/胜利字样（失利或淘汰状态）"
+        ],
+        "nativeData": "使用同一回执更新数字、段位、排名、开始时间、报名状态、奖励资格；不从整屏示意图读取。",
+        "keepSourceAspect": true,
+        "separateRasterVariantGenerated": false
+      }
+    },
+    {
+      "name": "取消",
+      "coverage": "shared_component",
+      "renderedIn": null,
+      "interaction": "解除本地倒计时与候场订阅；不可继续跳转到该轮牌局。",
+      "nativeCopy": [
+        "已退出候场",
+        "已退出{tournament.name}。退回资源按比赛规则与回执处理。",
+        "返回赛事",
+        "查看退赛规则"
+      ],
+      "controls": [
+        {
+          "file": "assets/ui/controls/primary-normal.png",
+          "nativeText": "返回赛事",
+          "enabled": true
+        },
+        {
+          "file": "assets/ui/controls/secondary-normal.png",
+          "nativeText": "查看退赛规则",
+          "enabled": true
+        }
+      ],
+      "assetFilesVerified": true,
+      "nativeText": {
+        "title": "已退出候场",
+        "body": "已退出{tournament.name}。退回资源按比赛规则与回执处理。",
+        "primary": "返回赛事",
+        "secondary": "查看退赛规则"
+      },
+      "composition": {
+        "kind": "opaque-shared-state-panel-over-same-page-skin",
+        "sourceArtwork": "designs/ui/modes/28-tournament-waiting-v1.png",
+        "panel": "assets/ui/controls/panel.png",
+        "titlePlate": "assets/ui/controls/title-primary.png",
+        "layers": [
+          {
+            "file": "assets/ui/controls/panel.png",
+            "role": "米白不透明状态内容层，覆盖原状态文字与不适用的胜利/奖励内容"
+          },
+          {
+            "file": "assets/ui/controls/title-primary.png",
+            "role": "标题牌，标题为nativeText.title"
+          },
+          {
+            "nativeText": "nativeText.body",
+            "role": "正文与动态数据"
+          },
+          {
+            "file": "assets/ui/controls/primary-normal.png",
+            "role": "主动作或禁用状态，标签为nativeText.primary"
+          },
+          {
+            "file": "assets/ui/controls/secondary-normal.png",
+            "role": "返回/次动作，标签为nativeText.secondary"
+          }
+        ],
+        "hideFromPrimaryArtwork": [
+          "原状态标题和结果文案",
+          "原奖励格或旧星级数据（该状态不适用时）",
+          "原庆祝人物/胜利字样（失利或淘汰状态）"
+        ],
+        "nativeData": "使用同一回执更新数字、段位、排名、开始时间、报名状态、奖励资格；不从整屏示意图读取。",
+        "keepSourceAspect": true,
+        "separateRasterVariantGenerated": false
+      }
+    }
+  ],
+  "dynamicText": "昵称、积分、时间、价格、进度及规则由客户端与服务端原生文字提供；图内均为美术示意。",
+  "sharedDependencies": [
+    "assets/ui/controls/panel.png",
+    "assets/ui/controls/title-primary.png",
+    "assets/ui/controls/primary-normal.png",
+    "assets/ui/controls/primary-disabled.png",
+    "assets/ui/controls/secondary-normal.png",
+    "assets/ui/controls/secondary-disabled.png",
+    "assets/ui/controls/progress.png",
+    "assets/ui/controls/avatar-frame.png",
+    "assets/ui/controls/tab-selected.png",
+    "assets/ui/controls/tab-normal.png"
+  ],
+  "notes": "选用主图为独立已生成画面；其他语义状态用下列真实公共素材与原生文字组装。shared_component表示完整组成设计，未冒称另有整屏生成图。接入时使用原画皮肤与动态区域，不把整屏PNG内示例数字作为业务真值。",
+  "dynamicCopySource": "designs/ui/modes/demo-data-contract-existing.json + 同tournamentId/seasonId/playerId的服务端回执",
+  "requiredStatesComplete": true
+}

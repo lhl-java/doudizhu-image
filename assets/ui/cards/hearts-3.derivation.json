@@ -1,0 +1,18 @@
+{
+  "file": "assets/ui/cards/hearts-3.png",
+  "sha256": "857f206ae6ee7c85a16f1b0517036a2ca224b2b15889e318151931b0c589498a",
+  "width": 216,
+  "height": 282,
+  "rank": "3",
+  "suit": "hearts",
+  "symbol": "♥",
+  "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+  "derivedFrom": {
+    "file": "assets/ui/cards-source/card-blank.png",
+    "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+    "record": "assets/ui/cards-source/card-blank.derivation.json"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "derived_asset_ready_user_review"
+}

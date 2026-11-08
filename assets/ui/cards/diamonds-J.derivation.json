@@ -1,0 +1,18 @@
+{
+  "file": "assets/ui/cards/diamonds-J.png",
+  "sha256": "565149033407ad88395fa21f858e96e4eca73a0ad2284ef76bab5a9c07d02cda",
+  "width": 216,
+  "height": 282,
+  "rank": "J",
+  "suit": "diamonds",
+  "symbol": "♦",
+  "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+  "derivedFrom": {
+    "file": "assets/ui/cards-source/card-blank.png",
+    "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+    "record": "assets/ui/cards-source/card-blank.derivation.json"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "derived_asset_ready_user_review"
+}

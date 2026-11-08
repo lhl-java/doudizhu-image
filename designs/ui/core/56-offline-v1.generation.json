@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/ui/core/56-offline-v1.png",
+  "absolutePath": "D:\\work\\doudizhu-image\\designs\\ui\\core\\56-offline-v1.png",
+  "sha256": "323cb7a71683cf275e6c02a63392a84d26b6405a9bc4a21623fea59b1806a8bd",
+  "generatedAt": "2026-10-26T04:29:19-04:00",
+  "generatedAtEvidence": {
+    "isProxy": true,
+    "source": "caller-provided-response-received-at",
+    "explanation": "以调用方提供的工具返回接收时间代理生成完成时间；不是模型内部生成时间。"
+  },
+  "recordedAt": "2026-10-26T04:29:40.137683-04:00",
+  "startedAtUtc": "2026-10-26T04:25:20-04:00",
+  "finishedAtUtc": "2026-10-26T04:29:19-04:00",
+  "width": 1931,
+  "height": 814,
+  "format": "PNG",
+  "nativeResolution": {
+    "width": 1931,
+    "height": 814
+  },
+  "exportResolution": {
+    "width": 1931,
+    "height": 814,
+    "operation": "byte-identical-copy-of-generated-output-no-resize-or-redraw"
+  },
+  "requestedResolution": {
+    "width": 2560,
+    "height": 1080,
+    "note": "提示词中的尺寸目标；内置工具无独立尺寸选择参数，实际尺寸以上方实测值为准。"
+  },
+  "transparency": {
+    "requestedTransparentBackground": false,
+    "sourcePixelFormat": "Format24bppRgb",
+    "hasAlphaChannel": false,
+    "hasNonOpaquePixels": false,
+    "fullyOpaque": true,
+    "inspectionMethod": "source-format-reports-no-alpha"
+  },
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "callId": null,
+  "resultId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\doudizhu-image\\designs\\ui\\lobby-ui-v1.png",
+      "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png"
+    ],
+    "prompt": "Use case: ui-mockup\nAsset type: 道家Q版高清手绘斗地主手游的一张独立完整横屏UI概念设计，2.37:1，目标2560×1080。画面为平直正视的游戏界面，无设备外壳。\nInput images: 图1邮件、图2组队是首要风格参考：深玉绿标题及按钮、暖米白纸绢、暖金细边、圆润如意云纹、精致可读中文。图3是本项目大厅首稿，只承接仙山庭院、道童形象、材质与控件比例，不复用错误的手持牌花色；图4为本项目三人角色首稿，保持人物五官发饰及服装同源。功能布局按以下新页面重做。\nStyle: 与参考一致的细腻二维手绘金玉与纸绢质感，柔和体积、清楚边缘。山水庭院背景低对比，主面板米白，标题与主按钮玉绿金边。金饰点到为止，文字区域留白充分，所有中文清晰对齐，安全边距3%。头像角色差异明确。\nConstraints: 只生成这一页和指定主状态。禁止多屏拼图、缩略页面、分镜、英文设计说明、水印、旧游戏名、腾讯品牌标志或额外品牌、写实人像、塑料玩具效果、噪点、模糊拉伸。所有元素完整在画内，人物不遮按钮和文字。使用原生细节，不要伪装放大效果。背景不透明。状态标记保存在外部文件，不在画面上印“首稿”等审阅文字。\nPage ID: 56-offline\n页面：单机练习。顶部居中玉绿标题“单机练习”，左上“返回”，右上小断网图标配“无需网络”。左侧一位完整的玉绿道童站在小茶桌旁，桌上仅一小叠玉绿牌背，暖色、轻松、安静。中右米白金边面板上部标题“选择难度”；三张横向难度卡“入门”“进阶”“挑战”，用一、二、三枚玉珠区分，入门选中并显示小金勾。下方小说明卡标题“练习说明”，正文仅“与两位电脑牌友对局”“练习不计入排位战绩”。底部大玉绿按钮“开始练习”。页面下沿右方是灰绿色不可用小按钮“继续上局”，旁边小字“暂无存档”。仅可开始的选择主状态，不把牌桌、暂停和结算混在这张图内。Text只用上述文字。"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据。当前内置 image_gen.imagegen 接口没有 model、quality 选择器，配置只表示用户目标；不能据此声称实际锁定 GPT Image 2.5 Sunburst 或 max。未检查或验证 C2PA。",
+  "prompt": "prompts/core/56-offline-v1.txt",
+  "promptSha256": "56bac7cb899f230d1e0f0a508f8507ec9703368c7a97dcf5981c964875d243fc",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "邮件界面：面板、按钮、配色、材质、人物完成度",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": "references/style/manifest.json",
+      "manifestSha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "manifestHashMatched": true
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "组队界面：控件层级、留白、列表、头像与按钮状态",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": "references/style/manifest.json",
+      "manifestSha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "manifestHashMatched": true
+    },
+    {
+      "file": "designs/ui/lobby-ui-v1.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\designs\\ui\\lobby-ui-v1.png",
+      "sha256": "6fb7c972b11f32d0454b32e38a85d50cf571205201e257638c29ee9eeedb8e3b",
+      "role": "本项目初版支持参考：人物、材质、布局同源；尚未获用户批准",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": null,
+      "manifestSha256": null,
+      "manifestHashMatched": null
+    },
+    {
+      "file": "designs/characters/characters-trio-v1.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png",
+      "sha256": "0c4dda70d4e16715527ed243a8d3efc2a401be2f06326b49601d1b184e7165ac",
+      "role": "本项目初版支持参考：人物、材质、布局同源；尚未获用户批准",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": null,
+      "manifestSha256": null,
+      "manifestHashMatched": null
+    }
+  ],
+  "evidence": {
+    "receipt": "designs/ui/core/.production/receipts/56-offline-v1.receipt.json",
+    "receiptSha256": "7df068e2484a4ef6822ec9c085450bf2c5a6f6829e07383fed30cb934a29e31c",
+    "returnedEvidence": {
+      "tool": "image_gen.imagegen",
+      "route": "builtin",
+      "invocationId": null,
+      "toolReturnKeys": [
+        "image_url",
+        "output_hint"
+      ],
+      "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1771a-2c53-7da1-9217-2d5e42c4d85e as C:\\Users\\luyua\\.codex\\generated_images\\01a1771a-2c53-7da1-9217-2d5e42c4d85e\\exec-4ec7232e-8cf6-4666-85e2-92d12ca557c9.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "hostOutputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a1771a-2c53-7da1-9217-2d5e42c4d85e\\exec-4ec7232e-8cf6-4666-85e2-92d12ca557c9.png",
+      "hostOutputFilenameIdentifier": "exec-4ec7232e-8cf6-4666-85e2-92d12ca557c9",
+      "identifierMeaning": "宿主输出文件名标识，不冒认为模型调用ID",
+      "imagePayload": {
+        "field": "image_url",
+        "omittedFromReceipt": true
+      },
+      "toolReturnedModel": null,
+      "toolReturnedQuality": null,
+      "submittedArguments": {
+        "prompt": "Use case: ui-mockup\nAsset type: 道家Q版高清手绘斗地主手游的一张独立完整横屏UI概念设计，2.37:1，目标2560×1080。画面为平直正视的游戏界面，无设备外壳。\nInput images: 图1邮件、图2组队是首要风格参考：深玉绿标题及按钮、暖米白纸绢、暖金细边、圆润如意云纹、精致可读中文。图3是本项目大厅首稿，只承接仙山庭院、道童形象、材质与控件比例，不复用错误的手持牌花色；图4为本项目三人角色首稿，保持人物五官发饰及服装同源。功能布局按以下新页面重做。\nStyle: 与参考一致的细腻二维手绘金玉与纸绢质感，柔和体积、清楚边缘。山水庭院背景低对比，主面板米白，标题与主按钮玉绿金边。金饰点到为止，文字区域留白充分，所有中文清晰对齐，安全边距3%。头像角色差异明确。\nConstraints: 只生成这一页和指定主状态。禁止多屏拼图、缩略页面、分镜、英文设计说明、水印、旧游戏名、腾讯品牌标志或额外品牌、写实人像、塑料玩具效果、噪点、模糊拉伸。所有元素完整在画内，人物不遮按钮和文字。使用原生细节，不要伪装放大效果。背景不透明。状态标记保存在外部文件，不在画面上印“首稿”等审阅文字。\nPage ID: 56-offline\n页面：单机练习。顶部居中玉绿标题“单机练习”，左上“返回”，右上小断网图标配“无需网络”。左侧一位完整的玉绿道童站在小茶桌旁，桌上仅一小叠玉绿牌背，暖色、轻松、安静。中右米白金边面板上部标题“选择难度”；三张横向难度卡“入门”“进阶”“挑战”，用一、二、三枚玉珠区分，入门选中并显示小金勾。下方小说明卡标题“练习说明”，正文仅“与两位电脑牌友对局”“练习不计入排位战绩”。底部大玉绿按钮“开始练习”。页面下沿右方是灰绿色不可用小按钮“继续上局”，旁边小字“暂无存档”。仅可开始的选择主状态，不把牌桌、暂停和结算混在这张图内。Text只用上述文字。",
+        "referenced_image_paths": [
+          "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+          "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+          "D:\\work\\doudizhu-image\\designs\\ui\\lobby-ui-v1.png",
+          "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png"
+        ],
+        "transparent_background": false
+      },
+      "startedAtUtc": "2026-10-26 08:25:20 UTC",
+      "receivedAtUtc": "2026-10-26 08:29:19 UTC"
+    },
+    "metadataInspection": "System.Drawing 只读检查实际尺寸、格式和透明度；未验证 C2PA，未从配置推断实际模型或质量。",
+    "rawFormatGuid": "b96b3caf-0728-11d3-9d7b-0000f81ef32e"
+  },
+  "status": "design_ready_user_review",
+  "visualQA": {
+    "status": "passed_for_design_review",
+    "reviewer": "root",
+    "inspectedAt": "2026-10-26T11:01:27.816186+00:00",
+    "method": "view_image",
+    "image": "designs/ui/core/56-offline-v1.png",
+    "imageSha256": "323cb7a71683cf275e6c02a63392a84d26b6405a9bc4a21623fea59b1806a8bd",
+    "userApproval": false,
+    "blockingIssues": [],
+    "findings": [
+      {
+        "severity": "pass",
+        "subject": "风格与结构",
+        "detail": "玉绿标题、米白金边卡片、仙山庭院及道童与两张主参考同源，文字无明显错漏。"
+      },
+      {
+        "severity": "pass",
+        "subject": "可开始与禁用",
+        "detail": "三档入门/进阶/挑战、入门选中和开始练习清晰；继续上局置灰并标暂无存档。"
+      },
+      {
+        "severity": "note",
+        "subject": "状态证据边界",
+        "detail": "主图仅实绘选择态；进行中复用14牌桌，暂停和结束复用50-D01及51组件，已记录具体原生文案与交互。"
+      }
+    ]
+  },
+  "pageId": "56-offline",
+  "userApproval": false
+}

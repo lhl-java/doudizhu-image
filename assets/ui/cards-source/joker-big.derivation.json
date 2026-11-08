@@ -1,0 +1,29 @@
+{
+  "file": "assets/ui/cards-source/joker-big.png",
+  "sha256": "34c70cd279d33d5bd127a87cf11eee1a7e6c8ead14f39f6add0225b336bce401",
+  "width": 229,
+  "height": 286,
+  "format": "PNG",
+  "operation": "crop-only-preserve-source-RGBA-no-resize",
+  "cropRect": [
+    764,
+    279,
+    994,
+    565
+  ],
+  "trimRect": [
+    1,
+    0,
+    230,
+    286
+  ],
+  "derivedFrom": {
+    "file": "designs/ui/components/52-card-and-effects-v1.png",
+    "sha256": "e8c4302a6d6111f092218681bf36d87ae1dcfeb0f45f58321847d178cb71855e",
+    "generationRecord": "designs/ui/components/52-card-and-effects-v1.generation.json"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+  "status": "derived_asset_ready_user_review"
+}

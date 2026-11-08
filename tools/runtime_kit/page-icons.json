@@ -1,0 +1,338 @@
+{
+  "01-launch-login": [
+    "home",
+    "profile",
+    "check",
+    "network"
+  ],
+  "02-lobby": [
+    "classic",
+    "friend-room",
+    "rank",
+    "tournament",
+    "puzzle",
+    "shop",
+    "task",
+    "mail",
+    "settings",
+    "character",
+    "events",
+    "signin"
+  ],
+  "03-classic-select": [
+    "classic",
+    "help"
+  ],
+  "04-stakes-select": [
+    "coin",
+    "classic",
+    "lock"
+  ],
+  "05-matchmaking": [
+    "timer",
+    "network",
+    "close"
+  ],
+  "06-friend-room-entry": [
+    "friend-room",
+    "add",
+    "search"
+  ],
+  "07-create-room": [
+    "friend-room",
+    "classic",
+    "add",
+    "check"
+  ],
+  "08-join-room": [
+    "search",
+    "back",
+    "check"
+  ],
+  "09-room-waiting": [
+    "friend-room",
+    "friends",
+    "share",
+    "copy",
+    "check"
+  ],
+  "10-invite-friends": [
+    "friends",
+    "search",
+    "share",
+    "check"
+  ],
+  "11-deal-bid": [
+    "timer",
+    "classic",
+    "help"
+  ],
+  "12-rob-landlord": [
+    "timer",
+    "classic",
+    "sound"
+  ],
+  "13-double": [
+    "timer",
+    "star",
+    "check"
+  ],
+  "14-play-turn": [
+    "timer",
+    "chat",
+    "voice",
+    "settings"
+  ],
+  "15-follow-pass": [
+    "timer",
+    "chat",
+    "voice",
+    "settings"
+  ],
+  "16-trustee": [
+    "timer",
+    "profile",
+    "back"
+  ],
+  "17-reconnect": [
+    "network",
+    "refresh",
+    "back"
+  ],
+  "18-round-win": [
+    "trophy",
+    "coin",
+    "star"
+  ],
+  "19-round-loss": [
+    "coin",
+    "refresh",
+    "back"
+  ],
+  "20-room-summary": [
+    "trophy",
+    "friends",
+    "share"
+  ],
+  "21-table-settings": [
+    "settings",
+    "sound",
+    "music",
+    "vibration",
+    "back"
+  ],
+  "22-replay-history": [
+    "replay",
+    "timer",
+    "back"
+  ],
+  "23-ranked-lobby": [
+    "rank",
+    "season",
+    "gift"
+  ],
+  "24-ranked-progress": [
+    "rank",
+    "star",
+    "lock"
+  ],
+  "25-ranked-result": [
+    "rank",
+    "star",
+    "trophy"
+  ],
+  "26-tournament-lobby": [
+    "tournament",
+    "timer",
+    "trophy"
+  ],
+  "27-tournament-detail": [
+    "tournament",
+    "timer",
+    "gift",
+    "check"
+  ],
+  "28-tournament-waiting": [
+    "timer",
+    "trophy",
+    "friends"
+  ],
+  "29-tournament-result": [
+    "trophy",
+    "gift",
+    "coin"
+  ],
+  "30-puzzle-select": [
+    "puzzle",
+    "star",
+    "lock"
+  ],
+  "31-puzzle-play": [
+    "puzzle",
+    "help",
+    "refresh"
+  ],
+  "32-puzzle-result": [
+    "star",
+    "trophy",
+    "refresh"
+  ],
+  "33-character-select": [
+    "character",
+    "check",
+    "lock"
+  ],
+  "34-character-detail": [
+    "character",
+    "voice",
+    "emoji"
+  ],
+  "35-wardrobe": [
+    "wardrobe",
+    "profile",
+    "lock",
+    "check"
+  ],
+  "36-shop": [
+    "shop",
+    "coin",
+    "token",
+    "gift"
+  ],
+  "37-item-detail": [
+    "gift",
+    "coin",
+    "add",
+    "back"
+  ],
+  "38-wallet": [
+    "coin",
+    "token",
+    "replay"
+  ],
+  "39-inventory": [
+    "inventory",
+    "gift",
+    "lock"
+  ],
+  "40-player-profile": [
+    "profile",
+    "rank",
+    "trophy"
+  ],
+  "41-friends": [
+    "friends",
+    "chat",
+    "search",
+    "add",
+    "share"
+  ],
+  "42-leaderboard": [
+    "rank",
+    "friends",
+    "refresh"
+  ],
+  "43-daily-missions": [
+    "task",
+    "gift",
+    "coin",
+    "check"
+  ],
+  "44-sign-in": [
+    "signin",
+    "gift",
+    "check",
+    "lock"
+  ],
+  "45-events": [
+    "events",
+    "gift",
+    "timer"
+  ],
+  "46-mail": [
+    "mail",
+    "gift",
+    "trash",
+    "check"
+  ],
+  "47-settings": [
+    "settings",
+    "music",
+    "sound",
+    "voice",
+    "vibration",
+    "network"
+  ],
+  "48-help-rules": [
+    "help",
+    "classic",
+    "puzzle"
+  ],
+  "49-support-notices": [
+    "help",
+    "chat",
+    "mail"
+  ],
+  "50-shared-dialogs": [
+    "check",
+    "close",
+    "network",
+    "gift"
+  ],
+  "51-common-components": [
+    "check",
+    "close",
+    "add",
+    "search"
+  ],
+  "52-card-and-effects": [
+    "classic",
+    "bomb",
+    "rocket",
+    "star"
+  ],
+  "53-table-chat": [
+    "chat",
+    "emoji",
+    "voice",
+    "mute"
+  ],
+  "54-disband-vote": [
+    "friends",
+    "timer",
+    "check",
+    "close"
+  ],
+  "55-card-counter": [
+    "classic",
+    "timer",
+    "help"
+  ],
+  "56-offline": [
+    "practice",
+    "classic",
+    "help"
+  ],
+  "57-hero-skills": [
+    "character",
+    "skills",
+    "lock"
+  ],
+  "58-season-shop": [
+    "season",
+    "token",
+    "gift"
+  ],
+  "59-achievements-growth": [
+    "star",
+    "trophy",
+    "gift",
+    "lock"
+  ],
+  "60-account-notices": [
+    "profile",
+    "network",
+    "refresh",
+    "help"
+  ]
+}

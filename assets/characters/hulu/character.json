@@ -1,0 +1,62 @@
+{
+  "id": "hulu",
+  "name": "葫芦长者",
+  "art_source": "host_image",
+  "canvas": [
+    1024,
+    1024
+  ],
+  "anchor": [
+    512,
+    920
+  ],
+  "recommendedDisplayHeight": 520,
+  "faceDisplayHeight": 128,
+  "poses": {
+    "master": "assets/characters/hulu/master.png",
+    "win": "assets/characters/hulu/win.png",
+    "lose": "assets/characters/hulu/lose.png"
+  },
+  "expressions": {
+    "calm": "assets/characters/hulu/expressions/calm.png",
+    "smile": "assets/characters/hulu/expressions/smile.png",
+    "laugh": "assets/characters/hulu/expressions/laugh.png",
+    "thinking": "assets/characters/hulu/expressions/thinking.png",
+    "surprise": "assets/characters/hulu/expressions/surprise.png",
+    "smug": "assets/characters/hulu/expressions/smug.png",
+    "sad": "assets/characters/hulu/expressions/sad.png",
+    "angry": "assets/characters/hulu/expressions/angry.png"
+  },
+  "sourceToRuntimeScale": 0.6861063464837049,
+  "portraitScale": 0.6103542234332425,
+  "status": "asset_ready_user_review",
+  "animationBoundary": "Three independent still poses; root runtime authors 2D UI keyframe transforms and pose switches. Not image-to-video, skeletal full-body animation or generated in-between frames.",
+  "identity": {
+    "name": "葫芦长者",
+    "recognition": [
+      "白发丸髻",
+      "浓白眉与长白胡须",
+      "圆润红颊老者",
+      "青绿暖金道袍与象牙白内衫",
+      "怀抱金色太极大葫芦",
+      "绿色发带与玉坠"
+    ]
+  },
+  "expressionLabels": {
+    "calm": "平静",
+    "smile": "微笑",
+    "laugh": "大笑",
+    "thinking": "思考",
+    "surprise": "惊讶",
+    "smug": "得意",
+    "sad": "难过",
+    "angry": "生气"
+  },
+  "nativeSources": {
+    "master": "designs/characters/runtime-20261026/hulu-master-v1.png",
+    "win": "designs/characters/runtime-20261026/hulu-win-v1.png",
+    "lose": "designs/characters/runtime-20261026/hulu-lose-v1.png",
+    "expressions": "designs/characters/runtime-20261026/hulu-expressions-v2.png"
+  },
+  "registration": "Each source uses its significant-alpha horizontal centre and bottom as the source foot anchor; one fixed downscale per character. Exact sourceRect, sourceAnchor, scale and offset are in each derivation record."
+}

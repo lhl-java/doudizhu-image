@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/fx/counter-spring-leaves.png",
+  "sha256": "d3f67342271edc8607b43a687a256813f1847b60ab2e0437ae6dcbebed9f986a",
+  "width": 512,
+  "height": 512,
+  "format": "PNG",
+  "createdAt": "2026-10-26T20:27:26.973577+00:00",
+  "route": "derived",
+  "art_source": "existing",
+  "tool": "Pillow/NumPy/SciPy deterministic asset processing",
+  "operation": "all visible connected components assigned by majority cell; alpha 5..16 halo assigned to nearest owned component; alpha<=4 cleared; ownership crop; uniform downscale only; center on 512 transparent safe canvas",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Follow derivedFrom source generation record; processing is not new AI generation",
+  "derivedFrom": [
+    {
+      "file": "designs/runtime-scenes-20261026/fx-sheet-a.png",
+      "sha256": "81581f74fcbdfa2cc468f75a9ad9da7a655b4d5ccd3765613391092b1ecd8e11",
+      "record": "designs/runtime-scenes-20261026/fx-sheet-a.png.generation.json",
+      "role": "generated transparent FX sheet"
+    }
+  ],
+  "alphaQA": {
+    "mode": "RGBA",
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "transparentPixels": 201744,
+    "softAlphaPixels": 60391,
+    "edgeVisiblePixelsAbove16": 0,
+    "bboxVisibleAbove16": [
+      90,
+      96,
+      423,
+      416
+    ],
+    "status": "passed"
+  },
+  "visualReview": {
+    "status": "design_ready_user_review",
+    "note": "已实际查看原生场景与透明素材在明/暗底的组合；无字无UI无人，风格匹配；FX按所属组件保全切片，透明留白完整。保持原始QA告警记录；动画为静态源transform派生，不是AI视频。"
+  },
+  "sourceCell": {
+    "row": 1,
+    "col": 2,
+    "nominalBox": [
+      1024,
+      512,
+      1536,
+      1024
+    ]
+  },
+  "ownedCropBox": [
+    1049,
+    547,
+    1503,
+    979
+  ],
+  "uniformScale": 0.748898678414097,
+  "noLargestComponentFiltering": true
+}

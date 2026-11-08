@@ -1,0 +1,23 @@
+{
+  "assets": [
+    {
+      "id": "title",
+      "file": "assets/brand/daoyou-qing-chupai/logo-v1.png",
+      "record": "assets/brand/daoyou-qing-chupai/logo-v1.derivation.json",
+      "width": 1902,
+      "height": 1015,
+      "sha256": "a02b199821c32f5b3fbdcb1f7fcfdbc3ad6ca3b79fb58bb0e52010ad1dc1ad7c",
+      "kind": "title"
+    },
+    {
+      "id": "app-icon",
+      "file": "assets/brand/app-icon.png",
+      "record": "assets/brand/app-icon.generation.json",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b89da0957cfdd0ea50fa8de17e8b3ed195e6ff076b0afd633b2c9dad929a68a2",
+      "kind": "app-icon"
+    }
+  ],
+  "branding": "config/brand.json"
+}

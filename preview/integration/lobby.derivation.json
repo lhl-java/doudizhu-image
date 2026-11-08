@@ -1,0 +1,68 @@
+{
+  "file": "preview/integration/lobby.png",
+  "sha256": "eac4c786a1198de672397673e4e35af4d418495572ca7cb0a529face781ec952",
+  "width": 1932,
+  "height": 815,
+  "operation": "Offline Pillow composition of existing final art plus native Chinese text; downscaled sprites and nine-slice UI, no AI generation or browser rendering.",
+  "browserScreenshot": false,
+  "detail": "Layering check: original title, actor, eight independent mode icons, native labels and panel skins.",
+  "createdAt": "2026-10-28T07:51:25.328505+00:00",
+  "derivedFrom": [
+    {
+      "file": "assets/brand/title.png",
+      "sha256": "9a5db4179943c5deb0808ef7a61e595543084da77bad70f392851ebc54c0e64d"
+    },
+    {
+      "file": "assets/characters/daotong/master.png",
+      "sha256": "38ba45b8c3dac51539dd72cef264867c2636670341995ab42f71aecdfc42cb7e"
+    },
+    {
+      "file": "assets/scenes/courtyard-lobby.png",
+      "sha256": "019b75dfa37d04cb457f68e1799ce8e334e1e3ce5642429babb737219b89f875"
+    },
+    {
+      "file": "assets/ui/controls/panel.png",
+      "sha256": "8cea325f107b9dae1b16addf4d4c5b3987defc6fef98dc89d65b0108c1321d6a"
+    },
+    {
+      "file": "assets/ui/controls/secondary-normal.png",
+      "sha256": "9ba4a890ce8dc82f27a3468a1b8aad4586920da8111a35bc63ad1b801c93bd3d"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/classic.png",
+      "sha256": "17f4efc319bff8f3aaa77f0e6260f026da16d2ac1a4d072557f369038fcfcee7"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/events.png",
+      "sha256": "700008e3cc21c760cee48080dac1abcae9a5da823aa3ab5c24be1d80fe84b78d"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/friend-room.png",
+      "sha256": "5d820a937f248e707b73152385d341010b3bbec594ca92cb4fee574073ece2a4"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/practice.png",
+      "sha256": "ed4e39daece78800aa08283844085f1e84a7f363ee31e51cd5c5d8dc06d986e7"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/puzzle.png",
+      "sha256": "13533c7057b57c528d563ed898f04c6662616dd066a680b01a38faa3c4936208"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/rank.png",
+      "sha256": "6445a02e10d33ae7cf1da93eacecf84d5a8f69cf8d7da71095ccd2e3281eda92"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/shop.png",
+      "sha256": "e8bc6d8445daebdf62956bbad11060f924e2781f45c276373bbaf89c99a6bc52"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/tournament.png",
+      "sha256": "2179eb8a1af548aa187429f8ea06fe96ee7d845b35e670276659d0d496809dd7"
+    },
+    {
+      "file": "assets/ui/runtime-kit/skins/item-normal.png",
+      "sha256": "f84bbdbcb369de5b6e725ad436be2334cc2ee53d17064587c09610d4d8d24094"
+    }
+  ]
+}

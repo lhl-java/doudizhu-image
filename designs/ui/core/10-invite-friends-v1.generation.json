@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/ui/core/10-invite-friends-v1.png",
+  "absolutePath": "D:\\work\\doudizhu-image\\designs\\ui\\core\\10-invite-friends-v1.png",
+  "sha256": "df93dd0ddaea2cef938ff50880ecbe007b084c6d4168b05a06f3dfc6ffda1f05",
+  "generatedAt": "2026-10-26T04:25:02-04:00",
+  "generatedAtEvidence": {
+    "isProxy": true,
+    "source": "caller-provided-response-received-at",
+    "explanation": "以调用方提供的工具返回接收时间代理生成完成时间；不是模型内部生成时间。"
+  },
+  "recordedAt": "2026-10-26T04:25:20.4242999-04:00",
+  "startedAtUtc": "2026-10-26T04:15:18-04:00",
+  "finishedAtUtc": "2026-10-26T04:25:02-04:00",
+  "width": 1931,
+  "height": 814,
+  "format": "PNG",
+  "nativeResolution": {
+    "width": 1931,
+    "height": 814
+  },
+  "exportResolution": {
+    "width": 1931,
+    "height": 814,
+    "operation": "byte-identical-copy-of-generated-output-no-resize-or-redraw"
+  },
+  "requestedResolution": {
+    "width": 2560,
+    "height": 1080,
+    "note": "提示词中的尺寸目标；内置工具无独立尺寸选择参数，实际尺寸以上方实测值为准。"
+  },
+  "transparency": {
+    "requestedTransparentBackground": false,
+    "sourcePixelFormat": "Format24bppRgb",
+    "hasAlphaChannel": false,
+    "hasNonOpaquePixels": false,
+    "fullyOpaque": true,
+    "inspectionMethod": "source-format-reports-no-alpha"
+  },
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "callId": null,
+  "resultId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\doudizhu-image\\designs\\ui\\lobby-ui-v1.png",
+      "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png"
+    ],
+    "prompt": "Use case: ui-mockup\nAsset type: 道家 Q 版斗地主手游，一张独立完整界面的高清手绘 UI 概念稿。\nOutput target: 横屏约 2.37:1，期望 2560×1080。这个尺寸是视觉目标；请原生细致绘制，不放大模糊细节。平直正视的单一游戏画面，不是手机实拍或多屏展示板。\nInput images: Image 1＝01-mail-event.png，首要参考玉绿米白配色、纸绢、暖金细边、圆润如意云纹和手绘完成度；Image 2＝team-ui-v2.png，首要参考标题牌、卡片、留白、按钮与圆头像；Image 3＝lobby-ui-v1.png，支持参考同一个斗地主游戏的大厅与控件比例；Image 4＝characters-trio-v1.png，支持参考本游戏三位原创角色、头像与人物画法。只承接这些美术，不复制邮件、组队旧功能、旧文字或其他游戏名。角色头像与 Image 4 保持同源。\nVisual language: 深玉绿为标题、主要按钮、选中项；暖象牙米白纸绢为大面板；暖金细边、柔和圆润云纹。角色和图标采用精致二维高清手绘、柔和体积、温润金玉质感；避免塑料公仔、写实人物、现代扁平矢量。纸纹很轻，金边不厚重，桃粉、朱砂只作少量点缀。\nCommon frame: 四周约 3% 安全边距。统一玉绿金边居中标题牌，左上角清楚的返回箭头与“返回”。米白主面板边缘可露出低对比仙山庭院，背景不得干扰文字。所有按钮、标签、卡片对齐，留白充足，文字可读。\nGlobal constraints: 只画下面指定的一个主状态。不要把错误、加载、分享等其他状态画成多屏缩略拼图；不要额外弹层。不要旧游戏品牌、腾讯品牌、微信/QQ标志、充值价格、广告、水印、设备框。所有昵称、房号与规则数值只作本设计的示意，不要据此增加真实业务宣传文案。不要把“设计示意”“待审核”“原生尺寸”等制作说明印到游戏画面。\nPage ID: 10-invite-friends\nPrimary request: 邀请好友列表界面，标题“邀请好友”，带搜索与分享房间入口。\nRendered state: 三名好友组成完整列表：一位在线可邀请、一位在线且已邀请、一位离线不可邀请。不是空列表，也不弹出实际系统分享面板。\nLayout: 米白主面板约占画面宽度 78%。上方是一条适度宽的搜索框，放放大镜图标与占位文字“搜索道友”，右侧轻量文本“好友 3”。下方恰好三条等高的米白圆润好友行，以细金边和轻浅云纹分隔；每行左圆头像、中间姓名及状态、右侧操作按钮。第一行玉绿道童头像、昵称“山间客”、绿色圆点与“在线”、玉绿主按钮“邀请”；第二行桃花女修头像、昵称“花间客”、绿色圆点与“在线”、浅玉绿禁用按钮“已邀请”；第三行葫芦长者头像、昵称“松风客”、灰圆点与“离线”、灰米白禁用按钮“离线”。三头像年龄、发型与脸型有明显区别，来自 Image 4。底部细金线后，左边显示“房号 120816”及小按钮“复制房号”，右边一个玉绿金边按钮“分享房间”，配简洁通用分享箭头图标。不要任何微信、QQ或其他平台标志；不要画二维码、真实链接或“已发送成功”提示。\nText (verbatim): “返回”“邀请好友”“搜索道友”“好友 3”“山间客”“在线”“邀请”“花间客”“在线”“已邀请”“松风客”“离线”“离线”“房号 120816”“复制房号”“分享房间”。\nQuality check target: 三行对齐，在线可邀请、已邀请、离线状态一眼可区分；搜索、复制房号、分享入口都独立可见。只设计 UI，不表示发生了任何邀请或发送行为。\n\n"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据。当前内置 image_gen.imagegen 接口没有 model、quality 选择器，配置只表示用户目标；不能据此声称实际锁定 GPT Image 2.5 Sunburst 或 max。未检查或验证 C2PA。",
+  "prompt": "prompts/core/10-invite-friends-v1.txt",
+  "promptSha256": "098eda570f9bba68013a7f4c47cbdefce5f3c297900b8cf2e871d54076689d43",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "邮件界面：面板、按钮、配色、材质、人物完成度",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": "references/style/manifest.json",
+      "manifestSha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "manifestHashMatched": true
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "组队界面：控件层级、留白、列表、头像与按钮状态",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": "references/style/manifest.json",
+      "manifestSha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "manifestHashMatched": true
+    },
+    {
+      "file": "designs/ui/lobby-ui-v1.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\designs\\ui\\lobby-ui-v1.png",
+      "sha256": "6fb7c972b11f32d0454b32e38a85d50cf571205201e257638c29ee9eeedb8e3b",
+      "role": "本项目初版支持参考：人物、材质、布局同源；尚未获用户批准",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": null,
+      "manifestSha256": null,
+      "manifestHashMatched": null
+    },
+    {
+      "file": "designs/characters/characters-trio-v1.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png",
+      "sha256": "0c4dda70d4e16715527ed243a8d3efc2a401be2f06326b49601d1b184e7165ac",
+      "role": "本项目初版支持参考：人物、材质、布局同源；尚未获用户批准",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": null,
+      "manifestSha256": null,
+      "manifestHashMatched": null
+    }
+  ],
+  "evidence": {
+    "receipt": "designs/ui/core/.production/receipts/10-invite-friends-v1.receipt.json",
+    "receiptSha256": "bb0ea3ef16787d688e85af19c160189175443be314fdf093bc65c88a71fe8d1c",
+    "returnedEvidence": {
+      "tool": "image_gen.imagegen",
+      "route": "builtin",
+      "invocationId": null,
+      "toolReturnKeys": [
+        "image_url",
+        "output_hint"
+      ],
+      "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1771a-2c53-7da1-9217-2d5e42c4d85e as C:\\Users\\luyua\\.codex\\generated_images\\01a1771a-2c53-7da1-9217-2d5e42c4d85e\\exec-668902e2-4572-4314-b617-f4d96baea7d0.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "hostOutputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a1771a-2c53-7da1-9217-2d5e42c4d85e\\exec-668902e2-4572-4314-b617-f4d96baea7d0.png",
+      "hostOutputFilenameIdentifier": "exec-668902e2-4572-4314-b617-f4d96baea7d0",
+      "identifierMeaning": "宿主输出文件名标识，不冒认为模型调用ID",
+      "imagePayload": {
+        "field": "image_url",
+        "omittedFromReceipt": true
+      },
+      "toolReturnedModel": null,
+      "toolReturnedQuality": null,
+      "submittedArguments": {
+        "prompt": "Use case: ui-mockup\nAsset type: 道家 Q 版斗地主手游，一张独立完整界面的高清手绘 UI 概念稿。\nOutput target: 横屏约 2.37:1，期望 2560×1080。这个尺寸是视觉目标；请原生细致绘制，不放大模糊细节。平直正视的单一游戏画面，不是手机实拍或多屏展示板。\nInput images: Image 1＝01-mail-event.png，首要参考玉绿米白配色、纸绢、暖金细边、圆润如意云纹和手绘完成度；Image 2＝team-ui-v2.png，首要参考标题牌、卡片、留白、按钮与圆头像；Image 3＝lobby-ui-v1.png，支持参考同一个斗地主游戏的大厅与控件比例；Image 4＝characters-trio-v1.png，支持参考本游戏三位原创角色、头像与人物画法。只承接这些美术，不复制邮件、组队旧功能、旧文字或其他游戏名。角色头像与 Image 4 保持同源。\nVisual language: 深玉绿为标题、主要按钮、选中项；暖象牙米白纸绢为大面板；暖金细边、柔和圆润云纹。角色和图标采用精致二维高清手绘、柔和体积、温润金玉质感；避免塑料公仔、写实人物、现代扁平矢量。纸纹很轻，金边不厚重，桃粉、朱砂只作少量点缀。\nCommon frame: 四周约 3% 安全边距。统一玉绿金边居中标题牌，左上角清楚的返回箭头与“返回”。米白主面板边缘可露出低对比仙山庭院，背景不得干扰文字。所有按钮、标签、卡片对齐，留白充足，文字可读。\nGlobal constraints: 只画下面指定的一个主状态。不要把错误、加载、分享等其他状态画成多屏缩略拼图；不要额外弹层。不要旧游戏品牌、腾讯品牌、微信/QQ标志、充值价格、广告、水印、设备框。所有昵称、房号与规则数值只作本设计的示意，不要据此增加真实业务宣传文案。不要把“设计示意”“待审核”“原生尺寸”等制作说明印到游戏画面。\nPage ID: 10-invite-friends\nPrimary request: 邀请好友列表界面，标题“邀请好友”，带搜索与分享房间入口。\nRendered state: 三名好友组成完整列表：一位在线可邀请、一位在线且已邀请、一位离线不可邀请。不是空列表，也不弹出实际系统分享面板。\nLayout: 米白主面板约占画面宽度 78%。上方是一条适度宽的搜索框，放放大镜图标与占位文字“搜索道友”，右侧轻量文本“好友 3”。下方恰好三条等高的米白圆润好友行，以细金边和轻浅云纹分隔；每行左圆头像、中间姓名及状态、右侧操作按钮。第一行玉绿道童头像、昵称“山间客”、绿色圆点与“在线”、玉绿主按钮“邀请”；第二行桃花女修头像、昵称“花间客”、绿色圆点与“在线”、浅玉绿禁用按钮“已邀请”；第三行葫芦长者头像、昵称“松风客”、灰圆点与“离线”、灰米白禁用按钮“离线”。三头像年龄、发型与脸型有明显区别，来自 Image 4。底部细金线后，左边显示“房号 120816”及小按钮“复制房号”，右边一个玉绿金边按钮“分享房间”，配简洁通用分享箭头图标。不要任何微信、QQ或其他平台标志；不要画二维码、真实链接或“已发送成功”提示。\nText (verbatim): “返回”“邀请好友”“搜索道友”“好友 3”“山间客”“在线”“邀请”“花间客”“在线”“已邀请”“松风客”“离线”“离线”“房号 120816”“复制房号”“分享房间”。\nQuality check target: 三行对齐，在线可邀请、已邀请、离线状态一眼可区分；搜索、复制房号、分享入口都独立可见。只设计 UI，不表示发生了任何邀请或发送行为。\n\n",
+        "referenced_image_paths": [
+          "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+          "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+          "D:\\work\\doudizhu-image\\designs\\ui\\lobby-ui-v1.png",
+          "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png"
+        ],
+        "transparent_background": false
+      },
+      "startedAtUtc": "2026-10-26 08:15:18 UTC",
+      "receivedAtUtc": "2026-10-26 08:25:02 UTC"
+    },
+    "metadataInspection": "System.Drawing 只读检查实际尺寸、格式和透明度；未验证 C2PA，未从配置推断实际模型或质量。",
+    "rawFormatGuid": "b96b3caf-0728-11d3-9d7b-0000f81ef32e"
+  },
+  "status": "design_ready_user_review",
+  "visualQA": {
+    "blockingIssues": [],
+    "imageSha256": "df93dd0ddaea2cef938ff50880ecbe007b084c6d4168b05a06f3dfc6ffda1f05",
+    "inspectedAt": "2026-10-26T11:24:53.858275+00:00",
+    "status": "passed_for_design_review",
+    "findings": [
+      {
+        "severity": "pass",
+        "subject": "好友状态区分",
+        "detail": "山间客为在线且玉绿邀请按钮；花间客为在线且灰绿已邀请按钮；松风客为离线且灰色离线按钮。头像与昵称区分清楚。"
+      },
+      {
+        "severity": "pass",
+        "subject": "范围与文案",
+        "detail": "邀请好友、搜索道友、好友3、房号120816、复制房号、分享房间和返回均清楚，列表和操作对齐。"
+      },
+      {
+        "severity": "pass",
+        "subject": "风格",
+        "detail": "米白纸绢列表、玉绿标题按钮、暖金细边与人物头像保持同源，无装饰压字。"
+      },
+      {
+        "severity": "pass",
+        "subject": "本轮逐张复核",
+        "detail": "在线可邀请、在线已邀请、离线三行分别呈现；搜索、好友3、房号120816、复制和分享入口完整。"
+      },
+      {
+        "severity": "note",
+        "subject": "状态覆盖",
+        "detail": "必需状态3项：主图可见2，共享视觉与原生文案设计1，仅说明0。共享态未另画整页，实际功能尚未接入。"
+      }
+    ],
+    "reviewer": "core_qa",
+    "image": "designs/ui/core/10-invite-friends-v1.png",
+    "method": "view_image",
+    "userApproval": false,
+    "previousInspection": {
+      "reviewer": "art_review",
+      "inspectedAt": "2026-10-26T08:54:29.6332144+00:00",
+      "status": "passed_for_design_review"
+    }
+  },
+  "pageId": "10-invite-friends",
+  "userApproval": false
+}

@@ -1,0 +1,10 @@
+Create a reusable transparent UI ATLAS for the Chinese Daoist chibi game 斗地主. This is a native painted component sheet, not complete game screenshots. Target 2048x1536, landscape 4:3; actual full-size detailed painting. Match BOTH supplied style references exactly in material, warm thin gold rounded cloud edges, deep jade green, ivory silk-paper, refined hand painting, soft polished jade, clean silhouettes. 
+TRUE transparent background, RGBA alpha, no checkerboard or colored canvas. No words, numbers, headings or decorative backdrop anywhere. All controls have blank text areas for runtime Chinese labels.
+Arrange exactly 24 isolated components in a perfectly even 4-column by 6-row grid. Each control fully inside its own generous transparent cell, no overlap:
+Row 1: four identical wide PRIMARY jade gold buttons, default, highlighted thin jade glow, pressed darker and slightly inset, disabled desaturated sage with muted gold.
+Row 2: four identical wide SECONDARY ivory gold buttons in default, highlighted, pressed warm beige, disabled pale low-contrast.
+Row 3: jade gold ornate long title plaque; ivory gold secondary title plaque; jade selected small tab; ivory unselected small tab.
+Row 4: square gold checkbox unchecked; same checkbox with jade checkmark; jade rounded toggle ON; same toggle OFF with pale knob on left.
+Row 5: empty ivory gold text input with subtle interior; same input with jade focus outline; horizontal ivory gold progress track with jade fill at 50%; horizontal volume slider with round jade knob.
+Row 6: large blank ivory gold rounded CARD panel with thin cloud corners; a round jade gold CLOSE button with ivory X symbol; a slim ivory gold vertical scrollbar with jade thumb; a round ivory gold avatar FRAME with empty transparent center.
+Keep all 24 separate with large transparent gutters. No shadows extending into neighboring cells, no text. Preserve finely painted details matching the references; no plastic/toy gloss, no harsh bevelled metal, no flat modern web icons. 

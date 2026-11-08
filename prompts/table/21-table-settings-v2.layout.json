@@ -1,0 +1,122 @@
+{
+  "source": "designs/ui/table/21-table-settings-v1.png",
+  "output": "designs/ui/table/21-table-settings-v2.png",
+  "trays": [
+    {
+      "sourceRect": [
+        28,
+        0,
+        551,
+        267
+      ],
+      "rect": [
+        373,
+        580,
+        910,
+        174
+      ],
+      "border": 32
+    },
+    {
+      "sourceRect": [
+        28,
+        0,
+        551,
+        267
+      ],
+      "rect": [
+        701,
+        236,
+        210,
+        117
+      ],
+      "border": 26,
+      "fillRect": [
+        710,
+        245,
+        197,
+        102
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "file": "assets/ui/cards-source/farmer.png",
+      "role": "女修为农民",
+      "rect": [
+        155,
+        383,
+        85,
+        61
+      ]
+    },
+    {
+      "file": "assets/ui/cards-source/landlord.png",
+      "role": "长者为地主",
+      "rect": [
+        1208,
+        383,
+        91,
+        64
+      ]
+    },
+    {
+      "file": "assets/ui/cards-source/farmer.png",
+      "role": "自己为农民",
+      "rect": [
+        320,
+        734,
+        73,
+        53
+      ]
+    }
+  ],
+  "cardGroups": [
+    {
+      "role": "自己的17张手牌",
+      "rect": [
+        385,
+        590,
+        885,
+        153
+      ],
+      "cards": [
+        "joker-big",
+        "joker-small",
+        "spades-2",
+        "hearts-A",
+        "clubs-A",
+        "spades-K",
+        "diamonds-K",
+        "hearts-Q",
+        "spades-J",
+        "clubs-10",
+        "hearts-9",
+        "spades-8",
+        "diamonds-7",
+        "clubs-6",
+        "spades-5",
+        "hearts-4",
+        "clubs-3"
+      ],
+      "selectedIndexes": [],
+      "selectionLift": 0
+    },
+    {
+      "role": "三张公开底牌",
+      "rect": [
+        708,
+        244,
+        197,
+        101
+      ],
+      "cards": [
+        "spades-A",
+        "hearts-K",
+        "diamonds-3"
+      ],
+      "selectedIndexes": [],
+      "selectionLift": 0
+    }
+  ]
+}

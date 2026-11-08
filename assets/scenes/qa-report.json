@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-28T08:13:23.376864+00:00",
+  "reviewMethod": "File hashes, RGBA byte comparisons and offline image/contact-sheet inspection; not browser/device playback or engine import.",
+  "userApproved": false,
+  "status": "passed_for_art_file_review",
+  "counts": {
+    "backgrounds": 3,
+    "transparentForegrounds": 2
+  },
+  "assets": [
+    {
+      "id": "courtyard-lobby",
+      "file": "assets/scenes/courtyard-lobby.png",
+      "sha256": "019b75dfa37d04cb457f68e1799ce8e334e1e3ce5642429babb737219b89f875",
+      "width": 1931,
+      "height": 814,
+      "mode": "RGB",
+      "status": "passed_for_art_file_review",
+      "errors": []
+    },
+    {
+      "id": "courtyard-day",
+      "file": "assets/scenes/courtyard-day.png",
+      "sha256": "f8203722e5ad59e0bd94661728146576a8d21c81efde2d306a7bd6092e366d5a",
+      "width": 1931,
+      "height": 814,
+      "mode": "RGB",
+      "status": "passed_for_art_file_review",
+      "errors": []
+    },
+    {
+      "id": "courtyard-moon",
+      "file": "assets/scenes/courtyard-moon-v2.png",
+      "sha256": "066b7cc70e4c4bd3a19c9eaec57a10287ade566bc6a0204ddfbc320d130d0078",
+      "width": 1932,
+      "height": 814,
+      "mode": "RGB",
+      "status": "passed_for_art_file_review",
+      "errors": []
+    },
+    {
+      "id": "jade-table",
+      "file": "assets/scenes/jade-table-runtime.png",
+      "sha256": "ed7f7f3858c4d569dd741eb0f02aa03978216c551e3efe2a344c2eb9684c1451",
+      "width": 2060,
+      "height": 942,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeNonzero": 0,
+      "visibleSourcePixels1to1": true,
+      "sourceAlpha1to1": true,
+      "status": "passed_for_art_file_review",
+      "errors": []
+    },
+    {
+      "id": "peach-table",
+      "file": "assets/scenes/peach-table-runtime.png",
+      "sha256": "a6289c2ee501a8bb059a10dcd48cd28cd6a17f9fcdc2b9e80fe8616e54960071",
+      "width": 2059,
+      "height": 942,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeNonzero": 0,
+      "visibleSourcePixels1to1": true,
+      "sourceAlpha1to1": true,
+      "status": "passed_for_art_file_review",
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "limits": [
+    "No collision/nav claim; backgrounds are scenery plates.",
+    "16:9 center-crop preserves visual center; runtime foreground must contain-fit.",
+    "Rejected moon image hash stays recorded even after corrected selection."
+  ]
+}

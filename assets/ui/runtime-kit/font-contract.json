@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "downloadedFonts": [],
+  "bundledFonts": [],
+  "encoding": "UTF-8",
+  "writingDirection": "ltr",
+  "language": "zh-CN",
+  "stacks": {
+    "body": [
+      "Microsoft YaHei",
+      "PingFang SC",
+      "Noto Sans CJK SC",
+      "sans-serif"
+    ],
+    "heading": [
+      "KaiTi",
+      "STKaiti",
+      "Noto Serif CJK SC",
+      "serif"
+    ],
+    "numeric": [
+      "Microsoft YaHei",
+      "Noto Sans",
+      "sans-serif"
+    ]
+  },
+  "styleTokens": {
+    "screenTitle": {
+      "stack": "heading",
+      "size": 56,
+      "lineHeight": 1.15,
+      "weight": 700,
+      "color": "#FFF6DB"
+    },
+    "panelTitle": {
+      "stack": "heading",
+      "size": 36,
+      "lineHeight": 1.2,
+      "weight": 700,
+      "color": "#173F32"
+    },
+    "body": {
+      "stack": "body",
+      "size": 28,
+      "lineHeight": 1.45,
+      "weight": 400,
+      "color": "#173F32"
+    },
+    "secondary": {
+      "stack": "body",
+      "size": 24,
+      "lineHeight": 1.35,
+      "weight": 400,
+      "color": "#675B43"
+    },
+    "button": {
+      "stack": "body",
+      "size": 30,
+      "lineHeight": 1.2,
+      "weight": 600,
+      "color": "#FFF6DB"
+    },
+    "buttonSecondary": {
+      "stack": "body",
+      "size": 30,
+      "lineHeight": 1.2,
+      "weight": 600,
+      "color": "#173F32"
+    },
+    "numeric": {
+      "stack": "numeric",
+      "size": 30,
+      "lineHeight": 1.2,
+      "weight": 600,
+      "color": "#173F32"
+    },
+    "warning": {
+      "stack": "body",
+      "size": 24,
+      "lineHeight": 1.35,
+      "weight": 500,
+      "color": "#A9442C"
+    }
+  },
+  "units": "logical pixels on 2560x1080 canvas",
+  "textSeparation": "UI labels, dynamic numbers, prices, names, dates and errors are native text. Icon and skin PNGs contain no textual labels.",
+  "fallbackPolicy": "Resolve first installed CJK font in stack; if unavailable, show missing font diagnostic and use OS CJK fallback. Do not download fonts silently.",
+  "layoutRules": {
+    "wrap": "body paragraphs may wrap by grapheme; buttons single line; tooltip wraps",
+    "overflow": "measure actual selected font; ellipsis with full-text tooltip for list names; never crop price/score/status",
+    "minimumBodyLogicalPx": 24,
+    "buttonAutoFit": "never reduce below24; expand button or shorten product-approved text",
+    "numeralPolicy": "tabular figures where available; keep separators and signs explicit",
+    "localization": "remeasure text bounds after locale change",
+    "license": "No third-party font files shipped; confirm font licensing if bundling later"
+  },
+  "validationRequired": [
+    "Installed font resolution per target OS",
+    "CJK/Latin/numeral glyph coverage",
+    "No overflow at 2560x1080 and minimum supported viewport",
+    "Contrast of ivory on jade and jade on ivory"
+  ],
+  "currentWindowsProbe": {
+    "checkedOn": "2026-10-26",
+    "microsoftYaheiFileAvailable": true,
+    "kaitiFileAvailable": true,
+    "scope": "Current host file availability only; no font files bundled, no cross-platform guarantee"
+  }
+}

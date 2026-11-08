@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "id": "13-double",
+  "title": "明牌与加倍",
+  "primaryVisual": "designs/ui/table/13-double-v2.png",
+  "generation": "designs/ui/table/13-double-v2.generation.json",
+  "status": "design_ready_user_review",
+  "shownState": "待选择加倍；地主身份已确定",
+  "renderedStateVerification": "已看图：加倍/不加倍/明牌、三席身份和倒计时清楚。用规范牌面层排版20张地主手牌，数目与20标签一致，明确包含公开底牌A黑桃/K红桃/3方片；重复物理牌已避免。为UI组合导出，完整隐藏手牌合法性仍需运行态验证。",
+  "states": [
+    {
+      "name": "待选择",
+      "coverage": "rendered",
+      "plannedCoverage": "rendered",
+      "behavior": "显示加倍与不加倍，身份与底牌已确定。",
+      "artwork": "designs/ui/table/13-double-v2.png",
+      "verification": "rendered为当前已看图布局；shared_component为已有同源素材与原生动态层的复用规范，不表示已生成每个变体截图或已实现客户端"
+    },
+    {
+      "name": "加倍",
+      "coverage": "shared_component",
+      "plannedCoverage": "shared_component",
+      "behavior": "选择成功后按规则更新倍数，显示已加倍。",
+      "artwork": "assets/ui/manifest.json",
+      "verification": "rendered为当前已看图布局；shared_component为已有同源素材与原生动态层的复用规范，不表示已生成每个变体截图或已实现客户端"
+    },
+    {
+      "name": "不加倍",
+      "coverage": "shared_component",
+      "plannedCoverage": "shared_component",
+      "behavior": "显示不加倍并停止个人选择倒计时。",
+      "artwork": "assets/ui/manifest.json",
+      "verification": "rendered为当前已看图布局；shared_component为已有同源素材与原生动态层的复用规范，不表示已生成每个变体截图或已实现客户端"
+    },
+    {
+      "name": "明牌",
+      "coverage": "shared_component",
+      "plannedCoverage": "shared_component",
+      "behavior": "明牌切换牌背为规范牌面，显示明牌徽记；限制由对应模式规则控制。",
+      "artwork": "assets/ui/manifest.json",
+      "verification": "rendered为当前已看图布局；shared_component为已有同源素材与原生动态层的复用规范，不表示已生成每个变体截图或已实现客户端"
+    }
+  ],
+  "dynamicFields": [
+    "玩家昵称、头像、身份",
+    "底牌、手牌、牌数、出牌组合",
+    "剩余时间、底分、倍数、分数",
+    "选择状态、连接状态、提示文案"
+  ],
+  "implementationNote": "背景和皮肤为视觉设计。所有中文、牌面、牌数、计时、分数、可用性应作为原生动态层；当前图片仅示意，不作为可运行或合法牌局验收。",
+  "sharedDependencies": [
+    "assets/ui/manifest.json",
+    "designs/ui/components/50-shared-dialogs-v1.png",
+    "designs/ui/components/51-common-components-v1.png",
+    "designs/ui/components/52-card-and-effects-v1.png"
+  ],
+  "copyAndRules": "示意计分、门槛、倍数和超时规则应由最终产品规则确认，不以本图取代真实回执。"
+}

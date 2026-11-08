@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/characters/characters-trio-v1.png",
+  "absolutePath": "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png",
+  "sha256": "0c4dda70d4e16715527ed243a8d3efc2a401be2f06326b49601d1b184e7165ac",
+  "generatedAt": "2026-10-26T03:37:14-04:00",
+  "generatedAtEvidence": {
+    "isProxy": true,
+    "source": "first-receipt-recorded-at-after-tool-return",
+    "explanation": "以工具返回后首次保存receipt时读取的UTC时钟代理完成时间；不是模型内部生成时间。"
+  },
+  "recordedAt": "2026-10-26T03:37:14.9445178-04:00",
+  "startedAtUtc": "2026-10-26T03:35:25-04:00",
+  "finishedAtUtc": "2026-10-26T03:37:14-04:00",
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "nativeResolution": {
+    "width": 1672,
+    "height": 941
+  },
+  "exportResolution": {
+    "width": 1672,
+    "height": 941,
+    "operation": "byte-identical-copy-of-generated-output-no-resize-or-redraw"
+  },
+  "requestedResolution": {
+    "width": 2560,
+    "height": 1440,
+    "note": "提示词中的尺寸目标；内置工具无独立尺寸选择参数，实际尺寸以上方实测值为准。"
+  },
+  "transparency": {
+    "requestedTransparentBackground": false,
+    "sourcePixelFormat": "Format24bppRgb",
+    "hasAlphaChannel": false,
+    "hasNonOpaquePixels": false,
+    "fullyOpaque": true,
+    "inspectionMethod": "source-format-reports-no-alpha"
+  },
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "callId": null,
+  "resultId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png"
+    ],
+    "prompt": "Use case: stylized-concept\nAsset type: 中国仙侠休闲斗地主手游三位原创 Q 版人物概念设定图，第一版角色评审用。\nPrimary request: 根据附带的两张已确认的美术风格参考，绘制三位差异明显、完整全身、并排站立的道家 Q 版人物。目标画布 2560×1440，宽屏 16:9，高完成度原生细节。\nInput images: Image 1 (01-mail-event.png) 是主要画法、配色和道童五官参考；Image 2 (team-ui-v2.png) 是角色头像画法、柔和光影和玉绿米白体系参考。只提取这些美术特征，不画它们的 UI、列表、标题、背景场景、旧游戏名或旧数据。\nScene/backdrop: 素净的暖象牙米白纸绢背景，纹理极轻。无亭阁场景、无复杂装饰边框；人物脚下各有淡而柔的短落影。\nComposition/framing: 三个独立全身角色等距并列，左、中、右各占三分之一画布；角色之间留出明显空白，彼此没有任何重叠。人物从发饰顶端到鞋底都完整可见，脚在同一条基线，四周有充裕空白。头顶约 10% 留白、脚下约 13% 留白用于标签。仅三位人物，不加额外头像、转面、小人或重复角色。三人保持同一游戏的画法、细节密度、光照和大头短身体系，各自轮廓与年龄气质鲜明。\nSubject left — 玉绿道童: 小男孩形象，约 2.6 头身，大圆脸、饱满脸颊、暖棕大圆眼、明亮张嘴笑；短棕色略尖的头发、宽金色发带与清楚飘尾。玉绿短外袍、象牙米白宽袖与短裤、温润暖金细包边、小布靴。腰侧一个小葫芦、少量玉珠和朱砂短流苏。身体轻快向前倾，右手自然摊开欢迎，另一手拿两张背面朝向观者的小扑克牌，牌背是简洁玉绿如意云纹，不出现点数花色。服装保留参考道童的身份特征但为原创完整新姿态。\nSubject center — 桃花女修: 年轻女性的灵动温婉形象，约 3 头身；比道童稍长的鹅蛋脸、柔和细眉、稍细长的暖棕眼、闭口微笑。墨黑长发部分束成清秀高髻，侧边桃花和浅玉发簪是明显识别点，长发垂至腰部。米白交领长裙与轻薄玉绿叠层外衫、克制的淡桃粉内衬和腰绦、细金线收边、玉坠。纤细但圆润的轮廓，自然端庄站姿，一只手持半开的米白折扇，另一只手轻扶扇柄；双手清楚，鞋尖可见。不要复用男孩的圆脸、头发、眼型或笑容。\nSubject right — 葫芦长者: 年长男性，矮胖宽厚、约 2.5 头身；圆阔鼻头、笑纹、白色浓长眉、弯月笑眼、长白胡须与高束白发髻，明显有年龄。深玉绿宽袍、米白衣襟、暖灰绿袖口、朴素布鞋和宽布腰带，金色装饰比年轻角色克制。一只胳膊从下方自然托着一只醒目的大黄铜葫芦，葫芦有少量柔和太极雕纹；另一只手自然扶在腹前。大肚与宽袖形成圆厚稳重轮廓，神情慈祥诙谐，不能画成白发版男孩。\nStyle/medium: 与两张参考一致的道家 Q 版高清手绘游戏角色，细腻清晰二维彩绘、柔和有层次的明暗、眼睛清澈、肤色温暖、头发成束、衣褶有结构。材质温润，金玉点缀适量，布料为柔软织物。人物轮廓干净，手部动作自然，指头合理，脚不裁切。不要写实、不要塑料公仔、不要三维玩具渲染。\nText (verbatim): 只在每个角色下方分别写清楚的深玉绿小标签：“玉绿道童”“桃花女修”“葫芦长者”。使用与参考协调的可读书写风格，字不接触脚或阴影。无大标题、无额外说明。\nConstraints: 这一张是米白不透明背景的角色概念评审稿；不是透明精灵图或客户端切片。头饰、手指、葫芦、袖口、裙摆和鞋底完整保留。三者五官、年龄、姿态、剪影与法器有清楚区别；统一画法不等于同脸换色。不要在图内写评审状态。\nAvoid: UI框体、旧品牌名、背景建筑、额外人物、兔子、武器特效、艳粉大面积、厚重金色盔甲、裸露服饰、噪点、模糊拉伸、程序绘制感、水印。"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据。当前内置 image_gen.imagegen 接口没有 model、quality 选择器，配置只表示用户目标；不能据此声称实际锁定 GPT Image 2.5 Sunburst 或 max。未检查或验证 C2PA。",
+  "prompt": "prompts/characters-trio-v1.txt",
+  "promptSha256": "d78ba99b4c6bed7ce0d7b49433354f81bedb03e00c4bb58b7d50a1f98ef6761e",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "邮件界面：面板、按钮、配色、材质、人物完成度",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": "references/style/manifest.json",
+      "manifestSha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "manifestHashMatched": true
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "组队界面：控件层级、留白、列表、头像与按钮状态",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": "references/style/manifest.json",
+      "manifestSha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "manifestHashMatched": true
+    }
+  ],
+  "evidence": {
+    "receipt": "work/receipts/characters-trio-v1.receipt.json",
+    "receiptSha256": "8926f77bddebe5bccb12a15e3b8150534be469cd188221ce1aa587a091f515d5",
+    "returnedEvidence": {
+      "tool": "image_gen.imagegen",
+      "route": "builtin",
+      "invocationId": null,
+      "toolReturnKeys": [
+        "image_url",
+        "output_hint"
+      ],
+      "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1771a-2c53-7da1-9217-2d5e42c4d85e as C:\\Users\\luyua\\.codex\\generated_images\\01a1771a-2c53-7da1-9217-2d5e42c4d85e\\exec-f0e6cf44-43d4-4cf8-a4e3-3cdc36fe977b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "imagePayload": {
+        "field": "image_url",
+        "encoding": "data-url",
+        "omittedFromReceipt": true,
+        "reason": "图片原始二进制另存为PNG并计算哈希，避免重复保存base64"
+      },
+      "toolReturnedModel": null,
+      "toolReturnedQuality": null,
+      "submittedArguments": {
+        "prompt": "Use case: stylized-concept\nAsset type: 中国仙侠休闲斗地主手游三位原创 Q 版人物概念设定图，第一版角色评审用。\nPrimary request: 根据附带的两张已确认的美术风格参考，绘制三位差异明显、完整全身、并排站立的道家 Q 版人物。目标画布 2560×1440，宽屏 16:9，高完成度原生细节。\nInput images: Image 1 (01-mail-event.png) 是主要画法、配色和道童五官参考；Image 2 (team-ui-v2.png) 是角色头像画法、柔和光影和玉绿米白体系参考。只提取这些美术特征，不画它们的 UI、列表、标题、背景场景、旧游戏名或旧数据。\nScene/backdrop: 素净的暖象牙米白纸绢背景，纹理极轻。无亭阁场景、无复杂装饰边框；人物脚下各有淡而柔的短落影。\nComposition/framing: 三个独立全身角色等距并列，左、中、右各占三分之一画布；角色之间留出明显空白，彼此没有任何重叠。人物从发饰顶端到鞋底都完整可见，脚在同一条基线，四周有充裕空白。头顶约 10% 留白、脚下约 13% 留白用于标签。仅三位人物，不加额外头像、转面、小人或重复角色。三人保持同一游戏的画法、细节密度、光照和大头短身体系，各自轮廓与年龄气质鲜明。\nSubject left — 玉绿道童: 小男孩形象，约 2.6 头身，大圆脸、饱满脸颊、暖棕大圆眼、明亮张嘴笑；短棕色略尖的头发、宽金色发带与清楚飘尾。玉绿短外袍、象牙米白宽袖与短裤、温润暖金细包边、小布靴。腰侧一个小葫芦、少量玉珠和朱砂短流苏。身体轻快向前倾，右手自然摊开欢迎，另一手拿两张背面朝向观者的小扑克牌，牌背是简洁玉绿如意云纹，不出现点数花色。服装保留参考道童的身份特征但为原创完整新姿态。\nSubject center — 桃花女修: 年轻女性的灵动温婉形象，约 3 头身；比道童稍长的鹅蛋脸、柔和细眉、稍细长的暖棕眼、闭口微笑。墨黑长发部分束成清秀高髻，侧边桃花和浅玉发簪是明显识别点，长发垂至腰部。米白交领长裙与轻薄玉绿叠层外衫、克制的淡桃粉内衬和腰绦、细金线收边、玉坠。纤细但圆润的轮廓，自然端庄站姿，一只手持半开的米白折扇，另一只手轻扶扇柄；双手清楚，鞋尖可见。不要复用男孩的圆脸、头发、眼型或笑容。\nSubject right — 葫芦长者: 年长男性，矮胖宽厚、约 2.5 头身；圆阔鼻头、笑纹、白色浓长眉、弯月笑眼、长白胡须与高束白发髻，明显有年龄。深玉绿宽袍、米白衣襟、暖灰绿袖口、朴素布鞋和宽布腰带，金色装饰比年轻角色克制。一只胳膊从下方自然托着一只醒目的大黄铜葫芦，葫芦有少量柔和太极雕纹；另一只手自然扶在腹前。大肚与宽袖形成圆厚稳重轮廓，神情慈祥诙谐，不能画成白发版男孩。\nStyle/medium: 与两张参考一致的道家 Q 版高清手绘游戏角色，细腻清晰二维彩绘、柔和有层次的明暗、眼睛清澈、肤色温暖、头发成束、衣褶有结构。材质温润，金玉点缀适量，布料为柔软织物。人物轮廓干净，手部动作自然，指头合理，脚不裁切。不要写实、不要塑料公仔、不要三维玩具渲染。\nText (verbatim): 只在每个角色下方分别写清楚的深玉绿小标签：“玉绿道童”“桃花女修”“葫芦长者”。使用与参考协调的可读书写风格，字不接触脚或阴影。无大标题、无额外说明。\nConstraints: 这一张是米白不透明背景的角色概念评审稿；不是透明精灵图或客户端切片。头饰、手指、葫芦、袖口、裙摆和鞋底完整保留。三者五官、年龄、姿态、剪影与法器有清楚区别；统一画法不等于同脸换色。不要在图内写评审状态。\nAvoid: UI框体、旧品牌名、背景建筑、额外人物、兔子、武器特效、艳粉大面积、厚重金色盔甲、裸露服饰、噪点、模糊拉伸、程序绘制感、水印。",
+        "referenced_image_paths": [
+          "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+          "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png"
+        ],
+        "transparent_background": false
+      },
+      "recordedAtUtc": "2026-10-26 07:37:14 UTC"
+    },
+    "metadataInspection": "System.Drawing 只读检查实际尺寸、格式和透明度；未验证 C2PA，未从配置推断实际模型或质量。",
+    "rawFormatGuid": "b96b3caf-0728-11d3-9d7b-0000f81ef32e",
+    "hostOutputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a1771a-2c53-7da1-9217-2d5e42c4d85e\\exec-f0e6cf44-43d4-4cf8-a4e3-3cdc36fe977b.png",
+    "hostOutputFilenameIdentifier": "exec-f0e6cf44-43d4-4cf8-a4e3-3cdc36fe977b",
+    "hostOutputIdentifierMeaning": "宿主返回的原始文件名标识；不是已确认的模型调用ID。"
+  },
+  "status": "首版待用户确认",
+  "visualQA": {
+    "status": "已实际看图；可供首轮方向评审",
+    "inspectedAt": "2026-10-26T07:39:36.6737509+00:00",
+    "method": "主代理与独立审阅代理均使用view_image；主代理同时查看image_gen返回图",
+    "findings": [
+      "三人发饰、手部、衣摆与鞋部完整位于画内，角色互不遮挡。",
+      "道童圆脸活泼、女修纤长秀气、长者宽厚圆润，年龄、轮廓、头饰和法器差异清楚。",
+      "未见明显多指、断指或五官错误；女修握扇的手部遮挡关系合理。",
+      "玉绿、米白、暖金及少量桃粉统一，细腻画法承接两张主参考。",
+      "玉绿道童、桃花女修、葫芦长者三个中文标签正确。",
+      "实际1672×941，未达到提示词2560×1440像素目标；未后期放大。",
+      "不透明米白背景概念设定图，尚未拆分透明角色，首版待用户确认。"
+    ]
+  }
+}

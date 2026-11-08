@@ -1,0 +1,148 @@
+{
+  "batch": "modes",
+  "updatedAt": "2026-10-26T12:17:13.439968+00:00",
+  "total": 14,
+  "ready": 14,
+  "pages": [
+    {
+      "id": "23-ranked-lobby",
+      "title": "排位大厅",
+      "output": "designs/ui/modes/23-ranked-lobby-v1.png",
+      "generation": "designs/ui/modes/23-ranked-lobby-v1.generation.json",
+      "stateSpec": "designs/ui/modes/23-ranked-lobby.states.json",
+      "width": 1932,
+      "height": 814,
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "24-ranked-progress",
+      "title": "段位赛季进度",
+      "output": "designs/ui/modes/24-ranked-progress-v1.png",
+      "generation": "designs/ui/modes/24-ranked-progress-v1.generation.json",
+      "stateSpec": "designs/ui/modes/24-ranked-progress.states.json",
+      "width": 1932,
+      "height": 814,
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "25-ranked-result",
+      "title": "排位结算",
+      "output": "designs/ui/modes/25-ranked-result-v1.png",
+      "generation": "designs/ui/modes/25-ranked-result-v1.generation.json",
+      "stateSpec": "designs/ui/modes/25-ranked-result.states.json",
+      "width": 1930,
+      "height": 815,
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "26-tournament-lobby",
+      "title": "赛事大厅",
+      "output": "designs/ui/modes/26-tournament-lobby-v1.png",
+      "generation": "designs/ui/modes/26-tournament-lobby-v1.generation.json",
+      "stateSpec": "designs/ui/modes/26-tournament-lobby.states.json",
+      "width": 1932,
+      "height": 814,
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "27-tournament-detail",
+      "title": "赛事详情报名",
+      "output": "designs/ui/modes/27-tournament-detail-v2.png",
+      "generation": "designs/ui/modes/27-tournament-detail-v2.generation.json",
+      "stateSpec": "designs/ui/modes/27-tournament-detail.states.json",
+      "width": 1932,
+      "height": 814,
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "28-tournament-waiting",
+      "title": "赛事候场晋级",
+      "output": "designs/ui/modes/28-tournament-waiting-v1.png",
+      "generation": "designs/ui/modes/28-tournament-waiting-v1.generation.json",
+      "stateSpec": "designs/ui/modes/28-tournament-waiting.states.json",
+      "width": 1932,
+      "height": 814,
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "29-tournament-result",
+      "title": "赛事成绩",
+      "output": "designs/ui/modes/29-tournament-result-v2.png",
+      "generation": "designs/ui/modes/29-tournament-result-v2.generation.json",
+      "stateSpec": "designs/ui/modes/29-tournament-result.states.json",
+      "width": 1932,
+      "height": 814,
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "30-puzzle-select",
+      "title": "残局关卡",
+      "output": "designs/ui/modes/30-puzzle-select-v1.png",
+      "generation": "designs/ui/modes/30-puzzle-select-v1.generation.json",
+      "stateSpec": "designs/ui/modes/30-puzzle-select.states.json",
+      "width": 1931,
+      "height": 814,
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "31-puzzle-play",
+      "title": "残局挑战",
+      "output": "designs/ui/modes/31-puzzle-play-v1.png",
+      "generation": "designs/ui/modes/31-puzzle-play-v1.generation.json",
+      "stateSpec": "designs/ui/modes/31-puzzle-play.states.json",
+      "width": 1932,
+      "height": 814,
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "32-puzzle-result",
+      "title": "残局结果",
+      "output": "designs/ui/modes/32-puzzle-result-v1.png",
+      "generation": "designs/ui/modes/32-puzzle-result-v1.generation.json",
+      "stateSpec": "designs/ui/modes/32-puzzle-result.states.json",
+      "width": 1931,
+      "height": 814,
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "33-character-select",
+      "title": "角色选择",
+      "output": "designs/ui/modes/33-character-select-v1.png",
+      "generation": "designs/ui/modes/33-character-select-v1.generation.json",
+      "stateSpec": "designs/ui/modes/33-character-select.states.json",
+      "width": 1932,
+      "height": 814,
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "34-character-detail",
+      "title": "角色详情",
+      "output": "designs/ui/modes/34-character-detail-v1.png",
+      "generation": "designs/ui/modes/34-character-detail-v1.generation.json",
+      "stateSpec": "designs/ui/modes/34-character-detail.states.json",
+      "width": 1931,
+      "height": 814,
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "35-wardrobe",
+      "title": "装扮牌桌",
+      "output": "designs/ui/modes/35-wardrobe-v1.png",
+      "generation": "designs/ui/modes/35-wardrobe-v1.generation.json",
+      "stateSpec": "designs/ui/modes/35-wardrobe.states.json",
+      "width": 1931,
+      "height": 814,
+      "status": "design_ready_user_review"
+    },
+    {
+      "id": "36-shop",
+      "title": "商城",
+      "output": "designs/ui/modes/36-shop-v1.png",
+      "generation": "designs/ui/modes/36-shop-v1.generation.json",
+      "stateSpec": "designs/ui/modes/36-shop.states.json",
+      "width": 1931,
+      "height": 814,
+      "status": "design_ready_user_review"
+    }
+  ]
+}

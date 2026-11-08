@@ -1,0 +1,55 @@
+{
+  "id": "daotong_ink_lose",
+  "kind": "costume_pose",
+  "file": "assets/characters/daotong/costumes/ink-poses/lose.png",
+  "record": "assets/characters/daotong/costumes/ink-poses/lose.derivation.json",
+  "width": 1024,
+  "height": 1024,
+  "anchor": [
+    512,
+    920
+  ],
+  "sha256": "15dcb261972807c0b05cdfd7ad0acb202f371a96eec3171b147b26b59956137c",
+  "route": "derived",
+  "noUpscale": true,
+  "fixedScale": 0.6754015215553677,
+  "sourceRect": [
+    144,
+    46,
+    1155,
+    1241
+  ],
+  "sourceAnchor": [
+    649.5,
+    1235
+  ],
+  "offset": [
+    171,
+    117
+  ],
+  "registration": "match the skin-master significant body height; feet anchored at512,920; per-source uniform downscale only",
+  "operation": "significant-alpha crop plus6px, premultiplied-alpha Lanczos downscale, foot-anchor registration; independent generated pose still",
+  "derivedFrom": [
+    {
+      "file": "designs/characters/costume-poses-20261029/ink-lose-v1.png",
+      "sha256": "90abaaaab872bd96744bfbe34b74d9f1603618bdfcdd61cbe4a0c2203313ad98",
+      "record": "designs/characters/costume-poses-20261029/ink-lose-v1.generation.json"
+    }
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "edgeAlphaMax": 0,
+  "status": "passed_offline_art_review",
+  "recordedAt": "2026-10-30T04:34:57.230701+00:00",
+  "visualReview": {
+    "method": "actual imagegen returns plus light/dark five-costume master-win-lose contact inspected",
+    "passed": true,
+    "reviewedAt": "2026-10-30T05:04:57.668486+00:00",
+    "bodyHeight": 799,
+    "masterBodyHeight": 799,
+    "edgeAlphaMax": 0,
+    "footAnchorError": 0
+  }
+}

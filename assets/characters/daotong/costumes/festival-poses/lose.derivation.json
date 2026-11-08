@@ -1,0 +1,55 @@
+{
+  "id": "daotong_festival_lose",
+  "kind": "costume_pose",
+  "file": "assets/characters/daotong/costumes/festival-poses/lose.png",
+  "record": "assets/characters/daotong/costumes/festival-poses/lose.derivation.json",
+  "width": 1024,
+  "height": 1024,
+  "anchor": [
+    512,
+    920
+  ],
+  "sha256": "709656d0bcdeb796db88fe3937b1e63197871683b7b2f950ec75f1dadf5996bb",
+  "route": "derived",
+  "noUpscale": true,
+  "fixedScale": 0.6611570247933884,
+  "sourceRect": [
+    90,
+    38,
+    1159,
+    1260
+  ],
+  "sourceAnchor": [
+    624.5,
+    1254
+  ],
+  "offset": [
+    159,
+    116
+  ],
+  "registration": "match the skin-master significant body height; feet anchored at512,920; per-source uniform downscale only",
+  "operation": "significant-alpha crop plus6px, premultiplied-alpha Lanczos downscale, foot-anchor registration; independent generated pose still",
+  "derivedFrom": [
+    {
+      "file": "designs/characters/costume-poses-20261029/festival-lose-v1.png",
+      "sha256": "cc4e8920aac3a919c771fc935669db11752fc9d771d8044bbea44087cf07e7dc",
+      "record": "designs/characters/costume-poses-20261029/festival-lose-v1.generation.json"
+    }
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "edgeAlphaMax": 0,
+  "status": "passed_offline_art_review",
+  "recordedAt": "2026-10-30T04:34:58.519815+00:00",
+  "visualReview": {
+    "method": "actual imagegen returns plus light/dark five-costume master-win-lose contact inspected",
+    "passed": true,
+    "reviewedAt": "2026-10-30T05:04:57.861036+00:00",
+    "bodyHeight": 800,
+    "masterBodyHeight": 800,
+    "edgeAlphaMax": 0,
+    "footAnchorError": 0
+  }
+}

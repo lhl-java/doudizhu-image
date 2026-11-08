@@ -1,0 +1,55 @@
+{
+  "id": "daotong_festival_win",
+  "kind": "costume_pose",
+  "file": "assets/characters/daotong/costumes/festival-poses/win.png",
+  "record": "assets/characters/daotong/costumes/festival-poses/win.derivation.json",
+  "width": 1024,
+  "height": 1024,
+  "anchor": [
+    512,
+    920
+  ],
+  "sha256": "bb23de87650487d143cc2d3641cc13b54afa01a2cbf8bc825ea8df442457c636",
+  "route": "derived",
+  "noUpscale": true,
+  "fixedScale": 0.6655574043261231,
+  "sourceRect": [
+    115,
+    16,
+    1161,
+    1230
+  ],
+  "sourceAnchor": [
+    638.0,
+    1224
+  ],
+  "offset": [
+    164,
+    116
+  ],
+  "registration": "match the skin-master significant body height; feet anchored at512,920; per-source uniform downscale only",
+  "operation": "significant-alpha crop plus6px, premultiplied-alpha Lanczos downscale, foot-anchor registration; independent generated pose still",
+  "derivedFrom": [
+    {
+      "file": "designs/characters/costume-poses-20261029/festival-win-v1.png",
+      "sha256": "7b0794a371d282f6cb537f7f1dd26ccb33364b1ffa060bc1a8ddbcae56baff64",
+      "record": "designs/characters/costume-poses-20261029/festival-win-v1.generation.json"
+    }
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "edgeAlphaMax": 0,
+  "status": "passed_offline_art_review",
+  "recordedAt": "2026-10-30T04:34:58.419023+00:00",
+  "visualReview": {
+    "method": "actual imagegen returns plus light/dark five-costume master-win-lose contact inspected",
+    "passed": true,
+    "reviewedAt": "2026-10-30T05:04:57.829133+00:00",
+    "bodyHeight": 800,
+    "masterBodyHeight": 800,
+    "edgeAlphaMax": 0,
+    "footAnchorError": 0
+  }
+}

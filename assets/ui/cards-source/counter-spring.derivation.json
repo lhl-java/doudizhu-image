@@ -1,0 +1,29 @@
+{
+  "file": "assets/ui/cards-source/counter-spring.png",
+  "sha256": "6ab4113bb6c1f35cfabeffaa708ecfadcbedc162e83fe363f3ee71c0f4a3a9c1",
+  "width": 279,
+  "height": 239,
+  "format": "PNG",
+  "operation": "crop-only-preserve-source-RGBA-no-resize",
+  "cropRect": [
+    1036,
+    847,
+    1345,
+    1086
+  ],
+  "trimRect": [
+    6,
+    0,
+    285,
+    239
+  ],
+  "derivedFrom": {
+    "file": "designs/ui/components/52-card-and-effects-v1.png",
+    "sha256": "e8c4302a6d6111f092218681bf36d87ae1dcfeb0f45f58321847d178cb71855e",
+    "generationRecord": "designs/ui/components/52-card-and-effects-v1.generation.json"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+  "status": "derived_asset_ready_user_review"
+}

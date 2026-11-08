@@ -1,0 +1,18 @@
+{
+  "file": "designs/runtime-scenes-20261026/jade-table-over-light.jpg",
+  "sha256": "ec764dc358aa67964e1081d73c776f9bab80a16bb68690a589f90ee427057ac9",
+  "route": "derived",
+  "operation": "RGBA composited over solid QA background, no artwork resize",
+  "derivedFrom": [
+    {
+      "file": "assets/scenes/jade-table-runtime.png",
+      "sha256": "ed7f7f3858c4d569dd741eb0f02aa03978216c551e3efe2a344c2eb9684c1451",
+      "record": "assets/scenes/jade-table-runtime.png.generation.json"
+    }
+  ],
+  "width": 2060,
+  "height": 942,
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "qa_preview_only"
+}

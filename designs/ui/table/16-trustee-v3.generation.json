@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/ui/table/16-trustee-v3.png",
+  "sha256": "3b9f827cece1a861c2fbde1430e0f1fedf3924f9716481cb12ebc9c84df54e86",
+  "generatedAt": "2026-10-26T04:13:54.4838479-04:00",
+  "timestampMeaning": "UI组合导出时间，不是新模型生成时间",
+  "width": 1931,
+  "height": 814,
+  "format": "PNG",
+  "tool": "System.Drawing native UI composition",
+  "route": "derived",
+  "operation": "layered-ui-composition: original native artwork + nine-sliced generated panel skin + deterministic correctly ranked card components",
+  "nativeArtworkResolution": {
+    "height": 814,
+    "width": 1931
+  },
+  "exportResolution": {
+    "height": 814,
+    "width": 1931
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "submittedParameters": {
+    "model": null,
+    "quality": null
+  },
+  "unverifiedReason": "本图为UI素材组合导出，未再次调用生成模型；每个生成源的实际型号质量跟随derivedFrom记录，未披露仍为null",
+  "derivedFrom": [
+    {
+      "file": "designs/ui/table/16-trustee-v2.png",
+      "sha256": "9c92e9b4920196275030f2228a80e48cff2bddc4bea7aaf0ab9856afbbd7672b",
+      "record": "designs/ui/table/16-trustee-v2.generation.json",
+      "role": "原生生成整屏底图，不放大"
+    },
+    {
+      "file": "assets/ui/cards-source/farmer.png",
+      "sha256": "5cbe5643a0150da3710b0aba32952610644235020db7ba62250a49e19652763a",
+      "record": "assets/ui/cards-source/farmer.derivation.json",
+      "role": "左侧女修为农民"
+    },
+    {
+      "file": "assets/ui/cards-source/landlord.png",
+      "sha256": "3dfee5ad7d76c3b638f3cfeb0b19303ad7ef1fdcaffb4074f26fa38f7425bc93",
+      "record": "assets/ui/cards-source/landlord.derivation.json",
+      "role": "右侧长者为地主"
+    },
+    {
+      "file": "assets/ui/cards-source/farmer.png",
+      "sha256": "5cbe5643a0150da3710b0aba32952610644235020db7ba62250a49e19652763a",
+      "record": "assets/ui/cards-source/farmer.derivation.json",
+      "role": "自己为农民"
+    }
+  ],
+  "layout": "prompts/table/16-trustee-v3.layout.json",
+  "cardGroups": [],
+  "visualReview": {
+    "note": "已看图：托管提示与取消入口清楚；三张底牌已揭开，三席地主农民身份明确。v3沿用v2的正确底牌与原生牌桌，再排版身份徽章。全部组合源可追溯，不作为合法牌局或客户端接入验收。",
+    "status": "design_ready_user_review"
+  }
+}

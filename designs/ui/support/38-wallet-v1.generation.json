@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/ui/support/38-wallet-v1.png",
+  "sha256": "73cf20e97c39e480493a927c027ddcb94581f6e3a02cc9341db93270c9326a41",
+  "generatedAt": "2026-10-26 07:54:29 UTC",
+  "generatedAtEvidence": "工具返回后记录的UTC完成时间代理；非模型内部时间",
+  "width": 1931,
+  "height": 814,
+  "format": "PNG",
+  "nativeResolution": {
+    "width": 1931,
+    "height": 814
+  },
+  "exportOperation": "byte-identical-copy; no resize or redraw",
+  "requestedResolution": {
+    "width": 2560,
+    "height": 1080,
+    "note": "提示词目标；工具未提供尺寸选择器"
+  },
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "callId": null,
+  "resultId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:/work/doudizhu-image/references/style/01-mail-event.png",
+      "D:/work/doudizhu-image/references/style/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据；无型号与质量选择器，配置不能证明实际锁定Sunburst/max",
+  "prompt": "prompts/support/38-wallet-v1.txt",
+  "promptSha256": "8122fb69a5c94d76528e13ba2d4beda0c9f7c527b4f880e0918e9210692b2f1d",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "实际附带风格或人物参考"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "实际附带风格或人物参考"
+    }
+  ],
+  "evidence": {
+    "receipt": "designs/ui/support/receipts/38-wallet.receipt.json",
+    "sourcePath": "C:\\Users\\luyua\\.codex\\generated_images\\01a1772b-71a9-7f61-b67a-7c35bfc09f10\\exec-88e97f35-da7f-4181-a053-0f30dcd05f90.png",
+    "toolReturnKeys": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "inspection": {
+    "status": "design_ready_user_review",
+    "notes": [
+      "已实际查看：三档兑换、余额、推荐与选中、兑换入口完整，标题和数字可读，原生1931×814，未缩放。"
+    ],
+    "pixelFormat": "Format24bppRgb",
+    "reviewedAt": "2026-10-26T03:54:45.2391379-04:00"
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "id": "bomb-burst",
+  "kind": "derived_spriteframes",
+  "route": "derived",
+  "operation": "translate/rotate/scale/alpha generated static illustration onto fixed384RGBA canvas, no invented paint details",
+  "derivedFrom": [
+    {
+      "file": "assets/fx/bomb-burst.png",
+      "sha256": "62487a340e47072ee3ca163f9af2d9570e46ae005502ada5ed7f6f771107ed0a",
+      "record": "assets/fx/bomb-burst.png.generation.json",
+      "role": "runtime FX static sprite"
+    }
+  ],
+  "timeline": "assets/fx/bomb-burst.timeline.json",
+  "durationMs": 750,
+  "loop": false,
+  "blend": "screen",
+  "event": "bomb_played",
+  "anchor": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "frames": [
+    {
+      "file": "assets/fx/frames/bomb-burst/000.png",
+      "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+      "atMs": 0,
+      "durationMs": 50,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.0,
+        "scale": 0.25,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": -5.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/bomb-burst/001.png",
+      "sha256": "26e511aad897a446f417acc2393a2f030117358b41ca938fe1946760742259b4",
+      "atMs": 50,
+      "durationMs": 50,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.625,
+        "scale": 0.71875,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/bomb-burst/002.png",
+      "sha256": "5d48bd67e545a0c5b5499e5ae8d17602297145bde2210af47364200d03402a16",
+      "atMs": 100,
+      "durationMs": 50,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.9875,
+        "scale": 0.985,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 1.75
+      }
+    },
+    {
+      "file": "assets/fx/frames/bomb-burst/003.png",
+      "sha256": "5877cfe473867a702041494819799fdb4d7a5a8713697218f6813d34af4512f5",
+      "atMs": 150,
+      "durationMs": 50,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.9562499999999999,
+        "scale": 0.9475,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": -1.375
+      }
+    },
+    {
+      "file": "assets/fx/frames/bomb-burst/004.png",
+      "sha256": "6f66bb87955a9850a4bb70937a6605a97f4fa3237b865596bb61346049802301",
+      "atMs": 200,
+      "durationMs": 50,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.9038461538461539,
+        "scale": 0.9615384615384615,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": -1.6923076923076923
+      }
+    },
+    {
+      "file": "assets/fx/frames/bomb-burst/005.png",
+      "sha256": "a0f6b1168cbe579adac1702c1cbe155d0b5b10a9998a0c5006504d32e9ed0008",
+      "atMs": 250,
+      "durationMs": 50,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.8461538461538461,
+        "scale": 0.9884615384615385,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": -1.3076923076923077
+      }
+    },
+    {
+      "file": "assets/fx/frames/bomb-burst/006.png",
+      "sha256": "a958239bd5b3f4fb393d532c9a786d4e007b644862c464d954cbf2ce64579bd0",
+      "atMs": 300,
+      "durationMs": 50,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.7884615384615384,
+        "scale": 1.0153846153846153,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": -0.9230769230769231
+      }
+    },
+    {
+      "file": "assets/fx/frames/bomb-burst/007.png",
+      "sha256": "b373a1af0f7f2d74492a1167189588fab50d2c16d034ab3f1ba713f375bf3230",
+      "atMs": 350,
+      "durationMs": 50,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.7307692307692308,
+        "scale": 1.0423076923076924,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": -0.5384615384615385
+      }
+    },
+    {
+      "file": "assets/fx/frames/bomb-burst/008.png",
+      "sha256": "ab5cde1df59ad87c6ea2565a5e02c36d573d7f8645e4bf3182bf472b2de0b588",
+      "atMs": 400,
+      "durationMs": 50,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.6730769230769231,
+        "scale": 1.0692307692307692,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": -0.15384615384615374
+      }
+    },
+    {
+      "file": "assets/fx/frames/bomb-burst/009.png",
+      "sha256": "ac2cb3a99086272ca0a86a21b98138bc3f5ef37a48dc3546965e7723c6714c2d",
+      "atMs": 450,
+      "durationMs": 50,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.5909090909090909,
+        "scale": 1.0818181818181818,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/bomb-burst/010.png",
+      "sha256": "0a37b099b5811546154752aeb2d9389800de4ed189dfc76a360a28fdaa26704d",
+      "atMs": 500,
+      "durationMs": 50,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.49242424242424243,
+        "scale": 1.084848484848485,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/bomb-burst/011.png",
+      "sha256": "c60d27d7252f6986e6c3fac4b82bd42acb150535e73379697d3dfd28f0f93187",
+      "atMs": 550,
+      "durationMs": 50,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.393939393939394,
+        "scale": 1.087878787878788,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/bomb-burst/012.png",
+      "sha256": "76a39422032e9e8945d64088a370b6c13fc3766160834d384c5e125ddbe1fd14",
+      "atMs": 600,
+      "durationMs": 50,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.29545454545454547,
+        "scale": 1.090909090909091,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/bomb-burst/013.png",
+      "sha256": "4e0e95e32267962e1979b4907e5dda68703645c4b97c06b24735755222ff7b63",
+      "atMs": 650,
+      "durationMs": 50,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.19696969696969696,
+        "scale": 1.093939393939394,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/bomb-burst/014.png",
+      "sha256": "f51b89e5ff0d89968bedeba61a0e711756fc8a1e2b557858b0cc7a4e21ef92ae",
+      "atMs": 700,
+      "durationMs": 50,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.09848484848484851,
+        "scale": 1.0969696969696972,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/bomb-burst/015.png",
+      "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+      "atMs": 750,
+      "durationMs": 1,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.0,
+        "scale": 1.1,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 0.0
+      }
+    }
+  ],
+  "bakedPlaybackDurationMs": 751,
+  "timelineDurationMs": 750,
+  "terminalSentinelMs": 1,
+  "onComplete": "hide-and-release",
+  "status": "derived_animation_ready_user_review"
+}

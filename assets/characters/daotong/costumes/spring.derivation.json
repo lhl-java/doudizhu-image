@@ -1,0 +1,45 @@
+{
+  "id": "daotong_spring",
+  "file": "assets/characters/daotong/costumes/spring.png",
+  "record": "assets/characters/daotong/costumes/spring.derivation.json",
+  "kind": "character_costume",
+  "width": 1024,
+  "height": 1024,
+  "anchor": [
+    512,
+    920
+  ],
+  "sha256": "1308758543c2395e8e62dc006f4d9cdfb456acecba7a53b591d44769a75eb67b",
+  "operation": "AI-generated-costume-variant-cropped-and-scaled-with-daotong-fixed-profile",
+  "derivedFrom": {
+    "file": "designs/characters/runtime-20261026/daotong-costume-spring-v1.png",
+    "sha256": "88d8f0edbd23dc724c44f73aef2e0a0eec56075abd1efd3c7f056184b5814593",
+    "record": "designs/characters/runtime-20261026/daotong-costume-spring-v1.generation.json"
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "significantBorderPixels": 0,
+  "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+  "art_source": "existing",
+  "status": "asset_ready_user_review",
+  "costumeName": "桃花春衣",
+  "characterId": "daotong",
+  "sourceRect": [
+    164,
+    25,
+    1159,
+    1226
+  ],
+  "sourceAnchor": [
+    661.5,
+    1220
+  ],
+  "fixedScale": 0.6739679865206403,
+  "offset": [
+    177,
+    115
+  ],
+  "noUpscale": true
+}

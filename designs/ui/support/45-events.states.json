@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "id": "45-events",
+  "title": "活动中心",
+  "primaryImage": "designs/ui/support/45-events-v1.png",
+  "status": "design_ready_user_review",
+  "requiredStates": [
+    "进行中",
+    "可领",
+    "已领",
+    "结束"
+  ],
+  "states": [
+    {
+      "state": "进行中",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/support/45-events-v1.png",
+      "copySource": "实际动态文案由产品/服务回执提供，图中数值为设计示意",
+      "behavior": "正文、选中项与主动作一致；操作中显示反馈，成功/失败遵循页面流程。",
+      "sharedDesignCandidate": null,
+      "designEvidence": {
+        "page": "designs/ui/support/45-events-v1.png",
+        "method": "实际查看独立原生页面，状态在该画面可见"
+      }
+    },
+    {
+      "state": "可领",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/support/45-events-v1.png",
+      "copySource": "实际动态文案由产品/服务回执提供，图中数值为设计示意",
+      "behavior": "突出主动作，操作中防重复；以真实回执更新完成态并显示奖励/消耗明细。",
+      "sharedDesignCandidate": null,
+      "designEvidence": {
+        "page": "designs/ui/support/45-events-v1.png",
+        "method": "实际查看独立原生页面，状态在该画面可见"
+      }
+    },
+    {
+      "state": "已领",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/support/45-events-v1.png",
+      "copySource": "实际动态文案由产品/服务回执提供，图中数值为设计示意",
+      "behavior": "用勾记和文字表达完成态，动作禁用，不能重复领取或使用。",
+      "sharedDesignCandidate": null,
+      "designEvidence": {
+        "page": "designs/ui/support/45-events-v1.png",
+        "method": "实际查看独立原生页面，状态在该画面可见"
+      }
+    },
+    {
+      "state": "结束",
+      "coverage": "shared_component",
+      "renderedIn": null,
+      "copySource": "实际动态文案由产品/服务回执提供，图中数值为设计示意",
+      "behavior": "保留活动说明与已获得记录，领取和兑换禁用，不再显示进行中倒计时。",
+      "sharedDependencies": [
+        "assets/ui/controls/panel.png",
+        "assets/ui/controls/primary-normal.png",
+        "assets/ui/controls/secondary-normal.png",
+        "assets/ui/controls/primary-disabled.png"
+      ],
+      "title": "活动已结束",
+      "copy": "本期活动已经结束，请关注后续活动。",
+      "buttons": [
+        "查看其他活动"
+      ],
+      "layout": "保留本页主框与导航，正文/弹窗复用米白panel，标题玉绿，主次操作左右分明；文本为原生动态层。共享状态未单独渲染为完整页面图片。",
+      "designEvidence": {
+        "scope": "艺术控件与具体文案行为设计复用，不是运行时已实现或专门页面已rendered",
+        "basePage": "designs/ui/support/45-events-v1.png",
+        "dialogBoard": "designs/ui/components/50-shared-dialogs-v1.png",
+        "assetManifest": "assets/ui/manifest.json",
+        "assetManifestSha256": "4a1318fc08ff8bd8a3e108d83348d13696ce56bac8577bc8a7999a24dc781ed4",
+        "componentBoard": "designs/ui/components/51-common-components-v1.png",
+        "dependencyHashesVerified": true
+      }
+    }
+  ],
+  "listCommonStates": [
+    "正常",
+    "选中",
+    "空态",
+    "加载",
+    "失败"
+  ],
+  "actionCommonStates": [
+    "可操作",
+    "处理中",
+    "成功",
+    "不可操作及原因"
+  ],
+  "commonStateCoverage": "共用已生成透明控件加明确原生文字/布局完成设计复用，coverage=shared_component；未称单独绘制或运行实现。",
+  "dynamicText": "昵称、数量、价格、期限、进度、奖励、订单/反馈结果由产品配置与真实回执提供；当前均为示例",
+  "implementationBoundary": "本文件是视觉与交互规范，不是客户端/服务器/支付/发送功能的完成证明",
+  "inspectionNotes": [
+    "已实际查看：活动分类、同源道童横幅、剩余期限、可领取与已领取、兑换进度和入口均完整；横幅不遮任务和操作。"
+  ],
+  "commonStateDesigns": [
+    {
+      "coverage": "rendered",
+      "state": "正常",
+      "page": "designs/ui/support/45-events-v1.png",
+      "copy": "页面主图示例"
+    },
+    {
+      "coverage": "shared_component",
+      "state": "选中",
+      "copy": "当前页签/物品的文字保持不变，仅切换选中皮肤",
+      "behavior": "正文与选中项同步，旧项恢复普通态",
+      "components": [
+        "assets/ui/controls/tab-selected.png",
+        "assets/ui/controls/tab-normal.png"
+      ]
+    },
+    {
+      "behavior": "清空无效详情与操作，保留关闭/返回导航",
+      "state": "空态",
+      "components": [
+        "assets/ui/controls/panel.png",
+        "assets/ui/controls/secondary-normal.png"
+      ],
+      "coverage": "shared_component",
+      "buttons": [
+        "返回大厅"
+      ],
+      "copy": "暂无活动中心内容"
+    },
+    {
+      "behavior": "防重复请求，保持安全返回，成功后替换内容",
+      "state": "加载",
+      "components": [
+        "assets/ui/controls/panel.png",
+        "assets/ui/controls/progress.png",
+        "assets/ui/controls/primary-disabled.png"
+      ],
+      "coverage": "shared_component",
+      "buttons": [],
+      "copy": "正在加载，请稍候…"
+    },
+    {
+      "behavior": "保留安全数据与输入，不把失败标成成功",
+      "state": "失败",
+      "components": [
+        "assets/ui/controls/panel.png",
+        "assets/ui/controls/primary-normal.png",
+        "assets/ui/controls/secondary-normal.png"
+      ],
+      "coverage": "shared_component",
+      "buttons": [
+        "重试",
+        "返回"
+      ],
+      "copy": "加载失败，请检查网络后重试。"
+    }
+  ],
+  "commonActionDesigns": [
+    {
+      "coverage": "shared_component",
+      "state": "可操作",
+      "copy": "领取活动奖励",
+      "behavior": "满足条件后启用，触发当前操作",
+      "components": [
+        "assets/ui/controls/primary-normal.png"
+      ]
+    },
+    {
+      "coverage": "shared_component",
+      "state": "处理中",
+      "copy": "处理中…",
+      "behavior": "锁定重复提交，等待真实回执",
+      "components": [
+        "assets/ui/controls/primary-disabled.png",
+        "assets/ui/controls/progress.png"
+      ]
+    },
+    {
+      "behavior": "按真实回执更新数量/状态，关闭反馈后返回本页",
+      "state": "成功",
+      "components": [
+        "assets/ui/controls/panel.png",
+        "assets/ui/controls/primary-normal.png"
+      ],
+      "coverage": "shared_component",
+      "buttons": [
+        "确定"
+      ],
+      "copy": "领取活动奖励已完成"
+    },
+    {
+      "coverage": "shared_component",
+      "state": "不可操作及原因",
+      "copy": "当前条件未满足",
+      "behavior": "在动作旁显示缺少资源、未达进度、内容为空或到期的具体原因；只禁用相关动作",
+      "components": [
+        "assets/ui/controls/primary-disabled.png",
+        "assets/ui/controls/panel.png"
+      ]
+    }
+  ],
+  "sharedEvidence": {
+    "method": "逐路径存在性及SHA256与manifest一致；共用皮肤+原生文字交互设计，非额外整屏生成",
+    "assetManifestSha256": "4a1318fc08ff8bd8a3e108d83348d13696ce56bac8577bc8a7999a24dc781ed4",
+    "assetManifest": "assets/ui/manifest.json",
+    "verifiedOn": "2026-10-26T04:23:26.8160998-04:00"
+  }
+}

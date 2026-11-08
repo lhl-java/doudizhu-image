@@ -1,0 +1,29 @@
+{
+  "file": "assets/ui/cards-source/selection.png",
+  "sha256": "7202172378ca8f1590a18175b68a168829bdb971bf1d5aec0dfb0e19378c8bd3",
+  "width": 218,
+  "height": 289,
+  "format": "PNG",
+  "operation": "crop-only-preserve-source-RGBA-no-resize",
+  "cropRect": [
+    1063,
+    562,
+    1298,
+    851
+  ],
+  "trimRect": [
+    8,
+    0,
+    226,
+    289
+  ],
+  "derivedFrom": {
+    "file": "designs/ui/components/52-card-and-effects-v1.png",
+    "sha256": "e8c4302a6d6111f092218681bf36d87ae1dcfeb0f45f58321847d178cb71855e",
+    "generationRecord": "designs/ui/components/52-card-and-effects-v1.generation.json"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+  "status": "derived_asset_ready_user_review"
+}

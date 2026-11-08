@@ -1,0 +1,75 @@
+{
+  "source": "designs/ui/table/53-table-chat-v1.png",
+  "output": "designs/ui/table/53-table-chat-v2.png",
+  "tray": {
+    "sourceRect": [
+      28,
+      0,
+      551,
+      267
+    ],
+    "rect": [
+      611,
+      343,
+      295,
+      132
+    ],
+    "border": 26,
+    "fillRect": [
+      622,
+      367,
+      273,
+      96
+    ]
+  },
+  "elements": [
+    {
+      "file": "assets/ui/cards-source/farmer.png",
+      "role": "女修为农民",
+      "rect": [
+        59,
+        437,
+        85,
+        61
+      ]
+    },
+    {
+      "file": "assets/ui/cards-source/landlord.png",
+      "role": "长者为地主",
+      "rect": [
+        1213,
+        437,
+        91,
+        64
+      ]
+    },
+    {
+      "file": "assets/ui/cards-source/farmer.png",
+      "role": "自己为农民",
+      "rect": [
+        165,
+        746,
+        72,
+        52
+      ]
+    }
+  ],
+  "cardGroups": [
+    {
+      "role": "三张公开底牌",
+      "rect": [
+        623,
+        351,
+        270,
+        115
+      ],
+      "cards": [
+        "spades-A",
+        "hearts-K",
+        "diamonds-3"
+      ],
+      "selectedIndexes": [],
+      "selectionLift": 0
+    }
+  ]
+}

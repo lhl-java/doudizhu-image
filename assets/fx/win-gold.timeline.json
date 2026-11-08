@@ -1,0 +1,61 @@
+{
+  "durationMs": 1400,
+  "loop": false,
+  "blend": "screen",
+  "event": "round_win",
+  "keyframes": [
+    {
+      "atMs": 0,
+      "alpha": 0,
+      "scale": 0.55,
+      "x": 0,
+      "y": 0.12,
+      "rotation": -4
+    },
+    {
+      "atMs": 120,
+      "alpha": 1,
+      "scale": 0.85,
+      "x": 0,
+      "y": 0.07,
+      "rotation": 0
+    },
+    {
+      "atMs": 700,
+      "alpha": 0.95,
+      "scale": 1,
+      "x": 0,
+      "y": -0.05,
+      "rotation": 3
+    },
+    {
+      "atMs": 1400,
+      "alpha": 0,
+      "scale": 1.05,
+      "x": 0,
+      "y": -0.14,
+      "rotation": 8
+    }
+  ],
+  "interpolation": "linear",
+  "translationUnit": "fraction-of-384px-frame",
+  "stopEvent": null,
+  "kind": "fx",
+  "anchor": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "id": "win-gold",
+  "file": "assets/fx/win-gold.png",
+  "record": "assets/fx/win-gold.png.generation.json",
+  "width": 512,
+  "height": 512,
+  "z": 80,
+  "sourceNativeCell": {
+    "width": 512,
+    "height": 512
+  },
+  "staticSource": true,
+  "animationSource": "runtime transforms of generated static illustration, not AI video",
+  "maxDisplaySize": 384
+}

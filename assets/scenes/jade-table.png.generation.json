@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/scenes/jade-table.png",
+  "sha256": "2effe9e0b35ebfcc90058c462a4abdc701bf91b410d62f5c8763d45519b3033f",
+  "generatedAt": "2026-10-26 18:26:59 UTC",
+  "generatedAtEvidence": "host tool return completion UTC proxy, not model internal timestamp",
+  "recordedAt": "2026-10-26T18:27:00.499511+00:00",
+  "width": 1932,
+  "height": 814,
+  "format": "PNG",
+  "nativeResolution": {
+    "width": 1932,
+    "height": 814
+  },
+  "exportOperation": "byte-identical-copy-no-resize",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "kind": "foreground",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/doudizhu-image/references/style/01-mail-event.png",
+      "D:/work/doudizhu-image/references/style/team-ui-v2.png",
+      "D:/work/doudizhu-image/designs/ui/core/02-lobby-v1.png",
+      "D:/work/doudizhu-image/designs/ui/table/14-play-turn-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据；配置目标不是实际分支和质量证据",
+  "prompt": "prompts/runtime-scenes/jade-table.txt",
+  "promptSha256": "635d0e3cd7f8eacbd256306553a77c0e4f8c0b0ba4969967e2bd1fd93821e795",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "actual reference input, first two primary style authority"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "actual reference input, first two primary style authority"
+    },
+    {
+      "file": "designs/ui/core/02-lobby-v1.png",
+      "sha256": "86f5e2879b919fcf8e81b3930ee8b3771a3ebc1bf8d614b687b673ad4c6f5bd6",
+      "role": "actual reference input, first two primary style authority"
+    },
+    {
+      "file": "designs/ui/table/14-play-turn-v2.png",
+      "sha256": "7977cb5f4b90af7f5f9108f4cd820681edff0d0f534960bb688699b24edb3728",
+      "role": "actual reference input, first two primary style authority"
+    }
+  ],
+  "evidence": {
+    "receipt": "designs/runtime-scenes-20261026/jade-table.receipt.json",
+    "hostOutputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a1772b-022e-7852-8cd0-9c61c117e140\\exec-98b903a6-4d0c-46bd-af8a-12aa379438af.png",
+    "toolReturnedKeys": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "alphaQA": {
+    "mode": "RGBA",
+    "width": 1932,
+    "height": 814,
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "transparentPixelFraction": 0.36330380352119485,
+    "softAlphaPixelFraction": 0.6362866960693048,
+    "opaquePixelFraction": 0.0004095004095004095,
+    "visibleBBox": [
+      0,
+      23,
+      1902,
+      790
+    ],
+    "edgeVisiblePixelCount": 0,
+    "expectedTransparent": true,
+    "isRealRGBAWithTransparency": true,
+    "status": "passed"
+  },
+  "visualReview": {
+    "status": "source_in_use",
+    "note": "原生透明整桌源已查看；运行时采用补透明边距派生，保留本源用于复现，不代表原生画布扩大。"
+  }
+}

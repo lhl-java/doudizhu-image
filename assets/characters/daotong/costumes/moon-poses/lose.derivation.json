@@ -1,0 +1,55 @@
+{
+  "id": "daotong_moon_lose",
+  "kind": "costume_pose",
+  "file": "assets/characters/daotong/costumes/moon-poses/lose.png",
+  "record": "assets/characters/daotong/costumes/moon-poses/lose.derivation.json",
+  "width": 1024,
+  "height": 1024,
+  "anchor": [
+    512,
+    920
+  ],
+  "sha256": "91904040ed7452f5ea3ee7b2749bfa8a9d15d0d4f5ebe3d8486204adf3d2ff21",
+  "route": "derived",
+  "noUpscale": true,
+  "fixedScale": 0.638755980861244,
+  "sourceRect": [
+    82,
+    31,
+    1146,
+    1297
+  ],
+  "sourceAnchor": [
+    614.0,
+    1291
+  ],
+  "offset": [
+    172,
+    115
+  ],
+  "registration": "match the skin-master significant body height; feet anchored at512,920; per-source uniform downscale only",
+  "operation": "significant-alpha crop plus6px, premultiplied-alpha Lanczos downscale, foot-anchor registration; independent generated pose still",
+  "derivedFrom": [
+    {
+      "file": "designs/characters/costume-poses-20261029/moon-lose-v1.png",
+      "sha256": "8d3aea97e6234a4c490ad76f5d08675ac7c358f8f2c0e94d1a89d633b1835090",
+      "record": "designs/characters/costume-poses-20261029/moon-lose-v1.generation.json"
+    }
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "edgeAlphaMax": 0,
+  "status": "passed_offline_art_review",
+  "recordedAt": "2026-10-30T04:34:57.655627+00:00",
+  "visualReview": {
+    "method": "actual imagegen returns plus light/dark five-costume master-win-lose contact inspected",
+    "passed": true,
+    "reviewedAt": "2026-10-30T05:04:57.740215+00:00",
+    "bodyHeight": 801,
+    "masterBodyHeight": 801,
+    "edgeAlphaMax": 0,
+    "footAnchorError": 0
+  }
+}

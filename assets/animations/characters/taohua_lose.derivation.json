@@ -1,0 +1,555 @@
+{
+  "file": "assets/animations/characters/taohua_lose.png",
+  "sha256": "2886321bdc823e4a3adaa1200e9d51131a573fac255dbdf60fc2754d2a8f4d0c",
+  "width": 640,
+  "height": 800,
+  "format": "PNG",
+  "pixelMode": "RGBA",
+  "createdAt": "2026-10-26T19:14:06.071617+00:00",
+  "operation": "CPU affine transform and premultiplied LANCZOS downsampling of existing images into sixteen transparent frames; 4x4 packing; no new art drawn",
+  "art_source": "existing",
+  "sourceImageGeneration": false,
+  "derivedFrom": [
+    {
+      "file": "assets/characters/taohua/master.png",
+      "sha256": "06bec073cdcec9d47c9da586168e229c74f2d3c72deb5ae91e1509db378cace3",
+      "width": 1024,
+      "height": 1024,
+      "record": "assets/characters/taohua/master.derivation.json"
+    },
+    {
+      "file": "assets/characters/taohua/lose.png",
+      "sha256": "eb52785b8f2c1fb0e5b5b736d0bc3fecbe352f65c4d371ed9d95bedec9d1bf73",
+      "width": 1024,
+      "height": 1024,
+      "record": "assets/characters/taohua/lose.derivation.json"
+    }
+  ],
+  "sourceToPreviewBaseScale": 0.17,
+  "maximumActorScale": 0.17,
+  "supersampling": {
+    "factor": 4,
+    "intermediateMaximumSourceScale": 0.68,
+    "filter": "premultiplied affine BICUBIC then LANCZOS downsample; intermediate resolution remains below source"
+  },
+  "noUpscale": true,
+  "animationData": "assets/animations/characters/taohua_lose.json",
+  "animationDataSha256": "9f589e7ae9cc220061c09f7a9dc2f05ec9560e8958a41ad9c53833f8c3237d5b",
+  "frameIndex": [
+    {
+      "index": 0,
+      "atMs": 0,
+      "durationMs": 120,
+      "rect": [
+        0,
+        0,
+        160,
+        200
+      ],
+      "pose": "master",
+      "state": {
+        "pose": "master",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotationDeg": 0,
+        "hudOpacity": 0
+      },
+      "bbox": [
+        23,
+        41,
+        137,
+        183
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "borderAlphaNonzero": 0
+    },
+    {
+      "index": 1,
+      "atMs": 120,
+      "durationMs": 80,
+      "rect": [
+        160,
+        0,
+        160,
+        200
+      ],
+      "pose": "lose",
+      "state": {
+        "pose": "lose",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1.0,
+        "rotationDeg": 0.0,
+        "hudOpacity": 0
+      },
+      "bbox": [
+        23,
+        45,
+        137,
+        183
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "borderAlphaNonzero": 0
+    },
+    {
+      "index": 2,
+      "atMs": 200,
+      "durationMs": 100,
+      "rect": [
+        320,
+        0,
+        160,
+        200
+      ],
+      "pose": "lose",
+      "state": {
+        "pose": "lose",
+        "x": 0.0,
+        "y": 0.5200000000000001,
+        "scaleX": 1.0,
+        "scaleY": 0.99896,
+        "rotationDeg": 0.14560000000000003,
+        "hudOpacity": 0.0
+      },
+      "bbox": [
+        23,
+        45,
+        137,
+        183
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "borderAlphaNonzero": 0
+    },
+    {
+      "index": 3,
+      "atMs": 300,
+      "durationMs": 100,
+      "rect": [
+        480,
+        0,
+        160,
+        200
+      ],
+      "pose": "lose",
+      "state": {
+        "pose": "lose",
+        "x": 0.0,
+        "y": 2.12625,
+        "scaleX": 1.0,
+        "scaleY": 0.9957475,
+        "rotationDeg": 0.59535,
+        "hudOpacity": 0.0
+      },
+      "bbox": [
+        23,
+        46,
+        137,
+        183
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "borderAlphaNonzero": 0
+    },
+    {
+      "index": 4,
+      "atMs": 400,
+      "durationMs": 100,
+      "rect": [
+        0,
+        200,
+        160,
+        200
+      ],
+      "pose": "lose",
+      "state": {
+        "pose": "lose",
+        "x": 0.0,
+        "y": 3.9199999999999995,
+        "scaleX": 1.0,
+        "scaleY": 0.99216,
+        "rotationDeg": 1.0976,
+        "hudOpacity": 0.0
+      },
+      "bbox": [
+        24,
+        46,
+        137,
+        183
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "borderAlphaNonzero": 0
+    },
+    {
+      "index": 5,
+      "atMs": 500,
+      "durationMs": 100,
+      "rect": [
+        160,
+        200,
+        160,
+        200
+      ],
+      "pose": "lose",
+      "state": {
+        "pose": "lose",
+        "x": 0.0,
+        "y": 4.96375,
+        "scaleX": 1.0,
+        "scaleY": 0.9900725,
+        "rotationDeg": 1.38985,
+        "hudOpacity": 0.0
+      },
+      "bbox": [
+        24,
+        47,
+        138,
+        183
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "borderAlphaNonzero": 0
+    },
+    {
+      "index": 6,
+      "atMs": 600,
+      "durationMs": 100,
+      "rect": [
+        320,
+        200,
+        160,
+        200
+      ],
+      "pose": "lose",
+      "state": {
+        "pose": "lose",
+        "x": 0.0,
+        "y": 4.771743143902521,
+        "scaleX": 1.0,
+        "scaleY": 0.9904565137121949,
+        "rotationDeg": 1.3360880802927058,
+        "hudOpacity": 0.0
+      },
+      "bbox": [
+        24,
+        47,
+        138,
+        183
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "borderAlphaNonzero": 0
+    },
+    {
+      "index": 7,
+      "atMs": 700,
+      "durationMs": 100,
+      "rect": [
+        480,
+        200,
+        160,
+        200
+      ],
+      "pose": "lose",
+      "state": {
+        "pose": "lose",
+        "x": 0.0,
+        "y": 3.980396764123393,
+        "scaleX": 1.0,
+        "scaleY": 0.9920392064717533,
+        "rotationDeg": 1.11451109395455,
+        "hudOpacity": 0.0
+      },
+      "bbox": [
+        24,
+        46,
+        137,
+        183
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "borderAlphaNonzero": 0
+    },
+    {
+      "index": 8,
+      "atMs": 800,
+      "durationMs": 100,
+      "rect": [
+        0,
+        400,
+        160,
+        200
+      ],
+      "pose": "lose",
+      "state": {
+        "pose": "lose",
+        "x": 0.0,
+        "y": 2.8617703333221445,
+        "scaleX": 1.0,
+        "scaleY": 0.9942764593333557,
+        "rotationDeg": 0.8012956933302005,
+        "hudOpacity": 0.0
+      },
+      "bbox": [
+        23,
+        46,
+        137,
+        183
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "borderAlphaNonzero": 0
+    },
+    {
+      "index": 9,
+      "atMs": 900,
+      "durationMs": 100,
+      "rect": [
+        160,
+        400,
+        160,
+        200
+      ],
+      "pose": "lose",
+      "state": {
+        "pose": "lose",
+        "x": 0.0,
+        "y": 1.6676177369004064,
+        "scaleX": 1.0,
+        "scaleY": 0.9966647645261992,
+        "rotationDeg": 0.4669329663321138,
+        "hudOpacity": 0.0
+      },
+      "bbox": [
+        23,
+        46,
+        137,
+        183
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "borderAlphaNonzero": 0
+    },
+    {
+      "index": 10,
+      "atMs": 1000,
+      "durationMs": 100,
+      "rect": [
+        320,
+        400,
+        160,
+        200
+      ],
+      "pose": "lose",
+      "state": {
+        "pose": "lose",
+        "x": 0.0,
+        "y": 0.64969286025981,
+        "scaleX": 1.0,
+        "scaleY": 0.9987006142794804,
+        "rotationDeg": 0.1819140008727469,
+        "hudOpacity": 0.0
+      },
+      "bbox": [
+        23,
+        45,
+        137,
+        183
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "borderAlphaNonzero": 0
+    },
+    {
+      "index": 11,
+      "atMs": 1100,
+      "durationMs": 100,
+      "rect": [
+        480,
+        400,
+        160,
+        200
+      ],
+      "pose": "lose",
+      "state": {
+        "pose": "lose",
+        "x": 0.0,
+        "y": 0.05974958880198766,
+        "scaleX": 1.0,
+        "scaleY": 0.999880500822396,
+        "rotationDeg": 0.01672988486455651,
+        "hudOpacity": 0.0
+      },
+      "bbox": [
+        23,
+        45,
+        137,
+        183
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "borderAlphaNonzero": 0
+    },
+    {
+      "index": 12,
+      "atMs": 1200,
+      "durationMs": 120,
+      "rect": [
+        0,
+        600,
+        160,
+        200
+      ],
+      "pose": "lose",
+      "state": {
+        "pose": "lose",
+        "x": 0.0,
+        "y": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "rotationDeg": 0.0,
+        "hudOpacity": 0.0
+      },
+      "bbox": [
+        23,
+        45,
+        137,
+        183
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "borderAlphaNonzero": 0
+    },
+    {
+      "index": 13,
+      "atMs": 1320,
+      "durationMs": 120,
+      "rect": [
+        160,
+        600,
+        160,
+        200
+      ],
+      "pose": "lose",
+      "state": {
+        "pose": "lose",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotationDeg": 0,
+        "hudOpacity": 0
+      },
+      "bbox": [
+        23,
+        45,
+        137,
+        183
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "borderAlphaNonzero": 0
+    },
+    {
+      "index": 14,
+      "atMs": 1440,
+      "durationMs": 120,
+      "rect": [
+        320,
+        600,
+        160,
+        200
+      ],
+      "pose": "master",
+      "state": {
+        "pose": "master",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotationDeg": 0,
+        "hudOpacity": 0
+      },
+      "bbox": [
+        23,
+        41,
+        137,
+        183
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "borderAlphaNonzero": 0
+    },
+    {
+      "index": 15,
+      "atMs": 1560,
+      "durationMs": 120,
+      "rect": [
+        480,
+        600,
+        160,
+        200
+      ],
+      "pose": "master",
+      "state": {
+        "pose": "master",
+        "x": 0.0,
+        "y": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "rotationDeg": 0.0,
+        "hudOpacity": 0.0
+      },
+      "bbox": [
+        23,
+        41,
+        137,
+        183
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "borderAlphaNonzero": 0
+    }
+  ],
+  "loopEndpointByteIdentical": null,
+  "reviewStatus": "passed_visual_contact_sheet_and_numeric_timing_review",
+  "reviewedAt": "2026-10-26T19:22:39.821234+00:00"
+}

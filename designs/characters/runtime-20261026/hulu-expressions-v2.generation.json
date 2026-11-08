@@ -1,0 +1,108 @@
+{
+  "file": "designs/characters/runtime-20261026/hulu-expressions-v2.png",
+  "sha256": "4187defc09877c1f8a04ccb2f150d8ff9bc1ac828f755b9bcf421a1a6b7f8921",
+  "generatedAt": "2026-10-26T17:59:35.854552+00:00",
+  "generatedAtEvidence": "timestamp recorded immediately after host output adoption, not internal model clock",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "pixelMode": "RGBA",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\doudizhu-image\\designs\\characters\\runtime-20261026\\hulu-master-v1.png",
+      "D:\\work\\doudizhu-image\\designs\\characters\\runtime-20261026\\hulu-expressions-v1.png",
+      "D:\\work\\doudizhu-image\\tools\\characters_runtime\\expression-layout-guide.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据",
+  "prompt": "prompts/characters-runtime/hulu-expressions-v2.txt",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "primary confirmed style or selected character identity/pose"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "primary confirmed style or selected character identity/pose"
+    },
+    {
+      "file": "designs/characters/runtime-20261026/hulu-master-v1.png",
+      "sha256": "052b8a06b868e821c5b5638ccc82bd7de191cc104b80a1f2816b32f578541c02",
+      "role": "primary confirmed style or selected character identity/pose"
+    },
+    {
+      "file": "designs/characters/runtime-20261026/hulu-expressions-v1.png",
+      "sha256": "c0d733af5b2ff90f0475aad69e36b220102ddb4b799b688f5d03988b2f336043",
+      "role": "primary confirmed style or selected character identity/pose",
+      "imageRemoved": true,
+      "retentionReason": "superseded image removed after final v2 exports were verified; hash and generation record retained"
+    },
+    {
+      "file": "tools/characters_runtime/expression-layout-guide.png",
+      "sha256": "b624972a2811fe57d237f8cc33336e563f49b5d540d6dc03fa6cd3afa7a27457",
+      "role": "primary confirmed style or selected character identity/pose"
+    }
+  ],
+  "evidence": {
+    "hostOutputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a178e0-3945-7ad2-bb27-1219450b45c3\\exec-03f8eb00-d84a-4e28-ac2b-f095e8cfd1da.png",
+    "receipt": "designs/characters/runtime-20261026/hulu-expressions-v2.receipt.json"
+  },
+  "transparency": {
+    "hasAlpha": true,
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "nonTransparentBounds": [
+      0,
+      9,
+      1760,
+      887
+    ],
+    "borderPixelsWithAlpha": 30
+  },
+  "nativeResolution": {
+    "width": 1774,
+    "height": 887
+  },
+  "exportOperation": "byte-identical-copy-no-resize",
+  "status": "asset_ready_user_review",
+  "visualQA": {
+    "status": "passed_for_runtime_art_review",
+    "findings": [
+      "Eight distinct expressions, selected v2 has clean portrait separation and full hair after layout correction."
+    ]
+  },
+  "editedFrom": {
+    "file": "designs/characters/runtime-20261026/hulu-expressions-v1.png",
+    "sha256": "c0d733af5b2ff90f0475aad69e36b220102ddb4b799b688f5d03988b2f336043",
+    "generationRecord": "designs/characters/runtime-20261026/hulu-expressions-v1.generation.json",
+    "imageRemoved": true
+  }
+}

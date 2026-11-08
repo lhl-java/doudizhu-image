@@ -1,0 +1,32 @@
+{
+  "file": "assets/characters/review/costumes-light-dark.jpg",
+  "sha256": "8be15899261f24e38a767dbf7cf12e2eddc2d9cdb639c37ed740ff014da0b44f",
+  "operation": "contact-sheet-for-alpha-and-silhouette-review-only",
+  "derivedFrom": [
+    {
+      "file": "assets/characters/daotong/costumes/spring.png",
+      "sha256": "1308758543c2395e8e62dc006f4d9cdfb456acecba7a53b591d44769a75eb67b",
+      "record": "assets/characters/daotong/costumes/spring.derivation.json"
+    },
+    {
+      "file": "assets/characters/daotong/costumes/ink.png",
+      "sha256": "565a45196d14860bfcf5112f1c86550538a4faae511576cfb72481a214686ab3",
+      "record": "assets/characters/daotong/costumes/ink.derivation.json"
+    },
+    {
+      "file": "assets/characters/daotong/costumes/moon.png",
+      "sha256": "422d2320b6d2c4420a098c1f99efe51d5ff0456adf059b7c5b2052dc8f50fd27",
+      "record": "assets/characters/daotong/costumes/moon.derivation.json"
+    },
+    {
+      "file": "assets/characters/daotong/costumes/snow.png",
+      "sha256": "eefdaa25dacfa6028768b2e64d259047b65a6f643898ab3dd98048b5cbe7c49a",
+      "record": "assets/characters/daotong/costumes/snow.derivation.json"
+    },
+    {
+      "file": "assets/characters/daotong/costumes/festival.png",
+      "sha256": "702667837115c219c4e24c5679ed741546cb8ea03c87ecf3020ebb737f985e19",
+      "record": "assets/characters/daotong/costumes/festival.derivation.json"
+    }
+  ]
+}

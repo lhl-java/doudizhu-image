@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "item-selected",
+  "kind": "skin",
+  "file": "assets/ui/runtime-kit/skins/item-selected.png",
+  "sha256": "c9c5a05961ecead83ff998f429d0c4643bfd1f87a632ccdd7a9c6a4cc90a6870",
+  "width": 367,
+  "height": 363,
+  "format": "PNG",
+  "mode": "RGBA",
+  "operation": "adaptive transparent-gap crop + documented native-alpha hygiene; no resampling, no redrawing, no upscaling",
+  "derivedFrom": {
+    "file": "designs/ui/runtime-kit/skins-slots-v1.png",
+    "sha256": "e83de955a4505dca7d6064e1e84a9d8fc503835782cda141567c6856bd97048d",
+    "generationRecord": "designs/ui/runtime-kit/skins-slots-v1.generation.json"
+  },
+  "cellIndex": 1,
+  "row": 0,
+  "column": 1,
+  "sourceRect": [
+    487,
+    45,
+    854,
+    408
+  ],
+  "cellRect": [
+    458,
+    0,
+    886,
+    423
+  ],
+  "trimOffset": [
+    29,
+    45
+  ],
+  "alphaHygiene": {
+    "alphaFloor": 4,
+    "floorRemovedPixels": 64769,
+    "faintDetachedRemovedPixels": 3037,
+    "maxFaintRemovedAlpha": 31,
+    "method": "native alpha hygiene only, preserve RGB and all alpha>=32; faint alpha<32 kept within 2px of solid art"
+  },
+  "perimeterHazePixelsCleared": 0,
+  "alpha": {
+    "zeroPixels": 13246,
+    "partialPixels": 119964,
+    "opaquePixels": 11,
+    "extrema": [
+      0,
+      255
+    ]
+  },
+  "visiblePixelsPreserved": 118089,
+  "clipping": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Follow derivedFrom.generationRecord; this crop is not a new model call",
+  "status": "derived_asset_ready_user_review"
+}

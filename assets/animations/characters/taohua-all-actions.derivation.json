@@ -1,0 +1,159 @@
+{
+  "file": "assets/animations/characters/taohua-all-actions.webp",
+  "sha256": "bd9f582d2a4810ce36641b78404b0110cbdb1a4bcb704efba0640c894c3d2733",
+  "format": "animated WebP",
+  "frameSize": [
+    160,
+    200
+  ],
+  "requestedFrameCount": 80,
+  "durationMs": 7840,
+  "requestedDurationsMs": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    120,
+    80,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    120,
+    120,
+    120,
+    120,
+    120,
+    80,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    120,
+    120,
+    120,
+    120
+  ],
+  "segments": [
+    {
+      "action": "idle",
+      "startMs": 0,
+      "durationMs": 1600,
+      "clip": "assets/animations/characters/taohua_idle.json"
+    },
+    {
+      "action": "think",
+      "startMs": 1600,
+      "durationMs": 1920,
+      "clip": "assets/animations/characters/taohua_think.json"
+    },
+    {
+      "action": "play",
+      "startMs": 3520,
+      "durationMs": 960,
+      "clip": "assets/animations/characters/taohua_play.json"
+    },
+    {
+      "action": "win",
+      "startMs": 4480,
+      "durationMs": 1680,
+      "clip": "assets/animations/characters/taohua_win.json"
+    },
+    {
+      "action": "lose",
+      "startMs": 6160,
+      "durationMs": 1680,
+      "clip": "assets/animations/characters/taohua_lose.json"
+    }
+  ],
+  "operation": "Lossy quality65 animated preview of CPU-rendered existing-art frames; alpha retained; PNG sheets are authoritative",
+  "derivedFrom": [
+    {
+      "file": "assets/animations/characters/taohua_idle.png",
+      "sha256": "1d32eb9f840c5f544c33e4c3b4c598d66f2b588e37699322e912c2b3e315b4f9"
+    },
+    {
+      "file": "assets/animations/characters/taohua_think.png",
+      "sha256": "15419baf939b2955445b917b5903205c669f76d49277f3178e798f736cb13f81"
+    },
+    {
+      "file": "assets/animations/characters/taohua_play.png",
+      "sha256": "1157edb5854dc798c730e6fefb01ae5db916f736f213febf2ba480b01e69a762"
+    },
+    {
+      "file": "assets/animations/characters/taohua_win.png",
+      "sha256": "0d3553f7e82750969dc792ef86a81f3724fd463c0a98c7b19884c92a5eb3ed29"
+    },
+    {
+      "file": "assets/animations/characters/taohua_lose.png",
+      "sha256": "2886321bdc823e4a3adaa1200e9d51131a573fac255dbdf60fc2754d2a8f4d0c"
+    }
+  ],
+  "createdAt": "2026-10-26T19:14:06.071617+00:00",
+  "reviewStatus": "passed_decode_all_frames_and_exact_duration_check",
+  "decoded": {
+    "actor": "taohua",
+    "file": "assets/animations/characters/taohua-all-actions.webp",
+    "decodedFrames": 68,
+    "durationMs": 7840,
+    "alphaPresent": true,
+    "sha256": "bd9f582d2a4810ce36641b78404b0110cbdb1a4bcb704efba0640c894c3d2733",
+    "note": "WebP encoder may merge identical adjacent frames while preserving total time."
+  }
+}

@@ -1,0 +1,685 @@
+{
+  "schema": "doudizhu.ui-actor-keyframes.v1",
+  "id": "hulu_lose",
+  "actor": "hulu",
+  "action": "lose",
+  "description": "Real independently generated lose still switches at 120 ms, holds, then returns to master at 1440 ms.",
+  "art_source": "existing",
+  "rendering": "CPU affine rendering of already generated transparent stills; not imagegen, AI video, skeletal animation or new limb frames",
+  "durationMs": 1680,
+  "loop": false,
+  "keyframes": [
+    {
+      "atMs": 0,
+      "pose": "master",
+      "x": 0,
+      "y": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotationDeg": 0,
+      "hudOpacity": 0
+    },
+    {
+      "atMs": 120,
+      "pose": "lose",
+      "x": 0,
+      "y": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotationDeg": 0,
+      "hudOpacity": 0
+    },
+    {
+      "atMs": 520,
+      "pose": "lose",
+      "x": 0,
+      "y": 5,
+      "scaleX": 1,
+      "scaleY": 0.99,
+      "rotationDeg": 1.4,
+      "hudOpacity": 0
+    },
+    {
+      "atMs": 1140,
+      "pose": "lose",
+      "x": 0,
+      "y": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotationDeg": 0,
+      "hudOpacity": 0
+    },
+    {
+      "atMs": 1320,
+      "pose": "lose",
+      "x": 0,
+      "y": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotationDeg": 0,
+      "hudOpacity": 0
+    },
+    {
+      "atMs": 1440,
+      "pose": "master",
+      "x": 0,
+      "y": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotationDeg": 0,
+      "hudOpacity": 0
+    },
+    {
+      "atMs": 1680,
+      "pose": "master",
+      "x": 0,
+      "y": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotationDeg": 0,
+      "hudOpacity": 0
+    }
+  ],
+  "interpolation": {
+    "numeric": "smoothstep between adjacent keys",
+    "pose": "step at key time",
+    "angles": "clockwise degrees in screen coordinates"
+  },
+  "pivot": {
+    "sourceCanvas": [
+      1024,
+      1024
+    ],
+    "sourcePoint": [
+      512,
+      920
+    ],
+    "units": "source canvas pixels",
+    "normalized": [
+      0.5,
+      0.8984375
+    ]
+  },
+  "preview": {
+    "sheet": "assets/animations/characters/hulu_lose.png",
+    "frameSize": [
+      160,
+      200
+    ],
+    "columns": 4,
+    "rows": 4,
+    "baseScale": 0.17,
+    "pivot": [
+      80,
+      180
+    ],
+    "frames": [
+      {
+        "index": 0,
+        "atMs": 0,
+        "durationMs": 120,
+        "rect": [
+          0,
+          0,
+          160,
+          200
+        ],
+        "pose": "master",
+        "state": {
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        "bbox": [
+          18,
+          42,
+          142,
+          183
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "borderAlphaNonzero": 0
+      },
+      {
+        "index": 1,
+        "atMs": 120,
+        "durationMs": 80,
+        "rect": [
+          160,
+          0,
+          160,
+          200
+        ],
+        "pose": "lose",
+        "state": {
+          "pose": "lose",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1.0,
+          "rotationDeg": 0.0,
+          "hudOpacity": 0
+        },
+        "bbox": [
+          22,
+          43,
+          138,
+          183
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "borderAlphaNonzero": 0
+      },
+      {
+        "index": 2,
+        "atMs": 200,
+        "durationMs": 100,
+        "rect": [
+          320,
+          0,
+          160,
+          200
+        ],
+        "pose": "lose",
+        "state": {
+          "pose": "lose",
+          "x": 0.0,
+          "y": 0.5200000000000001,
+          "scaleX": 1.0,
+          "scaleY": 0.99896,
+          "rotationDeg": 0.14560000000000003,
+          "hudOpacity": 0.0
+        },
+        "bbox": [
+          22,
+          43,
+          138,
+          183
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "borderAlphaNonzero": 0
+      },
+      {
+        "index": 3,
+        "atMs": 300,
+        "durationMs": 100,
+        "rect": [
+          480,
+          0,
+          160,
+          200
+        ],
+        "pose": "lose",
+        "state": {
+          "pose": "lose",
+          "x": 0.0,
+          "y": 2.12625,
+          "scaleX": 1.0,
+          "scaleY": 0.9957475,
+          "rotationDeg": 0.59535,
+          "hudOpacity": 0.0
+        },
+        "bbox": [
+          23,
+          44,
+          138,
+          183
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "borderAlphaNonzero": 0
+      },
+      {
+        "index": 4,
+        "atMs": 400,
+        "durationMs": 100,
+        "rect": [
+          0,
+          200,
+          160,
+          200
+        ],
+        "pose": "lose",
+        "state": {
+          "pose": "lose",
+          "x": 0.0,
+          "y": 3.9199999999999995,
+          "scaleX": 1.0,
+          "scaleY": 0.99216,
+          "rotationDeg": 1.0976,
+          "hudOpacity": 0.0
+        },
+        "bbox": [
+          24,
+          44,
+          138,
+          183
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "borderAlphaNonzero": 0
+      },
+      {
+        "index": 5,
+        "atMs": 500,
+        "durationMs": 100,
+        "rect": [
+          160,
+          200,
+          160,
+          200
+        ],
+        "pose": "lose",
+        "state": {
+          "pose": "lose",
+          "x": 0.0,
+          "y": 4.96375,
+          "scaleX": 1.0,
+          "scaleY": 0.9900725,
+          "rotationDeg": 1.38985,
+          "hudOpacity": 0.0
+        },
+        "bbox": [
+          24,
+          45,
+          138,
+          183
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "borderAlphaNonzero": 0
+      },
+      {
+        "index": 6,
+        "atMs": 600,
+        "durationMs": 100,
+        "rect": [
+          320,
+          200,
+          160,
+          200
+        ],
+        "pose": "lose",
+        "state": {
+          "pose": "lose",
+          "x": 0.0,
+          "y": 4.771743143902521,
+          "scaleX": 1.0,
+          "scaleY": 0.9904565137121949,
+          "rotationDeg": 1.3360880802927058,
+          "hudOpacity": 0.0
+        },
+        "bbox": [
+          24,
+          45,
+          138,
+          183
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "borderAlphaNonzero": 0
+      },
+      {
+        "index": 7,
+        "atMs": 700,
+        "durationMs": 100,
+        "rect": [
+          480,
+          200,
+          160,
+          200
+        ],
+        "pose": "lose",
+        "state": {
+          "pose": "lose",
+          "x": 0.0,
+          "y": 3.980396764123393,
+          "scaleX": 1.0,
+          "scaleY": 0.9920392064717533,
+          "rotationDeg": 1.11451109395455,
+          "hudOpacity": 0.0
+        },
+        "bbox": [
+          24,
+          44,
+          138,
+          183
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "borderAlphaNonzero": 0
+      },
+      {
+        "index": 8,
+        "atMs": 800,
+        "durationMs": 100,
+        "rect": [
+          0,
+          400,
+          160,
+          200
+        ],
+        "pose": "lose",
+        "state": {
+          "pose": "lose",
+          "x": 0.0,
+          "y": 2.8617703333221445,
+          "scaleX": 1.0,
+          "scaleY": 0.9942764593333557,
+          "rotationDeg": 0.8012956933302005,
+          "hudOpacity": 0.0
+        },
+        "bbox": [
+          23,
+          44,
+          138,
+          183
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "borderAlphaNonzero": 0
+      },
+      {
+        "index": 9,
+        "atMs": 900,
+        "durationMs": 100,
+        "rect": [
+          160,
+          400,
+          160,
+          200
+        ],
+        "pose": "lose",
+        "state": {
+          "pose": "lose",
+          "x": 0.0,
+          "y": 1.6676177369004064,
+          "scaleX": 1.0,
+          "scaleY": 0.9966647645261992,
+          "rotationDeg": 0.4669329663321138,
+          "hudOpacity": 0.0
+        },
+        "bbox": [
+          23,
+          43,
+          138,
+          183
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "borderAlphaNonzero": 0
+      },
+      {
+        "index": 10,
+        "atMs": 1000,
+        "durationMs": 100,
+        "rect": [
+          320,
+          400,
+          160,
+          200
+        ],
+        "pose": "lose",
+        "state": {
+          "pose": "lose",
+          "x": 0.0,
+          "y": 0.64969286025981,
+          "scaleX": 1.0,
+          "scaleY": 0.9987006142794804,
+          "rotationDeg": 0.1819140008727469,
+          "hudOpacity": 0.0
+        },
+        "bbox": [
+          22,
+          43,
+          138,
+          183
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "borderAlphaNonzero": 0
+      },
+      {
+        "index": 11,
+        "atMs": 1100,
+        "durationMs": 100,
+        "rect": [
+          480,
+          400,
+          160,
+          200
+        ],
+        "pose": "lose",
+        "state": {
+          "pose": "lose",
+          "x": 0.0,
+          "y": 0.05974958880198766,
+          "scaleX": 1.0,
+          "scaleY": 0.999880500822396,
+          "rotationDeg": 0.01672988486455651,
+          "hudOpacity": 0.0
+        },
+        "bbox": [
+          22,
+          43,
+          138,
+          183
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "borderAlphaNonzero": 0
+      },
+      {
+        "index": 12,
+        "atMs": 1200,
+        "durationMs": 120,
+        "rect": [
+          0,
+          600,
+          160,
+          200
+        ],
+        "pose": "lose",
+        "state": {
+          "pose": "lose",
+          "x": 0.0,
+          "y": 0.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotationDeg": 0.0,
+          "hudOpacity": 0.0
+        },
+        "bbox": [
+          22,
+          43,
+          138,
+          183
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "borderAlphaNonzero": 0
+      },
+      {
+        "index": 13,
+        "atMs": 1320,
+        "durationMs": 120,
+        "rect": [
+          160,
+          600,
+          160,
+          200
+        ],
+        "pose": "lose",
+        "state": {
+          "pose": "lose",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        "bbox": [
+          22,
+          43,
+          138,
+          183
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "borderAlphaNonzero": 0
+      },
+      {
+        "index": 14,
+        "atMs": 1440,
+        "durationMs": 120,
+        "rect": [
+          320,
+          600,
+          160,
+          200
+        ],
+        "pose": "master",
+        "state": {
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        "bbox": [
+          18,
+          42,
+          142,
+          183
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "borderAlphaNonzero": 0
+      },
+      {
+        "index": 15,
+        "atMs": 1560,
+        "durationMs": 120,
+        "rect": [
+          480,
+          600,
+          160,
+          200
+        ],
+        "pose": "master",
+        "state": {
+          "pose": "master",
+          "x": 0.0,
+          "y": 0.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotationDeg": 0.0,
+          "hudOpacity": 0.0
+        },
+        "bbox": [
+          18,
+          42,
+          142,
+          183
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "borderAlphaNonzero": 0
+      }
+    ]
+  },
+  "events": [
+    {
+      "atMs": 120,
+      "type": "pose_switch",
+      "pose": "lose",
+      "visualOnly": true,
+      "semantics": "Replace the full still with this actor's real generated outcome pose."
+    },
+    {
+      "atMs": 200,
+      "type": "ui_lose_cue",
+      "visualOnly": true,
+      "semantics": "Optional presentation/audio cue; no gameplay result is determined here."
+    },
+    {
+      "atMs": 1440,
+      "type": "pose_switch",
+      "pose": "master",
+      "visualOnly": true,
+      "semantics": "Return to neutral whole-actor still."
+    },
+    {
+      "atMs": 1680,
+      "type": "clip_complete",
+      "next": "idle",
+      "visualOnly": true
+    }
+  ],
+  "eventPolicy": "Events are presentation cues only. Server/gameplay controller owns card selection, turn commit and win/loss results. In a loop, emit events once per cycle; on seek emit none unless explicitly requested.",
+  "hud": null,
+  "skinPolicy": {
+    "baseActor": "hulu",
+    "supportedCostumes": [],
+    "timelineReusable": true,
+    "forAlternateCostume": "Resolve all pose names to the selected skin file and apply the same transform; do not switch win/lose to base costume. Keep thinking portrait HUD hidden for alternate costumes unless a matching portrait exists. The baked sheets show the base costume only.",
+    "requiresNewBakedSheets": false
+  },
+  "sources": [
+    {
+      "file": "assets/characters/hulu/master.png",
+      "sha256": "eb4fa72acfcb3e69610b208e46c70428f9aa0127bc014f256ccb6593d93630fe",
+      "width": 1024,
+      "height": 1024,
+      "record": "assets/characters/hulu/master.derivation.json"
+    },
+    {
+      "file": "assets/characters/hulu/lose.png",
+      "sha256": "35850b8b42fb029b3fb57e985a7b71009b302e9ff05303cf65eda75f118f555d",
+      "width": 1024,
+      "height": 1024,
+      "record": "assets/characters/hulu/lose.derivation.json"
+    }
+  ],
+  "status": "asset_ready_user_review"
+}

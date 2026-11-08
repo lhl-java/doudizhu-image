@@ -1,0 +1,283 @@
+{
+  "status": "passed_for_ui_actor_asset_review",
+  "createdAt": "2026-10-26T19:14:06.071617+00:00",
+  "clipCount": 15,
+  "frameCount": 240,
+  "frameSize": [
+    160,
+    200
+  ],
+  "clips": [
+    {
+      "id": "daotong_idle",
+      "frameCount": 16,
+      "durationSumMs": 1600,
+      "durationMatches": true,
+      "allRgba": true,
+      "allBordersClear": true,
+      "firstLastLoopEqual": true,
+      "posesAt120And1440": null,
+      "maximumSourceScale": 0.17204000000000003,
+      "maxIdleScaleDelta": 0.01200000000000001,
+      "sheetBytes": 541986
+    },
+    {
+      "id": "daotong_think",
+      "frameCount": 16,
+      "durationSumMs": 1920,
+      "durationMatches": true,
+      "allRgba": true,
+      "allBordersClear": true,
+      "firstLastLoopEqual": true,
+      "posesAt120And1440": null,
+      "maximumSourceScale": 0.17,
+      "maxIdleScaleDelta": null,
+      "sheetBytes": 564037
+    },
+    {
+      "id": "daotong_play",
+      "frameCount": 16,
+      "durationSumMs": 960,
+      "durationMatches": true,
+      "allRgba": true,
+      "allBordersClear": true,
+      "firstLastLoopEqual": null,
+      "posesAt120And1440": null,
+      "maximumSourceScale": 0.17204000000000003,
+      "maxIdleScaleDelta": null,
+      "sheetBytes": 446672
+    },
+    {
+      "id": "daotong_win",
+      "frameCount": 16,
+      "durationSumMs": 1680,
+      "durationMatches": true,
+      "allRgba": true,
+      "allBordersClear": true,
+      "firstLastLoopEqual": null,
+      "posesAt120And1440": {
+        "120": "win",
+        "1440": "master"
+      },
+      "maximumSourceScale": 0.17255,
+      "maxIdleScaleDelta": null,
+      "sheetBytes": 496973
+    },
+    {
+      "id": "daotong_lose",
+      "frameCount": 16,
+      "durationSumMs": 1680,
+      "durationMatches": true,
+      "allRgba": true,
+      "allBordersClear": true,
+      "firstLastLoopEqual": null,
+      "posesAt120And1440": {
+        "120": "lose",
+        "1440": "master"
+      },
+      "maximumSourceScale": 0.17,
+      "maxIdleScaleDelta": null,
+      "sheetBytes": 444563
+    },
+    {
+      "id": "taohua_idle",
+      "frameCount": 16,
+      "durationSumMs": 1600,
+      "durationMatches": true,
+      "allRgba": true,
+      "allBordersClear": true,
+      "firstLastLoopEqual": true,
+      "posesAt120And1440": null,
+      "maximumSourceScale": 0.17204000000000003,
+      "maxIdleScaleDelta": 0.01200000000000001,
+      "sheetBytes": 547423
+    },
+    {
+      "id": "taohua_think",
+      "frameCount": 16,
+      "durationSumMs": 1920,
+      "durationMatches": true,
+      "allRgba": true,
+      "allBordersClear": true,
+      "firstLastLoopEqual": true,
+      "posesAt120And1440": null,
+      "maximumSourceScale": 0.17,
+      "maxIdleScaleDelta": null,
+      "sheetBytes": 566792
+    },
+    {
+      "id": "taohua_play",
+      "frameCount": 16,
+      "durationSumMs": 960,
+      "durationMatches": true,
+      "allRgba": true,
+      "allBordersClear": true,
+      "firstLastLoopEqual": null,
+      "posesAt120And1440": null,
+      "maximumSourceScale": 0.17204000000000003,
+      "maxIdleScaleDelta": null,
+      "sheetBytes": 452721
+    },
+    {
+      "id": "taohua_win",
+      "frameCount": 16,
+      "durationSumMs": 1680,
+      "durationMatches": true,
+      "allRgba": true,
+      "allBordersClear": true,
+      "firstLastLoopEqual": null,
+      "posesAt120And1440": {
+        "120": "win",
+        "1440": "master"
+      },
+      "maximumSourceScale": 0.17255,
+      "maxIdleScaleDelta": null,
+      "sheetBytes": 561389
+    },
+    {
+      "id": "taohua_lose",
+      "frameCount": 16,
+      "durationSumMs": 1680,
+      "durationMatches": true,
+      "allRgba": true,
+      "allBordersClear": true,
+      "firstLastLoopEqual": null,
+      "posesAt120And1440": {
+        "120": "lose",
+        "1440": "master"
+      },
+      "maximumSourceScale": 0.17,
+      "maxIdleScaleDelta": null,
+      "sheetBytes": 457134
+    },
+    {
+      "id": "hulu_idle",
+      "frameCount": 16,
+      "durationSumMs": 1600,
+      "durationMatches": true,
+      "allRgba": true,
+      "allBordersClear": true,
+      "firstLastLoopEqual": true,
+      "posesAt120And1440": null,
+      "maximumSourceScale": 0.17204000000000003,
+      "maxIdleScaleDelta": 0.01200000000000001,
+      "sheetBytes": 568984
+    },
+    {
+      "id": "hulu_think",
+      "frameCount": 16,
+      "durationSumMs": 1920,
+      "durationMatches": true,
+      "allRgba": true,
+      "allBordersClear": true,
+      "firstLastLoopEqual": true,
+      "posesAt120And1440": null,
+      "maximumSourceScale": 0.17,
+      "maxIdleScaleDelta": null,
+      "sheetBytes": 591026
+    },
+    {
+      "id": "hulu_play",
+      "frameCount": 16,
+      "durationSumMs": 960,
+      "durationMatches": true,
+      "allRgba": true,
+      "allBordersClear": true,
+      "firstLastLoopEqual": null,
+      "posesAt120And1440": null,
+      "maximumSourceScale": 0.17204000000000003,
+      "maxIdleScaleDelta": null,
+      "sheetBytes": 468577
+    },
+    {
+      "id": "hulu_win",
+      "frameCount": 16,
+      "durationSumMs": 1680,
+      "durationMatches": true,
+      "allRgba": true,
+      "allBordersClear": true,
+      "firstLastLoopEqual": null,
+      "posesAt120And1440": {
+        "120": "win",
+        "1440": "master"
+      },
+      "maximumSourceScale": 0.17255,
+      "maxIdleScaleDelta": null,
+      "sheetBytes": 557411
+    },
+    {
+      "id": "hulu_lose",
+      "frameCount": 16,
+      "durationSumMs": 1680,
+      "durationMatches": true,
+      "allRgba": true,
+      "allBordersClear": true,
+      "firstLastLoopEqual": null,
+      "posesAt120And1440": {
+        "120": "lose",
+        "1440": "master"
+      },
+      "maximumSourceScale": 0.17,
+      "maxIdleScaleDelta": null,
+      "sheetBytes": 464827
+    }
+  ],
+  "note": "This approves the UI actor keyframe asset scope, not AI video or articulated full-body motion.",
+  "validatedAt": "2026-10-26T19:22:39.821234+00:00",
+  "webpTemporalChecks": [
+    {
+      "actor": "daotong",
+      "file": "assets/animations/characters/daotong-all-actions.webp",
+      "decodedFrames": 68,
+      "durationMs": 7840,
+      "alphaPresent": true,
+      "sha256": "21c0e9e87a9c3254f60424690535f2496513f963531403ee167416270febf94d",
+      "note": "WebP encoder may merge identical adjacent frames while preserving total time."
+    },
+    {
+      "actor": "taohua",
+      "file": "assets/animations/characters/taohua-all-actions.webp",
+      "decodedFrames": 68,
+      "durationMs": 7840,
+      "alphaPresent": true,
+      "sha256": "bd9f582d2a4810ce36641b78404b0110cbdb1a4bcb704efba0640c894c3d2733",
+      "note": "WebP encoder may merge identical adjacent frames while preserving total time."
+    },
+    {
+      "actor": "hulu",
+      "file": "assets/animations/characters/hulu-all-actions.webp",
+      "decodedFrames": 68,
+      "durationMs": 7840,
+      "alphaPresent": true,
+      "sha256": "fc4c51ebee3485e1dca16b8c50431b27aa6235ca68a105a07219240a075ac74e",
+      "note": "WebP encoder may merge identical adjacent frames while preserving total time."
+    }
+  ],
+  "sourceHashChecks": "passed",
+  "all240FramesRgbaAndCompleteAlphaBounds": "passed",
+  "loopClips": 6,
+  "loopFirstLastByteIdentical": true,
+  "outcomeSwitchAt120Ms": "passed for all six win/lose clips",
+  "outcomeReturnMasterAt1440Ms": "passed",
+  "noUpscaleIncludingSupersampling": true,
+  "visualReview": {
+    "all15FullContactSheetsActuallyViewed": true,
+    "all3IvoryReviewSheetsActuallyViewed": true,
+    "findings": [
+      "All hands, feet, hair and accessories remain inside each frame.",
+      "Thought portrait badge reads independently from the body.",
+      "Card flight is a rigid existing card-back image plus faded trail copies.",
+      "Outcome poses are distinct real generated stills."
+    ]
+  },
+  "playerValidation": "assets/animations/characters/player-validation.json",
+  "browserPlayback": {
+    "status": "not_verified_in_this_worker",
+    "reason": "cua.createBrowserTab returned Local browser use is disabled in Work settings. Root will conduct final browser playback review.",
+    "url": "http://127.0.0.1:8877/assets/animations/characters/index.html"
+  },
+  "artGeneration": "None in this animation batch. CPU rendering of prior generated assets only.",
+  "packageBytes": 10429049,
+  "packageMiB": 9.946,
+  "packageBudgetBytes": 10485760
+}

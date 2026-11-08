@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/ui/table/14-play-turn-v2.png",
+  "sha256": "7977cb5f4b90af7f5f9108f4cd820681edff0d0f534960bb688699b24edb3728",
+  "generatedAt": "2026-10-26T04:31:31.7949898-04:00",
+  "timestampMeaning": "UI组合导出时间，不是新模型生成时间",
+  "width": 1931,
+  "height": 814,
+  "format": "PNG",
+  "tool": "System.Drawing native UI composition",
+  "route": "derived",
+  "operation": "layered-ui-composition: original native artwork + generated panel/identity skins + deterministic card components and native dynamic text, only when specified in layout",
+  "nativeArtworkResolution": {
+    "width": 1931,
+    "height": 814
+  },
+  "exportResolution": {
+    "width": 1931,
+    "height": 814
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "submittedParameters": {
+    "model": null,
+    "quality": null
+  },
+  "unverifiedReason": "本图为UI素材组合导出，未再次调用生成模型；每个生成源的实际型号质量跟随derivedFrom记录，未披露仍为null",
+  "derivedFrom": [
+    {
+      "file": "designs/ui/table/14-play-turn-v1.png",
+      "sha256": "ab56c0c314fda39534cd19cfd7c895dac89060fe0b51c6d189c208b05782da02",
+      "record": "designs/ui/table/14-play-turn-v1.generation.json",
+      "role": "原生生成整屏底图，不放大"
+    },
+    {
+      "file": "assets/ui/controls/panel.png",
+      "sha256": "8cea325f107b9dae1b16addf4d4c5b3987defc6fef98dc89d65b0108c1321d6a",
+      "record": "assets/ui/controls/panel.derivation.json",
+      "role": "手牌托盘，原生框角九宫格排版，不新增绘画细节"
+    },
+    {
+      "file": "assets/ui/cards/hearts-2.png",
+      "sha256": "12beab955297097a1084eaf45e171a3d663d5fad6dba957a01fc9a155acfb97e",
+      "record": "assets/ui/cards/hearts-2.derivation.json",
+      "role": "正确点数和花色的独立动态牌面层，缩小排版，不新增原生细节"
+    },
+    {
+      "file": "assets/ui/cards/spades-A.png",
+      "sha256": "981605aeb34fe49a9e9bb552f2aee61609f317cbfa1d986203c9350155a444ce",
+      "record": "assets/ui/cards/spades-A.derivation.json",
+      "role": "正确点数和花色的独立动态牌面层，缩小排版，不新增原生细节"
+    },
+    {
+      "file": "assets/ui/cards/hearts-A.png",
+      "sha256": "9f2dcce97220cc85661fb6551f777d6289dc088f485a6fe3034c644f1e6a58c4",
+      "record": "assets/ui/cards/hearts-A.derivation.json",
+      "role": "正确点数和花色的独立动态牌面层，缩小排版，不新增原生细节"
+    },
+    {
+      "file": "assets/ui/cards/spades-K.png",
+      "sha256": "8819cddcd6e1cec6bf483cfa1fae20332b4b30b9ba93d444276971643f16b4dc",
+      "record": "assets/ui/cards/spades-K.derivation.json",
+      "role": "正确点数和花色的独立动态牌面层，缩小排版，不新增原生细节"
+    },
+    {
+      "file": "assets/ui/cards/hearts-K.png",
+      "sha256": "2a6cc03073e56fdf610f93f0e9a9d7587a3375d7114a4bd02fdff9a236825ae5",
+      "record": "assets/ui/cards/hearts-K.derivation.json",
+      "role": "正确点数和花色的独立动态牌面层，缩小排版，不新增原生细节"
+    },
+    {
+      "file": "assets/ui/cards/hearts-Q.png",
+      "sha256": "573c8e85c1175872d7216d11e4da1eae86aae41e630a99289f3231ccfbd6fe7b",
+      "record": "assets/ui/cards/hearts-Q.derivation.json",
+      "role": "正确点数和花色的独立动态牌面层，缩小排版，不新增原生细节"
+    },
+    {
+      "file": "assets/ui/cards/clubs-Q.png",
+      "sha256": "64d8b9c18d639ce15dc9f47a410fdebd23e14739b2dfd991f751b7c45ba402eb",
+      "record": "assets/ui/cards/clubs-Q.derivation.json",
+      "role": "正确点数和花色的独立动态牌面层，缩小排版，不新增原生细节"
+    },
+    {
+      "file": "assets/ui/cards/spades-J.png",
+      "sha256": "e73206bf5db17fb77d55645e16520fd4f5da313179e3e05f623e3df1cc20c5f7",
+      "record": "assets/ui/cards/spades-J.derivation.json",
+      "role": "正确点数和花色的独立动态牌面层，缩小排版，不新增原生细节"
+    },
+    {
+      "file": "assets/ui/cards/hearts-10.png",
+      "sha256": "265e637c676d1383ee7ca8880d051dcbe6103002005ccb302527e82c6363d712",
+      "record": "assets/ui/cards/hearts-10.derivation.json",
+      "role": "正确点数和花色的独立动态牌面层，缩小排版，不新增原生细节"
+    },
+    {
+      "file": "assets/ui/cards/spades-9.png",
+      "sha256": "f972070bc30e3ce972a0f29d5aac3a71d9120e0d2ab5e5f355b137147d5b3901",
+      "record": "assets/ui/cards/spades-9.derivation.json",
+      "role": "正确点数和花色的独立动态牌面层，缩小排版，不新增原生细节"
+    },
+    {
+      "file": "assets/ui/cards/hearts-9.png",
+      "sha256": "7c7d2fa8ab00f54c9cdd4b67fd08b79da14fe17bd512d0aa1da75a279033593f",
+      "record": "assets/ui/cards/hearts-9.derivation.json",
+      "role": "正确点数和花色的独立动态牌面层，缩小排版，不新增原生细节"
+    },
+    {
+      "file": "assets/ui/cards/clubs-8.png",
+      "sha256": "a6bcc5121332146f022c6f5b9301f1580860d40fa56f898412ade91abdb26cb4",
+      "record": "assets/ui/cards/clubs-8.derivation.json",
+      "role": "正确点数和花色的独立动态牌面层，缩小排版，不新增原生细节"
+    },
+    {
+      "file": "assets/ui/cards-source/selection.png",
+      "sha256": "7202172378ca8f1590a18175b68a168829bdb971bf1d5aec0dfb0e19378c8bd3",
+      "record": "assets/ui/cards-source/selection.derivation.json",
+      "role": "原生生成的玉绿选中框，缩小排版"
+    },
+    {
+      "file": "assets/ui/cards/spades-7.png",
+      "sha256": "e9725f7ba1597cf7b31d3c43d4543d16c61505e25b2f1ad1cf0e7c5b6f912cc2",
+      "record": "assets/ui/cards/spades-7.derivation.json",
+      "role": "正确点数和花色的独立动态牌面层，缩小排版，不新增原生细节"
+    },
+    {
+      "file": "assets/ui/cards-source/selection.png",
+      "sha256": "7202172378ca8f1590a18175b68a168829bdb971bf1d5aec0dfb0e19378c8bd3",
+      "record": "assets/ui/cards-source/selection.derivation.json",
+      "role": "原生生成的玉绿选中框，缩小排版"
+    },
+    {
+      "file": "assets/ui/cards/hearts-7.png",
+      "sha256": "a1c7f079b24c62474bb6116ccf7f6e2142092cf2c209e194c75a039eeba8be82",
+      "record": "assets/ui/cards/hearts-7.derivation.json",
+      "role": "正确点数和花色的独立动态牌面层，缩小排版，不新增原生细节"
+    },
+    {
+      "file": "assets/ui/cards-source/selection.png",
+      "sha256": "7202172378ca8f1590a18175b68a168829bdb971bf1d5aec0dfb0e19378c8bd3",
+      "record": "assets/ui/cards-source/selection.derivation.json",
+      "role": "原生生成的玉绿选中框，缩小排版"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-7.png",
+      "sha256": "47b6b77801195c5eed1f315d67b40ff5d777e07b613b4fc5ec4a6d14e2d624ab",
+      "record": "assets/ui/cards/diamonds-7.derivation.json",
+      "role": "正确点数和花色的独立动态牌面层，缩小排版，不新增原生细节"
+    },
+    {
+      "file": "assets/ui/cards/clubs-6.png",
+      "sha256": "3f44df12a4fc174c248d8f9f6333e2a7295be8840a847daa9c4f3530e6c19746",
+      "record": "assets/ui/cards/clubs-6.derivation.json",
+      "role": "正确点数和花色的独立动态牌面层，缩小排版，不新增原生细节"
+    },
+    {
+      "file": "assets/ui/cards/spades-5.png",
+      "sha256": "e890b180516ec511ea4ef971ec44e21839baed1d3c310477759f2434b9f3ddcf",
+      "record": "assets/ui/cards/spades-5.derivation.json",
+      "role": "正确点数和花色的独立动态牌面层，缩小排版，不新增原生细节"
+    },
+    {
+      "file": "assets/ui/cards/hearts-4.png",
+      "sha256": "55686b0a0348834780919f1d36a3434acdc188bf7e9044e7eb82b0f260a41b8e",
+      "record": "assets/ui/cards/hearts-4.derivation.json",
+      "role": "正确点数和花色的独立动态牌面层，缩小排版，不新增原生细节"
+    },
+    {
+      "file": "assets/ui/cards/clubs-4.png",
+      "sha256": "2b05c2c9da5216a8e55c10b8b3c7c4ef34fd91fecf8ee8b14106e95d099941a5",
+      "record": "assets/ui/cards/clubs-4.derivation.json",
+      "role": "正确点数和花色的独立动态牌面层，缩小排版，不新增原生细节"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-3.png",
+      "sha256": "8e2baa8cd4bb7e6e891083b0cec61e812d88759f4a34b5146699909da35879a8",
+      "record": "assets/ui/cards/diamonds-3.derivation.json",
+      "role": "正确点数和花色的独立动态牌面层，缩小排版，不新增原生细节"
+    }
+  ],
+  "layout": "prompts/table/14-play-turn-v2.layout.json",
+  "cardGroups": [
+    {
+      "role": "地主20张手牌，其中包含底牌A黑桃/K红桃/3方片，三张7抬起选中",
+      "rect": [
+        418,
+        632,
+        1191,
+        142
+      ],
+      "cards": [
+        "hearts-2",
+        "spades-A",
+        "hearts-A",
+        "spades-K",
+        "hearts-K",
+        "hearts-Q",
+        "clubs-Q",
+        "spades-J",
+        "hearts-10",
+        "spades-9",
+        "hearts-9",
+        "clubs-8",
+        "spades-7",
+        "hearts-7",
+        "diamonds-7",
+        "clubs-6",
+        "spades-5",
+        "hearts-4",
+        "clubs-4",
+        "diamonds-3"
+      ],
+      "selectedIndexes": [
+        12,
+        13,
+        14
+      ],
+      "selectionLift": 24,
+      "selectionAsset": "assets/ui/cards-source/selection.png"
+    }
+  ],
+  "textOverlays": null,
+  "visualReview": {
+    "note": "已看图：20张地主手牌与标签一致，包含三张底牌；三张7抬起，原生同源玉绿选中框置于牌面下方外扩，点数7与花色保持可读。已选3张/提示/出牌/计时清楚，为原生牌桌加独立牌面状态层组合，不称新模型生成。",
+    "status": "design_ready_user_review"
+  }
+}

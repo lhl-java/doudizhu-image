@@ -1,0 +1,2138 @@
+{
+  "recordedAt": "2026-10-26T07:56:37.577836+00:00",
+  "note": "Native art crops plus native text-derived cards. No generated image was upscaled. Cards use one original generated blank face with deterministic correct ranks and suits; not 54 independent AI images.",
+  "counts": {
+    "controls": 24,
+    "sourceCardsAndEffects": 16,
+    "deck": 54,
+    "total": 94
+  },
+  "assets": [
+    {
+      "file": "assets/ui/controls/primary-normal.png",
+      "sha256": "a2aa9afff3b9ef559a23ddef8d1b991691c09a609b7ea96b453c56c586b5f021",
+      "width": 363,
+      "height": 182,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        0,
+        0,
+        363,
+        190
+      ],
+      "trimRect": [
+        0,
+        4,
+        363,
+        186
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/51-common-components-v1.png",
+        "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+        "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/controls/primary-highlight.png",
+      "sha256": "b6f0726e83081bbe6a5fc0fe78d252122d818fceb94b8731d4d5ca4b95f34e10",
+      "width": 372,
+      "height": 181,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        363,
+        0,
+        735,
+        190
+      ],
+      "trimRect": [
+        0,
+        9,
+        372,
+        190
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/51-common-components-v1.png",
+        "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+        "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/controls/primary-pressed.png",
+      "sha256": "442aea5dc36d63ea8622e0d0f8ae4de97c6cebe08af8fbad82e0e98f6c52f107",
+      "width": 349,
+      "height": 182,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        735,
+        0,
+        1084,
+        190
+      ],
+      "trimRect": [
+        0,
+        8,
+        349,
+        190
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/51-common-components-v1.png",
+        "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+        "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/controls/primary-disabled.png",
+      "sha256": "50eefaee2e8cdca171361b6c861eadb2ad1b664b772261f0c68690cb94b36490",
+      "width": 348,
+      "height": 167,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        1084,
+        0,
+        1448,
+        190
+      ],
+      "trimRect": [
+        0,
+        23,
+        348,
+        190
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/51-common-components-v1.png",
+        "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+        "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/controls/secondary-normal.png",
+      "sha256": "9ba4a890ce8dc82f27a3468a1b8aad4586920da8111a35bc63ad1b801c93bd3d",
+      "width": 363,
+      "height": 141,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        0,
+        190,
+        363,
+        331
+      ],
+      "trimRect": [
+        0,
+        0,
+        363,
+        141
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/51-common-components-v1.png",
+        "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+        "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/controls/secondary-highlight.png",
+      "sha256": "99950b5d816b379ce5ecf4ddb28f723220cd4fa23a0225c59bad4d9a946b4f00",
+      "width": 372,
+      "height": 141,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        363,
+        190,
+        735,
+        331
+      ],
+      "trimRect": [
+        0,
+        0,
+        372,
+        141
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/51-common-components-v1.png",
+        "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+        "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/controls/secondary-pressed.png",
+      "sha256": "4a1e93330493da258aa241e6cfecd6ec5d79908375d4b57c2a5ee55c8270d37f",
+      "width": 349,
+      "height": 141,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        735,
+        190,
+        1084,
+        331
+      ],
+      "trimRect": [
+        0,
+        0,
+        349,
+        141
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/51-common-components-v1.png",
+        "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+        "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/controls/secondary-disabled.png",
+      "sha256": "0b48192b12595d3607eaec5aa843654ef9404fa30684e49cbad4f1375867d478",
+      "width": 335,
+      "height": 141,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        1084,
+        190,
+        1448,
+        331
+      ],
+      "trimRect": [
+        0,
+        0,
+        335,
+        141
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/51-common-components-v1.png",
+        "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+        "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/controls/title-primary.png",
+      "sha256": "08b86b529771c2b9ba5c968b04aa3dc4bb2806f4f9bccb311fd2a3f66c61629e",
+      "width": 453,
+      "height": 169,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        0,
+        331,
+        480,
+        500
+      ],
+      "trimRect": [
+        27,
+        0,
+        480,
+        169
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/51-common-components-v1.png",
+        "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+        "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/controls/title-secondary.png",
+      "sha256": "c1665d05e48d43184bd64c9f13627bc4a91f2809cb1a767725e815fad4de4a5d",
+      "width": 400,
+      "height": 169,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        480,
+        331,
+        880,
+        500
+      ],
+      "trimRect": [
+        0,
+        0,
+        400,
+        169
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/51-common-components-v1.png",
+        "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+        "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/controls/tab-selected.png",
+      "sha256": "d61f3cd52dc6469e625d2c3ac4a55aa80939f721a6a8f60c6781100f78938081",
+      "width": 263,
+      "height": 153,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        880,
+        331,
+        1148,
+        500
+      ],
+      "trimRect": [
+        0,
+        16,
+        263,
+        169
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/51-common-components-v1.png",
+        "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+        "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/controls/tab-normal.png",
+      "sha256": "6b67e215ff28fd153e1f104c76d5c4a36f813029eb3bc183a62687d21e6ec6bd",
+      "width": 269,
+      "height": 169,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        1148,
+        331,
+        1448,
+        500
+      ],
+      "trimRect": [
+        1,
+        0,
+        270,
+        169
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/51-common-components-v1.png",
+        "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+        "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/controls/checkbox-off.png",
+      "sha256": "abd5ab528f4736c55980784b5626b54bb03523601c54738c43296a073493613c",
+      "width": 217,
+      "height": 141,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        80,
+        500,
+        320,
+        657
+      ],
+      "trimRect": [
+        23,
+        16,
+        240,
+        157
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/51-common-components-v1.png",
+        "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+        "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/controls/checkbox-on.png",
+      "sha256": "faa9f934c990c37703c5b98fc1a07f7fe75b82cea0396a4f573206afb45c8b31",
+      "width": 247,
+      "height": 157,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        425,
+        500,
+        682,
+        657
+      ],
+      "trimRect": [
+        10,
+        0,
+        257,
+        157
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/51-common-components-v1.png",
+        "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+        "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/controls/toggle-on.png",
+      "sha256": "a6ad4b03104105c9175e0c045b0ad42bf6185858cd8495841a1427c0756ff87f",
+      "width": 265,
+      "height": 157,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        747,
+        500,
+        1046,
+        657
+      ],
+      "trimRect": [
+        34,
+        0,
+        299,
+        157
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/51-common-components-v1.png",
+        "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+        "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/controls/toggle-off.png",
+      "sha256": "37ab08af24796c0d08ef8dfb889f2baf339264d44cf99bca6b6ead61133b647d",
+      "width": 345,
+      "height": 157,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        1076,
+        500,
+        1448,
+        657
+      ],
+      "trimRect": [
+        1,
+        0,
+        346,
+        157
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/51-common-components-v1.png",
+        "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+        "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/controls/input-normal.png",
+      "sha256": "dd484f83f0b99c428769449d98231ef68bb67a88ecb97a5727e7b9391b8cbf3b",
+      "width": 370,
+      "height": 133,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        0,
+        657,
+        370,
+        790
+      ],
+      "trimRect": [
+        0,
+        0,
+        370,
+        133
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/51-common-components-v1.png",
+        "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+        "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/controls/input-focus.png",
+      "sha256": "b7a1485cf5cbc9f846768b83fb786bb04d6589d3b1d498e1646b2c93ee29eb30",
+      "width": 364,
+      "height": 133,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        370,
+        657,
+        735,
+        790
+      ],
+      "trimRect": [
+        0,
+        0,
+        364,
+        133
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/51-common-components-v1.png",
+        "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+        "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/controls/progress.png",
+      "sha256": "e0c7a90ca832b183dcec3f3a3f83061880d8b972432cebcd72cd80341b2670bc",
+      "width": 343,
+      "height": 133,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        735,
+        657,
+        1080,
+        790
+      ],
+      "trimRect": [
+        2,
+        0,
+        345,
+        133
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/51-common-components-v1.png",
+        "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+        "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/controls/slider.png",
+      "sha256": "8190058d7d208afdf844a179ee9e62d040093137be0fdf29ee354f77aebb26a6",
+      "width": 335,
+      "height": 133,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        1080,
+        657,
+        1448,
+        790
+      ],
+      "trimRect": [
+        1,
+        0,
+        336,
+        133
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/51-common-components-v1.png",
+        "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+        "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/controls/panel.png",
+      "sha256": "8cea325f107b9dae1b16addf4d4c5b3987defc6fef98dc89d65b0108c1321d6a",
+      "width": 594,
+      "height": 296,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        0,
+        790,
+        594,
+        1086
+      ],
+      "trimRect": [
+        0,
+        0,
+        594,
+        296
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/51-common-components-v1.png",
+        "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+        "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/controls/close.png",
+      "sha256": "27d1ff0f868a0a167bb6a8bb1ee56fdfda0e5af4da37d9e775908860646a5731",
+      "width": 284,
+      "height": 295,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        594,
+        790,
+        878,
+        1086
+      ],
+      "trimRect": [
+        0,
+        1,
+        284,
+        296
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/51-common-components-v1.png",
+        "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+        "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/controls/scrollbar.png",
+      "sha256": "1ad01b2e653c253bfad234ee14919172ef550a7043a7765f6c46e64587af7621",
+      "width": 135,
+      "height": 296,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        890,
+        790,
+        1025,
+        1086
+      ],
+      "trimRect": [
+        0,
+        0,
+        135,
+        296
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/51-common-components-v1.png",
+        "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+        "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/controls/avatar-frame.png",
+      "sha256": "14dca6eb2f735d820480ffb2c1dc17c6e4b19356a45d0b90940afb452cfdcdb3",
+      "width": 347,
+      "height": 296,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        1085,
+        790,
+        1448,
+        1086
+      ],
+      "trimRect": [
+        2,
+        0,
+        349,
+        296
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/51-common-components-v1.png",
+        "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+        "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards-source/card-blank.png",
+      "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+      "width": 216,
+      "height": 282,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        155,
+        0,
+        385,
+        282
+      ],
+      "trimRect": [
+        13,
+        0,
+        229,
+        282
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/52-card-and-effects-v1.png",
+        "sha256": "e8c4302a6d6111f092218681bf36d87ae1dcfeb0f45f58321847d178cb71855e",
+        "generationRecord": "designs/ui/components/52-card-and-effects-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards-source/ace-spades.png",
+      "sha256": "035a2de2c45fb5053560ccb55376788753f19a5c7de35aae6974b52a5de67308",
+      "width": 229,
+      "height": 283,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        461,
+        0,
+        694,
+        283
+      ],
+      "trimRect": [
+        4,
+        0,
+        233,
+        283
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/52-card-and-effects-v1.png",
+        "sha256": "e8c4302a6d6111f092218681bf36d87ae1dcfeb0f45f58321847d178cb71855e",
+        "generationRecord": "designs/ui/components/52-card-and-effects-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards-source/ace-hearts.png",
+      "sha256": "0498be74f6019491563d6964dc441146bef2a0901ee2119683b68d82dfb1b0b0",
+      "width": 230,
+      "height": 283,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        764,
+        0,
+        994,
+        283
+      ],
+      "trimRect": [
+        0,
+        0,
+        230,
+        283
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/52-card-and-effects-v1.png",
+        "sha256": "e8c4302a6d6111f092218681bf36d87ae1dcfeb0f45f58321847d178cb71855e",
+        "generationRecord": "designs/ui/components/52-card-and-effects-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards-source/ace-clubs.png",
+      "sha256": "2c443b89e20358a0ac31c90651c159617e9308d34c7de312a9640089b42206f3",
+      "width": 216,
+      "height": 283,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        1062,
+        0,
+        1297,
+        283
+      ],
+      "trimRect": [
+        9,
+        0,
+        225,
+        283
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/52-card-and-effects-v1.png",
+        "sha256": "e8c4302a6d6111f092218681bf36d87ae1dcfeb0f45f58321847d178cb71855e",
+        "generationRecord": "designs/ui/components/52-card-and-effects-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards-source/ace-diamonds.png",
+      "sha256": "3b94e904d28c215910a38893f63866e797cfa1a88365b4070273e064a549461b",
+      "width": 212,
+      "height": 286,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        155,
+        279,
+        385,
+        565
+      ],
+      "trimRect": [
+        17,
+        0,
+        229,
+        286
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/52-card-and-effects-v1.png",
+        "sha256": "e8c4302a6d6111f092218681bf36d87ae1dcfeb0f45f58321847d178cb71855e",
+        "generationRecord": "designs/ui/components/52-card-and-effects-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards-source/joker-small.png",
+      "sha256": "e4b34532ab37f0fc92375a5f9b9e3c347010648d633459b1d1a596fc7fba42a2",
+      "width": 231,
+      "height": 286,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        461,
+        279,
+        694,
+        565
+      ],
+      "trimRect": [
+        2,
+        0,
+        233,
+        286
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/52-card-and-effects-v1.png",
+        "sha256": "e8c4302a6d6111f092218681bf36d87ae1dcfeb0f45f58321847d178cb71855e",
+        "generationRecord": "designs/ui/components/52-card-and-effects-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards-source/joker-big.png",
+      "sha256": "34c70cd279d33d5bd127a87cf11eee1a7e6c8ead14f39f6add0225b336bce401",
+      "width": 229,
+      "height": 286,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        764,
+        279,
+        994,
+        565
+      ],
+      "trimRect": [
+        1,
+        0,
+        230,
+        286
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/52-card-and-effects-v1.png",
+        "sha256": "e8c4302a6d6111f092218681bf36d87ae1dcfeb0f45f58321847d178cb71855e",
+        "generationRecord": "designs/ui/components/52-card-and-effects-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards-source/back-jade.png",
+      "sha256": "74d4830f3777e97394952b2990064ecf71eaa874983ff54a474d6777806dd863",
+      "width": 218,
+      "height": 286,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        1062,
+        279,
+        1297,
+        565
+      ],
+      "trimRect": [
+        9,
+        0,
+        227,
+        286
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/52-card-and-effects-v1.png",
+        "sha256": "e8c4302a6d6111f092218681bf36d87ae1dcfeb0f45f58321847d178cb71855e",
+        "generationRecord": "designs/ui/components/52-card-and-effects-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards-source/back-ivory.png",
+      "sha256": "1f1dac6b3710dbcc7a61094b8e3737d4e4f7ca15abab10751e5841b52a3b265d",
+      "width": 216,
+      "height": 285,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        155,
+        565,
+        385,
+        850
+      ],
+      "trimRect": [
+        13,
+        0,
+        229,
+        285
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/52-card-and-effects-v1.png",
+        "sha256": "e8c4302a6d6111f092218681bf36d87ae1dcfeb0f45f58321847d178cb71855e",
+        "generationRecord": "designs/ui/components/52-card-and-effects-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards-source/landlord.png",
+      "sha256": "3dfee5ad7d76c3b638f3cfeb0b19303ad7ef1fdcaffb4074f26fa38f7425bc93",
+      "width": 338,
+      "height": 246,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        392,
+        575,
+        737,
+        825
+      ],
+      "trimRect": [
+        7,
+        0,
+        345,
+        246
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/52-card-and-effects-v1.png",
+        "sha256": "e8c4302a6d6111f092218681bf36d87ae1dcfeb0f45f58321847d178cb71855e",
+        "generationRecord": "designs/ui/components/52-card-and-effects-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards-source/farmer.png",
+      "sha256": "5cbe5643a0150da3710b0aba32952610644235020db7ba62250a49e19652763a",
+      "width": 309,
+      "height": 234,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        737,
+        575,
+        1058,
+        825
+      ],
+      "trimRect": [
+        0,
+        7,
+        309,
+        241
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/52-card-and-effects-v1.png",
+        "sha256": "e8c4302a6d6111f092218681bf36d87ae1dcfeb0f45f58321847d178cb71855e",
+        "generationRecord": "designs/ui/components/52-card-and-effects-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards-source/selection.png",
+      "sha256": "7202172378ca8f1590a18175b68a168829bdb971bf1d5aec0dfb0e19378c8bd3",
+      "width": 218,
+      "height": 289,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        1063,
+        562,
+        1298,
+        851
+      ],
+      "trimRect": [
+        8,
+        0,
+        226,
+        289
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/52-card-and-effects-v1.png",
+        "sha256": "e8c4302a6d6111f092218681bf36d87ae1dcfeb0f45f58321847d178cb71855e",
+        "generationRecord": "designs/ui/components/52-card-and-effects-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards-source/bomb.png",
+      "sha256": "223424a6653f93df91bfbdf5fd44666a9f2fbec3dc0a0fb123c7d38a7e370294",
+      "width": 298,
+      "height": 229,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        105,
+        847,
+        410,
+        1086
+      ],
+      "trimRect": [
+        7,
+        0,
+        305,
+        229
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/52-card-and-effects-v1.png",
+        "sha256": "e8c4302a6d6111f092218681bf36d87ae1dcfeb0f45f58321847d178cb71855e",
+        "generationRecord": "designs/ui/components/52-card-and-effects-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards-source/rocket.png",
+      "sha256": "6b7cbf593bd30516da6d0efbf0a89517a6c2ce48a1d176d33f216a2f710ea356",
+      "width": 312,
+      "height": 239,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        410,
+        847,
+        724,
+        1086
+      ],
+      "trimRect": [
+        0,
+        0,
+        312,
+        239
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/52-card-and-effects-v1.png",
+        "sha256": "e8c4302a6d6111f092218681bf36d87ae1dcfeb0f45f58321847d178cb71855e",
+        "generationRecord": "designs/ui/components/52-card-and-effects-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards-source/spring.png",
+      "sha256": "cc5078c5c5731777f2a72d23824deacc8878f334ddd338849dd256779b892ea0",
+      "width": 311,
+      "height": 239,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        725,
+        847,
+        1036,
+        1086
+      ],
+      "trimRect": [
+        0,
+        0,
+        311,
+        239
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/52-card-and-effects-v1.png",
+        "sha256": "e8c4302a6d6111f092218681bf36d87ae1dcfeb0f45f58321847d178cb71855e",
+        "generationRecord": "designs/ui/components/52-card-and-effects-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards-source/counter-spring.png",
+      "sha256": "6ab4113bb6c1f35cfabeffaa708ecfadcbedc162e83fe363f3ee71c0f4a3a9c1",
+      "width": 279,
+      "height": 239,
+      "format": "PNG",
+      "operation": "crop-only-preserve-source-RGBA-no-resize",
+      "cropRect": [
+        1036,
+        847,
+        1345,
+        1086
+      ],
+      "trimRect": [
+        6,
+        0,
+        285,
+        239
+      ],
+      "derivedFrom": {
+        "file": "designs/ui/components/52-card-and-effects-v1.png",
+        "sha256": "e8c4302a6d6111f092218681bf36d87ae1dcfeb0f45f58321847d178cb71855e",
+        "generationRecord": "designs/ui/components/52-card-and-effects-v1.generation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/spades-A.png",
+      "sha256": "981605aeb34fe49a9e9bb552f2aee61609f317cbfa1d986203c9350155a444ce",
+      "width": 216,
+      "height": 282,
+      "rank": "A",
+      "suit": "spades",
+      "symbol": "♠",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/spades-2.png",
+      "sha256": "8608887cdfe8180f2c55ecd390861c54f37ecab05d06595246a2ae2dcfbc81b1",
+      "width": 216,
+      "height": 282,
+      "rank": "2",
+      "suit": "spades",
+      "symbol": "♠",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/spades-3.png",
+      "sha256": "c765eebbc9de000a231fd45432356ba3caffd397048f4fd4d3bf0b3561cfe6d3",
+      "width": 216,
+      "height": 282,
+      "rank": "3",
+      "suit": "spades",
+      "symbol": "♠",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/spades-4.png",
+      "sha256": "0d10930522f6c82d54d45bb6324de1d4aa53e5bb101cd402143c3db719f53ec7",
+      "width": 216,
+      "height": 282,
+      "rank": "4",
+      "suit": "spades",
+      "symbol": "♠",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/spades-5.png",
+      "sha256": "e890b180516ec511ea4ef971ec44e21839baed1d3c310477759f2434b9f3ddcf",
+      "width": 216,
+      "height": 282,
+      "rank": "5",
+      "suit": "spades",
+      "symbol": "♠",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/spades-6.png",
+      "sha256": "d482d85f2175507391cc5105faae6c12147df72b3a1fb918ce1e30274815633f",
+      "width": 216,
+      "height": 282,
+      "rank": "6",
+      "suit": "spades",
+      "symbol": "♠",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/spades-7.png",
+      "sha256": "e9725f7ba1597cf7b31d3c43d4543d16c61505e25b2f1ad1cf0e7c5b6f912cc2",
+      "width": 216,
+      "height": 282,
+      "rank": "7",
+      "suit": "spades",
+      "symbol": "♠",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/spades-8.png",
+      "sha256": "7ea38709d02afb8b75a1d395dd3e6862793f6506f848cfb2d46f7f491b53305b",
+      "width": 216,
+      "height": 282,
+      "rank": "8",
+      "suit": "spades",
+      "symbol": "♠",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/spades-9.png",
+      "sha256": "f972070bc30e3ce972a0f29d5aac3a71d9120e0d2ab5e5f355b137147d5b3901",
+      "width": 216,
+      "height": 282,
+      "rank": "9",
+      "suit": "spades",
+      "symbol": "♠",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/spades-10.png",
+      "sha256": "48a01e6644e7f99c44210dd61daddee68bfc20396dcd809343ea08fdfdd715ca",
+      "width": 216,
+      "height": 282,
+      "rank": "10",
+      "suit": "spades",
+      "symbol": "♠",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/spades-J.png",
+      "sha256": "e73206bf5db17fb77d55645e16520fd4f5da313179e3e05f623e3df1cc20c5f7",
+      "width": 216,
+      "height": 282,
+      "rank": "J",
+      "suit": "spades",
+      "symbol": "♠",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/spades-Q.png",
+      "sha256": "142512c74b67b44f59fc3be51b1ee0c9e95f9f4359948a35f72640b4326cc8ab",
+      "width": 216,
+      "height": 282,
+      "rank": "Q",
+      "suit": "spades",
+      "symbol": "♠",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/spades-K.png",
+      "sha256": "8819cddcd6e1cec6bf483cfa1fae20332b4b30b9ba93d444276971643f16b4dc",
+      "width": 216,
+      "height": 282,
+      "rank": "K",
+      "suit": "spades",
+      "symbol": "♠",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/hearts-A.png",
+      "sha256": "9f2dcce97220cc85661fb6551f777d6289dc088f485a6fe3034c644f1e6a58c4",
+      "width": 216,
+      "height": 282,
+      "rank": "A",
+      "suit": "hearts",
+      "symbol": "♥",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/hearts-2.png",
+      "sha256": "12beab955297097a1084eaf45e171a3d663d5fad6dba957a01fc9a155acfb97e",
+      "width": 216,
+      "height": 282,
+      "rank": "2",
+      "suit": "hearts",
+      "symbol": "♥",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/hearts-3.png",
+      "sha256": "857f206ae6ee7c85a16f1b0517036a2ca224b2b15889e318151931b0c589498a",
+      "width": 216,
+      "height": 282,
+      "rank": "3",
+      "suit": "hearts",
+      "symbol": "♥",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/hearts-4.png",
+      "sha256": "55686b0a0348834780919f1d36a3434acdc188bf7e9044e7eb82b0f260a41b8e",
+      "width": 216,
+      "height": 282,
+      "rank": "4",
+      "suit": "hearts",
+      "symbol": "♥",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/hearts-5.png",
+      "sha256": "b9fdf4a64a4e8f52a0f2a914aa9ac2e0b1f99ab1c091d689b79d27505b21f9c3",
+      "width": 216,
+      "height": 282,
+      "rank": "5",
+      "suit": "hearts",
+      "symbol": "♥",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/hearts-6.png",
+      "sha256": "3f6e71b53cd8aaa71216516ec853338ce30b9746a40479b3fe10861fb58b866d",
+      "width": 216,
+      "height": 282,
+      "rank": "6",
+      "suit": "hearts",
+      "symbol": "♥",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/hearts-7.png",
+      "sha256": "a1c7f079b24c62474bb6116ccf7f6e2142092cf2c209e194c75a039eeba8be82",
+      "width": 216,
+      "height": 282,
+      "rank": "7",
+      "suit": "hearts",
+      "symbol": "♥",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/hearts-8.png",
+      "sha256": "070257e2b734ec206b2a91402952abe25e6fd17b8b7d28b904dfe86f3fcf3912",
+      "width": 216,
+      "height": 282,
+      "rank": "8",
+      "suit": "hearts",
+      "symbol": "♥",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/hearts-9.png",
+      "sha256": "7c7d2fa8ab00f54c9cdd4b67fd08b79da14fe17bd512d0aa1da75a279033593f",
+      "width": 216,
+      "height": 282,
+      "rank": "9",
+      "suit": "hearts",
+      "symbol": "♥",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/hearts-10.png",
+      "sha256": "265e637c676d1383ee7ca8880d051dcbe6103002005ccb302527e82c6363d712",
+      "width": 216,
+      "height": 282,
+      "rank": "10",
+      "suit": "hearts",
+      "symbol": "♥",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/hearts-J.png",
+      "sha256": "85725f10216fb547e579fe5fa6de0d0df5eecb68cb7f3778bcbc2a2cc741360d",
+      "width": 216,
+      "height": 282,
+      "rank": "J",
+      "suit": "hearts",
+      "symbol": "♥",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/hearts-Q.png",
+      "sha256": "573c8e85c1175872d7216d11e4da1eae86aae41e630a99289f3231ccfbd6fe7b",
+      "width": 216,
+      "height": 282,
+      "rank": "Q",
+      "suit": "hearts",
+      "symbol": "♥",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/hearts-K.png",
+      "sha256": "2a6cc03073e56fdf610f93f0e9a9d7587a3375d7114a4bd02fdff9a236825ae5",
+      "width": 216,
+      "height": 282,
+      "rank": "K",
+      "suit": "hearts",
+      "symbol": "♥",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/clubs-A.png",
+      "sha256": "253c82202cd37c3c667712fad8309ee4c097634abd0ed945929667ad33950bc7",
+      "width": 216,
+      "height": 282,
+      "rank": "A",
+      "suit": "clubs",
+      "symbol": "♣",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/clubs-2.png",
+      "sha256": "df1d9c37bea4244112943353a4d95d980e059c6159565e98d7c784384c1150b5",
+      "width": 216,
+      "height": 282,
+      "rank": "2",
+      "suit": "clubs",
+      "symbol": "♣",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/clubs-3.png",
+      "sha256": "0e658f4a1c5966e5d1b6578864eecdf2c537f19a813d37d5c46e62ad29ca02eb",
+      "width": 216,
+      "height": 282,
+      "rank": "3",
+      "suit": "clubs",
+      "symbol": "♣",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/clubs-4.png",
+      "sha256": "2b05c2c9da5216a8e55c10b8b3c7c4ef34fd91fecf8ee8b14106e95d099941a5",
+      "width": 216,
+      "height": 282,
+      "rank": "4",
+      "suit": "clubs",
+      "symbol": "♣",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/clubs-5.png",
+      "sha256": "4cdd70a7d75fd87b02c93338946b04497f10b98215d306488446b538120ee8e0",
+      "width": 216,
+      "height": 282,
+      "rank": "5",
+      "suit": "clubs",
+      "symbol": "♣",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/clubs-6.png",
+      "sha256": "3f44df12a4fc174c248d8f9f6333e2a7295be8840a847daa9c4f3530e6c19746",
+      "width": 216,
+      "height": 282,
+      "rank": "6",
+      "suit": "clubs",
+      "symbol": "♣",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/clubs-7.png",
+      "sha256": "b2931fa5a207cdc3fa1f7c9d2c13d36eae024e787c90323ad3a3714780cb61d6",
+      "width": 216,
+      "height": 282,
+      "rank": "7",
+      "suit": "clubs",
+      "symbol": "♣",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/clubs-8.png",
+      "sha256": "a6bcc5121332146f022c6f5b9301f1580860d40fa56f898412ade91abdb26cb4",
+      "width": 216,
+      "height": 282,
+      "rank": "8",
+      "suit": "clubs",
+      "symbol": "♣",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/clubs-9.png",
+      "sha256": "80b9b2b6687990709a6d3797332ef6b4673e44e12483c52f644440db9f3aaff9",
+      "width": 216,
+      "height": 282,
+      "rank": "9",
+      "suit": "clubs",
+      "symbol": "♣",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/clubs-10.png",
+      "sha256": "564dedabee3c00a475fe0a0a4bb53d550f481ff78949d8782a45985cf05fb8df",
+      "width": 216,
+      "height": 282,
+      "rank": "10",
+      "suit": "clubs",
+      "symbol": "♣",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/clubs-J.png",
+      "sha256": "dee018718be32458bbea38a0f990dc71aeb52225f9ab85a9bdc8b61961705786",
+      "width": 216,
+      "height": 282,
+      "rank": "J",
+      "suit": "clubs",
+      "symbol": "♣",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/clubs-Q.png",
+      "sha256": "64d8b9c18d639ce15dc9f47a410fdebd23e14739b2dfd991f751b7c45ba402eb",
+      "width": 216,
+      "height": 282,
+      "rank": "Q",
+      "suit": "clubs",
+      "symbol": "♣",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/clubs-K.png",
+      "sha256": "5bec4838332f10707a11f251ae36b995b3206b73a3125fe51f87fb3f14fd0a53",
+      "width": 216,
+      "height": 282,
+      "rank": "K",
+      "suit": "clubs",
+      "symbol": "♣",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-A.png",
+      "sha256": "897e767ce1463c2f0abf4ccb032bad08e018cfd8e54b0d461c4faf801ea08901",
+      "width": 216,
+      "height": 282,
+      "rank": "A",
+      "suit": "diamonds",
+      "symbol": "♦",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-2.png",
+      "sha256": "7107c9fa42cd08c8342fd5a7ac6d49709f2f64aaed313eabbe4bdd5f10f24cf7",
+      "width": 216,
+      "height": 282,
+      "rank": "2",
+      "suit": "diamonds",
+      "symbol": "♦",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-3.png",
+      "sha256": "8e2baa8cd4bb7e6e891083b0cec61e812d88759f4a34b5146699909da35879a8",
+      "width": 216,
+      "height": 282,
+      "rank": "3",
+      "suit": "diamonds",
+      "symbol": "♦",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-4.png",
+      "sha256": "923e283220bc451f1aaa195b72801de2fc18ea5fe81c3f4efa1adfeb4cc4336e",
+      "width": 216,
+      "height": 282,
+      "rank": "4",
+      "suit": "diamonds",
+      "symbol": "♦",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-5.png",
+      "sha256": "fe4d1214b61ab92beb5214f378efac01bb2576a3655326b1c2b9df46bb7fb2c4",
+      "width": 216,
+      "height": 282,
+      "rank": "5",
+      "suit": "diamonds",
+      "symbol": "♦",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-6.png",
+      "sha256": "9c21d0bd859f11696d616e9e31e0da526074dab62e1e04a2cb51d622928669f4",
+      "width": 216,
+      "height": 282,
+      "rank": "6",
+      "suit": "diamonds",
+      "symbol": "♦",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-7.png",
+      "sha256": "47b6b77801195c5eed1f315d67b40ff5d777e07b613b4fc5ec4a6d14e2d624ab",
+      "width": 216,
+      "height": 282,
+      "rank": "7",
+      "suit": "diamonds",
+      "symbol": "♦",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-8.png",
+      "sha256": "4b63c595e7457f508ee4ec92c78136f3c4d9d7d4b51b7f6689962e703b7947ab",
+      "width": 216,
+      "height": 282,
+      "rank": "8",
+      "suit": "diamonds",
+      "symbol": "♦",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-9.png",
+      "sha256": "2d8af0d754a0c7d7c38748ed87698d67cf32a50c29de250f3d72a9340b1ef614",
+      "width": 216,
+      "height": 282,
+      "rank": "9",
+      "suit": "diamonds",
+      "symbol": "♦",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-10.png",
+      "sha256": "7c03ec5c6a26fc65c363e5f4250eef61313a468e83fb9b816a817d2f529528be",
+      "width": 216,
+      "height": 282,
+      "rank": "10",
+      "suit": "diamonds",
+      "symbol": "♦",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-J.png",
+      "sha256": "565149033407ad88395fa21f858e96e4eca73a0ad2284ef76bab5a9c07d02cda",
+      "width": 216,
+      "height": 282,
+      "rank": "J",
+      "suit": "diamonds",
+      "symbol": "♦",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-Q.png",
+      "sha256": "a5b4aa94c0538adbed3ae69241e1c9f81fd426c058e20219f77be3bf1cd1e72f",
+      "width": 216,
+      "height": 282,
+      "rank": "Q",
+      "suit": "diamonds",
+      "symbol": "♦",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-K.png",
+      "sha256": "f0bca3a5649a8b56ae7ee9b65b7233d743662ede72b37a1c823841a464f01941",
+      "width": 216,
+      "height": 282,
+      "rank": "K",
+      "suit": "diamonds",
+      "symbol": "♦",
+      "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/card-blank.png",
+        "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+        "record": "assets/ui/cards-source/card-blank.derivation.json"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/joker-small.png",
+      "sha256": "e4b34532ab37f0fc92375a5f9b9e3c347010648d633459b1d1a596fc7fba42a2",
+      "width": 231,
+      "height": 286,
+      "rank": "JOKER",
+      "suit": "small",
+      "operation": "copy-of-cropped-generated-joker",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/joker-small.png",
+        "sha256": "e4b34532ab37f0fc92375a5f9b9e3c347010648d633459b1d1a596fc7fba42a2",
+        "record": "assets/ui/cards-source/joker-small.derivation.json"
+      },
+      "status": "derived_asset_ready_user_review"
+    },
+    {
+      "file": "assets/ui/cards/joker-big.png",
+      "sha256": "34c70cd279d33d5bd127a87cf11eee1a7e6c8ead14f39f6add0225b336bce401",
+      "width": 229,
+      "height": 286,
+      "rank": "JOKER",
+      "suit": "big",
+      "operation": "copy-of-cropped-generated-joker",
+      "derivedFrom": {
+        "file": "assets/ui/cards-source/joker-big.png",
+        "sha256": "34c70cd279d33d5bd127a87cf11eee1a7e6c8ead14f39f6add0225b336bce401",
+        "record": "assets/ui/cards-source/joker-big.derivation.json"
+      },
+      "status": "derived_asset_ready_user_review"
+    }
+  ]
+}

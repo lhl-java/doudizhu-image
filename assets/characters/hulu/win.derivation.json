@@ -1,0 +1,45 @@
+{
+  "id": "hulu_win",
+  "file": "assets/characters/hulu/win.png",
+  "record": "assets/characters/hulu/win.derivation.json",
+  "kind": "character_pose",
+  "width": 1024,
+  "height": 1024,
+  "anchor": [
+    512,
+    920
+  ],
+  "sha256": "5217dd726280ea1539fb0daa1f10ca449ad0df68807f8d3ecaef7493a322d059",
+  "operation": "crop-to-significant-alpha-bounds-with6px-padding-and-one-fixed-downscale-per-character-registered-to-foot-anchor",
+  "derivedFrom": {
+    "file": "designs/characters/runtime-20261026/hulu-win-v1.png",
+    "sha256": "2d24967c6bd66bd66d188d53cbc1474789cdffa161e83d51ff60b3a5b7fd7371",
+    "record": "designs/characters/runtime-20261026/hulu-win-v1.generation.json"
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "significantBorderPixels": 0,
+  "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+  "art_source": "existing",
+  "status": "asset_ready_user_review",
+  "sourceRect": [
+    47,
+    30,
+    1207,
+    1229
+  ],
+  "sourceAnchor": [
+    627.0,
+    1223
+  ],
+  "fixedScale": 0.6861063464837049,
+  "offset": [
+    114,
+    101
+  ],
+  "noUpscale": true,
+  "pose": "win",
+  "characterId": "hulu"
+}

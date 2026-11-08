@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-28T08:13:23.176814+00:00",
+  "scenes": 5,
+  "backgrounds": 3,
+  "transparentForegrounds": 2,
+  "fx": 12,
+  "bakedFrames": 192,
+  "fileHashDimensionChecks": "completed",
+  "alphaEdges": "completed",
+  "timelineBoundsAndValues": "completed",
+  "frameChecks": [
+    {
+      "id": "deal-trail",
+      "frames": 16,
+      "distinctFrameHashes": 15,
+      "edgeVisiblePixelsAbove16": 0,
+      "loop": false,
+      "durationMs": 480,
+      "bakedPlaybackDurationMs": 481,
+      "lastFrameAutoHide": true
+    },
+    {
+      "id": "play-glow",
+      "frames": 16,
+      "distinctFrameHashes": 15,
+      "edgeVisiblePixelsAbove16": 0,
+      "loop": false,
+      "durationMs": 650,
+      "bakedPlaybackDurationMs": 651,
+      "lastFrameAutoHide": true
+    },
+    {
+      "id": "bomb-burst",
+      "frames": 16,
+      "distinctFrameHashes": 15,
+      "edgeVisiblePixelsAbove16": 0,
+      "loop": false,
+      "durationMs": 750,
+      "bakedPlaybackDurationMs": 751,
+      "lastFrameAutoHide": true
+    },
+    {
+      "id": "rocket-trail",
+      "frames": 16,
+      "distinctFrameHashes": 15,
+      "edgeVisiblePixelsAbove16": 0,
+      "loop": false,
+      "durationMs": 900,
+      "bakedPlaybackDurationMs": 901,
+      "lastFrameAutoHide": true
+    },
+    {
+      "id": "spring-petals",
+      "frames": 16,
+      "distinctFrameHashes": 15,
+      "edgeVisiblePixelsAbove16": 0,
+      "loop": false,
+      "durationMs": 1500,
+      "bakedPlaybackDurationMs": 1501,
+      "lastFrameAutoHide": true
+    },
+    {
+      "id": "counter-spring-leaves",
+      "frames": 16,
+      "distinctFrameHashes": 15,
+      "edgeVisiblePixelsAbove16": 0,
+      "loop": false,
+      "durationMs": 1400,
+      "bakedPlaybackDurationMs": 1401,
+      "lastFrameAutoHide": true
+    },
+    {
+      "id": "win-gold",
+      "frames": 16,
+      "distinctFrameHashes": 15,
+      "edgeVisiblePixelsAbove16": 0,
+      "loop": false,
+      "durationMs": 1400,
+      "bakedPlaybackDurationMs": 1401,
+      "lastFrameAutoHide": true
+    },
+    {
+      "id": "lose-cloud",
+      "frames": 16,
+      "distinctFrameHashes": 15,
+      "edgeVisiblePixelsAbove16": 0,
+      "loop": false,
+      "durationMs": 1100,
+      "bakedPlaybackDurationMs": 1101,
+      "lastFrameAutoHide": true
+    },
+    {
+      "id": "rank-up",
+      "frames": 16,
+      "distinctFrameHashes": 15,
+      "edgeVisiblePixelsAbove16": 0,
+      "loop": false,
+      "durationMs": 1000,
+      "bakedPlaybackDurationMs": 1001,
+      "lastFrameAutoHide": true
+    },
+    {
+      "id": "reward-sparkle",
+      "frames": 16,
+      "distinctFrameHashes": 15,
+      "edgeVisiblePixelsAbove16": 0,
+      "loop": false,
+      "durationMs": 800,
+      "bakedPlaybackDurationMs": 801,
+      "lastFrameAutoHide": true
+    },
+    {
+      "id": "turn-ring",
+      "frames": 16,
+      "distinctFrameHashes": 9,
+      "edgeVisiblePixelsAbove16": 0,
+      "loop": true,
+      "durationMs": 1200,
+      "bakedPlaybackDurationMs": 1200,
+      "lastFrameAutoHide": false
+    },
+    {
+      "id": "loading-ring",
+      "frames": 16,
+      "distinctFrameHashes": 16,
+      "edgeVisiblePixelsAbove16": 0,
+      "loop": true,
+      "durationMs": 1200,
+      "bakedPlaybackDurationMs": 1200,
+      "lastFrameAutoHide": false
+    }
+  ],
+  "hardFailures": [],
+  "qaNotes": [
+    {
+      "file": "designs/runtime-scenes-20261026/sheet-a-qc/sheet-qc.json",
+      "phase": "raw_source",
+      "id": "safe_frame",
+      "status": "warn",
+      "value": 6,
+      "threshold": 0,
+      "resolution": "raw failures resolved by all-component ownership separation; faint alpha specks retained as intended glow and documented"
+    },
+    {
+      "file": "designs/runtime-scenes-20261026/sheet-a-qc/sheet-qc.json",
+      "phase": "raw_source",
+      "id": "faint_specks",
+      "status": "warn",
+      "value": {
+        "floor_px": 405154,
+        "detached_components": 79
+      },
+      "threshold": 0,
+      "resolution": "raw failures resolved by all-component ownership separation; faint alpha specks retained as intended glow and documented"
+    },
+    {
+      "file": "designs/runtime-scenes-20261026/sheet-b-qc/sheet-qc.json",
+      "phase": "raw_source",
+      "id": "cross_cell_components",
+      "status": "fail",
+      "value": 3,
+      "threshold": 0,
+      "resolution": "raw failures resolved by all-component ownership separation; faint alpha specks retained as intended glow and documented"
+    },
+    {
+      "file": "designs/runtime-scenes-20261026/sheet-b-qc/sheet-qc.json",
+      "phase": "raw_source",
+      "id": "cross_cell_visible",
+      "status": "fail",
+      "value": 4,
+      "threshold": 0,
+      "resolution": "raw failures resolved by all-component ownership separation; faint alpha specks retained as intended glow and documented"
+    },
+    {
+      "file": "designs/runtime-scenes-20261026/sheet-b-qc/sheet-qc.json",
+      "phase": "raw_source",
+      "id": "boundary_band",
+      "status": "warn",
+      "value": 1266,
+      "threshold": 0,
+      "resolution": "raw failures resolved by all-component ownership separation; faint alpha specks retained as intended glow and documented"
+    },
+    {
+      "file": "designs/runtime-scenes-20261026/sheet-b-qc/sheet-qc.json",
+      "phase": "raw_source",
+      "id": "safe_frame",
+      "status": "warn",
+      "value": 6,
+      "threshold": 0,
+      "resolution": "raw failures resolved by all-component ownership separation; faint alpha specks retained as intended glow and documented"
+    },
+    {
+      "file": "designs/runtime-scenes-20261026/sheet-b-qc/sheet-qc.json",
+      "phase": "raw_source",
+      "id": "faint_specks",
+      "status": "warn",
+      "value": {
+        "floor_px": 521495,
+        "detached_components": 119
+      },
+      "threshold": 0,
+      "resolution": "raw failures resolved by all-component ownership separation; faint alpha specks retained as intended glow and documented"
+    },
+    {
+      "file": "designs/runtime-scenes-20261026/sheet-a-runtime-qc/sheet-qc.json",
+      "phase": "runtime_packed",
+      "id": "faint_specks",
+      "status": "warn",
+      "value": {
+        "floor_px": 0,
+        "detached_components": 3
+      },
+      "threshold": 0,
+      "resolution": "faint alpha specks from soft glow retained; no spill/safety failure"
+    },
+    {
+      "file": "designs/runtime-scenes-20261026/sheet-b-runtime-qc/sheet-qc.json",
+      "phase": "runtime_packed",
+      "id": "faint_specks",
+      "status": "warn",
+      "value": {
+        "floor_px": 0,
+        "detached_components": 5
+      },
+      "threshold": 0,
+      "resolution": "faint alpha specks from soft glow retained; no spill/safety failure"
+    }
+  ],
+  "status": "passed_with_documented_warnings",
+  "limits": [
+    "Raw sheet B failed fixed-grid slicing; runtime uses all-component ownership separation.",
+    "Faint alpha specks retained as authored glow, all reported warnings included.",
+    "16frame transforms animate static source; not AI-generated video or drawn phase animation.",
+    "No navigation/collision, game-rule, sound, device performance, engine import or payment integration claim."
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/ui/support/44-sign-in-v1.png",
+  "sha256": "065b49a4bb479030a79254bbaadb9ed0d7e6b1ad064b525b8d4407f5e0641452",
+  "generatedAt": "2026-10-26 08:06:53 UTC",
+  "generatedAtEvidence": "工具返回后记录的UTC完成时间代理；非模型内部时间",
+  "width": 1931,
+  "height": 814,
+  "format": "PNG",
+  "nativeResolution": {
+    "width": 1931,
+    "height": 814
+  },
+  "exportOperation": "byte-identical-copy; no resize or redraw",
+  "requestedResolution": {
+    "width": 2560,
+    "height": 1080,
+    "note": "提示词目标；工具未提供尺寸选择器"
+  },
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "callId": null,
+  "resultId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:/work/doudizhu-image/references/style/01-mail-event.png",
+      "D:/work/doudizhu-image/references/style/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据；无型号与质量选择器，配置不能证明实际锁定Sunburst/max",
+  "prompt": "prompts/support/44-sign-in-v1.txt",
+  "promptSha256": "1dcccb4ec7b6abd85cad0ef27cc6b99f3a0538c7e3ea4245fc94b024d4679291",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "实际附带风格或人物参考"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "实际附带风格或人物参考"
+    }
+  ],
+  "evidence": {
+    "receipt": "designs/ui/support/receipts/44-sign-in.receipt.json",
+    "sourcePath": "C:\\Users\\luyua\\.codex\\generated_images\\01a1772b-71a9-7f61-b67a-7c35bfc09f10\\exec-49126452-9486-427e-9ff4-7802e27f825f.png",
+    "toolReturnKeys": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "inspection": {
+    "status": "design_ready_user_review",
+    "notes": [
+      "已实际查看：七天奖励完整，1至3天已签到、第4天今日可签、5至7天未来态层级清楚，补签说明与今日签到入口均有。"
+    ],
+    "pixelFormat": "Format24bppRgb",
+    "reviewedAt": "2026-10-26T04:07:14.4572061-04:00"
+  }
+}

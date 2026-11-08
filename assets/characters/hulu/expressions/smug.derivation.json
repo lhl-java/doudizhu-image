@@ -1,0 +1,53 @@
+{
+  "id": "hulu_smug",
+  "file": "assets/characters/hulu/expressions/smug.png",
+  "record": "assets/characters/hulu/expressions/smug.derivation.json",
+  "kind": "character_expression",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    244
+  ],
+  "sha256": "d8ef47e59187dc780138f6fc6cd3cd04b66c8ad584f979cb8fe09022aff046bd",
+  "operation": "grid-ownership-crop-with4px-alpha-padding-and-one-fixed-downscale-per-character-portrait",
+  "derivedFrom": {
+    "file": "designs/characters/runtime-20261026/hulu-expressions-v2.png",
+    "sha256": "4187defc09877c1f8a04ccb2f150d8ff9bc1ac828f755b9bcf421a1a6b7f8921",
+    "record": "designs/characters/runtime-20261026/hulu-expressions-v2.generation.json"
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "significantBorderPixels": 0,
+  "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+  "art_source": "existing",
+  "status": "asset_ready_user_review",
+  "expression": "smug",
+  "expressionName": "得意",
+  "grid": {
+    "columns": 4,
+    "rows": 2,
+    "index": 5,
+    "cellRect": [
+      444,
+      444,
+      887,
+      887
+    ]
+  },
+  "sourceRect": [
+    479,
+    482,
+    851,
+    825
+  ],
+  "fixedScale": 0.6103542234332425,
+  "offset": [
+    14,
+    37
+  ],
+  "noUpscale": true,
+  "characterId": "hulu"
+}

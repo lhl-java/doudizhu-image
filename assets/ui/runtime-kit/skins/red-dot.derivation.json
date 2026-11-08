@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "red-dot",
+  "kind": "skin",
+  "file": "assets/ui/runtime-kit/skins/red-dot.png",
+  "sha256": "0d4702e13f0a707f763b072982be0a75b14a65145339751c24a2a3f92a2bea64",
+  "width": 76,
+  "height": 77,
+  "format": "PNG",
+  "mode": "RGBA",
+  "operation": "adaptive transparent-gap crop + documented native-alpha hygiene; no resampling, no redrawing, no upscaling",
+  "derivedFrom": {
+    "file": "designs/ui/runtime-kit/skins-windows-v1.png",
+    "sha256": "bebd2ef3045e9e4aa83b6ffa76c7b46062e7462cf91e0485bcefb812b98768b4",
+    "generationRecord": "designs/ui/runtime-kit/skins-windows-v1.generation.json"
+  },
+  "cellIndex": 7,
+  "row": 3,
+  "column": 1,
+  "sourceRect": [
+    936,
+    1071,
+    1012,
+    1148
+  ],
+  "cellRect": [
+    760,
+    995,
+    1254,
+    1254
+  ],
+  "trimOffset": [
+    176,
+    76
+  ],
+  "alphaHygiene": {
+    "alphaFloor": 4,
+    "floorRemovedPixels": 74252,
+    "faintDetachedRemovedPixels": 1243,
+    "maxFaintRemovedAlpha": 31,
+    "method": "native alpha hygiene only, preserve RGB and all alpha>=32; faint alpha<32 kept within 2px of solid art"
+  },
+  "perimeterHazePixelsCleared": 0,
+  "alpha": {
+    "zeroPixels": 2491,
+    "partialPixels": 3352,
+    "opaquePixels": 9,
+    "extrema": [
+      0,
+      255
+    ]
+  },
+  "visiblePixelsPreserved": 3230,
+  "clipping": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Follow derivedFrom.generationRecord; this crop is not a new model call",
+  "status": "derived_asset_ready_user_review"
+}

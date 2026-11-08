@@ -1,0 +1,29 @@
+{
+  "file": "assets/ui/controls/toggle-off.png",
+  "sha256": "37ab08af24796c0d08ef8dfb889f2baf339264d44cf99bca6b6ead61133b647d",
+  "width": 345,
+  "height": 157,
+  "format": "PNG",
+  "operation": "crop-only-preserve-source-RGBA-no-resize",
+  "cropRect": [
+    1076,
+    500,
+    1448,
+    657
+  ],
+  "trimRect": [
+    1,
+    0,
+    346,
+    157
+  ],
+  "derivedFrom": {
+    "file": "designs/ui/components/51-common-components-v1.png",
+    "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+    "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+  "status": "derived_asset_ready_user_review"
+}

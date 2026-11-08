@@ -1,0 +1,338 @@
+[
+  {
+    "id": "deal-trail",
+    "sheet": "designs/runtime-scenes-20261026/fx-sheet-a.png",
+    "nominalCell": 0,
+    "ownedBBox": [
+      41,
+      51,
+      486,
+      495
+    ],
+    "scale": 0.7640449438202247,
+    "alphaQA": {
+      "mode": "RGBA",
+      "alphaMin": 0,
+      "alphaMax": 253,
+      "transparentPixels": 214727,
+      "softAlphaPixels": 47417,
+      "edgeVisiblePixelsAbove16": 0,
+      "bboxVisibleAbove16": [
+        91,
+        90,
+        422,
+        420
+      ],
+      "status": "passed"
+    },
+    "componentsKept": 1
+  },
+  {
+    "id": "play-glow",
+    "sheet": "designs/runtime-scenes-20261026/fx-sheet-a.png",
+    "nominalCell": 1,
+    "ownedBBox": [
+      522,
+      202,
+      1024,
+      418
+    ],
+    "scale": 0.6772908366533864,
+    "alphaQA": {
+      "mode": "RGBA",
+      "alphaMin": 0,
+      "alphaMax": 253,
+      "transparentPixels": 228233,
+      "softAlphaPixels": 33911,
+      "edgeVisiblePixelsAbove16": 0,
+      "bboxVisibleAbove16": [
+        90,
+        188,
+        421,
+        325
+      ],
+      "status": "passed"
+    },
+    "componentsKept": 1
+  },
+  {
+    "id": "bomb-burst",
+    "sheet": "designs/runtime-scenes-20261026/fx-sheet-a.png",
+    "nominalCell": 2,
+    "ownedBBox": [
+      1050,
+      50,
+      1507,
+      495
+    ],
+    "scale": 0.7439824945295405,
+    "alphaQA": {
+      "mode": "RGBA",
+      "alphaMin": 0,
+      "alphaMax": 253,
+      "transparentPixels": 177083,
+      "softAlphaPixels": 85061,
+      "edgeVisiblePixelsAbove16": 0,
+      "bboxVisibleAbove16": [
+        90,
+        94,
+        422,
+        416
+      ],
+      "status": "passed"
+    },
+    "componentsKept": 2
+  },
+  {
+    "id": "rocket-trail",
+    "sheet": "designs/runtime-scenes-20261026/fx-sheet-a.png",
+    "nominalCell": 3,
+    "ownedBBox": [
+      42,
+      524,
+      459,
+      996
+    ],
+    "scale": 0.7203389830508474,
+    "alphaQA": {
+      "mode": "RGBA",
+      "alphaMin": 0,
+      "alphaMax": 253,
+      "transparentPixels": 210580,
+      "softAlphaPixels": 51564,
+      "edgeVisiblePixelsAbove16": 0,
+      "bboxVisibleAbove16": [
+        110,
+        89,
+        401,
+        423
+      ],
+      "status": "passed"
+    },
+    "componentsKept": 1
+  },
+  {
+    "id": "spring-petals",
+    "sheet": "designs/runtime-scenes-20261026/fx-sheet-a.png",
+    "nominalCell": 4,
+    "ownedBBox": [
+      532,
+      535,
+      1013,
+      983
+    ],
+    "scale": 0.7068607068607069,
+    "alphaQA": {
+      "mode": "RGBA",
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "transparentPixels": 205063,
+      "softAlphaPixels": 57080,
+      "edgeVisiblePixelsAbove16": 0,
+      "bboxVisibleAbove16": [
+        90,
+        101,
+        424,
+        411
+      ],
+      "status": "passed"
+    },
+    "componentsKept": 14
+  },
+  {
+    "id": "counter-spring-leaves",
+    "sheet": "designs/runtime-scenes-20261026/fx-sheet-a.png",
+    "nominalCell": 5,
+    "ownedBBox": [
+      1049,
+      547,
+      1503,
+      979
+    ],
+    "scale": 0.748898678414097,
+    "alphaQA": {
+      "mode": "RGBA",
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "transparentPixels": 201744,
+      "softAlphaPixels": 60391,
+      "edgeVisiblePixelsAbove16": 0,
+      "bboxVisibleAbove16": [
+        90,
+        96,
+        423,
+        416
+      ],
+      "status": "passed"
+    },
+    "componentsKept": 10
+  },
+  {
+    "id": "win-gold",
+    "sheet": "designs/runtime-scenes-20261026/fx-sheet-b.png",
+    "nominalCell": 0,
+    "ownedBBox": [
+      20,
+      76,
+      528,
+      522
+    ],
+    "scale": 0.6692913385826772,
+    "alphaQA": {
+      "mode": "RGBA",
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "transparentPixels": 183004,
+      "softAlphaPixels": 79132,
+      "edgeVisiblePixelsAbove16": 0,
+      "bboxVisibleAbove16": [
+        90,
+        109,
+        425,
+        399
+      ],
+      "status": "passed"
+    },
+    "componentsKept": 10
+  },
+  {
+    "id": "lose-cloud",
+    "sheet": "designs/runtime-scenes-20261026/fx-sheet-b.png",
+    "nominalCell": 1,
+    "ownedBBox": [
+      543,
+      159,
+      1048,
+      487
+    ],
+    "scale": 0.6732673267326733,
+    "alphaQA": {
+      "mode": "RGBA",
+      "alphaMin": 0,
+      "alphaMax": 253,
+      "transparentPixels": 208166,
+      "softAlphaPixels": 53978,
+      "edgeVisiblePixelsAbove16": 0,
+      "bboxVisibleAbove16": [
+        88,
+        147,
+        422,
+        361
+      ],
+      "status": "passed"
+    },
+    "componentsKept": 4
+  },
+  {
+    "id": "rank-up",
+    "sheet": "designs/runtime-scenes-20261026/fx-sheet-b.png",
+    "nominalCell": 2,
+    "ownedBBox": [
+      1065,
+      31,
+      1511,
+      542
+    ],
+    "scale": 0.6653620352250489,
+    "alphaQA": {
+      "mode": "RGBA",
+      "alphaMin": 0,
+      "alphaMax": 254,
+      "transparentPixels": 195099,
+      "softAlphaPixels": 67045,
+      "edgeVisiblePixelsAbove16": 0,
+      "bboxVisibleAbove16": [
+        113,
+        91,
+        400,
+        420
+      ],
+      "status": "passed"
+    },
+    "componentsKept": 4
+  },
+  {
+    "id": "reward-sparkle",
+    "sheet": "designs/runtime-scenes-20261026/fx-sheet-b.png",
+    "nominalCell": 3,
+    "ownedBBox": [
+      40,
+      573,
+      508,
+      944
+    ],
+    "scale": 0.7264957264957265,
+    "alphaQA": {
+      "mode": "RGBA",
+      "alphaMin": 0,
+      "alphaMax": 253,
+      "transparentPixels": 202985,
+      "softAlphaPixels": 59159,
+      "edgeVisiblePixelsAbove16": 0,
+      "bboxVisibleAbove16": [
+        92,
+        124,
+        420,
+        384
+      ],
+      "status": "passed"
+    },
+    "componentsKept": 15
+  },
+  {
+    "id": "turn-ring",
+    "sheet": "designs/runtime-scenes-20261026/fx-sheet-b.png",
+    "nominalCell": 4,
+    "ownedBBox": [
+      553,
+      554,
+      1030,
+      985
+    ],
+    "scale": 0.7127882599580713,
+    "alphaQA": {
+      "mode": "RGBA",
+      "alphaMin": 0,
+      "alphaMax": 253,
+      "transparentPixels": 208830,
+      "softAlphaPixels": 53314,
+      "edgeVisiblePixelsAbove16": 0,
+      "bboxVisibleAbove16": [
+        90,
+        107,
+        423,
+        404
+      ],
+      "status": "passed"
+    },
+    "componentsKept": 1
+  },
+  {
+    "id": "loading-ring",
+    "sheet": "designs/runtime-scenes-20261026/fx-sheet-b.png",
+    "nominalCell": 5,
+    "ownedBBox": [
+      1105,
+      591,
+      1478,
+      955
+    ],
+    "scale": 0.9115281501340483,
+    "alphaQA": {
+      "mode": "RGBA",
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "transparentPixels": 212658,
+      "softAlphaPixels": 49468,
+      "edgeVisiblePixelsAbove16": 0,
+      "bboxVisibleAbove16": [
+        91,
+        90,
+        424,
+        420
+      ],
+      "status": "passed"
+    },
+    "componentsKept": 2
+  }
+]

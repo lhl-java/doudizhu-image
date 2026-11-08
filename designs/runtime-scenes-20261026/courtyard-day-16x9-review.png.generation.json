@@ -1,0 +1,24 @@
+{
+  "file": "designs/runtime-scenes-20261026/courtyard-day-16x9-review.png",
+  "sha256": "b2d752604171f141ff50f937a42682ccb9045c2b6bb1622736f272ce6e9c9cf7",
+  "route": "derived",
+  "operation": "center-crop for16:9 visual QA, no resize",
+  "derivedFrom": [
+    {
+      "file": "assets/scenes/courtyard-day.png",
+      "sha256": "f8203722e5ad59e0bd94661728146576a8d21c81efde2d306a7bd6092e366d5a",
+      "record": "assets/scenes/courtyard-day.png.generation.json"
+    }
+  ],
+  "cropRect": [
+    242,
+    0,
+    1447,
+    814
+  ],
+  "width": 1447,
+  "height": 814,
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "qa_preview_only"
+}

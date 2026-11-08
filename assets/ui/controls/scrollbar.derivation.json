@@ -1,0 +1,29 @@
+{
+  "file": "assets/ui/controls/scrollbar.png",
+  "sha256": "1ad01b2e653c253bfad234ee14919172ef550a7043a7765f6c46e64587af7621",
+  "width": 135,
+  "height": 296,
+  "format": "PNG",
+  "operation": "crop-only-preserve-source-RGBA-no-resize",
+  "cropRect": [
+    890,
+    790,
+    1025,
+    1086
+  ],
+  "trimRect": [
+    0,
+    0,
+    135,
+    296
+  ],
+  "derivedFrom": {
+    "file": "designs/ui/components/51-common-components-v1.png",
+    "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+    "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+  "status": "derived_asset_ready_user_review"
+}

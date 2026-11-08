@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/scenes/peach-table-runtime.png",
+  "sha256": "a6289c2ee501a8bb059a10dcd48cd28cd6a17f9fcdc2b9e80fe8616e54960071",
+  "width": 2059,
+  "height": 942,
+  "format": "PNG",
+  "createdAt": "2026-10-26T20:27:25.566617+00:00",
+  "route": "derived",
+  "art_source": "existing",
+  "tool": "Pillow/NumPy/SciPy deterministic asset processing",
+  "operation": "alpha-floor<=4 to zero; 64px transparent canvas padding on all sides; original artwork pixels kept 1:1, no resize",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Follow derivedFrom source generation record; processing is not new AI generation",
+  "derivedFrom": [
+    {
+      "file": "assets/scenes/peach-table.png",
+      "sha256": "8e335b0e04f8d0f48b32c7edf9d54765385d8cbc37269ce8e58b199ac01f122c",
+      "record": "assets/scenes/peach-table.png.generation.json",
+      "role": "original native RGBA foreground"
+    }
+  ],
+  "alphaQA": {
+    "mode": "RGBA",
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "transparentPixels": 917574,
+    "softAlphaPixels": 1021545,
+    "edgeVisiblePixelsAbove16": 0,
+    "bboxVisibleAbove16": [
+      65,
+      171,
+      1995,
+      843
+    ],
+    "status": "passed"
+  },
+  "visualReview": {
+    "status": "design_ready_user_review",
+    "note": "已实际查看原生场景与透明素材在明/暗底的组合；无字无UI无人，风格匹配；FX按所属组件保全切片，透明留白完整。保持原始QA告警记录；动画为静态源transform派生，不是AI视频。"
+  },
+  "nativeArtworkResolution": {
+    "width": 1931,
+    "height": 814
+  },
+  "canvasPadding": [
+    64,
+    64,
+    64,
+    64
+  ]
+}

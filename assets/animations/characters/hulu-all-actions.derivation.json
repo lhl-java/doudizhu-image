@@ -1,0 +1,159 @@
+{
+  "file": "assets/animations/characters/hulu-all-actions.webp",
+  "sha256": "fc4c51ebee3485e1dca16b8c50431b27aa6235ca68a105a07219240a075ac74e",
+  "format": "animated WebP",
+  "frameSize": [
+    160,
+    200
+  ],
+  "requestedFrameCount": 80,
+  "durationMs": 7840,
+  "requestedDurationsMs": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    120,
+    80,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    120,
+    120,
+    120,
+    120,
+    120,
+    80,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    120,
+    120,
+    120,
+    120
+  ],
+  "segments": [
+    {
+      "action": "idle",
+      "startMs": 0,
+      "durationMs": 1600,
+      "clip": "assets/animations/characters/hulu_idle.json"
+    },
+    {
+      "action": "think",
+      "startMs": 1600,
+      "durationMs": 1920,
+      "clip": "assets/animations/characters/hulu_think.json"
+    },
+    {
+      "action": "play",
+      "startMs": 3520,
+      "durationMs": 960,
+      "clip": "assets/animations/characters/hulu_play.json"
+    },
+    {
+      "action": "win",
+      "startMs": 4480,
+      "durationMs": 1680,
+      "clip": "assets/animations/characters/hulu_win.json"
+    },
+    {
+      "action": "lose",
+      "startMs": 6160,
+      "durationMs": 1680,
+      "clip": "assets/animations/characters/hulu_lose.json"
+    }
+  ],
+  "operation": "Lossy quality65 animated preview of CPU-rendered existing-art frames; alpha retained; PNG sheets are authoritative",
+  "derivedFrom": [
+    {
+      "file": "assets/animations/characters/hulu_idle.png",
+      "sha256": "2ce0a71209a76c370887574f81edb444554b53b8587d1309ec74c09c1a1e5b51"
+    },
+    {
+      "file": "assets/animations/characters/hulu_think.png",
+      "sha256": "c98e7763883632e5b67cd1ef7413c6bb6757c354c99bc65d37559cfe47a0e5b3"
+    },
+    {
+      "file": "assets/animations/characters/hulu_play.png",
+      "sha256": "79e626e4ec04191381dd44464a1d96092b7324f392a9d6cc89dadbfcc132bb76"
+    },
+    {
+      "file": "assets/animations/characters/hulu_win.png",
+      "sha256": "c9b1686604ca47f9f8784f96cb08d4650ddb6742f43942b591934739b3c50eb7"
+    },
+    {
+      "file": "assets/animations/characters/hulu_lose.png",
+      "sha256": "243e390b0e369e670a044932103502dabf5d41ce92643c44e047174cc0d92a03"
+    }
+  ],
+  "createdAt": "2026-10-26T19:14:06.071617+00:00",
+  "reviewStatus": "passed_decode_all_frames_and_exact_duration_check",
+  "decoded": {
+    "actor": "hulu",
+    "file": "assets/animations/characters/hulu-all-actions.webp",
+    "decodedFrames": 68,
+    "durationMs": 7840,
+    "alphaPresent": true,
+    "sha256": "fc4c51ebee3485e1dca16b8c50431b27aa6235ca68a105a07219240a075ac74e",
+    "note": "WebP encoder may merge identical adjacent frames while preserving total time."
+  }
+}

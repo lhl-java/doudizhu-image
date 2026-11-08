@@ -1,0 +1,45 @@
+{
+  "id": "taohua_master",
+  "file": "assets/characters/taohua/master.png",
+  "record": "assets/characters/taohua/master.derivation.json",
+  "kind": "character_pose",
+  "width": 1024,
+  "height": 1024,
+  "anchor": [
+    512,
+    920
+  ],
+  "sha256": "06bec073cdcec9d47c9da586168e229c74f2d3c72deb5ae91e1509db378cace3",
+  "operation": "crop-to-significant-alpha-bounds-with6px-padding-and-one-fixed-downscale-per-character-registered-to-foot-anchor",
+  "derivedFrom": {
+    "file": "designs/characters/runtime-20261026/taohua-master-v1.png",
+    "sha256": "a4c618b581a571b9ee70a791b9879abec4c15b4aa1f003c5b92f9790337f7736",
+    "record": "designs/characters/runtime-20261026/taohua-master-v1.generation.json"
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "significantBorderPixels": 0,
+  "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+  "art_source": "existing",
+  "status": "asset_ready_user_review",
+  "sourceRect": [
+    134,
+    10,
+    1130,
+    1239
+  ],
+  "sourceAnchor": [
+    632.0,
+    1233
+  ],
+  "fixedScale": 0.657354149548069,
+  "offset": [
+    185,
+    116
+  ],
+  "noUpscale": true,
+  "pose": "master",
+  "characterId": "taohua"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "hulu_sad",
+  "file": "assets/characters/hulu/expressions/sad.png",
+  "record": "assets/characters/hulu/expressions/sad.derivation.json",
+  "kind": "character_expression",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    244
+  ],
+  "sha256": "d6af4b7990e8defe4282bc67f4a5d847fc4b8307092fcb260bb8515c6fdff118",
+  "operation": "grid-ownership-crop-with4px-alpha-padding-and-one-fixed-downscale-per-character-portrait",
+  "derivedFrom": {
+    "file": "designs/characters/runtime-20261026/hulu-expressions-v2.png",
+    "sha256": "4187defc09877c1f8a04ccb2f150d8ff9bc1ac828f755b9bcf421a1a6b7f8921",
+    "record": "designs/characters/runtime-20261026/hulu-expressions-v2.generation.json"
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "significantBorderPixels": 0,
+  "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+  "art_source": "existing",
+  "status": "asset_ready_user_review",
+  "expression": "sad",
+  "expressionName": "难过",
+  "grid": {
+    "columns": 4,
+    "rows": 2,
+    "index": 6,
+    "cellRect": [
+      887,
+      444,
+      1330,
+      887
+    ]
+  },
+  "sourceRect": [
+    919,
+    482,
+    1291,
+    825
+  ],
+  "fixedScale": 0.6103542234332425,
+  "offset": [
+    14,
+    37
+  ],
+  "noUpscale": true,
+  "characterId": "hulu"
+}

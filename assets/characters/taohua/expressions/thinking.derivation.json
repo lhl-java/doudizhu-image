@@ -1,0 +1,53 @@
+{
+  "id": "taohua_thinking",
+  "file": "assets/characters/taohua/expressions/thinking.png",
+  "record": "assets/characters/taohua/expressions/thinking.derivation.json",
+  "kind": "character_expression",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    244
+  ],
+  "sha256": "2276475395e7693f8eee3dff882d1984a6a66b0405dcfb6652f5d1e5ae84f009",
+  "operation": "grid-ownership-crop-with4px-alpha-padding-and-one-fixed-downscale-per-character-portrait",
+  "derivedFrom": {
+    "file": "designs/characters/runtime-20261026/taohua-expressions-v2.png",
+    "sha256": "68cf6b0f1851cde8c83287fe1b335691b5bbc8e3668ce991a8ddbee86d583e00",
+    "record": "designs/characters/runtime-20261026/taohua-expressions-v2.generation.json"
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "significantBorderPixels": 0,
+  "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+  "art_source": "existing",
+  "status": "asset_ready_user_review",
+  "expression": "thinking",
+  "expressionName": "思考",
+  "grid": {
+    "columns": 4,
+    "rows": 2,
+    "index": 3,
+    "cellRect": [
+      1330,
+      0,
+      1774,
+      444
+    ]
+  },
+  "sourceRect": [
+    1369,
+    62,
+    1728,
+    428
+  ],
+  "fixedScale": 0.5197215777262181,
+  "offset": [
+    35,
+    56
+  ],
+  "noUpscale": true,
+  "characterId": "taohua"
+}

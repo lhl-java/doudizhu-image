@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "id": "turn-ring",
+  "kind": "derived_spriteframes",
+  "route": "derived",
+  "operation": "translate/rotate/scale/alpha generated static illustration onto fixed384RGBA canvas, no invented paint details",
+  "derivedFrom": [
+    {
+      "file": "assets/fx/turn-ring.png",
+      "sha256": "e5d4ebc500d0f098af027b77538c33d7280b5eba113bd21c339b096bbd63f7a0",
+      "record": "assets/fx/turn-ring.png.generation.json",
+      "role": "runtime FX static sprite"
+    }
+  ],
+  "timeline": "assets/fx/turn-ring.timeline.json",
+  "durationMs": 1200,
+  "loop": true,
+  "blend": "screen",
+  "event": "turn_started",
+  "anchor": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "frames": [
+    {
+      "file": "assets/fx/frames/turn-ring/000.png",
+      "sha256": "54c3ffe24bb03b08caf949ae4535d7776e46ae1b4b06b09ec8666971f4ff53eb",
+      "atMs": 0,
+      "durationMs": 75,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.7,
+        "scale": 1.0,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/turn-ring/001.png",
+      "sha256": "ae8e3d84c88a0fdd6c8e8d64f341acf0cd9706e9d367677c0789e5edca9ada89",
+      "atMs": 75,
+      "durationMs": 75,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.7374999999999999,
+        "scale": 1.00625,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 0.75
+      }
+    },
+    {
+      "file": "assets/fx/frames/turn-ring/002.png",
+      "sha256": "858cb4f268e5c1172de179593dbe5018f3f0d308f2947569be303be4e5a8e91c",
+      "atMs": 150,
+      "durationMs": 75,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.7749999999999999,
+        "scale": 1.0125,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 1.5
+      }
+    },
+    {
+      "file": "assets/fx/frames/turn-ring/003.png",
+      "sha256": "b01874af0c2014deeeaae3f34f72ab65fdd1651479d140bdb7a70e25b70b5da3",
+      "atMs": 225,
+      "durationMs": 75,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.8125,
+        "scale": 1.01875,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 2.25
+      }
+    },
+    {
+      "file": "assets/fx/frames/turn-ring/004.png",
+      "sha256": "9d378b03a7dc521adf88bd14dae12b4fbe026af787b5ece31ef76dce6b717064",
+      "atMs": 300,
+      "durationMs": 75,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.85,
+        "scale": 1.025,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 3.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/turn-ring/005.png",
+      "sha256": "e870d578237c55ed35d4d1e70ec56d469a336bb849298e0908024a657d01f10c",
+      "atMs": 375,
+      "durationMs": 75,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.8875,
+        "scale": 1.03125,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 3.75
+      }
+    },
+    {
+      "file": "assets/fx/frames/turn-ring/006.png",
+      "sha256": "b89240986fcb5b0eb1a8a2334f848df3575614904fccbe65227effde71af795f",
+      "atMs": 450,
+      "durationMs": 75,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.925,
+        "scale": 1.0375,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 4.5
+      }
+    },
+    {
+      "file": "assets/fx/frames/turn-ring/007.png",
+      "sha256": "684e066596ccceb34a61401070e497a6e1e1d5d1e6efa4da57fbc498ef8a27c2",
+      "atMs": 525,
+      "durationMs": 75,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.9625,
+        "scale": 1.04375,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 5.25
+      }
+    },
+    {
+      "file": "assets/fx/frames/turn-ring/008.png",
+      "sha256": "78d531dbc73af78ef875d2ef73d56963091cd8b918dd6cbbfecf999294185102",
+      "atMs": 600,
+      "durationMs": 75,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 1.0,
+        "scale": 1.05,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 6.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/turn-ring/009.png",
+      "sha256": "684e066596ccceb34a61401070e497a6e1e1d5d1e6efa4da57fbc498ef8a27c2",
+      "atMs": 675,
+      "durationMs": 75,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.9625,
+        "scale": 1.04375,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 5.25
+      }
+    },
+    {
+      "file": "assets/fx/frames/turn-ring/010.png",
+      "sha256": "b89240986fcb5b0eb1a8a2334f848df3575614904fccbe65227effde71af795f",
+      "atMs": 750,
+      "durationMs": 75,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.925,
+        "scale": 1.0375,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 4.5
+      }
+    },
+    {
+      "file": "assets/fx/frames/turn-ring/011.png",
+      "sha256": "e870d578237c55ed35d4d1e70ec56d469a336bb849298e0908024a657d01f10c",
+      "atMs": 825,
+      "durationMs": 75,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.8875,
+        "scale": 1.03125,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 3.75
+      }
+    },
+    {
+      "file": "assets/fx/frames/turn-ring/012.png",
+      "sha256": "9d378b03a7dc521adf88bd14dae12b4fbe026af787b5ece31ef76dce6b717064",
+      "atMs": 900,
+      "durationMs": 75,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.85,
+        "scale": 1.025,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 3.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/turn-ring/013.png",
+      "sha256": "b01874af0c2014deeeaae3f34f72ab65fdd1651479d140bdb7a70e25b70b5da3",
+      "atMs": 975,
+      "durationMs": 75,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.8125,
+        "scale": 1.01875,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 2.25
+      }
+    },
+    {
+      "file": "assets/fx/frames/turn-ring/014.png",
+      "sha256": "858cb4f268e5c1172de179593dbe5018f3f0d308f2947569be303be4e5a8e91c",
+      "atMs": 1050,
+      "durationMs": 75,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.7749999999999999,
+        "scale": 1.0125,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 1.5
+      }
+    },
+    {
+      "file": "assets/fx/frames/turn-ring/015.png",
+      "sha256": "ae8e3d84c88a0fdd6c8e8d64f341acf0cd9706e9d367677c0789e5edca9ada89",
+      "atMs": 1125,
+      "durationMs": 75,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.7374999999999999,
+        "scale": 1.00625,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 0.75
+      }
+    }
+  ],
+  "bakedPlaybackDurationMs": 1200,
+  "timelineDurationMs": 1200,
+  "terminalSentinelMs": 0,
+  "onComplete": "repeat",
+  "status": "derived_animation_ready_user_review"
+}

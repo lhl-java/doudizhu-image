@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "name": "道友请出牌",
+  "subtitle": "斗地主",
+  "genre": "斗地主",
+  "displayName": "道友请出牌·斗地主",
+  "slogan": "三位道友，一桌好牌。",
+  "selectedAt": "2026-10-29T03:26:11.565775+00:00",
+  "namingBasis": "User asked the assistant to settle the name and make the logo; selected to match original Daoist chibi characters and Doudizhu play.",
+  "logo": "assets/brand/daoyou-qing-chupai/logo-v1.png",
+  "logoRecord": "assets/brand/daoyou-qing-chupai/logo-v1.derivation.json",
+  "logoNative": "assets/brand/daoyou-qing-chupai/logo-native-v1.png",
+  "logoWeb": "assets/brand/daoyou-qing-chupai/logo-1024.png",
+  "prompt": "prompts/brand/daoyou-logo-v1.txt"
+}

@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/ui/core/05-matchmaking-v1.png",
+  "absolutePath": "D:\\work\\doudizhu-image\\designs\\ui\\core\\05-matchmaking-v1.png",
+  "sha256": "50e241523f4b0bffc69f72e5de08425dec95ab4cfd4c3679bea951cd54477003",
+  "generatedAt": "2026-10-26T04:03:30-04:00",
+  "generatedAtEvidence": {
+    "isProxy": true,
+    "source": "caller-provided-response-received-at",
+    "explanation": "以调用方提供的工具返回接收时间代理生成完成时间；不是模型内部生成时间。"
+  },
+  "recordedAt": "2026-10-26T04:04:03.3349398-04:00",
+  "startedAtUtc": "2026-10-26T04:02:34-04:00",
+  "finishedAtUtc": "2026-10-26T04:03:30-04:00",
+  "width": 1931,
+  "height": 814,
+  "format": "PNG",
+  "nativeResolution": {
+    "width": 1931,
+    "height": 814
+  },
+  "exportResolution": {
+    "width": 1931,
+    "height": 814,
+    "operation": "byte-identical-copy-of-generated-output-no-resize-or-redraw"
+  },
+  "requestedResolution": {
+    "width": 2560,
+    "height": 1080,
+    "note": "提示词中的尺寸目标；内置工具无独立尺寸选择参数，实际尺寸以上方实测值为准。"
+  },
+  "transparency": {
+    "requestedTransparentBackground": false,
+    "sourcePixelFormat": "Format24bppRgb",
+    "hasAlphaChannel": false,
+    "hasNonOpaquePixels": false,
+    "fullyOpaque": true,
+    "inspectionMethod": "source-format-reports-no-alpha"
+  },
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "callId": null,
+  "resultId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\doudizhu-image\\designs\\ui\\lobby-ui-v1.png",
+      "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png"
+    ],
+    "prompt": "Use case: ui-mockup\nAsset type: 道家Q版高清手绘斗地主手游的一张独立完整横屏UI概念设计，2.37:1，目标2560×1080。画面为平直正视的游戏界面，无设备外壳。\nInput images: 图1邮件、图2组队是首要风格参考：深玉绿标题及按钮、暖米白纸绢、暖金细边、圆润如意云纹、精致可读中文。图3是本项目大厅首稿，只承接仙山庭院、道童形象、材质与控件比例，不复用错误的手持牌花色；图4为本项目三人角色首稿，保持人物五官发饰及服装同源。功能布局按以下新页面重做。\nStyle: 与参考一致的细腻二维手绘金玉与纸绢质感，柔和体积、清楚边缘。山水庭院背景低对比，主面板米白，标题与主按钮玉绿金边。金饰点到为止，文字区域留白充分，所有中文清晰对齐，安全边距3%。头像角色差异明确。\nConstraints: 只生成这一页和指定主状态。禁止多屏拼图、缩略页面、分镜、英文设计说明、水印、旧游戏名、腾讯品牌标志或额外品牌、写实人像、塑料玩具效果、噪点、模糊拉伸。所有元素完整在画内，人物不遮按钮和文字。使用原生细节，不要伪装放大效果。背景不透明。状态标记保存在外部文件，不在画面上印“首稿”等审阅文字。\nPage ID: 05-matchmaking\nRendered state: 匹配中可取消\n页面：匹配等待。顶部居中玉绿标题牌“匹配中”，下面小胶囊标签“经典 · 初级场”。主体是一块居中的米白金边大面板，左右宽裕留白，面板上方清晰文字“正在寻找牌友”。中央横向三枚大圆座席：第一枚是道童头像，下面写“道友”“已就位”；后两枚是浅玉绿云纹圆框与中性人形剪影，下面分别写“寻找中”“寻找中”。头像和状态严格对齐，圆框外用柔和小玉珠弧线暗示搜索，不画真实动画帧或多重残影。面板下方大字“已等待 00:08”，再下方一个足够宽的米白金边次按钮“取消匹配”。右下角小提示“请稍候”，背景庭院整体淡化，不放大角色或额外玩法卡。仅这一主状态，不显示成功/超时弹窗，不显示其他页面缩略。"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据。当前内置 image_gen.imagegen 接口没有 model、quality 选择器，配置只表示用户目标；不能据此声称实际锁定 GPT Image 2.5 Sunburst 或 max。未检查或验证 C2PA。",
+  "prompt": "prompts/core/05-matchmaking-v1.txt",
+  "promptSha256": "27666167e650819d2185478f1cf1c301319339f40956a13b53020f999d6ea385",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "邮件界面：面板、按钮、配色、材质、人物完成度",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": "references/style/manifest.json",
+      "manifestSha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "manifestHashMatched": true
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "组队界面：控件层级、留白、列表、头像与按钮状态",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": "references/style/manifest.json",
+      "manifestSha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "manifestHashMatched": true
+    },
+    {
+      "file": "designs/ui/lobby-ui-v1.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\designs\\ui\\lobby-ui-v1.png",
+      "sha256": "6fb7c972b11f32d0454b32e38a85d50cf571205201e257638c29ee9eeedb8e3b",
+      "role": "本项目初版支持参考：人物、材质、布局同源；尚未获用户批准",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": null,
+      "manifestSha256": null,
+      "manifestHashMatched": null
+    },
+    {
+      "file": "designs/characters/characters-trio-v1.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png",
+      "sha256": "0c4dda70d4e16715527ed243a8d3efc2a401be2f06326b49601d1b184e7165ac",
+      "role": "本项目初版支持参考：人物、材质、布局同源；尚未获用户批准",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": null,
+      "manifestSha256": null,
+      "manifestHashMatched": null
+    }
+  ],
+  "evidence": {
+    "receipt": "designs/ui/core/.production/receipts/05-matchmaking-v1.receipt.json",
+    "receiptSha256": "87dbc57bec30d2c2d12d061d12d9c1ea9b7b5b0f86568cb340c2db0d89c568b2",
+    "returnedEvidence": {
+      "tool": "image_gen.imagegen",
+      "route": "builtin",
+      "invocationId": null,
+      "toolReturnKeys": [
+        "image_url",
+        "output_hint"
+      ],
+      "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1771a-2c53-7da1-9217-2d5e42c4d85e as C:\\Users\\luyua\\.codex\\generated_images\\01a1771a-2c53-7da1-9217-2d5e42c4d85e\\exec-9822c588-2f9d-4d2b-b5b2-56add9064dc1.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "hostOutputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a1771a-2c53-7da1-9217-2d5e42c4d85e\\exec-9822c588-2f9d-4d2b-b5b2-56add9064dc1.png",
+      "hostOutputFilenameIdentifier": "exec-9822c588-2f9d-4d2b-b5b2-56add9064dc1",
+      "identifierMeaning": "宿主输出文件名标识，不冒认为模型调用ID",
+      "imagePayload": {
+        "field": "image_url",
+        "omittedFromReceipt": true
+      },
+      "toolReturnedModel": null,
+      "toolReturnedQuality": null,
+      "submittedArguments": {
+        "prompt": "Use case: ui-mockup\nAsset type: 道家Q版高清手绘斗地主手游的一张独立完整横屏UI概念设计，2.37:1，目标2560×1080。画面为平直正视的游戏界面，无设备外壳。\nInput images: 图1邮件、图2组队是首要风格参考：深玉绿标题及按钮、暖米白纸绢、暖金细边、圆润如意云纹、精致可读中文。图3是本项目大厅首稿，只承接仙山庭院、道童形象、材质与控件比例，不复用错误的手持牌花色；图4为本项目三人角色首稿，保持人物五官发饰及服装同源。功能布局按以下新页面重做。\nStyle: 与参考一致的细腻二维手绘金玉与纸绢质感，柔和体积、清楚边缘。山水庭院背景低对比，主面板米白，标题与主按钮玉绿金边。金饰点到为止，文字区域留白充分，所有中文清晰对齐，安全边距3%。头像角色差异明确。\nConstraints: 只生成这一页和指定主状态。禁止多屏拼图、缩略页面、分镜、英文设计说明、水印、旧游戏名、腾讯品牌标志或额外品牌、写实人像、塑料玩具效果、噪点、模糊拉伸。所有元素完整在画内，人物不遮按钮和文字。使用原生细节，不要伪装放大效果。背景不透明。状态标记保存在外部文件，不在画面上印“首稿”等审阅文字。\nPage ID: 05-matchmaking\nRendered state: 匹配中可取消\n页面：匹配等待。顶部居中玉绿标题牌“匹配中”，下面小胶囊标签“经典 · 初级场”。主体是一块居中的米白金边大面板，左右宽裕留白，面板上方清晰文字“正在寻找牌友”。中央横向三枚大圆座席：第一枚是道童头像，下面写“道友”“已就位”；后两枚是浅玉绿云纹圆框与中性人形剪影，下面分别写“寻找中”“寻找中”。头像和状态严格对齐，圆框外用柔和小玉珠弧线暗示搜索，不画真实动画帧或多重残影。面板下方大字“已等待 00:08”，再下方一个足够宽的米白金边次按钮“取消匹配”。右下角小提示“请稍候”，背景庭院整体淡化，不放大角色或额外玩法卡。仅这一主状态，不显示成功/超时弹窗，不显示其他页面缩略。",
+        "referenced_image_paths": [
+          "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+          "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+          "D:\\work\\doudizhu-image\\designs\\ui\\lobby-ui-v1.png",
+          "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png"
+        ],
+        "transparent_background": false
+      },
+      "startedAtUtc": "2026-10-26 08:02:34 UTC",
+      "receivedAtUtc": "2026-10-26 08:03:30 UTC"
+    },
+    "metadataInspection": "System.Drawing 只读检查实际尺寸、格式和透明度；未验证 C2PA，未从配置推断实际模型或质量。",
+    "rawFormatGuid": "b96b3caf-0728-11d3-9d7b-0000f81ef32e"
+  },
+  "status": "design_ready_user_review",
+  "visualQA": {
+    "findings": [
+      {
+        "severity": "pass",
+        "subject": "匹配结构",
+        "detail": "三座席明确：本人道友头像及已就位、两个寻找中占位；正在寻找牌友、经典·初级场摘要和已等待00:08清楚。"
+      },
+      {
+        "severity": "pass",
+        "subject": "操作层级",
+        "detail": "取消匹配为独立米白按钮，未被装饰遮挡；右下请稍候与玉绿加载符号辅助说明等待状态。"
+      },
+      {
+        "severity": "note",
+        "subject": "覆盖边界",
+        "detail": "只绘制匹配中；取消结果与超时反馈不由本图按钮推断，它们另以已验证共享组件覆盖。00:08为静态示意。"
+      },
+      {
+        "severity": "pass",
+        "subject": "本轮逐张复核",
+        "detail": "自己与两待匹配席位、经典初级场、00:08和取消匹配均清楚；按钮不当作取消结果。"
+      },
+      {
+        "severity": "note",
+        "subject": "状态覆盖",
+        "detail": "必需状态3项：主图可见1，共享视觉与原生文案设计2，仅说明0。共享态未另画整页，实际功能尚未接入。"
+      }
+    ],
+    "status": "passed_for_design_review",
+    "image": "designs/ui/core/05-matchmaking-v1.png",
+    "reviewer": "core_qa",
+    "userApproval": false,
+    "imageSha256": "50e241523f4b0bffc69f72e5de08425dec95ab4cfd4c3679bea951cd54477003",
+    "blockingIssues": [],
+    "method": "view_image",
+    "inspectedAt": "2026-10-26T11:24:53.858275+00:00",
+    "previousInspection": {
+      "reviewer": "art_review",
+      "inspectedAt": "2026-10-26T08:08:11.0076392+00:00",
+      "status": "passed_for_design_review"
+    }
+  },
+  "pageId": "05-matchmaking",
+  "userApproval": false
+}

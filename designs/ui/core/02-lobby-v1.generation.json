@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/ui/core/02-lobby-v1.png",
+  "absolutePath": "D:\\work\\doudizhu-image\\designs\\ui\\core\\02-lobby-v1.png",
+  "sha256": "86f5e2879b919fcf8e81b3930ee8b3771a3ebc1bf8d614b687b673ad4c6f5bd6",
+  "generatedAt": "2026-10-26T03:50:56-04:00",
+  "generatedAtEvidence": {
+    "isProxy": true,
+    "source": "caller-provided-response-received-at",
+    "explanation": "以调用方提供的工具返回接收时间代理生成完成时间；不是模型内部生成时间。"
+  },
+  "recordedAt": "2026-10-26T03:52:25.0452076-04:00",
+  "startedAtUtc": "2026-10-26T03:50:01-04:00",
+  "finishedAtUtc": "2026-10-26T03:50:56-04:00",
+  "width": 1931,
+  "height": 814,
+  "format": "PNG",
+  "nativeResolution": {
+    "width": 1931,
+    "height": 814
+  },
+  "exportResolution": {
+    "width": 1931,
+    "height": 814,
+    "operation": "byte-identical-copy-of-generated-output-no-resize-or-redraw"
+  },
+  "requestedResolution": {
+    "width": 2560,
+    "height": 1080,
+    "note": "提示词中的尺寸目标；内置工具无独立尺寸选择参数，实际尺寸以上方实测值为准。"
+  },
+  "transparency": {
+    "requestedTransparentBackground": false,
+    "sourcePixelFormat": "Format24bppRgb",
+    "hasAlphaChannel": false,
+    "hasNonOpaquePixels": false,
+    "fullyOpaque": true,
+    "inspectionMethod": "source-format-reports-no-alpha"
+  },
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "callId": null,
+  "resultId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\doudizhu-image\\designs\\ui\\lobby-ui-v1.png",
+      "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png"
+    ],
+    "prompt": "Use case: ui-mockup\nAsset type: 道家Q版高清手绘斗地主手游的一张独立完整横屏UI概念设计，2.37:1，目标2560×1080。画面为平直正视的游戏界面，无设备外壳。\nInput images: 图1邮件、图2组队是首要风格参考：深玉绿标题及按钮、暖米白纸绢、暖金细边、圆润如意云纹、精致可读中文。图3是本项目大厅首稿，只承接仙山庭院、道童形象、材质与控件比例，不复用错误的手持牌花色；图4为本项目三人角色首稿，保持人物五官发饰及服装同源。功能布局按以下新页面重做。\nStyle: 与参考一致的细腻二维手绘金玉与纸绢质感，柔和体积、清楚边缘。山水庭院背景低对比，主面板米白，标题与主按钮玉绿金边。金饰点到为止，文字区域留白充分，所有中文清晰对齐，安全边距3%。头像角色差异明确。\nConstraints: 只生成这一页和指定主状态。禁止多屏拼图、缩略页面、分镜、英文设计说明、水印、旧游戏名、腾讯品牌标志或额外品牌、写实人像、塑料玩具效果、噪点、模糊拉伸。所有元素完整在画内，人物不遮按钮和文字。使用原生细节，不要伪装放大效果。背景不透明。状态标记保存在外部文件，不在画面上印“首稿”等审阅文字。\nPage ID: 02-lobby\nRendered state: 默认入口总览\n页面：全功能大厅。以图3现大厅为基础完善入口体系，必须是明显新增完整功能的大堂，不重复原来只有两个入口的稿。顶部居中玉绿牌匾“斗地主”；左上圆形道童头像、昵称“道友”、小个人资料箭头；顶栏两条小资源胶囊“金豆 12,800”“点券 680”，右上两个小入口“好友”“设置”。左侧约30%保留完整玉绿道童欢迎形象，手中仅拿无字玉绿牌背防止花色错误，脚不要被底栏裁切。中右主区域有两张较大米白金边玩法卡“经典模式”“好友同玩”，前者用整齐牌背与一张A♠为图标，后者用三座席茶桌。两张主卡旁或下方用六个小卡入口形成有序网格：“残局”“排位赛”“赛事”“活动”“单机练习”“英雄能力”，每个仅一个清晰小图标和标题，避免长副标题。主区域下方独立大玉绿主按钮“快速开始”。底部细米白导航条均匀布置六项“商城”“角色”“背包”“任务”“邮件”“排行榜”，图标风格同源，其中邮件有一个小红点。卡片、角色与底栏均不相叠，主按钮视觉最突出。全部文案只用以上列表，不出现未要求的虚构横幅广告或充值价格。"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据。当前内置 image_gen.imagegen 接口没有 model、quality 选择器，配置只表示用户目标；不能据此声称实际锁定 GPT Image 2.5 Sunburst 或 max。未检查或验证 C2PA。",
+  "prompt": "prompts/core/02-lobby-v1.txt",
+  "promptSha256": "88ede50a8d5782459554cbb51f3003195db17c34a804b067c21b8d38ef83bdb0",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "邮件界面：面板、按钮、配色、材质、人物完成度",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": "references/style/manifest.json",
+      "manifestSha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "manifestHashMatched": true
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "组队界面：控件层级、留白、列表、头像与按钮状态",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": "references/style/manifest.json",
+      "manifestSha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "manifestHashMatched": true
+    },
+    {
+      "file": "designs/ui/lobby-ui-v1.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\designs\\ui\\lobby-ui-v1.png",
+      "sha256": "6fb7c972b11f32d0454b32e38a85d50cf571205201e257638c29ee9eeedb8e3b",
+      "role": "本项目初版支持参考：人物、材质、布局同源；尚未获用户批准",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": null,
+      "manifestSha256": null,
+      "manifestHashMatched": null
+    },
+    {
+      "file": "designs/characters/characters-trio-v1.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png",
+      "sha256": "0c4dda70d4e16715527ed243a8d3efc2a401be2f06326b49601d1b184e7165ac",
+      "role": "本项目初版支持参考：人物、材质、布局同源；尚未获用户批准",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": null,
+      "manifestSha256": null,
+      "manifestHashMatched": null
+    }
+  ],
+  "evidence": {
+    "receipt": "designs/ui/core/.production/receipts/02-lobby-v1.receipt.json",
+    "receiptSha256": "3aa45a872ee7c7ebcade55739b7148b017d544440cd3694de2f82811ba4eec24",
+    "returnedEvidence": {
+      "tool": "image_gen.imagegen",
+      "route": "builtin",
+      "invocationId": null,
+      "toolReturnKeys": [
+        "image_url",
+        "output_hint"
+      ],
+      "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1771a-2c53-7da1-9217-2d5e42c4d85e as C:\\Users\\luyua\\.codex\\generated_images\\01a1771a-2c53-7da1-9217-2d5e42c4d85e\\exec-6572dd3d-626f-4c6d-b8fd-2496ebe0d1b7.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "hostOutputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a1771a-2c53-7da1-9217-2d5e42c4d85e\\exec-6572dd3d-626f-4c6d-b8fd-2496ebe0d1b7.png",
+      "hostOutputFilenameIdentifier": "exec-6572dd3d-626f-4c6d-b8fd-2496ebe0d1b7",
+      "identifierMeaning": "宿主输出文件名标识，不冒认为模型调用ID",
+      "imagePayload": {
+        "field": "image_url",
+        "omittedFromReceipt": true
+      },
+      "toolReturnedModel": null,
+      "toolReturnedQuality": null,
+      "submittedArguments": {
+        "prompt": "Use case: ui-mockup\nAsset type: 道家Q版高清手绘斗地主手游的一张独立完整横屏UI概念设计，2.37:1，目标2560×1080。画面为平直正视的游戏界面，无设备外壳。\nInput images: 图1邮件、图2组队是首要风格参考：深玉绿标题及按钮、暖米白纸绢、暖金细边、圆润如意云纹、精致可读中文。图3是本项目大厅首稿，只承接仙山庭院、道童形象、材质与控件比例，不复用错误的手持牌花色；图4为本项目三人角色首稿，保持人物五官发饰及服装同源。功能布局按以下新页面重做。\nStyle: 与参考一致的细腻二维手绘金玉与纸绢质感，柔和体积、清楚边缘。山水庭院背景低对比，主面板米白，标题与主按钮玉绿金边。金饰点到为止，文字区域留白充分，所有中文清晰对齐，安全边距3%。头像角色差异明确。\nConstraints: 只生成这一页和指定主状态。禁止多屏拼图、缩略页面、分镜、英文设计说明、水印、旧游戏名、腾讯品牌标志或额外品牌、写实人像、塑料玩具效果、噪点、模糊拉伸。所有元素完整在画内，人物不遮按钮和文字。使用原生细节，不要伪装放大效果。背景不透明。状态标记保存在外部文件，不在画面上印“首稿”等审阅文字。\nPage ID: 02-lobby\nRendered state: 默认入口总览\n页面：全功能大厅。以图3现大厅为基础完善入口体系，必须是明显新增完整功能的大堂，不重复原来只有两个入口的稿。顶部居中玉绿牌匾“斗地主”；左上圆形道童头像、昵称“道友”、小个人资料箭头；顶栏两条小资源胶囊“金豆 12,800”“点券 680”，右上两个小入口“好友”“设置”。左侧约30%保留完整玉绿道童欢迎形象，手中仅拿无字玉绿牌背防止花色错误，脚不要被底栏裁切。中右主区域有两张较大米白金边玩法卡“经典模式”“好友同玩”，前者用整齐牌背与一张A♠为图标，后者用三座席茶桌。两张主卡旁或下方用六个小卡入口形成有序网格：“残局”“排位赛”“赛事”“活动”“单机练习”“英雄能力”，每个仅一个清晰小图标和标题，避免长副标题。主区域下方独立大玉绿主按钮“快速开始”。底部细米白导航条均匀布置六项“商城”“角色”“背包”“任务”“邮件”“排行榜”，图标风格同源，其中邮件有一个小红点。卡片、角色与底栏均不相叠，主按钮视觉最突出。全部文案只用以上列表，不出现未要求的虚构横幅广告或充值价格。",
+        "referenced_image_paths": [
+          "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+          "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+          "D:\\work\\doudizhu-image\\designs\\ui\\lobby-ui-v1.png",
+          "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png"
+        ],
+        "transparent_background": false
+      },
+      "startedAtUtc": "2026-10-26 07:50:01 UTC",
+      "receivedAtUtc": "2026-10-26 07:50:56 UTC"
+    },
+    "metadataInspection": "System.Drawing 只读检查实际尺寸、格式和透明度；未验证 C2PA，未从配置推断实际模型或质量。",
+    "rawFormatGuid": "b96b3caf-0728-11d3-9d7b-0000f81ef32e"
+  },
+  "status": "design_ready_user_review",
+  "visualQA": {
+    "blockingIssues": [],
+    "image": "designs/ui/core/02-lobby-v1.png",
+    "method": "view_image",
+    "userApproval": false,
+    "reviewer": "core_qa",
+    "status": "passed_for_design_review",
+    "findings": [
+      {
+        "severity": "pass",
+        "subject": "风格与构图",
+        "detail": "深玉绿、米白纸绢、暖金云纹保持同源。道童发饰及双鞋完整，牌背避免花色矛盾；经典入口仅一张正面A牌，角标与中心黑桃一致。"
+      },
+      {
+        "severity": "pass",
+        "subject": "范围与文字",
+        "detail": "scope要求的头像昵称、货币、经典、好友房、排位、赛事、残局、活动、商城、任务、邮件、设置和快速开始均可见；另含单机练习、英雄能力、好友、角色、背包、排行榜。中文清楚。"
+      },
+      {
+        "severity": "pass",
+        "subject": "红点",
+        "detail": "邮件入口右上方红点清晰，未遮挡图标或文字。"
+      },
+      {
+        "severity": "note",
+        "subject": "布局",
+        "detail": "快速开始跨越底栏作为中心主按钮，但未压住左右导航文字；各入口仍可辨，不构成阻断。"
+      },
+      {
+        "severity": "note",
+        "subject": "数据与覆盖",
+        "detail": "金豆12,800及点券680为设计示意；资源加载状态未绘制。"
+      },
+      {
+        "severity": "pass",
+        "subject": "本轮逐张复核",
+        "detail": "大厅全部范围入口实际可见，邮件红点清楚；角色足部和持牌牌背完整，快速开始未压住导航文字。"
+      },
+      {
+        "severity": "note",
+        "subject": "状态覆盖",
+        "detail": "必需状态3项：主图可见2，共享视觉与原生文案设计1，仅说明0。共享态未另画整页，实际功能尚未接入。"
+      }
+    ],
+    "imageSha256": "86f5e2879b919fcf8e81b3930ee8b3771a3ebc1bf8d614b687b673ad4c6f5bd6",
+    "inspectedAt": "2026-10-26T11:24:53.858275+00:00",
+    "previousInspection": {
+      "reviewer": "art_review",
+      "inspectedAt": "2026-10-26T03:54:04.1849681-04:00",
+      "status": "passed_for_design_review"
+    }
+  },
+  "pageId": "02-lobby",
+  "userApproval": false
+}

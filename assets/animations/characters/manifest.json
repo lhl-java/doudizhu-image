@@ -1,0 +1,630 @@
+{
+  "schema": "doudizhu.ui-actor-animation-manifest.v1",
+  "createdAt": "2026-10-26T19:14:06.071617+00:00",
+  "status": "asset_ready_user_review",
+  "art_source": "existing",
+  "rendering": "CPU rendering of already generated assets, no imagegen, no video generation, no articulated body motion",
+  "clips": [
+    {
+      "id": "daotong_idle",
+      "actor": "daotong",
+      "action": "idle",
+      "file": "assets/animations/characters/daotong_idle.json",
+      "sheet": "assets/animations/characters/daotong_idle.png",
+      "frameSize": [
+        160,
+        200
+      ],
+      "frames": 16,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "durationMs": 1600,
+      "loop": true,
+      "record": "assets/animations/characters/daotong_idle.derivation.json"
+    },
+    {
+      "id": "daotong_think",
+      "actor": "daotong",
+      "action": "think",
+      "file": "assets/animations/characters/daotong_think.json",
+      "sheet": "assets/animations/characters/daotong_think.png",
+      "frameSize": [
+        160,
+        200
+      ],
+      "frames": 16,
+      "durationsMs": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "durationMs": 1920,
+      "loop": true,
+      "record": "assets/animations/characters/daotong_think.derivation.json"
+    },
+    {
+      "id": "daotong_play",
+      "actor": "daotong",
+      "action": "play",
+      "file": "assets/animations/characters/daotong_play.json",
+      "sheet": "assets/animations/characters/daotong_play.png",
+      "frameSize": [
+        160,
+        200
+      ],
+      "frames": 16,
+      "durationsMs": [
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60
+      ],
+      "durationMs": 960,
+      "loop": false,
+      "record": "assets/animations/characters/daotong_play.derivation.json"
+    },
+    {
+      "id": "daotong_win",
+      "actor": "daotong",
+      "action": "win",
+      "file": "assets/animations/characters/daotong_win.json",
+      "sheet": "assets/animations/characters/daotong_win.png",
+      "frameSize": [
+        160,
+        200
+      ],
+      "frames": 16,
+      "durationsMs": [
+        120,
+        80,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        120,
+        120,
+        120,
+        120
+      ],
+      "durationMs": 1680,
+      "loop": false,
+      "record": "assets/animations/characters/daotong_win.derivation.json"
+    },
+    {
+      "id": "daotong_lose",
+      "actor": "daotong",
+      "action": "lose",
+      "file": "assets/animations/characters/daotong_lose.json",
+      "sheet": "assets/animations/characters/daotong_lose.png",
+      "frameSize": [
+        160,
+        200
+      ],
+      "frames": 16,
+      "durationsMs": [
+        120,
+        80,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        120,
+        120,
+        120,
+        120
+      ],
+      "durationMs": 1680,
+      "loop": false,
+      "record": "assets/animations/characters/daotong_lose.derivation.json"
+    },
+    {
+      "id": "taohua_idle",
+      "actor": "taohua",
+      "action": "idle",
+      "file": "assets/animations/characters/taohua_idle.json",
+      "sheet": "assets/animations/characters/taohua_idle.png",
+      "frameSize": [
+        160,
+        200
+      ],
+      "frames": 16,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "durationMs": 1600,
+      "loop": true,
+      "record": "assets/animations/characters/taohua_idle.derivation.json"
+    },
+    {
+      "id": "taohua_think",
+      "actor": "taohua",
+      "action": "think",
+      "file": "assets/animations/characters/taohua_think.json",
+      "sheet": "assets/animations/characters/taohua_think.png",
+      "frameSize": [
+        160,
+        200
+      ],
+      "frames": 16,
+      "durationsMs": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "durationMs": 1920,
+      "loop": true,
+      "record": "assets/animations/characters/taohua_think.derivation.json"
+    },
+    {
+      "id": "taohua_play",
+      "actor": "taohua",
+      "action": "play",
+      "file": "assets/animations/characters/taohua_play.json",
+      "sheet": "assets/animations/characters/taohua_play.png",
+      "frameSize": [
+        160,
+        200
+      ],
+      "frames": 16,
+      "durationsMs": [
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60
+      ],
+      "durationMs": 960,
+      "loop": false,
+      "record": "assets/animations/characters/taohua_play.derivation.json"
+    },
+    {
+      "id": "taohua_win",
+      "actor": "taohua",
+      "action": "win",
+      "file": "assets/animations/characters/taohua_win.json",
+      "sheet": "assets/animations/characters/taohua_win.png",
+      "frameSize": [
+        160,
+        200
+      ],
+      "frames": 16,
+      "durationsMs": [
+        120,
+        80,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        120,
+        120,
+        120,
+        120
+      ],
+      "durationMs": 1680,
+      "loop": false,
+      "record": "assets/animations/characters/taohua_win.derivation.json"
+    },
+    {
+      "id": "taohua_lose",
+      "actor": "taohua",
+      "action": "lose",
+      "file": "assets/animations/characters/taohua_lose.json",
+      "sheet": "assets/animations/characters/taohua_lose.png",
+      "frameSize": [
+        160,
+        200
+      ],
+      "frames": 16,
+      "durationsMs": [
+        120,
+        80,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        120,
+        120,
+        120,
+        120
+      ],
+      "durationMs": 1680,
+      "loop": false,
+      "record": "assets/animations/characters/taohua_lose.derivation.json"
+    },
+    {
+      "id": "hulu_idle",
+      "actor": "hulu",
+      "action": "idle",
+      "file": "assets/animations/characters/hulu_idle.json",
+      "sheet": "assets/animations/characters/hulu_idle.png",
+      "frameSize": [
+        160,
+        200
+      ],
+      "frames": 16,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "durationMs": 1600,
+      "loop": true,
+      "record": "assets/animations/characters/hulu_idle.derivation.json"
+    },
+    {
+      "id": "hulu_think",
+      "actor": "hulu",
+      "action": "think",
+      "file": "assets/animations/characters/hulu_think.json",
+      "sheet": "assets/animations/characters/hulu_think.png",
+      "frameSize": [
+        160,
+        200
+      ],
+      "frames": 16,
+      "durationsMs": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "durationMs": 1920,
+      "loop": true,
+      "record": "assets/animations/characters/hulu_think.derivation.json"
+    },
+    {
+      "id": "hulu_play",
+      "actor": "hulu",
+      "action": "play",
+      "file": "assets/animations/characters/hulu_play.json",
+      "sheet": "assets/animations/characters/hulu_play.png",
+      "frameSize": [
+        160,
+        200
+      ],
+      "frames": 16,
+      "durationsMs": [
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60
+      ],
+      "durationMs": 960,
+      "loop": false,
+      "record": "assets/animations/characters/hulu_play.derivation.json"
+    },
+    {
+      "id": "hulu_win",
+      "actor": "hulu",
+      "action": "win",
+      "file": "assets/animations/characters/hulu_win.json",
+      "sheet": "assets/animations/characters/hulu_win.png",
+      "frameSize": [
+        160,
+        200
+      ],
+      "frames": 16,
+      "durationsMs": [
+        120,
+        80,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        120,
+        120,
+        120,
+        120
+      ],
+      "durationMs": 1680,
+      "loop": false,
+      "record": "assets/animations/characters/hulu_win.derivation.json"
+    },
+    {
+      "id": "hulu_lose",
+      "actor": "hulu",
+      "action": "lose",
+      "file": "assets/animations/characters/hulu_lose.json",
+      "sheet": "assets/animations/characters/hulu_lose.png",
+      "frameSize": [
+        160,
+        200
+      ],
+      "frames": 16,
+      "durationsMs": [
+        120,
+        80,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        120,
+        120,
+        120,
+        120
+      ],
+      "durationMs": 1680,
+      "loop": false,
+      "record": "assets/animations/characters/hulu_lose.derivation.json"
+    }
+  ],
+  "previews": [
+    {
+      "actor": "daotong",
+      "file": "assets/animations/characters/daotong-all-actions.webp",
+      "record": "assets/animations/characters/daotong-all-actions.derivation.json",
+      "segments": [
+        {
+          "action": "idle",
+          "startMs": 0,
+          "durationMs": 1600,
+          "clip": "assets/animations/characters/daotong_idle.json"
+        },
+        {
+          "action": "think",
+          "startMs": 1600,
+          "durationMs": 1920,
+          "clip": "assets/animations/characters/daotong_think.json"
+        },
+        {
+          "action": "play",
+          "startMs": 3520,
+          "durationMs": 960,
+          "clip": "assets/animations/characters/daotong_play.json"
+        },
+        {
+          "action": "win",
+          "startMs": 4480,
+          "durationMs": 1680,
+          "clip": "assets/animations/characters/daotong_win.json"
+        },
+        {
+          "action": "lose",
+          "startMs": 6160,
+          "durationMs": 1680,
+          "clip": "assets/animations/characters/daotong_lose.json"
+        }
+      ]
+    },
+    {
+      "actor": "taohua",
+      "file": "assets/animations/characters/taohua-all-actions.webp",
+      "record": "assets/animations/characters/taohua-all-actions.derivation.json",
+      "segments": [
+        {
+          "action": "idle",
+          "startMs": 0,
+          "durationMs": 1600,
+          "clip": "assets/animations/characters/taohua_idle.json"
+        },
+        {
+          "action": "think",
+          "startMs": 1600,
+          "durationMs": 1920,
+          "clip": "assets/animations/characters/taohua_think.json"
+        },
+        {
+          "action": "play",
+          "startMs": 3520,
+          "durationMs": 960,
+          "clip": "assets/animations/characters/taohua_play.json"
+        },
+        {
+          "action": "win",
+          "startMs": 4480,
+          "durationMs": 1680,
+          "clip": "assets/animations/characters/taohua_win.json"
+        },
+        {
+          "action": "lose",
+          "startMs": 6160,
+          "durationMs": 1680,
+          "clip": "assets/animations/characters/taohua_lose.json"
+        }
+      ]
+    },
+    {
+      "actor": "hulu",
+      "file": "assets/animations/characters/hulu-all-actions.webp",
+      "record": "assets/animations/characters/hulu-all-actions.derivation.json",
+      "segments": [
+        {
+          "action": "idle",
+          "startMs": 0,
+          "durationMs": 1600,
+          "clip": "assets/animations/characters/hulu_idle.json"
+        },
+        {
+          "action": "think",
+          "startMs": 1600,
+          "durationMs": 1920,
+          "clip": "assets/animations/characters/hulu_think.json"
+        },
+        {
+          "action": "play",
+          "startMs": 3520,
+          "durationMs": 960,
+          "clip": "assets/animations/characters/hulu_play.json"
+        },
+        {
+          "action": "win",
+          "startMs": 4480,
+          "durationMs": 1680,
+          "clip": "assets/animations/characters/hulu_win.json"
+        },
+        {
+          "action": "lose",
+          "startMs": 6160,
+          "durationMs": 1680,
+          "clip": "assets/animations/characters/hulu_lose.json"
+        }
+      ]
+    }
+  ],
+  "engine": "assets/animations/characters/engine.json",
+  "sourcesManifest": "assets/characters/manifest.json",
+  "skinPolicy": "Five alternate daotong skins reuse transform keys but always resolve pose to their own skin file; suppress unmatched thought portrait HUD. No duplicate skin sheets are required.",
+  "reviews": [
+    "assets/animations/characters/daotong.review.jpg",
+    "assets/animations/characters/taohua.review.jpg",
+    "assets/animations/characters/hulu.review.jpg"
+  ],
+  "reviewStatus": "passed_for_ui_actor_asset_review",
+  "reviewedAt": "2026-10-26T19:22:39.821234+00:00",
+  "previewResolutionRationale": "160x200 transparent baked preview frames keep this batch under 10 MiB. Full 1024 actor source keyframes and player.mjs remain the high-resolution runtime path.",
+  "playbackPage": "assets/animations/characters/index.html",
+  "player": "assets/animations/characters/player.mjs"
+}

@@ -1,0 +1,24 @@
+{
+  "file": "designs/runtime-scenes-20261026/courtyard-lobby-16x9-review.png",
+  "sha256": "c00d6f1481b8f18ce3ccb69f947acc2d122e1cff5ecbca9538ce0d34c96be832",
+  "route": "derived",
+  "operation": "center-crop for16:9 visual QA, no resize",
+  "derivedFrom": [
+    {
+      "file": "assets/scenes/courtyard-lobby.png",
+      "sha256": "019b75dfa37d04cb457f68e1799ce8e334e1e3ce5642429babb737219b89f875",
+      "record": "assets/scenes/courtyard-lobby.png.generation.json"
+    }
+  ],
+  "cropRect": [
+    242,
+    0,
+    1447,
+    814
+  ],
+  "width": 1447,
+  "height": 814,
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "qa_preview_only"
+}

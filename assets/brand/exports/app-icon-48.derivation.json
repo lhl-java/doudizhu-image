@@ -1,0 +1,15 @@
+{
+  "file": "assets/brand/exports/app-icon-48.png",
+  "width": 48,
+  "height": 48,
+  "sha256": "341d1b4919a519b047bbbd3a4b42e3432da7b141c42275fc6a31a70bb0a63730",
+  "route": "derived",
+  "operation": "Uniform Lanczos downscale of final square icon; no repainting, no AI generation, no upscaling.",
+  "derivedFrom": [
+    {
+      "file": "assets/brand/app-icon.png",
+      "sha256": "b89da0957cfdd0ea50fa8de17e8b3ed195e6ff076b0afd633b2c9dad929a68a2",
+      "record": "assets/brand/app-icon.generation.json"
+    }
+  ]
+}

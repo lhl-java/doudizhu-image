@@ -1,0 +1,91 @@
+{
+  "file": "designs/characters/runtime-20261026/hulu-master-v1.png",
+  "sha256": "052b8a06b868e821c5b5638ccc82bd7de191cc104b80a1f2816b32f578541c02",
+  "generatedAt": "2026-10-26T15:58:27.381278+00:00",
+  "generatedAtEvidence": "timestamp recorded immediately after host output adoption, not internal model clock",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "pixelMode": "RGBA",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据",
+  "prompt": "prompts/characters-runtime/hulu-master-v1.txt",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "primary confirmed style or selected character identity/pose"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "primary confirmed style or selected character identity/pose"
+    },
+    {
+      "file": "designs/characters/characters-trio-v1.png",
+      "sha256": "0c4dda70d4e16715527ed243a8d3efc2a401be2f06326b49601d1b184e7165ac",
+      "role": "primary confirmed style or selected character identity/pose"
+    }
+  ],
+  "evidence": {
+    "hostOutputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a178e0-3945-7ad2-bb27-1219450b45c3\\exec-23d92d10-9347-4ce5-88c2-b40b4f2443e2.png",
+    "receipt": "designs/characters/runtime-20261026/hulu-master-v1.receipt.json"
+  },
+  "transparency": {
+    "hasAlpha": true,
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "nonTransparentBounds": [
+      0,
+      37,
+      1226,
+      1233
+    ],
+    "borderPixelsWithAlpha": 11
+  },
+  "nativeResolution": {
+    "width": 1254,
+    "height": 1254
+  },
+  "exportOperation": "byte-identical-copy-no-resize",
+  "status": "asset_ready_user_review",
+  "visualQA": {
+    "status": "passed_for_runtime_art_review",
+    "method": "actual displayed image_gen output and light/dark runtime contact sheet",
+    "findings": [
+      "Complete distinct identity and requested pose; full hair/shoes/prop readable.",
+      "Native RGBA preserved; low alpha outer dust handled by significant-alpha-bound crop with6px safety margin and fixed downscale, not redraw.",
+      "Independent still pose only, no continuous character animation claim."
+    ]
+  }
+}

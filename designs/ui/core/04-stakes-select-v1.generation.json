@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/ui/core/04-stakes-select-v1.png",
+  "absolutePath": "D:\\work\\doudizhu-image\\designs\\ui\\core\\04-stakes-select-v1.png",
+  "sha256": "7a4b773165ad7973a207477175594d9f5979930a82d8ed0873048cc9b3bb6e6e",
+  "generatedAt": "2026-10-26T04:01:56-04:00",
+  "generatedAtEvidence": {
+    "isProxy": true,
+    "source": "caller-provided-response-received-at",
+    "explanation": "以调用方提供的工具返回接收时间代理生成完成时间；不是模型内部生成时间。"
+  },
+  "recordedAt": "2026-10-26T04:02:33.8446189-04:00",
+  "startedAtUtc": "2026-10-26T03:56:07-04:00",
+  "finishedAtUtc": "2026-10-26T04:01:56-04:00",
+  "width": 1931,
+  "height": 814,
+  "format": "PNG",
+  "nativeResolution": {
+    "width": 1931,
+    "height": 814
+  },
+  "exportResolution": {
+    "width": 1931,
+    "height": 814,
+    "operation": "byte-identical-copy-of-generated-output-no-resize-or-redraw"
+  },
+  "requestedResolution": {
+    "width": 2560,
+    "height": 1080,
+    "note": "提示词中的尺寸目标；内置工具无独立尺寸选择参数，实际尺寸以上方实测值为准。"
+  },
+  "transparency": {
+    "requestedTransparentBackground": false,
+    "sourcePixelFormat": "Format24bppRgb",
+    "hasAlphaChannel": false,
+    "hasNonOpaquePixels": false,
+    "fullyOpaque": true,
+    "inspectionMethod": "source-format-reports-no-alpha"
+  },
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "callId": null,
+  "resultId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\doudizhu-image\\designs\\ui\\lobby-ui-v1.png",
+      "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png"
+    ],
+    "prompt": "Use case: ui-mockup\nAsset type: 道家Q版高清手绘斗地主手游的一张独立完整横屏UI概念设计，2.37:1，目标2560×1080。画面为平直正视的游戏界面，无设备外壳。\nInput images: 图1邮件、图2组队是首要风格参考：深玉绿标题及按钮、暖米白纸绢、暖金细边、圆润如意云纹、精致可读中文。图3是本项目大厅首稿，只承接仙山庭院、道童形象、材质与控件比例，不复用错误的手持牌花色；图4为本项目三人角色首稿，保持人物五官发饰及服装同源。功能布局按以下新页面重做。\nStyle: 与参考一致的细腻二维手绘金玉与纸绢质感，柔和体积、清楚边缘。山水庭院背景低对比，主面板米白，标题与主按钮玉绿金边。金饰点到为止，文字区域留白充分，所有中文清晰对齐，安全边距3%。头像角色差异明确。\nConstraints: 只生成这一页和指定主状态。禁止多屏拼图、缩略页面、分镜、英文设计说明、水印、旧游戏名、腾讯品牌标志或额外品牌、写实人像、塑料玩具效果、噪点、模糊拉伸。所有元素完整在画内，人物不遮按钮和文字。使用原生细节，不要伪装放大效果。背景不透明。状态标记保存在外部文件，不在画面上印“首稿”等审阅文字。\nPage ID: 04-stakes-select\nRendered state: 初级场已选中\n页面：经典模式下的场次选择。顶端玉绿标题“场次选择”，左上“返回”，标题下小标签“经典”，右上资源条“金豆 12,800”。主体横向四张高低一致的米白金边房间卡，从左到右“新手场”“初级场”“中级场”“高级场”。每张有一只由少到多的温润小铜钱袋或小金豆碗，避免奢华写实金币堆。准确显示三行信息：新手场“底分 10”“入场 100”“封顶 100”；初级场“底分 50”“入场 1,000”“封顶 500”；中级场“底分 100”“入场 5,000”“封顶 1,000”；高级场“底分 500”“入场 20,000”“封顶 5,000”。初级场卡右上角有小标签“推荐”，并被选中，有玉绿底亮度适中的选中框和小金勾；高级场稍降饱和度，角上小锁，底部标签“金豆不足”，其他卡不能灰掉。底部居中主按钮“快速开始”，侧边一个米白小按钮“玩法说明”。数字是这一张概念图的界面示意，只画上述数字，不擅增倍率、充值、比赛奖励或说明段落。"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据。当前内置 image_gen.imagegen 接口没有 model、quality 选择器，配置只表示用户目标；不能据此声称实际锁定 GPT Image 2.5 Sunburst 或 max。未检查或验证 C2PA。",
+  "prompt": "prompts/core/04-stakes-select-v1.txt",
+  "promptSha256": "97b103ac8ddaf5c4bf741c3a2cf03903d132b6a9d9aa284c215b41f71fc13cf0",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "邮件界面：面板、按钮、配色、材质、人物完成度",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": "references/style/manifest.json",
+      "manifestSha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "manifestHashMatched": true
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "组队界面：控件层级、留白、列表、头像与按钮状态",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": "references/style/manifest.json",
+      "manifestSha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "manifestHashMatched": true
+    },
+    {
+      "file": "designs/ui/lobby-ui-v1.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\designs\\ui\\lobby-ui-v1.png",
+      "sha256": "6fb7c972b11f32d0454b32e38a85d50cf571205201e257638c29ee9eeedb8e3b",
+      "role": "本项目初版支持参考：人物、材质、布局同源；尚未获用户批准",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": null,
+      "manifestSha256": null,
+      "manifestHashMatched": null
+    },
+    {
+      "file": "designs/characters/characters-trio-v1.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png",
+      "sha256": "0c4dda70d4e16715527ed243a8d3efc2a401be2f06326b49601d1b184e7165ac",
+      "role": "本项目初版支持参考：人物、材质、布局同源；尚未获用户批准",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": null,
+      "manifestSha256": null,
+      "manifestHashMatched": null
+    }
+  ],
+  "evidence": {
+    "receipt": "designs/ui/core/.production/receipts/04-stakes-select-v1.receipt.json",
+    "receiptSha256": "943988ba8557021d4b31640856dc94a1d83df4b9322163a357f4c0372cb01ba5",
+    "returnedEvidence": {
+      "tool": "image_gen.imagegen",
+      "route": "builtin",
+      "invocationId": null,
+      "toolReturnKeys": [
+        "image_url",
+        "output_hint"
+      ],
+      "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1771a-2c53-7da1-9217-2d5e42c4d85e as C:\\Users\\luyua\\.codex\\generated_images\\01a1771a-2c53-7da1-9217-2d5e42c4d85e\\exec-4aa9e1b4-b7f3-48de-b6ec-8560ac695ba4.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "hostOutputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a1771a-2c53-7da1-9217-2d5e42c4d85e\\exec-4aa9e1b4-b7f3-48de-b6ec-8560ac695ba4.png",
+      "hostOutputFilenameIdentifier": "exec-4aa9e1b4-b7f3-48de-b6ec-8560ac695ba4",
+      "identifierMeaning": "宿主输出文件名标识，不冒认为模型调用ID",
+      "imagePayload": {
+        "field": "image_url",
+        "omittedFromReceipt": true
+      },
+      "toolReturnedModel": null,
+      "toolReturnedQuality": null,
+      "submittedArguments": {
+        "prompt": "Use case: ui-mockup\nAsset type: 道家Q版高清手绘斗地主手游的一张独立完整横屏UI概念设计，2.37:1，目标2560×1080。画面为平直正视的游戏界面，无设备外壳。\nInput images: 图1邮件、图2组队是首要风格参考：深玉绿标题及按钮、暖米白纸绢、暖金细边、圆润如意云纹、精致可读中文。图3是本项目大厅首稿，只承接仙山庭院、道童形象、材质与控件比例，不复用错误的手持牌花色；图4为本项目三人角色首稿，保持人物五官发饰及服装同源。功能布局按以下新页面重做。\nStyle: 与参考一致的细腻二维手绘金玉与纸绢质感，柔和体积、清楚边缘。山水庭院背景低对比，主面板米白，标题与主按钮玉绿金边。金饰点到为止，文字区域留白充分，所有中文清晰对齐，安全边距3%。头像角色差异明确。\nConstraints: 只生成这一页和指定主状态。禁止多屏拼图、缩略页面、分镜、英文设计说明、水印、旧游戏名、腾讯品牌标志或额外品牌、写实人像、塑料玩具效果、噪点、模糊拉伸。所有元素完整在画内，人物不遮按钮和文字。使用原生细节，不要伪装放大效果。背景不透明。状态标记保存在外部文件，不在画面上印“首稿”等审阅文字。\nPage ID: 04-stakes-select\nRendered state: 初级场已选中\n页面：经典模式下的场次选择。顶端玉绿标题“场次选择”，左上“返回”，标题下小标签“经典”，右上资源条“金豆 12,800”。主体横向四张高低一致的米白金边房间卡，从左到右“新手场”“初级场”“中级场”“高级场”。每张有一只由少到多的温润小铜钱袋或小金豆碗，避免奢华写实金币堆。准确显示三行信息：新手场“底分 10”“入场 100”“封顶 100”；初级场“底分 50”“入场 1,000”“封顶 500”；中级场“底分 100”“入场 5,000”“封顶 1,000”；高级场“底分 500”“入场 20,000”“封顶 5,000”。初级场卡右上角有小标签“推荐”，并被选中，有玉绿底亮度适中的选中框和小金勾；高级场稍降饱和度，角上小锁，底部标签“金豆不足”，其他卡不能灰掉。底部居中主按钮“快速开始”，侧边一个米白小按钮“玩法说明”。数字是这一张概念图的界面示意，只画上述数字，不擅增倍率、充值、比赛奖励或说明段落。",
+        "referenced_image_paths": [
+          "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+          "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+          "D:\\work\\doudizhu-image\\designs\\ui\\lobby-ui-v1.png",
+          "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png"
+        ],
+        "transparent_background": false
+      },
+      "startedAtUtc": "2026-10-26 07:56:07 UTC",
+      "receivedAtUtc": "2026-10-26 08:01:56 UTC"
+    },
+    "metadataInspection": "System.Drawing 只读检查实际尺寸、格式和透明度；未验证 C2PA，未从配置推断实际模型或质量。",
+    "rawFormatGuid": "b96b3caf-0728-11d3-9d7b-0000f81ef32e"
+  },
+  "status": "design_ready_user_review",
+  "visualQA": {
+    "findings": [
+      {
+        "severity": "pass",
+        "subject": "场次与数据",
+        "detail": "新手、初级、中级、高级四场齐全，每卡均有底分、入场和封顶。金豆12,800足以进入前三档而低于高级20,000准入，卡片状态与示意余额一致。"
+      },
+      {
+        "severity": "pass",
+        "subject": "选中与推荐",
+        "detail": "初级场浅玉绿填色、金边勾选与推荐角标均可见，快速开始主按钮清楚。"
+      },
+      {
+        "severity": "pass",
+        "subject": "资源不足",
+        "detail": "高级场灰化、锁标和灰色金豆不足按钮共同表达资源不足；这是行内禁用卡状态，没有画资源不足弹窗。"
+      },
+      {
+        "severity": "note",
+        "subject": "业务边界",
+        "detail": "所有底分、准入和封顶数值均为本项目设计示意，不代表腾讯当期业务规则。"
+      },
+      {
+        "severity": "pass",
+        "subject": "本轮逐张复核",
+        "detail": "四场底分/入场/封顶清楚；初级推荐可进，高级门槛20000高于余额12800且金豆不足按钮禁用。"
+      },
+      {
+        "severity": "note",
+        "subject": "状态覆盖",
+        "detail": "必需状态3项：主图可见3，共享视觉与原生文案设计0，仅说明0。共享态未另画整页，实际功能尚未接入。"
+      }
+    ],
+    "reviewer": "core_qa",
+    "status": "passed_for_design_review",
+    "image": "designs/ui/core/04-stakes-select-v1.png",
+    "imageSha256": "7a4b773165ad7973a207477175594d9f5979930a82d8ed0873048cc9b3bb6e6e",
+    "userApproval": false,
+    "inspectedAt": "2026-10-26T11:24:53.858275+00:00",
+    "method": "view_image",
+    "blockingIssues": [],
+    "previousInspection": {
+      "reviewer": "art_review",
+      "inspectedAt": "2026-10-26T08:08:10.6423862+00:00",
+      "status": "passed_for_design_review"
+    }
+  },
+  "pageId": "04-stakes-select",
+  "userApproval": false
+}

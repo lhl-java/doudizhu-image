@@ -1,0 +1,4325 @@
+{
+  "schema": "doudizhu.engine-atlas-animations.v1",
+  "frameCoordinates": "top-left integer pixel rectangle [x,y,width,height]",
+  "rendering": "Draw one atlas rectangle at its native preview size or smaller; apply pivot [80,180]. Runtime may instead evaluate source timeline against full-size transparent actor stills for high-resolution presentation.",
+  "timing": "Advance frame only after durationMs; one-shots end on final master frame and next idle; loops wrap modulo duration.",
+  "clips": [
+    {
+      "id": "daotong_idle",
+      "actor": "daotong",
+      "action": "idle",
+      "file": "assets/animations/characters/daotong_idle.json",
+      "sheet": "assets/animations/characters/daotong_idle.png",
+      "frameSize": [
+        160,
+        200
+      ],
+      "frames": 16,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "durationMs": 1600,
+      "loop": true,
+      "record": "assets/animations/characters/daotong_idle.derivation.json",
+      "pivot": [
+        80,
+        180
+      ],
+      "frameIndex": [
+        {
+          "rect": [
+            0,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            320,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            0,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            320,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            0,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            320,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            0,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            320,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        }
+      ],
+      "events": [
+        {
+          "atMs": 0,
+          "type": "ui_idle_begin",
+          "visualOnly": true
+        }
+      ],
+      "keyframes": [
+        {
+          "atMs": 0,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 800,
+          "pose": "master",
+          "x": 0,
+          "y": -5,
+          "scaleX": 1.004,
+          "scaleY": 1.012,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 1500,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 1600,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        }
+      ]
+    },
+    {
+      "id": "daotong_think",
+      "actor": "daotong",
+      "action": "think",
+      "file": "assets/animations/characters/daotong_think.json",
+      "sheet": "assets/animations/characters/daotong_think.png",
+      "frameSize": [
+        160,
+        200
+      ],
+      "frames": 16,
+      "durationsMs": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "durationMs": 1920,
+      "loop": true,
+      "record": "assets/animations/characters/daotong_think.derivation.json",
+      "pivot": [
+        80,
+        180
+      ],
+      "frameIndex": [
+        {
+          "rect": [
+            0,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            320,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            0,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            320,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            0,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            320,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            0,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            320,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        }
+      ],
+      "events": [
+        {
+          "atMs": 0,
+          "type": "thought_hud_fade_in",
+          "durationMs": 240,
+          "visualOnly": true
+        },
+        {
+          "atMs": 240,
+          "type": "thought_hud_show",
+          "visualOnly": true,
+          "role": "thinking portrait HUD badge; separate from actor anatomy"
+        },
+        {
+          "atMs": 1440,
+          "type": "thought_hud_fade_out",
+          "durationMs": 360,
+          "visualOnly": true
+        },
+        {
+          "atMs": 1800,
+          "type": "thought_hud_hidden",
+          "visualOnly": true
+        }
+      ],
+      "keyframes": [
+        {
+          "atMs": 0,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 240,
+          "pose": "master",
+          "x": -3,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": -1.2,
+          "hudOpacity": 1
+        },
+        {
+          "atMs": 840,
+          "pose": "master",
+          "x": -5,
+          "y": -2,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": -2,
+          "hudOpacity": 1
+        },
+        {
+          "atMs": 1440,
+          "pose": "master",
+          "x": -3,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": -1,
+          "hudOpacity": 1
+        },
+        {
+          "atMs": 1800,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 1920,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        }
+      ]
+    },
+    {
+      "id": "daotong_play",
+      "actor": "daotong",
+      "action": "play",
+      "file": "assets/animations/characters/daotong_play.json",
+      "sheet": "assets/animations/characters/daotong_play.png",
+      "frameSize": [
+        160,
+        200
+      ],
+      "frames": 16,
+      "durationsMs": [
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60
+      ],
+      "durationMs": 960,
+      "loop": false,
+      "record": "assets/animations/characters/daotong_play.derivation.json",
+      "pivot": [
+        80,
+        180
+      ],
+      "frameIndex": [
+        {
+          "rect": [
+            0,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            320,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            0,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            320,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            0,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            320,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            0,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            320,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        }
+      ],
+      "events": [
+        {
+          "atMs": 240,
+          "type": "card_flight_visual",
+          "visualOnly": true,
+          "logicalCommitAuthority": "gameplay-controller",
+          "source": "assets/ui/cards-source/back-jade.png",
+          "durationMs": 420,
+          "coordinateSpace": "actor-canvas-1024",
+          "quadraticBezier": [
+            [
+              640,
+              560
+            ],
+            [
+              800,
+              350
+            ],
+            [
+              900,
+              440
+            ]
+          ],
+          "rotationDegrees": [
+            -18,
+            12
+          ],
+          "trail": {
+            "source": "same card image",
+            "samplesBehindMs": [
+              36,
+              72
+            ],
+            "opacity": [
+              0.2,
+              0.08
+            ]
+          },
+          "semantics": "Anonymous card back illustrates play feedback. It does not choose cards, consume a hand, resolve a turn or send a gameplay command."
+        },
+        {
+          "atMs": 720,
+          "type": "ui_play_recovered",
+          "visualOnly": true
+        }
+      ],
+      "keyframes": [
+        {
+          "atMs": 0,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 120,
+          "pose": "master",
+          "x": 7,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 1.5,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 240,
+          "pose": "master",
+          "x": 22,
+          "y": -4,
+          "scaleX": 1.012,
+          "scaleY": 1.006,
+          "rotationDeg": -3,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 480,
+          "pose": "master",
+          "x": 12,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": -1.5,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 720,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 960,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        }
+      ]
+    },
+    {
+      "id": "daotong_win",
+      "actor": "daotong",
+      "action": "win",
+      "file": "assets/animations/characters/daotong_win.json",
+      "sheet": "assets/animations/characters/daotong_win.png",
+      "frameSize": [
+        160,
+        200
+      ],
+      "frames": 16,
+      "durationsMs": [
+        120,
+        80,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        120,
+        120,
+        120,
+        120
+      ],
+      "durationMs": 1680,
+      "loop": false,
+      "record": "assets/animations/characters/daotong_win.derivation.json",
+      "pivot": [
+        80,
+        180
+      ],
+      "frameIndex": [
+        {
+          "rect": [
+            0,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 80,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            320,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            480,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            0,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            160,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            320,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            480,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            0,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            160,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            320,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            480,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            0,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            160,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            320,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        }
+      ],
+      "events": [
+        {
+          "atMs": 120,
+          "type": "pose_switch",
+          "pose": "win",
+          "visualOnly": true,
+          "semantics": "Replace the full still with this actor's real generated outcome pose."
+        },
+        {
+          "atMs": 200,
+          "type": "ui_win_cue",
+          "visualOnly": true,
+          "semantics": "Optional presentation/audio cue; no gameplay result is determined here."
+        },
+        {
+          "atMs": 1440,
+          "type": "pose_switch",
+          "pose": "master",
+          "visualOnly": true,
+          "semantics": "Return to neutral whole-actor still."
+        },
+        {
+          "atMs": 1680,
+          "type": "clip_complete",
+          "next": "idle",
+          "visualOnly": true
+        }
+      ],
+      "keyframes": [
+        {
+          "atMs": 0,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 120,
+          "pose": "win",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 400,
+          "pose": "win",
+          "x": 0,
+          "y": -7,
+          "scaleX": 1.008,
+          "scaleY": 1.015,
+          "rotationDeg": -1,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 1080,
+          "pose": "win",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 1320,
+          "pose": "win",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 1440,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 1680,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        }
+      ]
+    },
+    {
+      "id": "daotong_lose",
+      "actor": "daotong",
+      "action": "lose",
+      "file": "assets/animations/characters/daotong_lose.json",
+      "sheet": "assets/animations/characters/daotong_lose.png",
+      "frameSize": [
+        160,
+        200
+      ],
+      "frames": 16,
+      "durationsMs": [
+        120,
+        80,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        120,
+        120,
+        120,
+        120
+      ],
+      "durationMs": 1680,
+      "loop": false,
+      "record": "assets/animations/characters/daotong_lose.derivation.json",
+      "pivot": [
+        80,
+        180
+      ],
+      "frameIndex": [
+        {
+          "rect": [
+            0,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 80,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            320,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            480,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            0,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            160,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            320,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            480,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            0,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            160,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            320,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            480,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            0,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            160,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            320,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        }
+      ],
+      "events": [
+        {
+          "atMs": 120,
+          "type": "pose_switch",
+          "pose": "lose",
+          "visualOnly": true,
+          "semantics": "Replace the full still with this actor's real generated outcome pose."
+        },
+        {
+          "atMs": 200,
+          "type": "ui_lose_cue",
+          "visualOnly": true,
+          "semantics": "Optional presentation/audio cue; no gameplay result is determined here."
+        },
+        {
+          "atMs": 1440,
+          "type": "pose_switch",
+          "pose": "master",
+          "visualOnly": true,
+          "semantics": "Return to neutral whole-actor still."
+        },
+        {
+          "atMs": 1680,
+          "type": "clip_complete",
+          "next": "idle",
+          "visualOnly": true
+        }
+      ],
+      "keyframes": [
+        {
+          "atMs": 0,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 120,
+          "pose": "lose",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 520,
+          "pose": "lose",
+          "x": 0,
+          "y": 5,
+          "scaleX": 1,
+          "scaleY": 0.99,
+          "rotationDeg": 1.4,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 1140,
+          "pose": "lose",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 1320,
+          "pose": "lose",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 1440,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 1680,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        }
+      ]
+    },
+    {
+      "id": "taohua_idle",
+      "actor": "taohua",
+      "action": "idle",
+      "file": "assets/animations/characters/taohua_idle.json",
+      "sheet": "assets/animations/characters/taohua_idle.png",
+      "frameSize": [
+        160,
+        200
+      ],
+      "frames": 16,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "durationMs": 1600,
+      "loop": true,
+      "record": "assets/animations/characters/taohua_idle.derivation.json",
+      "pivot": [
+        80,
+        180
+      ],
+      "frameIndex": [
+        {
+          "rect": [
+            0,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            320,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            0,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            320,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            0,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            320,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            0,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            320,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        }
+      ],
+      "events": [
+        {
+          "atMs": 0,
+          "type": "ui_idle_begin",
+          "visualOnly": true
+        }
+      ],
+      "keyframes": [
+        {
+          "atMs": 0,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 800,
+          "pose": "master",
+          "x": 0,
+          "y": -5,
+          "scaleX": 1.004,
+          "scaleY": 1.012,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 1500,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 1600,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        }
+      ]
+    },
+    {
+      "id": "taohua_think",
+      "actor": "taohua",
+      "action": "think",
+      "file": "assets/animations/characters/taohua_think.json",
+      "sheet": "assets/animations/characters/taohua_think.png",
+      "frameSize": [
+        160,
+        200
+      ],
+      "frames": 16,
+      "durationsMs": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "durationMs": 1920,
+      "loop": true,
+      "record": "assets/animations/characters/taohua_think.derivation.json",
+      "pivot": [
+        80,
+        180
+      ],
+      "frameIndex": [
+        {
+          "rect": [
+            0,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            320,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            0,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            320,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            0,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            320,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            0,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            320,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        }
+      ],
+      "events": [
+        {
+          "atMs": 0,
+          "type": "thought_hud_fade_in",
+          "durationMs": 240,
+          "visualOnly": true
+        },
+        {
+          "atMs": 240,
+          "type": "thought_hud_show",
+          "visualOnly": true,
+          "role": "thinking portrait HUD badge; separate from actor anatomy"
+        },
+        {
+          "atMs": 1440,
+          "type": "thought_hud_fade_out",
+          "durationMs": 360,
+          "visualOnly": true
+        },
+        {
+          "atMs": 1800,
+          "type": "thought_hud_hidden",
+          "visualOnly": true
+        }
+      ],
+      "keyframes": [
+        {
+          "atMs": 0,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 240,
+          "pose": "master",
+          "x": -3,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": -1.2,
+          "hudOpacity": 1
+        },
+        {
+          "atMs": 840,
+          "pose": "master",
+          "x": -5,
+          "y": -2,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": -2,
+          "hudOpacity": 1
+        },
+        {
+          "atMs": 1440,
+          "pose": "master",
+          "x": -3,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": -1,
+          "hudOpacity": 1
+        },
+        {
+          "atMs": 1800,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 1920,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        }
+      ]
+    },
+    {
+      "id": "taohua_play",
+      "actor": "taohua",
+      "action": "play",
+      "file": "assets/animations/characters/taohua_play.json",
+      "sheet": "assets/animations/characters/taohua_play.png",
+      "frameSize": [
+        160,
+        200
+      ],
+      "frames": 16,
+      "durationsMs": [
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60
+      ],
+      "durationMs": 960,
+      "loop": false,
+      "record": "assets/animations/characters/taohua_play.derivation.json",
+      "pivot": [
+        80,
+        180
+      ],
+      "frameIndex": [
+        {
+          "rect": [
+            0,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            320,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            0,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            320,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            0,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            320,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            0,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            320,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        }
+      ],
+      "events": [
+        {
+          "atMs": 240,
+          "type": "card_flight_visual",
+          "visualOnly": true,
+          "logicalCommitAuthority": "gameplay-controller",
+          "source": "assets/ui/cards-source/back-jade.png",
+          "durationMs": 420,
+          "coordinateSpace": "actor-canvas-1024",
+          "quadraticBezier": [
+            [
+              640,
+              560
+            ],
+            [
+              800,
+              350
+            ],
+            [
+              900,
+              440
+            ]
+          ],
+          "rotationDegrees": [
+            -18,
+            12
+          ],
+          "trail": {
+            "source": "same card image",
+            "samplesBehindMs": [
+              36,
+              72
+            ],
+            "opacity": [
+              0.2,
+              0.08
+            ]
+          },
+          "semantics": "Anonymous card back illustrates play feedback. It does not choose cards, consume a hand, resolve a turn or send a gameplay command."
+        },
+        {
+          "atMs": 720,
+          "type": "ui_play_recovered",
+          "visualOnly": true
+        }
+      ],
+      "keyframes": [
+        {
+          "atMs": 0,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 120,
+          "pose": "master",
+          "x": 7,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 1.5,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 240,
+          "pose": "master",
+          "x": 22,
+          "y": -4,
+          "scaleX": 1.012,
+          "scaleY": 1.006,
+          "rotationDeg": -3,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 480,
+          "pose": "master",
+          "x": 12,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": -1.5,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 720,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 960,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        }
+      ]
+    },
+    {
+      "id": "taohua_win",
+      "actor": "taohua",
+      "action": "win",
+      "file": "assets/animations/characters/taohua_win.json",
+      "sheet": "assets/animations/characters/taohua_win.png",
+      "frameSize": [
+        160,
+        200
+      ],
+      "frames": 16,
+      "durationsMs": [
+        120,
+        80,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        120,
+        120,
+        120,
+        120
+      ],
+      "durationMs": 1680,
+      "loop": false,
+      "record": "assets/animations/characters/taohua_win.derivation.json",
+      "pivot": [
+        80,
+        180
+      ],
+      "frameIndex": [
+        {
+          "rect": [
+            0,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 80,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            320,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            480,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            0,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            160,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            320,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            480,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            0,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            160,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            320,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            480,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            0,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            160,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            320,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        }
+      ],
+      "events": [
+        {
+          "atMs": 120,
+          "type": "pose_switch",
+          "pose": "win",
+          "visualOnly": true,
+          "semantics": "Replace the full still with this actor's real generated outcome pose."
+        },
+        {
+          "atMs": 200,
+          "type": "ui_win_cue",
+          "visualOnly": true,
+          "semantics": "Optional presentation/audio cue; no gameplay result is determined here."
+        },
+        {
+          "atMs": 1440,
+          "type": "pose_switch",
+          "pose": "master",
+          "visualOnly": true,
+          "semantics": "Return to neutral whole-actor still."
+        },
+        {
+          "atMs": 1680,
+          "type": "clip_complete",
+          "next": "idle",
+          "visualOnly": true
+        }
+      ],
+      "keyframes": [
+        {
+          "atMs": 0,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 120,
+          "pose": "win",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 400,
+          "pose": "win",
+          "x": 0,
+          "y": -7,
+          "scaleX": 1.008,
+          "scaleY": 1.015,
+          "rotationDeg": -1,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 1080,
+          "pose": "win",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 1320,
+          "pose": "win",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 1440,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 1680,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        }
+      ]
+    },
+    {
+      "id": "taohua_lose",
+      "actor": "taohua",
+      "action": "lose",
+      "file": "assets/animations/characters/taohua_lose.json",
+      "sheet": "assets/animations/characters/taohua_lose.png",
+      "frameSize": [
+        160,
+        200
+      ],
+      "frames": 16,
+      "durationsMs": [
+        120,
+        80,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        120,
+        120,
+        120,
+        120
+      ],
+      "durationMs": 1680,
+      "loop": false,
+      "record": "assets/animations/characters/taohua_lose.derivation.json",
+      "pivot": [
+        80,
+        180
+      ],
+      "frameIndex": [
+        {
+          "rect": [
+            0,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 80,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            320,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            480,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            0,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            160,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            320,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            480,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            0,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            160,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            320,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            480,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            0,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            160,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            320,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        }
+      ],
+      "events": [
+        {
+          "atMs": 120,
+          "type": "pose_switch",
+          "pose": "lose",
+          "visualOnly": true,
+          "semantics": "Replace the full still with this actor's real generated outcome pose."
+        },
+        {
+          "atMs": 200,
+          "type": "ui_lose_cue",
+          "visualOnly": true,
+          "semantics": "Optional presentation/audio cue; no gameplay result is determined here."
+        },
+        {
+          "atMs": 1440,
+          "type": "pose_switch",
+          "pose": "master",
+          "visualOnly": true,
+          "semantics": "Return to neutral whole-actor still."
+        },
+        {
+          "atMs": 1680,
+          "type": "clip_complete",
+          "next": "idle",
+          "visualOnly": true
+        }
+      ],
+      "keyframes": [
+        {
+          "atMs": 0,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 120,
+          "pose": "lose",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 520,
+          "pose": "lose",
+          "x": 0,
+          "y": 5,
+          "scaleX": 1,
+          "scaleY": 0.99,
+          "rotationDeg": 1.4,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 1140,
+          "pose": "lose",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 1320,
+          "pose": "lose",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 1440,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 1680,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        }
+      ]
+    },
+    {
+      "id": "hulu_idle",
+      "actor": "hulu",
+      "action": "idle",
+      "file": "assets/animations/characters/hulu_idle.json",
+      "sheet": "assets/animations/characters/hulu_idle.png",
+      "frameSize": [
+        160,
+        200
+      ],
+      "frames": 16,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "durationMs": 1600,
+      "loop": true,
+      "record": "assets/animations/characters/hulu_idle.derivation.json",
+      "pivot": [
+        80,
+        180
+      ],
+      "frameIndex": [
+        {
+          "rect": [
+            0,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            320,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            0,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            320,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            0,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            320,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            0,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            320,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "master"
+        }
+      ],
+      "events": [
+        {
+          "atMs": 0,
+          "type": "ui_idle_begin",
+          "visualOnly": true
+        }
+      ],
+      "keyframes": [
+        {
+          "atMs": 0,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 800,
+          "pose": "master",
+          "x": 0,
+          "y": -5,
+          "scaleX": 1.004,
+          "scaleY": 1.012,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 1500,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 1600,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        }
+      ]
+    },
+    {
+      "id": "hulu_think",
+      "actor": "hulu",
+      "action": "think",
+      "file": "assets/animations/characters/hulu_think.json",
+      "sheet": "assets/animations/characters/hulu_think.png",
+      "frameSize": [
+        160,
+        200
+      ],
+      "frames": 16,
+      "durationsMs": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "durationMs": 1920,
+      "loop": true,
+      "record": "assets/animations/characters/hulu_think.derivation.json",
+      "pivot": [
+        80,
+        180
+      ],
+      "frameIndex": [
+        {
+          "rect": [
+            0,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            320,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            0,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            320,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            0,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            320,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            0,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            320,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        }
+      ],
+      "events": [
+        {
+          "atMs": 0,
+          "type": "thought_hud_fade_in",
+          "durationMs": 240,
+          "visualOnly": true
+        },
+        {
+          "atMs": 240,
+          "type": "thought_hud_show",
+          "visualOnly": true,
+          "role": "thinking portrait HUD badge; separate from actor anatomy"
+        },
+        {
+          "atMs": 1440,
+          "type": "thought_hud_fade_out",
+          "durationMs": 360,
+          "visualOnly": true
+        },
+        {
+          "atMs": 1800,
+          "type": "thought_hud_hidden",
+          "visualOnly": true
+        }
+      ],
+      "keyframes": [
+        {
+          "atMs": 0,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 240,
+          "pose": "master",
+          "x": -3,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": -1.2,
+          "hudOpacity": 1
+        },
+        {
+          "atMs": 840,
+          "pose": "master",
+          "x": -5,
+          "y": -2,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": -2,
+          "hudOpacity": 1
+        },
+        {
+          "atMs": 1440,
+          "pose": "master",
+          "x": -3,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": -1,
+          "hudOpacity": 1
+        },
+        {
+          "atMs": 1800,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 1920,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        }
+      ]
+    },
+    {
+      "id": "hulu_play",
+      "actor": "hulu",
+      "action": "play",
+      "file": "assets/animations/characters/hulu_play.json",
+      "sheet": "assets/animations/characters/hulu_play.png",
+      "frameSize": [
+        160,
+        200
+      ],
+      "frames": 16,
+      "durationsMs": [
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60
+      ],
+      "durationMs": 960,
+      "loop": false,
+      "record": "assets/animations/characters/hulu_play.derivation.json",
+      "pivot": [
+        80,
+        180
+      ],
+      "frameIndex": [
+        {
+          "rect": [
+            0,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            320,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            0,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            320,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            0,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            320,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            0,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            320,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 60,
+          "pose": "master"
+        }
+      ],
+      "events": [
+        {
+          "atMs": 240,
+          "type": "card_flight_visual",
+          "visualOnly": true,
+          "logicalCommitAuthority": "gameplay-controller",
+          "source": "assets/ui/cards-source/back-jade.png",
+          "durationMs": 420,
+          "coordinateSpace": "actor-canvas-1024",
+          "quadraticBezier": [
+            [
+              640,
+              560
+            ],
+            [
+              800,
+              350
+            ],
+            [
+              900,
+              440
+            ]
+          ],
+          "rotationDegrees": [
+            -18,
+            12
+          ],
+          "trail": {
+            "source": "same card image",
+            "samplesBehindMs": [
+              36,
+              72
+            ],
+            "opacity": [
+              0.2,
+              0.08
+            ]
+          },
+          "semantics": "Anonymous card back illustrates play feedback. It does not choose cards, consume a hand, resolve a turn or send a gameplay command."
+        },
+        {
+          "atMs": 720,
+          "type": "ui_play_recovered",
+          "visualOnly": true
+        }
+      ],
+      "keyframes": [
+        {
+          "atMs": 0,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 120,
+          "pose": "master",
+          "x": 7,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 1.5,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 240,
+          "pose": "master",
+          "x": 22,
+          "y": -4,
+          "scaleX": 1.012,
+          "scaleY": 1.006,
+          "rotationDeg": -3,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 480,
+          "pose": "master",
+          "x": 12,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": -1.5,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 720,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 960,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        }
+      ]
+    },
+    {
+      "id": "hulu_win",
+      "actor": "hulu",
+      "action": "win",
+      "file": "assets/animations/characters/hulu_win.json",
+      "sheet": "assets/animations/characters/hulu_win.png",
+      "frameSize": [
+        160,
+        200
+      ],
+      "frames": 16,
+      "durationsMs": [
+        120,
+        80,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        120,
+        120,
+        120,
+        120
+      ],
+      "durationMs": 1680,
+      "loop": false,
+      "record": "assets/animations/characters/hulu_win.derivation.json",
+      "pivot": [
+        80,
+        180
+      ],
+      "frameIndex": [
+        {
+          "rect": [
+            0,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 80,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            320,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            480,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            0,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            160,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            320,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            480,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            0,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            160,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            320,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            480,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            0,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            160,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "win"
+        },
+        {
+          "rect": [
+            320,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        }
+      ],
+      "events": [
+        {
+          "atMs": 120,
+          "type": "pose_switch",
+          "pose": "win",
+          "visualOnly": true,
+          "semantics": "Replace the full still with this actor's real generated outcome pose."
+        },
+        {
+          "atMs": 200,
+          "type": "ui_win_cue",
+          "visualOnly": true,
+          "semantics": "Optional presentation/audio cue; no gameplay result is determined here."
+        },
+        {
+          "atMs": 1440,
+          "type": "pose_switch",
+          "pose": "master",
+          "visualOnly": true,
+          "semantics": "Return to neutral whole-actor still."
+        },
+        {
+          "atMs": 1680,
+          "type": "clip_complete",
+          "next": "idle",
+          "visualOnly": true
+        }
+      ],
+      "keyframes": [
+        {
+          "atMs": 0,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 120,
+          "pose": "win",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 400,
+          "pose": "win",
+          "x": 0,
+          "y": -7,
+          "scaleX": 1.008,
+          "scaleY": 1.015,
+          "rotationDeg": -1,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 1080,
+          "pose": "win",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 1320,
+          "pose": "win",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 1440,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 1680,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        }
+      ]
+    },
+    {
+      "id": "hulu_lose",
+      "actor": "hulu",
+      "action": "lose",
+      "file": "assets/animations/characters/hulu_lose.json",
+      "sheet": "assets/animations/characters/hulu_lose.png",
+      "frameSize": [
+        160,
+        200
+      ],
+      "frames": 16,
+      "durationsMs": [
+        120,
+        80,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        120,
+        120,
+        120,
+        120
+      ],
+      "durationMs": 1680,
+      "loop": false,
+      "record": "assets/animations/characters/hulu_lose.derivation.json",
+      "pivot": [
+        80,
+        180
+      ],
+      "frameIndex": [
+        {
+          "rect": [
+            0,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            160,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 80,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            320,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            480,
+            0,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            0,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            160,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            320,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            480,
+            200,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            0,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            160,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            320,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            480,
+            400,
+            160,
+            200
+          ],
+          "durationMs": 100,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            0,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            160,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "lose"
+        },
+        {
+          "rect": [
+            320,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        },
+        {
+          "rect": [
+            480,
+            600,
+            160,
+            200
+          ],
+          "durationMs": 120,
+          "pose": "master"
+        }
+      ],
+      "events": [
+        {
+          "atMs": 120,
+          "type": "pose_switch",
+          "pose": "lose",
+          "visualOnly": true,
+          "semantics": "Replace the full still with this actor's real generated outcome pose."
+        },
+        {
+          "atMs": 200,
+          "type": "ui_lose_cue",
+          "visualOnly": true,
+          "semantics": "Optional presentation/audio cue; no gameplay result is determined here."
+        },
+        {
+          "atMs": 1440,
+          "type": "pose_switch",
+          "pose": "master",
+          "visualOnly": true,
+          "semantics": "Return to neutral whole-actor still."
+        },
+        {
+          "atMs": 1680,
+          "type": "clip_complete",
+          "next": "idle",
+          "visualOnly": true
+        }
+      ],
+      "keyframes": [
+        {
+          "atMs": 0,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 120,
+          "pose": "lose",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 520,
+          "pose": "lose",
+          "x": 0,
+          "y": 5,
+          "scaleX": 1,
+          "scaleY": 0.99,
+          "rotationDeg": 1.4,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 1140,
+          "pose": "lose",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 1320,
+          "pose": "lose",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 1440,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        },
+        {
+          "atMs": 1680,
+          "pose": "master",
+          "x": 0,
+          "y": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotationDeg": 0,
+          "hudOpacity": 0
+        }
+      ]
+    }
+  ]
+}

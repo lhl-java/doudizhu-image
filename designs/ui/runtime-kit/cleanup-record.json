@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-26",
+  "removed": [
+    {
+      "file": "designs/ui/runtime-kit/icons-navigation-v1.png",
+      "sha256": "e48c4df5c45d9d74cb1203e487c91ed02d15b400cb7037eefc5dec2e0c85f293",
+      "reason": "Superseded v2 verified",
+      "textRecord": "designs/ui/runtime-kit/icons-navigation-v1.generation.json"
+    },
+    {
+      "file": "tools/runtime_kit/qa-navigation-v1/spill-overlay.png",
+      "sha256": "565ffbb73972a89be121add354058038f21d8d5720a5dc993b5792158d731b22",
+      "reason": "Rejected mathematical-grid diagnostic image; JSON evidence retained"
+    }
+  ],
+  "retained": "5 active native sheets,64 runtime crops,5 light/dark reviews,all generation and derivation evidence",
+  "toolCache": "Host output cache outside this worker directory not modified"
+}

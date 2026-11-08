@@ -1,0 +1,909 @@
+{
+  "file": "assets/game/atlases/atlas-00.png",
+  "width": 4096,
+  "height": 4096,
+  "sha256": "0455054015b87fd19791a0048c09c2efacdda05960fadc18e1256e8f6bdfb659",
+  "operation": "RGBA sprite packing at source1:1; no resize, no rotation, 4px transparent gutters",
+  "derivedFrom": [
+    {
+      "file": "assets/fx/bomb-burst.png",
+      "sha256": "62487a340e47072ee3ca163f9af2d9570e46ae005502ada5ed7f6f771107ed0a",
+      "record": "assets/fx/bomb-burst.png.generation.json"
+    },
+    {
+      "file": "assets/fx/counter-spring-leaves.png",
+      "sha256": "d3f67342271edc8607b43a687a256813f1847b60ab2e0437ae6dcbebed9f986a",
+      "record": "assets/fx/counter-spring-leaves.png.generation.json"
+    },
+    {
+      "file": "assets/fx/deal-trail.png",
+      "sha256": "697af67ed434a506ec03f2c6a45a2db1f55cd210c1b611ef4fd9ba4a1b5b466a",
+      "record": "assets/fx/deal-trail.png.generation.json"
+    },
+    {
+      "file": "assets/fx/loading-ring.png",
+      "sha256": "111b7d5c9a2c9570b552aa1e8a947f56ab867be743dcf7a144bd3b4c94973cdc",
+      "record": "assets/fx/loading-ring.png.generation.json"
+    },
+    {
+      "file": "assets/fx/lose-cloud.png",
+      "sha256": "7a841d2c8692458805b042ff99ac2650edf33d7df9311f36e075017117f717ff",
+      "record": "assets/fx/lose-cloud.png.generation.json"
+    },
+    {
+      "file": "assets/fx/play-glow.png",
+      "sha256": "3c47be99f1b66cfedbe57522173fb6bf822f5018b8a55df28bfeb4a01bd5f879",
+      "record": "assets/fx/play-glow.png.generation.json"
+    },
+    {
+      "file": "assets/fx/rank-up.png",
+      "sha256": "4296ac4494a9e7f1b9e2063c743610f11796dfd67b68d513d9e43661802752b1",
+      "record": "assets/fx/rank-up.png.generation.json"
+    },
+    {
+      "file": "assets/fx/reward-sparkle.png",
+      "sha256": "2354c13d7174a6499bd2c0f01faebf2a3e3a2d3cc7d5aa65f0ce9889290a35c5",
+      "record": "assets/fx/reward-sparkle.png.generation.json"
+    },
+    {
+      "file": "assets/fx/rocket-trail.png",
+      "sha256": "e3e81846329d8e00df32c3ad20b826e8a2c32135533ac96b1350f0b50f556edb",
+      "record": "assets/fx/rocket-trail.png.generation.json"
+    },
+    {
+      "file": "assets/fx/spring-petals.png",
+      "sha256": "91fe910b44c1ca801dcc5399fd2a77ba8060c24078a138bad475884660a7c1e1",
+      "record": "assets/fx/spring-petals.png.generation.json"
+    },
+    {
+      "file": "assets/fx/turn-ring.png",
+      "sha256": "e5d4ebc500d0f098af027b77538c33d7280b5eba113bd21c339b096bbd63f7a0",
+      "record": "assets/fx/turn-ring.png.generation.json"
+    },
+    {
+      "file": "assets/fx/win-gold.png",
+      "sha256": "afe2805a23380a5a9c62d1e1292f4b656084b92943b5c3bb5353bde599891e5b",
+      "record": "assets/fx/win-gold.png.generation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/skins/portrait-selected.png",
+      "sha256": "97d4eb2b67addd49fc5049063009cbb52158ef5641b689f2d13f536cace96a87",
+      "record": "assets/ui/runtime-kit/skins/portrait-selected.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/skins/rarity-legendary.png",
+      "sha256": "1ef698618c569b200a28cd12e28afc915632e9715e11c00c99e662da9616d97f",
+      "record": "assets/ui/runtime-kit/skins/rarity-legendary.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/skins/portrait-normal.png",
+      "sha256": "f30f4922ba0d5a75981500187429a1fe932f47d94c70bc76714ae3a08332ad47",
+      "record": "assets/ui/runtime-kit/skins/portrait-normal.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/skins/item-normal.png",
+      "sha256": "f84bbdbcb369de5b6e725ad436be2334cc2ee53d17064587c09610d4d8d24094",
+      "record": "assets/ui/runtime-kit/skins/item-normal.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/skins/item-selected.png",
+      "sha256": "c9c5a05961ecead83ff998f429d0c4643bfd1f87a632ccdd7a9c6a4cc90a6870",
+      "record": "assets/ui/runtime-kit/skins/item-selected.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/skins/item-locked.png",
+      "sha256": "1e1061a45bd51ecbd412d8afb1e691b44ec89a221c4ebcca0574da8612036ed9",
+      "record": "assets/ui/runtime-kit/skins/item-locked.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/skins/rarity-rare.png",
+      "sha256": "76849370488fbc0973e0f64bfaaae9ee352084b1c31e7e76a811f42d47ca81a9",
+      "record": "assets/ui/runtime-kit/skins/rarity-rare.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/skins/rarity-common.png",
+      "sha256": "8051bfb333ef4e2c08fe5d893561c38607bcea1e2d8531f73f6d5af3abd5e549",
+      "record": "assets/ui/runtime-kit/skins/rarity-common.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/skins/dialog.png",
+      "sha256": "9c5965190d269164aab08c0a47b71dbf77b50d3941f89fe74fa88140fdbbfe91",
+      "record": "assets/ui/runtime-kit/skins/dialog.derivation.json"
+    },
+    {
+      "file": "assets/ui/controls/panel.png",
+      "sha256": "8cea325f107b9dae1b16addf4d4c5b3987defc6fef98dc89d65b0108c1321d6a",
+      "record": "assets/ui/controls/panel.derivation.json"
+    },
+    {
+      "file": "assets/ui/controls/avatar-frame.png",
+      "sha256": "14dca6eb2f735d820480ffb2c1dc17c6e4b19356a45d0b90940afb452cfdcdb3",
+      "record": "assets/ui/controls/avatar-frame.derivation.json"
+    },
+    {
+      "file": "assets/ui/controls/scrollbar.png",
+      "sha256": "1ad01b2e653c253bfad234ee14919172ef550a7043a7765f6c46e64587af7621",
+      "record": "assets/ui/controls/scrollbar.derivation.json"
+    },
+    {
+      "file": "assets/ui/controls/close.png",
+      "sha256": "27d1ff0f868a0a167bb6a8bb1ee56fdfda0e5af4da37d9e775908860646a5731",
+      "record": "assets/ui/controls/close.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards-source/selection.png",
+      "sha256": "7202172378ca8f1590a18175b68a168829bdb971bf1d5aec0dfb0e19378c8bd3",
+      "record": "assets/ui/cards-source/selection.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards-source/joker-small.png",
+      "sha256": "e4b34532ab37f0fc92375a5f9b9e3c347010648d633459b1d1a596fc7fba42a2",
+      "record": "assets/ui/cards-source/joker-small.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/joker-small.png",
+      "sha256": "e4b34532ab37f0fc92375a5f9b9e3c347010648d633459b1d1a596fc7fba42a2",
+      "record": "assets/ui/cards/joker-small.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards-source/joker-big.png",
+      "sha256": "34c70cd279d33d5bd127a87cf11eee1a7e6c8ead14f39f6add0225b336bce401",
+      "record": "assets/ui/cards-source/joker-big.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/joker-big.png",
+      "sha256": "34c70cd279d33d5bd127a87cf11eee1a7e6c8ead14f39f6add0225b336bce401",
+      "record": "assets/ui/cards/joker-big.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards-source/back-jade.png",
+      "sha256": "74d4830f3777e97394952b2990064ecf71eaa874983ff54a474d6777806dd863",
+      "record": "assets/ui/cards-source/back-jade.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards-source/ace-diamonds.png",
+      "sha256": "3b94e904d28c215910a38893f63866e797cfa1a88365b4070273e064a549461b",
+      "record": "assets/ui/cards-source/ace-diamonds.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards-source/back-ivory.png",
+      "sha256": "1f1dac6b3710dbcc7a61094b8e3737d4e4f7ca15abab10751e5841b52a3b265d",
+      "record": "assets/ui/cards-source/back-ivory.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards-source/ace-hearts.png",
+      "sha256": "0498be74f6019491563d6964dc441146bef2a0901ee2119683b68d82dfb1b0b0",
+      "record": "assets/ui/cards-source/ace-hearts.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards-source/ace-spades.png",
+      "sha256": "035a2de2c45fb5053560ccb55376788753f19a5c7de35aae6974b52a5de67308",
+      "record": "assets/ui/cards-source/ace-spades.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards-source/ace-clubs.png",
+      "sha256": "2c443b89e20358a0ac31c90651c159617e9308d34c7de312a9640089b42206f3",
+      "record": "assets/ui/cards-source/ace-clubs.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards-source/card-blank.png",
+      "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+      "record": "assets/ui/cards-source/card-blank.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/clubs-10.png",
+      "sha256": "564dedabee3c00a475fe0a0a4bb53d550f481ff78949d8782a45985cf05fb8df",
+      "record": "assets/ui/cards/clubs-10.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/clubs-2.png",
+      "sha256": "df1d9c37bea4244112943353a4d95d980e059c6159565e98d7c784384c1150b5",
+      "record": "assets/ui/cards/clubs-2.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/clubs-3.png",
+      "sha256": "0e658f4a1c5966e5d1b6578864eecdf2c537f19a813d37d5c46e62ad29ca02eb",
+      "record": "assets/ui/cards/clubs-3.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/clubs-4.png",
+      "sha256": "2b05c2c9da5216a8e55c10b8b3c7c4ef34fd91fecf8ee8b14106e95d099941a5",
+      "record": "assets/ui/cards/clubs-4.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/clubs-5.png",
+      "sha256": "4cdd70a7d75fd87b02c93338946b04497f10b98215d306488446b538120ee8e0",
+      "record": "assets/ui/cards/clubs-5.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/clubs-6.png",
+      "sha256": "3f44df12a4fc174c248d8f9f6333e2a7295be8840a847daa9c4f3530e6c19746",
+      "record": "assets/ui/cards/clubs-6.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/clubs-7.png",
+      "sha256": "b2931fa5a207cdc3fa1f7c9d2c13d36eae024e787c90323ad3a3714780cb61d6",
+      "record": "assets/ui/cards/clubs-7.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/clubs-8.png",
+      "sha256": "a6bcc5121332146f022c6f5b9301f1580860d40fa56f898412ade91abdb26cb4",
+      "record": "assets/ui/cards/clubs-8.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/clubs-9.png",
+      "sha256": "80b9b2b6687990709a6d3797332ef6b4673e44e12483c52f644440db9f3aaff9",
+      "record": "assets/ui/cards/clubs-9.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/clubs-A.png",
+      "sha256": "253c82202cd37c3c667712fad8309ee4c097634abd0ed945929667ad33950bc7",
+      "record": "assets/ui/cards/clubs-A.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/clubs-J.png",
+      "sha256": "dee018718be32458bbea38a0f990dc71aeb52225f9ab85a9bdc8b61961705786",
+      "record": "assets/ui/cards/clubs-J.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/clubs-K.png",
+      "sha256": "5bec4838332f10707a11f251ae36b995b3206b73a3125fe51f87fb3f14fd0a53",
+      "record": "assets/ui/cards/clubs-K.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/clubs-Q.png",
+      "sha256": "64d8b9c18d639ce15dc9f47a410fdebd23e14739b2dfd991f751b7c45ba402eb",
+      "record": "assets/ui/cards/clubs-Q.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-10.png",
+      "sha256": "7c03ec5c6a26fc65c363e5f4250eef61313a468e83fb9b816a817d2f529528be",
+      "record": "assets/ui/cards/diamonds-10.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-2.png",
+      "sha256": "7107c9fa42cd08c8342fd5a7ac6d49709f2f64aaed313eabbe4bdd5f10f24cf7",
+      "record": "assets/ui/cards/diamonds-2.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-3.png",
+      "sha256": "8e2baa8cd4bb7e6e891083b0cec61e812d88759f4a34b5146699909da35879a8",
+      "record": "assets/ui/cards/diamonds-3.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-4.png",
+      "sha256": "923e283220bc451f1aaa195b72801de2fc18ea5fe81c3f4efa1adfeb4cc4336e",
+      "record": "assets/ui/cards/diamonds-4.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-5.png",
+      "sha256": "fe4d1214b61ab92beb5214f378efac01bb2576a3655326b1c2b9df46bb7fb2c4",
+      "record": "assets/ui/cards/diamonds-5.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-6.png",
+      "sha256": "9c21d0bd859f11696d616e9e31e0da526074dab62e1e04a2cb51d622928669f4",
+      "record": "assets/ui/cards/diamonds-6.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-7.png",
+      "sha256": "47b6b77801195c5eed1f315d67b40ff5d777e07b613b4fc5ec4a6d14e2d624ab",
+      "record": "assets/ui/cards/diamonds-7.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-8.png",
+      "sha256": "4b63c595e7457f508ee4ec92c78136f3c4d9d7d4b51b7f6689962e703b7947ab",
+      "record": "assets/ui/cards/diamonds-8.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-9.png",
+      "sha256": "2d8af0d754a0c7d7c38748ed87698d67cf32a50c29de250f3d72a9340b1ef614",
+      "record": "assets/ui/cards/diamonds-9.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-A.png",
+      "sha256": "897e767ce1463c2f0abf4ccb032bad08e018cfd8e54b0d461c4faf801ea08901",
+      "record": "assets/ui/cards/diamonds-A.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-J.png",
+      "sha256": "565149033407ad88395fa21f858e96e4eca73a0ad2284ef76bab5a9c07d02cda",
+      "record": "assets/ui/cards/diamonds-J.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-K.png",
+      "sha256": "f0bca3a5649a8b56ae7ee9b65b7233d743662ede72b37a1c823841a464f01941",
+      "record": "assets/ui/cards/diamonds-K.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/diamonds-Q.png",
+      "sha256": "a5b4aa94c0538adbed3ae69241e1c9f81fd426c058e20219f77be3bf1cd1e72f",
+      "record": "assets/ui/cards/diamonds-Q.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/hearts-10.png",
+      "sha256": "265e637c676d1383ee7ca8880d051dcbe6103002005ccb302527e82c6363d712",
+      "record": "assets/ui/cards/hearts-10.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/hearts-2.png",
+      "sha256": "12beab955297097a1084eaf45e171a3d663d5fad6dba957a01fc9a155acfb97e",
+      "record": "assets/ui/cards/hearts-2.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/hearts-3.png",
+      "sha256": "857f206ae6ee7c85a16f1b0517036a2ca224b2b15889e318151931b0c589498a",
+      "record": "assets/ui/cards/hearts-3.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/hearts-4.png",
+      "sha256": "55686b0a0348834780919f1d36a3434acdc188bf7e9044e7eb82b0f260a41b8e",
+      "record": "assets/ui/cards/hearts-4.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/hearts-5.png",
+      "sha256": "b9fdf4a64a4e8f52a0f2a914aa9ac2e0b1f99ab1c091d689b79d27505b21f9c3",
+      "record": "assets/ui/cards/hearts-5.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/hearts-6.png",
+      "sha256": "3f6e71b53cd8aaa71216516ec853338ce30b9746a40479b3fe10861fb58b866d",
+      "record": "assets/ui/cards/hearts-6.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/hearts-7.png",
+      "sha256": "a1c7f079b24c62474bb6116ccf7f6e2142092cf2c209e194c75a039eeba8be82",
+      "record": "assets/ui/cards/hearts-7.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/hearts-8.png",
+      "sha256": "070257e2b734ec206b2a91402952abe25e6fd17b8b7d28b904dfe86f3fcf3912",
+      "record": "assets/ui/cards/hearts-8.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/hearts-9.png",
+      "sha256": "7c7d2fa8ab00f54c9cdd4b67fd08b79da14fe17bd512d0aa1da75a279033593f",
+      "record": "assets/ui/cards/hearts-9.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/hearts-A.png",
+      "sha256": "9f2dcce97220cc85661fb6551f777d6289dc088f485a6fe3034c644f1e6a58c4",
+      "record": "assets/ui/cards/hearts-A.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/hearts-J.png",
+      "sha256": "85725f10216fb547e579fe5fa6de0d0df5eecb68cb7f3778bcbc2a2cc741360d",
+      "record": "assets/ui/cards/hearts-J.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/hearts-K.png",
+      "sha256": "2a6cc03073e56fdf610f93f0e9a9d7587a3375d7114a4bd02fdff9a236825ae5",
+      "record": "assets/ui/cards/hearts-K.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/hearts-Q.png",
+      "sha256": "573c8e85c1175872d7216d11e4da1eae86aae41e630a99289f3231ccfbd6fe7b",
+      "record": "assets/ui/cards/hearts-Q.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/spades-10.png",
+      "sha256": "48a01e6644e7f99c44210dd61daddee68bfc20396dcd809343ea08fdfdd715ca",
+      "record": "assets/ui/cards/spades-10.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/spades-2.png",
+      "sha256": "8608887cdfe8180f2c55ecd390861c54f37ecab05d06595246a2ae2dcfbc81b1",
+      "record": "assets/ui/cards/spades-2.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/spades-3.png",
+      "sha256": "c765eebbc9de000a231fd45432356ba3caffd397048f4fd4d3bf0b3561cfe6d3",
+      "record": "assets/ui/cards/spades-3.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/spades-4.png",
+      "sha256": "0d10930522f6c82d54d45bb6324de1d4aa53e5bb101cd402143c3db719f53ec7",
+      "record": "assets/ui/cards/spades-4.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/spades-5.png",
+      "sha256": "e890b180516ec511ea4ef971ec44e21839baed1d3c310477759f2434b9f3ddcf",
+      "record": "assets/ui/cards/spades-5.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/spades-6.png",
+      "sha256": "d482d85f2175507391cc5105faae6c12147df72b3a1fb918ce1e30274815633f",
+      "record": "assets/ui/cards/spades-6.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/spades-7.png",
+      "sha256": "e9725f7ba1597cf7b31d3c43d4543d16c61505e25b2f1ad1cf0e7c5b6f912cc2",
+      "record": "assets/ui/cards/spades-7.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/spades-8.png",
+      "sha256": "7ea38709d02afb8b75a1d395dd3e6862793f6506f848cfb2d46f7f491b53305b",
+      "record": "assets/ui/cards/spades-8.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/spades-9.png",
+      "sha256": "f972070bc30e3ce972a0f29d5aac3a71d9120e0d2ab5e5f355b137147d5b3901",
+      "record": "assets/ui/cards/spades-9.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/spades-A.png",
+      "sha256": "981605aeb34fe49a9e9bb552f2aee61609f317cbfa1d986203c9350155a444ce",
+      "record": "assets/ui/cards/spades-A.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/spades-J.png",
+      "sha256": "e73206bf5db17fb77d55645e16520fd4f5da313179e3e05f623e3df1cc20c5f7",
+      "record": "assets/ui/cards/spades-J.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/spades-K.png",
+      "sha256": "8819cddcd6e1cec6bf483cfa1fae20332b4b30b9ba93d444276971643f16b4dc",
+      "record": "assets/ui/cards/spades-K.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards/spades-Q.png",
+      "sha256": "142512c74b67b44f59fc3be51b1ee0c9e95f9f4359948a35f72640b4326cc8ab",
+      "record": "assets/ui/cards/spades-Q.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/events.png",
+      "sha256": "700008e3cc21c760cee48080dac1abcae9a5da823aa3ab5c24be1d80fe84b78d",
+      "record": "assets/ui/runtime-kit/icons/events.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/trophy.png",
+      "sha256": "6dcd9eb8af7ede490fc0e9494dfc95dbafac4dde5c5ba994b40682f97b5a9054",
+      "record": "assets/ui/runtime-kit/icons/trophy.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/shop.png",
+      "sha256": "e8bc6d8445daebdf62956bbad11060f924e2781f45c276373bbaf89c99a6bc52",
+      "record": "assets/ui/runtime-kit/icons/shop.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/home.png",
+      "sha256": "934502fa338c31d588fe1c6d76043ca71c166f3d26beb934d84f5e4fe829eeb7",
+      "record": "assets/ui/runtime-kit/icons/home.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/character.png",
+      "sha256": "8c0af45ec83033b046b304daf87c8bb137358cd9c4b4e32d56636a91afecb2a6",
+      "record": "assets/ui/runtime-kit/icons/character.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/bomb.png",
+      "sha256": "ca865e72c498e493ef4a6ae5bca028bdc64377ea0a47175f1a4cd51d03df6571",
+      "record": "assets/ui/runtime-kit/icons/bomb.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/task.png",
+      "sha256": "dd7e1fd95954fdc46342b212d3f610f8b2452b50e97e9a99838426ebab556ddb",
+      "record": "assets/ui/runtime-kit/icons/task.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/inventory.png",
+      "sha256": "5eba977919746360e76ea2a1d77e84022f79b9b9ce9615423f9cde1a606d5595",
+      "record": "assets/ui/runtime-kit/icons/inventory.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/search.png",
+      "sha256": "8d06253cde0dc8a66ff855277de5a682d27bcf9bdd8ef06b97ec2560559e9e86",
+      "record": "assets/ui/runtime-kit/icons/search.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/gift.png",
+      "sha256": "977ac5669ae728347fda21c6783a9623d0b27ba01ce10b933c995ac36e6e2f03",
+      "record": "assets/ui/runtime-kit/icons/gift.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/close.png",
+      "sha256": "18a5913805d489078d2264b1cac5d3a0c36af0c806785f0a3c67e3200ca6b8e8",
+      "record": "assets/ui/runtime-kit/icons/close.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/timer.png",
+      "sha256": "49c332a1c9ae0f321ddc819029b014235ea5070df9cc9d79eaabeee1d38ebb14",
+      "record": "assets/ui/runtime-kit/icons/timer.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/settings.png",
+      "sha256": "9da711eb650a151cbb98a7d050b2752d71f5dfcf020e8538381be853d346b767",
+      "record": "assets/ui/runtime-kit/icons/settings.derivation.json"
+    },
+    {
+      "file": "assets/characters/daotong/expressions/angry.png",
+      "sha256": "0466c0776192fdf32466af1d304dd0edb52faf8236554e2a19789a4c68ac5786",
+      "record": "assets/characters/daotong/expressions/angry.derivation.json"
+    },
+    {
+      "file": "assets/characters/daotong/expressions/calm.png",
+      "sha256": "6efa8169e054cb4fc2b8d0c63373c13999b68fceea2514a55514cb38f2df1622",
+      "record": "assets/characters/daotong/expressions/calm.derivation.json"
+    },
+    {
+      "file": "assets/characters/daotong/expressions/laugh.png",
+      "sha256": "84adf6c929291ed9080fa0799338c0dd5c2fd343fd888ccb748d2e4c8fbd6a98",
+      "record": "assets/characters/daotong/expressions/laugh.derivation.json"
+    },
+    {
+      "file": "assets/characters/daotong/expressions/sad.png",
+      "sha256": "f7ceb47db821393d8a4c18ac3554508eba69c909490c7e42fda1c506e7ae1418",
+      "record": "assets/characters/daotong/expressions/sad.derivation.json"
+    },
+    {
+      "file": "assets/characters/daotong/expressions/smile.png",
+      "sha256": "613d2dbb615ff1ecc5a7cb76725b611e0ad1be0fda3cccf5487c9d8139f949cc",
+      "record": "assets/characters/daotong/expressions/smile.derivation.json"
+    },
+    {
+      "file": "assets/characters/daotong/expressions/smug.png",
+      "sha256": "53f870aedf02265179294109ba6baa2fdd8d5611e6dd3ef931996cadfc6f6d2b",
+      "record": "assets/characters/daotong/expressions/smug.derivation.json"
+    },
+    {
+      "file": "assets/characters/daotong/expressions/surprise.png",
+      "sha256": "cab0b8264e6c42c60ef8ac84bf2c9f1ddea9707b02b644dc182320bb85f91489",
+      "record": "assets/characters/daotong/expressions/surprise.derivation.json"
+    },
+    {
+      "file": "assets/characters/daotong/expressions/thinking.png",
+      "sha256": "395a20f37bc59a61c6090dc4ebfa1bdfdaae8e86ef96c1bb2d47d794df62a8f1",
+      "record": "assets/characters/daotong/expressions/thinking.derivation.json"
+    },
+    {
+      "file": "assets/characters/hulu/expressions/angry.png",
+      "sha256": "eb58fb53147916ebfc7432d039f4f828a9239f36e5c9508803f3146618a0033f",
+      "record": "assets/characters/hulu/expressions/angry.derivation.json"
+    },
+    {
+      "file": "assets/characters/hulu/expressions/calm.png",
+      "sha256": "0ac33e45d01fa756a87a2658ed3cd2fd8faf259ca601afa86ff05ce77bd242ff",
+      "record": "assets/characters/hulu/expressions/calm.derivation.json"
+    },
+    {
+      "file": "assets/characters/hulu/expressions/laugh.png",
+      "sha256": "91651d70e8c1cfc44ecf8e3e11c62ee37b6adeaeaaa0b493ef60cc303094ebed",
+      "record": "assets/characters/hulu/expressions/laugh.derivation.json"
+    },
+    {
+      "file": "assets/characters/hulu/expressions/sad.png",
+      "sha256": "d6af4b7990e8defe4282bc67f4a5d847fc4b8307092fcb260bb8515c6fdff118",
+      "record": "assets/characters/hulu/expressions/sad.derivation.json"
+    },
+    {
+      "file": "assets/characters/hulu/expressions/smile.png",
+      "sha256": "df8b54b85a9a468bb599cf18d22d08e76bc340ffeda75b2c1b6c893e89309a2f",
+      "record": "assets/characters/hulu/expressions/smile.derivation.json"
+    },
+    {
+      "file": "assets/characters/hulu/expressions/smug.png",
+      "sha256": "d8ef47e59187dc780138f6fc6cd3cd04b66c8ad584f979cb8fe09022aff046bd",
+      "record": "assets/characters/hulu/expressions/smug.derivation.json"
+    },
+    {
+      "file": "assets/characters/hulu/expressions/surprise.png",
+      "sha256": "208838b2cd797284fd6d02fd130823046c0897efc799db2c411eeda472fde96b",
+      "record": "assets/characters/hulu/expressions/surprise.derivation.json"
+    },
+    {
+      "file": "assets/characters/hulu/expressions/thinking.png",
+      "sha256": "c794dc94fa693ef529a6e0489b4d893d1572b9996c4e754d0f9b71dee03c289e",
+      "record": "assets/characters/hulu/expressions/thinking.derivation.json"
+    },
+    {
+      "file": "assets/characters/taohua/expressions/angry.png",
+      "sha256": "21bbef14abf7eb97cc671f6ded0d9c9b2c2c89470e78d2b2c9374c0ef6c3bed2",
+      "record": "assets/characters/taohua/expressions/angry.derivation.json"
+    },
+    {
+      "file": "assets/characters/taohua/expressions/calm.png",
+      "sha256": "b8eaeeb0b9d5c06ad7b401c65d55692980191f66e542ac0d878d5c04db7a5204",
+      "record": "assets/characters/taohua/expressions/calm.derivation.json"
+    },
+    {
+      "file": "assets/characters/taohua/expressions/laugh.png",
+      "sha256": "abf2e8e639d95dcfb9434d59e12c8a8662893e8f5aa34ffe7416c734d30a486b",
+      "record": "assets/characters/taohua/expressions/laugh.derivation.json"
+    },
+    {
+      "file": "assets/characters/taohua/expressions/sad.png",
+      "sha256": "857320e27e9ccbdc0629d681a0aa05d43416ed0ccdf8ea5ad07b55a93863a32d",
+      "record": "assets/characters/taohua/expressions/sad.derivation.json"
+    },
+    {
+      "file": "assets/characters/taohua/expressions/smile.png",
+      "sha256": "60717fdd3163e9e372e3c62ccf0b168d7834fe4f2879ba7c0dc1250b2d1d6695",
+      "record": "assets/characters/taohua/expressions/smile.derivation.json"
+    },
+    {
+      "file": "assets/characters/taohua/expressions/smug.png",
+      "sha256": "cee13a01412e4b196d45afbb2cad157ffe528c6ac737a40629dd233dfde696a0",
+      "record": "assets/characters/taohua/expressions/smug.derivation.json"
+    },
+    {
+      "file": "assets/characters/taohua/expressions/surprise.png",
+      "sha256": "339b6440f166c28494ad6fd82e9e4753a0fb8ce70fd6e4384c7f84e1e7989690",
+      "record": "assets/characters/taohua/expressions/surprise.derivation.json"
+    },
+    {
+      "file": "assets/characters/taohua/expressions/thinking.png",
+      "sha256": "2276475395e7693f8eee3dff882d1984a6a66b0405dcfb6652f5d1e5ae84f009",
+      "record": "assets/characters/taohua/expressions/thinking.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/share.png",
+      "sha256": "66bc966900989a607dcadc3123d2ce0912a0a8b62b87ca84ac8130c4eeba975f",
+      "record": "assets/ui/runtime-kit/icons/share.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/signin.png",
+      "sha256": "ddc17f6e1557f9d292715d6d26ab39464495253e182aacbdd13f5ff4ade92f88",
+      "record": "assets/ui/runtime-kit/icons/signin.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/season.png",
+      "sha256": "46eabc61a9d06339dc7339ab73930dac86b150113fad1782ed49c7ac979d293a",
+      "record": "assets/ui/runtime-kit/icons/season.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/rocket.png",
+      "sha256": "a55e38cb86470e7219e735a496c9b113d45876df7ab48b5b363eb1eab3c108f9",
+      "record": "assets/ui/runtime-kit/icons/rocket.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/trash.png",
+      "sha256": "78e3657a9ce961300ef82750cdff86bda9acb37ac14e6b76da7d154653a879ce",
+      "record": "assets/ui/runtime-kit/icons/trash.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/practice.png",
+      "sha256": "ed4e39daece78800aa08283844085f1e84a7f363ee31e51cd5c5d8dc06d986e7",
+      "record": "assets/ui/runtime-kit/icons/practice.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/help.png",
+      "sha256": "7094d2ca6e4089c1a8926f51cdbdba185ea486c303b93244932deb69fa201372",
+      "record": "assets/ui/runtime-kit/icons/help.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/wardrobe.png",
+      "sha256": "909ebac4529dce660ec1182265ceadede264534d0a900c2f9fb85a915eb0cb7b",
+      "record": "assets/ui/runtime-kit/icons/wardrobe.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/rank.png",
+      "sha256": "6445a02e10d33ae7cf1da93eacecf84d5a8f69cf8d7da71095ccd2e3281eda92",
+      "record": "assets/ui/runtime-kit/icons/rank.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/lock.png",
+      "sha256": "686ddb7ae4414a4b2439e44f4efe9f6229077f64a2be6e3e999bbdc5807a80b7",
+      "record": "assets/ui/runtime-kit/icons/lock.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/skills.png",
+      "sha256": "9344435f16596ce33ba20e4706c3ea1a60b0090a24eaccc1ed5b2c314f49b6d6",
+      "record": "assets/ui/runtime-kit/icons/skills.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/friends.png",
+      "sha256": "8dd481fd062087e22f6575ba1d8582f139dcc0f8530ed3db50aa9f5c86548776",
+      "record": "assets/ui/runtime-kit/icons/friends.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/back.png",
+      "sha256": "4a09866bb7e8e2b004c099a2bce05c8d4ab041f4e5aa45133d6f2a6f99e3afc8",
+      "record": "assets/ui/runtime-kit/icons/back.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards-source/landlord.png",
+      "sha256": "3dfee5ad7d76c3b638f3cfeb0b19303ad7ef1fdcaffb4074f26fa38f7425bc93",
+      "record": "assets/ui/cards-source/landlord.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/replay.png",
+      "sha256": "a17153b17ce81530b1b5c033934d11b5d132b098b3e8960c5d5d9a3a8effd0ff",
+      "record": "assets/ui/runtime-kit/icons/replay.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/mute.png",
+      "sha256": "b95b3f6e2ac57ea987032e60c7f42cf028a2213a6f8501f8821f107df25566bf",
+      "record": "assets/ui/runtime-kit/icons/mute.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/voice.png",
+      "sha256": "047d80008abe71c60ea17d4ff4a297b657b55b93da5b4f88e2cf4ac5d2d77937",
+      "record": "assets/ui/runtime-kit/icons/voice.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/profile.png",
+      "sha256": "0dd68b2a4512ea40dbb8eb4798ffff52374db3be0d1a3fc557d001ec11719df2",
+      "record": "assets/ui/runtime-kit/icons/profile.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards-source/rocket.png",
+      "sha256": "6b7cbf593bd30516da6d0efbf0a89517a6c2ce48a1d176d33f216a2f710ea356",
+      "record": "assets/ui/cards-source/rocket.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards-source/spring.png",
+      "sha256": "cc5078c5c5731777f2a72d23824deacc8878f334ddd338849dd256779b892ea0",
+      "record": "assets/ui/cards-source/spring.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards-source/counter-spring.png",
+      "sha256": "6ab4113bb6c1f35cfabeffaa708ecfadcbedc162e83fe363f3ee71c0f4a3a9c1",
+      "record": "assets/ui/cards-source/counter-spring.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/classic.png",
+      "sha256": "17f4efc319bff8f3aaa77f0e6260f026da16d2ac1a4d072557f369038fcfcee7",
+      "record": "assets/ui/runtime-kit/icons/classic.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/tournament.png",
+      "sha256": "2179eb8a1af548aa187429f8ea06fe96ee7d845b35e670276659d0d496809dd7",
+      "record": "assets/ui/runtime-kit/icons/tournament.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/coin.png",
+      "sha256": "8ba640f476a8e6ccddc78aea72c28e78e1eac7f5e6240aed9b89e9b3ab083778",
+      "record": "assets/ui/runtime-kit/icons/coin.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/star.png",
+      "sha256": "ce2a5292d7e7f5ffbba3a22d5d4b2cd99b568de1c72d9895c09d0a5a363b2e41",
+      "record": "assets/ui/runtime-kit/icons/star.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/skins/window-normal.png",
+      "sha256": "40ada120220ca52e0f777a0a0c20cc3ecd1e9968d6fd8effdd012b73216e067c",
+      "record": "assets/ui/runtime-kit/skins/window-normal.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/sound.png",
+      "sha256": "a3914e35ab295f54fe0f9f7ec54327894dabc887d93d584ad2e661ad4953fe3c",
+      "record": "assets/ui/runtime-kit/icons/sound.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/puzzle.png",
+      "sha256": "13533c7057b57c528d563ed898f04c6662616dd066a680b01a38faa3c4936208",
+      "record": "assets/ui/runtime-kit/icons/puzzle.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards-source/farmer.png",
+      "sha256": "5cbe5643a0150da3710b0aba32952610644235020db7ba62250a49e19652763a",
+      "record": "assets/ui/cards-source/farmer.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/copy.png",
+      "sha256": "1a332a66a19fb7c7f09de82793bf7f4db5b6c3a5eee1747d252abf9f3f81dd94",
+      "record": "assets/ui/runtime-kit/icons/copy.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/mail.png",
+      "sha256": "39a2bf8fb84486a1b97f00d79d2cae87c6b1a303bb5da34d82695c0664a6ce00",
+      "record": "assets/ui/runtime-kit/icons/mail.derivation.json"
+    },
+    {
+      "file": "assets/ui/cards-source/bomb.png",
+      "sha256": "223424a6653f93df91bfbdf5fd44666a9f2fbec3dc0a0fb123c7d38a7e370294",
+      "record": "assets/ui/cards-source/bomb.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/emoji.png",
+      "sha256": "4ccbcafb06874c8cd37896229a89a2308a1f4af4e11b6a114efdb78b9d64034b",
+      "record": "assets/ui/runtime-kit/icons/emoji.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/refresh.png",
+      "sha256": "9e2701e4944dd2699ada84f3986a96863b8099720bddcdd10053487fe48c4494",
+      "record": "assets/ui/runtime-kit/icons/refresh.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/chat.png",
+      "sha256": "0cf014d0b7afeb0ea8d087ae77e7126dd5aada1502742800918b1c0d3008da0c",
+      "record": "assets/ui/runtime-kit/icons/chat.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/token.png",
+      "sha256": "a6a051729fc21d6b42d0b02318226d7f1cf7681909cc2aaf93015c3594061205",
+      "record": "assets/ui/runtime-kit/icons/token.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/vibration.png",
+      "sha256": "454fe5fd04fbe1f7c9b465681e2f74b781e2b63ff0a25e2a7ca2948d3cb854cd",
+      "record": "assets/ui/runtime-kit/icons/vibration.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/check.png",
+      "sha256": "d1ea9bdc52505ee476e896034e94a79e892da8e23a36169684a1e99f5718e33f",
+      "record": "assets/ui/runtime-kit/icons/check.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/add.png",
+      "sha256": "49b80d5bd5c151a33907aa82d0596178b7457186f0956d7b09c8c7e0889f7d39",
+      "record": "assets/ui/runtime-kit/icons/add.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/music.png",
+      "sha256": "52156de9859b5f00579286f3f1cde73b784790fb8ceda99f67a8984e1fae683c",
+      "record": "assets/ui/runtime-kit/icons/music.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/skins/window-wide.png",
+      "sha256": "666d5dd55e8302babc0f06ce3d0aeb476fa8150c363586cc14059331f589f80b",
+      "record": "assets/ui/runtime-kit/skins/window-wide.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/network.png",
+      "sha256": "367dd21bc8df83f0106c43f2575e295c00599691257204cb28cb0fd143cedfec",
+      "record": "assets/ui/runtime-kit/icons/network.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/icons/friend-room.png",
+      "sha256": "5d820a937f248e707b73152385d341010b3bbec594ca92cb4fee574073ece2a4",
+      "record": "assets/ui/runtime-kit/icons/friend-room.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/skins/tooltip.png",
+      "sha256": "95f0f8afa963313d6ef4d6a7dac142b8195c137cb2977c7b810772363f96f998",
+      "record": "assets/ui/runtime-kit/skins/tooltip.derivation.json"
+    },
+    {
+      "file": "assets/ui/controls/primary-normal.png",
+      "sha256": "a2aa9afff3b9ef559a23ddef8d1b991691c09a609b7ea96b453c56c586b5f021",
+      "record": "assets/ui/controls/primary-normal.derivation.json"
+    },
+    {
+      "file": "assets/ui/controls/primary-pressed.png",
+      "sha256": "442aea5dc36d63ea8622e0d0f8ae4de97c6cebe08af8fbad82e0e98f6c52f107",
+      "record": "assets/ui/controls/primary-pressed.derivation.json"
+    },
+    {
+      "file": "assets/ui/controls/primary-highlight.png",
+      "sha256": "b6f0726e83081bbe6a5fc0fe78d252122d818fceb94b8731d4d5ca4b95f34e10",
+      "record": "assets/ui/controls/primary-highlight.derivation.json"
+    },
+    {
+      "file": "assets/ui/controls/title-primary.png",
+      "sha256": "08b86b529771c2b9ba5c968b04aa3dc4bb2806f4f9bccb311fd2a3f66c61629e",
+      "record": "assets/ui/controls/title-primary.derivation.json"
+    },
+    {
+      "file": "assets/ui/controls/title-secondary.png",
+      "sha256": "c1665d05e48d43184bd64c9f13627bc4a91f2809cb1a767725e815fad4de4a5d",
+      "record": "assets/ui/controls/title-secondary.derivation.json"
+    },
+    {
+      "file": "assets/ui/controls/tab-normal.png",
+      "sha256": "6b67e215ff28fd153e1f104c76d5c4a36f813029eb3bc183a62687d21e6ec6bd",
+      "record": "assets/ui/controls/tab-normal.derivation.json"
+    },
+    {
+      "file": "assets/ui/controls/primary-disabled.png",
+      "sha256": "50eefaee2e8cdca171361b6c861eadb2ad1b664b772261f0c68690cb94b36490",
+      "record": "assets/ui/controls/primary-disabled.derivation.json"
+    },
+    {
+      "file": "assets/ui/controls/toggle-off.png",
+      "sha256": "37ab08af24796c0d08ef8dfb889f2baf339264d44cf99bca6b6ead61133b647d",
+      "record": "assets/ui/controls/toggle-off.derivation.json"
+    },
+    {
+      "file": "assets/ui/controls/toggle-on.png",
+      "sha256": "a6ad4b03104105c9175e0c045b0ad42bf6185858cd8495841a1427c0756ff87f",
+      "record": "assets/ui/controls/toggle-on.derivation.json"
+    },
+    {
+      "file": "assets/ui/controls/checkbox-on.png",
+      "sha256": "faa9f934c990c37703c5b98fc1a07f7fe75b82cea0396a4f573206afb45c8b31",
+      "record": "assets/ui/controls/checkbox-on.derivation.json"
+    }
+  ]
+}

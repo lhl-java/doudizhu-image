@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "id": "reward-sparkle",
+  "kind": "derived_spriteframes",
+  "route": "derived",
+  "operation": "translate/rotate/scale/alpha generated static illustration onto fixed384RGBA canvas, no invented paint details",
+  "derivedFrom": [
+    {
+      "file": "assets/fx/reward-sparkle.png",
+      "sha256": "2354c13d7174a6499bd2c0f01faebf2a3e3a2d3cc7d5aa65f0ce9889290a35c5",
+      "record": "assets/fx/reward-sparkle.png.generation.json",
+      "role": "runtime FX static sprite"
+    }
+  ],
+  "timeline": "assets/fx/reward-sparkle.timeline.json",
+  "durationMs": 800,
+  "loop": false,
+  "blend": "screen",
+  "event": "reward_claimed",
+  "anchor": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "frames": [
+    {
+      "file": "assets/fx/frames/reward-sparkle/000.png",
+      "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+      "atMs": 0,
+      "durationMs": 53,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.0,
+        "scale": 0.3,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": -8.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/reward-sparkle/001.png",
+      "sha256": "5efe8b2d76e897e99ca95df82da8357c9de1f02700e94122892da7ccab2677f6",
+      "atMs": 53,
+      "durationMs": 54,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.5888888888888889,
+        "scale": 0.6238888888888889,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": -3.2888888888888888
+      }
+    },
+    {
+      "file": "assets/fx/frames/reward-sparkle/002.png",
+      "sha256": "a08c4b41203c7cd479453ae3f0e4fab10d346cd9d4579c84cd720c0ef4d0997f",
+      "atMs": 107,
+      "durationMs": 53,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.9926086956521739,
+        "scale": 0.8647826086956522,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 0.5173913043478261
+      }
+    },
+    {
+      "file": "assets/fx/frames/reward-sparkle/003.png",
+      "sha256": "f86c9c7cee10768a86ec9c2f5d8b9f7f9e4f647ff514703c0972a5607077d9aa",
+      "atMs": 160,
+      "durationMs": 53,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.9695652173913043,
+        "scale": 0.9108695652173913,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 2.130434782608696
+      }
+    },
+    {
+      "file": "assets/fx/frames/reward-sparkle/004.png",
+      "sha256": "d5bf94ff71f2f6b652e684c7bcc49555c1c2981158b197ec04dd427830a385f4",
+      "atMs": 213,
+      "durationMs": 54,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.9465217391304348,
+        "scale": 0.9569565217391305,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 3.7434782608695656
+      }
+    },
+    {
+      "file": "assets/fx/frames/reward-sparkle/005.png",
+      "sha256": "3cf14637a2223fb4c8c69d908c5a17088e7cb7defa533466c9f9c7ec37d58560",
+      "atMs": 267,
+      "durationMs": 53,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.9230434782608696,
+        "scale": 1.0039130434782608,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 5.386956521739131
+      }
+    },
+    {
+      "file": "assets/fx/frames/reward-sparkle/006.png",
+      "sha256": "81c44cc46ade47447c9007f6a0230097b346f89337f8050043ab093b3b178b5c",
+      "atMs": 320,
+      "durationMs": 53,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.9,
+        "scale": 1.05,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 7.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/reward-sparkle/007.png",
+      "sha256": "ea2a6365221a6ac8ada105478a188a227614674c71d233d9f404152545c5b83e",
+      "atMs": 373,
+      "durationMs": 54,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.800625,
+        "scale": 1.0555208333333335,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 7.99375
+      }
+    },
+    {
+      "file": "assets/fx/frames/reward-sparkle/008.png",
+      "sha256": "19b9084bbb85108d82ea97756284d1d6d7ed7c9afe6f1cc764f746a0013b5eb3",
+      "atMs": 427,
+      "durationMs": 53,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.699375,
+        "scale": 1.0611458333333335,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 9.00625
+      }
+    },
+    {
+      "file": "assets/fx/frames/reward-sparkle/009.png",
+      "sha256": "f2a0fc634fdc443eed2d6769df9eab398363325a020155051fbfdf2438e62b77",
+      "atMs": 480,
+      "durationMs": 53,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.6000000000000001,
+        "scale": 1.0666666666666667,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 10.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/reward-sparkle/010.png",
+      "sha256": "c423e320b55a74f651a69f496bb5f413fcd9e3f1e2c800263d7297575cdbe7e4",
+      "atMs": 533,
+      "durationMs": 54,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.5006250000000001,
+        "scale": 1.0721875,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 10.99375
+      }
+    },
+    {
+      "file": "assets/fx/frames/reward-sparkle/011.png",
+      "sha256": "696cb0bd93eb322e5d544bf4fd4bc855669fbe67dcbc9b15d3ce08bc7cc9446b",
+      "atMs": 587,
+      "durationMs": 53,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.39937500000000004,
+        "scale": 1.0778125,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 12.006250000000001
+      }
+    },
+    {
+      "file": "assets/fx/frames/reward-sparkle/012.png",
+      "sha256": "a99cdecdc513f648cda1bc2d3532bb712786f0606d2a899170e4d9c35e6029b4",
+      "atMs": 640,
+      "durationMs": 53,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.30000000000000004,
+        "scale": 1.0833333333333335,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 13.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/reward-sparkle/013.png",
+      "sha256": "71ba596a3dee2e10a8db594dd6d529d8c22add02a576a6b2106d9de4fb361cdb",
+      "atMs": 693,
+      "durationMs": 54,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.20062499999999994,
+        "scale": 1.0888541666666667,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 13.99375
+      }
+    },
+    {
+      "file": "assets/fx/frames/reward-sparkle/014.png",
+      "sha256": "8d51599575a01e6b8a5ae6acfbf9b42aa98cd4e1413694c25556fb804dcdc230",
+      "atMs": 747,
+      "durationMs": 53,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.0993750000000001,
+        "scale": 1.0944791666666667,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 15.00625
+      }
+    },
+    {
+      "file": "assets/fx/frames/reward-sparkle/015.png",
+      "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+      "atMs": 800,
+      "durationMs": 1,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.0,
+        "scale": 1.1,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 16.0
+      }
+    }
+  ],
+  "bakedPlaybackDurationMs": 801,
+  "timelineDurationMs": 800,
+  "terminalSentinelMs": 1,
+  "onComplete": "hide-and-release",
+  "status": "derived_animation_ready_user_review"
+}

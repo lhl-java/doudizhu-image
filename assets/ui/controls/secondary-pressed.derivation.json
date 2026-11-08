@@ -1,0 +1,29 @@
+{
+  "file": "assets/ui/controls/secondary-pressed.png",
+  "sha256": "4a1e93330493da258aa241e6cfecd6ec5d79908375d4b57c2a5ee55c8270d37f",
+  "width": 349,
+  "height": 141,
+  "format": "PNG",
+  "operation": "crop-only-preserve-source-RGBA-no-resize",
+  "cropRect": [
+    735,
+    190,
+    1084,
+    331
+  ],
+  "trimRect": [
+    0,
+    0,
+    349,
+    141
+  ],
+  "derivedFrom": {
+    "file": "designs/ui/components/51-common-components-v1.png",
+    "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+    "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Follow derivedFrom generationRecord; do not treat crop as new generation.",
+  "status": "derived_asset_ready_user_review"
+}

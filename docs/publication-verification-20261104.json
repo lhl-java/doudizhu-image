@@ -1,0 +1,20 @@
+{
+  "verifiedAt": "2026-11-04T16:55:27.199735+00:00",
+  "repository": "https://github.com/lhl-java/doudizhu-image",
+  "owner": "lhl-java",
+  "visibility": "public",
+  "commit": "f20e4f7ccf384edb90f894c42449f3101bb8445f",
+  "tree": "edc29ac5c64873ed04f92afa926cc5bf319db4a8",
+  "parentCount": 0,
+  "files": 1703,
+  "remoteHeadVerified": true,
+  "remoteFileTreeMatched": true,
+  "independentChangedFileDownloadsVerified": 3,
+  "unchangedFilesReusingPreviouslyVerifiedIdenticalBlobs": 1700,
+  "baselineIndependentDownloadCommit": "7f716513b3c5b1b7d1518eae4bea51b1dcd209da",
+  "snapshot": "docs/PUBLISH_SNAPSHOT.json",
+  "artValidation": "docs/FULL_GAME_ART_VALIDATION.json",
+  "wholeGameArtCompletion": false,
+  "localWorkingTreeClean": true,
+  "localCommitCount": 1
+}

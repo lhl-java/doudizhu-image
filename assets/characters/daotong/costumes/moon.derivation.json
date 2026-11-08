@@ -1,0 +1,45 @@
+{
+  "id": "daotong_moon",
+  "file": "assets/characters/daotong/costumes/moon.png",
+  "record": "assets/characters/daotong/costumes/moon.derivation.json",
+  "kind": "character_costume",
+  "width": 1024,
+  "height": 1024,
+  "anchor": [
+    512,
+    920
+  ],
+  "sha256": "422d2320b6d2c4420a098c1f99efe51d5ff0456adf059b7c5b2052dc8f50fd27",
+  "operation": "AI-generated-costume-variant-cropped-and-scaled-with-daotong-fixed-profile",
+  "derivedFrom": {
+    "file": "designs/characters/runtime-20261026/daotong-costume-moon-v1.png",
+    "sha256": "78f6d73b9b41fe7c1dc6cb9c5f401f1029ac294cbbdb17e5b62cd1b75ac9674a",
+    "record": "designs/characters/runtime-20261026/daotong-costume-moon-v1.generation.json"
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "significantBorderPixels": 0,
+  "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+  "art_source": "existing",
+  "status": "asset_ready_user_review",
+  "costumeName": "桂月金衣",
+  "characterId": "daotong",
+  "sourceRect": [
+    168,
+    26,
+    1153,
+    1226
+  ],
+  "sourceAnchor": [
+    660.5,
+    1220
+  ],
+  "fixedScale": 0.6739679865206403,
+  "offset": [
+    180,
+    115
+  ],
+  "noUpscale": true
+}

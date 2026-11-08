@@ -1,0 +1,84 @@
+{
+  "id": "31-puzzle-play",
+  "title": "残局挑战",
+  "primaryArtwork": "designs/ui/modes/31-puzzle-play-v1.png",
+  "controls": [
+    "指定牌局",
+    "目标",
+    "提示",
+    "重来",
+    "步骤"
+  ],
+  "states": [
+    {
+      "name": "挑战中",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/modes/31-puzzle-play-v1.png",
+      "title": "残局对局",
+      "copy": "第4关，率先出完手牌。",
+      "behavior": "保留8张AAKK9876、QQ待压制牌面与三席身份；可选牌出牌或重来。",
+      "buttons": [
+        "提示",
+        "重来",
+        "出牌"
+      ],
+      "dependencies": [],
+      "designEvidence": "原画可见状态，或实际已生成同源透明控件+明确原生文字与行为；不是额外AI整屏生成"
+    },
+    {
+      "name": "提示",
+      "coverage": "shared_component",
+      "renderedIn": null,
+      "title": "出牌提示",
+      "copy": "当前待压制牌为一对Q，可参考一对K或一对A。",
+      "behavior": "仅为此示例局面提示；确认后关闭，恢复原选择；正式最优解由残局逻辑给出。",
+      "buttons": [
+        "返回牌局",
+        "知道了"
+      ],
+      "dependencies": [
+        "assets/ui/controls/panel.png",
+        "assets/ui/controls/primary-normal.png",
+        "assets/ui/controls/primary-disabled.png",
+        "assets/ui/controls/secondary-normal.png",
+        "assets/ui/controls/tab-selected.png",
+        "assets/ui/manifest.json"
+      ],
+      "designEvidence": "原画可见状态，或实际已生成同源透明控件+明确原生文字与行为；不是额外AI整屏生成"
+    },
+    {
+      "name": "无可行出牌",
+      "coverage": "shared_component",
+      "renderedIn": null,
+      "title": "暂无可出的牌",
+      "copy": "当前选择无法组成可出的牌型。",
+      "behavior": "出牌按钮禁用并说明原因；可清除选择、重来或返回关卡，不擅自跳过服务端校验。",
+      "buttons": [
+        "清除选择",
+        "重来"
+      ],
+      "dependencies": [
+        "assets/ui/controls/panel.png",
+        "assets/ui/controls/primary-normal.png",
+        "assets/ui/controls/primary-disabled.png",
+        "assets/ui/controls/secondary-normal.png",
+        "assets/ui/controls/tab-selected.png",
+        "assets/ui/manifest.json"
+      ],
+      "designEvidence": "原画可见状态，或实际已生成同源透明控件+明确原生文字与行为；不是额外AI整屏生成"
+    }
+  ],
+  "dynamicText": "昵称、余额、币种、数量、期限、步骤和回执由同一产品配置及原生文字层提供；原画为设计示意。",
+  "sharedDependencies": [
+    "assets/ui/controls/panel.png",
+    "assets/ui/controls/primary-normal.png",
+    "assets/ui/controls/primary-disabled.png",
+    "assets/ui/controls/secondary-normal.png",
+    "assets/ui/controls/tab-selected.png",
+    "assets/ui/manifest.json"
+  ],
+  "status": "design_ready_user_review",
+  "inspectionNotes": [
+    "已实际查看：三席、8张AAKK9876与中央QQ、6/5张余牌、目标及提示/重来/出牌清楚。界面美术不等于完整可解性校验。"
+  ]
+}

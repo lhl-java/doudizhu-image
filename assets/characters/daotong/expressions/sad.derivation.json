@@ -1,0 +1,53 @@
+{
+  "id": "daotong_sad",
+  "file": "assets/characters/daotong/expressions/sad.png",
+  "record": "assets/characters/daotong/expressions/sad.derivation.json",
+  "kind": "character_expression",
+  "width": 256,
+  "height": 256,
+  "anchor": [
+    128,
+    244
+  ],
+  "sha256": "f7ceb47db821393d8a4c18ac3554508eba69c909490c7e42fda1c506e7ae1418",
+  "operation": "grid-ownership-crop-with4px-alpha-padding-and-one-fixed-downscale-per-character-portrait",
+  "derivedFrom": {
+    "file": "designs/characters/runtime-20261026/daotong-expressions-v2.png",
+    "sha256": "99b488d0e62c6498277cd33a6a199e14a220332ffe5112c2524f129868b661d7",
+    "record": "designs/characters/runtime-20261026/daotong-expressions-v2.generation.json"
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "significantBorderPixels": 0,
+  "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+  "art_source": "existing",
+  "status": "asset_ready_user_review",
+  "expression": "sad",
+  "expressionName": "难过",
+  "grid": {
+    "columns": 4,
+    "rows": 2,
+    "index": 6,
+    "cellRect": [
+      887,
+      444,
+      1330,
+      887
+    ]
+  },
+  "sourceRect": [
+    925,
+    483,
+    1315,
+    824
+  ],
+  "fixedScale": 0.5818181818181818,
+  "offset": [
+    15,
+    48
+  ],
+  "noUpscale": true,
+  "characterId": "daotong"
+}

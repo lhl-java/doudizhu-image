@@ -1,0 +1,61 @@
+{
+  "durationMs": 800,
+  "loop": false,
+  "blend": "screen",
+  "event": "reward_claimed",
+  "keyframes": [
+    {
+      "atMs": 0,
+      "alpha": 0,
+      "scale": 0.3,
+      "x": 0,
+      "y": 0,
+      "rotation": -8
+    },
+    {
+      "atMs": 90,
+      "alpha": 1,
+      "scale": 0.85,
+      "x": 0,
+      "y": 0,
+      "rotation": 0
+    },
+    {
+      "atMs": 320,
+      "alpha": 0.9,
+      "scale": 1.05,
+      "x": 0,
+      "y": 0,
+      "rotation": 7
+    },
+    {
+      "atMs": 800,
+      "alpha": 0,
+      "scale": 1.1,
+      "x": 0,
+      "y": 0,
+      "rotation": 16
+    }
+  ],
+  "interpolation": "linear",
+  "translationUnit": "fraction-of-384px-frame",
+  "stopEvent": null,
+  "kind": "fx",
+  "anchor": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "id": "reward-sparkle",
+  "file": "assets/fx/reward-sparkle.png",
+  "record": "assets/fx/reward-sparkle.png.generation.json",
+  "width": 512,
+  "height": 512,
+  "z": 80,
+  "sourceNativeCell": {
+    "width": 512,
+    "height": 512
+  },
+  "staticSource": true,
+  "animationSource": "runtime transforms of generated static illustration, not AI video",
+  "maxDisplaySize": 384
+}

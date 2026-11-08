@@ -1,0 +1,2554 @@
+{
+  "schemaVersion": 1,
+  "batch": "core",
+  "updatedAt": "2026-10-26T11:29:38.2431775+00:00",
+  "scopeSource": "docs/UI_SCOPE.json",
+  "scopeSha256": "7cffea58b804dd80e345fdf868b11b584495009448c30a843129c507432c6e38",
+  "counts": {
+    "requiredTotal": 44,
+    "rendered": 26,
+    "shared_component": 18,
+    "specified_only": 0
+  },
+  "requiredStateDesignCoverageComplete": true,
+  "semantics": {
+    "rendered": "该必要状态已在完整主图可见；多个状态可同屏，不表示每态一张独立PNG。",
+    "shared_component": "实际核验既有图板/控件/牌桌及哈希，写明原生文案、按钮、行为、禁用原因；没有另画该整屏状态，没有实现客户端。",
+    "specified_only": "仅说明，不能计为完成视觉设计覆盖。"
+  },
+  "offline56": {
+    "mainImage": "designs/ui/core/56-offline-v1.png",
+    "independentlyRenderedRequiredStates": [
+      "可开始"
+    ],
+    "noIndependentPngFor": [
+      "进行中",
+      "暂停",
+      "结束"
+    ],
+    "reuse": [
+      "designs/ui/table/14-play-turn-v2.png",
+      "designs/ui/components/50-shared-dialogs-v1.png",
+      "designs/ui/components/51-common-components-v1.png",
+      "designs/ui/components/52-card-and-effects-v1.png"
+    ],
+    "specification": "designs/ui/core/56-offline.states.json"
+  },
+  "states": [
+    {
+      "pageId": "01-launch-login",
+      "title": "启动与登录",
+      "state": "首次进入",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/01-launch-login-v1.png",
+      "stateSpec": "designs/ui/core/01-launch-login.states.json",
+      "copy": [
+        "斗地主",
+        "登录游戏",
+        "切换账号",
+        "我已阅读并同意《用户协议》和《隐私政策》"
+      ],
+      "behavior": [
+        "展示启动背景与账号登录入口；首入协议默认不勾选。"
+      ],
+      "disabledReasons": [],
+      "dependencies": [],
+      "evidence": {
+        "imageSha256": "f3c4de0c983dc567de89ea2e91dda4c98ac922bc0d7ba8d7ad490753037ac3b1",
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "method": "view_image",
+        "note": "实际可见默认登录页和空心未勾选复选框；不含拦截弹窗。",
+        "reviewer": "core_qa"
+      },
+      "visibleInMainImage": true,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "01-launch-login",
+      "title": "启动与登录",
+      "state": "协议未勾选",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/01-launch-login-v1.png",
+      "stateSpec": "designs/ui/core/01-launch-login.states.json",
+      "copy": [
+        "请先阅读并同意用户协议与隐私政策"
+      ],
+      "behavior": [
+        "点击协议链接可阅读；主动勾选后可发起登录；未勾选点击登录则拦截。"
+      ],
+      "disabledReasons": [
+        "未勾选协议时不得进入登录请求。"
+      ],
+      "dependencies": [],
+      "evidence": {
+        "imageSha256": "f3c4de0c983dc567de89ea2e91dda4c98ac922bc0d7ba8d7ad490753037ac3b1",
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "method": "view_image",
+        "note": "实际可见默认登录页和空心未勾选复选框；不含拦截弹窗。",
+        "reviewer": "core_qa"
+      },
+      "visibleInMainImage": true,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "01-launch-login",
+      "title": "启动与登录",
+      "state": "登录中",
+      "coverage": "shared_component",
+      "status": "design_ready_user_review",
+      "image": null,
+      "stateSpec": "designs/ui/core/01-launch-login.states.json",
+      "copy": [
+        "登录中…"
+      ],
+      "behavior": [
+        "展示加载反馈，等待认证返回，防止重复提交。"
+      ],
+      "disabledReasons": [
+        "登录请求处理中，登录按钮不可重复提交。"
+      ],
+      "dependencies": [
+        {
+          "pageId": "50-shared-dialogs",
+          "sha256": "45d20f3f85aa8fd8133b8665f1962f8d7e7b06a7cf3b7d41799837cf689598f7",
+          "output": "designs/ui/components/50-shared-dialogs-v1.png",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "D05 加载中：玉绿圆环、正文区、取消按钮",
+          "sourceStatus": "design_ready_user_review",
+          "stateSpec": "designs/ui/components/50-shared-dialogs.states.json",
+          "generation": "designs/ui/components/50-shared-dialogs-v1.generation.json"
+        },
+        {
+          "output": "assets/ui/controls/primary-disabled.png",
+          "sha256": "50eefaee2e8cdca171361b6c861eadb2ad1b664b772261f0c68690cb94b36490",
+          "derivation": "assets/ui/controls/primary-disabled.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "primary-disabled transparent native control"
+        },
+        {
+          "pageId": "01-launch-login",
+          "output": "designs/ui/core/01-launch-login-v1.png",
+          "sha256": "f3c4de0c983dc567de89ea2e91dda4c98ac922bc0d7ba8d7ad490753037ac3b1",
+          "generation": "designs/ui/core/01-launch-login-v1.generation.json",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "已绘主页面作为状态背景和位置依据"
+        }
+      ],
+      "evidence": {
+        "method": "verified_shared_component_reuse",
+        "reviewer": "core_qa",
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "standaloneFullPageRendered": false,
+        "implementationStatus": "design_only_not_implemented",
+        "nativeTextAndDataReplacements": {
+          "title": "登录中",
+          "body": "正在登录，请稍候…",
+          "secondaryAction": "取消"
+        },
+        "note": "实际查看并核验共享图板、指定控件和主页面，定义原生文字/数据替换及行为；未另行合成整屏。"
+      },
+      "visibleInMainImage": false,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "01-launch-login",
+      "title": "启动与登录",
+      "state": "登录失败",
+      "coverage": "shared_component",
+      "status": "design_ready_user_review",
+      "image": null,
+      "stateSpec": "designs/ui/core/01-launch-login.states.json",
+      "copy": [
+        "登录失败，请重试",
+        "重试",
+        "切换账号"
+      ],
+      "behavior": [
+        "保留协议状态与账号信息，允许重试或切换账号。"
+      ],
+      "disabledReasons": [],
+      "dependencies": [
+        {
+          "pageId": "50-shared-dialogs",
+          "sha256": "45d20f3f85aa8fd8133b8665f1962f8d7e7b06a7cf3b7d41799837cf689598f7",
+          "output": "designs/ui/components/50-shared-dialogs-v1.png",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "D01 通用警告：标题、感叹号、正文和双按钮",
+          "sourceStatus": "design_ready_user_review",
+          "stateSpec": "designs/ui/components/50-shared-dialogs.states.json",
+          "generation": "designs/ui/components/50-shared-dialogs-v1.generation.json"
+        },
+        {
+          "output": "assets/ui/controls/primary-normal.png",
+          "sha256": "a2aa9afff3b9ef559a23ddef8d1b991691c09a609b7ea96b453c56c586b5f021",
+          "derivation": "assets/ui/controls/primary-normal.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "primary-normal transparent native control"
+        },
+        {
+          "output": "assets/ui/controls/secondary-normal.png",
+          "sha256": "9ba4a890ce8dc82f27a3468a1b8aad4586920da8111a35bc63ad1b801c93bd3d",
+          "derivation": "assets/ui/controls/secondary-normal.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "secondary-normal transparent native control"
+        },
+        {
+          "pageId": "01-launch-login",
+          "output": "designs/ui/core/01-launch-login-v1.png",
+          "sha256": "f3c4de0c983dc567de89ea2e91dda4c98ac922bc0d7ba8d7ad490753037ac3b1",
+          "generation": "designs/ui/core/01-launch-login-v1.generation.json",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "已绘主页面作为状态背景和位置依据"
+        }
+      ],
+      "evidence": {
+        "method": "verified_shared_component_reuse",
+        "reviewer": "core_qa",
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "standaloneFullPageRendered": false,
+        "implementationStatus": "design_only_not_implemented",
+        "nativeTextAndDataReplacements": {
+          "title": "登录失败",
+          "body": "登录失败，请重试",
+          "secondaryAction": "返回",
+          "primaryAction": "重试"
+        },
+        "note": "实际查看并核验共享图板、指定控件和主页面，定义原生文字/数据替换及行为；未另行合成整屏。"
+      },
+      "visibleInMainImage": false,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "02-lobby",
+      "title": "全功能大厅",
+      "state": "正常",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/02-lobby-v1.png",
+      "stateSpec": "designs/ui/core/02-lobby.states.json",
+      "copy": [
+        "斗地主",
+        "道友",
+        "经典",
+        "好友房",
+        "排位",
+        "赛事",
+        "残局",
+        "活动",
+        "商城",
+        "任务",
+        "邮件",
+        "设置",
+        "快速开始"
+      ],
+      "behavior": [
+        "展示scope规定的全部功能入口、头像昵称和货币；入口由各页ID承接。"
+      ],
+      "disabledReasons": [],
+      "dependencies": [],
+      "evidence": {
+        "method": "view_image",
+        "note": "实际可见完整大厅及scope全部功能入口，主按钮与次级入口层级明确。",
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "imageSha256": "86f5e2879b919fcf8e81b3930ee8b3771a3ebc1bf8d614b687b673ad4c6f5bd6",
+        "reviewer": "core_qa"
+      },
+      "visibleInMainImage": true,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "02-lobby",
+      "title": "全功能大厅",
+      "state": "红点",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/02-lobby-v1.png",
+      "stateSpec": "designs/ui/core/02-lobby.states.json",
+      "copy": [
+        "新消息"
+      ],
+      "behavior": [
+        "任务、邮件或活动有更新时显示红点；红点本身不替代入口文字。"
+      ],
+      "disabledReasons": [],
+      "dependencies": [],
+      "evidence": {
+        "method": "view_image",
+        "note": "底栏邮件图标右上角实际可见一个红色通知圆点。",
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "imageSha256": "86f5e2879b919fcf8e81b3930ee8b3771a3ebc1bf8d614b687b673ad4c6f5bd6",
+        "reviewer": "core_qa"
+      },
+      "visibleInMainImage": true,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "02-lobby",
+      "title": "全功能大厅",
+      "state": "资源加载",
+      "coverage": "shared_component",
+      "status": "design_ready_user_review",
+      "image": null,
+      "stateSpec": "designs/ui/core/02-lobby.states.json",
+      "copy": [
+        "资源加载中…",
+        "重试"
+      ],
+      "behavior": [
+        "显示资源进度与失败重试；仅依赖未完成资源的入口禁用。"
+      ],
+      "disabledReasons": [
+        "目标页面资源尚未准备好。"
+      ],
+      "dependencies": [
+        {
+          "pageId": "50-shared-dialogs",
+          "sha256": "45d20f3f85aa8fd8133b8665f1962f8d7e7b06a7cf3b7d41799837cf689598f7",
+          "output": "designs/ui/components/50-shared-dialogs-v1.png",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "D05 加载弹窗",
+          "sourceStatus": "design_ready_user_review",
+          "stateSpec": "designs/ui/components/50-shared-dialogs.states.json",
+          "generation": "designs/ui/components/50-shared-dialogs-v1.generation.json"
+        },
+        {
+          "pageId": "51-common-components",
+          "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+          "output": "designs/ui/components/51-common-components-v1.png",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "第5行第3项进度条",
+          "sourceStatus": "design_ready_user_review",
+          "stateSpec": "designs/ui/components/51-common-components.states.json",
+          "generation": "designs/ui/components/51-common-components-v1.generation.json"
+        },
+        {
+          "output": "assets/ui/controls/progress.png",
+          "sha256": "e0c7a90ca832b183dcec3f3a3f83061880d8b972432cebcd72cd80341b2670bc",
+          "derivation": "assets/ui/controls/progress.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "progress transparent native control"
+        },
+        {
+          "output": "assets/ui/controls/primary-disabled.png",
+          "sha256": "50eefaee2e8cdca171361b6c861eadb2ad1b664b772261f0c68690cb94b36490",
+          "derivation": "assets/ui/controls/primary-disabled.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "primary-disabled transparent native control"
+        },
+        {
+          "pageId": "02-lobby",
+          "output": "designs/ui/core/02-lobby-v1.png",
+          "sha256": "86f5e2879b919fcf8e81b3930ee8b3771a3ebc1bf8d614b687b673ad4c6f5bd6",
+          "generation": "designs/ui/core/02-lobby-v1.generation.json",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "已绘主页面作为状态背景和位置依据"
+        }
+      ],
+      "evidence": {
+        "method": "verified_shared_component_reuse",
+        "reviewer": "core_qa",
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "standaloneFullPageRendered": false,
+        "implementationStatus": "design_only_not_implemented",
+        "nativeTextAndDataReplacements": {
+          "title": "资源加载中",
+          "body": "正在准备游戏资源…",
+          "progress": "实际已下载/总量",
+          "secondaryAction": "取消"
+        },
+        "note": "实际查看并核验共享图板、指定控件和主页面，定义原生文字/数据替换及行为；未另行合成整屏。"
+      },
+      "visibleInMainImage": false,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "03-classic-select",
+      "title": "经典玩法选择",
+      "state": "选中",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/03-classic-select-v1.png",
+      "stateSpec": "designs/ui/core/03-classic-select.states.json",
+      "copy": [
+        "经典",
+        "不洗牌",
+        "癞子",
+        "天地癞子",
+        "已选中",
+        "玩法规则",
+        "选择场次"
+      ],
+      "behavior": [
+        "选中经典卡片；切换卡片同步更新说明与下一步上下文。"
+      ],
+      "disabledReasons": [],
+      "dependencies": [],
+      "evidence": {
+        "note": "经典卡实际呈现浅绿填色、金边高亮、右上勾号，下方文字已选择：经典。",
+        "method": "view_image",
+        "imageSha256": "80af01c640dc92242ce3f0b9ec3e5efdba758109a423cf0ace21ad2843cf624a",
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "reviewer": "core_qa"
+      },
+      "visibleInMainImage": true,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "03-classic-select",
+      "title": "经典玩法选择",
+      "state": "锁定",
+      "coverage": "shared_component",
+      "status": "design_ready_user_review",
+      "image": null,
+      "stateSpec": "designs/ui/core/03-classic-select.states.json",
+      "copy": [
+        "暂未开放",
+        "查看条件"
+      ],
+      "behavior": [
+        "锁定状态使用卡片弱化、共享禁用按钮和“暂未开放”原生文本，不要求尚未存在的锁具图标；点击条件入口显示具体原因。"
+      ],
+      "disabledReasons": [
+        "该玩法尚未开放或未满足条件；具体条件待产品确认。"
+      ],
+      "dependencies": [
+        {
+          "pageId": "51-common-components",
+          "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+          "output": "designs/ui/components/51-common-components-v1.png",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "第1/2行第4项禁用按钮与第3行页签/卡片边框",
+          "sourceStatus": "design_ready_user_review",
+          "stateSpec": "designs/ui/components/51-common-components.states.json",
+          "generation": "designs/ui/components/51-common-components-v1.generation.json"
+        },
+        {
+          "output": "assets/ui/controls/primary-disabled.png",
+          "sha256": "50eefaee2e8cdca171361b6c861eadb2ad1b664b772261f0c68690cb94b36490",
+          "derivation": "assets/ui/controls/primary-disabled.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "primary-disabled transparent native control"
+        },
+        {
+          "output": "assets/ui/controls/secondary-normal.png",
+          "sha256": "9ba4a890ce8dc82f27a3468a1b8aad4586920da8111a35bc63ad1b801c93bd3d",
+          "derivation": "assets/ui/controls/secondary-normal.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "secondary-normal transparent native control"
+        },
+        {
+          "pageId": "03-classic-select",
+          "output": "designs/ui/core/03-classic-select-v1.png",
+          "sha256": "80af01c640dc92242ce3f0b9ec3e5efdba758109a423cf0ace21ad2843cf624a",
+          "generation": "designs/ui/core/03-classic-select-v1.generation.json",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "已绘主页面作为状态背景和位置依据"
+        }
+      ],
+      "evidence": {
+        "method": "verified_shared_component_reuse",
+        "reviewer": "core_qa",
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "standaloneFullPageRendered": false,
+        "implementationStatus": "design_only_not_implemented",
+        "nativeTextAndDataReplacements": {
+          "status": "暂未开放",
+          "action": "查看条件",
+          "reason": "该玩法暂未开放，请选择其他玩法。"
+        },
+        "note": "实际查看并核验共享图板、指定控件和主页面，定义原生文字/数据替换及行为；未另行合成整屏。"
+      },
+      "visibleInMainImage": false,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "03-classic-select",
+      "title": "经典玩法选择",
+      "state": "规则提示",
+      "coverage": "shared_component",
+      "status": "design_ready_user_review",
+      "image": null,
+      "stateSpec": "designs/ui/core/03-classic-select.states.json",
+      "copy": [
+        "玩法规则",
+        "知道了"
+      ],
+      "behavior": [
+        "打开当前玩法说明，关闭后保留原先选中项。"
+      ],
+      "disabledReasons": [],
+      "dependencies": [
+        {
+          "pageId": "51-common-components",
+          "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+          "output": "designs/ui/components/51-common-components-v1.png",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "第6行第1项空白米白面板、第3行标题牌、第6行第2项关闭按钮、第1行默认主按钮",
+          "sourceStatus": "design_ready_user_review",
+          "stateSpec": "designs/ui/components/51-common-components.states.json",
+          "generation": "designs/ui/components/51-common-components-v1.generation.json"
+        },
+        {
+          "output": "assets/ui/controls/panel.png",
+          "sha256": "8cea325f107b9dae1b16addf4d4c5b3987defc6fef98dc89d65b0108c1321d6a",
+          "derivation": "assets/ui/controls/panel.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "panel transparent native control"
+        },
+        {
+          "output": "assets/ui/controls/title-primary.png",
+          "sha256": "08b86b529771c2b9ba5c968b04aa3dc4bb2806f4f9bccb311fd2a3f66c61629e",
+          "derivation": "assets/ui/controls/title-primary.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "title-primary transparent native control"
+        },
+        {
+          "output": "assets/ui/controls/primary-normal.png",
+          "sha256": "a2aa9afff3b9ef559a23ddef8d1b991691c09a609b7ea96b453c56c586b5f021",
+          "derivation": "assets/ui/controls/primary-normal.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "primary-normal transparent native control"
+        },
+        {
+          "output": "assets/ui/controls/close.png",
+          "sha256": "27d1ff0f868a0a167bb6a8bb1ee56fdfda0e5af4da37d9e775908860646a5731",
+          "derivation": "assets/ui/controls/close.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "close transparent native control"
+        },
+        {
+          "pageId": "03-classic-select",
+          "output": "designs/ui/core/03-classic-select-v1.png",
+          "sha256": "80af01c640dc92242ce3f0b9ec3e5efdba758109a423cf0ace21ad2843cf624a",
+          "generation": "designs/ui/core/03-classic-select-v1.generation.json",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "已绘主页面作为状态背景和位置依据"
+        }
+      ],
+      "evidence": {
+        "method": "verified_shared_component_reuse",
+        "reviewer": "core_qa",
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "standaloneFullPageRendered": false,
+        "implementationStatus": "design_only_not_implemented",
+        "nativeTextAndDataReplacements": {
+          "title": "玩法规则",
+          "body": "3人对局，地主20张、农民各17张，地主先出。相同牌型按点数比较；炸弹可压普通牌型，王炸最大。地主先出完获胜，否则农民获胜。叫地主、加倍与封顶按本房间设置。",
+          "primaryAction": "知道了"
+        },
+        "note": "实际查看并核验共享图板、指定控件和主页面，定义原生文字/数据替换及行为；未另行合成整屏。"
+      },
+      "visibleInMainImage": false,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "04-stakes-select",
+      "title": "场次选择",
+      "state": "可进入",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/04-stakes-select-v1.png",
+      "stateSpec": "designs/ui/core/04-stakes-select.states.json",
+      "copy": [
+        "新手场",
+        "初级场",
+        "中级场",
+        "高级场",
+        "底分",
+        "准入",
+        "封顶",
+        "快速开始"
+      ],
+      "behavior": [
+        "四类场次展示进入条件；当前选中初级场，可进入并开始匹配。"
+      ],
+      "disabledReasons": [],
+      "dependencies": [],
+      "evidence": {
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "method": "view_image",
+        "note": "新手/初级/中级卡显示可用的进入按钮，初级选中，快速开始可辨。",
+        "imageSha256": "7a4b773165ad7973a207477175594d9f5979930a82d8ed0873048cc9b3bb6e6e",
+        "reviewer": "core_qa"
+      },
+      "visibleInMainImage": true,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "04-stakes-select",
+      "title": "场次选择",
+      "state": "资源不足",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/04-stakes-select-v1.png",
+      "stateSpec": "designs/ui/core/04-stakes-select.states.json",
+      "copy": [
+        "高级场",
+        "金豆不足"
+      ],
+      "behavior": [
+        "本画面的资源不足状态为高级场卡片弱化、锁图标及禁用按钮；点击时不进入匹配。"
+      ],
+      "disabledReasons": [
+        "当前示意金豆12,800低于高级场入场门槛20,000。"
+      ],
+      "dependencies": [],
+      "evidence": {
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "method": "view_image",
+        "note": "高级卡灰化，右上锁图标，底部按钮文字为金豆不足。",
+        "imageSha256": "7a4b773165ad7973a207477175594d9f5979930a82d8ed0873048cc9b3bb6e6e",
+        "reviewer": "core_qa"
+      },
+      "visibleInMainImage": true,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "04-stakes-select",
+      "title": "场次选择",
+      "state": "推荐",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/04-stakes-select-v1.png",
+      "stateSpec": "designs/ui/core/04-stakes-select.states.json",
+      "copy": [
+        "推荐"
+      ],
+      "behavior": [
+        "在建议场次标推荐标签；推荐不替代选中态，可自由选择其他可进入场次。"
+      ],
+      "disabledReasons": [],
+      "dependencies": [],
+      "evidence": {
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "method": "view_image",
+        "note": "初级卡右上角实际画有橙红推荐标签。",
+        "imageSha256": "7a4b773165ad7973a207477175594d9f5979930a82d8ed0873048cc9b3bb6e6e",
+        "reviewer": "core_qa"
+      },
+      "visibleInMainImage": true,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "05-matchmaking",
+      "title": "匹配等待",
+      "state": "匹配中",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/05-matchmaking-v1.png",
+      "stateSpec": "designs/ui/core/05-matchmaking.states.json",
+      "copy": [
+        "正在匹配",
+        "正在寻找牌友…",
+        "等待时间",
+        "经典玩法 · 初级场",
+        "取消匹配"
+      ],
+      "behavior": [
+        "显示匹配进度、耗时和规则摘要；取消入口保持可识别。"
+      ],
+      "disabledReasons": [],
+      "dependencies": [],
+      "evidence": {
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "imageSha256": "50e241523f4b0bffc69f72e5de08425dec95ab4cfd4c3679bea951cd54477003",
+        "note": "本人已就位，两席寻找中，已等待00:08及取消匹配同时可见。",
+        "method": "view_image",
+        "reviewer": "core_qa"
+      },
+      "visibleInMainImage": true,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "05-matchmaking",
+      "title": "匹配等待",
+      "state": "取消",
+      "coverage": "shared_component",
+      "status": "design_ready_user_review",
+      "image": null,
+      "stateSpec": "designs/ui/core/05-matchmaking.states.json",
+      "copy": [
+        "已取消匹配",
+        "返回"
+      ],
+      "behavior": [
+        "取消成功后返回来源页面；从快速开始进入时回大厅，从场次选择进入时回场次页。"
+      ],
+      "disabledReasons": [],
+      "dependencies": [
+        {
+          "pageId": "51-common-components",
+          "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+          "output": "designs/ui/components/51-common-components-v1.png",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "第6行第1项空白面板、第3行标题牌、第1行默认主按钮",
+          "sourceStatus": "design_ready_user_review",
+          "stateSpec": "designs/ui/components/51-common-components.states.json",
+          "generation": "designs/ui/components/51-common-components-v1.generation.json"
+        },
+        {
+          "output": "assets/ui/controls/panel.png",
+          "sha256": "8cea325f107b9dae1b16addf4d4c5b3987defc6fef98dc89d65b0108c1321d6a",
+          "derivation": "assets/ui/controls/panel.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "panel transparent native control"
+        },
+        {
+          "output": "assets/ui/controls/title-primary.png",
+          "sha256": "08b86b529771c2b9ba5c968b04aa3dc4bb2806f4f9bccb311fd2a3f66c61629e",
+          "derivation": "assets/ui/controls/title-primary.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "title-primary transparent native control"
+        },
+        {
+          "output": "assets/ui/controls/primary-normal.png",
+          "sha256": "a2aa9afff3b9ef559a23ddef8d1b991691c09a609b7ea96b453c56c586b5f021",
+          "derivation": "assets/ui/controls/primary-normal.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "primary-normal transparent native control"
+        },
+        {
+          "pageId": "05-matchmaking",
+          "output": "designs/ui/core/05-matchmaking-v1.png",
+          "sha256": "50e241523f4b0bffc69f72e5de08425dec95ab4cfd4c3679bea951cd54477003",
+          "generation": "designs/ui/core/05-matchmaking-v1.generation.json",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "已绘主页面作为状态背景和位置依据"
+        }
+      ],
+      "evidence": {
+        "method": "verified_shared_component_reuse",
+        "reviewer": "core_qa",
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "standaloneFullPageRendered": false,
+        "implementationStatus": "design_only_not_implemented",
+        "nativeTextAndDataReplacements": {
+          "title": "匹配已取消",
+          "body": "已停止寻找牌友",
+          "primaryAction": "返回"
+        },
+        "note": "实际查看并核验共享图板、指定控件和主页面，定义原生文字/数据替换及行为；未另行合成整屏。"
+      },
+      "visibleInMainImage": false,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "05-matchmaking",
+      "title": "匹配等待",
+      "state": "超时重试",
+      "coverage": "shared_component",
+      "status": "design_ready_user_review",
+      "image": null,
+      "stateSpec": "designs/ui/core/05-matchmaking.states.json",
+      "copy": [
+        "匹配超时，请重试",
+        "重新匹配",
+        "返回"
+      ],
+      "behavior": [
+        "超时后停止增长式等待反馈，允许重试或退出。"
+      ],
+      "disabledReasons": [],
+      "dependencies": [
+        {
+          "pageId": "50-shared-dialogs",
+          "sha256": "45d20f3f85aa8fd8133b8665f1962f8d7e7b06a7cf3b7d41799837cf689598f7",
+          "output": "designs/ui/components/50-shared-dialogs-v1.png",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "D01 警告与双按钮",
+          "sourceStatus": "design_ready_user_review",
+          "stateSpec": "designs/ui/components/50-shared-dialogs.states.json",
+          "generation": "designs/ui/components/50-shared-dialogs-v1.generation.json"
+        },
+        {
+          "output": "assets/ui/controls/primary-normal.png",
+          "sha256": "a2aa9afff3b9ef559a23ddef8d1b991691c09a609b7ea96b453c56c586b5f021",
+          "derivation": "assets/ui/controls/primary-normal.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "primary-normal transparent native control"
+        },
+        {
+          "output": "assets/ui/controls/secondary-normal.png",
+          "sha256": "9ba4a890ce8dc82f27a3468a1b8aad4586920da8111a35bc63ad1b801c93bd3d",
+          "derivation": "assets/ui/controls/secondary-normal.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "secondary-normal transparent native control"
+        },
+        {
+          "pageId": "05-matchmaking",
+          "output": "designs/ui/core/05-matchmaking-v1.png",
+          "sha256": "50e241523f4b0bffc69f72e5de08425dec95ab4cfd4c3679bea951cd54477003",
+          "generation": "designs/ui/core/05-matchmaking-v1.generation.json",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "已绘主页面作为状态背景和位置依据"
+        }
+      ],
+      "evidence": {
+        "method": "verified_shared_component_reuse",
+        "reviewer": "core_qa",
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "standaloneFullPageRendered": false,
+        "implementationStatus": "design_only_not_implemented",
+        "nativeTextAndDataReplacements": {
+          "title": "匹配超时",
+          "body": "等待时间较长，请重新匹配",
+          "secondaryAction": "返回",
+          "primaryAction": "重新匹配"
+        },
+        "note": "实际查看并核验共享图板、指定控件和主页面，定义原生文字/数据替换及行为；未另行合成整屏。"
+      },
+      "visibleInMainImage": false,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "06-friend-room-entry",
+      "title": "好友同玩入口",
+      "state": "正常",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/06-friend-room-entry-v1.png",
+      "stateSpec": "designs/ui/core/06-friend-room-entry.states.json",
+      "copy": [
+        "好友同玩",
+        "创建房间",
+        "加入房间",
+        "最近房间",
+        "返回大厅"
+      ],
+      "behavior": [
+        "创建、加入入口并列；最近房间展示可识别摘要，不保证历史房间仍可加入。"
+      ],
+      "disabledReasons": [],
+      "dependencies": [],
+      "evidence": {
+        "method": "view_image",
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "imageSha256": "8c347b82767eca01f40ad50d52b5a53ba0583ea624ed2f32f988531c1aba70b1",
+        "note": "两入口卡、最近房间120816记录和进入按钮实际可见。",
+        "reviewer": "core_qa"
+      },
+      "visibleInMainImage": true,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "06-friend-room-entry",
+      "title": "好友同玩入口",
+      "state": "无最近房间",
+      "coverage": "shared_component",
+      "status": "design_ready_user_review",
+      "image": null,
+      "stateSpec": "designs/ui/core/06-friend-room-entry.states.json",
+      "copy": [
+        "暂无最近房间",
+        "创建房间",
+        "加入房间"
+      ],
+      "behavior": [
+        "最近房间为空时显示空态，创建/加入入口继续可用。"
+      ],
+      "disabledReasons": [],
+      "dependencies": [
+        {
+          "pageId": "50-shared-dialogs",
+          "sha256": "45d20f3f85aa8fd8133b8665f1962f8d7e7b06a7cf3b7d41799837cf689598f7",
+          "output": "designs/ui/components/50-shared-dialogs-v1.png",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "D06 暂无内容：卷轴葫芦空态、正文与返回按钮",
+          "sourceStatus": "design_ready_user_review",
+          "stateSpec": "designs/ui/components/50-shared-dialogs.states.json",
+          "generation": "designs/ui/components/50-shared-dialogs-v1.generation.json"
+        },
+        {
+          "pageId": "06-friend-room-entry",
+          "output": "designs/ui/core/06-friend-room-entry-v1.png",
+          "sha256": "8c347b82767eca01f40ad50d52b5a53ba0583ea624ed2f32f988531c1aba70b1",
+          "generation": "designs/ui/core/06-friend-room-entry-v1.generation.json",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "已绘主页面作为状态背景和位置依据"
+        }
+      ],
+      "evidence": {
+        "method": "verified_shared_component_reuse",
+        "reviewer": "core_qa",
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "standaloneFullPageRendered": false,
+        "implementationStatus": "design_only_not_implemented",
+        "nativeTextAndDataReplacements": {
+          "regionTitle": "最近房间",
+          "body": "暂无最近房间",
+          "retainedActions": [
+            "创建",
+            "加入"
+          ]
+        },
+        "note": "实际查看并核验共享图板、指定控件和主页面，定义原生文字/数据替换及行为；未另行合成整屏。"
+      },
+      "visibleInMainImage": false,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "07-create-room",
+      "title": "创建房间",
+      "state": "选中",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/07-create-room-v1.png",
+      "stateSpec": "designs/ui/core/07-create-room.states.json",
+      "copy": [
+        "创建房间",
+        "经典",
+        "癞子",
+        "局数",
+        "叫地主方式",
+        "加倍",
+        "封顶"
+      ],
+      "behavior": [
+        "显示默认规则及单选控件；更改选项更新摘要，不自动创建。"
+      ],
+      "disabledReasons": [],
+      "dependencies": [],
+      "evidence": {
+        "method": "view_image",
+        "imageSha256": "5c98b35f7fec58d49592a9cfb956e540c6ab46fd4c31a4421020476d0e1bf398",
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "note": "五组选项均存在明确的玉绿高亮与勾号，底部摘要一致。",
+        "reviewer": "core_qa"
+      },
+      "visibleInMainImage": true,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "07-create-room",
+      "title": "创建房间",
+      "state": "可创建",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/07-create-room-v1.png",
+      "stateSpec": "designs/ui/core/07-create-room.states.json",
+      "copy": [
+        "创建房间",
+        "返回"
+      ],
+      "behavior": [
+        "合法规则组合下可提交创建；校验通过后进入等待房间。"
+      ],
+      "disabledReasons": [],
+      "dependencies": [],
+      "evidence": {
+        "method": "view_image",
+        "imageSha256": "5c98b35f7fec58d49592a9cfb956e540c6ab46fd4c31a4421020476d0e1bf398",
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "note": "右下创建房间按钮为清晰正常主按钮；无错误、禁用或创建中遮罩。",
+        "reviewer": "core_qa"
+      },
+      "visibleInMainImage": true,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "07-create-room",
+      "title": "创建房间",
+      "state": "创建失败",
+      "coverage": "shared_component",
+      "status": "design_ready_user_review",
+      "image": null,
+      "stateSpec": "designs/ui/core/07-create-room.states.json",
+      "copy": [
+        "创建失败，请重试",
+        "重试",
+        "返回"
+      ],
+      "behavior": [
+        "保留已选择规则供重试；显示可理解的失败反馈。"
+      ],
+      "disabledReasons": [],
+      "dependencies": [
+        {
+          "pageId": "50-shared-dialogs",
+          "sha256": "45d20f3f85aa8fd8133b8665f1962f8d7e7b06a7cf3b7d41799837cf689598f7",
+          "output": "designs/ui/components/50-shared-dialogs-v1.png",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "D01 通用警告与双按钮",
+          "sourceStatus": "design_ready_user_review",
+          "stateSpec": "designs/ui/components/50-shared-dialogs.states.json",
+          "generation": "designs/ui/components/50-shared-dialogs-v1.generation.json"
+        },
+        {
+          "output": "assets/ui/controls/primary-normal.png",
+          "sha256": "a2aa9afff3b9ef559a23ddef8d1b991691c09a609b7ea96b453c56c586b5f021",
+          "derivation": "assets/ui/controls/primary-normal.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "primary-normal transparent native control"
+        },
+        {
+          "output": "assets/ui/controls/secondary-normal.png",
+          "sha256": "9ba4a890ce8dc82f27a3468a1b8aad4586920da8111a35bc63ad1b801c93bd3d",
+          "derivation": "assets/ui/controls/secondary-normal.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "secondary-normal transparent native control"
+        },
+        {
+          "pageId": "07-create-room",
+          "output": "designs/ui/core/07-create-room-v1.png",
+          "sha256": "5c98b35f7fec58d49592a9cfb956e540c6ab46fd4c31a4421020476d0e1bf398",
+          "generation": "designs/ui/core/07-create-room-v1.generation.json",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "已绘主页面作为状态背景和位置依据"
+        }
+      ],
+      "evidence": {
+        "method": "verified_shared_component_reuse",
+        "reviewer": "core_qa",
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "standaloneFullPageRendered": false,
+        "implementationStatus": "design_only_not_implemented",
+        "nativeTextAndDataReplacements": {
+          "title": "创建失败",
+          "body": "房间创建未成功，请重试",
+          "secondaryAction": "返回",
+          "primaryAction": "重试"
+        },
+        "note": "实际查看并核验共享图板、指定控件和主页面，定义原生文字/数据替换及行为；未另行合成整屏。"
+      },
+      "visibleInMainImage": false,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "08-join-room",
+      "title": "加入房间",
+      "state": "输入中",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/08-join-room-v1.png",
+      "stateSpec": "designs/ui/core/08-join-room.states.json",
+      "copy": [
+        "加入房间",
+        "请输入6位房号",
+        "1208（后2格空白）",
+        "清空",
+        "删除",
+        "输入完整房号后加入"
+      ],
+      "behavior": [
+        "六格中前四格为1、2、0、8，最后两格留空；数字键盘输入与删除同步刷新；完整示意房号为120816。"
+      ],
+      "disabledReasons": [
+        "只输入4位，未满6位；画面实际提示“输入完整房号后加入”。"
+      ],
+      "dependencies": [],
+      "evidence": {
+        "method": "view_image",
+        "note": "六格实际为1/2/0/8/焦点空格/空格，键盘完整，加入房间灰色并显示输入完整房号后加入。",
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "imageSha256": "fac53d5dd2c30bf2fd7d5d287e6244f4a133a3a5281b13df9bb5e9b4a3782aad",
+        "reviewer": "core_qa"
+      },
+      "visibleInMainImage": true,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "08-join-room",
+      "title": "加入房间",
+      "state": "房号错误",
+      "coverage": "shared_component",
+      "status": "design_ready_user_review",
+      "image": null,
+      "stateSpec": "designs/ui/core/08-join-room.states.json",
+      "copy": [
+        "房号错误，请重新输入",
+        "重新输入"
+      ],
+      "behavior": [
+        "保留或选中原房号供修改；不误报房间已加入。"
+      ],
+      "disabledReasons": [],
+      "dependencies": [
+        {
+          "pageId": "50-shared-dialogs",
+          "sha256": "45d20f3f85aa8fd8133b8665f1962f8d7e7b06a7cf3b7d41799837cf689598f7",
+          "output": "designs/ui/components/50-shared-dialogs-v1.png",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "D01 通用警告与双按钮",
+          "sourceStatus": "design_ready_user_review",
+          "stateSpec": "designs/ui/components/50-shared-dialogs.states.json",
+          "generation": "designs/ui/components/50-shared-dialogs-v1.generation.json"
+        },
+        {
+          "output": "assets/ui/controls/primary-normal.png",
+          "sha256": "a2aa9afff3b9ef559a23ddef8d1b991691c09a609b7ea96b453c56c586b5f021",
+          "derivation": "assets/ui/controls/primary-normal.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "primary-normal transparent native control"
+        },
+        {
+          "output": "assets/ui/controls/secondary-normal.png",
+          "sha256": "9ba4a890ce8dc82f27a3468a1b8aad4586920da8111a35bc63ad1b801c93bd3d",
+          "derivation": "assets/ui/controls/secondary-normal.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "secondary-normal transparent native control"
+        },
+        {
+          "pageId": "08-join-room",
+          "output": "designs/ui/core/08-join-room-v1.png",
+          "sha256": "fac53d5dd2c30bf2fd7d5d287e6244f4a133a3a5281b13df9bb5e9b4a3782aad",
+          "generation": "designs/ui/core/08-join-room-v1.generation.json",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "已绘主页面作为状态背景和位置依据"
+        }
+      ],
+      "evidence": {
+        "method": "verified_shared_component_reuse",
+        "reviewer": "core_qa",
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "standaloneFullPageRendered": false,
+        "implementationStatus": "design_only_not_implemented",
+        "nativeTextAndDataReplacements": {
+          "title": "房号错误",
+          "body": "请核对6位房号后重试",
+          "secondaryAction": "返回",
+          "primaryAction": "重新输入"
+        },
+        "note": "实际查看并核验共享图板、指定控件和主页面，定义原生文字/数据替换及行为；未另行合成整屏。"
+      },
+      "visibleInMainImage": false,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "08-join-room",
+      "title": "加入房间",
+      "state": "已满",
+      "coverage": "shared_component",
+      "status": "design_ready_user_review",
+      "image": null,
+      "stateSpec": "designs/ui/core/08-join-room.states.json",
+      "copy": [
+        "房间已满",
+        "重新输入",
+        "返回"
+      ],
+      "behavior": [
+        "告知该房间无空位，允许更换房号或返回。"
+      ],
+      "disabledReasons": [
+        "目标房间没有空位。"
+      ],
+      "dependencies": [
+        {
+          "pageId": "50-shared-dialogs",
+          "sha256": "45d20f3f85aa8fd8133b8665f1962f8d7e7b06a7cf3b7d41799837cf689598f7",
+          "output": "designs/ui/components/50-shared-dialogs-v1.png",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "D01 通用警告与双按钮",
+          "sourceStatus": "design_ready_user_review",
+          "stateSpec": "designs/ui/components/50-shared-dialogs.states.json",
+          "generation": "designs/ui/components/50-shared-dialogs-v1.generation.json"
+        },
+        {
+          "output": "assets/ui/controls/primary-normal.png",
+          "sha256": "a2aa9afff3b9ef559a23ddef8d1b991691c09a609b7ea96b453c56c586b5f021",
+          "derivation": "assets/ui/controls/primary-normal.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "primary-normal transparent native control"
+        },
+        {
+          "output": "assets/ui/controls/secondary-normal.png",
+          "sha256": "9ba4a890ce8dc82f27a3468a1b8aad4586920da8111a35bc63ad1b801c93bd3d",
+          "derivation": "assets/ui/controls/secondary-normal.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "secondary-normal transparent native control"
+        },
+        {
+          "pageId": "08-join-room",
+          "output": "designs/ui/core/08-join-room-v1.png",
+          "sha256": "fac53d5dd2c30bf2fd7d5d287e6244f4a133a3a5281b13df9bb5e9b4a3782aad",
+          "generation": "designs/ui/core/08-join-room-v1.generation.json",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "已绘主页面作为状态背景和位置依据"
+        }
+      ],
+      "evidence": {
+        "method": "verified_shared_component_reuse",
+        "reviewer": "core_qa",
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "standaloneFullPageRendered": false,
+        "implementationStatus": "design_only_not_implemented",
+        "nativeTextAndDataReplacements": {
+          "title": "房间已满",
+          "body": "当前房间没有空位，请更换房号",
+          "secondaryAction": "返回",
+          "primaryAction": "重新输入"
+        },
+        "note": "实际查看并核验共享图板、指定控件和主页面，定义原生文字/数据替换及行为；未另行合成整屏。"
+      },
+      "visibleInMainImage": false,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "08-join-room",
+      "title": "加入房间",
+      "state": "已结束",
+      "coverage": "shared_component",
+      "status": "design_ready_user_review",
+      "image": null,
+      "stateSpec": "designs/ui/core/08-join-room.states.json",
+      "copy": [
+        "房间已结束",
+        "重新输入",
+        "返回"
+      ],
+      "behavior": [
+        "告知房间不可加入，允许更换房号。"
+      ],
+      "disabledReasons": [
+        "目标房间已经结束。"
+      ],
+      "dependencies": [
+        {
+          "pageId": "50-shared-dialogs",
+          "sha256": "45d20f3f85aa8fd8133b8665f1962f8d7e7b06a7cf3b7d41799837cf689598f7",
+          "output": "designs/ui/components/50-shared-dialogs-v1.png",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "D01 通用警告与双按钮",
+          "sourceStatus": "design_ready_user_review",
+          "stateSpec": "designs/ui/components/50-shared-dialogs.states.json",
+          "generation": "designs/ui/components/50-shared-dialogs-v1.generation.json"
+        },
+        {
+          "output": "assets/ui/controls/primary-normal.png",
+          "sha256": "a2aa9afff3b9ef559a23ddef8d1b991691c09a609b7ea96b453c56c586b5f021",
+          "derivation": "assets/ui/controls/primary-normal.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "primary-normal transparent native control"
+        },
+        {
+          "output": "assets/ui/controls/secondary-normal.png",
+          "sha256": "9ba4a890ce8dc82f27a3468a1b8aad4586920da8111a35bc63ad1b801c93bd3d",
+          "derivation": "assets/ui/controls/secondary-normal.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "secondary-normal transparent native control"
+        },
+        {
+          "pageId": "08-join-room",
+          "output": "designs/ui/core/08-join-room-v1.png",
+          "sha256": "fac53d5dd2c30bf2fd7d5d287e6244f4a133a3a5281b13df9bb5e9b4a3782aad",
+          "generation": "designs/ui/core/08-join-room-v1.generation.json",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "已绘主页面作为状态背景和位置依据"
+        }
+      ],
+      "evidence": {
+        "method": "verified_shared_component_reuse",
+        "reviewer": "core_qa",
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "standaloneFullPageRendered": false,
+        "implementationStatus": "design_only_not_implemented",
+        "nativeTextAndDataReplacements": {
+          "title": "房间已结束",
+          "body": "该房间已结束，请更换房号",
+          "secondaryAction": "返回",
+          "primaryAction": "重新输入"
+        },
+        "note": "实际查看并核验共享图板、指定控件和主页面，定义原生文字/数据替换及行为；未另行合成整屏。"
+      },
+      "visibleInMainImage": false,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "09-room-waiting",
+      "title": "好友房等待",
+      "state": "空座",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/09-room-waiting-v1.png",
+      "stateSpec": "designs/ui/core/09-room-waiting.states.json",
+      "copy": [
+        "等待牌友",
+        "邀请好友",
+        "房间号 120816"
+      ],
+      "behavior": [
+        "三座席中保留一空位，以邀请入口承接好友页。"
+      ],
+      "disabledReasons": [
+        "未满3人时房主开始按钮禁用。"
+      ],
+      "dependencies": [],
+      "evidence": {
+        "note": "右侧第3张卡显示加号、空闲座位及邀请好友按钮。",
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "imageSha256": "43dad2058f52739f80bf7ebf5273e7317cda4b563e0f7fbc49ccde20f11c868a",
+        "method": "view_image",
+        "reviewer": "core_qa"
+      },
+      "visibleInMainImage": true,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "09-room-waiting",
+      "title": "好友房等待",
+      "state": "未准备",
+      "coverage": "shared_component",
+      "status": "design_ready_user_review",
+      "image": null,
+      "stateSpec": "designs/ui/core/09-room-waiting.states.json",
+      "copy": [
+        "未准备",
+        "准备"
+      ],
+      "behavior": [
+        "已入座但未准备的玩家显示未准备，本人可点击准备。"
+      ],
+      "disabledReasons": [
+        "尚有玩家未准备时不能开始。"
+      ],
+      "dependencies": [
+        {
+          "output": "designs/ui/components/51-common-components-v1.png",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "stateSpec": "designs/ui/components/51-common-components.states.json",
+          "generation": "designs/ui/components/51-common-components-v1.generation.json",
+          "verificationStatus": "file_record_and_visual_verified",
+          "locator": "第2行第1项米白默认按钮作为未准备状态底，第1行第1项玉绿默认按钮作为准备操作",
+          "verifiedFiles": true,
+          "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+          "pageId": "51-common-components",
+          "method": "view_image and SHA256 comparison"
+        },
+        {
+          "note": "复用已画房间席位布局；该图中的已准备不是未准备态证据。",
+          "output": "designs/ui/core/09-room-waiting-v1.png",
+          "pageId": "09-room-waiting",
+          "verificationStatus": "file_record_and_visual_verified",
+          "sha256": "43dad2058f52739f80bf7ebf5273e7317cda4b563e0f7fbc49ccde20f11c868a",
+          "verifiedFiles": true,
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison"
+        },
+        {
+          "output": "assets/ui/controls/secondary-normal.png",
+          "sha256": "9ba4a890ce8dc82f27a3468a1b8aad4586920da8111a35bc63ad1b801c93bd3d",
+          "derivation": "assets/ui/controls/secondary-normal.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "secondary-normal transparent native control"
+        },
+        {
+          "output": "assets/ui/controls/primary-normal.png",
+          "sha256": "a2aa9afff3b9ef559a23ddef8d1b991691c09a609b7ea96b453c56c586b5f021",
+          "derivation": "assets/ui/controls/primary-normal.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "primary-normal transparent native control"
+        },
+        {
+          "output": "assets/ui/controls/primary-disabled.png",
+          "sha256": "50eefaee2e8cdca171361b6c861eadb2ad1b664b772261f0c68690cb94b36490",
+          "derivation": "assets/ui/controls/primary-disabled.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "primary-disabled transparent native control"
+        }
+      ],
+      "evidence": {
+        "method": "verified_shared_component_reuse",
+        "reviewer": "core_qa",
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "standaloneFullPageRendered": false,
+        "implementationStatus": "design_only_not_implemented",
+        "nativeTextAndDataReplacements": {
+          "startDisabledReason": "等待所有玩家准备",
+          "selfAction": "准备",
+          "seatStatus": "未准备"
+        },
+        "note": "实际查看并核验共享图板、指定控件和主页面，定义原生文字/数据替换及行为；未另行合成整屏。"
+      },
+      "visibleInMainImage": false,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "09-room-waiting",
+      "title": "好友房等待",
+      "state": "已准备",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/09-room-waiting-v1.png",
+      "stateSpec": "designs/ui/core/09-room-waiting.states.json",
+      "copy": [
+        "已准备",
+        "取消准备"
+      ],
+      "behavior": [
+        "已准备玩家显示状态；是否允许取消准备由房间规则确定。"
+      ],
+      "disabledReasons": [],
+      "dependencies": [],
+      "evidence": {
+        "note": "道友和花间客两席均有绿色勾号与已准备文字，底部取消准备可见。",
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "imageSha256": "43dad2058f52739f80bf7ebf5273e7317cda4b563e0f7fbc49ccde20f11c868a",
+        "method": "view_image",
+        "reviewer": "core_qa"
+      },
+      "visibleInMainImage": true,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "09-room-waiting",
+      "title": "好友房等待",
+      "state": "房主",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/09-room-waiting-v1.png",
+      "stateSpec": "designs/ui/core/09-room-waiting.states.json",
+      "copy": [
+        "房主",
+        "开始游戏",
+        "离开房间"
+      ],
+      "behavior": [
+        "房主身份与对局地主身份区分；只有房主可操作开始，且需满足人数和准备条件。"
+      ],
+      "disabledReasons": [
+        "人数不足或尚有人未准备时开始按钮禁用；非房主没有开始权限。"
+      ],
+      "dependencies": [],
+      "evidence": {
+        "note": "道友卡有金色房主、绿色自己标签，开始游戏灰色并说明等待3人到齐。",
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "imageSha256": "43dad2058f52739f80bf7ebf5273e7317cda4b563e0f7fbc49ccde20f11c868a",
+        "method": "view_image",
+        "reviewer": "core_qa"
+      },
+      "visibleInMainImage": true,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "10-invite-friends",
+      "title": "邀请好友",
+      "state": "可邀请",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/10-invite-friends-v1.png",
+      "stateSpec": "designs/ui/core/10-invite-friends.states.json",
+      "copy": [
+        "邀请好友",
+        "搜索好友",
+        "在线",
+        "离线",
+        "邀请",
+        "分享房间"
+      ],
+      "behavior": [
+        "展示好友昵称、头像及在线状态；可邀请好友的按钮明确；搜索可筛选列表。"
+      ],
+      "disabledReasons": [
+        "离线行邀请入口弱化/禁用，离线是否可推送邀请待业务确认。"
+      ],
+      "dependencies": [],
+      "evidence": {
+        "note": "山间客行显示在线绿点及正常玉绿邀请按钮。",
+        "method": "view_image",
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "imageSha256": "df93dd0ddaea2cef938ff50880ecbe007b084c6d4168b05a06f3dfc6ffda1f05",
+        "reviewer": "core_qa"
+      },
+      "visibleInMainImage": true,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "10-invite-friends",
+      "title": "邀请好友",
+      "state": "已邀请",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/10-invite-friends-v1.png",
+      "stateSpec": "designs/ui/core/10-invite-friends.states.json",
+      "copy": [
+        "已邀请",
+        "邀请已发送"
+      ],
+      "behavior": [
+        "同一好友收到邀请反馈后行内按钮切换已邀请；重邀冷却规则待确认。"
+      ],
+      "disabledReasons": [
+        "邀请已发送，短时防止重复提交。"
+      ],
+      "dependencies": [],
+      "evidence": {
+        "note": "花间客行显示在线绿点及灰绿色已邀请按钮。",
+        "method": "view_image",
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "imageSha256": "df93dd0ddaea2cef938ff50880ecbe007b084c6d4168b05a06f3dfc6ffda1f05",
+        "reviewer": "core_qa"
+      },
+      "visibleInMainImage": true,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "10-invite-friends",
+      "title": "邀请好友",
+      "state": "无在线好友",
+      "coverage": "shared_component",
+      "status": "design_ready_user_review",
+      "image": null,
+      "stateSpec": "designs/ui/core/10-invite-friends.states.json",
+      "copy": [
+        "暂无在线好友",
+        "分享房间"
+      ],
+      "behavior": [
+        "保留搜索和分享入口，离线好友可继续显示；不能以空好友列表替代无在线好友的语义。"
+      ],
+      "disabledReasons": [],
+      "dependencies": [
+        {
+          "pageId": "50-shared-dialogs",
+          "sha256": "45d20f3f85aa8fd8133b8665f1962f8d7e7b06a7cf3b7d41799837cf689598f7",
+          "output": "designs/ui/components/50-shared-dialogs-v1.png",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "D06 暂无内容空态",
+          "sourceStatus": "design_ready_user_review",
+          "stateSpec": "designs/ui/components/50-shared-dialogs.states.json",
+          "generation": "designs/ui/components/50-shared-dialogs-v1.generation.json"
+        },
+        {
+          "pageId": "51-common-components",
+          "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+          "output": "designs/ui/components/51-common-components-v1.png",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "第1行默认主按钮",
+          "sourceStatus": "design_ready_user_review",
+          "stateSpec": "designs/ui/components/51-common-components.states.json",
+          "generation": "designs/ui/components/51-common-components-v1.generation.json"
+        },
+        {
+          "output": "assets/ui/controls/primary-normal.png",
+          "sha256": "a2aa9afff3b9ef559a23ddef8d1b991691c09a609b7ea96b453c56c586b5f021",
+          "derivation": "assets/ui/controls/primary-normal.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "primary-normal transparent native control"
+        },
+        {
+          "pageId": "10-invite-friends",
+          "output": "designs/ui/core/10-invite-friends-v1.png",
+          "sha256": "df93dd0ddaea2cef938ff50880ecbe007b084c6d4168b05a06f3dfc6ffda1f05",
+          "generation": "designs/ui/core/10-invite-friends-v1.generation.json",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T07:24:53.858275-04:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "已绘主页面作为状态背景和位置依据"
+        }
+      ],
+      "evidence": {
+        "method": "verified_shared_component_reuse",
+        "reviewer": "core_qa",
+        "inspectedAt": "2026-10-26T07:24:53.858275-04:00",
+        "standaloneFullPageRendered": false,
+        "implementationStatus": "design_only_not_implemented",
+        "nativeTextAndDataReplacements": {
+          "title": "邀请好友",
+          "body": "暂无在线好友",
+          "primaryAction": "分享房间"
+        },
+        "note": "实际查看并核验共享图板、指定控件和主页面，定义原生文字/数据替换及行为；未另行合成整屏。"
+      },
+      "visibleInMainImage": false,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "56-offline",
+      "title": "单机练习",
+      "state": "可开始",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/56-offline-v1.png",
+      "stateSpec": "designs/ui/core/56-offline.states.json",
+      "copy": [
+        "单机练习",
+        "返回",
+        "无需网络",
+        "选择难度",
+        "入门",
+        "进阶",
+        "挑战",
+        "练习说明",
+        "与两位电脑牌友对局",
+        "练习不计入排位战绩",
+        "开始练习",
+        "继续上局",
+        "暂无存档"
+      ],
+      "behavior": [
+        "选择一档难度，选中卡显示玉绿底和金勾；点击开始练习进入本地三人对局。",
+        "返回进入大厅；本页无需网络。"
+      ],
+      "disabledReasons": [
+        "无本地存档时继续上局为灰色且不响应点击，说明为暂无存档。"
+      ],
+      "dependencies": [],
+      "evidence": {
+        "inspectedAt": "2026-10-26T07:01:27.816186-04:00",
+        "method": "view_image + SHA-256",
+        "imageSha256": "323cb7a71683cf275e6c02a63392a84d26b6405a9bc4a21623fea59b1806a8bd",
+        "note": "实际主图三张难度卡、入门选中、开始按钮和灰色继续上局均清晰；没有牌桌或结果弹窗，故只计可开始实绘。"
+      },
+      "visibleInMainImage": true,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "56-offline",
+      "title": "单机练习",
+      "state": "进行中",
+      "coverage": "shared_component",
+      "status": "design_ready_user_review",
+      "image": null,
+      "stateSpec": "designs/ui/core/56-offline.states.json",
+      "copy": [
+        "单机练习",
+        "无需网络",
+        "难度：{入门/进阶/挑战}",
+        "电脑·桃花女修",
+        "电脑·葫芦长者",
+        "提示",
+        "出牌",
+        "暂停"
+      ],
+      "behavior": [
+        "复用14已绘制的三人牌桌布局与52牌面皮肤，两个对手绑定本地电脑；按真实牌型和回合更新手牌、底牌及身份。",
+        "顶端模式栏原生文字改为单机练习及所选难度；保留无需网络标识，联网余额和排位数据不进入本局。",
+        "右上设置位置使用51次按钮皮肤和原生文字暂停；点击进入暂停层，手牌与选中牌保留。",
+        "提示/出牌沿用14的点击/选牌反馈，未选择合法牌时出牌禁用；电脑操作与计时由本地回合驱动。"
+      ],
+      "disabledReasons": [
+        "非本方回合或选择无效牌型时出牌不可用；无可压过牌时保留不出选择，不能虚假提交。"
+      ],
+      "dependencies": [
+        {
+          "pageId": "14-play-turn",
+          "output": "designs/ui/table/14-play-turn-v2.png",
+          "generation": "designs/ui/table/14-play-turn-v2.generation.json",
+          "sha256": "7977cb5f4b90af7f5f9108f4cd820681edff0d0f534960bb688699b24edb3728",
+          "region": "完整三人牌桌：中上底牌、两侧电脑座位、下侧本方手牌、中央提示/出牌操作。",
+          "verificationStatus": "verified_by_view_image_and_sha256",
+          "verifiedFiles": true,
+          "verifiedAt": "2026-10-26T07:01:27.816186-04:00",
+          "note": "本轮实际打开图像并核验PNG与generation哈希；仅复用所述现有画面/组件，不宣称离线变体已独立成图。"
+        },
+        {
+          "pageId": "51-common-components",
+          "output": "designs/ui/components/51-common-components-v1.png",
+          "generation": "designs/ui/components/51-common-components-v1.generation.json",
+          "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+          "region": "第一行玉绿按钮、第二行米白按钮、第三行标题牌、底部左侧空白面板。",
+          "verificationStatus": "verified_by_view_image_and_sha256",
+          "verifiedFiles": true,
+          "verifiedAt": "2026-10-26T07:01:27.816186-04:00",
+          "note": "本轮实际打开图像并核验PNG与generation哈希；仅复用所述现有画面/组件，不宣称离线变体已独立成图。"
+        },
+        {
+          "pageId": "52-card-and-effects",
+          "output": "designs/ui/components/52-card-and-effects-v1.png",
+          "generation": "designs/ui/components/52-card-and-effects-v1.generation.json",
+          "sha256": "e8c4302a6d6111f092218681bf36d87ae1dcfeb0f45f58321847d178cb71855e",
+          "region": "四花色/大小王/牌背、地主农民身份、选中牌框，与已有牌桌一致。",
+          "verificationStatus": "verified_by_view_image_and_sha256",
+          "verifiedFiles": true,
+          "verifiedAt": "2026-10-26T07:01:27.816186-04:00",
+          "note": "本轮实际打开图像并核验PNG与generation哈希；仅复用所述现有画面/组件，不宣称离线变体已独立成图。"
+        }
+      ],
+      "evidence": {
+        "inspectedAt": "2026-10-26T07:01:27.816186-04:00",
+        "method": "view_image + SHA-256",
+        "imageSha256": null,
+        "note": "实际查看14-v2和50–52；三人对局画面已绘制。离线差异是上述标题、AI标识及暂停按钮的原生层复用，未生成或合成一张离线进行中PNG。"
+      },
+      "visibleInMainImage": false,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "56-offline",
+      "title": "单机练习",
+      "state": "暂停",
+      "coverage": "shared_component",
+      "status": "design_ready_user_review",
+      "image": null,
+      "stateSpec": "designs/ui/core/56-offline.states.json",
+      "copy": [
+        "练习已暂停",
+        "本地对局已暂停，手牌和当前回合将保留。",
+        "继续练习",
+        "重新开始",
+        "退出练习"
+      ],
+      "behavior": [
+        "在进行中的牌桌上显示50-D01同款中央米白弹窗，标题为练习已暂停；遮罩拦截牌桌点击。",
+        "继续练习为玉绿主按钮；重新开始为米白次按钮；退出练习为弹窗底部原生文字操作。",
+        "关闭和继续均恢复原本地手牌/轮次/计时；暂停期间电脑决策和本地计时停住。",
+        "重新开始触发D01二次确认：重新开始练习？/本局进度将被重置。/取消/重新开始；确认后同难度重开。",
+        "退出触发D01二次确认：退出本次练习？/本局进度将不会保存。/取消/退出；确认回到难度页。"
+      ],
+      "disabledReasons": [
+        "暂停遮罩期间手牌、提示、出牌和电脑轮次操作禁用，必须继续或明确退出。"
+      ],
+      "dependencies": [
+        {
+          "pageId": "50-shared-dialogs",
+          "output": "designs/ui/components/50-shared-dialogs-v1.png",
+          "generation": "designs/ui/components/50-shared-dialogs-v1.generation.json",
+          "sha256": "45d20f3f85aa8fd8133b8665f1962f8d7e7b06a7cf3b7d41799837cf689598f7",
+          "region": "左上D01双按钮确认弹窗：米白面板、玉绿标题、主次按钮、关闭。",
+          "verificationStatus": "verified_by_view_image_and_sha256",
+          "verifiedFiles": true,
+          "verifiedAt": "2026-10-26T07:01:27.816186-04:00",
+          "note": "本轮实际打开图像并核验PNG与generation哈希；仅复用所述现有画面/组件，不宣称离线变体已独立成图。"
+        },
+        {
+          "pageId": "51-common-components",
+          "output": "designs/ui/components/51-common-components-v1.png",
+          "generation": "designs/ui/components/51-common-components-v1.generation.json",
+          "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+          "region": "第一行玉绿按钮、第二行米白按钮、第三行标题牌、底部左侧空白面板。",
+          "verificationStatus": "verified_by_view_image_and_sha256",
+          "verifiedFiles": true,
+          "verifiedAt": "2026-10-26T07:01:27.816186-04:00",
+          "note": "本轮实际打开图像并核验PNG与generation哈希；仅复用所述现有画面/组件，不宣称离线变体已独立成图。"
+        }
+      ],
+      "evidence": {
+        "inspectedAt": "2026-10-26T07:01:27.816186-04:00",
+        "method": "view_image + SHA-256",
+        "imageSha256": null,
+        "note": "D01面板和主次按钮以及透明皮肤已实际查看并哈希核验；暂停动态文字与操作映射完整，不称为独立已画暂停屏。"
+      },
+      "visibleInMainImage": false,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "56-offline",
+      "title": "单机练习",
+      "state": "结束",
+      "coverage": "shared_component",
+      "status": "design_ready_user_review",
+      "image": null,
+      "stateSpec": "designs/ui/core/56-offline.states.json",
+      "copy": [
+        "本局练习结束",
+        "{练习胜利 / 再接再厉}",
+        "难度：{难度}",
+        "本局身份：{地主/农民}",
+        "练习不计入排位战绩，不结算金豆。",
+        "再练一局",
+        "返回"
+      ],
+      "behavior": [
+        "结束时冻结已完成牌桌，以50-D01同款双按钮结果面板显示原生结果、所选难度及本局身份。",
+        "主按钮再练一局按相同难度创建新本地牌局；次按钮返回与关闭均回单机难度选择页。",
+        "本地结果仅写练习记录；不显示联网货币增减、充值入口或伪造排位奖励。"
+      ],
+      "disabledReasons": [
+        "结算层显示时手牌、提示、出牌不可操作；重开处理中主按钮暂禁用并显示正在开始。"
+      ],
+      "dependencies": [
+        {
+          "pageId": "50-shared-dialogs",
+          "output": "designs/ui/components/50-shared-dialogs-v1.png",
+          "generation": "designs/ui/components/50-shared-dialogs-v1.generation.json",
+          "sha256": "45d20f3f85aa8fd8133b8665f1962f8d7e7b06a7cf3b7d41799837cf689598f7",
+          "region": "左上D01双按钮确认弹窗：米白面板、玉绿标题、主次按钮、关闭。",
+          "verificationStatus": "verified_by_view_image_and_sha256",
+          "verifiedFiles": true,
+          "verifiedAt": "2026-10-26T07:01:27.816186-04:00",
+          "note": "本轮实际打开图像并核验PNG与generation哈希；仅复用所述现有画面/组件，不宣称离线变体已独立成图。"
+        },
+        {
+          "pageId": "51-common-components",
+          "output": "designs/ui/components/51-common-components-v1.png",
+          "generation": "designs/ui/components/51-common-components-v1.generation.json",
+          "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+          "region": "第一行玉绿按钮、第二行米白按钮、第三行标题牌、底部左侧空白面板。",
+          "verificationStatus": "verified_by_view_image_and_sha256",
+          "verifiedFiles": true,
+          "verifiedAt": "2026-10-26T07:01:27.816186-04:00",
+          "note": "本轮实际打开图像并核验PNG与generation哈希；仅复用所述现有画面/组件，不宣称离线变体已独立成图。"
+        },
+        {
+          "pageId": "14-play-turn",
+          "output": "designs/ui/table/14-play-turn-v2.png",
+          "generation": "designs/ui/table/14-play-turn-v2.generation.json",
+          "sha256": "7977cb5f4b90af7f5f9108f4cd820681edff0d0f534960bb688699b24edb3728",
+          "region": "完整三人牌桌：中上底牌、两侧电脑座位、下侧本方手牌、中央提示/出牌操作。",
+          "verificationStatus": "verified_by_view_image_and_sha256",
+          "verifiedFiles": true,
+          "verifiedAt": "2026-10-26T07:01:27.816186-04:00",
+          "note": "本轮实际打开图像并核验PNG与generation哈希；仅复用所述现有画面/组件，不宣称离线变体已独立成图。"
+        }
+      ],
+      "evidence": {
+        "inspectedAt": "2026-10-26T07:01:27.816186-04:00",
+        "method": "view_image + SHA-256",
+        "imageSha256": null,
+        "note": "实际查看双按钮结果容器和牌桌；练习结束使用这些已画通用皮肤+动态结果文字，未声称存在56专用结束PNG。"
+      },
+      "visibleInMainImage": false,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "57-hero-skills",
+      "title": "英雄能力说明与选择",
+      "state": "已拥有",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/57-hero-skills-v1.png",
+      "stateSpec": "designs/ui/core/57-hero-skills.states.json",
+      "copy": [
+        "桃花女修",
+        "已拥有"
+      ],
+      "behavior": [
+        "点击已拥有角色行，更新右侧对应能力说明并展示选择操作；不改变对局地主/农民身份。"
+      ],
+      "disabledReasons": [],
+      "dependencies": [],
+      "evidence": {
+        "inspectedAt": "2026-10-26T06:50:04.5930069-04:00",
+        "method": "view_image",
+        "note": "左侧第2行的桃花女修头像与已拥有标签，角色可查看能力并选择。",
+        "imageSha256": "40ef60f3c6c9b763272bf72ff0380a785492251e4f91a08449f3d3fc32ac2bb5"
+      },
+      "visibleInMainImage": true,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "57-hero-skills",
+      "title": "英雄能力说明与选择",
+      "state": "锁定",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/57-hero-skills-v1.png",
+      "stateSpec": "designs/ui/core/57-hero-skills.states.json",
+      "copy": [
+        "葫芦长者",
+        "未解锁",
+        "获取"
+      ],
+      "behavior": [
+        "锁定角色允许查看能力；获取按钮进入获取方式说明，拥有条件满足后转已拥有。"
+      ],
+      "disabledReasons": [
+        "尚未拥有葫芦长者，不能选择使用。"
+      ],
+      "dependencies": [],
+      "evidence": {
+        "inspectedAt": "2026-10-26T06:50:04.5930069-04:00",
+        "method": "view_image",
+        "note": "左侧第3行有锁标、未解锁及获取按钮；未呈现直接选用。",
+        "imageSha256": "40ef60f3c6c9b763272bf72ff0380a785492251e4f91a08449f3d3fc32ac2bb5"
+      },
+      "visibleInMainImage": true,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "57-hero-skills",
+      "title": "英雄能力说明与选择",
+      "state": "已选",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/57-hero-skills-v1.png",
+      "stateSpec": "designs/ui/core/57-hero-skills.states.json",
+      "copy": [
+        "玉绿道童",
+        "已选择",
+        "已选用"
+      ],
+      "behavior": [
+        "当前角色已选用，重复点击不再次提交；切换至另一拥有角色后可选择。"
+      ],
+      "disabledReasons": [
+        "已是当前选择，无需重复提交。"
+      ],
+      "dependencies": [],
+      "evidence": {
+        "inspectedAt": "2026-10-26T06:50:04.5930069-04:00",
+        "method": "view_image",
+        "note": "左侧第1行浅玉绿选中和金勾；右侧主按钮实际写已选用。",
+        "imageSha256": "40ef60f3c6c9b763272bf72ff0380a785492251e4f91a08449f3d3fc32ac2bb5"
+      },
+      "visibleInMainImage": true,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "57-hero-skills",
+      "title": "英雄能力说明与选择",
+      "state": "说明",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/57-hero-skills-v1.png",
+      "stateSpec": "designs/ui/core/57-hero-skills.states.json",
+      "copy": [
+        "静心",
+        "获得一次出牌提示",
+        "每局可使用一次",
+        "仅英雄玩法生效",
+        "技能说明"
+      ],
+      "behavior": [
+        "选中角色时读取该角色对应的技能名、效果、每局限制和适用模式；静心为本项目示意配置。"
+      ],
+      "disabledReasons": [],
+      "dependencies": [],
+      "evidence": {
+        "inspectedAt": "2026-10-26T06:50:04.5930069-04:00",
+        "method": "view_image",
+        "note": "右侧卡片已实际绘制具体能力名、效果、次数及适用玩法；技能说明按钮只作为进一步说明入口。",
+        "imageSha256": "40ef60f3c6c9b763272bf72ff0380a785492251e4f91a08449f3d3fc32ac2bb5"
+      },
+      "visibleInMainImage": true,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "58-season-shop",
+      "title": "赛季兑换",
+      "state": "可兑",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/58-season-shop-v1.png",
+      "stateSpec": "designs/ui/core/58-season-shop.states.json",
+      "copy": [
+        "赛季令 680",
+        "本赛季剩余 12天",
+        "云纹牌背",
+        "120 赛季令",
+        "可兑 1/1",
+        "兑换",
+        "桃花头像框",
+        "300 赛季令"
+      ],
+      "behavior": [
+        "点击兑换打开确认提示；确认后提交当前奖励与一次兑换数量，成功后刷新余额和剩余次数。"
+      ],
+      "disabledReasons": [],
+      "dependencies": [],
+      "evidence": {
+        "inspectedAt": "2026-10-26T06:50:04.5930069-04:00",
+        "method": "view_image",
+        "note": "四卡左侧两卡的兑换按钮为可用玉绿态，成本120和300均不超过余额680，限兑1/1。",
+        "imageSha256": "65ab4f93908a8c87ef76a29551fe248108c4c6f123f5bdc3f2bd632ffc056dce"
+      },
+      "visibleInMainImage": true,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "58-season-shop",
+      "title": "赛季兑换",
+      "state": "不足",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/58-season-shop-v1.png",
+      "stateSpec": "designs/ui/core/58-season-shop.states.json",
+      "copy": [
+        "青云衣裳",
+        "980 赛季令",
+        "可兑 1/1",
+        "代币不足"
+      ],
+      "behavior": [
+        "本页余额不足卡的兑换操作禁用；可打开商品详情查看成本与当前余额，不发起兑换请求。"
+      ],
+      "disabledReasons": [
+        "当前示意余额680低于980成本，缺少300赛季令。"
+      ],
+      "dependencies": [],
+      "evidence": {
+        "inspectedAt": "2026-10-26T06:50:04.5930069-04:00",
+        "method": "view_image",
+        "note": "第3卡青云衣裳成本980，余额680；灰绿代币不足按钮实际可见。",
+        "imageSha256": "65ab4f93908a8c87ef76a29551fe248108c4c6f123f5bdc3f2bd632ffc056dce"
+      },
+      "visibleInMainImage": true,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "58-season-shop",
+      "title": "赛季兑换",
+      "state": "已兑",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/58-season-shop-v1.png",
+      "stateSpec": "designs/ui/core/58-season-shop.states.json",
+      "copy": [
+        "金豆礼包",
+        "200 赛季令",
+        "可兑 0/1",
+        "已兑换"
+      ],
+      "behavior": [
+        "达到本赛季限兑次数后保留奖励及价格，兑换操作停用；兑换记录入口保留。"
+      ],
+      "disabledReasons": [
+        "剩余兑换次数为0，本赛季已达到该奖励限兑上限。"
+      ],
+      "dependencies": [],
+      "evidence": {
+        "inspectedAt": "2026-10-26T06:50:04.5930069-04:00",
+        "method": "view_image",
+        "note": "最右金豆礼包以已兑换印记和可兑0/1呈现上限已用尽，无可点击兑换按钮。",
+        "imageSha256": "65ab4f93908a8c87ef76a29551fe248108c4c6f123f5bdc3f2bd632ffc056dce"
+      },
+      "visibleInMainImage": true,
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "pageId": "58-season-shop",
+      "title": "赛季兑换",
+      "state": "到期",
+      "coverage": "shared_component",
+      "status": "design_ready_user_review",
+      "image": null,
+      "stateSpec": "designs/ui/core/58-season-shop.states.json",
+      "copy": [
+        "本期兑换已结束",
+        "兑换已结束",
+        "本赛季兑换已到期，当前奖励暂不可兑换。",
+        "已结束",
+        "查看说明",
+        "返回"
+      ],
+      "behavior": [
+        "到期由当前赛季结束时间触发；保留58主图的奖励卡结构，将剩余12天替换为本期兑换已结束。",
+        "所有可兑换操作换用已核验primary-disabled皮肤并写已结束；无论余额与次数如何均不提交兑换。已兑记录继续可查看。",
+        "按50-D06空态布局和51/panel、close、secondary-normal透明皮肤提供到期提示；原生文字层使用所列copy。",
+        "查看说明打开具体赛季规则；返回或关闭仅退出提示并回到禁用兑换页；代币处置规则由最终业务文案提供，不自动清零。"
+      ],
+      "disabledReasons": [
+        "兑换期限已结束，所有奖励停止兑换提交。"
+      ],
+      "dependencies": [
+        {
+          "output": "designs/ui/components/50-shared-dialogs-v1.png",
+          "generation": "designs/ui/components/50-shared-dialogs-v1.generation.json",
+          "sha256": "45d20f3f85aa8fd8133b8665f1962f8d7e7b06a7cf3b7d41799837cf689598f7",
+          "locator": "D06：右下暂无内容面板，纸绢金边、空态插画和返回按钮；只复用已画皮肤与布局",
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedFiles": true,
+          "verifiedAt": "2026-10-26T06:50:04.5930069-04:00",
+          "method": "view_image and SHA256 comparison",
+          "sourceStatus": "design_ready_user_review"
+        },
+        {
+          "output": "designs/ui/components/51-common-components-v1.png",
+          "generation": "designs/ui/components/51-common-components-v1.generation.json",
+          "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+          "locator": "第1行主按钮（正常与禁用）、第2行次按钮、第6行空白面板和关闭按钮",
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedFiles": true,
+          "verifiedAt": "2026-10-26T06:50:04.5930069-04:00",
+          "method": "view_image and SHA256 comparison",
+          "sourceStatus": "design_ready_user_review"
+        },
+        {
+          "output": "assets/ui/controls/primary-disabled.png",
+          "generation": "assets/ui/controls/primary-disabled.derivation.json",
+          "sha256": "50eefaee2e8cdca171361b6c861eadb2ad1b664b772261f0c68690cb94b36490",
+          "locator": "透明禁用主按钮，源51第1行第4项，348×167原生裁切",
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedFiles": true,
+          "verifiedAt": "2026-10-26T06:50:04.5930069-04:00",
+          "method": "view_image and SHA256 comparison",
+          "sourceStatus": "derived_asset_ready_user_review"
+        },
+        {
+          "output": "assets/ui/controls/panel.png",
+          "generation": "assets/ui/controls/panel.derivation.json",
+          "sha256": "8cea325f107b9dae1b16addf4d4c5b3987defc6fef98dc89d65b0108c1321d6a",
+          "locator": "透明纸绢面板，源51第6行第1项，594×296原生裁切",
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedFiles": true,
+          "verifiedAt": "2026-10-26T06:50:04.5930069-04:00",
+          "method": "view_image and SHA256 comparison",
+          "sourceStatus": "derived_asset_ready_user_review"
+        },
+        {
+          "output": "assets/ui/controls/close.png",
+          "generation": "assets/ui/controls/close.derivation.json",
+          "sha256": "27d1ff0f868a0a167bb6a8bb1ee56fdfda0e5af4da37d9e775908860646a5731",
+          "locator": "透明圆形关闭，源51第6行第2项，284×295原生裁切",
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedFiles": true,
+          "verifiedAt": "2026-10-26T06:50:04.5930069-04:00",
+          "method": "view_image and SHA256 comparison",
+          "sourceStatus": "derived_asset_ready_user_review"
+        },
+        {
+          "output": "assets/ui/controls/secondary-normal.png",
+          "generation": "assets/ui/controls/secondary-normal.derivation.json",
+          "sha256": "9ba4a890ce8dc82f27a3468a1b8aad4586920da8111a35bc63ad1b801c93bd3d",
+          "locator": "透明米白次按钮，源51第2行第1项",
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedFiles": true,
+          "verifiedAt": "2026-10-26T06:50:04.5930069-04:00",
+          "method": "view_image and SHA256 comparison",
+          "sourceStatus": "derived_asset_ready_user_review"
+        }
+      ],
+      "evidence": {
+        "method": "view_image_and_verified_shared_component_reuse",
+        "inspectedAt": "2026-10-26T06:50:04.5930069-04:00",
+        "mainPageImage": "designs/ui/core/58-season-shop-v1.png",
+        "mainPageSha256": "65ab4f93908a8c87ef76a29551fe248108c4c6f123f5bdc3f2bd632ffc056dce",
+        "nativeTextAndDataReplacements": {
+          "pageTitle": "赛季兑换",
+          "countdown": "本期兑换已结束",
+          "dialogTitle": "兑换已结束",
+          "body": "本赛季兑换已到期，当前奖励暂不可兑换。",
+          "disabledAction": "已结束",
+          "primaryAction": "查看说明",
+          "secondaryAction": "返回",
+          "tokenBalance": "保留实际赛季令余额，页面不推断代币作废或自动转换规则"
+        },
+        "standaloneFullPageRendered": false,
+        "implementationStatus": "specified_only_not_implemented",
+        "note": "主图未绘到期。已实际检查50-D06和51透明板及本项列明的实际切片，再定义相同商品布局上的到期文案和禁用操作；此为共享视觉状态设计，不冒称另画过期屏。"
+      },
+      "visibleInMainImage": false,
+      "implementationStatus": "specified_only_not_implemented"
+    }
+  ],
+  "supplementalStates": {
+    "includedInRequiredCount": false,
+    "note": "补充规格单列，不增加或替代scope的44个必要状态，不把纯实现说明算作成图。",
+    "items": [
+      {
+        "pageId": "01-launch-login",
+        "name": "协议拦截",
+        "coverage": "specified_only",
+        "status": "pending"
+      },
+      {
+        "pageId": "01-launch-login",
+        "name": "切换账号",
+        "coverage": "specified_only",
+        "status": "pending"
+      },
+      {
+        "pageId": "02-lobby",
+        "name": "通知空态",
+        "coverage": "specified_only",
+        "status": "pending"
+      },
+      {
+        "pageId": "02-lobby",
+        "name": "断网",
+        "coverage": "specified_only",
+        "status": "pending"
+      },
+      {
+        "pageId": "03-classic-select",
+        "name": "切换玩法",
+        "coverage": "specified_only",
+        "status": "pending"
+      },
+      {
+        "pageId": "04-stakes-select",
+        "name": "场次切换",
+        "coverage": "specified_only",
+        "status": "pending"
+      },
+      {
+        "pageId": "05-matchmaking",
+        "name": "匹配成功",
+        "coverage": "specified_only",
+        "status": "pending"
+      },
+      {
+        "pageId": "06-friend-room-entry",
+        "name": "加入失败",
+        "coverage": "specified_only",
+        "status": "pending"
+      },
+      {
+        "pageId": "07-create-room",
+        "name": "规则变化",
+        "coverage": "specified_only",
+        "status": "pending"
+      },
+      {
+        "pageId": "07-create-room",
+        "name": "创建处理中",
+        "coverage": "specified_only",
+        "status": "pending"
+      },
+      {
+        "pageId": "08-join-room",
+        "name": "房间不存在",
+        "coverage": "specified_only",
+        "status": "pending"
+      },
+      {
+        "pageId": "08-join-room",
+        "name": "加入处理中",
+        "coverage": "specified_only",
+        "status": "pending"
+      },
+      {
+        "pageId": "09-room-waiting",
+        "name": "3人准备",
+        "coverage": "specified_only",
+        "status": "pending"
+      },
+      {
+        "pageId": "09-room-waiting",
+        "name": "房主离开",
+        "coverage": "specified_only",
+        "status": "pending"
+      },
+      {
+        "pageId": "09-room-waiting",
+        "name": "被移除",
+        "coverage": "specified_only",
+        "status": "pending"
+      },
+      {
+        "pageId": "10-invite-friends",
+        "name": "邀请空列表",
+        "coverage": "specified_only",
+        "status": "pending"
+      },
+      {
+        "pageId": "10-invite-friends",
+        "name": "邀请成功",
+        "coverage": "specified_only",
+        "status": "pending"
+      },
+      {
+        "pageId": "10-invite-friends",
+        "name": "分享面板",
+        "coverage": "specified_only",
+        "status": "pending"
+      },
+      {
+        "pageId": "10-invite-friends",
+        "name": "邀请失败",
+        "coverage": "specified_only",
+        "status": "pending"
+      },
+      {
+        "pageId": "58-season-shop",
+        "name": "兑换确认",
+        "coverage": "shared_component",
+        "status": "design_ready_user_review"
+      },
+      {
+        "pageId": "58-season-shop",
+        "name": "兑换成功",
+        "coverage": "shared_component",
+        "status": "design_ready_user_review"
+      }
+    ]
+  }
+}

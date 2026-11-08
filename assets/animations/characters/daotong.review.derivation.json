@@ -1,0 +1,28 @@
+{
+  "file": "assets/animations/characters/daotong.review.jpg",
+  "sha256": "28002019666182921d818dcdf9030a541857a49da8cfc1c4ee4177f9519f52bd",
+  "operation": "QA contact sheet: four selected frames per action over ivory with timing labels; not game artwork",
+  "derivedFrom": [
+    {
+      "file": "assets/animations/characters/daotong_idle.png",
+      "sha256": "3c9a0b82e70c8f92bdbd5303a64c4bfa312497d6b1850a55a4850acb068313cb"
+    },
+    {
+      "file": "assets/animations/characters/daotong_think.png",
+      "sha256": "ef7ef46d2c3b725f2b62c714a44240d1151b6859dcf7ca7044873033f5119eec"
+    },
+    {
+      "file": "assets/animations/characters/daotong_play.png",
+      "sha256": "fd1b54f724ac01cf32e41a71940d846188796918d826cebdc93128c9264cd247"
+    },
+    {
+      "file": "assets/animations/characters/daotong_win.png",
+      "sha256": "12e96cbb1c7b64a9ce727a416963fe214d591ee624ce869a581c76ce591a1f28"
+    },
+    {
+      "file": "assets/animations/characters/daotong_lose.png",
+      "sha256": "24c22547d4ffcb22b82b95c12d9880892cf6fd747ca06902e8e8297ca6da4c56"
+    }
+  ],
+  "createdAt": "2026-10-26T19:14:06.071617+00:00"
+}

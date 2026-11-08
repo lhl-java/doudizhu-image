@@ -1,0 +1,153 @@
+{
+  "id": "24-ranked-progress",
+  "title": "段位赛季进度",
+  "primaryArtwork": "designs/ui/modes/24-ranked-progress-v1.png",
+  "controls": [
+    "段位阶梯",
+    "积分",
+    "星级升降",
+    "赛季奖励"
+  ],
+  "states": [
+    {
+      "name": "当前",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/modes/24-ranked-progress-v1.png",
+      "interaction": "高亮当前节点；可查看其他段位，返回23。",
+      "nativeCopy": [
+        "当前段位",
+        "{rank.name} · 积分{rank.score}",
+        "查看奖励",
+        "返回排位"
+      ],
+      "controls": [
+        {
+          "file": "assets/ui/controls/primary-normal.png",
+          "nativeText": "查看奖励",
+          "enabled": true
+        },
+        {
+          "file": "assets/ui/controls/secondary-normal.png",
+          "nativeText": "返回排位",
+          "enabled": true
+        }
+      ],
+      "assetFilesVerified": true,
+      "nativeText": {
+        "title": "当前段位",
+        "body": "{rank.name} · 积分{rank.score}",
+        "primary": "查看奖励",
+        "secondary": "返回排位"
+      }
+    },
+    {
+      "name": "已达",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/modes/24-ranked-progress-v1.png",
+      "interaction": "领取按钮禁用；查看背包进入39。",
+      "nativeCopy": [
+        "奖励已领取",
+        "{reward.name}已发放至背包。",
+        "已领取",
+        "查看背包"
+      ],
+      "controls": [
+        {
+          "file": "assets/ui/controls/primary-disabled.png",
+          "nativeText": "已领取",
+          "enabled": false
+        },
+        {
+          "file": "assets/ui/controls/secondary-normal.png",
+          "nativeText": "查看背包",
+          "enabled": true
+        }
+      ],
+      "assetFilesVerified": true,
+      "nativeText": {
+        "title": "奖励已领取",
+        "body": "{reward.name}已发放至背包。",
+        "primary": "已领取",
+        "secondary": "查看背包"
+      }
+    },
+    {
+      "name": "未达",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/modes/24-ranked-progress-v1.png",
+      "interaction": "领取禁用且显示具体门槛，返回23继续排位。",
+      "nativeCopy": [
+        "奖励未达成",
+        "达到{reward.requiredScore}积分解锁，还差{reward.scoreGap}积分。",
+        "未达成",
+        "返回排位"
+      ],
+      "controls": [
+        {
+          "file": "assets/ui/controls/primary-disabled.png",
+          "nativeText": "未达成",
+          "enabled": false
+        },
+        {
+          "file": "assets/ui/controls/secondary-normal.png",
+          "nativeText": "返回排位",
+          "enabled": true
+        }
+      ],
+      "assetFilesVerified": true,
+      "nativeText": {
+        "title": "奖励未达成",
+        "body": "达到{reward.requiredScore}积分解锁，还差{reward.scoreGap}积分。",
+        "primary": "未达成",
+        "secondary": "返回排位"
+      }
+    },
+    {
+      "name": "可领",
+      "coverage": "rendered",
+      "renderedIn": "designs/ui/modes/24-ranked-progress-v1.png",
+      "interaction": "请求发放奖励；处理中禁用一次提交，成功切已达，失败恢复可领取。",
+      "nativeCopy": [
+        "可领取奖励",
+        "{reward.name} × {reward.quantity}",
+        "领取",
+        "稍后"
+      ],
+      "controls": [
+        {
+          "file": "assets/ui/controls/primary-normal.png",
+          "nativeText": "领取",
+          "enabled": true
+        },
+        {
+          "file": "assets/ui/controls/secondary-normal.png",
+          "nativeText": "稍后",
+          "enabled": true
+        }
+      ],
+      "assetFilesVerified": true,
+      "nativeText": {
+        "title": "可领取奖励",
+        "body": "{reward.name} × {reward.quantity}",
+        "primary": "领取",
+        "secondary": "稍后"
+      }
+    }
+  ],
+  "dynamicText": "昵称、积分、时间、价格、进度及规则由客户端与服务端原生文字提供；图内均为美术示意。",
+  "sharedDependencies": [
+    "assets/ui/controls/panel.png",
+    "assets/ui/controls/title-primary.png",
+    "assets/ui/controls/primary-normal.png",
+    "assets/ui/controls/primary-disabled.png",
+    "assets/ui/controls/secondary-normal.png",
+    "assets/ui/controls/secondary-disabled.png",
+    "assets/ui/controls/progress.png",
+    "assets/ui/controls/avatar-frame.png",
+    "assets/ui/controls/tab-selected.png",
+    "assets/ui/controls/tab-normal.png"
+  ],
+  "notes": "选用主图为独立已生成画面；其他语义状态用下列真实公共素材与原生文字组装。shared_component表示完整组成设计，未冒称另有整屏生成图。接入时使用原画皮肤与动态区域，不把整屏PNG内示例数字作为业务真值。",
+  "dynamicCopySource": "designs/ui/modes/demo-data-contract-existing.json + 同tournamentId/seasonId/playerId的服务端回执",
+  "requiredStatesComplete": true
+}

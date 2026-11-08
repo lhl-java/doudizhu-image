@@ -1,0 +1,18 @@
+{
+  "file": "assets/ui/cards/clubs-2.png",
+  "sha256": "df1d9c37bea4244112943353a4d95d980e059c6159565e98d7c784384c1150b5",
+  "width": 216,
+  "height": 282,
+  "rank": "2",
+  "suit": "clubs",
+  "symbol": "♣",
+  "operation": "native-typeset-rank-and-suit-over-generated-blank-card-no-resize",
+  "derivedFrom": {
+    "file": "assets/ui/cards-source/card-blank.png",
+    "sha256": "db9125c5c51c5fa194ca6d268b150c2e7f572e8f2b6a4df76e0a694d9d5832ed",
+    "record": "assets/ui/cards-source/card-blank.derivation.json"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "derived_asset_ready_user_review"
+}

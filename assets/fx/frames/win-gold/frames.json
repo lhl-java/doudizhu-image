@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "id": "win-gold",
+  "kind": "derived_spriteframes",
+  "route": "derived",
+  "operation": "translate/rotate/scale/alpha generated static illustration onto fixed384RGBA canvas, no invented paint details",
+  "derivedFrom": [
+    {
+      "file": "assets/fx/win-gold.png",
+      "sha256": "afe2805a23380a5a9c62d1e1292f4b656084b92943b5c3bb5353bde599891e5b",
+      "record": "assets/fx/win-gold.png.generation.json",
+      "role": "runtime FX static sprite"
+    }
+  ],
+  "timeline": "assets/fx/win-gold.timeline.json",
+  "durationMs": 1400,
+  "loop": false,
+  "blend": "screen",
+  "event": "round_win",
+  "anchor": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "frames": [
+    {
+      "file": "assets/fx/frames/win-gold/000.png",
+      "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+      "atMs": 0,
+      "durationMs": 93,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.0,
+        "scale": 0.55,
+        "x": 0.0,
+        "y": 0.12,
+        "rotation": -4.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/win-gold/001.png",
+      "sha256": "24dcac29af922838780de2173f8ea33964edaa87a597f9e69a34aecd95fa43d0",
+      "atMs": 93,
+      "durationMs": 94,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.775,
+        "scale": 0.7825,
+        "x": 0.0,
+        "y": 0.08125,
+        "rotation": -0.8999999999999999
+      }
+    },
+    {
+      "file": "assets/fx/frames/win-gold/002.png",
+      "sha256": "e65d85de3d5921e629b7ec7e486630c120b7ccbf31ef332ce9617b047f41bdcb",
+      "atMs": 187,
+      "durationMs": 93,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.9942241379310345,
+        "scale": 0.8673275862068965,
+        "x": 0.0,
+        "y": 0.056137931034482766,
+        "rotation": 0.346551724137931
+      }
+    },
+    {
+      "file": "assets/fx/frames/win-gold/003.png",
+      "sha256": "617547ac8427a9058093f0fdb3e268bb5bab1997eb4fb22e42fa2e7e8f099e89",
+      "atMs": 280,
+      "durationMs": 93,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.9862068965517241,
+        "scale": 0.8913793103448275,
+        "x": 0.0,
+        "y": 0.03689655172413794,
+        "rotation": 0.8275862068965517
+      }
+    },
+    {
+      "file": "assets/fx/frames/win-gold/004.png",
+      "sha256": "3a18d65dfe02f12483cb78a285510ee415608cf345a2af5cca0a51d23c3e9218",
+      "atMs": 373,
+      "durationMs": 94,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.9781896551724137,
+        "scale": 0.9154310344827586,
+        "x": 0.0,
+        "y": 0.017655172413793108,
+        "rotation": 1.3086206896551724
+      }
+    },
+    {
+      "file": "assets/fx/frames/win-gold/005.png",
+      "sha256": "4acdbbaa0a696e862fe3955d17ecfffe022cdb68fd620406543dc24d0c9c216b",
+      "atMs": 467,
+      "durationMs": 93,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.9700862068965517,
+        "scale": 0.9397413793103448,
+        "x": 0.0,
+        "y": -0.001793103448275865,
+        "rotation": 1.7948275862068965
+      }
+    },
+    {
+      "file": "assets/fx/frames/win-gold/006.png",
+      "sha256": "710342612e2e8392e7eb3795194a2c7ed0202f7516a233b1ecefb4a1f1e4189b",
+      "atMs": 560,
+      "durationMs": 93,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.9620689655172413,
+        "scale": 0.9637931034482758,
+        "x": 0.0,
+        "y": -0.021034482758620687,
+        "rotation": 2.275862068965517
+      }
+    },
+    {
+      "file": "assets/fx/frames/win-gold/007.png",
+      "sha256": "ace8b1de013a32a7b54c9e334ffa5a150ed0dbb3cbf3a69491f88ea4746574d9",
+      "atMs": 653,
+      "durationMs": 94,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.954051724137931,
+        "scale": 0.9878448275862068,
+        "x": 0.0,
+        "y": -0.04027586206896552,
+        "rotation": 2.7568965517241377
+      }
+    },
+    {
+      "file": "assets/fx/frames/win-gold/008.png",
+      "sha256": "7d0a6d3964dab068a96d12343c182703ea5e49897e5408e5b0205b1ceca86516",
+      "atMs": 747,
+      "durationMs": 93,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.8862142857142856,
+        "scale": 1.0033571428571428,
+        "x": 0.0,
+        "y": -0.056042857142857144,
+        "rotation": 3.335714285714286
+      }
+    },
+    {
+      "file": "assets/fx/frames/win-gold/009.png",
+      "sha256": "b56a97f405a38103cb21d485e3d3f7288b4c950f765b380e313cae346a398515",
+      "atMs": 840,
+      "durationMs": 93,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.76,
+        "scale": 1.01,
+        "x": 0.0,
+        "y": -0.068,
+        "rotation": 4.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/win-gold/010.png",
+      "sha256": "49e9df6ee803e48f851a61d54fcad459285fcf90e1d863417d7066cdc9670cb7",
+      "atMs": 933,
+      "durationMs": 94,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.6337857142857143,
+        "scale": 1.0166428571428572,
+        "x": 0.0,
+        "y": -0.07995714285714287,
+        "rotation": 4.664285714285715
+      }
+    },
+    {
+      "file": "assets/fx/frames/win-gold/011.png",
+      "sha256": "73a7e97cdfe80dc82246b3889bea76ce320aeef4dbc9fc6df4e7c1e2334b1212",
+      "atMs": 1027,
+      "durationMs": 93,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.5062142857142857,
+        "scale": 1.0233571428571429,
+        "x": 0.0,
+        "y": -0.09204285714285715,
+        "rotation": 5.335714285714285
+      }
+    },
+    {
+      "file": "assets/fx/frames/win-gold/012.png",
+      "sha256": "f436c68aa14a4a4b1389d16db2965149f9cce8749b72b9302e7f1b563dec83ab",
+      "atMs": 1120,
+      "durationMs": 93,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.38,
+        "scale": 1.03,
+        "x": 0.0,
+        "y": -0.10400000000000001,
+        "rotation": 6.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/win-gold/013.png",
+      "sha256": "4b2536fe1eb31774edc023ab721108671289bd189f67b484b1e36d80ffb4657a",
+      "atMs": 1213,
+      "durationMs": 94,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.2537857142857143,
+        "scale": 1.0366428571428572,
+        "x": 0.0,
+        "y": -0.11595714285714287,
+        "rotation": 6.664285714285715
+      }
+    },
+    {
+      "file": "assets/fx/frames/win-gold/014.png",
+      "sha256": "22e2119cfe13f47d6fa1e5eb2af02976551efd0b08114e11f73c5cd5eec396a6",
+      "atMs": 1307,
+      "durationMs": 93,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.12621428571428572,
+        "scale": 1.0433571428571429,
+        "x": 0.0,
+        "y": -0.12804285714285715,
+        "rotation": 7.335714285714285
+      }
+    },
+    {
+      "file": "assets/fx/frames/win-gold/015.png",
+      "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+      "atMs": 1400,
+      "durationMs": 1,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.0,
+        "scale": 1.05,
+        "x": 0.0,
+        "y": -0.14,
+        "rotation": 8.0
+      }
+    }
+  ],
+  "bakedPlaybackDurationMs": 1401,
+  "timelineDurationMs": 1400,
+  "terminalSentinelMs": 1,
+  "onComplete": "hide-and-release",
+  "status": "derived_animation_ready_user_review"
+}

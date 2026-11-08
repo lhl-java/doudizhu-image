@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "id": "play-glow",
+  "kind": "derived_spriteframes",
+  "route": "derived",
+  "operation": "translate/rotate/scale/alpha generated static illustration onto fixed384RGBA canvas, no invented paint details",
+  "derivedFrom": [
+    {
+      "file": "assets/fx/play-glow.png",
+      "sha256": "3c47be99f1b66cfedbe57522173fb6bf822f5018b8a55df28bfeb4a01bd5f879",
+      "record": "assets/fx/play-glow.png.generation.json",
+      "role": "runtime FX static sprite"
+    }
+  ],
+  "timeline": "assets/fx/play-glow.timeline.json",
+  "durationMs": 650,
+  "loop": false,
+  "blend": "screen",
+  "event": "play_cards",
+  "anchor": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "frames": [
+    {
+      "file": "assets/fx/frames/play-glow/000.png",
+      "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+      "atMs": 0,
+      "durationMs": 43,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.0,
+        "scale": 0.65,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/play-glow/001.png",
+      "sha256": "bb45162b93ba3fb5a27cc39564334ebb00bfffec25cbd36a5726522c77788b5b",
+      "atMs": 43,
+      "durationMs": 44,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.43000000000000005,
+        "scale": 0.8172222222222223,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/play-glow/002.png",
+      "sha256": "5205cabf9578508e3411806a8d3af0f7decf9c79d0a643248546b2fff677b01a",
+      "atMs": 87,
+      "durationMs": 43,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.87,
+        "scale": 0.9883333333333333,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/play-glow/003.png",
+      "sha256": "b618a3e835f4106e6d4198d825a77fea4c5c88da24af76ec93c414bb237b82d7",
+      "atMs": 130,
+      "durationMs": 43,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.8538461538461538,
+        "scale": 1.0061538461538462,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/play-glow/004.png",
+      "sha256": "f98e0c00a045221c5297a492651d190f1f8ecfbf8c27151ee487106991c2ef14",
+      "atMs": 173,
+      "durationMs": 44,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.8042307692307693,
+        "scale": 1.0127692307692309,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/play-glow/005.png",
+      "sha256": "c9234372175d526127cb2cc45049ef347a17d31a14767ed29f2ac9efeae0430a",
+      "atMs": 217,
+      "durationMs": 43,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.7534615384615384,
+        "scale": 1.0195384615384615,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/play-glow/006.png",
+      "sha256": "6e7082be8f9efe3835c7e5c5b963ac1f185e21dc6181551e297f2b3944abcc9e",
+      "atMs": 260,
+      "durationMs": 43,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.7038461538461538,
+        "scale": 1.0261538461538462,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/play-glow/007.png",
+      "sha256": "d13f474fc699dc28639bc1587c18dacf9da8790b34790e120c9cf6f01b1df3af",
+      "atMs": 303,
+      "durationMs": 44,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.6542307692307692,
+        "scale": 1.0327692307692309,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/play-glow/008.png",
+      "sha256": "c3a61f68488dcbed72f5c2e63b67dbefa51b92d621fd44dd65b92cfe8f19516c",
+      "atMs": 347,
+      "durationMs": 43,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.6034615384615385,
+        "scale": 1.0395384615384615,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/play-glow/009.png",
+      "sha256": "b3df54cea805aaa1dc9c4d4e796abe158991029b1e402493b892ada898360fac",
+      "atMs": 390,
+      "durationMs": 43,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.52,
+        "scale": 1.048,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/play-glow/010.png",
+      "sha256": "260d79fb73e2f8709efdedd214482ef5d34e075e740dfd58e917f8abcb114e23",
+      "atMs": 433,
+      "durationMs": 44,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.43399999999999994,
+        "scale": 1.0566,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/play-glow/011.png",
+      "sha256": "47bf8c36645c93d03de5cbfac6aebcf62dd95b8409fc9341c3ab2952075800e3",
+      "atMs": 477,
+      "durationMs": 43,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.346,
+        "scale": 1.0654000000000001,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/play-glow/012.png",
+      "sha256": "4902c03c9a20752136cac5a0825525e4a403cb3cd5168ea43e42fe4ee43cd39b",
+      "atMs": 520,
+      "durationMs": 43,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.26,
+        "scale": 1.074,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/play-glow/013.png",
+      "sha256": "15d484573b718c692b706306ccf3d50d484eb77bf661eb0490e4cb30cffe25b4",
+      "atMs": 563,
+      "durationMs": 44,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.174,
+        "scale": 1.0826,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/play-glow/014.png",
+      "sha256": "3c0b21bfe2a0190f84cf41c9ad2370792ec25febe9003985ea278d81b82d99a1",
+      "atMs": 607,
+      "durationMs": 43,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.08599999999999997,
+        "scale": 1.0914000000000001,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 0.0
+      }
+    },
+    {
+      "file": "assets/fx/frames/play-glow/015.png",
+      "sha256": "9804a5f7293fddd774f968064a6485d1a91151a4dfbf83e738a5e05803991989",
+      "atMs": 650,
+      "durationMs": 1,
+      "width": 384,
+      "height": 384,
+      "transform": {
+        "alpha": 0.0,
+        "scale": 1.1,
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 0.0
+      }
+    }
+  ],
+  "bakedPlaybackDurationMs": 651,
+  "timelineDurationMs": 650,
+  "terminalSentinelMs": 1,
+  "onComplete": "hide-and-release",
+  "status": "derived_animation_ready_user_review"
+}

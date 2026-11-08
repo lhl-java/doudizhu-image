@@ -1,0 +1,28 @@
+{
+  "file": "assets/animations/characters/taohua.review.jpg",
+  "sha256": "5c5dabc634cd245b52594ba012ce208a9c38a071daa05e5d1ec05a2fa9667bc7",
+  "operation": "QA contact sheet: four selected frames per action over ivory with timing labels; not game artwork",
+  "derivedFrom": [
+    {
+      "file": "assets/animations/characters/taohua_idle.png",
+      "sha256": "1d32eb9f840c5f544c33e4c3b4c598d66f2b588e37699322e912c2b3e315b4f9"
+    },
+    {
+      "file": "assets/animations/characters/taohua_think.png",
+      "sha256": "15419baf939b2955445b917b5903205c669f76d49277f3178e798f736cb13f81"
+    },
+    {
+      "file": "assets/animations/characters/taohua_play.png",
+      "sha256": "1157edb5854dc798c730e6fefb01ae5db916f736f213febf2ba480b01e69a762"
+    },
+    {
+      "file": "assets/animations/characters/taohua_win.png",
+      "sha256": "0d3553f7e82750969dc792ef86a81f3724fd463c0a98c7b19884c92a5eb3ed29"
+    },
+    {
+      "file": "assets/animations/characters/taohua_lose.png",
+      "sha256": "2886321bdc823e4a3adaa1200e9d51131a573fac255dbdf60fc2754d2a8f4d0c"
+    }
+  ],
+  "createdAt": "2026-10-26T19:14:06.071617+00:00"
+}

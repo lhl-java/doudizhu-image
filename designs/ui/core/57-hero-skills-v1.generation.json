@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/ui/core/57-hero-skills-v1.png",
+  "absolutePath": "D:\\work\\doudizhu-image\\designs\\ui\\core\\57-hero-skills-v1.png",
+  "sha256": "40ef60f3c6c9b763272bf72ff0380a785492251e4f91a08449f3d3fc32ac2bb5",
+  "generatedAt": "2026-10-26T04:30:35-04:00",
+  "generatedAtEvidence": {
+    "isProxy": true,
+    "source": "caller-provided-response-received-at",
+    "explanation": "以调用方提供的工具返回接收时间代理生成完成时间；不是模型内部生成时间。"
+  },
+  "recordedAt": "2026-10-26T04:31:12.1810879-04:00",
+  "startedAtUtc": "2026-10-26T04:29:40-04:00",
+  "finishedAtUtc": "2026-10-26T04:30:35-04:00",
+  "width": 1931,
+  "height": 814,
+  "format": "PNG",
+  "nativeResolution": {
+    "width": 1931,
+    "height": 814
+  },
+  "exportResolution": {
+    "width": 1931,
+    "height": 814,
+    "operation": "byte-identical-copy-of-generated-output-no-resize-or-redraw"
+  },
+  "requestedResolution": {
+    "width": 2560,
+    "height": 1080,
+    "note": "提示词中的尺寸目标；内置工具无独立尺寸选择参数，实际尺寸以上方实测值为准。"
+  },
+  "transparency": {
+    "requestedTransparentBackground": false,
+    "sourcePixelFormat": "Format24bppRgb",
+    "hasAlphaChannel": false,
+    "hasNonOpaquePixels": false,
+    "fullyOpaque": true,
+    "inspectionMethod": "source-format-reports-no-alpha"
+  },
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "callId": null,
+  "resultId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\doudizhu-image\\designs\\ui\\lobby-ui-v1.png",
+      "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png"
+    ],
+    "prompt": "Use case: ui-mockup\nAsset type: 道家Q版高清手绘斗地主手游的一张独立完整横屏UI概念设计，2.37:1，目标2560×1080。画面为平直正视的游戏界面，无设备外壳。\nInput images: 图1邮件、图2组队是首要风格参考：深玉绿标题及按钮、暖米白纸绢、暖金细边、圆润如意云纹、精致可读中文。图3是本项目大厅首稿，只承接仙山庭院、道童形象、材质与控件比例，不复用错误的手持牌花色；图4为本项目三人角色首稿，保持人物五官发饰及服装同源。功能布局按以下新页面重做。\nStyle: 与参考一致的细腻二维手绘金玉与纸绢质感，柔和体积、清楚边缘。山水庭院背景低对比，主面板米白，标题与主按钮玉绿金边。金饰点到为止，文字区域留白充分，所有中文清晰对齐，安全边距3%。头像角色差异明确。\nConstraints: 只生成这一页和指定主状态。禁止多屏拼图、缩略页面、分镜、英文设计说明、水印、旧游戏名、腾讯品牌标志或额外品牌、写实人像、塑料玩具效果、噪点、模糊拉伸。所有元素完整在画内，人物不遮按钮和文字。使用原生细节，不要伪装放大效果。背景不透明。状态标记保存在外部文件，不在画面上印“首稿”等审阅文字。\nPage ID: 57-hero-skills\n页面：英雄能力说明与选择。顶部居中玉绿标题“英雄能力”，左上“返回”，右上“规则”。主体左侧约34%为纵向三张清爽角色条目，每行圆头像、角色名、状态；依次“玉绿道童”“已选择”，“桃花女修”“已拥有”，“葫芦长者”“未解锁”。第一行浅玉绿选中、金勾；第三行小锁但头像仍可辨。中间约30%显示完整道童立绘，使用图4同源道童，拿两张牌背不画点数。右侧约30%为米白金边能力说明卡：卡片标题“静心”，一枚玉符技能图标，正文两行“获得一次出牌提示”“每局可使用一次”，下方小胶囊“仅英雄玩法生效”。卡片底部主按钮为选用中状态“已选用”，另有较小米白“技能说明”。左侧锁定的长者条目末尾带小按钮“获取”。角色条目不出现长段介绍，技能名和效果是本项目概念示意，画面不印外部制作说明。确保三个角色头像不同脸、能力卡层级与文字清晰。"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据。当前内置 image_gen.imagegen 接口没有 model、quality 选择器，配置只表示用户目标；不能据此声称实际锁定 GPT Image 2.5 Sunburst 或 max。未检查或验证 C2PA。",
+  "prompt": "prompts/core/57-hero-skills-v1.txt",
+  "promptSha256": "aa5c919fcfdf838109cb60fc6b0b681a0d285089d26e14eef310f8de43df9317",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "邮件界面：面板、按钮、配色、材质、人物完成度",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": "references/style/manifest.json",
+      "manifestSha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "manifestHashMatched": true
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "组队界面：控件层级、留白、列表、头像与按钮状态",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": "references/style/manifest.json",
+      "manifestSha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "manifestHashMatched": true
+    },
+    {
+      "file": "designs/ui/lobby-ui-v1.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\designs\\ui\\lobby-ui-v1.png",
+      "sha256": "6fb7c972b11f32d0454b32e38a85d50cf571205201e257638c29ee9eeedb8e3b",
+      "role": "本项目初版支持参考：人物、材质、布局同源；尚未获用户批准",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": null,
+      "manifestSha256": null,
+      "manifestHashMatched": null
+    },
+    {
+      "file": "designs/characters/characters-trio-v1.png",
+      "absolutePath": "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png",
+      "sha256": "0c4dda70d4e16715527ed243a8d3efc2a401be2f06326b49601d1b184e7165ac",
+      "role": "本项目初版支持参考：人物、材质、布局同源；尚未获用户批准",
+      "usage": "actual-style-reference-attached-to-image-generation",
+      "manifest": null,
+      "manifestSha256": null,
+      "manifestHashMatched": null
+    }
+  ],
+  "evidence": {
+    "receipt": "designs/ui/core/.production/receipts/57-hero-skills-v1.receipt.json",
+    "receiptSha256": "fd35b0495cc46c01ea569ade717d051122c3f5690500ab6508e79c88ee2ff7e3",
+    "returnedEvidence": {
+      "tool": "image_gen.imagegen",
+      "route": "builtin",
+      "invocationId": null,
+      "toolReturnKeys": [
+        "image_url",
+        "output_hint"
+      ],
+      "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1771a-2c53-7da1-9217-2d5e42c4d85e as C:\\Users\\luyua\\.codex\\generated_images\\01a1771a-2c53-7da1-9217-2d5e42c4d85e\\exec-dd02b153-8b89-4b9e-8186-2bead451a598.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "hostOutputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a1771a-2c53-7da1-9217-2d5e42c4d85e\\exec-dd02b153-8b89-4b9e-8186-2bead451a598.png",
+      "hostOutputFilenameIdentifier": "exec-dd02b153-8b89-4b9e-8186-2bead451a598",
+      "identifierMeaning": "宿主输出文件名标识，不冒认为模型调用ID",
+      "imagePayload": {
+        "field": "image_url",
+        "omittedFromReceipt": true
+      },
+      "toolReturnedModel": null,
+      "toolReturnedQuality": null,
+      "submittedArguments": {
+        "prompt": "Use case: ui-mockup\nAsset type: 道家Q版高清手绘斗地主手游的一张独立完整横屏UI概念设计，2.37:1，目标2560×1080。画面为平直正视的游戏界面，无设备外壳。\nInput images: 图1邮件、图2组队是首要风格参考：深玉绿标题及按钮、暖米白纸绢、暖金细边、圆润如意云纹、精致可读中文。图3是本项目大厅首稿，只承接仙山庭院、道童形象、材质与控件比例，不复用错误的手持牌花色；图4为本项目三人角色首稿，保持人物五官发饰及服装同源。功能布局按以下新页面重做。\nStyle: 与参考一致的细腻二维手绘金玉与纸绢质感，柔和体积、清楚边缘。山水庭院背景低对比，主面板米白，标题与主按钮玉绿金边。金饰点到为止，文字区域留白充分，所有中文清晰对齐，安全边距3%。头像角色差异明确。\nConstraints: 只生成这一页和指定主状态。禁止多屏拼图、缩略页面、分镜、英文设计说明、水印、旧游戏名、腾讯品牌标志或额外品牌、写实人像、塑料玩具效果、噪点、模糊拉伸。所有元素完整在画内，人物不遮按钮和文字。使用原生细节，不要伪装放大效果。背景不透明。状态标记保存在外部文件，不在画面上印“首稿”等审阅文字。\nPage ID: 57-hero-skills\n页面：英雄能力说明与选择。顶部居中玉绿标题“英雄能力”，左上“返回”，右上“规则”。主体左侧约34%为纵向三张清爽角色条目，每行圆头像、角色名、状态；依次“玉绿道童”“已选择”，“桃花女修”“已拥有”，“葫芦长者”“未解锁”。第一行浅玉绿选中、金勾；第三行小锁但头像仍可辨。中间约30%显示完整道童立绘，使用图4同源道童，拿两张牌背不画点数。右侧约30%为米白金边能力说明卡：卡片标题“静心”，一枚玉符技能图标，正文两行“获得一次出牌提示”“每局可使用一次”，下方小胶囊“仅英雄玩法生效”。卡片底部主按钮为选用中状态“已选用”，另有较小米白“技能说明”。左侧锁定的长者条目末尾带小按钮“获取”。角色条目不出现长段介绍，技能名和效果是本项目概念示意，画面不印外部制作说明。确保三个角色头像不同脸、能力卡层级与文字清晰。",
+        "referenced_image_paths": [
+          "D:\\work\\doudizhu-image\\references\\style\\01-mail-event.png",
+          "D:\\work\\doudizhu-image\\references\\style\\team-ui-v2.png",
+          "D:\\work\\doudizhu-image\\designs\\ui\\lobby-ui-v1.png",
+          "D:\\work\\doudizhu-image\\designs\\characters\\characters-trio-v1.png"
+        ],
+        "transparent_background": false
+      },
+      "startedAtUtc": "2026-10-26 08:29:40 UTC",
+      "receivedAtUtc": "2026-10-26 08:30:35 UTC"
+    },
+    "metadataInspection": "System.Drawing 只读检查实际尺寸、格式和透明度；未验证 C2PA，未从配置推断实际模型或质量。",
+    "rawFormatGuid": "b96b3caf-0728-11d3-9d7b-0000f81ef32e"
+  },
+  "status": "design_ready_user_review",
+  "visualQA": {
+    "status": "passed_for_design_review",
+    "reviewer": "last_two_qa",
+    "inspectedAt": "2026-10-26T10:50:04.5930069+00:00",
+    "method": "view_image",
+    "image": "designs/ui/core/57-hero-skills-v1.png",
+    "imageSha256": "40ef60f3c6c9b763272bf72ff0380a785492251e4f91a08449f3d3fc32ac2bb5",
+    "userApproval": false,
+    "findings": [
+      {
+        "severity": "pass",
+        "detail": "三行人物头像不同；玉绿道童浅绿选中行与金勾、桃花女修已拥有、葫芦长者锁标/未解锁/获取均完整可辨。",
+        "subject": "角色与状态"
+      },
+      {
+        "severity": "pass",
+        "detail": "右侧静心说明实际包含获得一次出牌提示、每局可使用一次和仅英雄玩法生效；此状态依据实绘正文，不以技能说明按钮充当弹窗证据。",
+        "subject": "能力说明"
+      },
+      {
+        "severity": "pass",
+        "detail": "玉绿、米白纸绢、暖金边与道童全身同源；人物脚和卡片完整，正文和操作无遮挡。",
+        "subject": "布局与风格"
+      },
+      {
+        "severity": "note",
+        "detail": "静心及其效果为原创设计示意；已选用按钮仍用玉绿皮肤，重复提交由状态规范禁用，不声称静态图证明交互实现。",
+        "subject": "业务与交互边界"
+      }
+    ],
+    "blockingIssues": []
+  },
+  "pageId": "57-hero-skills",
+  "userApproval": false
+}

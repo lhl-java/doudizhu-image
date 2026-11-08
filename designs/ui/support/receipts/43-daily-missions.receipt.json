@@ -1,0 +1,20 @@
+{
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "toolReturnKeys": [
+    "image_url",
+    "output_hint"
+  ],
+  "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1772b-71a9-7f61-b67a-7c35bfc09f10 as C:\\Users\\luyua\\.codex\\generated_images\\01a1772b-71a9-7f61-b67a-7c35bfc09f10\\exec-bd0f0098-3a5b-451c-84e6-9ec59a7790cb.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "actualModel": null,
+  "actualQuality": null,
+  "recordedAt": "2026-10-26 08:05:08 UTC",
+  "submittedArguments": {
+    "prompt": "Use case: ui-mockup\nAsset type: 中国道家Q版横屏斗地主手游，独立完整UI视觉设计，正视平面全屏，不带手机边框，不是多屏拼贴。期望2560×1080约2.37:1，原生精细绘制，画布内安全留白3%。\nInput images: Image 1为邮件主参考，Image 2为组队主参考，实际继承两者的玉绿标题、米白纸绢大面板、暖金细边、云纹如意卷角、清晰中文和细腻手绘完成度。只承接画风和控件，不复制原功能、原文字或旧游戏名称。若附角色图，仅继承角色身份外形。\nScene: 窗口外缘少量仙山亭阁、桃花与小灯，背景低对比，不遮挡窗口。主要窗口占画面90%，玉绿标题牌居顶，米白内容大块留白。细金分隔线、整齐对齐、文字清楚、主次按钮分明。\nStyle: 温润二维高清手绘，玉绿/青绿主色，象牙米白与暖米纸绢，细暖金；少量朱砂流苏、桃粉点缀。圆润饱满，阴影柔和，精致而不厚重；不是塑料公仔或写实人物。\n\nPrimary request: 完整任务页。顶部“每日任务”，右上关闭，页签“每日”“成长”。上方简洁活跃度条“今日活跃 60 / 100”，宝箱节点20、60、100。主列表三条宽米白卡：第一“完成3局对局”进度“2 / 3”、金币奖励“100”与次按钮“前往”；第二“赢得1局胜利”进度“1 / 1”、奖励“200”与明显绿按钮“领取”；第三“登录游戏”进度“1 / 1”、奖励“50”、灰绿勾记“已领取”。底部轻量“每日刷新”与“一键领取”主按钮。任务文字、进度、按钮严格分列对齐。\nText(verbatim): “每日任务”、“每日”、“成长”、“今日活跃 60 / 100”、“完成3局对局”、“2 / 3”、“100”、“前往”、“赢得1局胜利”、“1 / 1”、“200”、“领取”、“登录游戏”、“50”、“已领取”、“每日刷新”、“一键领取”\nConstraints: 所有主要功能清楚可读，同一张完整页面，不要旁边增加其他页面缩略图或状态板。按钮完整无裁切，图标和文字不重叠。示意数据仅用于视觉；不执行购买、登录或发送消息。不要把评审说明印在画面。只出现上述指定文字与必要数字。\nAvoid: 腾讯/欢乐斗地主品牌与角色、旧游戏名、写实皮肤、塑料高光、密集金纹噪点、粗硬边框、模糊拉伸、乱码水印、屏幕样机。",
+    "referenced_image_paths": [
+      "D:/work/doudizhu-image/references/style/01-mail-event.png",
+      "D:/work/doudizhu-image/references/style/team-ui-v2.png"
+    ],
+    "transparent_background": false
+  }
+}

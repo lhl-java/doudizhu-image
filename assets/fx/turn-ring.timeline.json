@@ -1,0 +1,53 @@
+{
+  "durationMs": 1200,
+  "loop": true,
+  "blend": "screen",
+  "event": "turn_started",
+  "keyframes": [
+    {
+      "atMs": 0,
+      "alpha": 0.7,
+      "scale": 1,
+      "x": 0,
+      "y": 0,
+      "rotation": 0
+    },
+    {
+      "atMs": 600,
+      "alpha": 1,
+      "scale": 1.05,
+      "x": 0,
+      "y": 0,
+      "rotation": 6
+    },
+    {
+      "atMs": 1200,
+      "alpha": 0.7,
+      "scale": 1,
+      "x": 0,
+      "y": 0,
+      "rotation": 0
+    }
+  ],
+  "interpolation": "linear",
+  "translationUnit": "fraction-of-384px-frame",
+  "stopEvent": "turn_ended",
+  "kind": "fx",
+  "anchor": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "id": "turn-ring",
+  "file": "assets/fx/turn-ring.png",
+  "record": "assets/fx/turn-ring.png.generation.json",
+  "width": 512,
+  "height": 512,
+  "z": 80,
+  "sourceNativeCell": {
+    "width": 512,
+    "height": 512
+  },
+  "staticSource": true,
+  "animationSource": "runtime transforms of generated static illustration, not AI video",
+  "maxDisplaySize": 384
+}

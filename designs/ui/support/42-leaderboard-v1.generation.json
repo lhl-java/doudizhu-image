@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/ui/support/42-leaderboard-v1.png",
+  "sha256": "689acae496323b2ba3ad6a056dc20abe75289e0f5757a365f8298677c6bf5d0a",
+  "generatedAt": "2026-10-26 08:00:48 UTC",
+  "generatedAtEvidence": "工具返回后记录的UTC完成时间代理；非模型内部时间",
+  "width": 1931,
+  "height": 814,
+  "format": "PNG",
+  "nativeResolution": {
+    "width": 1931,
+    "height": 814
+  },
+  "exportOperation": "byte-identical-copy; no resize or redraw",
+  "requestedResolution": {
+    "width": 2560,
+    "height": 1080,
+    "note": "提示词目标；工具未提供尺寸选择器"
+  },
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "callId": null,
+  "resultId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:/work/doudizhu-image/references/style/01-mail-event.png",
+      "D:/work/doudizhu-image/references/style/team-ui-v2.png",
+      "D:/work/doudizhu-image/designs/characters/characters-trio-v1.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据；无型号与质量选择器，配置不能证明实际锁定Sunburst/max",
+  "prompt": "prompts/support/42-leaderboard-v1.txt",
+  "promptSha256": "27b71e988d58cf80d8e6017e615f525e790f9a44a67950976bd80f5f59812cff",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "实际附带风格或人物参考"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "实际附带风格或人物参考"
+    },
+    {
+      "file": "designs/characters/characters-trio-v1.png",
+      "sha256": "0c4dda70d4e16715527ed243a8d3efc2a401be2f06326b49601d1b184e7165ac",
+      "role": "实际附带风格或人物参考"
+    }
+  ],
+  "evidence": {
+    "receipt": "designs/ui/support/receipts/42-leaderboard.receipt.json",
+    "sourcePath": "C:\\Users\\luyua\\.codex\\generated_images\\01a1772b-71a9-7f61-b67a-7c35bfc09f10\\exec-218aeed3-1f2e-4c9d-9ce2-c741b5b52621.png",
+    "toolReturnKeys": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "inspection": {
+    "status": "superseded_by_v2",
+    "notes": [
+      "已由v2补齐昵称文字，当前选用42-leaderboard-v2.png"
+    ],
+    "pixelFormat": "Format24bppRgb"
+  },
+  "imageRemoved": true,
+  "retention": {
+    "status": "removed_superseded_image",
+    "replacedBy": "designs/ui/support/42-leaderboard-v2.png",
+    "retainedGenerationRecord": "designs/ui/support/42-leaderboard-v1.generation.json",
+    "removedAt": "2026-10-26T12:50:47.1162630+00:00",
+    "reason": "成品v2已落盘、选用并核验；依用户素材保留规则删除替代图片，保留历史来源文字与哈希。"
+  }
+}

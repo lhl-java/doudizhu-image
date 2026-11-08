@@ -1,0 +1,61 @@
+{
+  "file": "designs/runtime-scenes-20261026/fx-transform-preview.gif",
+  "sha256": "2e3cc962f1bd9398567eb98f49ab2da507f16ae78e62219b4e2cc5051a4437fb",
+  "route": "derived",
+  "operation": "4x3 contact preview of all16 frames per effect, uniformly sampled per respective timeline; not realtime simultaneous game event recording and not AI video",
+  "derivedFrom": [
+    {
+      "file": "assets/fx/frames/deal-trail/frames.json",
+      "sha256": "83c737fd5cc45ad776d30fb2dc84be107c4d22cdcfdddcc6a105c4e2b764c4c9"
+    },
+    {
+      "file": "assets/fx/frames/play-glow/frames.json",
+      "sha256": "f7a02b909ddd15091abf015693d19839730230a09c27df3f4e52134dc93a18e0"
+    },
+    {
+      "file": "assets/fx/frames/bomb-burst/frames.json",
+      "sha256": "203d24618a12fb1f639e3e577b2bc4aee7b9688727d830c7432482b75038e4f7"
+    },
+    {
+      "file": "assets/fx/frames/rocket-trail/frames.json",
+      "sha256": "ea2014ab91e7f81c7c0a93eb5cd5c126b3f2e14223fedd9b697bc7dfaaa15732"
+    },
+    {
+      "file": "assets/fx/frames/spring-petals/frames.json",
+      "sha256": "c9e623ca1092589127b179ff3a166692836e505dc6419ef29f59449f87d9cc32"
+    },
+    {
+      "file": "assets/fx/frames/counter-spring-leaves/frames.json",
+      "sha256": "6c508da337bfc458c58e74e920c81991d15687968d1ed740a706b5e7908c759d"
+    },
+    {
+      "file": "assets/fx/frames/win-gold/frames.json",
+      "sha256": "c2e6576c0a2ba44e8ae09401d8a2502633ec15341605b86071c1f3dbaf1bf9c0"
+    },
+    {
+      "file": "assets/fx/frames/lose-cloud/frames.json",
+      "sha256": "84657672d3a9ab95f01b38b51214711dd28ec5fd62076acbb1f47808f6116ce7"
+    },
+    {
+      "file": "assets/fx/frames/rank-up/frames.json",
+      "sha256": "b84c87e2c70ebaeae98dfe50bc2b6c611213508abec564b754daeecf577ec303"
+    },
+    {
+      "file": "assets/fx/frames/reward-sparkle/frames.json",
+      "sha256": "8a34abca0ce50fcc4821f5d23206d25d1a5498d5ba0f811df714f59340cfe2c2"
+    },
+    {
+      "file": "assets/fx/frames/turn-ring/frames.json",
+      "sha256": "6de4ce4c8a72191ec0c648982f5af9e0691e6c8451ab823fcf135dee89a21229"
+    },
+    {
+      "file": "assets/fx/frames/loading-ring/frames.json",
+      "sha256": "a852b67074ef212767b04190e842804583aaa34bbdb98981f7e0ce5288db6e92"
+    }
+  ],
+  "width": 1024,
+  "height": 768,
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "qa_preview_only"
+}

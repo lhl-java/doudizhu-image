@@ -1,0 +1,745 @@
+{
+  "schemaVersion": 2,
+  "pageId": "08-join-room",
+  "title": "加入房间",
+  "scopeSource": "docs/UI_SCOPE.json",
+  "scopeControls": [
+    "房号输入",
+    "数字键盘",
+    "清空",
+    "加入"
+  ],
+  "requiredStates": [
+    "输入中",
+    "房号错误",
+    "已满",
+    "已结束"
+  ],
+  "status": "design_ready_user_review",
+  "renderedState": {
+    "status": "design_ready_user_review",
+    "coverage": "rendered",
+    "description": "输入1208，剩余2格空白",
+    "plannedRequiredStates": [
+      "输入中"
+    ],
+    "image": "designs/ui/core/08-join-room-v1.png",
+    "generation": "designs/ui/core/08-join-room-v1.generation.json",
+    "actualRequiredStates": [
+      "输入中"
+    ]
+  },
+  "expectedOutput": "designs/ui/core/08-join-room-v1.png",
+  "expectedGeneration": "designs/ui/core/08-join-room-v1.generation.json",
+  "states": [
+    {
+      "name": "输入中",
+      "coverage": "rendered",
+      "status": "design_ready_user_review",
+      "image": "designs/ui/core/08-join-room-v1.png",
+      "copy": [
+        "加入房间",
+        "请输入6位房号",
+        "1208（后2格空白）",
+        "清空",
+        "删除",
+        "输入完整房号后加入"
+      ],
+      "behavior": [
+        "六格中前四格为1、2、0、8，最后两格留空；数字键盘输入与删除同步刷新；完整示意房号为120816。"
+      ],
+      "disabledReasons": [
+        "只输入4位，未满6位；画面实际提示“输入完整房号后加入”。"
+      ],
+      "dependencies": [],
+      "evidence": {
+        "method": "view_image",
+        "note": "六格实际为1/2/0/8/焦点空格/空格，键盘完整，加入房间灰色并显示输入完整房号后加入。",
+        "inspectedAt": "2026-10-26T11:24:53.858275+00:00",
+        "imageSha256": "fac53d5dd2c30bf2fd7d5d287e6244f4a133a3a5281b13df9bb5e9b4a3782aad",
+        "reviewer": "core_qa"
+      },
+      "actualCopy": [
+        "返回",
+        "加入房间",
+        "请输入6位房号",
+        "1",
+        "2",
+        "0",
+        "8",
+        "清空",
+        "删除",
+        "输入完整房号后加入"
+      ]
+    },
+    {
+      "name": "房号错误",
+      "coverage": "shared_component",
+      "status": "design_ready_user_review",
+      "image": null,
+      "copy": [
+        "房号错误，请重新输入",
+        "重新输入"
+      ],
+      "behavior": [
+        "保留或选中原房号供修改；不误报房间已加入。"
+      ],
+      "disabledReasons": [],
+      "dependencies": [
+        {
+          "pageId": "50-shared-dialogs",
+          "sha256": "45d20f3f85aa8fd8133b8665f1962f8d7e7b06a7cf3b7d41799837cf689598f7",
+          "output": "designs/ui/components/50-shared-dialogs-v1.png",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "D01 通用警告与双按钮",
+          "sourceStatus": "design_ready_user_review",
+          "stateSpec": "designs/ui/components/50-shared-dialogs.states.json",
+          "generation": "designs/ui/components/50-shared-dialogs-v1.generation.json"
+        },
+        {
+          "output": "assets/ui/controls/primary-normal.png",
+          "sha256": "a2aa9afff3b9ef559a23ddef8d1b991691c09a609b7ea96b453c56c586b5f021",
+          "derivation": "assets/ui/controls/primary-normal.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "primary-normal transparent native control"
+        },
+        {
+          "output": "assets/ui/controls/secondary-normal.png",
+          "sha256": "9ba4a890ce8dc82f27a3468a1b8aad4586920da8111a35bc63ad1b801c93bd3d",
+          "derivation": "assets/ui/controls/secondary-normal.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "secondary-normal transparent native control"
+        },
+        {
+          "pageId": "08-join-room",
+          "output": "designs/ui/core/08-join-room-v1.png",
+          "sha256": "fac53d5dd2c30bf2fd7d5d287e6244f4a133a3a5281b13df9bb5e9b4a3782aad",
+          "generation": "designs/ui/core/08-join-room-v1.generation.json",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "已绘主页面作为状态背景和位置依据"
+        }
+      ],
+      "evidence": {
+        "method": "verified_shared_component_reuse",
+        "reviewer": "core_qa",
+        "inspectedAt": "2026-10-26T11:24:53.858275+00:00",
+        "standaloneFullPageRendered": false,
+        "implementationStatus": "design_only_not_implemented",
+        "nativeTextAndDataReplacements": {
+          "title": "房号错误",
+          "body": "请核对6位房号后重试",
+          "secondaryAction": "返回",
+          "primaryAction": "重新输入"
+        },
+        "note": "实际查看并核验共享图板、指定控件和主页面，定义原生文字/数据替换及行为；未另行合成整屏。"
+      },
+      "reusePlan": {
+        "sources": [
+          {
+            "pageId": "50-shared-dialogs",
+            "sha256": "45d20f3f85aa8fd8133b8665f1962f8d7e7b06a7cf3b7d41799837cf689598f7",
+            "output": "designs/ui/components/50-shared-dialogs-v1.png",
+            "verifiedFiles": true,
+            "verificationStatus": "file_record_and_visual_verified",
+            "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+            "method": "view_image and SHA256 comparison",
+            "locator": "D01 通用警告与双按钮",
+            "sourceStatus": "design_ready_user_review",
+            "stateSpec": "designs/ui/components/50-shared-dialogs.states.json",
+            "generation": "designs/ui/components/50-shared-dialogs-v1.generation.json"
+          },
+          {
+            "output": "assets/ui/controls/primary-normal.png",
+            "sha256": "a2aa9afff3b9ef559a23ddef8d1b991691c09a609b7ea96b453c56c586b5f021",
+            "derivation": "assets/ui/controls/primary-normal.derivation.json",
+            "derivedFrom": {
+              "file": "designs/ui/components/51-common-components-v1.png",
+              "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+              "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+            },
+            "verifiedFiles": true,
+            "verificationStatus": "file_record_and_visual_verified",
+            "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+            "method": "view_image and SHA256 comparison",
+            "locator": "primary-normal transparent native control"
+          },
+          {
+            "output": "assets/ui/controls/secondary-normal.png",
+            "sha256": "9ba4a890ce8dc82f27a3468a1b8aad4586920da8111a35bc63ad1b801c93bd3d",
+            "derivation": "assets/ui/controls/secondary-normal.derivation.json",
+            "derivedFrom": {
+              "file": "designs/ui/components/51-common-components-v1.png",
+              "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+              "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+            },
+            "verifiedFiles": true,
+            "verificationStatus": "file_record_and_visual_verified",
+            "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+            "method": "view_image and SHA256 comparison",
+            "locator": "secondary-normal transparent native control"
+          },
+          {
+            "pageId": "08-join-room",
+            "output": "designs/ui/core/08-join-room-v1.png",
+            "sha256": "fac53d5dd2c30bf2fd7d5d287e6244f4a133a3a5281b13df9bb5e9b4a3782aad",
+            "generation": "designs/ui/core/08-join-room-v1.generation.json",
+            "verifiedFiles": true,
+            "verificationStatus": "file_record_and_visual_verified",
+            "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+            "method": "view_image and SHA256 comparison",
+            "locator": "已绘主页面作为状态背景和位置依据"
+          }
+        ],
+        "note": "错误反馈发生于提交完整6位房号后；主图1208__仅为输入中示例，不会提交半成房号。复用D01，未另画整页。",
+        "nativeTextAndDataReplacements": {
+          "title": "房号错误",
+          "body": "请核对6位房号后重试",
+          "secondaryAction": "返回",
+          "primaryAction": "重新输入"
+        },
+        "standaloneFullPageRendered": false,
+        "method": "verified_shared_component_reuse",
+        "inspectedAt": "2026-10-26T11:24:53.858275+00:00",
+        "compositedPreviewProduced": false,
+        "implementationStatus": "design_only_not_implemented",
+        "actions": {
+          "返回": "关闭反馈，保留已提交的完整6位房号。",
+          "重新输入": "回到六格输入，将旧房号全选供替换；不声称已加入。"
+        },
+        "layout": {
+          "placement": "主页面居中覆盖，共享图板对应弹窗皮肤；背景加半透明遮罩",
+          "readingOrder": [
+            "标题",
+            "正文/状态",
+            "操作按钮"
+          ],
+          "buttonOrder": "双按钮为左次要右主要；单按钮居中",
+          "textLayer": "原生中文文字替换图板示例文案，不把替换后的整页说成已另行生成",
+          "dismiss": "关闭等同次要返回/取消；请求中仍执行明确的取消语义"
+        }
+      }
+    },
+    {
+      "name": "已满",
+      "coverage": "shared_component",
+      "status": "design_ready_user_review",
+      "image": null,
+      "copy": [
+        "房间已满",
+        "重新输入",
+        "返回"
+      ],
+      "behavior": [
+        "告知该房间无空位，允许更换房号或返回。"
+      ],
+      "disabledReasons": [
+        "目标房间没有空位。"
+      ],
+      "dependencies": [
+        {
+          "pageId": "50-shared-dialogs",
+          "sha256": "45d20f3f85aa8fd8133b8665f1962f8d7e7b06a7cf3b7d41799837cf689598f7",
+          "output": "designs/ui/components/50-shared-dialogs-v1.png",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "D01 通用警告与双按钮",
+          "sourceStatus": "design_ready_user_review",
+          "stateSpec": "designs/ui/components/50-shared-dialogs.states.json",
+          "generation": "designs/ui/components/50-shared-dialogs-v1.generation.json"
+        },
+        {
+          "output": "assets/ui/controls/primary-normal.png",
+          "sha256": "a2aa9afff3b9ef559a23ddef8d1b991691c09a609b7ea96b453c56c586b5f021",
+          "derivation": "assets/ui/controls/primary-normal.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "primary-normal transparent native control"
+        },
+        {
+          "output": "assets/ui/controls/secondary-normal.png",
+          "sha256": "9ba4a890ce8dc82f27a3468a1b8aad4586920da8111a35bc63ad1b801c93bd3d",
+          "derivation": "assets/ui/controls/secondary-normal.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "secondary-normal transparent native control"
+        },
+        {
+          "pageId": "08-join-room",
+          "output": "designs/ui/core/08-join-room-v1.png",
+          "sha256": "fac53d5dd2c30bf2fd7d5d287e6244f4a133a3a5281b13df9bb5e9b4a3782aad",
+          "generation": "designs/ui/core/08-join-room-v1.generation.json",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "已绘主页面作为状态背景和位置依据"
+        }
+      ],
+      "evidence": {
+        "method": "verified_shared_component_reuse",
+        "reviewer": "core_qa",
+        "inspectedAt": "2026-10-26T11:24:53.858275+00:00",
+        "standaloneFullPageRendered": false,
+        "implementationStatus": "design_only_not_implemented",
+        "nativeTextAndDataReplacements": {
+          "title": "房间已满",
+          "body": "当前房间没有空位，请更换房号",
+          "secondaryAction": "返回",
+          "primaryAction": "重新输入"
+        },
+        "note": "实际查看并核验共享图板、指定控件和主页面，定义原生文字/数据替换及行为；未另行合成整屏。"
+      },
+      "reusePlan": {
+        "sources": [
+          {
+            "pageId": "50-shared-dialogs",
+            "sha256": "45d20f3f85aa8fd8133b8665f1962f8d7e7b06a7cf3b7d41799837cf689598f7",
+            "output": "designs/ui/components/50-shared-dialogs-v1.png",
+            "verifiedFiles": true,
+            "verificationStatus": "file_record_and_visual_verified",
+            "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+            "method": "view_image and SHA256 comparison",
+            "locator": "D01 通用警告与双按钮",
+            "sourceStatus": "design_ready_user_review",
+            "stateSpec": "designs/ui/components/50-shared-dialogs.states.json",
+            "generation": "designs/ui/components/50-shared-dialogs-v1.generation.json"
+          },
+          {
+            "output": "assets/ui/controls/primary-normal.png",
+            "sha256": "a2aa9afff3b9ef559a23ddef8d1b991691c09a609b7ea96b453c56c586b5f021",
+            "derivation": "assets/ui/controls/primary-normal.derivation.json",
+            "derivedFrom": {
+              "file": "designs/ui/components/51-common-components-v1.png",
+              "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+              "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+            },
+            "verifiedFiles": true,
+            "verificationStatus": "file_record_and_visual_verified",
+            "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+            "method": "view_image and SHA256 comparison",
+            "locator": "primary-normal transparent native control"
+          },
+          {
+            "output": "assets/ui/controls/secondary-normal.png",
+            "sha256": "9ba4a890ce8dc82f27a3468a1b8aad4586920da8111a35bc63ad1b801c93bd3d",
+            "derivation": "assets/ui/controls/secondary-normal.derivation.json",
+            "derivedFrom": {
+              "file": "designs/ui/components/51-common-components-v1.png",
+              "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+              "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+            },
+            "verifiedFiles": true,
+            "verificationStatus": "file_record_and_visual_verified",
+            "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+            "method": "view_image and SHA256 comparison",
+            "locator": "secondary-normal transparent native control"
+          },
+          {
+            "pageId": "08-join-room",
+            "output": "designs/ui/core/08-join-room-v1.png",
+            "sha256": "fac53d5dd2c30bf2fd7d5d287e6244f4a133a3a5281b13df9bb5e9b4a3782aad",
+            "generation": "designs/ui/core/08-join-room-v1.generation.json",
+            "verifiedFiles": true,
+            "verificationStatus": "file_record_and_visual_verified",
+            "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+            "method": "view_image and SHA256 comparison",
+            "locator": "已绘主页面作为状态背景和位置依据"
+          }
+        ],
+        "note": "满房反馈复用警告弹窗，数字房号属于动态数据。",
+        "nativeTextAndDataReplacements": {
+          "title": "房间已满",
+          "body": "当前房间没有空位，请更换房号",
+          "secondaryAction": "返回",
+          "primaryAction": "重新输入"
+        },
+        "standaloneFullPageRendered": false,
+        "method": "verified_shared_component_reuse",
+        "inspectedAt": "2026-10-26T11:24:53.858275+00:00",
+        "compositedPreviewProduced": false,
+        "implementationStatus": "design_only_not_implemented",
+        "actions": {
+          "返回": "回06好友同玩。",
+          "重新输入": "回六格输入，可修改完整房号；原房间继续不可加入。"
+        },
+        "layout": {
+          "placement": "主页面居中覆盖，共享图板对应弹窗皮肤；背景加半透明遮罩",
+          "readingOrder": [
+            "标题",
+            "正文/状态",
+            "操作按钮"
+          ],
+          "buttonOrder": "双按钮为左次要右主要；单按钮居中",
+          "textLayer": "原生中文文字替换图板示例文案，不把替换后的整页说成已另行生成",
+          "dismiss": "关闭等同次要返回/取消；请求中仍执行明确的取消语义"
+        }
+      }
+    },
+    {
+      "name": "已结束",
+      "coverage": "shared_component",
+      "status": "design_ready_user_review",
+      "image": null,
+      "copy": [
+        "房间已结束",
+        "重新输入",
+        "返回"
+      ],
+      "behavior": [
+        "告知房间不可加入，允许更换房号。"
+      ],
+      "disabledReasons": [
+        "目标房间已经结束。"
+      ],
+      "dependencies": [
+        {
+          "pageId": "50-shared-dialogs",
+          "sha256": "45d20f3f85aa8fd8133b8665f1962f8d7e7b06a7cf3b7d41799837cf689598f7",
+          "output": "designs/ui/components/50-shared-dialogs-v1.png",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "D01 通用警告与双按钮",
+          "sourceStatus": "design_ready_user_review",
+          "stateSpec": "designs/ui/components/50-shared-dialogs.states.json",
+          "generation": "designs/ui/components/50-shared-dialogs-v1.generation.json"
+        },
+        {
+          "output": "assets/ui/controls/primary-normal.png",
+          "sha256": "a2aa9afff3b9ef559a23ddef8d1b991691c09a609b7ea96b453c56c586b5f021",
+          "derivation": "assets/ui/controls/primary-normal.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "primary-normal transparent native control"
+        },
+        {
+          "output": "assets/ui/controls/secondary-normal.png",
+          "sha256": "9ba4a890ce8dc82f27a3468a1b8aad4586920da8111a35bc63ad1b801c93bd3d",
+          "derivation": "assets/ui/controls/secondary-normal.derivation.json",
+          "derivedFrom": {
+            "file": "designs/ui/components/51-common-components-v1.png",
+            "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+            "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+          },
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "secondary-normal transparent native control"
+        },
+        {
+          "pageId": "08-join-room",
+          "output": "designs/ui/core/08-join-room-v1.png",
+          "sha256": "fac53d5dd2c30bf2fd7d5d287e6244f4a133a3a5281b13df9bb5e9b4a3782aad",
+          "generation": "designs/ui/core/08-join-room-v1.generation.json",
+          "verifiedFiles": true,
+          "verificationStatus": "file_record_and_visual_verified",
+          "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+          "method": "view_image and SHA256 comparison",
+          "locator": "已绘主页面作为状态背景和位置依据"
+        }
+      ],
+      "evidence": {
+        "method": "verified_shared_component_reuse",
+        "reviewer": "core_qa",
+        "inspectedAt": "2026-10-26T11:24:53.858275+00:00",
+        "standaloneFullPageRendered": false,
+        "implementationStatus": "design_only_not_implemented",
+        "nativeTextAndDataReplacements": {
+          "title": "房间已结束",
+          "body": "该房间已结束，请更换房号",
+          "secondaryAction": "返回",
+          "primaryAction": "重新输入"
+        },
+        "note": "实际查看并核验共享图板、指定控件和主页面，定义原生文字/数据替换及行为；未另行合成整屏。"
+      },
+      "reusePlan": {
+        "sources": [
+          {
+            "pageId": "50-shared-dialogs",
+            "sha256": "45d20f3f85aa8fd8133b8665f1962f8d7e7b06a7cf3b7d41799837cf689598f7",
+            "output": "designs/ui/components/50-shared-dialogs-v1.png",
+            "verifiedFiles": true,
+            "verificationStatus": "file_record_and_visual_verified",
+            "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+            "method": "view_image and SHA256 comparison",
+            "locator": "D01 通用警告与双按钮",
+            "sourceStatus": "design_ready_user_review",
+            "stateSpec": "designs/ui/components/50-shared-dialogs.states.json",
+            "generation": "designs/ui/components/50-shared-dialogs-v1.generation.json"
+          },
+          {
+            "output": "assets/ui/controls/primary-normal.png",
+            "sha256": "a2aa9afff3b9ef559a23ddef8d1b991691c09a609b7ea96b453c56c586b5f021",
+            "derivation": "assets/ui/controls/primary-normal.derivation.json",
+            "derivedFrom": {
+              "file": "designs/ui/components/51-common-components-v1.png",
+              "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+              "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+            },
+            "verifiedFiles": true,
+            "verificationStatus": "file_record_and_visual_verified",
+            "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+            "method": "view_image and SHA256 comparison",
+            "locator": "primary-normal transparent native control"
+          },
+          {
+            "output": "assets/ui/controls/secondary-normal.png",
+            "sha256": "9ba4a890ce8dc82f27a3468a1b8aad4586920da8111a35bc63ad1b801c93bd3d",
+            "derivation": "assets/ui/controls/secondary-normal.derivation.json",
+            "derivedFrom": {
+              "file": "designs/ui/components/51-common-components-v1.png",
+              "sha256": "2962a584c440a2aeb243e13e0f6022b12453df3cf4d4e09b9b015c82819788ea",
+              "generationRecord": "designs/ui/components/51-common-components-v1.generation.json"
+            },
+            "verifiedFiles": true,
+            "verificationStatus": "file_record_and_visual_verified",
+            "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+            "method": "view_image and SHA256 comparison",
+            "locator": "secondary-normal transparent native control"
+          },
+          {
+            "pageId": "08-join-room",
+            "output": "designs/ui/core/08-join-room-v1.png",
+            "sha256": "fac53d5dd2c30bf2fd7d5d287e6244f4a133a3a5281b13df9bb5e9b4a3782aad",
+            "generation": "designs/ui/core/08-join-room-v1.generation.json",
+            "verifiedFiles": true,
+            "verificationStatus": "file_record_and_visual_verified",
+            "verifiedAt": "2026-10-26T11:24:53.858275+00:00",
+            "method": "view_image and SHA256 comparison",
+            "locator": "已绘主页面作为状态背景和位置依据"
+          }
+        ],
+        "note": "不将房间不存在与已结束合并为同一事实，分别替换准确原因。",
+        "nativeTextAndDataReplacements": {
+          "title": "房间已结束",
+          "body": "该房间已结束，请更换房号",
+          "secondaryAction": "返回",
+          "primaryAction": "重新输入"
+        },
+        "standaloneFullPageRendered": false,
+        "method": "verified_shared_component_reuse",
+        "inspectedAt": "2026-10-26T11:24:53.858275+00:00",
+        "compositedPreviewProduced": false,
+        "implementationStatus": "design_only_not_implemented",
+        "actions": {
+          "返回": "回06好友同玩。",
+          "重新输入": "回六格输入，可修改完整房号；结束房间不再发起加入。"
+        },
+        "layout": {
+          "placement": "主页面居中覆盖，共享图板对应弹窗皮肤；背景加半透明遮罩",
+          "readingOrder": [
+            "标题",
+            "正文/状态",
+            "操作按钮"
+          ],
+          "buttonOrder": "双按钮为左次要右主要；单按钮居中",
+          "textLayer": "原生中文文字替换图板示例文案，不把替换后的整页说成已另行生成",
+          "dismiss": "关闭等同次要返回/取消；请求中仍执行明确的取消语义"
+        }
+      }
+    }
+  ],
+  "supplementalStates": [
+    {
+      "name": "房间不存在",
+      "description": "未找到房间时独立反馈，不能与已结束事实混淆。",
+      "coverage": "specified_only",
+      "status": "pending",
+      "image": null,
+      "dependencies": [],
+      "note": "补充交互说明，不替代scope必需状态。"
+    },
+    {
+      "name": "加入处理中",
+      "description": "提交后展示等待并防止重复加入。",
+      "coverage": "specified_only",
+      "status": "pending",
+      "image": null,
+      "dependencies": [],
+      "note": "补充交互说明，不替代scope必需状态。"
+    }
+  ],
+  "stateTransitions": [
+    {
+      "from": "输入中",
+      "trigger": "提交完整房号且校验错误",
+      "to": "房号错误",
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "from": "输入中",
+      "trigger": "提交后房间已满",
+      "to": "已满",
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "from": "输入中",
+      "trigger": "提交后房间已结束",
+      "to": "已结束",
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "from": "房号错误",
+      "trigger": "重新输入",
+      "to": "输入中",
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "from": "已满",
+      "trigger": "重新输入",
+      "to": "输入中",
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "from": "已结束",
+      "trigger": "重新输入",
+      "to": "输入中",
+      "implementationStatus": "specified_only_not_implemented"
+    },
+    {
+      "from": "输入中",
+      "trigger": "加入成功",
+      "to": "09-room-waiting/未准备",
+      "implementationStatus": "specified_only_not_implemented"
+    }
+  ],
+  "copy": {
+    "status": "main_image_and_shared_state_design_verified",
+    "roomNumber": "120816",
+    "partiallyEnteredRoomNumber": "1208__",
+    "note": "actualVisibleText/actualCopy为主图实见内容；shared_component的nativeTextAndDataReplacements为指定原生文案层，未冒称已经烘焙到主图。",
+    "actualVisibleText": [
+      "返回",
+      "加入房间",
+      "请输入6位房号",
+      "1",
+      "2",
+      "0",
+      "8",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "9",
+      "清空",
+      "删除",
+      "输入完整房号后加入"
+    ]
+  },
+  "assumptions": [
+    "已逐字对齐 docs/UI_SCOPE.json 的 controls 与 requiredStates；页面和状态布局为本项目原创设计。",
+    "数值、房号120816、输入1208__、昵称和邀请文字均仅设计示意，不对应真实账户、房间、价格或业务记录。",
+    "默认规则、技能内容、货币门槛、限制、邀请策略和具体交互仍属设计假设；以最终产品规则为准。",
+    "公开资料仅核对模块范围；未逐屏实测腾讯当前客户端，不声称其各平台均采用此布局和行为。",
+    "只交付静态美术与状态规范，未实现客户端、服务器、支付或社交发送。",
+    "指定主画面需实际生成并看图后才可记 rendered；描述和未来共享依赖不能当作已画状态。"
+  ],
+  "userApproval": false,
+  "visualQA": {
+    "findings": [
+      {
+        "severity": "pass",
+        "subject": "输入格数量与焦点",
+        "detail": "实际恰好6格；前4格为1、2、0、8，第5格是绿色焦点框和输入光标，第6格空白。两格未填，未多画或少画。"
+      },
+      {
+        "severity": "pass",
+        "subject": "数字键盘",
+        "detail": "3列4行键盘依次为1/2/3、4/5/6、7/8/9、清空/0/删除，数字唯一且完整。"
+      },
+      {
+        "severity": "pass",
+        "subject": "禁用与原因",
+        "detail": "加入房间按钮为灰色禁用样式，下方输入完整房号后加入明确解释原因，与4位输入状态一致。"
+      },
+      {
+        "severity": "pass",
+        "subject": "风格与可读性",
+        "detail": "玉绿标题、纸绢面板、暖金边和角色同源，人物未遮挡输入区及键盘，所有文字可读。"
+      },
+      {
+        "severity": "note",
+        "subject": "覆盖边界",
+        "detail": "本图只画输入中；房号错误、已满、已结束继续由核验过的共享弹窗覆盖，未另画这些整屏状态。"
+      },
+      {
+        "severity": "pass",
+        "subject": "本轮逐张复核",
+        "detail": "恰好六格：1208、第五格光标、第六格空白；0–9、清空、删除完整，未满六位禁用加入且原因清楚。"
+      },
+      {
+        "severity": "note",
+        "subject": "状态覆盖",
+        "detail": "必需状态4项：主图可见1，共享视觉与原生文案设计3，仅说明0。共享态未另画整页，实际功能尚未接入。"
+      }
+    ],
+    "blockingIssues": [],
+    "reviewer": "core_qa",
+    "image": "designs/ui/core/08-join-room-v1.png",
+    "status": "passed_for_design_review",
+    "method": "view_image",
+    "userApproval": false,
+    "imageSha256": "fac53d5dd2c30bf2fd7d5d287e6244f4a133a3a5281b13df9bb5e9b4a3782aad",
+    "inspectedAt": "2026-10-26T11:24:53.858275+00:00",
+    "previousInspection": {
+      "reviewer": "art_review",
+      "inspectedAt": "2026-10-26T08:14:26.5289034+00:00",
+      "status": "passed_for_design_review"
+    }
+  },
+  "coverageSummary": {
+    "requiredTotal": 4,
+    "rendered": 1,
+    "shared_component": 3,
+    "specified_only": 0,
+    "note": "rendered为主图实际可见态；shared_component为已看图和哈希核验的共用皮肤加具体原生文案/行为设计。未另画共享态整页，未实现客户端交互。"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "file": "assets/game/atlases/atlas-01.png",
+  "width": 4096,
+  "height": 512,
+  "sha256": "7ec5d4b37df0beeaec34373e240c32319c2d21128e00c64c25b99da9a763953d",
+  "operation": "RGBA sprite packing at source1:1; no resize, no rotation, 4px transparent gutters",
+  "derivedFrom": [
+    {
+      "file": "assets/ui/controls/tab-selected.png",
+      "sha256": "d61f3cd52dc6469e625d2c3ac4a55aa80939f721a6a8f60c6781100f78938081",
+      "record": "assets/ui/controls/tab-selected.derivation.json"
+    },
+    {
+      "file": "assets/ui/controls/secondary-highlight.png",
+      "sha256": "99950b5d816b379ce5ecf4ddb28f723220cd4fa23a0225c59bad4d9a946b4f00",
+      "record": "assets/ui/controls/secondary-highlight.derivation.json"
+    },
+    {
+      "file": "assets/ui/controls/secondary-normal.png",
+      "sha256": "9ba4a890ce8dc82f27a3468a1b8aad4586920da8111a35bc63ad1b801c93bd3d",
+      "record": "assets/ui/controls/secondary-normal.derivation.json"
+    },
+    {
+      "file": "assets/ui/controls/secondary-pressed.png",
+      "sha256": "4a1e93330493da258aa241e6cfecd6ec5d79908375d4b57c2a5ee55c8270d37f",
+      "record": "assets/ui/controls/secondary-pressed.derivation.json"
+    },
+    {
+      "file": "assets/ui/controls/secondary-disabled.png",
+      "sha256": "0b48192b12595d3607eaec5aa843654ef9404fa30684e49cbad4f1375867d478",
+      "record": "assets/ui/controls/secondary-disabled.derivation.json"
+    },
+    {
+      "file": "assets/ui/controls/checkbox-off.png",
+      "sha256": "abd5ab528f4736c55980784b5626b54bb03523601c54738c43296a073493613c",
+      "record": "assets/ui/controls/checkbox-off.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/skins/toast.png",
+      "sha256": "88c66f029d225ef662cec584a1c83b7f2c42a5b33bcdef0bbabd1f64b2d70d0f",
+      "record": "assets/ui/runtime-kit/skins/toast.derivation.json"
+    },
+    {
+      "file": "assets/ui/controls/input-normal.png",
+      "sha256": "dd484f83f0b99c428769449d98231ef68bb67a88ecb97a5727e7b9391b8cbf3b",
+      "record": "assets/ui/controls/input-normal.derivation.json"
+    },
+    {
+      "file": "assets/ui/controls/input-focus.png",
+      "sha256": "b7a1485cf5cbc9f846768b83fb786bb04d6589d3b1d498e1646b2c93ee29eb30",
+      "record": "assets/ui/controls/input-focus.derivation.json"
+    },
+    {
+      "file": "assets/ui/controls/progress.png",
+      "sha256": "e0c7a90ca832b183dcec3f3a3f83061880d8b972432cebcd72cd80341b2670bc",
+      "record": "assets/ui/controls/progress.derivation.json"
+    },
+    {
+      "file": "assets/ui/controls/slider.png",
+      "sha256": "8190058d7d208afdf844a179ee9e62d040093137be0fdf29ee354f77aebb26a6",
+      "record": "assets/ui/controls/slider.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/skins/list-row-selected.png",
+      "sha256": "104310e2e9a32a013f3f99aab5ef12554213fd2e71242a784d49aec5df952c96",
+      "record": "assets/ui/runtime-kit/skins/list-row-selected.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/skins/list-row-normal.png",
+      "sha256": "78c4347a6838459020afc3bad41a62c34ada567cc6b9e26c442473864b3e506f",
+      "record": "assets/ui/runtime-kit/skins/list-row-normal.derivation.json"
+    },
+    {
+      "file": "assets/ui/runtime-kit/skins/red-dot.png",
+      "sha256": "0d4702e13f0a707f763b072982be0a75b14a65145339751c24a2a3f92a2bea64",
+      "record": "assets/ui/runtime-kit/skins/red-dot.derivation.json"
+    }
+  ]
+}

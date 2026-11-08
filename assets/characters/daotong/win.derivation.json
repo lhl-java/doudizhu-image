@@ -1,0 +1,45 @@
+{
+  "id": "daotong_win",
+  "file": "assets/characters/daotong/win.png",
+  "record": "assets/characters/daotong/win.derivation.json",
+  "kind": "character_pose",
+  "width": 1024,
+  "height": 1024,
+  "anchor": [
+    512,
+    920
+  ],
+  "sha256": "43c5d7885ff60d7189961d0f4325e48c7a4a3d6ee7711ff2e552c2256cdad179",
+  "operation": "crop-to-significant-alpha-bounds-with6px-padding-and-one-fixed-downscale-per-character-registered-to-foot-anchor",
+  "derivedFrom": {
+    "file": "designs/characters/runtime-20261026/daotong-win-v1.png",
+    "sha256": "de32f7d96c2baef48c13e7c481a9ca0c3c9bce45427fda39030bde701bdb77de",
+    "record": "designs/characters/runtime-20261026/daotong-win-v1.generation.json"
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "significantBorderPixels": 0,
+  "recordedAt": "2026-10-26T18:37:39.298986+00:00",
+  "art_source": "existing",
+  "status": "asset_ready_user_review",
+  "sourceRect": [
+    125,
+    33,
+    1169,
+    1222
+  ],
+  "sourceAnchor": [
+    647.0,
+    1216
+  ],
+  "fixedScale": 0.6739679865206403,
+  "offset": [
+    160,
+    123
+  ],
+  "noUpscale": true,
+  "pose": "win",
+  "characterId": "daotong"
+}

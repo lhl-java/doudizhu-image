@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "updatedOn": "2026-11-12",
+  "source": "Direct user clarification in this project chat",
+  "originalUserName": "QQ斗地主",
+  "userClarification": "手机端《欢乐斗地主》",
+  "confirmedTitle": "欢乐斗地主",
+  "clientType": "mobile",
+  "operatingSystem": null,
+  "version": null,
+  "build": null,
+  "trustedDownloadSource": null,
+  "exactClientVersionLocked": false,
+  "historicalResearch": "docs/REFERENCE_RESEARCH.md",
+  "historicalHandoff": "docs/BROWSER_REVIEW_HANDOFF_20261111.json",
+  "boundary": "The user has confirmed the mobile game identity only. Historical webpage version information is not the version of the user's reference client.",
+  "userArtApproval": false,
+  "productionRuntimeVerified": false,
+  "computerUseAllowed": false
+}

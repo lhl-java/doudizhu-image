@@ -10,7 +10,7 @@
 
 当前唯一目录为 `E:/work/doudizhu-image`。本地服务已开启时，可打开 <http://127.0.0.1:8771/preview/review-20261111/index.html>；否则先运行下述本地HTTP预览命令，再由用户查看页面。
 
-参照源按用户最新答复记为“QQ斗地主”；平台及确切客户端版本尚待确认。历史《欢乐斗地主》网页版本不视为本次锁定客户端。
+参照源已由用户于2026-11-12确认为**手机端《欢乐斗地主》**，见[最新参照源记录](docs/REFERENCE_CLIENT.json)。手机系统、版本号、构建号和可信来源仍待锁定；历史网页版本不代替本次客户端版本。2026-11-11审核批次与交接保留当时的固定记录，最新名称澄清以此记录为准。
 
 - [透明Logo PNG](assets/brand/daoyou-qing-chupai/logo-v1.png)（1902×1015，原图1:1加透明留白）
 - [原生生成图](assets/brand/daoyou-qing-chupai/logo-native-v1.png)（1774×887）、[1024宽导出](assets/brand/daoyou-qing-chupai/logo-1024.png)

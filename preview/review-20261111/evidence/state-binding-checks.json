@@ -1,0 +1,37 @@
+{
+  "status": "passed_static_binding_checks_pending_user_visual_review",
+  "checkedAt": "2026-11-12T04:44:57.250Z",
+  "states": 223,
+  "imageAndControlReferences": 50,
+  "errors": [],
+  "evidence": [
+    {
+      "file": "runtime/state-art.mjs",
+      "sha256": "ca151ccffa0fc5dfcbf84705a0d9506a972d20ae993269f7ee81f6fd9f1692dc"
+    },
+    {
+      "file": "runtime/state-art.css",
+      "sha256": "5f878865ff5f93a1a56dc4c1742d83affca58425941f2ca362d543b36aa6f165"
+    },
+    {
+      "file": "runtime/state-art.json",
+      "sha256": "1481579aa6cddfcfd29a5ff2a880ba1ef7db4d08eed276298dd97fd0ae615713"
+    },
+    {
+      "file": "tools/build_state_art.py",
+      "sha256": "15726124e82e7d0ee51306ead58012bd427de68b2ae59ddc5285d14e687d231e"
+    },
+    {
+      "file": "runtime/screens.json",
+      "sha256": "01b3c4ff532c25df683d8d77b968d3006508fd2f2f27d885ee8e8090d3beb595"
+    },
+    {
+      "file": "assets/game/runtime-index.json",
+      "sha256": "84675e7ec67391789597231b89630a31b9809ea164545f28e52d9b55a245fc81"
+    }
+  ],
+  "browserAutomationStoppedAtUserInstruction": true,
+  "userVisualApproval": false,
+  "productionRuntimeVerified": false,
+  "scope": "Static renderer/source-copy/file-reference checks only; no browser launch, rasterization, or client approval."
+}

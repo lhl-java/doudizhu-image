@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "validatedAt": "2026-11-04T16:40:36.298193+00:00",
+  "validatedAt": "2026-11-12T04:50:37.891473+00:00",
   "status": "passed_offline_art_contract",
   "contract": "docs/FULL_GAME_ART_CONTRACT.md",
   "artFilesReady": true,
@@ -54,8 +54,8 @@
     "runtime_art_count": 1,
     "unique_runtime_ids": 1,
     "art_kind_count": 16,
-    "file_exists": 1274,
-    "sha256_matches": 1274,
+    "file_exists": 1298,
+    "sha256_matches": 1298,
     "manifest_dimensions_match": 243,
     "runtime_png_format": 243,
     "record_exists": 255,
@@ -142,16 +142,24 @@
     "offline_table_variants_composition": 1,
     "platform_icon_export_count": 1,
     "platform_icon_dimensions": 9,
-    "platform_icon_no_upscale": 9
+    "platform_icon_no_upscale": 9,
+    "candidate_review_boundary": 1
   },
   "method": "Real local file SHA256, PNG decoding, alpha-edge inspection, atlas pixel comparison, JSON timing and reference validation; existing mock execution report checked by evidence hash.",
   "browserValidation": {
-    "performed": false,
-    "reason": "Local browser automation disabled in Work settings; no browser layout, visual playback or game-engine integration pass is claimed."
+    "performed": true,
+    "scope": "Historical desktop-Chrome captures and playback only; final candidate display requires user review.",
+    "baselineConditions": 566,
+    "baselineSourceChanged": true,
+    "currentRevisionVisualApproved": false,
+    "finalFullBrowserRerunPerformed": false,
+    "reason": "User explicitly requested no computer use and to prepare batches for their review. All browser/desktop automation stopped; no replacement GUI automation used.",
+    "handoff": "docs/BROWSER_REVIEW_HANDOFF_20261111.json",
+    "userArtApproval": false
   },
   "limits": [
     "Three-character 2D UI art scope; rigid-pose keyframe motion and real static pose changes, not AI video or articulated skeletal animation.",
-    "223 states have explicit native art-layout/copy bindings and mock execution coverage. Real browser appearance and production state logic are not verified.",
+    "223 states have explicit native art-layout/copy bindings and mock execution coverage. Historical browser captures retain fixed source scope; current candidate display, user approval and production state logic remain unverified.",
     "Fonts use client system font stacks; no font binaries are distributed. Audio, server, gameplay and payment integration are outside visual art assets."
   ],
   "inputEvidence": [
@@ -1396,6 +1404,10 @@
       "sha256": "7edb26ac8d3eaed6ec3557625f023c9c867239a3b98b521f3b7cf68eb4ce1e0f"
     },
     {
+      "file": "docs/BROWSER_REVIEW_HANDOFF_20261111.json",
+      "sha256": "3364bf310c090a568dd7a68d5678f2c27788059318d1c2829889f4737810831f"
+    },
+    {
       "file": "docs/COSTUME_POSES_VALIDATION.json",
       "sha256": "38d1d70c7ae06a84b313a23033489bea5eaa467a867473362d73ae2c63fbf78c"
     },
@@ -1405,7 +1417,7 @@
     },
     {
       "file": "docs/RUNTIME_INTEGRATION_VALIDATION.json",
-      "sha256": "58240ae7f3a4242a9a9337d4cff51b255f10b336e50ba934d725f20b6c4a6c71"
+      "sha256": "eceb5073bc43b0bec3118b9ba95df0b281422a6f2fbe653b5caec3720fd6ee50"
     },
     {
       "file": "preview/integration/table-variants.derivation.json",
@@ -1421,7 +1433,7 @@
     },
     {
       "file": "runtime/state-art.json",
-      "sha256": "83dd191b974d4e73931c4628e5cd3cc40a7532b8372a72194f00331695b1ad5d"
+      "sha256": "1481579aa6cddfcfd29a5ff2a880ba1ef7db4d08eed276298dd97fd0ae615713"
     }
   ]
 }

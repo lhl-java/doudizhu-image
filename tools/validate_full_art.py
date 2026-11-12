@@ -256,15 +256,25 @@ for a in platform_exports:
     check(a['width']<=1254 and a['width']==a['height'],'platform_icon_no_upscale',a['file'])
     record(a['file'],a['record'])
 
+browser_review=dict(performed=False,reason='No browser or target-client approval is asserted by this offline validator.')
+review_file='docs/BROWSER_REVIEW_HANDOFF_20261111.json'
+if exists(review_file):
+    review=read(review_file)
+    for e in review['candidateSourceEvidence']+review['historicalEvidence']:
+        hashed(e['file'],e['sha256'],review_file)
+    check(review['status']=='candidate_pending_user_review' and not review['userArtApproval'] and not review['productionRuntimeVerified'],
+          'candidate_review_boundary',review_file)
+    browser_review={**review['browserValidation'],'handoff':review_file,'userArtApproval':False}
+
 report=dict(schemaVersion=1,validatedAt=datetime.now(timezone.utc).isoformat(),status='passed_offline_art_contract' if not errors else 'failed',
             contract='docs/FULL_GAME_ART_CONTRACT.md',artFilesReady=not errors,productionRuntimeVerified=False,humanArtApproval=False,
             counts=dict(runtimePngs=len(assets),kinds=dict(counts),atlasTextures=len(textures),atlasSprites=len(atlasframes),characters=len(chars),
                         actorClips=len(clips),actorPreviewFrames=actorframes,fx=len(effects['assets']),fxFrames=fxframes,screens=len(screens),states=states,metrics=len(metrics),platformIconExports=len(platform_exports)),
             errors=errors,warnings=warnings,checks=dict(checks),
             method='Real local file SHA256, PNG decoding, alpha-edge inspection, atlas pixel comparison, JSON timing and reference validation; existing mock execution report checked by evidence hash.',
-            browserValidation=dict(performed=False,reason='Local browser automation disabled in Work settings; no browser layout, visual playback or game-engine integration pass is claimed.'),
+            browserValidation=browser_review,
             limits=['Three-character 2D UI art scope; rigid-pose keyframe motion and real static pose changes, not AI video or articulated skeletal animation.',
-                    '223 states have explicit native art-layout/copy bindings and mock execution coverage. Real browser appearance and production state logic are not verified.',
+                    '223 states have explicit native art-layout/copy bindings and mock execution coverage. Historical browser captures retain fixed source scope; current candidate display, user approval and production state logic remain unverified.',
                     'Fonts use client system font stacks; no font binaries are distributed. Audio, server, gameplay and payment integration are outside visual art assets.'],
             inputEvidence=[dict(file=f,sha256=h) for f,h in sorted(inputs.items())])
 (ROOT/'docs/FULL_GAME_ART_VALIDATION.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

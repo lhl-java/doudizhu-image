@@ -1,0 +1,473 @@
+[
+  {
+    "file": ".work/browser-motion-audit/contact-actor-daotong.jpg",
+    "sha256": "2de78c2d95dbb5e8a97ead783682ea557318e878c3009544b036fb18ebfdedc7",
+    "method": "Actual Chrome screenshot crop contact sheet; no art asset changed.",
+    "sources": [
+      {
+        "file": ".work/browser-motion-audit/actor-daotong-base-idle/start.png",
+        "sha256": "2ef5f03714d6c5c0830740cdee363f4e6461ae0988025c0f669790c20acd70a7",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-daotong-base-idle/middle.png",
+        "sha256": "e19774c1ea545992f29a9e2796e6a3a4cf4b953c11d8544b4e23ec2684b1a289",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-daotong-base-idle/end.png",
+        "sha256": "d45f7bad35e25dab004509b2d30d74d2785dfdfbea3b889279d8e0ffeeaaab66",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-daotong-base-think/start.png",
+        "sha256": "223c60e7387ebc61a9aac4276ca91e397f065bb92a1e91e3b522d26283209d4d",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-daotong-base-think/middle.png",
+        "sha256": "5134df09c2c34b660e6ba405e1e2d2002bb6b35428a61522c7958710e9c62584",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-daotong-base-think/end.png",
+        "sha256": "2993d42292e9c2bb50104bd98bbef3d2dd0ac2999fd2880d2fb702d351e09e77",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-daotong-base-play/start.png",
+        "sha256": "9e59d346cb24563ae8b4fe0fec5593959c2b7cca7decba36118a9616cadff2a5",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-daotong-base-play/middle.png",
+        "sha256": "dfeec422601916acb01c99ae56af7fc456da6af0314fa7f7f11d2fc5106e82af",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-daotong-base-play/end.png",
+        "sha256": "571f8a89c5546cd21f8117419945cb81d6683fc5b16eba3cee9556725e0aaf51",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-daotong-base-win/start.png",
+        "sha256": "13209cf6d8635bdfe20f8109188008a4522251d0c6f24f4394c0ea8ce0bc53f0",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-daotong-base-win/middle.png",
+        "sha256": "4e50e94280ba759f2bef1f149eac0de715c1b9e39cfbdc9676483c198754cf79",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-daotong-base-win/end.png",
+        "sha256": "13209cf6d8635bdfe20f8109188008a4522251d0c6f24f4394c0ea8ce0bc53f0",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-daotong-base-lose/start.png",
+        "sha256": "571f8a89c5546cd21f8117419945cb81d6683fc5b16eba3cee9556725e0aaf51",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-daotong-base-lose/middle.png",
+        "sha256": "903dd2d310b9a5eceed4b52242d1a5728598878fdafdd0b189c11b50f746f597",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-daotong-base-lose/end.png",
+        "sha256": "571f8a89c5546cd21f8117419945cb81d6683fc5b16eba3cee9556725e0aaf51",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      }
+    ]
+  },
+  {
+    "file": ".work/browser-motion-audit/contact-actor-taohua.jpg",
+    "sha256": "75eddfef904110e48a9bb68ce87a17670b31f22c96b4726531427b90c7f6e954",
+    "method": "Actual Chrome screenshot crop contact sheet; no art asset changed.",
+    "sources": [
+      {
+        "file": ".work/browser-motion-audit/actor-taohua-base-idle/start.png",
+        "sha256": "bb2103009076b360475d68e1de25cdf000b4d2a6d2329953fe2c8392fbd9750f",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-taohua-base-idle/middle.png",
+        "sha256": "cc61e2b427fb6240406a491c70951d986efe25661b40f050c95705b39d060085",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-taohua-base-idle/end.png",
+        "sha256": "567d16ee20b33a9a82f3f56ed60354f4120a2a1d3209c23fbf871bfe30fee0e9",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-taohua-base-think/start.png",
+        "sha256": "9d304f3254dfe9b59a2205e4c192fcf79caa1e1592b3659f82ee15186316a92f",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-taohua-base-think/middle.png",
+        "sha256": "c3177eec1e822d14741100a4b810617973e362380a60b438ec7e87408a942340",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-taohua-base-think/end.png",
+        "sha256": "e80ac7884cde9efbb4a26e08f795d797dc54f3ab8932696599b2f9eb76aeee84",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-taohua-base-play/start.png",
+        "sha256": "1f573c7b43a364ac2cff7b6bbd2829955227392bf7d6c689a400bc67b2c796a2",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-taohua-base-play/middle.png",
+        "sha256": "55f4689971140cf46ac0cc200b7d67325341382412373d4c0989243ab4b3f010",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-taohua-base-play/end.png",
+        "sha256": "edad0abf27f0c9ffaee9c0a2fd948ed3f2ed984a4f90c5fa3b2d887d71070639",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-taohua-base-win/start.png",
+        "sha256": "c0e35b97fae31efd67a5622b8d6c56a8c0e17c43854c1443e2a3284a7e2e1360",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-taohua-base-win/middle.png",
+        "sha256": "5d7748b1dddc66e3dcd257e452487bee81afd3378fb0d2034b4f81c83db83181",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-taohua-base-win/end.png",
+        "sha256": "c0e35b97fae31efd67a5622b8d6c56a8c0e17c43854c1443e2a3284a7e2e1360",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-taohua-base-lose/start.png",
+        "sha256": "c0e35b97fae31efd67a5622b8d6c56a8c0e17c43854c1443e2a3284a7e2e1360",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-taohua-base-lose/middle.png",
+        "sha256": "707cba59258d35faa438688737d7e80aebd1877be8bac43dca8742ae092c613b",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-taohua-base-lose/end.png",
+        "sha256": "c0e35b97fae31efd67a5622b8d6c56a8c0e17c43854c1443e2a3284a7e2e1360",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      }
+    ]
+  },
+  {
+    "file": ".work/browser-motion-audit/contact-actor-hulu.jpg",
+    "sha256": "bc15d90aa1f2bd5000775d9cf05f6f9b9303f5397641ce94274871b26f3a5692",
+    "method": "Actual Chrome screenshot crop contact sheet; no art asset changed.",
+    "sources": [
+      {
+        "file": ".work/browser-motion-audit/actor-hulu-base-idle/start.png",
+        "sha256": "4f7e34b04630ae8c408eef4033f1657d65aa086cf4325f3ac2655f5a322847e4",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-hulu-base-idle/middle.png",
+        "sha256": "478439dc5d9c77ea47607ef0224b2c28b20d5c5b6a5824bf6fccd89bcf5dee16",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-hulu-base-idle/end.png",
+        "sha256": "6326fdbed162caa2e591ff002c7b7d154537ab14419cbe9bc10e9ffe1573e9cb",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-hulu-base-think/start.png",
+        "sha256": "97dcae370473047f5bd25b7165d8d82d2341865e2cf5e75962c921e4989322cc",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-hulu-base-think/middle.png",
+        "sha256": "5e005e548f72c2c112024a9f2cfd17a16cce2ce23e5cc7f7b940a20c1eaec392",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-hulu-base-think/end.png",
+        "sha256": "b9602f463c77ca35b9a2cbe4727fcea6eb6b9503c9123c3a805ac9fd3da871da",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-hulu-base-play/start.png",
+        "sha256": "c4d96982b600a784e7b0c1eef43b8e01a60a02a2c271c637aa1777ac6c78f467",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-hulu-base-play/middle.png",
+        "sha256": "215e399187c3f57f8cd28185b49e8228ca42b25b2cf9b2c5f3854e0cd402d868",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-hulu-base-play/end.png",
+        "sha256": "ae841a425b4bdf632888bd78b47d1482b717f49582528c700a0c2e73c27cf4e2",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-hulu-base-win/start.png",
+        "sha256": "87ae69179ab0b4d2d13a87dce59055e8cbcb83cd38c0cccb6b1128208152ab56",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-hulu-base-win/middle.png",
+        "sha256": "fa6ccfefdfb46a3eecd98ebcd4315385d22252d7203ef8cc9b0f0d0d5d475ab0",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-hulu-base-win/end.png",
+        "sha256": "87ae69179ab0b4d2d13a87dce59055e8cbcb83cd38c0cccb6b1128208152ab56",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-hulu-base-lose/start.png",
+        "sha256": "ae841a425b4bdf632888bd78b47d1482b717f49582528c700a0c2e73c27cf4e2",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-hulu-base-lose/middle.png",
+        "sha256": "c01a4182bfa7c3f090bfadf8416647589a9d3b7dfc54d7ad82c7abc7bda2ed7f",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/actor-hulu-base-lose/end.png",
+        "sha256": "ae841a425b4bdf632888bd78b47d1482b717f49582528c700a0c2e73c27cf4e2",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      }
+    ]
+  }
+]

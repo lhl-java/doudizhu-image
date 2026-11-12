@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "validatedAt": "2026-11-12T04:52:01.621Z",
+  "userFacingDate": "2026-11-11",
+  "timezone": "America/New_York",
+  "status": "passed_static_review_pending_user_visual_review",
+  "method": "Read-only git diff and source review; local HTML href/src/poster and deep-link parameter checks; pure renderStateArt string generation in Node; filesystem byte counts and SHA256. No DOM or layout engine, no browser or GUI, no validator rerun.",
+  "scope": "Current candidate review portal, runtime query binding and state asset references, and existing versioned motion exports.",
+  "constraints": {
+    "browserOrGuiCalledDuringThisStaticReview": false,
+    "browserOrGuiAutomationAllowed": false,
+    "offlineValidatorRerun": false,
+    "gitMutation": false,
+    "otherFilesModifiedByThisReview": false
+  },
+  "candidateSourceMetadata": {
+    "file": "docs/BROWSER_REVIEW_HANDOFF_20261111.json",
+    "bytes": 7490,
+    "sha256": "3364bf310c090a568dd7a68d5678f2c27788059318d1c2829889f4737810831f"
+  },
+  "candidateSourceMetadataEntriesChecked": 17,
+  "candidateSourceMetadataMismatches": 0,
+  "sourceEvidence": [
+    {
+      "file": "runtime/art-preview.js",
+      "bytes": 20055,
+      "sha256": "adbf03998a7b9432eddc2e4fbcc910cd7289bbf867a428c0cb66bd2c6f05999f"
+    },
+    {
+      "file": "runtime/art-preview.html",
+      "bytes": 2180,
+      "sha256": "25b8cdf2b90f9effebd6503f2a408c84a40639828b50f801865359ac5f584e6d"
+    },
+    {
+      "file": "runtime/art-preview.css",
+      "bytes": 14975,
+      "sha256": "ff455753093992af212afce6069540e19d44644fe9787ff9219b9a1d23c85df8"
+    },
+    {
+      "file": "runtime/state-art.mjs",
+      "bytes": 9966,
+      "sha256": "ca151ccffa0fc5dfcbf84705a0d9506a972d20ae993269f7ee81f6fd9f1692dc"
+    },
+    {
+      "file": "runtime/state-art.css",
+      "bytes": 5245,
+      "sha256": "5f878865ff5f93a1a56dc4c1742d83affca58425941f2ca362d543b36aa6f165"
+    },
+    {
+      "file": "runtime/state-art.json",
+      "bytes": 148316,
+      "sha256": "1481579aa6cddfcfd29a5ff2a880ba1ef7db4d08eed276298dd97fd0ae615713"
+    },
+    {
+      "file": "runtime/screens.json",
+      "bytes": 263994,
+      "sha256": "01b3c4ff532c25df683d8d77b968d3006508fd2f2f27d885ee8e8090d3beb595"
+    },
+    {
+      "file": "runtime/table-art.mjs",
+      "bytes": 4706,
+      "sha256": "7470e3065d3b2399e146f597b0585da6c2a38017778d33d1f79fb4a2493ad7bc"
+    },
+    {
+      "file": "assets/game/manifest.json",
+      "bytes": 107968,
+      "sha256": "99f9845d5f65ef50744c3998f3fac4c7b89bc45a700f10c6556a5830643cb5bb"
+    },
+    {
+      "file": "assets/game/runtime-index.json",
+      "bytes": 248324,
+      "sha256": "84675e7ec67391789597231b89630a31b9809ea164545f28e52d9b55a245fc81"
+    },
+    {
+      "file": "assets/animations/characters/player.mjs",
+      "bytes": 4637,
+      "sha256": "2221b284ef29305f9b995c0bcefdab90e5d298c052f05c0fa877fbf30561f28e"
+    },
+    {
+      "file": "tools/build_state_art.py",
+      "bytes": 7632,
+      "sha256": "15726124e82e7d0ee51306ead58012bd427de68b2ae59ddc5285d14e687d231e"
+    },
+    {
+      "file": "tools/build_review_portal.py",
+      "bytes": 5712,
+      "sha256": "1a5c52a297f73a6d2310ccc8a904ae6c63a7743a3d27f4eac8091ce94c60cc4a"
+    },
+    {
+      "file": "tools/prepare_review_handoff.py",
+      "bytes": 5107,
+      "sha256": "84f288099ecd41dbcd963603404dc19b2f7e7e82ad8a8233640935c9818fe8a4"
+    },
+    {
+      "file": "preview/review-20261111/index.html",
+      "bytes": 86445,
+      "sha256": "7388364f371592ae2c58b0c93fd472cd5afa655ff8b4390b3082b0cd9e69037e"
+    },
+    {
+      "file": "preview/review-20261111/batches.json",
+      "bytes": 949,
+      "sha256": "984f289a7272acf0b9d70ecf02526a271747bfd97af2b2741a181d303236e128"
+    },
+    {
+      "file": "docs/RUNTIME_INTEGRATION_VALIDATION.json",
+      "bytes": 8553,
+      "sha256": "eceb5073bc43b0bec3118b9ba95df0b281422a6f2fbe653b5caec3720fd6ee50"
+    },
+    {
+      "file": "preview/review-20261111/motion/manifest.json",
+      "bytes": 603932,
+      "sha256": "e0af37680e6a74d320676b81bd7e0723f5d5b22185f2c8cd4028e76e6c9aa310"
+    },
+    {
+      "file": "preview/review-20261111/motion/index.html",
+      "bytes": 89721,
+      "sha256": "b53d775a145f4ba4014e38ef0aafe28dd262d9e63df58a1ceb5e0712b508d343"
+    },
+    {
+      "file": "preview/review-20261111/motion/export-validation.json",
+      "bytes": 527,
+      "sha256": "fda7f426930a0e3b5ffaa856ac4f12e77368e503d806c7974d0594c64071b3d8"
+    }
+  ],
+  "counts": {
+    "screens": 60,
+    "states": 223,
+    "supportedAspects": 2,
+    "portalLocalAttributeReferencesChecked": 570,
+    "portalRuntimeDeepLinksChecked": 566,
+    "portalStateDeepLinksChecked": 446,
+    "portalExplicitStateZeroDeepLinksChecked": 120,
+    "motionGalleryLocalAttributeReferencesChecked": 532,
+    "pureStateStringRendersChecked": 1784,
+    "uniqueStateAssetReferencesChecked": 72,
+    "motionArtifactHashesChecked": 309,
+    "motionArtifactBytesChecked": 96412068
+  },
+  "checks": {
+    "portalLocalPathsAndHtmlAnchors": {
+      "errors": 0
+    },
+    "portalDeepLinkScreenStateAndAspectParameters": {
+      "errors": 0
+    },
+    "runtimeQueryBindingCodeReview": {
+      "errors": 0,
+      "notes": [
+        "Initial screen selects an existing screen or falls back to the lobby.",
+        "Whitelisted actor, aspect, tableScene and tableSkin values are applied before render.",
+        "Valid numeric state indices are applied explicitly after render, including state 0.",
+        "Action overrides use the existing animation ticket guard."
+      ]
+    },
+    "motionGalleryLocalPathsAndHtmlAnchors": {
+      "errors": 0
+    },
+    "stateAssetReferencesAndFiniteOutput": {
+      "errors": 0,
+      "notes": [
+        "223 states rendered as strings for the six daotong costumes plus taohua and hulu.",
+        "Every emitted image/CSS asset path exists locally; no undefined or NaN string was emitted."
+      ]
+    },
+    "motionArtifactByteCountsAndSha256": {
+      "errors": 0
+    },
+    "staticCodeReview": {
+      "blockingErrorsFound": 0
+    }
+  },
+  "errors": [],
+  "errorCount": 0,
+  "visualApproval": false,
+  "userArtApproval": false,
+  "targetClientVerified": false,
+  "wholeGameArtCompletion": false,
+  "limitations": [
+    "This report checks files, references, hashes and source code only; it cannot approve visual layout, typography, clipping, alpha appearance, playback or real device performance.",
+    "Current CSS and state semantic changes after the historical captures remain pending user review.",
+    "Historical motion recordings and baseline captures retain their own source-version boundaries and do not establish current-candidate acceptance.",
+    "No source-client platform/version/build is inferred or locked by this report."
+  ]
+}

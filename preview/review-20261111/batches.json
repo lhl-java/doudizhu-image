@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "status": "pending_user_review",
+  "userApproval": false,
+  "screens": 60,
+  "states": 223,
+  "batches": [
+    {
+      "batch": 1,
+      "first": 1,
+      "last": 10,
+      "screens": 10,
+      "states": 32
+    },
+    {
+      "batch": 2,
+      "first": 11,
+      "last": 22,
+      "screens": 12,
+      "states": 44
+    },
+    {
+      "batch": 3,
+      "first": 23,
+      "last": 32,
+      "screens": 10,
+      "states": 34
+    },
+    {
+      "batch": 4,
+      "first": 33,
+      "last": 35,
+      "screens": 3,
+      "states": 10
+    },
+    {
+      "batch": 5,
+      "first": 36,
+      "last": 40,
+      "screens": 5,
+      "states": 20
+    },
+    {
+      "batch": 6,
+      "first": 41,
+      "last": 50,
+      "screens": 10,
+      "states": 40
+    },
+    {
+      "batch": 7,
+      "first": 51,
+      "last": 60,
+      "screens": 10,
+      "states": 43
+    }
+  ]
+}

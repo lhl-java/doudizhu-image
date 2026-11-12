@@ -1,0 +1,26 @@
+{
+  "entry": "http://127.0.0.1:8771/runtime/art-preview.html",
+  "files": [
+    "runtime/art-preview.html",
+    "assets/animations/characters/index.html"
+  ],
+  "reviewer": "user",
+  "userApproval": false,
+  "productionClientVersionLocked": false,
+  "steps": [
+    "Manually open the existing preview entry; select each of 60 pages and each listed state, explicitly including state 0.",
+    "Check both wide and 16:9 ratios: no hidden text/buttons; scroll each clipped-height list to its final row.",
+    "Confirm named Taohua character and spring/ink/base costume states match their copy; check dropped-star lose pose and incomplete gray stars.",
+    "Inspect pressed/selected/disabled/focus controls; confirm disabled buttons and native focus highlight.",
+    "Inspect two card backs, all four ace suits, actual selection frame, disabled cards, landlord/farmer badges and four static effect examples.",
+    "Check quick-phrase versus expression views, muted voice label, and vote choices/results.",
+    "Manually play 3 characters x 5 actions; all 6 Daotong costumes x 5 actions; verify independent win/lose poses retain clothing.",
+    "Manually play all 12 FX and switch pages during loops; confirm no effect remains on the new page.",
+    "Provide exact trusted source client and target client platform/build/entry, then perform manual target-client import/font/layout/performance review."
+  ],
+  "limits": [
+    "Existing screenshots are agent-reviewed earlier captures, not final user approval.",
+    "Rigid still transforms and static pose switches are 2D UI motion, not articulated skeletal animation or AI video.",
+    "No new browser/GUI automation will be launched after the explicit stop instruction."
+  ]
+}

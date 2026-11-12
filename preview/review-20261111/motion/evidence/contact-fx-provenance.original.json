@@ -1,0 +1,383 @@
+[
+  {
+    "file": ".work/browser-motion-audit/contact-fx-1.jpg",
+    "sha256": "b42e3df0d6ce8b7fde32dd76eb3c589e75d3c5bed759c7320c8a765f216fd50b",
+    "method": "Actual Chrome wall-clock screenshot crop; no art asset changed.",
+    "sources": [
+      {
+        "file": ".work/browser-motion-audit/fx-deal-trail/start.png",
+        "sha256": "5af3c74e6dba880ab2985df30e1ec974a245a8d49b133a12b439dd7a61d24a4c",
+        "crop": [
+          359,
+          20,
+          839,
+          470
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/fx-deal-trail/middle.png",
+        "sha256": "bb163aa1812637ab9ca78f7bc781d3a23feab7e3673a859e8cc20c5a39907daf",
+        "crop": [
+          359,
+          20,
+          839,
+          470
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/fx-deal-trail/end.png",
+        "sha256": "5ed6b8a0da310be0d626d62f775efdaeea52becda2950e3f958da78aad6ea52b",
+        "crop": [
+          359,
+          20,
+          839,
+          470
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/fx-play-glow/start.png",
+        "sha256": "6ca85dc0f5fd7dcce2eb251c31cbafe5b7a9488f2d3bf3190c6944556986aad5",
+        "crop": [
+          359,
+          20,
+          839,
+          470
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/fx-play-glow/middle.png",
+        "sha256": "d1b8b4632600ea2cc8e776ad0c4810cd83321e45eed0d568532b4bbf5dacb9cf",
+        "crop": [
+          359,
+          20,
+          839,
+          470
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/fx-play-glow/end.png",
+        "sha256": "46e78282fd9a9d3cf80b6919a029ee9b3f4b8941b28cc13d1081edf2fad28fe5",
+        "crop": [
+          359,
+          20,
+          839,
+          470
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/fx-bomb-burst/start.png",
+        "sha256": "17f3eeda2966c618c53e4a0723a1fa0c9ba961f271d5f350cd9453c8d29705cf",
+        "crop": [
+          359,
+          20,
+          839,
+          470
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/fx-bomb-burst/middle.png",
+        "sha256": "a70e9d92ded3b0d7f6499ec55b1ff79a4df54a514c08f36bee28d10e2b6b7ddd",
+        "crop": [
+          359,
+          20,
+          839,
+          470
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/fx-bomb-burst/end.png",
+        "sha256": "ad0cc3811fc6f8b69b17b1a9fe11a7f48081647efa7538ce0324e09123207364",
+        "crop": [
+          359,
+          20,
+          839,
+          470
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/fx-rocket-trail/start.png",
+        "sha256": "a19aa9f0f7d7cb778993e8b4afc2ed4f74ddf8b630e81d07ae78961b822baf45",
+        "crop": [
+          359,
+          20,
+          839,
+          470
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/fx-rocket-trail/middle.png",
+        "sha256": "c683f1c1159457d1f04c06aacda65edaa57a6a97cc64cf7e8d2c2aa4f423b53c",
+        "crop": [
+          359,
+          20,
+          839,
+          470
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/fx-rocket-trail/end.png",
+        "sha256": "d49331fdce1b38adb64fa4b6d408d64f8f25d50f793bdd2dd34af433218a87a6",
+        "crop": [
+          359,
+          20,
+          839,
+          470
+        ]
+      }
+    ]
+  },
+  {
+    "file": ".work/browser-motion-audit/contact-fx-2.jpg",
+    "sha256": "3603dedf2beb564fd09686bb60ece2930183845840fd76bb28694037abfa1331",
+    "method": "Actual Chrome wall-clock screenshot crop; no art asset changed.",
+    "sources": [
+      {
+        "file": ".work/browser-motion-audit/fx-spring-petals/start.png",
+        "sha256": "e2f469af17f93602b02c58b24516e6d6601177f9d1b207c1b4aaa79d7657fe24",
+        "crop": [
+          359,
+          20,
+          839,
+          470
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/fx-spring-petals/middle.png",
+        "sha256": "c3a0bfdfbe704fcb101056e30dd5a5c16f7f87e3d5dbe16ce18c59a78e1a80d2",
+        "crop": [
+          359,
+          20,
+          839,
+          470
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/fx-spring-petals/end.png",
+        "sha256": "0ec3b02f1de8ddc03adcf9990835eadf92873a01224b529dd890aaa5c74ab6be",
+        "crop": [
+          359,
+          20,
+          839,
+          470
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/fx-counter-spring-leaves/start.png",
+        "sha256": "827d0224305b75b2b10251072929c2a9f01f9701c9708840b2bc2c338b62cae0",
+        "crop": [
+          359,
+          20,
+          839,
+          470
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/fx-counter-spring-leaves/middle.png",
+        "sha256": "e34105b4b76330b4f68c7daa1e2bbec627ebeb1a8e371432bdad7ed13611a8b4",
+        "crop": [
+          359,
+          20,
+          839,
+          470
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/fx-counter-spring-leaves/end.png",
+        "sha256": "ed6b28eb4ada523b35091668926ee6419d09a950deea4fa08ea5b05e191bf904",
+        "crop": [
+          359,
+          20,
+          839,
+          470
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/fx-win-gold/start.png",
+        "sha256": "d6de867894583a9ba59fa8932f58be4dcd9adc2e8c9a61466d952256fddb4b90",
+        "crop": [
+          359,
+          20,
+          839,
+          470
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/fx-win-gold/middle.png",
+        "sha256": "9edc9415b39ad8f38b67f5ba7dccfc49a45a40c33999dc2935e4e2e3f4074048",
+        "crop": [
+          359,
+          20,
+          839,
+          470
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/fx-win-gold/end.png",
+        "sha256": "199d10462ecfdcf08632713766dc36c5a53cdb297680ea109560ca59e844369c",
+        "crop": [
+          359,
+          20,
+          839,
+          470
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/fx-lose-cloud/start.png",
+        "sha256": "95da7d93a9f38360eaa995cd38848f52917e23be629806e72a99f930cd5dc11c",
+        "crop": [
+          359,
+          20,
+          839,
+          470
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/fx-lose-cloud/middle.png",
+        "sha256": "741461e306d280b19e665876600dbd3180d3399d4e4b10d0bd2ab675b6526c30",
+        "crop": [
+          359,
+          20,
+          839,
+          470
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/fx-lose-cloud/end.png",
+        "sha256": "936215cea7cd119ee816637bc44aed2a5011f74e58dfe9a11ac682d5e5a923f9",
+        "crop": [
+          359,
+          20,
+          839,
+          470
+        ]
+      }
+    ]
+  },
+  {
+    "file": ".work/browser-motion-audit/contact-fx-3.jpg",
+    "sha256": "30bb96f683fd1edf2cb666f8d7a706844174add7eb45a7aa3144539ceec30d09",
+    "method": "Actual Chrome wall-clock screenshot crop; no art asset changed.",
+    "sources": [
+      {
+        "file": ".work/browser-motion-audit/fx-rank-up/start.png",
+        "sha256": "22fb6b3aab25d33593ac8b88314a8a6e8c5235c71ba961deb3c7f7dc5449a75c",
+        "crop": [
+          359,
+          20,
+          839,
+          470
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/fx-rank-up/middle.png",
+        "sha256": "9a3e1b34563cdeaeda791fdf2953d7297e24adda72b78ea3198e7e3eaf7bf62a",
+        "crop": [
+          359,
+          20,
+          839,
+          470
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/fx-rank-up/end.png",
+        "sha256": "6483778c8988df535f85064770f0a2b122f0380e9f176fadc7cf597371694173",
+        "crop": [
+          359,
+          20,
+          839,
+          470
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/fx-reward-sparkle/start.png",
+        "sha256": "b5676947490f5213f1904b351891821e5c2222224c1e0a7f0e6c8b4c9db866a1",
+        "crop": [
+          359,
+          20,
+          839,
+          470
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/fx-reward-sparkle/middle.png",
+        "sha256": "aa09ec820ca2c7ab0309fc2db6a1adcf5799866c30dac29ddb80aa52227fba1b",
+        "crop": [
+          359,
+          20,
+          839,
+          470
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/fx-reward-sparkle/end.png",
+        "sha256": "b2d9f1ae7f6f8389246f9b0929d52a60a5207ba7e8471d8d14d93777c6c94b9a",
+        "crop": [
+          359,
+          20,
+          839,
+          470
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/fx-turn-ring/start.png",
+        "sha256": "e9d907e734c34f2c9800d71910c3b0bb6d533ec67b9c017d09bc7934da4d475f",
+        "crop": [
+          359,
+          20,
+          839,
+          470
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/fx-turn-ring/middle.png",
+        "sha256": "ad150e494b7912c03de97a5e610174b6f666770ab499c5881a43a904d6826b93",
+        "crop": [
+          359,
+          20,
+          839,
+          470
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/fx-turn-ring/end.png",
+        "sha256": "fd9416c762dc0ac57d4263ce8d0cb46c1e393a9ee19a8abf0f2d119deeb7ff39",
+        "crop": [
+          359,
+          20,
+          839,
+          470
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/fx-loading-ring/start.png",
+        "sha256": "facce1c58056f7f02b9e7f37647c26c27b38f4c1a3dd7e70b87d397db6f9870d",
+        "crop": [
+          359,
+          20,
+          839,
+          470
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/fx-loading-ring/middle.png",
+        "sha256": "909a30174dff8b17cc109d78221841ab8e5a56e702cd87620f5c037d2cce75b0",
+        "crop": [
+          359,
+          20,
+          839,
+          470
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/fx-loading-ring/end.png",
+        "sha256": "1a68965c93cdd74056f4e6a8b2f4d9ada8d05e29eddc2fe76e94fe34cd30d3b3",
+        "crop": [
+          359,
+          20,
+          839,
+          470
+        ]
+      }
+    ]
+  }
+]

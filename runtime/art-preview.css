@@ -66,3 +66,28 @@
   .table-stage .seat-role{width:2.5em}
   .table-stage .table-actions{left:23%;right:4%}
 }
+
+/* Keep native content inside its frame at both supported landscape ratios. */
+.panel{display:flex;flex-direction:column;min-height:0;overflow:hidden}
+.panel>.rows{flex:1;min-height:0;overflow:auto}
+.panel .row{flex-shrink:0}
+.panel>.grid{flex:1;min-height:0;height:auto;overflow:auto;align-content:stretch;grid-auto-rows:minmax(4.5em,1fr);gap:.6em;padding:2px}
+.panel>.grid>.item{min-height:0;border-width:.6em;gap:.25em;padding:.15em}
+.panel>.grid>.item img{min-height:0;max-height:60%;flex:0 1 auto}
+.panel>.grid>.item b{flex-shrink:0;line-height:1.3}
+.panel>.small-title{flex-shrink:0}
+.game-header .title{font-size:min(1.45em,calc(12cqw / var(--title-length,6)));white-space:nowrap}
+.panel>.code-input{flex-shrink:0;width:100%;max-width:100%}
+.panel>.keys{flex:1;min-height:0;width:100%;margin:0;gap:.25em;grid-template-columns:repeat(3,minmax(0,1fr));grid-template-rows:repeat(4,minmax(0,1fr))}
+.panel>.keys .artbutton{min-width:0;min-height:0;height:100%;font-size:1em}
+.panel>.character-cards{flex:1;min-height:0;height:auto}
+.panel>.progress-track{flex-shrink:0;margin-top:.5em}
+.character-card img{min-height:0;flex:1;max-height:80%}
+.panel>div[style*="display:grid"]{flex:1;min-height:0;grid-template-rows:minmax(0,1fr);overflow:hidden}
+.panel>div[style*="display:grid"]>div{min-height:0;display:flex;flex-direction:column;overflow:hidden}
+.panel div[style*="display:grid"] .rows{flex:1;min-height:0;overflow:auto}
+.panel>.form{min-height:0;overflow:auto}
+.panel>.event-banner{flex-shrink:0}
+.content{grid-template-rows:minmax(0,1fr)}
+.character-cards{min-height:0;grid-template-rows:minmax(0,1fr)}
+.panel .rows,.panel>.grid,.panel>.form{scrollbar-width:thin;scrollbar-color:#917c47 #efe5cd}

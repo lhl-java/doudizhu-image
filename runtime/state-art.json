@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30T05:16:10.964333+00:00",
+  "updatedAt": "2026-11-12T04:44:38.360958+00:00",
   "source": "runtime/screens.json",
   "sourceSha256": "01b3c4ff532c25df683d8d77b968d3006508fd2f2f27d885ee8e8090d3beb595",
   "scope": "223 native art-state layouts with exact source copy and disabled reasons; local visual feedback only",
@@ -1066,10 +1066,12 @@
         },
         {
           "label": "出牌",
-          "disabled": false
+          "disabled": true
         }
       ],
-      "disabledReasons": [],
+      "disabledReasons": [
+        "已选"
+      ],
       "interactionSpec": "合法选牌抬高并描玉绿边，出牌主按钮可用。",
       "visualReview": "pending_browser_visual_review"
     },
@@ -1969,7 +1971,11 @@
       ],
       "disabledReasons": [],
       "interactionSpec": "在不显示原胜利文字的公共结果面板中呈现灰星和原生负号；继续匹配05。",
-      "visualReview": "pending_browser_visual_review"
+      "visualReview": "pending_browser_visual_review",
+      "visualBinding": {
+        "pose": "lose",
+        "rankDelta": -1
+      }
     },
     {
       "id": "25-ranked-result.state.2",
@@ -2535,7 +2541,10 @@
       ],
       "disabledReasons": [],
       "interactionSpec": "选中后更新底部介绍和试听；使用需保存成功回执。",
-      "visualReview": "pending_browser_visual_review"
+      "visualReview": "pending_browser_visual_review",
+      "visualBinding": {
+        "actorId": "taohua"
+      }
     },
     {
       "id": "33-character-select.state.1",
@@ -2579,7 +2588,11 @@
         "使用中"
       ],
       "interactionSpec": "金玉选框及状态文字同时表示当前角色，避免仅靠颜色。",
-      "visualReview": "pending_browser_visual_review"
+      "visualReview": "pending_browser_visual_review",
+      "visualBinding": {
+        "actorId": "daotong",
+        "skinId": "daotong_base"
+      }
     },
     {
       "id": "34-character-detail.state.0",
@@ -2605,7 +2618,10 @@
         "使用中"
       ],
       "interactionSpec": "使用按钮替换为禁用的使用中，角色选择同步更新；返回和试听仍可用。",
-      "visualReview": "pending_browser_visual_review"
+      "visualReview": "pending_browser_visual_review",
+      "visualBinding": {
+        "actorId": "taohua"
+      }
     },
     {
       "id": "34-character-detail.state.1",
@@ -2629,7 +2645,10 @@
       ],
       "disabledReasons": [],
       "interactionSpec": "已拥有、三段试听、四枚表情与使用角色入口清楚。",
-      "visualReview": "pending_browser_visual_review"
+      "visualReview": "pending_browser_visual_review",
+      "visualBinding": {
+        "actorId": "taohua"
+      }
     },
     {
       "id": "34-character-detail.state.2",
@@ -2697,7 +2716,11 @@
       ],
       "disabledReasons": [],
       "interactionSpec": "可试穿并保存；物品分类与已使用标记分开。",
-      "visualReview": "pending_browser_visual_review"
+      "visualReview": "pending_browser_visual_review",
+      "visualBinding": {
+        "actorId": "daotong",
+        "skinId": "daotong_ink"
+      }
     },
     {
       "id": "35-wardrobe.state.2",
@@ -2721,7 +2744,11 @@
       ],
       "disabledReasons": [],
       "interactionSpec": "图内桃花春衣卡绘及试穿入口提供视觉来源；试穿保持未提交态，左侧预览与选中卡同步由角色皮肤层提供，保存前可还原。未把卡面预览宣称为新角色全身资产。",
-      "visualReview": "pending_browser_visual_review"
+      "visualReview": "pending_browser_visual_review",
+      "visualBinding": {
+        "actorId": "daotong",
+        "skinId": "daotong_spring"
+      }
     },
     {
       "id": "35-wardrobe.state.3",
@@ -2747,7 +2774,11 @@
         "已使用"
       ],
       "interactionSpec": "当前左侧青云衣预览、金色选框和已使用标签一致；保存其他装扮成功后转移标记。",
-      "visualReview": "pending_browser_visual_review"
+      "visualReview": "pending_browser_visual_review",
+      "visualBinding": {
+        "actorId": "daotong",
+        "skinId": "daotong_base"
+      }
     },
     {
       "id": "36-shop.state.0",
@@ -2829,7 +2860,11 @@
       ],
       "disabledReasons": [],
       "interactionSpec": "不可重复购买不可叠加的装扮；前往背包可使用。",
-      "visualReview": "pending_browser_visual_review"
+      "visualReview": "pending_browser_visual_review",
+      "visualBinding": {
+        "actorId": "hulu",
+        "expressionId": "smile"
+      }
     },
     {
       "id": "37-item-detail.state.0",
@@ -3359,7 +3394,11 @@
         "未完成"
       ],
       "interactionSpec": "正文、选中项与主动作一致；操作中显示反馈，成功/失败遵循页面流程。",
-      "visualReview": "pending_browser_visual_review"
+      "visualReview": "pending_browser_visual_review",
+      "visualBinding": {
+        "progressPercent": 32,
+        "earnedStars": 1
+      }
     },
     {
       "id": "43-daily-missions.state.1",
@@ -4065,7 +4104,10 @@
       ],
       "disabledReasons": [],
       "interactionSpec": "第1/2行默认按钮；使用controls/primary-normal、secondary-normal",
-      "visualReview": "pending_browser_visual_review"
+      "visualReview": "pending_browser_visual_review",
+      "visualBinding": {
+        "controlState": "normal"
+      }
     },
     {
       "id": "51-common-components.state.1",
@@ -4085,7 +4127,10 @@
       ],
       "disabledReasons": [],
       "interactionSpec": "第1/2行第3个按钮；primary-pressed、secondary-pressed",
-      "visualReview": "pending_browser_visual_review"
+      "visualReview": "pending_browser_visual_review",
+      "visualBinding": {
+        "controlState": "pressed"
+      }
     },
     {
       "id": "51-common-components.state.2",
@@ -4105,7 +4150,10 @@
       ],
       "disabledReasons": [],
       "interactionSpec": "第3行选中页签、勾选及开关；tab-selected、checkbox-on、toggle-on",
-      "visualReview": "pending_browser_visual_review"
+      "visualReview": "pending_browser_visual_review",
+      "visualBinding": {
+        "controlState": "selected"
+      }
     },
     {
       "id": "51-common-components.state.3",
@@ -4125,7 +4173,10 @@
       ],
       "disabledReasons": [],
       "interactionSpec": "第1/2行第4个按钮；primary-disabled、secondary-disabled",
-      "visualReview": "pending_browser_visual_review"
+      "visualReview": "pending_browser_visual_review",
+      "visualBinding": {
+        "controlState": "disabled"
+      }
     },
     {
       "id": "51-common-components.state.4",
@@ -4145,7 +4196,10 @@
       ],
       "disabledReasons": [],
       "interactionSpec": "第5行第2个输入框；input-focus",
-      "visualReview": "pending_browser_visual_review"
+      "visualReview": "pending_browser_visual_review",
+      "visualBinding": {
+        "controlState": "focus"
+      }
     },
     {
       "id": "52-card-and-effects.state.0",
@@ -4165,7 +4219,10 @@
       ],
       "disabledReasons": [],
       "interactionSpec": "原生四花色A及空白牌框；正式52张牌通过空白牌框+确定性原生文字导出",
-      "visualReview": "pending_browser_visual_review"
+      "visualReview": "pending_browser_visual_review",
+      "visualBinding": {
+        "cardsVariant": "faces"
+      }
     },
     {
       "id": "52-card-and-effects.state.1",
@@ -4185,7 +4242,10 @@
       ],
       "disabledReasons": [],
       "interactionSpec": "玉绿与象牙两种牌背",
-      "visualReview": "pending_browser_visual_review"
+      "visualReview": "pending_browser_visual_review",
+      "visualBinding": {
+        "cardsVariant": "backs"
+      }
     },
     {
       "id": "52-card-and-effects.state.2",
@@ -4205,7 +4265,10 @@
       ],
       "disabledReasons": [],
       "interactionSpec": "第3行第4个透明玉绿牌框，selection切片",
-      "visualReview": "pending_browser_visual_review"
+      "visualReview": "pending_browser_visual_review",
+      "visualBinding": {
+        "cardsVariant": "selection"
+      }
     },
     {
       "id": "52-card-and-effects.state.3",
@@ -4225,7 +4288,10 @@
       ],
       "disabledReasons": [],
       "interactionSpec": "使用51禁用颜色语义与客户端整体不透明度，禁止输入；不是额外生成的灰牌图",
-      "visualReview": "pending_browser_visual_review"
+      "visualReview": "pending_browser_visual_review",
+      "visualBinding": {
+        "cardsVariant": "disabled"
+      }
     },
     {
       "id": "52-card-and-effects.state.4",
@@ -4245,7 +4311,10 @@
       ],
       "disabledReasons": [],
       "interactionSpec": "地主、农民两枚身份徽章",
-      "visualReview": "pending_browser_visual_review"
+      "visualReview": "pending_browser_visual_review",
+      "visualBinding": {
+        "cardsVariant": "identities"
+      }
     },
     {
       "id": "52-card-and-effects.state.5",
@@ -4265,7 +4334,10 @@
       ],
       "disabledReasons": [],
       "interactionSpec": "炸弹、王炸、春天、反春天四个静态特效源",
-      "visualReview": "pending_browser_visual_review"
+      "visualReview": "pending_browser_visual_review",
+      "visualBinding": {
+        "cardsVariant": "static-fx"
+      }
     },
     {
       "id": "53-table-chat.state.0",
@@ -4285,7 +4357,10 @@
       ],
       "disabledReasons": [],
       "interactionSpec": "快捷语页签选中，可发送预设语句。",
-      "visualReview": "pending_browser_visual_review"
+      "visualReview": "pending_browser_visual_review",
+      "visualBinding": {
+        "chatVariant": "phrases"
+      }
     },
     {
       "id": "53-table-chat.state.1",
@@ -4305,7 +4380,10 @@
       ],
       "disabledReasons": [],
       "interactionSpec": "当前图显示表情入口与四枚表情预览，完整表情列表复用卡片列表。",
-      "visualReview": "pending_browser_visual_review"
+      "visualReview": "pending_browser_visual_review",
+      "visualBinding": {
+        "chatVariant": "expressions"
+      }
     },
     {
       "id": "53-table-chat.state.2",
@@ -4325,7 +4403,10 @@
       ],
       "disabledReasons": [],
       "interactionSpec": "按住说话时显示录音中及取消提示，释放后发送由客户端实现。",
-      "visualReview": "pending_browser_visual_review"
+      "visualReview": "pending_browser_visual_review",
+      "visualBinding": {
+        "voiceMuted": false
+      }
     },
     {
       "id": "53-table-chat.state.3",
@@ -4345,7 +4426,10 @@
       ],
       "disabledReasons": [],
       "interactionSpec": "屏蔽开关选中并显示语音已屏蔽，不屏蔽文字。",
-      "visualReview": "pending_browser_visual_review"
+      "visualReview": "pending_browser_visual_review",
+      "visualBinding": {
+        "voiceMuted": true
+      }
     },
     {
       "id": "54-disband-vote.state.0",
@@ -4359,17 +4443,20 @@
       "icon": "friends",
       "actions": [
         {
-          "label": "邀请好友",
+          "label": "拒绝",
           "disabled": false
         },
         {
-          "label": "准备",
+          "label": "同意",
           "disabled": false
         }
       ],
       "disabledReasons": [],
       "interactionSpec": "自己尚未选择，三位状态与剩余时间清晰。",
-      "visualReview": "pending_browser_visual_review"
+      "visualReview": "pending_browser_visual_review",
+      "visualBinding": {
+        "seatVariant": "vote"
+      }
     },
     {
       "id": "54-disband-vote.state.1",
@@ -4383,11 +4470,11 @@
       "icon": "help",
       "actions": [
         {
-          "label": "拒绝",
+          "label": "查看战绩",
           "disabled": false
         },
         {
-          "label": "同意",
+          "label": "关闭",
           "disabled": false
         }
       ],
@@ -4407,11 +4494,7 @@
       "icon": "help",
       "actions": [
         {
-          "label": "拒绝",
-          "disabled": false
-        },
-        {
-          "label": "同意",
+          "label": "返回牌局",
           "disabled": false
         }
       ],
@@ -4431,11 +4514,7 @@
       "icon": "network",
       "actions": [
         {
-          "label": "重试",
-          "disabled": false
-        },
-        {
-          "label": "返回",
+          "label": "关闭",
           "disabled": false
         }
       ],
@@ -4637,7 +4716,10 @@
       ],
       "disabledReasons": [],
       "interactionSpec": "点击已拥有角色行，更新右侧对应能力说明并展示选择操作；不改变对局地主/农民身份。",
-      "visualReview": "pending_browser_visual_review"
+      "visualReview": "pending_browser_visual_review",
+      "visualBinding": {
+        "actorId": "taohua"
+      }
     },
     {
       "id": "57-hero-skills.state.1",
@@ -4674,14 +4756,18 @@
       "actions": [
         {
           "label": "选择角色",
-          "disabled": false
+          "disabled": true
         }
       ],
       "disabledReasons": [
         "已是当前选择，无需重复提交。"
       ],
       "interactionSpec": "当前角色已选用，重复点击不再次提交；切换至另一拥有角色后可选择。",
-      "visualReview": "pending_browser_visual_review"
+      "visualReview": "pending_browser_visual_review",
+      "visualBinding": {
+        "actorId": "daotong",
+        "skinId": "daotong_base"
+      }
     },
     {
       "id": "57-hero-skills.state.3",
@@ -4809,7 +4895,11 @@
         "未达"
       ],
       "interactionSpec": "用锁定/进度明确条件，未达到时奖励动作禁用。",
-      "visualReview": "pending_browser_visual_review"
+      "visualReview": "pending_browser_visual_review",
+      "visualBinding": {
+        "progressPercent": 32,
+        "earnedStars": 1
+      }
     },
     {
       "id": "59-achievements-growth.state.1",

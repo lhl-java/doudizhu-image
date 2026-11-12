@@ -1,0 +1,2131 @@
+{
+  "count": 283,
+  "scope": "wide first capture; source revisions may vary",
+  "rows": [
+    {
+      "file": ".work/browser-art-audit/screenshots/01-launch-login--base--wide.png",
+      "sha256": "630e350f97140564c0047771ed7201241032c643fd39be5ab7e78bbf6c9ab50f",
+      "sheet": "wide-01.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/01-launch-login--state-00--wide.png",
+      "sha256": "269fefb50b2d0a398825092bcf5a7c4ea87b49f0a8e02601dc5eb628e2f8ce86",
+      "sheet": "wide-01.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/01-launch-login--state-01--wide.png",
+      "sha256": "99022bfacd6834fda4b3c0f7fbe65311cd828b0186e6509b37464aee45e092bd",
+      "sheet": "wide-01.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/01-launch-login--state-02--wide.png",
+      "sha256": "a571a91556df1ede4ccec3d2761feabbe8f3e3ea6ec1ee64245e7a132975cfaf",
+      "sheet": "wide-01.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/01-launch-login--state-03--wide.png",
+      "sha256": "a740cdd27db8e9a3d971b88b07b81c74102113522ca939c76c6f24d314df2679",
+      "sheet": "wide-01.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/02-lobby--base--wide.png",
+      "sha256": "51f9592f7dac384fc28ea8882f6d8a3f6197dc66c6b661444164ee767fbe365a",
+      "sheet": "wide-01.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/02-lobby--state-00--wide.png",
+      "sha256": "f9213ead2637c49d6cafab11616f6d5b59ce47b9aad982961d139ffef4f69265",
+      "sheet": "wide-01.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/02-lobby--state-01--wide.png",
+      "sha256": "3fc735c04f70ca9ba9435491cfffd9060ae2109908474e74e443df9562c94197",
+      "sheet": "wide-01.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/02-lobby--state-02--wide.png",
+      "sha256": "e9dd1aa21a88461cc0c6d8dde753e99a6babd9322e9f617066380398a2a42230",
+      "sheet": "wide-01.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/03-classic-select--base--wide.png",
+      "sha256": "b7f87e9eb2737d684a658954040249573cd787682d2aed9d24c0b91c3bb2f9f3",
+      "sheet": "wide-01.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/03-classic-select--state-00--wide.png",
+      "sha256": "a757a7e2af34c951edecc3df0c6b9ec9b4c0f044d3e90b098488e2b847643ebe",
+      "sheet": "wide-01.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/03-classic-select--state-01--wide.png",
+      "sha256": "f3765c4676bf62e7b185cb91466b43fb5f9548c44f24be51a9e39c6d9a2297fb",
+      "sheet": "wide-01.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/03-classic-select--state-02--wide.png",
+      "sha256": "78f57533ba059238c50df100c9382a97e5c2e27d765a762c102b15b4a49007e2",
+      "sheet": "wide-02.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/04-stakes-select--base--wide.png",
+      "sha256": "ae5039f55b817d1ae5b984fa65de338fa61206e658961ffcc8f741936f851f09",
+      "sheet": "wide-02.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/04-stakes-select--state-00--wide.png",
+      "sha256": "715d2eb982966825059c0e08e333cab08c32efe418e9d26e4315735c93271099",
+      "sheet": "wide-02.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/04-stakes-select--state-01--wide.png",
+      "sha256": "8917343efafbd2b84fdbd94ee2a2c5478e408de8c0d0c25e72c9de82314ed999",
+      "sheet": "wide-02.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/04-stakes-select--state-02--wide.png",
+      "sha256": "55a0e15aa88d79025e81de8f9eefc323a3128c4c1499657ba418b28ec1b6a45f",
+      "sheet": "wide-02.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/05-matchmaking--base--wide.png",
+      "sha256": "ea167ffff4fea123af7be4f14675d21c649768a0f6656ee07cbce6b6e974b5ff",
+      "sheet": "wide-02.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/05-matchmaking--state-00--wide.png",
+      "sha256": "6ad1c06c5ce2128274519375593d007b70f7ac1638ea85184d054d69f53f13d9",
+      "sheet": "wide-02.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/05-matchmaking--state-01--wide.png",
+      "sha256": "5b3ca1350faf0c0f6916e79bf0d4b08f337fc8713430d362bb16d6424715a21e",
+      "sheet": "wide-02.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/05-matchmaking--state-02--wide.png",
+      "sha256": "ce3eafc0070dbc3260e1cbe03051f9042e835d0aea85151631938a0764c3c8cc",
+      "sheet": "wide-02.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/06-friend-room-entry--base--wide.png",
+      "sha256": "60f0b1ac231188287c5a956b8f14aa5c25111fb113f155708f9d18a39ba7f956",
+      "sheet": "wide-02.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/06-friend-room-entry--state-00--wide.png",
+      "sha256": "59076e660f0911c854535394220d52505db31f64d8db56726dd9a82a5a4f0edf",
+      "sheet": "wide-02.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/06-friend-room-entry--state-01--wide.png",
+      "sha256": "bd820c6ef168c20ef544ce1bb781c62dcc30328f1fd00106d6ec815ba5fe8882",
+      "sheet": "wide-02.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/07-create-room--base--wide.png",
+      "sha256": "eea2118f4fed17efba33d821c92790d1e2f08f580afa2daca7bb2a004987b449",
+      "sheet": "wide-03.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/07-create-room--state-00--wide.png",
+      "sha256": "5fbff3737000fdcf3d0863812f851c1d0dc386fdcab2cf37545fb752df9b1235",
+      "sheet": "wide-03.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/07-create-room--state-01--wide.png",
+      "sha256": "4eb4dd2b1a6e37db5005c2e6d6f310dacbccd0a5861227c0ba88fc938aef63fa",
+      "sheet": "wide-03.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/07-create-room--state-02--wide.png",
+      "sha256": "6748b206ec56786b1ac325fa0c2919e5376ec4605f281401bbbc9bdaed33cbe1",
+      "sheet": "wide-03.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/08-join-room--base--wide.png",
+      "sha256": "f6115499b136086351ac25ac97263805b5f4f567aa6512d28a2535baab7db3e1",
+      "sheet": "wide-03.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/08-join-room--state-00--wide.png",
+      "sha256": "3dc7d8547c50b7d61fcab05fed292116630b825768a20b04305fb50e6eb63478",
+      "sheet": "wide-03.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/08-join-room--state-01--wide.png",
+      "sha256": "7b86201083d8ac85fabbcbfb6f15fcb55d5733629919da210ec448e5dc7c0c42",
+      "sheet": "wide-03.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/08-join-room--state-02--wide.png",
+      "sha256": "8594e1c891a3b6b668c93d5e69e19b4c903fd4a63e32f51ae337e13240662fc7",
+      "sheet": "wide-03.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/08-join-room--state-03--wide.png",
+      "sha256": "49dfb6cb67d37f25cc4243a079b7a5d82e5f322442d9b33e6edf441a99a42c65",
+      "sheet": "wide-03.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/09-room-waiting--base--wide.png",
+      "sha256": "88e8b5d6665c03d3d00f294e28c8676d0e48c4b647ddec1e5fb5110ca43f8a7e",
+      "sheet": "wide-03.jpg",
+      "reviewed": true,
+      "issues": [
+        "room-actions-overlap"
+      ]
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/09-room-waiting--state-00--wide.png",
+      "sha256": "4c4c118df3335a8abf15190e89e40e6fbe852eccd74fd8d6b7617092f76336e7",
+      "sheet": "wide-03.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/09-room-waiting--state-01--wide.png",
+      "sha256": "7b4ce38cc53457d32bebdf313849981d3c43946a99a5a1146148ff2ee2de572f",
+      "sheet": "wide-03.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/09-room-waiting--state-02--wide.png",
+      "sha256": "d39e24910aae53fb8f775b0747028cc7c1f999215a3a104f48c21b463c90c764",
+      "sheet": "wide-04.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/09-room-waiting--state-03--wide.png",
+      "sha256": "75b3312f1df7bdf4ea0855ee24c03ccab6c08d849c83855a3bcc05951cc25fc6",
+      "sheet": "wide-04.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/10-invite-friends--base--wide.png",
+      "sha256": "c6968559fcd35f535305d87c3e30d85f4beef8615d1d7fd5348f07a1cf6d1b2d",
+      "sheet": "wide-04.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/10-invite-friends--state-00--wide.png",
+      "sha256": "932403ade141627307c487103f816ec92893e6847fa4e000aa0c6bc3745c9698",
+      "sheet": "wide-04.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/10-invite-friends--state-01--wide.png",
+      "sha256": "9d68f1eb63a046b7dc897f8fc5f79c50dd7907b795ebfff0a64ece5798418eb4",
+      "sheet": "wide-04.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/10-invite-friends--state-02--wide.png",
+      "sha256": "2915ba94c53a91a8a972f840b4132642181efe39594c011175718e00daefd0e0",
+      "sheet": "wide-04.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/11-deal-bid--base--wide.png",
+      "sha256": "b66e4e40a84b3128e6b13ef7c2433f26d242992a4f6343e0dc868c459464e74e",
+      "sheet": "wide-04.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/11-deal-bid--state-00--wide.png",
+      "sha256": "99c48a272e09471ba2c910999af0cae528a55a67b187f93831481dc3b8d63d14",
+      "sheet": "wide-04.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/11-deal-bid--state-01--wide.png",
+      "sha256": "77adcededed9fc616c116e36a429f32412ec63783d46a326782f8e37d5bfadb9",
+      "sheet": "wide-04.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/11-deal-bid--state-02--wide.png",
+      "sha256": "ae518b183c712c03291383d3583f55c311f4a241cca15fd3278f5e2470519b5d",
+      "sheet": "wide-04.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/11-deal-bid--state-03--wide.png",
+      "sha256": "8ae05ee101985f0bd26f919e6102fa5bc124393428e75b3d777c4e07bde6c729",
+      "sheet": "wide-04.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/12-rob-landlord--base--wide.png",
+      "sha256": "14b50db3252a85dc26c5c59186dfbf4fb15374e9c199ab03b63f5961ff02ac37",
+      "sheet": "wide-04.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/12-rob-landlord--state-00--wide.png",
+      "sha256": "9336a6c756c32df5cbbccb89aa38a301ecef7ef05d55513f0ba18b17ecb941fc",
+      "sheet": "wide-05.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/12-rob-landlord--state-01--wide.png",
+      "sha256": "46a752314dab2637ad4869a16aa0fbdf53b849c280432a7ac7ec3a9bd225c49c",
+      "sheet": "wide-05.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/12-rob-landlord--state-02--wide.png",
+      "sha256": "84fd6fc360f5e4c58cdea8416c872db2eecf4579d03ddefc1dca61bb8c3660fc",
+      "sheet": "wide-05.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/12-rob-landlord--state-03--wide.png",
+      "sha256": "812b97881346a675ce08eed3b1e225009d62d8867a1a5333f28f556ebf050087",
+      "sheet": "wide-05.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/13-double--base--wide.png",
+      "sha256": "3265209e24d46d4e937a5b5b46fa349eaffd6389fbf4095cff0981d0a9505cb6",
+      "sheet": "wide-05.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/13-double--state-00--wide.png",
+      "sha256": "0a14cdff3757b06fc559c1a6c29c84dd4da1f81e64a2101afd00ea931abf92f5",
+      "sheet": "wide-05.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/13-double--state-01--wide.png",
+      "sha256": "586baccce841e38674a1fb005181bd478773e12b35f0b609e749db673b67f1cf",
+      "sheet": "wide-05.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/13-double--state-02--wide.png",
+      "sha256": "811f63f399e4e8b8e728e0c5231690fbfa48ab538f5a82fb73ed82a044fc9e13",
+      "sheet": "wide-05.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/13-double--state-03--wide.png",
+      "sha256": "4a8311e7f4655cc1c085a9396a284291194a4bae76c1c497013e8293d4eb559d",
+      "sheet": "wide-05.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/14-play-turn--base--wide.png",
+      "sha256": "326e1a2118e1b59f5a4777239ada8dcf5fdc5d716b1fe32424b4cb3301535d33",
+      "sheet": "wide-05.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/14-play-turn--state-00--wide.png",
+      "sha256": "a85d6832c0c8fb8844aae922025af95721ae5078cdd243acd7bdee78ab998a67",
+      "sheet": "wide-05.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/14-play-turn--state-01--wide.png",
+      "sha256": "8bf88427ee64399a99e9c1add0681fe5ebe500a8ef529a14af8d3d4052e9dddd",
+      "sheet": "wide-05.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/14-play-turn--state-02--wide.png",
+      "sha256": "5efdd26ac422ff7aefc693110427d9bdc08ff53f14f5b6a71c215b2713ba5a85",
+      "sheet": "wide-06.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/14-play-turn--state-03--wide.png",
+      "sha256": "7e279a09c74a13745d998e2035df4e4e9b4e76b0ebce9005a56922f006a8aff4",
+      "sheet": "wide-06.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/15-follow-pass--base--wide.png",
+      "sha256": "b8a546d80b4a96ef731f17243379fb9bed77199fab878807f595a779300759ae",
+      "sheet": "wide-06.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/15-follow-pass--state-00--wide.png",
+      "sha256": "577b4b1d85f2f6d99c616c9e64fa1e326ed834330500b20768c5de9af3e70af8",
+      "sheet": "wide-06.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/15-follow-pass--state-01--wide.png",
+      "sha256": "b1ffe0f6061bb275da9980479aee56d9eb176b82b93834de24c63746bcb1c52e",
+      "sheet": "wide-06.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/15-follow-pass--state-02--wide.png",
+      "sha256": "a601c75afd19c754081c2c11016874c54d5a71ec13efbd4c5214c4ecda97e8e7",
+      "sheet": "wide-06.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/15-follow-pass--state-03--wide.png",
+      "sha256": "7f0f40b81c4e9e3a98d7551b20fe3aea2d773b689257c5dee0f8c52ae5497a28",
+      "sheet": "wide-06.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/16-trustee--base--wide.png",
+      "sha256": "2265ecc65d4590fd7f02edd05ff76aa67aa84535623a14d8b9a2d836caa9bc8e",
+      "sheet": "wide-06.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/16-trustee--state-00--wide.png",
+      "sha256": "1293d95f338e862c2e98d3d1a2fe9374a384fbf3d3addbd38dd81fc38a366429",
+      "sheet": "wide-06.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/16-trustee--state-01--wide.png",
+      "sha256": "00994651c6214a75f7d380abdc0d3238d4383a64d3f4f4f202ce75a7f812183d",
+      "sheet": "wide-06.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/16-trustee--state-02--wide.png",
+      "sha256": "9f24402b9def8d329c27157c9ecd29b23e0d7d5fbddd0d4af173fda902c3002b",
+      "sheet": "wide-06.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/17-reconnect--base--wide.png",
+      "sha256": "e2e5d2fe5e20053d0d0824432df3b0206b570efed4a5af62854a6c55312e2e16",
+      "sheet": "wide-06.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/17-reconnect--state-00--wide.png",
+      "sha256": "62302a46dd83dcf8f538e3dcccd99ae8b5c12774ba416b93d60c0b0c7d7852a4",
+      "sheet": "wide-07.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/17-reconnect--state-01--wide.png",
+      "sha256": "4822f5f216ff91ab485764ce2cdaa013bfe39b3e3dfc538f5eb9696852d81560",
+      "sheet": "wide-07.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/17-reconnect--state-02--wide.png",
+      "sha256": "21cb05467c447c34538a262551466ce16bf22d136e78e03e00baf50f6feef8f8",
+      "sheet": "wide-07.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/17-reconnect--state-03--wide.png",
+      "sha256": "335eb69f22343ae200dbd73fdd705b5cb4c79195708d8486fc7d4f3bb09b7b2d",
+      "sheet": "wide-07.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/18-round-win--base--wide.png",
+      "sha256": "6118390d923f17a45a35a5735f7cb1b5d4546e930c8d3b55e5e5f55516132996",
+      "sheet": "wide-07.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/18-round-win--state-00--wide.png",
+      "sha256": "d1049033ff55757e23620fd610577471658bca6b5f4758b6b8c0fd87243700f4",
+      "sheet": "wide-07.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/18-round-win--state-01--wide.png",
+      "sha256": "15853bf560d8595dedc00263d59e67598066d44f6671c84881ad7603c87a14af",
+      "sheet": "wide-07.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/18-round-win--state-02--wide.png",
+      "sha256": "c95779df4078e02ae8771fced04ce76f5c497a91e8d933437ff9e280cf924485",
+      "sheet": "wide-07.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/18-round-win--state-03--wide.png",
+      "sha256": "3e016241c4c1cfecfa4407a25779949b3f3299b89d3d5ace7e0f7565768e8228",
+      "sheet": "wide-07.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/19-round-loss--base--wide.png",
+      "sha256": "7b8e000a5a49b76993b7ad35661fde6b37b1d7b1a1adcdf633b525ec56c3249d",
+      "sheet": "wide-07.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/19-round-loss--state-00--wide.png",
+      "sha256": "c64a8878bbc03b950aa989e2f513d75061c61c69febc73803b7027793088c470",
+      "sheet": "wide-07.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/19-round-loss--state-01--wide.png",
+      "sha256": "eceaa452075859e6ef14831ae9fb005db5a28a2bfda8b75990bc16509b8d47b4",
+      "sheet": "wide-07.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/19-round-loss--state-02--wide.png",
+      "sha256": "77b77b9e4fcb314221e65e2fc58c2eeba93c191e0a3dc4308970c48b0c19de13",
+      "sheet": "wide-08.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/20-room-summary--base--wide.png",
+      "sha256": "0f0ccbd2e4c9bb6985cf25baaa2e2aa20036cfec2fc8df005270c94db9768752",
+      "sheet": "wide-08.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/20-room-summary--state-00--wide.png",
+      "sha256": "73b0b1bbf5a461ac52ccb4f791d484d0733c0a6a6ef1079d4562e4b50525dbec",
+      "sheet": "wide-08.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/20-room-summary--state-01--wide.png",
+      "sha256": "484628a789ce21f706a97ebd12c86e7aee53cde2780fbfd02d834b09f02e71e3",
+      "sheet": "wide-08.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/20-room-summary--state-02--wide.png",
+      "sha256": "fc66f745d427da5b6f2245dbe469e2828a1cf7bea6b23680dbe640452beb257a",
+      "sheet": "wide-08.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/21-table-settings--base--wide.png",
+      "sha256": "18a56e269bbab25bdb3a6212e34248c07187d6f243489621fd83f72491524974",
+      "sheet": "wide-08.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/21-table-settings--state-00--wide.png",
+      "sha256": "6781947fac147b1a0d034488f5e8f8f43584402a9c91146162f6d145d02bec1d",
+      "sheet": "wide-08.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/21-table-settings--state-01--wide.png",
+      "sha256": "dd24c14733794d5767704a8c39bbfd919a3b238ca2f5fc5deeda0e77b528b972",
+      "sheet": "wide-08.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/21-table-settings--state-02--wide.png",
+      "sha256": "85648c65458129a993bb25865490dc8540d1fcbad76e1055bf7a39f02441a3ef",
+      "sheet": "wide-08.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/22-replay-history--base--wide.png",
+      "sha256": "d69688f8ab1b6c9ba6502bb5abd3d1ce98f964ace799f212d0e55268bc10ab2e",
+      "sheet": "wide-08.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/22-replay-history--state-00--wide.png",
+      "sha256": "ec9cdf736610de56118f2b057dbb1fed980d779246dcdecef30b116fec0d1434",
+      "sheet": "wide-08.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/22-replay-history--state-01--wide.png",
+      "sha256": "8fb284f195e5be626591298f1a65694206627fd06cbfec274eab9069c39b44f1",
+      "sheet": "wide-08.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/22-replay-history--state-02--wide.png",
+      "sha256": "a06e48441b9d749e7db0456c00fdf2b612b1e770a22f89d258cf66a054b7d469",
+      "sheet": "wide-09.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/22-replay-history--state-03--wide.png",
+      "sha256": "390c135e71535bfdc1e94fd0a1d8806a3f1490d07dd9c5113b75ce6390395558",
+      "sheet": "wide-09.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/23-ranked-lobby--base--wide.png",
+      "sha256": "5371a821889c4ab271a76d5a9319e24b3ce70e99b615dbf3e71ccfaa31eb8971",
+      "sheet": "wide-09.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/23-ranked-lobby--state-00--wide.png",
+      "sha256": "7ec33825fd8f0233350662551a2d7ba9576b7d59268013484a66dc7ccd17e855",
+      "sheet": "wide-09.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/23-ranked-lobby--state-01--wide.png",
+      "sha256": "e0086ec746cbda7eae66701722e9fefb3c54737591d73eb0ae3dc88e17635508",
+      "sheet": "wide-09.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/23-ranked-lobby--state-02--wide.png",
+      "sha256": "1e56cdb7d0d80f99bd548e73e2a690f809e6f35659b0a74ed9e826f65f569c80",
+      "sheet": "wide-09.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/24-ranked-progress--base--wide.png",
+      "sha256": "0f1938fe2a462753d3712345134ea52898042f5047bd51aa4839729dee3361aa",
+      "sheet": "wide-09.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/24-ranked-progress--state-00--wide.png",
+      "sha256": "6423fd8a3928e7c82bc5b2d0791eb0083b214f5d0938c2b277264de735528fd6",
+      "sheet": "wide-09.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/24-ranked-progress--state-01--wide.png",
+      "sha256": "eeb2ad78b7af36e75c2072678e8198cf6e2d01d100e5474e9b3489560d0fdc96",
+      "sheet": "wide-09.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/24-ranked-progress--state-02--wide.png",
+      "sha256": "ae36d3ee9b3f37c1d500a6ad1388f0e55a626d7d0b355769117bb16696d825e5",
+      "sheet": "wide-09.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/24-ranked-progress--state-03--wide.png",
+      "sha256": "1ef1eb8e3bc90334f318f820852f1a633353ebd7e4fd99c6ea1367bee78335f2",
+      "sheet": "wide-09.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/25-ranked-result--base--wide.png",
+      "sha256": "f14cd908f3972ef447939f14722e8e8a2dd5db61c25bd1b87f15181499858fbe",
+      "sheet": "wide-09.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/25-ranked-result--state-00--wide.png",
+      "sha256": "cd898413ef0734e001c8b5d4fbada819090697f67ff645f0af7ac8f6efa79060",
+      "sheet": "wide-10.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/25-ranked-result--state-01--wide.png",
+      "sha256": "55a0fb4e0c4a370570365e919795fc4d3b307e6b96f00c3f12a9843b20d03c0e",
+      "sheet": "wide-10.jpg",
+      "reviewed": true,
+      "issues": [
+        "negative-rank-pose"
+      ]
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/25-ranked-result--state-02--wide.png",
+      "sha256": "7de37a71d611f89dc97b12982dfd8b8cd480a91022387a0c84e935d30a313f3a",
+      "sheet": "wide-10.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/25-ranked-result--state-03--wide.png",
+      "sha256": "1ac84321a6f34e2898ee051c88a6509e40d6ae1b9511e2b1d59f9db0ae269a47",
+      "sheet": "wide-10.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/26-tournament-lobby--base--wide.png",
+      "sha256": "05dd991e1c80d01292b172dccfaa42715a5b4c65d4b5659f6d4109b18823d95e",
+      "sheet": "wide-10.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/26-tournament-lobby--state-00--wide.png",
+      "sha256": "6b6da29f160a13383cd61702d1e5147314fdc5f1589b115ba5936dfaff46a08e",
+      "sheet": "wide-10.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/26-tournament-lobby--state-01--wide.png",
+      "sha256": "ce9e4c3ec8e1ac4c24ee5cb63410023b625b774a0c422d8014a4f0ba15dcfe18",
+      "sheet": "wide-10.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/26-tournament-lobby--state-02--wide.png",
+      "sha256": "2a7656ff8bc23d86478eb067a2fe1667c3552472a9301e94db7c59e3f10dcee8",
+      "sheet": "wide-10.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/26-tournament-lobby--state-03--wide.png",
+      "sha256": "7be7716c799d410eaa42ac3f7cf51fa3f1e8aba538347bf2c26390e55a65a1dd",
+      "sheet": "wide-10.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/27-tournament-detail--base--wide.png",
+      "sha256": "18f8bce1ce4fb44da2135520533aaea1a56b86c4795a1bf52e4fefa186a33610",
+      "sheet": "wide-10.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/27-tournament-detail--state-00--wide.png",
+      "sha256": "4212c0e657dd58eb8a4ad5999317ce85c8d0ec54177bcc913034fad24994f80e",
+      "sheet": "wide-10.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/27-tournament-detail--state-01--wide.png",
+      "sha256": "d4a313dabd834dc83041d3349150ae91dc3f58afe3e8766de8a9dce53f46fa2e",
+      "sheet": "wide-10.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/27-tournament-detail--state-02--wide.png",
+      "sha256": "0c790fd51b57989258f05af1998ef4fca3c2314555fb09b6d52e2abdbc90f569",
+      "sheet": "wide-11.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/28-tournament-waiting--base--wide.png",
+      "sha256": "b0f29dc2272fb17b1b0bfa0e4f43e06e500602e7fe8c1dce10046dc83251f42c",
+      "sheet": "wide-11.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/28-tournament-waiting--state-00--wide.png",
+      "sha256": "6efa4d5e1752088db61875c887e430b8f5e18d6937be9d1aa2dc254276bb7458",
+      "sheet": "wide-11.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/28-tournament-waiting--state-01--wide.png",
+      "sha256": "2f927e207756e30ae167f8c540a7c14f6558dcec8bc6008d89a13b22af238616",
+      "sheet": "wide-11.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/28-tournament-waiting--state-02--wide.png",
+      "sha256": "7cbe5f37287b4b80439f3bf86f8e959526f9e9d5439f382600e8e78ad74d28ae",
+      "sheet": "wide-11.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/28-tournament-waiting--state-03--wide.png",
+      "sha256": "5b81b3377221a45f057bc6ec758a0be0668c8385b3878209c787a69fc0851150",
+      "sheet": "wide-11.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/29-tournament-result--base--wide.png",
+      "sha256": "63a811ad908633ce55987004989f87e8eeba78ad43e14effd6a1879f784bfba0",
+      "sheet": "wide-11.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/29-tournament-result--state-00--wide.png",
+      "sha256": "db86c333b962c7d38b7b06b530563d853e4148b64c72b6109fa1b44f3e23802e",
+      "sheet": "wide-11.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/29-tournament-result--state-01--wide.png",
+      "sha256": "70c5c0183d828a57741bbcbb9bdce6d5c6e0ac6223528e50a285605d9d9e3160",
+      "sheet": "wide-11.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/29-tournament-result--state-02--wide.png",
+      "sha256": "10ec98eb919d51179f69473b6252ac96fed3240332cffb9136c614cb369ca0c7",
+      "sheet": "wide-11.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/30-puzzle-select--base--wide.png",
+      "sha256": "ce601f2732499b7840f70a1382b39ff8c2d962c403c7b004434fb24a3db6742f",
+      "sheet": "wide-11.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/30-puzzle-select--state-00--wide.png",
+      "sha256": "afbfcf8c45e0b8b1d498feba853b3ad4e6a0bf304bca409b431a053009c125c7",
+      "sheet": "wide-11.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/30-puzzle-select--state-01--wide.png",
+      "sha256": "7e28ba695cd7fabfe4d43138361e3d13722a2796f7cb50f5a3f12710291f3a16",
+      "sheet": "wide-12.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/30-puzzle-select--state-02--wide.png",
+      "sha256": "76768b0e0b0d02cfdea38e5e4040ed57528cb47e4aacf3ecaa1e8b23c9c329c6",
+      "sheet": "wide-12.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/31-puzzle-play--base--wide.png",
+      "sha256": "2ac18343255477edf60c25d98055fe0b6331cf9b92c47714e788d22d6f6668c7",
+      "sheet": "wide-12.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/31-puzzle-play--state-00--wide.png",
+      "sha256": "da2a04aa250b11de35a5443ddc80ae034afb186b52bbbb0c6ab62f23e5c7799d",
+      "sheet": "wide-12.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/31-puzzle-play--state-01--wide.png",
+      "sha256": "b624450090389808481405d0ec9743ad789e94a86c16a2a41703ccf5480326d7",
+      "sheet": "wide-12.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/31-puzzle-play--state-02--wide.png",
+      "sha256": "92839412fcd2a1e7ec0976b25f9224a0cd51773555463fe1d71fabb4c965f83f",
+      "sheet": "wide-12.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/32-puzzle-result--base--wide.png",
+      "sha256": "54d7539bad5c5a38430c46e1170455055157325a047c7254532ce4fd31ccda63",
+      "sheet": "wide-12.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/32-puzzle-result--state-00--wide.png",
+      "sha256": "198a2e7162cb688ef8547c1e5b2c213e7c3f0e5374c4b3c131d825664408f41d",
+      "sheet": "wide-12.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/32-puzzle-result--state-01--wide.png",
+      "sha256": "f4ed4ee746bd52c7735aa09d00e53899e82067d366c983e652f360b8f89eb74f",
+      "sheet": "wide-12.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/32-puzzle-result--state-02--wide.png",
+      "sha256": "69a8779572466eca09e18dd68b193b41bedfe7f0db6083641efb924f107ac254",
+      "sheet": "wide-12.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/33-character-select--base--wide.png",
+      "sha256": "5b9f42de2e10a5d5ef8760b8e06a6c1a68da0bb4d0fdbdfdc828ba10655d8f1f",
+      "sheet": "wide-12.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/33-character-select--state-00--wide.png",
+      "sha256": "007025b617dcc4a5b14a533d6f0125c0777da84b4e888c8012a0d5b2fe95ae94",
+      "sheet": "wide-12.jpg",
+      "reviewed": true,
+      "issues": [
+        "named-character-binding"
+      ]
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/33-character-select--state-01--wide.png",
+      "sha256": "c124aa8a84335ae235f8ee254f3818fc4ff51d338805dc358d0fb9475ce30760",
+      "sheet": "wide-13.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/33-character-select--state-02--wide.png",
+      "sha256": "038cc7208ab829e7a27201ba3c615f2491ba3b9ce77ffac5674a7d111fbb7ac0",
+      "sheet": "wide-13.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/34-character-detail--base--wide.png",
+      "sha256": "b10c63370dd6cd8feac357eacf48a4e2ddb752145d08ccf82698d4f24e729df3",
+      "sheet": "wide-13.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/34-character-detail--state-00--wide.png",
+      "sha256": "3ee554f1990725e7e0a2b86b9d09a832efdf06490da12e4913cf912a6ef634cf",
+      "sheet": "wide-13.jpg",
+      "reviewed": true,
+      "issues": [
+        "named-character-binding"
+      ]
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/34-character-detail--state-01--wide.png",
+      "sha256": "e763a3650200fba4f98e647f6cf3ca272aa80147920f5b9e45230d866def6880",
+      "sheet": "wide-13.jpg",
+      "reviewed": true,
+      "issues": [
+        "named-character-binding"
+      ]
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/34-character-detail--state-02--wide.png",
+      "sha256": "f4bce01d61b6228e8227bf058742a1bea8a94d357b27d13fb9439f48b6bf4d4a",
+      "sheet": "wide-13.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/35-wardrobe--base--wide.png",
+      "sha256": "0659b3afb1d89ec2dbb22ae1053759a2bc1de5051cc975580a01b17c5599c861",
+      "sheet": "wide-13.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/35-wardrobe--state-00--wide.png",
+      "sha256": "205ebb4eae4dd3dfd8ba942f6d0ebf3f466dd888ee480969167747d9773005bf",
+      "sheet": "wide-13.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/35-wardrobe--state-01--wide.png",
+      "sha256": "9f1924baf5454214f2eb3866488ffb4023e3c936f17fced7b717a0e2f7dbc164",
+      "sheet": "wide-13.jpg",
+      "reviewed": true,
+      "issues": [
+        "named-costume-binding"
+      ]
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/35-wardrobe--state-02--wide.png",
+      "sha256": "8b557d3b1a17fb2062168080e67ac632967cfa39005055df0fb5fe924d9030d4",
+      "sheet": "wide-13.jpg",
+      "reviewed": true,
+      "issues": [
+        "named-costume-binding"
+      ]
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/35-wardrobe--state-03--wide.png",
+      "sha256": "9d5b31d2d44fabf672532a56c1deccb9640bb0f391670754bccd38d93c6f4b49",
+      "sheet": "wide-13.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/36-shop--base--wide.png",
+      "sha256": "a7c294bbff06eee69c2598cd90eb05340e58b5a9c184a0e41fd267bafb79eb29",
+      "sheet": "wide-13.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/36-shop--state-00--wide.png",
+      "sha256": "d214655402f6c2f4225786eaaecce79f5c74a68d0fd884cbcb9b4ae3a9d54444",
+      "sheet": "wide-14.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/36-shop--state-01--wide.png",
+      "sha256": "d49660f00763540f2b643148c873fab806451a631f64ebde5e506e3ed6df3831",
+      "sheet": "wide-14.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/36-shop--state-02--wide.png",
+      "sha256": "54b3eca5e6049be5010985518bd287f2cf2f516f7c5f725751752bb0602a623a",
+      "sheet": "wide-14.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/36-shop--state-03--wide.png",
+      "sha256": "5499e74aca394252a349f4650f2887f36ca57facd7491036e22cdafadfb4dbe7",
+      "sheet": "wide-14.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/37-item-detail--base--wide.png",
+      "sha256": "24c95c4f82bad3d368f1306235fadc78ee12fda8b273131df3447507f5b69ff2",
+      "sheet": "wide-14.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/37-item-detail--state-00--wide.png",
+      "sha256": "5e9eaeca9e3ab4f5b3e60243e3a3b97c61021c9727be7649ffc73c5a12a3f7de",
+      "sheet": "wide-14.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/37-item-detail--state-01--wide.png",
+      "sha256": "4df0d37199bc5555e8a5294f6db39241df7f03fb8d17cc416566c8c107a4c7a6",
+      "sheet": "wide-14.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/37-item-detail--state-02--wide.png",
+      "sha256": "5be248a4b259534514a257774802f861e11dd118fce9a3fb9f499080772873cc",
+      "sheet": "wide-14.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/37-item-detail--state-03--wide.png",
+      "sha256": "d73b1c68fba088517e7fd35f20a0c64fa05e7c64498aac7f07e8050ccdc6b318",
+      "sheet": "wide-14.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/38-wallet--base--wide.png",
+      "sha256": "d1d9ddc46f3f41afab26bd46731a1389377057553ebd3bda8dc44f2c1d2510fc",
+      "sheet": "wide-14.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/38-wallet--state-00--wide.png",
+      "sha256": "4def132495a89bf0f6a77781d40d0fca0caec52aa134767dee30adede11427db",
+      "sheet": "wide-14.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/38-wallet--state-01--wide.png",
+      "sha256": "83534f6675672c8e27c8957d2aba1434d08fd46a7fa19b0a11b13f1f77dfccd4",
+      "sheet": "wide-14.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/38-wallet--state-02--wide.png",
+      "sha256": "fdfe09b92599bfeb15c222a8b10e81d72ec665448451bddb1625a1130dcb0ee1",
+      "sheet": "wide-15.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/38-wallet--state-03--wide.png",
+      "sha256": "41569aba494a66ac0476c5411e8654aae6893317ead277d72d5cbcdfc361a3bd",
+      "sheet": "wide-15.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/39-inventory--base--wide.png",
+      "sha256": "cdf156d27c91cf5739495e22e63c0742e90f9d1a3af370cac0a39c710beaf00a",
+      "sheet": "wide-15.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/39-inventory--state-00--wide.png",
+      "sha256": "857df8ece15b897fcdc8bcba0125f32d416fd165b2a80012684b912010a605aa",
+      "sheet": "wide-15.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/39-inventory--state-01--wide.png",
+      "sha256": "352be3bf3389b9326917a59f6c827ab8157cbb418d3ca0302c51e3f358fe6d72",
+      "sheet": "wide-15.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/39-inventory--state-02--wide.png",
+      "sha256": "8c44221591e4d1332057418ab0155d22710cfbffbe5819821699ca1c2f4eea2a",
+      "sheet": "wide-15.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/39-inventory--state-03--wide.png",
+      "sha256": "7424e5eb004d5bfa31c2dc371c16e14e2f2367e3f39783e2354fe7a7699f0e3c",
+      "sheet": "wide-15.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/40-player-profile--base--wide.png",
+      "sha256": "fd195d37fa0d4deb28aaaced3b80d79aa44a875225badaeeb5a8d92cbc56d578",
+      "sheet": "wide-15.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/40-player-profile--state-00--wide.png",
+      "sha256": "91ad0d5479577e07910e7b37b4526746fc5d6f501d4368eb94b18d9302e23869",
+      "sheet": "wide-15.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/40-player-profile--state-01--wide.png",
+      "sha256": "5ea218ba0fbda9782e9a9323e90f429520032de722ae175722b88c2d24ed2636",
+      "sheet": "wide-15.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/40-player-profile--state-02--wide.png",
+      "sha256": "72337f0034cfc93787669db37fec803c8526eea56f5070e644d6ca5dced9238c",
+      "sheet": "wide-15.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/40-player-profile--state-03--wide.png",
+      "sha256": "dc8abef30660829e7da7ddee5497e1b5ae6a55e10ac733b30153c80b7fe9c757",
+      "sheet": "wide-15.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/41-friends--base--wide.png",
+      "sha256": "d0673b76ac649807ad83605c91d368414afb373fda6c9f78385b4a56a0659a24",
+      "sheet": "wide-16.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/41-friends--state-00--wide.png",
+      "sha256": "e0f960a4a2bb7f172becc845c606518f5ba8cb7705d8acc521d2477e677c6664",
+      "sheet": "wide-16.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/41-friends--state-01--wide.png",
+      "sha256": "084d62935e35dc38508ac1e20a08fc869e67529bbe10d58ddd75b1f968b96662",
+      "sheet": "wide-16.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/41-friends--state-02--wide.png",
+      "sha256": "e3b174d70aee4540b621c143e2c759980f1eeee1a727949047f6cb7b149b1694",
+      "sheet": "wide-16.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/41-friends--state-03--wide.png",
+      "sha256": "fdc782440b29d3b3dbfd6f55a6caaefbf2c209aa03f5dd9dba2d85f11cdd8cad",
+      "sheet": "wide-16.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/42-leaderboard--base--wide.png",
+      "sha256": "513e20957451c37f4fdec7ef5713d7a5e6acb7246cfc748b76aa181ffaab0a00",
+      "sheet": "wide-16.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/42-leaderboard--state-00--wide.png",
+      "sha256": "36e90bfc640ee6269bb920910a1db52f4ba92071b98e7c4473f5271e339e9416",
+      "sheet": "wide-16.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/42-leaderboard--state-01--wide.png",
+      "sha256": "8ad05a11c74f350dcfda738246c40806528a60c30a784c8cb7b9a72bd77ff2c3",
+      "sheet": "wide-16.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/42-leaderboard--state-02--wide.png",
+      "sha256": "7d1f18b0ca12624c721f809b1eb2c92013060e0c2f4615deb9ab79968b27069c",
+      "sheet": "wide-16.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/43-daily-missions--base--wide.png",
+      "sha256": "dba0553dba6ae26e105e5ea5d883002102369ceb86a1b79288fa4e15ca248530",
+      "sheet": "wide-16.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/43-daily-missions--state-00--wide.png",
+      "sha256": "4999acfdefc4bb0dc4a8ffad5dbeab017cd87cc7597f7002774d4d8bab52934c",
+      "sheet": "wide-16.jpg",
+      "reviewed": true,
+      "issues": [
+        "incomplete-progress"
+      ]
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/43-daily-missions--state-01--wide.png",
+      "sha256": "7b12e1c8a6bcfb8a405ec7c170a8e872856475b301d37bd1a6a203cb8eddf609",
+      "sheet": "wide-16.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/43-daily-missions--state-02--wide.png",
+      "sha256": "b38f171d693204dbe0f39747b3456867626a212be6d89465a51dc9be1c0ca4b8",
+      "sheet": "wide-17.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/43-daily-missions--state-03--wide.png",
+      "sha256": "7efbbec00f10def6aec8db44f19ba0055a1659ede7ddfb33830382cb4c74da73",
+      "sheet": "wide-17.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/44-sign-in--base--wide.png",
+      "sha256": "d0fcfa39ed54531b50a216f5df7fc78354520288dd0b1b5c3e17e685302d4ce2",
+      "sheet": "wide-17.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/44-sign-in--state-00--wide.png",
+      "sha256": "1a3cd21d58039d36d62052d000f1a038747bd010ad4f96e7f8e9811e5bd87493",
+      "sheet": "wide-17.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/44-sign-in--state-01--wide.png",
+      "sha256": "8fa3c145a20a5be296d5273532a171fefddf5ceaa17ba7c1bcce1a6483007ff9",
+      "sheet": "wide-17.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/44-sign-in--state-02--wide.png",
+      "sha256": "9c15ff4f77ff4b0b6d941847986eef495cd6ded4d2cd37ad8e672fa292a74b8d",
+      "sheet": "wide-17.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/44-sign-in--state-03--wide.png",
+      "sha256": "88a0a8da6f974829ff168ed8c6480a2e217dbd97d2cf41869c6c653313345814",
+      "sheet": "wide-17.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/45-events--base--wide.png",
+      "sha256": "3e7145dfb43bd454279ad6314392666a707ce5c217ace585ef7f9af3acec16d3",
+      "sheet": "wide-17.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/45-events--state-00--wide.png",
+      "sha256": "a86555f5faeaf48e8ef087c77a2282da53fdce77b2b778b774c73934929928f2",
+      "sheet": "wide-17.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/45-events--state-01--wide.png",
+      "sha256": "3aa21830c0979e1973073e27c5d95b827b5cd6a1f3a2351ccfe55b7b4ed87be0",
+      "sheet": "wide-17.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/45-events--state-02--wide.png",
+      "sha256": "697329df2da6ad2d01356a76a2e6f79d351d2ebbeb7c2dc457bf6baa6d723104",
+      "sheet": "wide-17.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/45-events--state-03--wide.png",
+      "sha256": "51ad0567978ae5f38b3a02fecc566a70523a268256d1679ed0504bed0393f272",
+      "sheet": "wide-17.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/46-mail--base--wide.png",
+      "sha256": "4958a3ac03988f9944931425f4fa624eb759b0afc434da8ae485c26b1c288f46",
+      "sheet": "wide-18.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/46-mail--state-00--wide.png",
+      "sha256": "3d2c6b43641fdfac96bb5a344d830b2bd0ca6d1c12e3f34b4638679bdb625b4c",
+      "sheet": "wide-18.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/46-mail--state-01--wide.png",
+      "sha256": "e5e4200c8c58e5ce713e0af16c07f3d8ee2042a59db0371a143277193a6bd863",
+      "sheet": "wide-18.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/46-mail--state-02--wide.png",
+      "sha256": "a316df428a26946c36476fee17ecd064e76a880b80d8d10af9f5c86d37eda94c",
+      "sheet": "wide-18.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/46-mail--state-03--wide.png",
+      "sha256": "24307e8f772b4f2713f0d0a8bb53ba3d1e9f13da81f1b3f1a9fab5471644711c",
+      "sheet": "wide-18.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/46-mail--state-04--wide.png",
+      "sha256": "2ae21cb65f2617ca4d423def27c87521420e0e49c5633a45e0b80b9c4a07ab3e",
+      "sheet": "wide-18.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/47-settings--base--wide.png",
+      "sha256": "94245e997218c2cd882d8cbd4cbfb9a5677c4ca895da66ac2fce4f3d10879ab3",
+      "sheet": "wide-18.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/47-settings--state-00--wide.png",
+      "sha256": "9fa68b7b0dd456b44d7f9489badebe7f04959c34da719b27ecda3949e28e7e3d",
+      "sheet": "wide-18.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/47-settings--state-01--wide.png",
+      "sha256": "33686d9a5ae77300c7c4ca4078805bf157939b93b9861da846bf7fc3183b6607",
+      "sheet": "wide-18.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/47-settings--state-02--wide.png",
+      "sha256": "ad02844ac79481e8645ddd7d5ca21a7ca37e35b5aa0c552ea9cd214617340f36",
+      "sheet": "wide-18.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/47-settings--state-03--wide.png",
+      "sha256": "2c9221d986620c504705c7b4d44c59b5ea6b5b44ec17068bb464d5b745f06435",
+      "sheet": "wide-18.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/48-help-rules--base--wide.png",
+      "sha256": "cf120ac73a5ed5b72f84fca2bc0fc9c9b388554568c61121186b7a38003ea1bf",
+      "sheet": "wide-18.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/48-help-rules--state-00--wide.png",
+      "sha256": "bdfd01f2a353350f1f19aa2bb8313991e2b3d7581c20c888079a3fd4b0721dbe",
+      "sheet": "wide-19.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/48-help-rules--state-01--wide.png",
+      "sha256": "e3fcf170959c74caf5b590ac73f3432fa303152b2ba63deb053734aa80ccae59",
+      "sheet": "wide-19.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/48-help-rules--state-02--wide.png",
+      "sha256": "e2b11ddad0097ca32e585565e45b0ec3500d1e3c1508b992c25e4d7703a5583e",
+      "sheet": "wide-19.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/49-support-notices--base--wide.png",
+      "sha256": "702acd09fc375d2ea006b7dcfc1a5b5d27179cc55dbb734dc2ddb7713570cfde",
+      "sheet": "wide-19.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/49-support-notices--state-00--wide.png",
+      "sha256": "e4ccde505348666411526163d022dca13371c4660d8a34f9525d7f79b78df71b",
+      "sheet": "wide-19.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/49-support-notices--state-01--wide.png",
+      "sha256": "d489fddad97dc5edd526dd3933d5e2e7de5693d24058987157c551f01b97fa49",
+      "sheet": "wide-19.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/49-support-notices--state-02--wide.png",
+      "sha256": "f0f83ec6b14c569457812cf56864b304c5685ace9e39c8ce5e3530eb8d937c41",
+      "sheet": "wide-19.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/49-support-notices--state-03--wide.png",
+      "sha256": "cd1c9361f7a79fbcd078b09f18928e6c6acd9fefb885220b5cdd4eceef159270",
+      "sheet": "wide-19.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/50-shared-dialogs--base--wide.png",
+      "sha256": "2944177c5d941997e5aff30112fd401503fb8da670f0ceace5279a54703f9431",
+      "sheet": "wide-19.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/50-shared-dialogs--state-00--wide.png",
+      "sha256": "ac395823bbedef31ad1215ef113342bf1256badfda984872545f3361cdb34ac6",
+      "sheet": "wide-19.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/50-shared-dialogs--state-01--wide.png",
+      "sha256": "f7f7e947263230bb12be76a6e81ae05a3b7920de5a4abf45b8949dc2aca25c81",
+      "sheet": "wide-19.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/50-shared-dialogs--state-02--wide.png",
+      "sha256": "76993de5da2516e7dac965e02d5882cd95975710f4e3b3bf20184ce32c560553",
+      "sheet": "wide-19.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/50-shared-dialogs--state-03--wide.png",
+      "sha256": "132adf3492f40fd00a2cb06f6d0029cf7ba836822b4d6304a697f6a3f62bdc8c",
+      "sheet": "wide-20.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/50-shared-dialogs--state-04--wide.png",
+      "sha256": "5efcf51efecf1b2c6bc5a48c9c15b4a4f541b8e51724d28e6393fcaaa668fa83",
+      "sheet": "wide-20.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/51-common-components--base--wide.png",
+      "sha256": "19dbcc0f2a6782f5704b434f1b275573d0a135a43cd07a7db184904f36801408",
+      "sheet": "wide-20.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/51-common-components--state-00--wide.png",
+      "sha256": "72dd1c283371867dcbfa07655f2d7d2aa75c35a3cbe6fff88aab8772110a673d",
+      "sheet": "wide-20.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/51-common-components--state-01--wide.png",
+      "sha256": "efb7efc37f886c31e03e761994a985be9739b9f0c37de49efa988d717f1d9d48",
+      "sheet": "wide-20.jpg",
+      "reviewed": true,
+      "issues": [
+        "control-state-art"
+      ]
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/51-common-components--state-02--wide.png",
+      "sha256": "c40ec6d8b71a63fc8c583f91dad8c339bda0a33cce42ce7178da8f94e52480d3",
+      "sheet": "wide-20.jpg",
+      "reviewed": true,
+      "issues": [
+        "control-state-art"
+      ]
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/51-common-components--state-03--wide.png",
+      "sha256": "98285b98f9bb61e7f408ec100b573e725737c9c3a314de33bcf2e2c422c9d442",
+      "sheet": "wide-20.jpg",
+      "reviewed": true,
+      "issues": [
+        "control-state-art"
+      ]
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/51-common-components--state-04--wide.png",
+      "sha256": "d29a665939457ea4a7afb68d655f5460e8069babb3d772406f18e6c84d2dedf2",
+      "sheet": "wide-20.jpg",
+      "reviewed": true,
+      "issues": [
+        "control-state-art"
+      ]
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/52-card-and-effects--base--wide.png",
+      "sha256": "ba7ac72a9233479ad21e9c23da182f11a9279294b31df4b84af9dac2312c9438",
+      "sheet": "wide-20.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/52-card-and-effects--state-00--wide.png",
+      "sha256": "52bfcd2438d2107b6f263aa31aab7a7f11bf5afe09bc4a59c52bab281b8037ba",
+      "sheet": "wide-20.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/52-card-and-effects--state-01--wide.png",
+      "sha256": "7ad55d322c8f2a75f01f180e7c420a6ae2042dbefb7223de8fb24806204a28fb",
+      "sheet": "wide-20.jpg",
+      "reviewed": true,
+      "issues": [
+        "card-semantic-art"
+      ]
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/52-card-and-effects--state-02--wide.png",
+      "sha256": "978e7ca976d333cd94c2d8a4cd484725d2ea9b28d1bfb2f199c2dfbd0167c398",
+      "sheet": "wide-20.jpg",
+      "reviewed": true,
+      "issues": [
+        "card-semantic-art"
+      ]
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/52-card-and-effects--state-03--wide.png",
+      "sha256": "13d4f19192775aaa5e0983cad9995234c04af0af34537bba6e39bc0fd515d8b4",
+      "sheet": "wide-21.jpg",
+      "reviewed": true,
+      "issues": [
+        "card-semantic-art"
+      ]
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/52-card-and-effects--state-04--wide.png",
+      "sha256": "31dad6a18bb854ad06737c1882b6386dd21052522a3ef50fb701be04d64bfb4b",
+      "sheet": "wide-21.jpg",
+      "reviewed": true,
+      "issues": [
+        "card-semantic-art"
+      ]
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/52-card-and-effects--state-05--wide.png",
+      "sha256": "1d0dfbd900916d28641d74e2cc180b142185e1b6467a8dae59ae279798a7a69d",
+      "sheet": "wide-21.jpg",
+      "reviewed": true,
+      "issues": [
+        "card-semantic-art"
+      ]
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/53-table-chat--base--wide.png",
+      "sha256": "c95269eeeb6ae11bdda5d6ac18dd021eac8c93d52a28d834c1148a77b9738fa4",
+      "sheet": "wide-21.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/53-table-chat--state-00--wide.png",
+      "sha256": "01aa5dc069bf4815e5bf277fa47c85cd56b575a57e554f3c79ad76e4bf2a4183",
+      "sheet": "wide-21.jpg",
+      "reviewed": true,
+      "issues": [
+        "chat-mute-semantics"
+      ]
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/53-table-chat--state-01--wide.png",
+      "sha256": "08803a3a316e6df00b9e09a4c86ae12b43478be6b08b5f6bd2797e466c63add9",
+      "sheet": "wide-21.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/53-table-chat--state-02--wide.png",
+      "sha256": "21fe8c2a6194d2e03943b4cade3e85e74993d5f1219ca5e1494ed376d437da4e",
+      "sheet": "wide-21.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/53-table-chat--state-03--wide.png",
+      "sha256": "c6781dbf8fc709a5307b21ae4e3046512a330fe3756bac8a9580f84e56b07a74",
+      "sheet": "wide-21.jpg",
+      "reviewed": true,
+      "issues": [
+        "chat-mute-semantics"
+      ]
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/54-disband-vote--base--wide.png",
+      "sha256": "12c38223be03dce82d960e0a9810551d2b2288c20cf0a144b65f64de4539f8ca",
+      "sheet": "wide-21.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/54-disband-vote--state-00--wide.png",
+      "sha256": "63d32c52a798b253d12fde6e1e90c72054e8de02bb48b15e4b32a3c88284b2a9",
+      "sheet": "wide-21.jpg",
+      "reviewed": true,
+      "issues": [
+        "vote-action-semantics"
+      ]
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/54-disband-vote--state-01--wide.png",
+      "sha256": "b6c4c46f88954eda14381d37e32f7abdf2bc3cae08e070461eb37364e250dbe6",
+      "sheet": "wide-21.jpg",
+      "reviewed": true,
+      "issues": [
+        "vote-action-semantics"
+      ]
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/54-disband-vote--state-02--wide.png",
+      "sha256": "96d1f2394ffefca19e21b8efb73a16ef7de07f50f3d0f3660a3d65ea28003955",
+      "sheet": "wide-21.jpg",
+      "reviewed": true,
+      "issues": [
+        "vote-action-semantics"
+      ]
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/54-disband-vote--state-03--wide.png",
+      "sha256": "24be48373203d461e51243b02cce37206743e82027217c7a39a7d08a2358c2ea",
+      "sheet": "wide-22.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/55-card-counter--base--wide.png",
+      "sha256": "cbd2795fefb81d19ba8768a5448134f83ae18682b3343b29852ba90fe2b149c6",
+      "sheet": "wide-22.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/55-card-counter--state-00--wide.png",
+      "sha256": "59a400f8a27bf869cadaac3bce07205e5664d41cc61d588ecc9c911ede4e54d3",
+      "sheet": "wide-22.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/55-card-counter--state-01--wide.png",
+      "sha256": "ca47d437c9b16b1b737c150622e410471cca0818768b67f60d2194255a828cd0",
+      "sheet": "wide-22.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/55-card-counter--state-02--wide.png",
+      "sha256": "7072b73e5f5b23324d172d984e8f336b8d2da992e316361ce26eeaefb7c22c9a",
+      "sheet": "wide-22.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/55-card-counter--state-03--wide.png",
+      "sha256": "bc48caaa3e24982361868af95b0ca734014e5674ab1bd7fc72500f7dbd9c1dcd",
+      "sheet": "wide-22.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/56-offline--base--wide.png",
+      "sha256": "21be33507bcb5f0d01229051f1a09a4e90ef1515459fa97375d182b04f5045b8",
+      "sheet": "wide-22.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/56-offline--state-00--wide.png",
+      "sha256": "7b9c358ac9c6409f31d40b3a7aeabed9d9536a23d8c9fc3356ffc36e96372f18",
+      "sheet": "wide-22.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/56-offline--state-01--wide.png",
+      "sha256": "0e5312ed80003e8e29ca3c89acf53dec52d62fa71e7f67713226ad7311b4a080",
+      "sheet": "wide-22.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/56-offline--state-02--wide.png",
+      "sha256": "ddcb3d624ab54a7c46154e697cfe03dd4238cf31bdd1bf194434e32df7815bf1",
+      "sheet": "wide-22.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/56-offline--state-03--wide.png",
+      "sha256": "99ac07bcb138bda876e18a78ee188ebaebc37ec3dc293feae4456e3644403f41",
+      "sheet": "wide-22.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/57-hero-skills--base--wide.png",
+      "sha256": "a73bf3b4a94aa999ff338edfc2267d8f399c5ac84e74566545dd42fb683d9d8e",
+      "sheet": "wide-22.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/57-hero-skills--state-00--wide.png",
+      "sha256": "5a71c020bc4644497f93f10928a37f74f2b22e17f2ddf2fc13ec9efe47dac8e9",
+      "sheet": "wide-23.jpg",
+      "reviewed": true,
+      "issues": [
+        "named-character-binding"
+      ]
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/57-hero-skills--state-01--wide.png",
+      "sha256": "2c075d92d93108aa1411a98852f716d94656bf1db05b81f6585eeb350968f2ab",
+      "sheet": "wide-23.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/57-hero-skills--state-02--wide.png",
+      "sha256": "018bc965216cc18423a4d713a6da4b547ff0853da68bc1d6e3e319e94c01cf1c",
+      "sheet": "wide-23.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/57-hero-skills--state-03--wide.png",
+      "sha256": "e6911d6c5c92337b596098d6bc635bfea227e61c9ab1b43b651d185b414e8e57",
+      "sheet": "wide-23.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/58-season-shop--base--wide.png",
+      "sha256": "2ff46fb36f763910b88a9fe5cdb24793065e8ec85235e6cf6e5f33ea63cb20d3",
+      "sheet": "wide-23.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/58-season-shop--state-00--wide.png",
+      "sha256": "d6d63904d8011b85e9ca9d3bb90b5269155c0f26564f0d6ea2b99dc58eaf55b4",
+      "sheet": "wide-23.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/58-season-shop--state-01--wide.png",
+      "sha256": "0ce89d21e8721bbfdffe9fe8dfad13ae5c5931f251e0ec999749e4521059c7ba",
+      "sheet": "wide-23.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/58-season-shop--state-02--wide.png",
+      "sha256": "c74356d03320777058107a10053dda344eaf1abfb5a1ae3e6aadd9599419a76f",
+      "sheet": "wide-23.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/58-season-shop--state-03--wide.png",
+      "sha256": "fc732f6de7f875c2e3b1bd46a41938ad00c7676d3c60e104735075d1052eeadd",
+      "sheet": "wide-23.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/59-achievements-growth--base--wide.png",
+      "sha256": "db0192d78479604f2e12d55d0143a197e993ea7f5415d1e8ecbfb1498f29fbdf",
+      "sheet": "wide-23.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/59-achievements-growth--state-00--wide.png",
+      "sha256": "677255669662a1cd03c163767c22ce3f6abd8dc0faea59b18652c3660f88e764",
+      "sheet": "wide-23.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/59-achievements-growth--state-01--wide.png",
+      "sha256": "b3f6869ddc7882e17e7d6193429bfe07341e8a567a5f7a0af9c9f8b1c1fb86f9",
+      "sheet": "wide-23.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/59-achievements-growth--state-02--wide.png",
+      "sha256": "a6aa33b3a972af21d908da578b1130d37b5e7a3b730cb5f65ba4179c84479977",
+      "sheet": "wide-24.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/59-achievements-growth--state-03--wide.png",
+      "sha256": "87b7e53c646d2eb08be93a37b6cff2c737e81c5290394ea085baa50066ef41dd",
+      "sheet": "wide-24.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/60-account-notices--base--wide.png",
+      "sha256": "4cff71c2df18188fdc3b2c95b005ad0270becef78869ec790d6c2e34b5a21a5d",
+      "sheet": "wide-24.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/60-account-notices--state-00--wide.png",
+      "sha256": "e0c81ad27d250f50e502b9142e928a69e22ca6fcf7bc0b27d5eb5c1f2760c6df",
+      "sheet": "wide-24.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/60-account-notices--state-01--wide.png",
+      "sha256": "130d1bb51839263b0b9adaa4a376afd6308dbefcf74a3fbb78289a8abea74ffe",
+      "sheet": "wide-24.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/60-account-notices--state-02--wide.png",
+      "sha256": "380123e5c27ae6d80d0588d9d7939871a7499cecddb6d2a9eaa473041e2c1c86",
+      "sheet": "wide-24.jpg",
+      "reviewed": true,
+      "issues": []
+    },
+    {
+      "file": ".work/browser-art-audit/screenshots/60-account-notices--state-03--wide.png",
+      "sha256": "e28b2f2cd3b74d44c3d7f04e47f56c27f19e88736385212953d338d799d033fd",
+      "sheet": "wide-24.jpg",
+      "reviewed": true,
+      "issues": []
+    }
+  ],
+  "status": "first_capture_reviewed_findings_pending_final_recapture",
+  "reviewMethod": "All 24 contact sheets opened with view_image; all 283 wide conditions visually inspected for structure, clipping, missing art, and evident state semantics. Full-size views used for room action overlap and win/loss pose confirmation.",
+  "limitations": [
+    "First capture contains source revisions changed during fixes; it is not the fixed final acceptance.",
+    "Contact thumbnails support layout/identity inspection, not exhaustive native-size text proofreading.",
+    "No production client or human art approval is asserted."
+  ],
+  "findings": [
+    {
+      "id": "room-actions-overlap",
+      "conditions": [
+        "09-room-waiting--base--wide"
+      ],
+      "detail": "Middle card status overlapped the bottom invite/ready actions in first capture; parent reports layout fix pending final verification."
+    },
+    {
+      "id": "named-character-binding",
+      "conditions": [
+        "33-character-select--state-00--wide",
+        "34-character-detail--state-00--wide",
+        "34-character-detail--state-01--wide",
+        "57-hero-skills--state-00--wide"
+      ],
+      "detail": "Copy names Taohua while default Daotong was rendered. Explicit visualBinding now selects Taohua; pending final recapture."
+    },
+    {
+      "id": "named-costume-binding",
+      "conditions": [
+        "35-wardrobe--state-01--wide",
+        "35-wardrobe--state-02--wide"
+      ],
+      "detail": "Named ink/spring costume states rendered the base costume. Explicit skin binding implemented."
+    },
+    {
+      "id": "negative-rank-pose",
+      "conditions": [
+        "25-ranked-result--state-01--wide"
+      ],
+      "detail": "Dropped-star result used win pose; now bound to lose, gray star and native minus-one."
+    },
+    {
+      "id": "incomplete-progress",
+      "conditions": [
+        "43-daily-missions--state-00--wide"
+      ],
+      "detail": "Incomplete progress showed full fill and earned stars. Explicit partial progress and unearned gray stars implemented."
+    },
+    {
+      "id": "control-state-art",
+      "conditions": [
+        "51-common-components--state-01--wide",
+        "51-common-components--state-02--wide",
+        "51-common-components--state-03--wide",
+        "51-common-components--state-04--wide"
+      ],
+      "detail": "Pressed/selected/focus had no distinct control art and secondary disabled button remained active. Bound adopted pressed/selected/disabled/input-focus assets."
+    },
+    {
+      "id": "card-semantic-art",
+      "conditions": [
+        "52-card-and-effects--state-01--wide",
+        "52-card-and-effects--state-02--wide",
+        "52-card-and-effects--state-03--wide",
+        "52-card-and-effects--state-04--wide",
+        "52-card-and-effects--state-05--wide"
+      ],
+      "detail": "Cards renderer reused faces for identities/effects and lacked real selection-frame/disabled treatment; now uses original specified art."
+    },
+    {
+      "id": "chat-mute-semantics",
+      "conditions": [
+        "53-table-chat--state-00--wide",
+        "53-table-chat--state-03--wide"
+      ],
+      "detail": "Quick phrase state reused expression icons and mute retained active voice bars; now distinct native phrase list and muted label."
+    },
+    {
+      "id": "vote-action-semantics",
+      "conditions": [
+        "54-disband-vote--state-00--wide",
+        "54-disband-vote--state-01--wide",
+        "54-disband-vote--state-02--wide"
+      ],
+      "detail": "Vote state inherited invite/ready actions and result actions repeated voting. Preview labels corrected using existing vote interaction specifications."
+    }
+  ],
+  "userVisualApproval": false,
+  "acceptance": "agent observations only; superseded images are not fixed-final approval",
+  "browserAutomationStoppedAtUserInstruction": true,
+  "finalStateCodeEvidence": ".work/browser-visual-review/static-final.json",
+  "semanticRecapture": {
+    "report": ".work/browser-visual-review/semantic-check/report.json",
+    "conditions": 61,
+    "sourceChanged": true,
+    "agentContactSheetsViewed": 6,
+    "userApproval": false,
+    "note": "Captured before final static-only four-ace sample and selected-button disable correction; cannot approve latest full layout."
+  }
+}

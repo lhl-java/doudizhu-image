@@ -1,0 +1,2051 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-11-12T04:52:50.181290+00:00",
+  "userFacingDate": "2026-11-11",
+  "status": "candidate_pending_user_review",
+  "userArtApproval": false,
+  "productionRuntimeVerified": false,
+  "wholeGameArtCompletion": false,
+  "repository": "https://github.com/lhl-java/doudizhu-image",
+  "baseCommit": "033ddaaca9b6331d8fa67c88f5eda43674262ca9",
+  "method": "Exact current increment only; this manifest excludes itself to avoid a self-hash cycle. Original historical publication snapshots retain their fixed meaning.",
+  "files": [
+    {
+      "file": "AGENTS.md",
+      "bytes": 3908,
+      "sha256": "4b643733958dcecda763feba7672b90c3b1d499ea6caf21425bd11838fb6a127",
+      "gitBlob": "17a1a54b9d90a8e4a14729b66ebf508a1d80af61"
+    },
+    {
+      "file": "README.md",
+      "bytes": 10374,
+      "sha256": "80d83a3c712d6fe467a3fe4a79a61e78ae0f1be635982cd0af643ccec7b2dbe3",
+      "gitBlob": "6ca0ca4ceb67002b4552e2564dc15b90fed84e1f"
+    },
+    {
+      "file": "docs/BROWSER_REVIEW_HANDOFF_20261111.json",
+      "bytes": 7490,
+      "sha256": "3364bf310c090a568dd7a68d5678f2c27788059318d1c2829889f4737810831f",
+      "gitBlob": "41f95bd2f31bd3868cc66634eb4af563e4a9e962"
+    },
+    {
+      "file": "docs/FULL_GAME_ART_VALIDATION.json",
+      "bytes": 58756,
+      "sha256": "79be6a02df89a7cd1f5ce621156715f9732a333eacb7bbfd18760a9b9d5bd6fc",
+      "gitBlob": "f30fe179d63f6e7fccd767bfbe85e40f82c6b8a6"
+    },
+    {
+      "file": "docs/PUBLISH_WORKFLOW.md",
+      "bytes": 1544,
+      "sha256": "78268fbcc7d95004b1d029a66b36472f02d71aa6c09fcb2571fe2737c410c83a",
+      "gitBlob": "366d1280003e74183ee5b39ee6e4de35cca1a065"
+    },
+    {
+      "file": "docs/REVIEW_STATIC_VALIDATION_20261111.json",
+      "bytes": 6732,
+      "sha256": "9c91f936e383399abca38b6eebacc3b9163b22b322deefb6107be9dd4c651019",
+      "gitBlob": "b5f5344b82530719b045724083b5cb231d10f418"
+    },
+    {
+      "file": "docs/RUNTIME_INTEGRATION_VALIDATION.json",
+      "bytes": 8553,
+      "sha256": "eceb5073bc43b0bec3118b9ba95df0b281422a6f2fbe653b5caec3720fd6ee50",
+      "gitBlob": "51ecefb82670782ebf937f66ac8a623e3e4e8ab0"
+    },
+    {
+      "file": "preview/review-20261111/batches.json",
+      "bytes": 949,
+      "sha256": "984f289a7272acf0b9d70ecf02526a271747bfd97af2b2741a181d303236e128",
+      "gitBlob": "c3cbaffd21f86d840abe3d213aee6bd40dd5bf4a"
+    },
+    {
+      "file": "preview/review-20261111/evidence/agent-observations.json",
+      "bytes": 80275,
+      "sha256": "3f5650fbf450b6ee08356277843231fe7b65e9b80aef24b574ad5f51d6091044",
+      "gitBlob": "4af75cf2d89f3e7749bf875fa010422e4596a5d4"
+    },
+    {
+      "file": "preview/review-20261111/evidence/browser-baseline.json",
+      "bytes": 1485173,
+      "sha256": "1695fe465e0641c51ffe32a4182fca92262a2dd3256aeeadfbef7cce8f36a5ff",
+      "gitBlob": "8b98688a1724135bb1e043d20e623cb5b4ba66b2"
+    },
+    {
+      "file": "preview/review-20261111/evidence/layout-regression.json",
+      "bytes": 20855,
+      "sha256": "e0b308655ba0da1690514ab0fe471e2f7bf57a50bab99dbcf82925d6b82d7415",
+      "gitBlob": "d6e8a98591b5a256f05f8ff530d0acea4c48edfc"
+    },
+    {
+      "file": "preview/review-20261111/evidence/state-binding-checks.json",
+      "bytes": 1273,
+      "sha256": "f2c7202487d4bf2c23a2559a5ffeb07da0f4990c388219fcd888dfd84d36cf50",
+      "gitBlob": "702d12a630ebf9752778f5764e2edfc1eed6aad1"
+    },
+    {
+      "file": "preview/review-20261111/evidence/state-review-checklist.json",
+      "bytes": 1747,
+      "sha256": "22c4e6598dda8eff723a78e7293e6fbd2331fcdf46f2efba2e71e7e083b42389",
+      "gitBlob": "adea5a2b0646493844cd9360d69f4bdb525f7797"
+    },
+    {
+      "file": "preview/review-20261111/index.html",
+      "bytes": 86445,
+      "sha256": "7388364f371592ae2c58b0c93fd472cd5afa655ff8b4390b3082b0cd9e69037e",
+      "gitBlob": "cf845ccff3c43a4a55e122d89d0e70368600bdad"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-daotong-base-idle/end.webp",
+      "bytes": 220426,
+      "sha256": "ae9ecb8fb315b44ee8e72ef959570e89b457a9a1ba19ec740e99eb9625bb80cd",
+      "gitBlob": "85dff26824dd5dbfce70d4c8fb4ad28421a7d51c"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-daotong-base-idle/middle.webp",
+      "bytes": 220418,
+      "sha256": "6ef68b15b64bd2a853dd2ecd908529b1dc202eb0a2082f0bfd1bc64adf07bc4c",
+      "gitBlob": "d619680495068fe360ab934f6bd5047116bc23d0"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-daotong-base-idle/playback.webm",
+      "bytes": 750372,
+      "sha256": "c64abeb202c59238b0910e1d531347962b165047e91b6f1c0d660d9682f1d860",
+      "gitBlob": "38454201767c37614d171af09a8c74aba4ad7979"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-daotong-base-idle/result.original.json",
+      "bytes": 47869,
+      "sha256": "b690431688f9b4799e1c5192106ac9ce51dc77019fa5745e51e30d2fdfa70462",
+      "gitBlob": "0434af4f1c64625b27b7a1e96b66f22af679e918"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-daotong-base-idle/start.webp",
+      "bytes": 220490,
+      "sha256": "a6d38839ba3034b591ff68cabd4208dbf3d019b05ec578d4dbe2e7ee5caf2922",
+      "gitBlob": "a8f53020291fb49aa49f4212a5a3187a7866771e"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-daotong-base-lose/end.webp",
+      "bytes": 220376,
+      "sha256": "026b90c84c9ea28a606f75b220c2e26d850fdd8a60b1fd4a5f6fc96eb95456f5",
+      "gitBlob": "89b69fd6b093442dcce8f5c381430f055caef851"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-daotong-base-lose/middle.webp",
+      "bytes": 217538,
+      "sha256": "320f6f9110d77bdba76f2bd5ad6ce7422163c1169a464252f5aedaeca7b15393",
+      "gitBlob": "0b2efdce15f320d91ed697040ea9c2f108ff7747"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-daotong-base-lose/playback.webm",
+      "bytes": 870889,
+      "sha256": "93eb13ddd20939fbdebd99d1eda8be1bd127d3b1b8d68da83b24d5175e1eac78",
+      "gitBlob": "29fda0a6e2a14fa096cad7477acd1c33197641b6"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-daotong-base-lose/result.original.json",
+      "bytes": 47933,
+      "sha256": "3b83da535c588d9277796dff31c56636bf72428e6cfee9857556e410b038661d",
+      "gitBlob": "a49286af788eb22a1676c3573807289fc6ca34a9"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-daotong-base-lose/start.webp",
+      "bytes": 220376,
+      "sha256": "026b90c84c9ea28a606f75b220c2e26d850fdd8a60b1fd4a5f6fc96eb95456f5",
+      "gitBlob": "89b69fd6b093442dcce8f5c381430f055caef851"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-daotong-base-play/end.webp",
+      "bytes": 220376,
+      "sha256": "026b90c84c9ea28a606f75b220c2e26d850fdd8a60b1fd4a5f6fc96eb95456f5",
+      "gitBlob": "89b69fd6b093442dcce8f5c381430f055caef851"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-daotong-base-play/middle.webp",
+      "bytes": 217748,
+      "sha256": "06f6bd2739631f2a0aa8298940a2b9ecf19ee7fe5272f816bb17c364c784f511",
+      "gitBlob": "145e56c9a42f22c308acaef3ba496e3c374429ee"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-daotong-base-play/playback.webm",
+      "bytes": 570843,
+      "sha256": "3c9072487dd7b2c54e170e2fbec903e97f00e8c602d7204fad4e4358c5a54e2f",
+      "gitBlob": "2b6d529d5a363d316b4a658e14a85c1061b2cca8"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-daotong-base-play/result.original.json",
+      "bytes": 48249,
+      "sha256": "70d4663f6de612a9bb855132fd04b1569c9c7d72a1daf5cbef0b343aa7219171",
+      "gitBlob": "94955d46ca3491d1498d930bde45842cb328caf9"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-daotong-base-play/start.webp",
+      "bytes": 220268,
+      "sha256": "b9ead6fe5539e0e3d3b63612d2e995a774b566c855bebe49f096e849dcad2269",
+      "gitBlob": "485b00e587b658491a1f3c8e8c2478bd547c5617"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-daotong-base-think/end.webp",
+      "bytes": 220142,
+      "sha256": "ac59f800b035b1a90a17108da8c9b4e1bc96ff4b5c0b79b85e3ecac1ab4fea5e",
+      "gitBlob": "c555df0f3f7d380faf5f1b6afa94338ed3b35d23"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-daotong-base-think/middle.webp",
+      "bytes": 220628,
+      "sha256": "fdbcbeda8e1971cfd13d783386ef8c81b0446c0d88fdf77a38e9f4c9d494c80f",
+      "gitBlob": "fec1ed796d397d5b4fed1c77a2b0e7759048b071"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-daotong-base-think/playback.webm",
+      "bytes": 785214,
+      "sha256": "14f0835982086275e2b0d13a3e4aea583277e743da2d8c953c39897c825bef40",
+      "gitBlob": "61ee5c4acd1813a99604d25154a7596afa4b0fe3"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-daotong-base-think/result.original.json",
+      "bytes": 47963,
+      "sha256": "2f03a2d0abead6e62e718bdf190692467dd0dd8c704de47060e9a5ca7ba837f8",
+      "gitBlob": "93c603a3132ff000bab58803295ab61833a367e2"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-daotong-base-think/start.webp",
+      "bytes": 220442,
+      "sha256": "be6bd96e16cb1eabcc21b482d94e8497bacc7aebac997c0d834a91d788eb00fc",
+      "gitBlob": "ef0760554a72fb3aa3ccf9d969765216290da0fc"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-daotong-base-win/end.webp",
+      "bytes": 220376,
+      "sha256": "026b90c84c9ea28a606f75b220c2e26d850fdd8a60b1fd4a5f6fc96eb95456f5",
+      "gitBlob": "89b69fd6b093442dcce8f5c381430f055caef851"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-daotong-base-win/middle.webp",
+      "bytes": 217562,
+      "sha256": "67c6e3aebfbf2a8a40e3355c3ad065a35ed35db961e3e5ff4db360c71cf5d55b",
+      "gitBlob": "c18f27aec5945ef8e8417f78246af02232e6ae45"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-daotong-base-win/playback.webm",
+      "bytes": 785933,
+      "sha256": "1afb321753b9365d0be6d4d4e7ef0c5bdbec3b4ea53c4bf4acb7e0e5a080180f",
+      "gitBlob": "d92cc446cf3320fde937c287dae6cd6ba57994bd"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-daotong-base-win/result.original.json",
+      "bytes": 47915,
+      "sha256": "49a5512cdc65ea04ef774e41dc686821eb081c8c18acf576ade870ff49613a52",
+      "gitBlob": "3618eeb4dbd51ab04dfe00e79cc415207f2b6ab3"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-daotong-base-win/start.webp",
+      "bytes": 220376,
+      "sha256": "026b90c84c9ea28a606f75b220c2e26d850fdd8a60b1fd4a5f6fc96eb95456f5",
+      "gitBlob": "89b69fd6b093442dcce8f5c381430f055caef851"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-hulu-base-idle/end.webp",
+      "bytes": 217694,
+      "sha256": "638cc38b04cd13a52fc88cd7a979936990f7e487d2f267ab9dbbd56ec049a786",
+      "gitBlob": "00e2562de67c09ef20af0d9337aefc134a07ab1e"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-hulu-base-idle/middle.webp",
+      "bytes": 217162,
+      "sha256": "1a1c97d3c4b52094194681db3c7a608cffd734ed55f8532563aca81041b7a0fd",
+      "gitBlob": "258924f531495d62afcc7b76f3766318686b2a82"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-hulu-base-idle/playback.webm",
+      "bytes": 759497,
+      "sha256": "26de51b088ec7e070dd2453e77185ff2d0164188e04f305992a0cee499322810",
+      "gitBlob": "e8f653d002f21d3c5417f1c2046d4ff860321eb6"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-hulu-base-idle/result.original.json",
+      "bytes": 48813,
+      "sha256": "063eb4e1d67d0b3acc9fd1bd457e91ff185dcedf669ba6ccbd6878dc39e4c76e",
+      "gitBlob": "c54f7c3618951d43fadf0bf66efedb9e34a980d0"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-hulu-base-idle/start.webp",
+      "bytes": 217468,
+      "sha256": "be7f93f1d03479d8c2f4abac9523b23924036d6d1c88a4f98caf16112b6488d1",
+      "gitBlob": "77adf5a461496c6487997e8e255a48d47c4ba49e"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-hulu-base-lose/end.webp",
+      "bytes": 217304,
+      "sha256": "e06fffbbe35e410067b9176c092a0225459a1d8f49928867503efe7beb2cf286",
+      "gitBlob": "3f433ec04d4e3bfe2804ba5f060dd5bc3d8e0524"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-hulu-base-lose/middle.webp",
+      "bytes": 217340,
+      "sha256": "fb800c94770c61aa4e489cc71d480545097213bd065b48bc6dc230490b3453c1",
+      "gitBlob": "ef6944371336066639346ad2f534f36f0ff7bfdf"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-hulu-base-lose/playback.webm",
+      "bytes": 798780,
+      "sha256": "1dba10eac2349bd0a4d6a544a4e3302e11c1b518a12d81b09d88aa24a844ea28",
+      "gitBlob": "69405f002730209f34aa7e1ba6e167cfabb43e03"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-hulu-base-lose/result.original.json",
+      "bytes": 48876,
+      "sha256": "b8ea204e98750f7292fb593f06dec0cd56834465c299dcd36ece5d249bb06ab0",
+      "gitBlob": "fa079a2e3b1490e7069e1a4bd0d2771a3356f2a4"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-hulu-base-lose/start.webp",
+      "bytes": 217304,
+      "sha256": "e06fffbbe35e410067b9176c092a0225459a1d8f49928867503efe7beb2cf286",
+      "gitBlob": "3f433ec04d4e3bfe2804ba5f060dd5bc3d8e0524"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-hulu-base-play/end.webp",
+      "bytes": 217304,
+      "sha256": "e06fffbbe35e410067b9176c092a0225459a1d8f49928867503efe7beb2cf286",
+      "gitBlob": "3f433ec04d4e3bfe2804ba5f060dd5bc3d8e0524"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-hulu-base-play/middle.webp",
+      "bytes": 217652,
+      "sha256": "aeca46948439c118871bad96fc6717e6573877c5c7e8860e556fddbd97a05628",
+      "gitBlob": "041961a7dcda2af1568adc75d4f6970e48246582"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-hulu-base-play/playback.webm",
+      "bytes": 644310,
+      "sha256": "64b7e6c545530896b8f56cb971096d14744859733e04524df3d0548e97d97b3f",
+      "gitBlob": "536611167dd19d270808d26bcd342100ec2b7236"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-hulu-base-play/result.original.json",
+      "bytes": 49232,
+      "sha256": "8144d3e7307b10da1253629a5b1f3d0eec0e13a54a8d4d9a03a3aa899abbe4ca",
+      "gitBlob": "f7f8854156b4044a6355e0d5a9ec105ac652aa3c"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-hulu-base-play/start.webp",
+      "bytes": 217534,
+      "sha256": "2b6fc69e98109ce986520aa95f74a7a6b21f6be575f89da03cb612c7bc520dda",
+      "gitBlob": "2f31dcca77732c418278f2c7f853643a0b3cd825"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-hulu-base-think/end.webp",
+      "bytes": 219992,
+      "sha256": "0ed5277a74464967aeaebf6929bf96c4811ea0f3d64001d7c03cbfa476d61f3d",
+      "gitBlob": "808b7e219b444586827cdea25d73827f44e08e23"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-hulu-base-think/middle.webp",
+      "bytes": 219794,
+      "sha256": "a51f308d81798f8ec27cd29821117b89e188849da358a9ea1eff531da7bd4da3",
+      "gitBlob": "b7c4f9a8d9eee3fa8980e596a97af10200e481f7"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-hulu-base-think/playback.webm",
+      "bytes": 809904,
+      "sha256": "70e7a9c4d440751f4f64c2d2c7cbab6f26af76896a2764894b65380ee054dd40",
+      "gitBlob": "683bad4667eddb92491e639831e95cc413a905fd"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-hulu-base-think/result.original.json",
+      "bytes": 48933,
+      "sha256": "321ee7c4b3bf77930ed2613779e43bc438fb5e5a9203c5d6a0cf5aa2649dae79",
+      "gitBlob": "4e17f4853cd157d8679d11fa23e35a2f8b3ed769"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-hulu-base-think/start.webp",
+      "bytes": 217480,
+      "sha256": "0cfa6384a72bcc441f503395169af2c24784b5a109e317c45f681e51845da096",
+      "gitBlob": "5a3857591a7aaf3683c5e308fa48080492dda3c0"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-hulu-base-win/end.webp",
+      "bytes": 217304,
+      "sha256": "e06fffbbe35e410067b9176c092a0225459a1d8f49928867503efe7beb2cf286",
+      "gitBlob": "3f433ec04d4e3bfe2804ba5f060dd5bc3d8e0524"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-hulu-base-win/middle.webp",
+      "bytes": 216926,
+      "sha256": "ea18cf2514fc767ce2df93401dd7089a2db501d947b833969bc7bf443a4fdf01",
+      "gitBlob": "b3a135f59998f21f232452ee0d5c9d3faf3135fd"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-hulu-base-win/playback.webm",
+      "bytes": 683958,
+      "sha256": "baf326c44da6da5aa30724ab3fa7ef2901b80b260b7b7949e142e2868222fbf9",
+      "gitBlob": "85b0e27b55b5f7aff12736a0ac21f489e583c126"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-hulu-base-win/result.original.json",
+      "bytes": 48866,
+      "sha256": "8160f6b687b147512f771bcc001d721bc8839e07b0ceca90973542a0f7f94629",
+      "gitBlob": "8290860d42c47df779dcd277dc0c324ffacc2dfe"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-hulu-base-win/start.webp",
+      "bytes": 217304,
+      "sha256": "e06fffbbe35e410067b9176c092a0225459a1d8f49928867503efe7beb2cf286",
+      "gitBlob": "3f433ec04d4e3bfe2804ba5f060dd5bc3d8e0524"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-taohua-base-idle/end.webp",
+      "bytes": 217016,
+      "sha256": "f2c13ae3eb42c44620011cee80292aea4e3f971fabc3e76e65c6dabfe7f9fa98",
+      "gitBlob": "6ac8ca819e038c0e26261c44015311c862ffd1b4"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-taohua-base-idle/middle.webp",
+      "bytes": 217050,
+      "sha256": "907f83fd470906353e907942845035889788b27bfe675e3aa678aad75653c2fb",
+      "gitBlob": "ceb7b21991469a3ba0018603743c0542fa8bb247"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-taohua-base-idle/playback.webm",
+      "bytes": 702419,
+      "sha256": "8a2f0d01b69cb73c0a3a46f80941885d1fe275ab7a345e9a813e802571d17f7f",
+      "gitBlob": "e6c67beb1d1a1298939cd25e05ed670d45264346"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-taohua-base-idle/result.original.json",
+      "bytes": 48863,
+      "sha256": "1945837a7bf711c6af945b43c67b005e288a71f6bacbd5b1bd3e3a73558ec410",
+      "gitBlob": "969e156631bc4a7d8dac5eb47d27ad30304434ff"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-taohua-base-idle/start.webp",
+      "bytes": 217016,
+      "sha256": "966363e5754e21cece0c211cadc78de3988ac4fd7508ab77532fc84a7a7bacdd",
+      "gitBlob": "9dda9ca4bb22cf729daff4365eb34385cc4e0d50"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-taohua-base-lose/end.webp",
+      "bytes": 217156,
+      "sha256": "93148bad56025bfb722d5b4a8c690dbb0a89a1d63ecec5873ecd70e23d4003ff",
+      "gitBlob": "24bc5fb666c678b7b9abb4f5ee5a0c628d0d142e"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-taohua-base-lose/middle.webp",
+      "bytes": 217264,
+      "sha256": "6ffcbb97868da121d409b11dd29df608c43dd5e1166adf04169a6713b6fec6cc",
+      "gitBlob": "c25d2f2aea10690894a7c73e807c3d67e907a64a"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-taohua-base-lose/playback.webm",
+      "bytes": 741329,
+      "sha256": "8159c89418915444deba7d4a355c93a9fa9b257cc70cc8e50469579b75e7a498",
+      "gitBlob": "89262efd6144e9c9d6fa0ac988b9d4a5fbba4405"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-taohua-base-lose/result.original.json",
+      "bytes": 48953,
+      "sha256": "aa48ea16024675401094f3e264a07017a9df796d48967255642b8b84ca5a52f5",
+      "gitBlob": "4a726c687826ef0ed9ca3b7ce7f2761a2ae8ffda"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-taohua-base-lose/start.webp",
+      "bytes": 217156,
+      "sha256": "93148bad56025bfb722d5b4a8c690dbb0a89a1d63ecec5873ecd70e23d4003ff",
+      "gitBlob": "24bc5fb666c678b7b9abb4f5ee5a0c628d0d142e"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-taohua-base-play/end.webp",
+      "bytes": 217156,
+      "sha256": "93148bad56025bfb722d5b4a8c690dbb0a89a1d63ecec5873ecd70e23d4003ff",
+      "gitBlob": "24bc5fb666c678b7b9abb4f5ee5a0c628d0d142e"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-taohua-base-play/middle.webp",
+      "bytes": 217236,
+      "sha256": "1609a18816f379254582e46ac5735b410cd335a34d65e03c6ecf8fe17e455da0",
+      "gitBlob": "b3096d72ca208dcbc468e6df03c5b020caad0ce0"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-taohua-base-play/playback.webm",
+      "bytes": 654561,
+      "sha256": "cffe188cde877c65be7e39203b1f866d20466c608e5051d2bf8e9e93bc1af7dd",
+      "gitBlob": "c91fcd4a6a46f73189ec6043162c9b4fdd4fdf22"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-taohua-base-play/result.original.json",
+      "bytes": 49262,
+      "sha256": "6ab0735e4bb46fe084a24fa149fc34a5624f5f094cafda28212316fab3ee4688",
+      "gitBlob": "f6a2d33abf6b9bb848b1ab90ce72038b32f02f89"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-taohua-base-play/start.webp",
+      "bytes": 217192,
+      "sha256": "42d81824a4a36d4818120599e265cb19368acb5c80c1394e07c1011e5917c529",
+      "gitBlob": "1dacb63641f4f96bd7cdb0ca8b112296d725d2ad"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-taohua-base-think/end.webp",
+      "bytes": 217094,
+      "sha256": "7bfaf0b33255e579054ce1b665bcb0ad4dbc13385b78062be65ad01737b32edd",
+      "gitBlob": "af2887080f968a15d33325745675f1f74dbdfbd7"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-taohua-base-think/middle.webp",
+      "bytes": 216806,
+      "sha256": "3bdd23ba9f31e40d648b27e33075daea48d8c76d3f586d8f59fc630558715786",
+      "gitBlob": "f30636511d05022e64c59e55192a822926f3a64a"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-taohua-base-think/playback.webm",
+      "bytes": 869373,
+      "sha256": "aa23af5683e3a9dcac826ac50a33f965136e1e651fddc349faacfb1857d2c51a",
+      "gitBlob": "7d0dc59bf71da10510feabc1cc3def42c63214c1"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-taohua-base-think/result.original.json",
+      "bytes": 48997,
+      "sha256": "bfc1b271e1dffa2a094375acd45b267bc22b9a4d9dbb2c050307ec01de7a8cae",
+      "gitBlob": "22f8eeb1d45b6ac524834ebcdf4326c6443d8feb"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-taohua-base-think/start.webp",
+      "bytes": 216974,
+      "sha256": "49aadd03ffe721c7a36b88e486085d0cff61117af64f1eefae8fb5e3f2dd4008",
+      "gitBlob": "c099a92455e1d6e8e10e99fb0a17aaa3f8689700"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-taohua-base-win/end.webp",
+      "bytes": 217156,
+      "sha256": "93148bad56025bfb722d5b4a8c690dbb0a89a1d63ecec5873ecd70e23d4003ff",
+      "gitBlob": "24bc5fb666c678b7b9abb4f5ee5a0c628d0d142e"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-taohua-base-win/middle.webp",
+      "bytes": 216366,
+      "sha256": "bff92b761bf5f82edc09b516a406c18b9e0ea1f9ce5b230ebb9f61060baac45e",
+      "gitBlob": "eb85087fb76b0ebceab45c5b68fe3ca689fe6b0e"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-taohua-base-win/playback.webm",
+      "bytes": 1041511,
+      "sha256": "40fad345f1371e84e5e0644a0e65a0965cb101fc9d3a020e2e64b11e1b72f53b",
+      "gitBlob": "80574eed87228fd44f8a5a76447c735e723ccb0d"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-taohua-base-win/result.original.json",
+      "bytes": 48918,
+      "sha256": "417d22cd679da19e7b9962eddd921bb3b7f5a8a6da0f12dcb5d7c4b8195f48e0",
+      "gitBlob": "075597f44deda8f4640a5a862159a4fa208b46f5"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/actor-taohua-base-win/start.webp",
+      "bytes": 217156,
+      "sha256": "93148bad56025bfb722d5b4a8c690dbb0a89a1d63ecec5873ecd70e23d4003ff",
+      "gitBlob": "24bc5fb666c678b7b9abb4f5ee5a0c628d0d142e"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_base-idle/end.webp",
+      "bytes": 197910,
+      "sha256": "3f35f5c30e516e9af81f4289112a45fff434fde2a05c25d73d7fe3d1d717770d",
+      "gitBlob": "48353d971f10e8df61675d79664a8334a5fcc8bf"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_base-idle/middle.webp",
+      "bytes": 197806,
+      "sha256": "f29f30374c4dec3d05089ae9ed18ff2e997b0f1c197c57d3e94f581787504fb2",
+      "gitBlob": "4a2d0e2360ae2fe9e267858703717f5f1aa28e46"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_base-idle/playback.webm",
+      "bytes": 744338,
+      "sha256": "7c42a331b697ca41409c0874f007db840a930ee9b3adb2810e8d416454fa340f",
+      "gitBlob": "1133f90b34fc944891a560d2eaf2512a967331ff"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_base-idle/result.original.json",
+      "bytes": 47892,
+      "sha256": "e7765213f6e356f0ec0c7c7bbb20f375cb9cfdb2bb18ac641cdcf7b064059443",
+      "gitBlob": "460c1cabf6b5c5c7859ba72b757d1aa014c24309"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_base-idle/start.webp",
+      "bytes": 197972,
+      "sha256": "01a428fe8a13054afcea2f217f359d34b61d44bf3dd91a83ea5b899b6973810f",
+      "gitBlob": "fde224e3064ecc8257361a0dd83011ccc491592d"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_base-lose/end.webp",
+      "bytes": 197940,
+      "sha256": "15292748659ac9873f305904b02925012595ad38b28207404d962787f665a05a",
+      "gitBlob": "231490a4ad0a33ca4a85f336d7a3c0a8995c2906"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_base-lose/middle.webp",
+      "bytes": 197932,
+      "sha256": "20f8084c4530eaafedde71dd5b336d94ea1ef42a6e708f5eb47ba3362fa32f6d",
+      "gitBlob": "7e84ac79ec2a111a56a4c89ce89c730accfc4391"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_base-lose/playback.webm",
+      "bytes": 673373,
+      "sha256": "74d18e4a1efb175958723ff25961f5419fadea354a13f1edfc01e05b3e33cf7a",
+      "gitBlob": "e71fead856b8aadcd7ef2350d80d9f01c2d148c1"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_base-lose/result.original.json",
+      "bytes": 47969,
+      "sha256": "87cab9e4894af762405b740e72559d9f8fbe62ff20d275502049e4cdf375691a",
+      "gitBlob": "41a896b153349480c0881488b466ec1e89d79507"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_base-lose/start.webp",
+      "bytes": 197940,
+      "sha256": "15292748659ac9873f305904b02925012595ad38b28207404d962787f665a05a",
+      "gitBlob": "231490a4ad0a33ca4a85f336d7a3c0a8995c2906"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_base-play/end.webp",
+      "bytes": 197940,
+      "sha256": "15292748659ac9873f305904b02925012595ad38b28207404d962787f665a05a",
+      "gitBlob": "231490a4ad0a33ca4a85f336d7a3c0a8995c2906"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_base-play/middle.webp",
+      "bytes": 198754,
+      "sha256": "7585f455774607e6a905588455439d76cd415ece46256cbbefb3f3edc499625e",
+      "gitBlob": "d98815df1f65063c9330abfcc7b67ce02e1f7f5f"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_base-play/playback.webm",
+      "bytes": 636790,
+      "sha256": "02dc616d271f57459dd39cfe061ecd305189331ae9181822cf1d191961615305",
+      "gitBlob": "46c95c2994ba96baa356e525b2d1b4e98cab34d7"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_base-play/result.original.json",
+      "bytes": 48312,
+      "sha256": "c5ad9ce850741579106ada7bf1e093f87ce326fb487e667b6e9722dca60b4451",
+      "gitBlob": "95176ba74bfbc974d08e693079fd5f3f2a9a228e"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_base-play/start.webp",
+      "bytes": 197726,
+      "sha256": "2d787b2eb9fbc20f718f3149ad37862d995ad616dbbc1db52f0aecc35f47a052",
+      "gitBlob": "1c31d2a970ea6270f4b54ce4a44de28d7b839a85"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_base-think/end.webp",
+      "bytes": 197972,
+      "sha256": "975081ce4ea0f42c1559f5f42600308ec29141ee8ff48a420452e69acfcc68b0",
+      "gitBlob": "2a3f34e9a943b8c404a2146a98c7a171d95db0c7"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_base-think/middle.webp",
+      "bytes": 198044,
+      "sha256": "291c08287788023c9cdcb511fe78fcb1e9d728c017d10a9003c876ade7cf343b",
+      "gitBlob": "8a1099eecffe2146e3a7276f18dc2c0970a13c09"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_base-think/playback.webm",
+      "bytes": 812804,
+      "sha256": "4a2b2b47d8e36f91c2af8d1e4916f5fda67a204edd8be657121fe0fe36e50e2a",
+      "gitBlob": "3a68c3dad9ff4d294e7c4bb2bff8cffef745cade"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_base-think/result.original.json",
+      "bytes": 48021,
+      "sha256": "e6f0a133f2ee298cd76dd211df8ad5417939998fef181ca6e065d2b18176f3e2",
+      "gitBlob": "ba4b92927397df1376ab98a989387caaa07b31c6"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_base-think/start.webp",
+      "bytes": 197922,
+      "sha256": "a0ea1b95f658981f1b44942ea87bb871bfd7464fb091094f58304777736ed260",
+      "gitBlob": "d468bd82c1cf69c57be5bd879069848e2127a6be"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_base-win/end.webp",
+      "bytes": 197940,
+      "sha256": "15292748659ac9873f305904b02925012595ad38b28207404d962787f665a05a",
+      "gitBlob": "231490a4ad0a33ca4a85f336d7a3c0a8995c2906"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_base-win/middle.webp",
+      "bytes": 197978,
+      "sha256": "2dfdc0305040c984160e174353c0eea3fcdc6c65be2c7c323e99764f53069942",
+      "gitBlob": "5ffd321210a5f95c6027540af7ca93a498e44b82"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_base-win/playback.webm",
+      "bytes": 823901,
+      "sha256": "0dbbe3a0c87d64c895004b601ad8e9563484e5ad87e01d77c3913e2ed5ce3434",
+      "gitBlob": "4fece4043fed6a5cad612d275a73ec9e82e975c1"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_base-win/result.original.json",
+      "bytes": 47986,
+      "sha256": "226fb423783c52a4538f7d2143c6b0819bed679e057fab6fd07e1dbe3b549341",
+      "gitBlob": "305e67775e875ef48edad412b4e8dfce2b406fb6"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_base-win/start.webp",
+      "bytes": 197940,
+      "sha256": "15292748659ac9873f305904b02925012595ad38b28207404d962787f665a05a",
+      "gitBlob": "231490a4ad0a33ca4a85f336d7a3c0a8995c2906"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_festival-idle/end.webp",
+      "bytes": 198290,
+      "sha256": "d343226acca20f2aad3005bad4a538b96cec19ca3069df2ab853104354081db4",
+      "gitBlob": "093b9bdfc4fdc1a8777b9496c9bab0e8d57fa446"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_festival-idle/middle.webp",
+      "bytes": 198372,
+      "sha256": "09d52aa2c1ed841025aa1c2b69e91f5ba7fca0a5bc15d14da8e14a74a16df478",
+      "gitBlob": "2e27425f81cded4c2b6829158dbddf450434ec06"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_festival-idle/playback.webm",
+      "bytes": 551455,
+      "sha256": "325b5830cdda8420e895fcc0181d05c652abc28b85abbb1f70cf4eae21324e5a",
+      "gitBlob": "8fb188baec2a422dee340925d352e2aca89bbfac"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_festival-idle/result.original.json",
+      "bytes": 48026,
+      "sha256": "c6c79bae49a4fc70901db4aac9066918bb7219ab30eb2900f532fff90086ba5f",
+      "gitBlob": "35bc3473f8e9193db9e05f2132888a18202e771f"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_festival-idle/start.webp",
+      "bytes": 198518,
+      "sha256": "d31f43da24e1efc6b7fc4e2033d91b099d34f38a217ee0c6224a53bc9a2679c0",
+      "gitBlob": "be24aa02826f8526b614e68dcff951a71e7f9769"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_festival-lose/end.webp",
+      "bytes": 198334,
+      "sha256": "4317a167cf99f0aa5526287e7c284bd82b124d36d6ffe6e9809eb32105ac93ed",
+      "gitBlob": "a7c640df68e076394a4b94b4d9922618b3a6aed9"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_festival-lose/middle.webp",
+      "bytes": 199036,
+      "sha256": "c9a573a37f03578930d92f3aef61ae27c2d2d72c385f71f24091d806438eb3bd",
+      "gitBlob": "744745d8f308a75a885736671fc68df315e6a6c2"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_festival-lose/playback.webm",
+      "bytes": 657486,
+      "sha256": "53e69ee3258713d244578850f0c82e749c1079afd27bb63e7937efcdc0a13623",
+      "gitBlob": "ba49454a790002d31ee9c57df3b00f2fc5ff6223"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_festival-lose/result.original.json",
+      "bytes": 48210,
+      "sha256": "547aa41d3103d3d47e0923e35f9ccedfa6a65c7d172d084cba34d1cfccb51fa6",
+      "gitBlob": "43d2fb27d9336c044836c8c9d1df991f99164fca"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_festival-lose/start.webp",
+      "bytes": 198334,
+      "sha256": "4317a167cf99f0aa5526287e7c284bd82b124d36d6ffe6e9809eb32105ac93ed",
+      "gitBlob": "a7c640df68e076394a4b94b4d9922618b3a6aed9"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_festival-play/end.webp",
+      "bytes": 198334,
+      "sha256": "4317a167cf99f0aa5526287e7c284bd82b124d36d6ffe6e9809eb32105ac93ed",
+      "gitBlob": "a7c640df68e076394a4b94b4d9922618b3a6aed9"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_festival-play/middle.webp",
+      "bytes": 199478,
+      "sha256": "e33368c16e6ff1b5dd99e617260e6854bdf2b7ce027e5c28720f719356c677b2",
+      "gitBlob": "075343127329b3d8de09979128b72013ec78cc9a"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_festival-play/playback.webm",
+      "bytes": 702461,
+      "sha256": "8bcbe83fd9bba4b318c5746f4a713148fa576da67f84492a48704aa08b274726",
+      "gitBlob": "3bac208e38fadb078e33c16b31203842c3ded41b"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_festival-play/result.original.json",
+      "bytes": 48391,
+      "sha256": "a6dcf1acd6adbe8f91a02bd069ccb1efb9a41df2868663024515fae0757fe10a",
+      "gitBlob": "ec6aa5182326fd41ec00ca8663ef98a085ff4d7d"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_festival-play/start.webp",
+      "bytes": 198640,
+      "sha256": "35912372796431a5baf99317e1c62afe6a1ac9ae5e2842eaca823a535c801077",
+      "gitBlob": "6d519c77bf6eec4ec7aaedf8e5f821e570eacfa9"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_festival-think/end.webp",
+      "bytes": 198498,
+      "sha256": "1e3298e8d0702746a670c7729e1b7ff9f01f3f94780f0bd65c80c09dbaef1545",
+      "gitBlob": "9924b4c23204b434647eebc9eb4d39877e18e54b"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_festival-think/middle.webp",
+      "bytes": 198442,
+      "sha256": "9f84ccedf95d5549c703e30a4212636b04fda84730da5bfd0473d102ae9bb222",
+      "gitBlob": "6666f4b022b8a132ca9498c7cc15fc6985b205cc"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_festival-think/playback.webm",
+      "bytes": 760946,
+      "sha256": "84d2665a8472576e30d5c962627218de96c8a4b2bb1c13ecad923f26910aad07",
+      "gitBlob": "d5b29369bf00cb30536650443fef1564dda7cfe5"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_festival-think/result.original.json",
+      "bytes": 48037,
+      "sha256": "98b82908313fd59181c884b5eff99dda170e2ba53c542bed90f918059db256f1",
+      "gitBlob": "53405ec17ed4799b816198b90756187b41e16134"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_festival-think/start.webp",
+      "bytes": 198420,
+      "sha256": "bf6eaff06594a99f5e4661136d591e11d6052128eac942dbe68cd56e56c541ff",
+      "gitBlob": "46d9523377a44ec584449ed5dd1ac4855f55a580"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_festival-win/end.webp",
+      "bytes": 198334,
+      "sha256": "4317a167cf99f0aa5526287e7c284bd82b124d36d6ffe6e9809eb32105ac93ed",
+      "gitBlob": "a7c640df68e076394a4b94b4d9922618b3a6aed9"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_festival-win/middle.webp",
+      "bytes": 198966,
+      "sha256": "a278f872e18aff034249f539f1fcdd5e6f94fd18d740b576461ca1cb500f3ce9",
+      "gitBlob": "c32ad4c0b1e46e6004bfeb1890f8ce6232bacdd0"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_festival-win/playback.webm",
+      "bytes": 586367,
+      "sha256": "a05fc38d716ecbd93bacb9996a4784c01e83da8609d478a5b0729cb2bb9085e6",
+      "gitBlob": "cd9035f4e1d6fabff09db2f103803b2956c2ad11"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_festival-win/result.original.json",
+      "bytes": 48146,
+      "sha256": "cb9be0c5c681934c99eda31ff95ca9e9cb5e9e8abe69ade6801c106bd937c440",
+      "gitBlob": "a6c3ba554026400432d7ea4dd915ff7b59d25449"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_festival-win/start.webp",
+      "bytes": 198334,
+      "sha256": "4317a167cf99f0aa5526287e7c284bd82b124d36d6ffe6e9809eb32105ac93ed",
+      "gitBlob": "a7c640df68e076394a4b94b4d9922618b3a6aed9"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_ink-idle/end.webp",
+      "bytes": 198018,
+      "sha256": "32e439c0c876688d8a2be58f104548b6177d9d034fbeec154f681ac2ad9c74f8",
+      "gitBlob": "38e042fe6ae8bce5400e38a37e7fac0d82127689"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_ink-idle/middle.webp",
+      "bytes": 197962,
+      "sha256": "5f6ad61412af95d94c699df5b74d2bf0bbbb88c08ff17178b33a680289905abb",
+      "gitBlob": "61ee0d6ed04a93c4d2645c451e288014f8705b21"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_ink-idle/playback.webm",
+      "bytes": 750789,
+      "sha256": "1f2f6aa18364613af923223c502430eaed6e712c2566a9316a5d8aa03be8df1d",
+      "gitBlob": "9f24d1873be93ebffbc76dcf07c18d9e1819255d"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_ink-idle/result.original.json",
+      "bytes": 47952,
+      "sha256": "6cfb8af195815bf38de15c05d0487ed256653fb0db6440129dfb1d41edb300d1",
+      "gitBlob": "5adfdf3c726343eea4b95515b0dd4c16eff863bc"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_ink-idle/start.webp",
+      "bytes": 197982,
+      "sha256": "e5f37d5ef580cc5f4418133f017cd990761eb46eebcc796df4a8fd36cf817703",
+      "gitBlob": "96bc5b355558a0c51791244dfca1b3288dead873"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_ink-lose/end.webp",
+      "bytes": 197970,
+      "sha256": "f52b0c5f6033bc9e35a6bd143e6880a2ec81e03eed0db567c5f209703b7ee048",
+      "gitBlob": "a5f9182fd88f768ca7cb6d918ee3b1eaf2ec70f9"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_ink-lose/middle.webp",
+      "bytes": 198500,
+      "sha256": "8478506ec0867172e287e9c5bfc93dc041f7ea08c1d99620e54aad4daf6255fe",
+      "gitBlob": "cf10283d366113f296c2ee83e9ae4924a0ede103"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_ink-lose/playback.webm",
+      "bytes": 842517,
+      "sha256": "770bdc68f2497641fa14d464973607ba839db7b37ea4034355a56069c90e3ade",
+      "gitBlob": "e63837a4584ec351f2e4157c1cb70b17e1e23089"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_ink-lose/result.original.json",
+      "bytes": 48082,
+      "sha256": "18afa61d25d7b0402a13aeaaacf7083ef1a73bc3e389df92befdb09346710e7f",
+      "gitBlob": "82a6f4e061e53c305bdb238ef91cc584cd3e6af1"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_ink-lose/start.webp",
+      "bytes": 197970,
+      "sha256": "f52b0c5f6033bc9e35a6bd143e6880a2ec81e03eed0db567c5f209703b7ee048",
+      "gitBlob": "a5f9182fd88f768ca7cb6d918ee3b1eaf2ec70f9"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_ink-play/end.webp",
+      "bytes": 197970,
+      "sha256": "f52b0c5f6033bc9e35a6bd143e6880a2ec81e03eed0db567c5f209703b7ee048",
+      "gitBlob": "a5f9182fd88f768ca7cb6d918ee3b1eaf2ec70f9"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_ink-play/middle.webp",
+      "bytes": 198870,
+      "sha256": "628f87c4e5a64c7dde5dbe71ab7f7bc7f648ee21b963fd82747b7d92a1c79095",
+      "gitBlob": "6ec713ac535cdc29b7269210a92789c900b47ecd"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_ink-play/playback.webm",
+      "bytes": 629309,
+      "sha256": "f29a7b99b8d21124cdd532e5f93aab8681157b3e4ee3e9eac3793f38bb26d786",
+      "gitBlob": "9a1c0d827786922051d255daa6dbd9ef6e7d63f7"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_ink-play/result.original.json",
+      "bytes": 48314,
+      "sha256": "b90ebcb0134aee8188dd4a6692b1c673417b2fe7ad0d7f000d51d2cc44ab1a83",
+      "gitBlob": "b71a5b9ebcf59f691c2715ddab30b7b83525919e"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_ink-play/start.webp",
+      "bytes": 198332,
+      "sha256": "7a814b1bf24d68cdda60364892e61204c8887b82f2a3121e2effb7c0cac7b8e6",
+      "gitBlob": "eaab5fc1e7a3292437ccabd19bb4d62780bfe83b"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_ink-think/end.webp",
+      "bytes": 198386,
+      "sha256": "e2c2aae058c9d0d9f5e1b0700e72a4f5da9cd86384ff3ccdd95af058432cb321",
+      "gitBlob": "8198cceb40a86b8963709d802a0bbaf2b97b224c"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_ink-think/middle.webp",
+      "bytes": 197990,
+      "sha256": "ededc5b45fb160bfdb7cdddcce3618dda8cb6a8c4d8e0e37307c854fded99d41",
+      "gitBlob": "5a127a74480c4131276d3cc6c3942292ebb1f992"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_ink-think/playback.webm",
+      "bytes": 763815,
+      "sha256": "29aeda6e8887503b5979efc647718e48b612cae1cf5dd4e1e538aed5f78b2a28",
+      "gitBlob": "cf102f48386dc3af31060d448561a45d837784ad"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_ink-think/result.original.json",
+      "bytes": 47946,
+      "sha256": "d826f8d5682983950335a97701c47ab37dfa883d9fb105dce8ccf76a415f169f",
+      "gitBlob": "0246f466bce35a09206153c5ba20a67fdc06d603"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_ink-think/start.webp",
+      "bytes": 198034,
+      "sha256": "9333a8a5472eeda473377030363e61c36d1ec31ea3dbda7d1bd20eab4671fa8c",
+      "gitBlob": "afdb97405a6541770dddb451d1e09521fcbd04b7"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_ink-win/end.webp",
+      "bytes": 197970,
+      "sha256": "f52b0c5f6033bc9e35a6bd143e6880a2ec81e03eed0db567c5f209703b7ee048",
+      "gitBlob": "a5f9182fd88f768ca7cb6d918ee3b1eaf2ec70f9"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_ink-win/middle.webp",
+      "bytes": 198288,
+      "sha256": "4882cec991ba604a8717fedbd0d19b54422d77a34fd38146f511fc10418d9035",
+      "gitBlob": "e864b6eb88928ae01518375ce924e151ed0626e1"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_ink-win/playback.webm",
+      "bytes": 787491,
+      "sha256": "37351ff0cdab2eb619fb1fb6a1c03ba59967a0d81efa96069f8c834ce9373b31",
+      "gitBlob": "b8b360e534434acf5d08b28c1548c20e9f08dcf0"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_ink-win/result.original.json",
+      "bytes": 48071,
+      "sha256": "9cf3ade8f1f5ca7545d3b71c267284a2fe5dacadd8459d2844f465201ba5cf5f",
+      "gitBlob": "b71b589d25a024b1e4072e9d3ae98ee80e5aef30"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_ink-win/start.webp",
+      "bytes": 197970,
+      "sha256": "f52b0c5f6033bc9e35a6bd143e6880a2ec81e03eed0db567c5f209703b7ee048",
+      "gitBlob": "a5f9182fd88f768ca7cb6d918ee3b1eaf2ec70f9"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_moon-idle/end.webp",
+      "bytes": 198148,
+      "sha256": "390d74ce9540d581aa028dea738c4437cde157050dbae0ca6bdaf0e8c8ef9f0f",
+      "gitBlob": "7736d98e065110ab277067ac46ce07ad11276b17"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_moon-idle/middle.webp",
+      "bytes": 198150,
+      "sha256": "4729351505e287b4ea2b3a8621585a433fda976a967ba8e08ea6ef5c25808674",
+      "gitBlob": "7d27c62a1f243257b398150cc6a8bff3bb9b5896"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_moon-idle/playback.webm",
+      "bytes": 564188,
+      "sha256": "7df249ac7e58f8e746823152734dcfc2c9983a36b7f88c35dbe8d0fb80137f55",
+      "gitBlob": "d999dcae0691425337cea153239b7e786020b008"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_moon-idle/result.original.json",
+      "bytes": 47944,
+      "sha256": "8f920514e0c06e8071278c36098d960352ea8f4acc75019eb9b240d82e148d23",
+      "gitBlob": "2009847bd96b0c3a8c0855508d3131972d5a6ab3"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_moon-idle/start.webp",
+      "bytes": 198260,
+      "sha256": "1e4062c016d3e9cd52ff843775d905255328eeab726068b818b35b467560a6d8",
+      "gitBlob": "2713dc15df42d998a9181313903d9ea81a7f117b"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_moon-lose/end.webp",
+      "bytes": 198338,
+      "sha256": "e9d437dda71a35f8d0a750e76a6b0b2ae1204be3e31ee3ecf9f2ffbc0da79a8c",
+      "gitBlob": "7acb0169468ad94830382497e3b07a03471b8371"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_moon-lose/middle.webp",
+      "bytes": 198466,
+      "sha256": "33d64b5b3e6f507932b63f7731b46e8deefd6e11e4bdda8dedb615f2e6b907d4",
+      "gitBlob": "97fc9e53232067257cb91c17591cb0b649a9cfd1"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_moon-lose/playback.webm",
+      "bytes": 944918,
+      "sha256": "aca2bbc615b5556a950476d0ba3e37cb1dd8c0fe87b31ee532e515de3182349e",
+      "gitBlob": "f33ebfbbeef8456d8fd88d3cb62c1acaaa93bc8d"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_moon-lose/result.original.json",
+      "bytes": 48108,
+      "sha256": "e3abcd18a932e6336b648f4f56bcb30dd025b8021b7465c428f9569504e90a4a",
+      "gitBlob": "ecf90c96c050062d56fcad691fb527d90a070fd7"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_moon-lose/start.webp",
+      "bytes": 198338,
+      "sha256": "e9d437dda71a35f8d0a750e76a6b0b2ae1204be3e31ee3ecf9f2ffbc0da79a8c",
+      "gitBlob": "7acb0169468ad94830382497e3b07a03471b8371"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_moon-play/end.webp",
+      "bytes": 198338,
+      "sha256": "e9d437dda71a35f8d0a750e76a6b0b2ae1204be3e31ee3ecf9f2ffbc0da79a8c",
+      "gitBlob": "7acb0169468ad94830382497e3b07a03471b8371"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_moon-play/middle.webp",
+      "bytes": 198952,
+      "sha256": "4180ddac60abc1f0673ddb1fe0c6c6331f91bb725bdb6ec274f4390d600ef488",
+      "gitBlob": "dc5b392b908b72038e6172273bfe5d3be15ab317"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_moon-play/playback.webm",
+      "bytes": 705143,
+      "sha256": "41516347ca0ae0c1a0b4619b9a11f06a2701a14e0a48e21b9b01a3203f01c0e1",
+      "gitBlob": "f88e8682e1d4685cb1ced3a1ae711b52c0778a7b"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_moon-play/result.original.json",
+      "bytes": 48337,
+      "sha256": "a55f4e2263603180da6bb7434940d9b87c4aabdefbd0f25d93edaeb224ffc6fe",
+      "gitBlob": "67cac6382ec1d2c2adb96ee9da672c495bc3f992"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_moon-play/start.webp",
+      "bytes": 197912,
+      "sha256": "81128e10cd476e5cc0baf39562b957512771325d72c387b0b77ad4fc64f6971e",
+      "gitBlob": "d92b9bf69808f03678dabd27e088c4fddd1c2044"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_moon-think/end.webp",
+      "bytes": 198152,
+      "sha256": "29dad7be376ee701e91b0f4542b35d0e177cda59f29eb5ad99b1f9d761136f5b",
+      "gitBlob": "f7bb303e0af99cf1a0e4bd9e5aff1dcc7255c275"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_moon-think/middle.webp",
+      "bytes": 198224,
+      "sha256": "138fd5b2f71428e15a97a22cbb5caa8318837a0d64f534347918baa237b1ad46",
+      "gitBlob": "994003a73a79c0a691fc1af520542612d403ccb2"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_moon-think/playback.webm",
+      "bytes": 764419,
+      "sha256": "4fbd2406d473feae5c078b1404eccf5bc73b9a3b5f2c4202e009701dfbae7193",
+      "gitBlob": "d6dc67edbcdaf0d5eeac3c52590e9136af73858b"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_moon-think/result.original.json",
+      "bytes": 47965,
+      "sha256": "2c6838a4c3be0b835de27b46c29fae34b75ec4e4e6e7a419f1c9008527ef1207",
+      "gitBlob": "15b624ac4bc0f9cc8c2ac9e0b7966e924a800385"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_moon-think/start.webp",
+      "bytes": 198224,
+      "sha256": "75e52240b6dbb8836830ab6a29839527e48949e02f6f14fb33093046ce7a937a",
+      "gitBlob": "9e7650c66de785102a71db46eaa62db6e5773826"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_moon-win/end.webp",
+      "bytes": 198338,
+      "sha256": "e9d437dda71a35f8d0a750e76a6b0b2ae1204be3e31ee3ecf9f2ffbc0da79a8c",
+      "gitBlob": "7acb0169468ad94830382497e3b07a03471b8371"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_moon-win/middle.webp",
+      "bytes": 198228,
+      "sha256": "f5a4d11bf7a4fd081d28ac4ac431460acfbccd2dd475128570de28b1949a894b",
+      "gitBlob": "8834cf3a5a1514060360746480ecec7b94cc2e26"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_moon-win/playback.webm",
+      "bytes": 1009878,
+      "sha256": "d7371e7ad5929f605642540eaa1be5f65a25170467f7c3caa26e51049c5d1e23",
+      "gitBlob": "3591473c6089e2da84703f389d9c96c18b9f7ceb"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_moon-win/result.original.json",
+      "bytes": 48110,
+      "sha256": "d0c167ead798c6f9025d20fca8ecde345c3ce21a402d7498592094a21780e077",
+      "gitBlob": "d73f01d63a71ddab4a3d7c24637d803e0e96e74d"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_moon-win/start.webp",
+      "bytes": 198338,
+      "sha256": "e9d437dda71a35f8d0a750e76a6b0b2ae1204be3e31ee3ecf9f2ffbc0da79a8c",
+      "gitBlob": "7acb0169468ad94830382497e3b07a03471b8371"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_snow-idle/end.webp",
+      "bytes": 197668,
+      "sha256": "7f569ae0444463f4f43cf2e1b12a6bdc7abf993f341a93d9d2e10be567b174b4",
+      "gitBlob": "4acb04a1a95019de112d343c8f060800d938887d"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_snow-idle/middle.webp",
+      "bytes": 197670,
+      "sha256": "fc35da369e938885f5543267ac3dbc6eaa9756a1c5e1ed4729bb7051745dce4e",
+      "gitBlob": "ac67b2aaf881a69c3977775ea77837ab16f1394d"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_snow-idle/playback.webm",
+      "bytes": 619561,
+      "sha256": "bebe804fe7f092adb347b4d487c51ef0c82518ec1bb98448e22faa26e9f5e5eb",
+      "gitBlob": "c3e4c66725289765634a450ee275d4cfc3870b7a"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_snow-idle/result.original.json",
+      "bytes": 47945,
+      "sha256": "cd4b899b9e142f7b0a12493f18b3dea1a42224b476f88b860e81f9d5936ee607",
+      "gitBlob": "6b95351d437af498f147cbf2b9223ebb15d8b14d"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_snow-idle/start.webp",
+      "bytes": 197556,
+      "sha256": "389e19cb9eaad8ad04f582d9e1bfb777dd199610ad8b540e0f5a26bdc6fb1810",
+      "gitBlob": "aa30fbc453e8b4fc386493e8a890999d2a63a631"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_snow-lose/end.webp",
+      "bytes": 197648,
+      "sha256": "75ad971504d6f1f41a5b1409c913fad97b3ee9dc3fc7c0814ff6960eac69deea",
+      "gitBlob": "1aab8f6a3bd9aacdd7fa1602394a91b2b7d81655"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_snow-lose/middle.webp",
+      "bytes": 197642,
+      "sha256": "8dc28b9d312a16bd8fafbd0d415a0a738642e7f577ef57e210a9e3d232042757",
+      "gitBlob": "a0975d7cc94b03636899cd9de025cfd2a3b5f99a"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_snow-lose/playback.webm",
+      "bytes": 1023260,
+      "sha256": "e4e4e7bed7f510606b2aa9bdd13f9ffbd0acf1c50e00418736a48ca57772ca72",
+      "gitBlob": "e41696c65f588062f48bdf882142bd1b71cdb9a9"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_snow-lose/result.original.json",
+      "bytes": 48104,
+      "sha256": "4e33e4de130a5d68d1dcdf0fdbb8bc7ee65dd09d2bdacb2fdcd0a9bd20fa1dc3",
+      "gitBlob": "83b3f92fb255ee7241c0cf5c6ff0f32c5f4ff019"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_snow-lose/start.webp",
+      "bytes": 197648,
+      "sha256": "75ad971504d6f1f41a5b1409c913fad97b3ee9dc3fc7c0814ff6960eac69deea",
+      "gitBlob": "1aab8f6a3bd9aacdd7fa1602394a91b2b7d81655"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_snow-play/end.webp",
+      "bytes": 197648,
+      "sha256": "75ad971504d6f1f41a5b1409c913fad97b3ee9dc3fc7c0814ff6960eac69deea",
+      "gitBlob": "1aab8f6a3bd9aacdd7fa1602394a91b2b7d81655"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_snow-play/middle.webp",
+      "bytes": 198386,
+      "sha256": "f8333faf8c67b3875c3ff8943c498ee73feaca78ab9acc50292e4eb67556355b",
+      "gitBlob": "ae0b1ac01a10dd7f0f072c3cd10f997ed898bfaf"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_snow-play/playback.webm",
+      "bytes": 661677,
+      "sha256": "e86f4254becf878d22b519d13a3fd8eb97df926cffe18b1cf97264a20359aee3",
+      "gitBlob": "8fa5af060847d804b1bd8064841371d8e6dc190f"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_snow-play/result.original.json",
+      "bytes": 48335,
+      "sha256": "f82ef7428978f1f73a169b88a9e206fd3f632caec796d4b44ebd4a3003634b7f",
+      "gitBlob": "8ac0e197d8c22e883a2c580bb4fb32e420de6283"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_snow-play/start.webp",
+      "bytes": 197552,
+      "sha256": "b7aa0504b339cf67f9b7617c816b1e0f237b05c024dab2782c3b2a1c111e14e4",
+      "gitBlob": "13dcff2c01b1fa904ecdac4819fdfc67fdf4e97b"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_snow-think/end.webp",
+      "bytes": 197682,
+      "sha256": "fff834a9dbe89c447c3f00675999e3e6e35bb7f8ee17d806b89a54be3518f07b",
+      "gitBlob": "08569968a66963b33e99f231b58a009cfb74cefb"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_snow-think/middle.webp",
+      "bytes": 197722,
+      "sha256": "3ec3bb91cc6bf370c0bc0740510042e4e99a8657fdd68bd9cb618ac08bb581b3",
+      "gitBlob": "3bcf254b90d180e35b1aa91e48088b6d2bf033b2"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_snow-think/playback.webm",
+      "bytes": 941945,
+      "sha256": "46c9f8b7dc46e7985b69453d6e11ab2ed6c92d0702bfbf325600f824a4cf2ab7",
+      "gitBlob": "9a21d361278a2a78e894ccb914a50743da23f853"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_snow-think/result.original.json",
+      "bytes": 47989,
+      "sha256": "5e29502d6082d93dd07bcded603d06668549170d88f5b0305dc50b02b6e6c900",
+      "gitBlob": "b008c6c3293c170acf5856b4daaad48e5aca4002"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_snow-think/start.webp",
+      "bytes": 197486,
+      "sha256": "7373fc7df31d8457a838e4c046dfbec8f6da2a9c21b4292554155258b672991e",
+      "gitBlob": "27465dcb68a257ea1b41981eeba2f14e947cb429"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_snow-win/end.webp",
+      "bytes": 197648,
+      "sha256": "75ad971504d6f1f41a5b1409c913fad97b3ee9dc3fc7c0814ff6960eac69deea",
+      "gitBlob": "1aab8f6a3bd9aacdd7fa1602394a91b2b7d81655"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_snow-win/middle.webp",
+      "bytes": 197524,
+      "sha256": "c1fd8e339a5e351a6f0b4d21b16d423475a8340930119ab750ce22a53fe3f27a",
+      "gitBlob": "b3b30e48e7aceef85071e331467b85fa319e30b5"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_snow-win/playback.webm",
+      "bytes": 915400,
+      "sha256": "72e6df4a6b148d788063e3653ceff2bfd7bd15218ec3a8589e88d051e4e24245",
+      "gitBlob": "114e334eb1c6ab42671392687c1e8f2ea49c8939"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_snow-win/result.original.json",
+      "bytes": 48106,
+      "sha256": "ba60a040c1d3a5a529b4bd8bd06538443d708f0ffeb115f8040fcd76a28b0917",
+      "gitBlob": "4318ce78bbebb0481b10452785e547e6aba1ef32"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_snow-win/start.webp",
+      "bytes": 197648,
+      "sha256": "75ad971504d6f1f41a5b1409c913fad97b3ee9dc3fc7c0814ff6960eac69deea",
+      "gitBlob": "1aab8f6a3bd9aacdd7fa1602394a91b2b7d81655"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_spring-idle/end.webp",
+      "bytes": 197870,
+      "sha256": "6a0148373f8f401bf6857ce6082f904aa088abe7cf0232881b6aeef509bc40a0",
+      "gitBlob": "9db95db2ddb38e6498f3a957c949aaaba7a4cef6"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_spring-idle/middle.webp",
+      "bytes": 197788,
+      "sha256": "9805589d34172b5e5321fe724787f90bd990b6a52eef81dd18f06f00eba2f203",
+      "gitBlob": "13743439069e31f7da44a4250c8593584dad156d"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_spring-idle/playback.webm",
+      "bytes": 566767,
+      "sha256": "c79e5f1729112d6df5917a87c57c1454e20d84b2c776e6f23ae017c4fa9fe20a",
+      "gitBlob": "912536d6d3655f2712840baa07857ba6e18fdaa5"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_spring-idle/result.original.json",
+      "bytes": 47994,
+      "sha256": "46365a71f92838b3d64048eefac41a3faf26c8f879fc15260be3cf152a6c1a35",
+      "gitBlob": "babb7d3c47100238e22b1a58b5ac0c849176ce03"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_spring-idle/start.webp",
+      "bytes": 197980,
+      "sha256": "be6770be1f4b06206c680d9cf65b0a45b5a2fec13e7906c10e98b27b4965aff3",
+      "gitBlob": "8679cff94ba5a0bbcbe5e291204e43efcb7c8d1f"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_spring-lose/end.webp",
+      "bytes": 197910,
+      "sha256": "70896488b9b56bd14fb449a4c3dc41a7724d2af6c3fdf51468df349fb0cd2306",
+      "gitBlob": "d9cc93d1427e1ec8f2f141278452dde1849e4839"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_spring-lose/middle.webp",
+      "bytes": 197956,
+      "sha256": "00050b9b8e8687462905f5161671fa4fa89337d2b4f939526a1749052bb49a4b",
+      "gitBlob": "c1faac51aa03af816a88e0439a0942a74d75115e"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_spring-lose/playback.webm",
+      "bytes": 751916,
+      "sha256": "28b31a6dcd65ddf94316900c88b2c28f1b1236d37eb0a703505b053428479b59",
+      "gitBlob": "9f557538682ac5b9af342a599d3d2e3a98d347fb"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_spring-lose/result.original.json",
+      "bytes": 48142,
+      "sha256": "0120f4fecc477e1045630937e67a343d0d000168091fe4378aa30f8b159b7660",
+      "gitBlob": "47cd2f6b60d98c93a87a27953d1b33a8c9fa5176"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_spring-lose/start.webp",
+      "bytes": 197910,
+      "sha256": "70896488b9b56bd14fb449a4c3dc41a7724d2af6c3fdf51468df349fb0cd2306",
+      "gitBlob": "d9cc93d1427e1ec8f2f141278452dde1849e4839"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_spring-play/end.webp",
+      "bytes": 197910,
+      "sha256": "70896488b9b56bd14fb449a4c3dc41a7724d2af6c3fdf51468df349fb0cd2306",
+      "gitBlob": "d9cc93d1427e1ec8f2f141278452dde1849e4839"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_spring-play/middle.webp",
+      "bytes": 198534,
+      "sha256": "a6e0c6c0bab0dd38818a009abceeea11080b0a3b5c131d143da86ced6a120dbd",
+      "gitBlob": "da10f827f15b468d000c43b0f995755326e5679f"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_spring-play/playback.webm",
+      "bytes": 657736,
+      "sha256": "c59cc9ec1192531983c06d76c843d9119c35d0913e81fe5686ddd998a657eef4",
+      "gitBlob": "225e4574e655b79f9b9d196a2c5d7ae6225769af"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_spring-play/result.original.json",
+      "bytes": 48372,
+      "sha256": "0c04cf5025fbd31d1dd9fe1e8cd33b845333d45454022eb1c3b5b46e78af380b",
+      "gitBlob": "cfa629d55c5e5a9528febda0b0d411f9eb869243"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_spring-play/start.webp",
+      "bytes": 197980,
+      "sha256": "5b6ff61e619ca30642b69bd9022b49c7b87e3d9b62a501093699509d2314455b",
+      "gitBlob": "bae67ebdc665164d0d64e9cccbb2ff5f229080e5"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_spring-think/end.webp",
+      "bytes": 197882,
+      "sha256": "bb0416ef9de52d594270c58a0def8925420fe7b62657dc1dd6d2c78ce5c9f832",
+      "gitBlob": "ec1915051ef8b80fc3af5b8fd39d30dc562a59ca"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_spring-think/middle.webp",
+      "bytes": 197966,
+      "sha256": "92a51db440a827c635ec950301fd29d17000f4159662039a9bf0262ace038f46",
+      "gitBlob": "df8bd343db04be016a72ef23dcc9b5672ad4461d"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_spring-think/playback.webm",
+      "bytes": 759962,
+      "sha256": "6adc7958c289252b56f2264e156ff4a5687b0c34a1e94ead0c2b4d8784ce2ecd",
+      "gitBlob": "0344945a10659e15bc8d921dad92658a2275609f"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_spring-think/result.original.json",
+      "bytes": 48029,
+      "sha256": "ca5ffa33f51a13a77e8883aee9c1bea4bd3db8168239449b6b7dfa3cf48eafd6",
+      "gitBlob": "25ec3f736965df864734fa8474375dea9d1dd7f6"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_spring-think/start.webp",
+      "bytes": 197736,
+      "sha256": "ff54de18d167698bccd01de6b6d1bbf546cf59c7111fd2cc8fc7397cd954e53c",
+      "gitBlob": "51da8780dac4d9e2dee9ce083417339736b77675"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_spring-win/end.webp",
+      "bytes": 197910,
+      "sha256": "70896488b9b56bd14fb449a4c3dc41a7724d2af6c3fdf51468df349fb0cd2306",
+      "gitBlob": "d9cc93d1427e1ec8f2f141278452dde1849e4839"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_spring-win/middle.webp",
+      "bytes": 198056,
+      "sha256": "69373906de8026ed8d30be2f66f802c6c73f1f3e42c896d4200aa07f5799662f",
+      "gitBlob": "6626d66b9ad14a05fd5ce26e8b0382e60d585326"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_spring-win/playback.webm",
+      "bytes": 838894,
+      "sha256": "4656a0a0fb7753c2b48bc5457fc0713b0740a5263a579c4ed499d679455315cc",
+      "gitBlob": "0f275fd2c208578bd4fa341913a5a46edd3e1515"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_spring-win/result.original.json",
+      "bytes": 48149,
+      "sha256": "a6125daf0c3e33eae51cf465013600349614bdb05da649a45926f4bb82e205e9",
+      "gitBlob": "f6a9146c72e09f7e5dc6c5da54e0927babcf993c"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/costume-daotong-daotong_spring-win/start.webp",
+      "bytes": 197910,
+      "sha256": "70896488b9b56bd14fb449a4c3dc41a7724d2af6c3fdf51468df349fb0cd2306",
+      "gitBlob": "d9cc93d1427e1ec8f2f141278452dde1849e4839"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-bomb-burst/end.webp",
+      "bytes": 217502,
+      "sha256": "1b9dba2efb47cb106a889991205d903beaf956078daf0fefb756591539cbc671",
+      "gitBlob": "f5c56264b2d87775b1edd35bb687b5ab74c83b38"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-bomb-burst/middle.webp",
+      "bytes": 218044,
+      "sha256": "3331a88aed390c153c9b7ad16235fa89c583603eb6b4d07355ca31bf8b36faac",
+      "gitBlob": "92a2d45f619ee5c9ed7d748a3ff2ea95b2141be5"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-bomb-burst/playback.webm",
+      "bytes": 632404,
+      "sha256": "fb93f5f7c93088c01031c1effc0751329a85b5c58aee856dc1ddcaf78811ba7e",
+      "gitBlob": "13b476b4acea0fec3a7d05044a4b14f79f3e91c7"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-bomb-burst/result.original.json",
+      "bytes": 48027,
+      "sha256": "b603606ec916b4f5c922a4c1510d9fd4e79bdb6bb8d863ecdf42113dce88a8a8",
+      "gitBlob": "2de5ff0409df47655b8088969b7aac492dc68d95"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-bomb-burst/start.webp",
+      "bytes": 220998,
+      "sha256": "71f5a99f0d506fef520ecdbcd6cd28fea78cdc9e613408108a9aca0c1d2ebad8",
+      "gitBlob": "20fe8df7840a45057d4c660dfb7333e85c2723fc"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-counter-spring-leaves/end.webp",
+      "bytes": 220386,
+      "sha256": "61073c324ff6f258a4ec6ff60e5e2a9d7287f28e1667f27a04c9305f086001df",
+      "gitBlob": "3a8081d0cbc84a27de056ceb251777ff295b5060"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-counter-spring-leaves/middle.webp",
+      "bytes": 221090,
+      "sha256": "5ed7bdb2192bb5651fe2137245aafb0ff1e6aaa1bbc63d5446a6501a6d63e152",
+      "gitBlob": "e9c77736bbf4adbea67633049bfe52e03c7367e7"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-counter-spring-leaves/playback.webm",
+      "bytes": 603129,
+      "sha256": "b916ceeaf9e7805d1d67c23cc4e44989de9db5e8b1275ff236bbf960bd3703d0",
+      "gitBlob": "4ef7ae0fa812ec8ba19a18e4f870880feb5b46ee"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-counter-spring-leaves/result.original.json",
+      "bytes": 48231,
+      "sha256": "c9603321b37d3b583d548b9e55363ba67af677b74858a653ad9234f8531edd6d",
+      "gitBlob": "3f94a4448d92d7294541d14925011d1f20cef3db"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-counter-spring-leaves/start.webp",
+      "bytes": 217682,
+      "sha256": "36190d340bf04e7caa2c8b0d6e2a9b8824fc873c66db9b6dd179bc20fad25215",
+      "gitBlob": "a0146712ad7038181287fd2ff0d7f7fab078dc0c"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-deal-trail/end.webp",
+      "bytes": 220324,
+      "sha256": "529d3f4a317ccd75b964a7e65e6c017158aa60afbd30637ded078653897375ed",
+      "gitBlob": "21360c4981badbbecb0f4c6eea98e77dd923fac1"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-deal-trail/middle.webp",
+      "bytes": 220518,
+      "sha256": "05cbea22946be947c85a0a50ecb1afe74655ef710a9ba06b248a0ea877c01a45",
+      "gitBlob": "fa1d678eef063aaaebfebc1b405068747813f7eb"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-deal-trail/playback.webm",
+      "bytes": 565337,
+      "sha256": "8ba991c6fbb3fa9669eaa58df615d85995572438e71c335c3cd1528c4c90b949",
+      "gitBlob": "8abdd2bb0aac598b4c1e36d3b1482cf55834d231"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-deal-trail/result.original.json",
+      "bytes": 47891,
+      "sha256": "bfa7aa73bde8bd7384db30796e1a8f45416d2e698ff913bdba3c521b4add35aa",
+      "gitBlob": "ca76e9bf16e77dc5ca3c04820aa993423a42ecff"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-deal-trail/start.webp",
+      "bytes": 220498,
+      "sha256": "b1fe85f5b1bb57dac74ec8a64dc7f8a906fcfc0c23d0bea57bc93a6df85ab8ff",
+      "gitBlob": "52f380cba7fcb9f65f6bc02fae03a06fe960ae22"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-loading-ring/end.webp",
+      "bytes": 221576,
+      "sha256": "331acf6d6510c5118c4191e9fc4ccec9171713d4ddf41aff1a1e5b04d058c640",
+      "gitBlob": "b96309b0b2a903af54ecdea0901d3fb630d804ec"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-loading-ring/middle.webp",
+      "bytes": 221378,
+      "sha256": "a5ae80a51963d26bda44a7e80294ecbfafcfb59dcfd48a480594dacc1d9d219f",
+      "gitBlob": "0c6b987b54e2865a4b8c27bf7f907a62c381a8c9"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-loading-ring/playback.webm",
+      "bytes": 567871,
+      "sha256": "3a4ffc9c88da1f75e38eb86d6066511c8e6f0c5aea17163ce8f527eb45fe9d5c",
+      "gitBlob": "81c30e2b5a3f725681ad241ec9d62b3273d99bff"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-loading-ring/result.original.json",
+      "bytes": 48092,
+      "sha256": "515f222856c2bf902db0be1ae15600888e733c4f73c25fde0365add96b3eea50",
+      "gitBlob": "9ab139e4e19c1e84d23e03af16aa79ea8120c4a8"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-loading-ring/start.webp",
+      "bytes": 221464,
+      "sha256": "900ce82c1069d282c217782623150765ee2f61e6ea87dab0bbfe56e236bf5655",
+      "gitBlob": "e7e347310a63b1ca7705611d51e16fe9b1f115c4"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-lose-cloud/end.webp",
+      "bytes": 220494,
+      "sha256": "90be98a5fc4524da8e51cc4a57517011459430c9056fe278028790c62d798ca0",
+      "gitBlob": "04dca562bac7bb4247e67f4e7d81be7518da670b"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-lose-cloud/middle.webp",
+      "bytes": 217646,
+      "sha256": "9e818a873f3df4561753ba85724f077b12dc91dc9ec6a016ee733ffc70e9af20",
+      "gitBlob": "1d32ae97d07bbb3a5eb1e9981a7e68bbeb44f456"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-lose-cloud/playback.webm",
+      "bytes": 599228,
+      "sha256": "945d4c6e11ac12d20b5ae81ef31a98fc4ff6bb84ceaed6a39ed546f74ee8efb5",
+      "gitBlob": "3faaa81b21063c78b922df678de2852769218770"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-lose-cloud/result.original.json",
+      "bytes": 48018,
+      "sha256": "cf2e74eb6dbb012942cb8698da73b92a91c294f4edc9ed75dbb2c34756f1fc7a",
+      "gitBlob": "c891273d037946bb8a0fc4e0150cb9b9e7fce6f2"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-lose-cloud/start.webp",
+      "bytes": 220454,
+      "sha256": "c04c2fa2445bf4ea45966218b44a57768e403e077c2c468a079a1cf2200aa42d",
+      "gitBlob": "84f7578d0ab13269ab96ce354cf52e0046567a6f"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-navigation-regression/cleared.webp",
+      "bytes": 220608,
+      "sha256": "eb0eb5c8f2220a217452596aa039d8a86fb8a849d0f8eff70e48a1024e5c3667",
+      "gitBlob": "bed5c2d5bd9bde86954bf15ac99b4e78fc28258d"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-navigation-regression/latest-only.webp",
+      "bytes": 139382,
+      "sha256": "9f979807ffa56730f1df995f18f5b939ea38492ce257b65421f1be235459921d",
+      "gitBlob": "193aad153e20d7514396886e7313711a40b0ae76"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-navigation-regression/playback.webm",
+      "bytes": 666778,
+      "sha256": "65f8f9179f95f48cd03ece5256adc78feba3f1971bf6b1bce1bbccab88f80a4c",
+      "gitBlob": "9eefda404e6746d764ee149fa6075fb5f92eadfe"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-navigation-regression/result.original.json",
+      "bytes": 32418,
+      "sha256": "fbb5ba7ed5c9ca3acd7aa7c3714c4a3d50227b098f6c67cab61ae593bc219816",
+      "gitBlob": "83301b4204677ec41c76ea87096087ddf2f92bb5"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-play-glow/end.webp",
+      "bytes": 220358,
+      "sha256": "41326382110afec1b07d361457d7601979051672018c899b8c5492131d615cd7",
+      "gitBlob": "203c27ffc497ae8014c30a6bcc73645028840a9b"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-play-glow/middle.webp",
+      "bytes": 220452,
+      "sha256": "f86da6d76ebe9271fb6b3eb789351fe9576f93076dfc8d67446ce7e98ef7697a",
+      "gitBlob": "0f430cf8a97e0a4e4d3c63421e892c917b16946d"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-play-glow/playback.webm",
+      "bytes": 581135,
+      "sha256": "2f3c9e32ea135a751500a3b4f00b222f2a5cdd82d5e78408ef4343b1c53840cc",
+      "gitBlob": "9e6047747218c905dfe97687fa4583d53448b986"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-play-glow/result.original.json",
+      "bytes": 47931,
+      "sha256": "d2ade262d64796cfbdd926774784949b9cd79246589cadb4067e51660a4c66be",
+      "gitBlob": "3ba45777e934ef6dbcc5828c56a501ed77184c73"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-play-glow/start.webp",
+      "bytes": 220434,
+      "sha256": "13653bf2e8a6edc8546a16ed52e688aded52ecec2f278fbbb38a1f4c66d74177",
+      "gitBlob": "5770c9ed94a533b5c74b1e24414e8a67af0fed1e"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-rank-up/end.webp",
+      "bytes": 220354,
+      "sha256": "1095c3cfcc0cc080c03e2811fabcba5992658957ecdac70548eb6ff072ab6680",
+      "gitBlob": "174444d6beffd05f10d2acc19dcb410558a447b5"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-rank-up/middle.webp",
+      "bytes": 221340,
+      "sha256": "5ac38e8f3edfd9ed5af82bc3113f54aaec5c45d48be9df795b490128d8ff5e81",
+      "gitBlob": "3d86dbdeb77b1e2bb47bedb04c62f64891a2a46b"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-rank-up/playback.webm",
+      "bytes": 576504,
+      "sha256": "2ef860db2cd070495d7fb8eb9663a184827073e73192edbdb56424752935cec5",
+      "gitBlob": "675f284015b2c8754c0d500152ea00f05c8bdeda"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-rank-up/result.original.json",
+      "bytes": 47922,
+      "sha256": "df3a9d2849fb217665c2920d74c50f6064e59511ea01cb22a02b6431d080b11f",
+      "gitBlob": "7fc11221537890b8dc4056ad5956f081c891f1ab"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-rank-up/start.webp",
+      "bytes": 221140,
+      "sha256": "7730e2ac8ed7ae27b690bba45383ce90d496f6158bfbdfa965b1bd7af624ef6c",
+      "gitBlob": "578bbe433452a488bab6c08759611f4e55a37be0"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-reward-sparkle/end.webp",
+      "bytes": 220286,
+      "sha256": "5584d3dfd26d6e06cb21c64b7ebf1a8950d8e4c98b751154fcfed6ca84f8ff17",
+      "gitBlob": "7f15c89e903cc1dc39b91423ca49963adae8ac98"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-reward-sparkle/middle.webp",
+      "bytes": 220506,
+      "sha256": "ac7234688b93e844d78d21ff27ea99d30b05d07f9c66038ce3a287bab5fb687e",
+      "gitBlob": "2adc92fa0460081c508054a2cc9cb3c17fe0f7b3"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-reward-sparkle/playback.webm",
+      "bytes": 528532,
+      "sha256": "1f4a6ca521608f1bd308e863afd1489f256a067c915b55478cce0077104f42f8",
+      "gitBlob": "44ea19cbeeaf549b34728af7733f78278f0dc0f4"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-reward-sparkle/result.original.json",
+      "bytes": 48063,
+      "sha256": "00f0e2f2fbb87e1dac27d55fd488d3d4c4ea1515c424a35486f00253ec513c09",
+      "gitBlob": "2fb0c36837d6268440d129c4936b4f93e3808df1"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-reward-sparkle/start.webp",
+      "bytes": 217912,
+      "sha256": "9d62a96f2b37964c9df016ebba88d114ce9f0073625c83e18102315b6ecf4522",
+      "gitBlob": "1e4efb6a41fa5e09e5a8d278622dd68c19b56f9e"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-rocket-trail/end.webp",
+      "bytes": 220318,
+      "sha256": "36a5f25fe121cf2b64de64809dae69579b472de0c60bdad49d8263becdaa28f3",
+      "gitBlob": "57a64ae9dcc944ad2b20a358006a947ee5cc9cc8"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-rocket-trail/middle.webp",
+      "bytes": 220770,
+      "sha256": "9d3a83c42de933315cafc1fe9b0f0e2931ec679e1a3c891f1d92ab5907351fb1",
+      "gitBlob": "24caac78c9e89fa65b2b8f643656f111191d6476"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-rocket-trail/playback.webm",
+      "bytes": 552508,
+      "sha256": "2594763e24f46f164a8cc7d43b65fe193881f170735154f3e62b5f70ff8db245",
+      "gitBlob": "0673a1861ffac895a2bb35dd933ef1a9862ffc32"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-rocket-trail/result.original.json",
+      "bytes": 48009,
+      "sha256": "970c79253fb6d9e6c8d1413231efdbf6c718ae8741321d60c5e5acb55a23152d",
+      "gitBlob": "e615c6ac373a735b1c2f6825d7e4f94ba4c18dbf"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-rocket-trail/start.webp",
+      "bytes": 220944,
+      "sha256": "017e68a92a130563615e1c21033a957bf0cf817e4570b6fcccfdbac9c7c803c2",
+      "gitBlob": "bc81da284b97bf2c8e98cb934805c49f522f3747"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-spring-petals/end.webp",
+      "bytes": 217608,
+      "sha256": "f259edc6fb69d2aff3b808a95c49976bc4a25c2cca1e223ad1d18dbe6ff4d62e",
+      "gitBlob": "dcd17f8da343f0d96dca8a96f80a89bb2c7b8d59"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-spring-petals/middle.webp",
+      "bytes": 220774,
+      "sha256": "2a2a9a71c01deac532ad278cd5c0af63107295ce42bd01c23cb5e82d353ed38b",
+      "gitBlob": "e1d8b786082a95cb58f7f938012350afdf2f901f"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-spring-petals/playback.webm",
+      "bytes": 678936,
+      "sha256": "be1e67a11eee804d08ff38bc406141bbc3e502f3d30a6b20d2eb40de004b0722",
+      "gitBlob": "2dd5291c621b9590afc6d14d5672dc3afe4b712e"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-spring-petals/result.original.json",
+      "bytes": 48158,
+      "sha256": "97ae7b5614584faba9de9055c7857e7563e9a83d4df077b645516516cdbfef36",
+      "gitBlob": "e693c99b6ad0d8ff92726d3055883e74200555bb"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-spring-petals/start.webp",
+      "bytes": 221030,
+      "sha256": "437c9d85cd5e901c84c3bdcb1571e2897cd8b0b8ad4c9e8a27a2522433c43e28",
+      "gitBlob": "6abb269de321e48471166750cd5cff234aa187e3"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-turn-ring/end.webp",
+      "bytes": 221296,
+      "sha256": "f466b2ceb42121b660f9d4e6b874edfa5c74619ac96ac7f67a779011f0152c5c",
+      "gitBlob": "8ad323e8f2a24745150fd9125b549bc1f760ef25"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-turn-ring/middle.webp",
+      "bytes": 221354,
+      "sha256": "739e8f3fe2535b2349cbe002e1f188617f7a800b69c5aa85bc76f51a10f145fc",
+      "gitBlob": "fccb298643abc6d134d99920db128cf989d110e9"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-turn-ring/playback.webm",
+      "bytes": 663119,
+      "sha256": "e02156e8cb4752472d7749bd8635f260827367cad3524c03042af17fdb5d474a",
+      "gitBlob": "7c9d6903e9aaabd7a23ac889ce853e3b9612581e"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-turn-ring/result.original.json",
+      "bytes": 48080,
+      "sha256": "c3537edc96d96c4fd8890ed55e9245a2df6d31c3c51cc9a6bec526e2f0aea0e2",
+      "gitBlob": "fb2e1cf4219f444143b9531b113f50efca17c0c9"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-turn-ring/start.webp",
+      "bytes": 221214,
+      "sha256": "da31380d875eafc47a6e8c2b5db840d307e39c34f27b9d834d48db59e75f5279",
+      "gitBlob": "8559fdcbfbbbc45bddce21169cbb560ec6c7e1c7"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-win-gold/end.webp",
+      "bytes": 220510,
+      "sha256": "81eed846b54118b17c8361eb330b4b4c93673eb518fdfcd723fe068173689f94",
+      "gitBlob": "5cd50fa6e5d6e303fa6496c2d026a701e57c7819"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-win-gold/middle.webp",
+      "bytes": 218320,
+      "sha256": "f1bcd97f532d5368b484b7d57610f04da9d7737fd43fd7352e75800e3b0f4509",
+      "gitBlob": "36b3e4b00089992d3b54520fa9b410988c9ad566"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-win-gold/playback.webm",
+      "bytes": 694176,
+      "sha256": "ea6f259838244f03b124b6f41f935e1e1afc198712f863e1048e48059afb9c13",
+      "gitBlob": "15742b24bcefddb6a0a74f157adbb93929338225"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-win-gold/result.original.json",
+      "bytes": 48030,
+      "sha256": "3d1290cf26a6d8f7b18d38f429dbbd3fbd9a897df06cccbb8263b881398b4a3e",
+      "gitBlob": "451d7bfb1916ea49fc3b4dc954838630e707fe97"
+    },
+    {
+      "file": "preview/review-20261111/motion/clips/fx-win-gold/start.webp",
+      "bytes": 221062,
+      "sha256": "865ea50fea86b30d363fb83af764fdbbb57d45df287338cda0d97d89f75a1298",
+      "gitBlob": "9698d600c713947e1f321a0f3dafceac10035a57"
+    },
+    {
+      "file": "preview/review-20261111/motion/contacts/contact-actor-daotong.jpg",
+      "bytes": 1112064,
+      "sha256": "2de78c2d95dbb5e8a97ead783682ea557318e878c3009544b036fb18ebfdedc7",
+      "gitBlob": "03fdde2cf46247c39cc3b93b18a206e11ce82fdc"
+    },
+    {
+      "file": "preview/review-20261111/motion/contacts/contact-actor-hulu.jpg",
+      "bytes": 1095732,
+      "sha256": "bc15d90aa1f2bd5000775d9cf05f6f9b9303f5397641ce94274871b26f3a5692",
+      "gitBlob": "521141797fd1169d3206b57b5e8b2f7bcf55b876"
+    },
+    {
+      "file": "preview/review-20261111/motion/contacts/contact-actor-taohua.jpg",
+      "bytes": 1092341,
+      "sha256": "75eddfef904110e48a9bb68ce87a17670b31f22c96b4726531427b90c7f6e954",
+      "gitBlob": "72c8f7bbde7f2f68c3f4b041409f3b1dc32ca78f"
+    },
+    {
+      "file": "preview/review-20261111/motion/contacts/contact-costumes-1.jpg",
+      "bytes": 961365,
+      "sha256": "fcbd4dc3924227cd5d69a4d4b0486335b874658514e276e8c049db8a812a6985",
+      "gitBlob": "3758375ed5fb98c8cef485ffba7b26b9bd2eb34b"
+    },
+    {
+      "file": "preview/review-20261111/motion/contacts/contact-costumes-2.jpg",
+      "bytes": 965443,
+      "sha256": "8a03eecacaa432d1f0a73035b01c3444460859a64beae0a89f12c59e8e1975d0",
+      "gitBlob": "440912e6cb7c681ae160f9efbfffa385b15a3db9"
+    },
+    {
+      "file": "preview/review-20261111/motion/contacts/contact-fx-1.jpg",
+      "bytes": 1258026,
+      "sha256": "b42e3df0d6ce8b7fde32dd76eb3c589e75d3c5bed759c7320c8a765f216fd50b",
+      "gitBlob": "d56f2d685cb2f8e5205daaf53cae66fc3ec24992"
+    },
+    {
+      "file": "preview/review-20261111/motion/contacts/contact-fx-2.jpg",
+      "bytes": 1262508,
+      "sha256": "3603dedf2beb564fd09686bb60ece2930183845840fd76bb28694037abfa1331",
+      "gitBlob": "d40781ef7f815c52ff94e4a33f5e2dcfaf2e580a"
+    },
+    {
+      "file": "preview/review-20261111/motion/contacts/contact-fx-3.jpg",
+      "bytes": 1265618,
+      "sha256": "30bb96f683fd1edf2cb666f8d7a706844174add7eb45a7aa3144539ceec30d09",
+      "gitBlob": "71afc22ab87765ed8ba9c270385658242e380bd2"
+    },
+    {
+      "file": "preview/review-20261111/motion/evidence/browser_motion_audit.historical.cjs",
+      "bytes": 14156,
+      "sha256": "18e06218f023302de244c4a19e94eb9983c74bb50a835470c7708f21e1e27e82",
+      "gitBlob": "31daa035790f4db46cf3044ca04fdc6c098a1973"
+    },
+    {
+      "file": "preview/review-20261111/motion/evidence/components-focus-history.original.json",
+      "bytes": 274,
+      "sha256": "532acaaf1eadbee766e30171fe2ff4ce27c7aad9ce0ed29b998f5eb3729a2b34",
+      "gitBlob": "ddc9b99e9608faaaf7f96989ca664ad505b4e780"
+    },
+    {
+      "file": "preview/review-20261111/motion/evidence/contact-actors-provenance.original.json",
+      "bytes": 12779,
+      "sha256": "e19119595de3fa267190e4670e13d048f3e5d12cecd041116b746def2a4c65c5",
+      "gitBlob": "ec32f5354c811989952201f239a92a8818a5139b"
+    },
+    {
+      "file": "preview/review-20261111/motion/evidence/contact-costumes-provenance.original.json",
+      "bytes": 9292,
+      "sha256": "c30a9f47db9714070fac37ff0572750f5f1961d2daf79b7bebca5fca5bc29ff6",
+      "gitBlob": "993552570c53946a6b7a34c2e9d9b7368c11513c"
+    },
+    {
+      "file": "preview/review-20261111/motion/evidence/contact-fx-provenance.original.json",
+      "bytes": 10502,
+      "sha256": "a4969e2c00d79fff454a0155725b30503a46452827844ba412645e43452f970b",
+      "gitBlob": "63a89156fe8dcb7b340cafb4f833297227338568"
+    },
+    {
+      "file": "preview/review-20261111/motion/evidence/full-run-report.original.json",
+      "bytes": 3110294,
+      "sha256": "5cb1a315525d9f48f366fa01a3da9da70707c711c2b97acff2a2d5b5fa93194a",
+      "gitBlob": "50393dc0723036bb845cf06422d5e8192e030f84"
+    },
+    {
+      "file": "preview/review-20261111/motion/evidence/fx-navigation-baseline.original.json",
+      "bytes": 240,
+      "sha256": "a1e051b543311ed0af3e2b14a4448fe68de93b16bce427c9e6234643bfa28394",
+      "gitBlob": "fcb8c71fc16f460750d29d8a9bc2a36c357079cc"
+    },
+    {
+      "file": "preview/review-20261111/motion/evidence/latest-regression-report.original.json",
+      "bytes": 39682,
+      "sha256": "11ea260adb114d9947bac6a5f38e04254ffbaa8ebcfdb923c4c7b26b12080ea1",
+      "gitBlob": "4f316e97b382ba7cf8d96f6ade25d6f078565c60"
+    },
+    {
+      "file": "preview/review-20261111/motion/evidence/versioned-evidence-index.original.json",
+      "bytes": 3179136,
+      "sha256": "cd846bc21b112798bd31fc53ba92f0be2e81ac1178cd04a21319df0ecf6d3a6a",
+      "gitBlob": "b583c504a124e54853cf5bca4a08c3b40e074f12"
+    },
+    {
+      "file": "preview/review-20261111/motion/export-validation.json",
+      "bytes": 527,
+      "sha256": "fda7f426930a0e3b5ffaa856ac4f12e77368e503d806c7974d0594c64071b3d8",
+      "gitBlob": "cedfeab0dcbf2fe236e59c45cf2c6250c2e16274"
+    },
+    {
+      "file": "preview/review-20261111/motion/history/components-real-focus.webp",
+      "bytes": 111310,
+      "sha256": "0a04aab477cf67f1f50daf38dc0d4c8d4c6a894ce577bc96eacc6e9264f2bf54",
+      "gitBlob": "4397315cc84df7f38c2cba3876c638fb2c168531"
+    },
+    {
+      "file": "preview/review-20261111/motion/history/fx-after-navigation-baseline.webp",
+      "bytes": 144392,
+      "sha256": "778cfd17123c74feeafcc15251da275fe008c538b78df4912f2260b19ffc5033",
+      "gitBlob": "2b03da1ceec9d16bb2c00395eda863ff14716a20"
+    },
+    {
+      "file": "preview/review-20261111/motion/history/fx-before-navigation-baseline.webp",
+      "bytes": 221348,
+      "sha256": "7df8d7034129bb215eee82bb30811ad26f5a58d456daee837d3feaba54e4c92b",
+      "gitBlob": "93b8a599509a53c766a3e2a72e59735804556b32"
+    },
+    {
+      "file": "preview/review-20261111/motion/index.html",
+      "bytes": 89721,
+      "sha256": "b53d775a145f4ba4014e38ef0aafe28dd262d9e63df58a1ceb5e0712b508d343",
+      "gitBlob": "bc1cae6378707ddf094bc1d0fa37ef75fb5a82d7"
+    },
+    {
+      "file": "preview/review-20261111/motion/manifest.json",
+      "bytes": 603932,
+      "sha256": "e0af37680e6a74d320676b81bd7e0723f5d5b22185f2c8cd4028e76e6c9aa310",
+      "gitBlob": "1d62d7b5f54fcfe207b169d142f9f76fc5896956"
+    },
+    {
+      "file": "runtime/art-preview.css",
+      "bytes": 14975,
+      "sha256": "ff455753093992af212afce6069540e19d44644fe9787ff9219b9a1d23c85df8",
+      "gitBlob": "15632baefb52d905bfa4847b4aafad0c041de977"
+    },
+    {
+      "file": "runtime/art-preview.js",
+      "bytes": 20055,
+      "sha256": "adbf03998a7b9432eddc2e4fbcc910cd7289bbf867a428c0cb66bd2c6f05999f",
+      "gitBlob": "3b999a465b9ba3af3b5df4bdd4abc0b7aa433c6c"
+    },
+    {
+      "file": "runtime/state-art.css",
+      "bytes": 5245,
+      "sha256": "5f878865ff5f93a1a56dc4c1742d83affca58425941f2ca362d543b36aa6f165",
+      "gitBlob": "6e3e48920538dc4990c95cd80356587be5df5723"
+    },
+    {
+      "file": "runtime/state-art.json",
+      "bytes": 148316,
+      "sha256": "1481579aa6cddfcfd29a5ff2a880ba1ef7db4d08eed276298dd97fd0ae615713",
+      "gitBlob": "62dd45f6e2cfd125aa60960042dd17b779d26469"
+    },
+    {
+      "file": "runtime/state-art.mjs",
+      "bytes": 9966,
+      "sha256": "ca151ccffa0fc5dfcbf84705a0d9506a972d20ae993269f7ee81f6fd9f1692dc",
+      "gitBlob": "9318779b242abbdb06f42d093a4ad1f739e5c30a"
+    },
+    {
+      "file": "tools/browser_art_audit.cjs",
+      "bytes": 17909,
+      "sha256": "67d435ba34cf57dfcf6972a63cac4186bdeddba65274eeb2177eb9cf88c43738",
+      "gitBlob": "8a81043f6fa596c65e67bdcfa447a0f9d402a99e"
+    },
+    {
+      "file": "tools/browser_layout_regression.cjs",
+      "bytes": 5370,
+      "sha256": "21cfe5e88112290e001fe985e0e58648ede5f4721e64f759994ca3c5d4163491",
+      "gitBlob": "b6f1d155c431c6de529231b9d9c724704ef4c5d2"
+    },
+    {
+      "file": "tools/browser_motion_audit.cjs",
+      "bytes": 14156,
+      "sha256": "18e06218f023302de244c4a19e94eb9983c74bb50a835470c7708f21e1e27e82",
+      "gitBlob": "31daa035790f4db46cf3044ca04fdc6c098a1973"
+    },
+    {
+      "file": "tools/build_review_portal.py",
+      "bytes": 5712,
+      "sha256": "1a5c52a297f73a6d2310ccc8a904ae6c63a7743a3d27f4eac8091ce94c60cc4a",
+      "gitBlob": "3a7b0cdb44607658c9405ce0d3d6ee3656a73e07"
+    },
+    {
+      "file": "tools/build_state_art.py",
+      "bytes": 7632,
+      "sha256": "15726124e82e7d0ee51306ead58012bd427de68b2ae59ddc5285d14e687d231e",
+      "gitBlob": "e97388f9c38de1aa00a3308e4f62f44207368cf2"
+    },
+    {
+      "file": "tools/freeze_review_manifest.py",
+      "bytes": 1912,
+      "sha256": "5fd41310ff8bc2026807143c28b4f204d21bbf81f8e470eacb2c86d582ecf116",
+      "gitBlob": "3a1da44e33153312f47c190d245a6914f81d31de"
+    },
+    {
+      "file": "tools/prepare_review_handoff.py",
+      "bytes": 5107,
+      "sha256": "84f288099ecd41dbcd963603404dc19b2f7e7e82ad8a8233640935c9818fe8a4",
+      "gitBlob": "a705665db0a629b585c7db2d293bfdf824f9a297"
+    },
+    {
+      "file": "tools/validate_full_art.py",
+      "bytes": 21672,
+      "sha256": "4f90b3de39a5025351644b425c5404e374703bf74146ef29bef7d72a00e70126",
+      "gitBlob": "e1ef41fd000b9f780aada5c8995ddf38f59fb19f"
+    }
+  ],
+  "fileCountExcludingManifest": 339,
+  "totalBytesExcludingManifest": 99158349,
+  "pushMode": "normal commit and ordinary push; never force or rewrite history"
+}

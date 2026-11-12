@@ -1,0 +1,14 @@
+{
+  "method": "Filesystem hashes, Pillow dimensions, HTMLParser local-link checks and node --check only. No browser/GUI use.",
+  "status": "passed_static_export_checks",
+  "galleryCards": 58,
+  "videos": 58,
+  "artifactHashesChecked": 309,
+  "sameSizeDerivedFrames": 176,
+  "pendingUserReview": true,
+  "originalPNGUnchanged": true,
+  "deferredParentLinks": [],
+  "errors": [],
+  "manifestSha256": "e0af37680e6a74d320676b81bd7e0723f5d5b22185f2c8cd4028e76e6c9aa310",
+  "totalBytesBeforeThisValidation": 97105721
+}

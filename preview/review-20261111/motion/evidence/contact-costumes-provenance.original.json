@@ -1,0 +1,316 @@
+[
+  {
+    "file": ".work/browser-motion-audit/contact-costumes-1.jpg",
+    "sha256": "fcbd4dc3924227cd5d69a4d4b0486335b874658514e276e8c049db8a812a6985",
+    "method": "Actual Chrome screenshot crops resized for contact-sheet visual review; no art asset changed.",
+    "sources": [
+      {
+        "file": ".work/browser-motion-audit/costume-daotong-daotong_base-idle/middle.png",
+        "sha256": "285c23f711491dbe1130767cfc6b3066dcf174bbe5417c5e7c21c7bb8da55353",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/costume-daotong-daotong_base-think/middle.png",
+        "sha256": "17f68acf04622eba5a1463a76b0e9179e702d5e6e94579aff746974985d73024",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/costume-daotong-daotong_base-play/middle.png",
+        "sha256": "8565ec8ffcc3c77df5975666a0978cd7d3e9bebbaf551e4f18307d2c394cd67a",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/costume-daotong-daotong_base-win/middle.png",
+        "sha256": "6c1db16354e38726a0195f279c46b65d42545498fad8e4b7c50b07e0cf8d025b",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/costume-daotong-daotong_base-lose/middle.png",
+        "sha256": "a1e294a53d6a1c6ba34ce8ba34dcd6d6d7e19e693a80e33b31ece227f79ccc27",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/costume-daotong-daotong_spring-idle/middle.png",
+        "sha256": "9916a1edb3762b6624a4182ff6fef26738d38dccf57f0dfc9194affc8012c2ad",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/costume-daotong-daotong_spring-think/middle.png",
+        "sha256": "da1128f0fa6a152050f3086f17507e56232df8d4517f635fed4dd380c7d16a14",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/costume-daotong-daotong_spring-play/middle.png",
+        "sha256": "9dd5e53f333209f35944987fb348330c7c08f0a13fc07fb59acc6250a7d0674d",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/costume-daotong-daotong_spring-win/middle.png",
+        "sha256": "6c62b32222724d501795ab664d876b67dbd44a8cce0a2c134b724193c077e3e4",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/costume-daotong-daotong_spring-lose/middle.png",
+        "sha256": "a3d0854c9a0e193c6a623b52054f86dfb0fd01c5b6b37f810f4e1a2cec95b9a6",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/costume-daotong-daotong_ink-idle/middle.png",
+        "sha256": "b8b416de73cd759072917e70fce794818305766db8a56f183dba965bc62bfdaf",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/costume-daotong-daotong_ink-think/middle.png",
+        "sha256": "8e98e03727c9603c1566bf44b859a6f9a5bcf5907aacd4e3d26fb79e30331f23",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/costume-daotong-daotong_ink-play/middle.png",
+        "sha256": "6770e343d0999bdb5c83ccd9c9167bbf3fa769fe0cf75acbfc14ab734657d761",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/costume-daotong-daotong_ink-win/middle.png",
+        "sha256": "3a0a614fa006f761ba97cb5163f64bddedc171c50da94b289440c1448c28fcff",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/costume-daotong-daotong_ink-lose/middle.png",
+        "sha256": "f83fc64ff982591a155fb02592405233f03a352ae501b380e444872fb0d32601",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      }
+    ]
+  },
+  {
+    "file": ".work/browser-motion-audit/contact-costumes-2.jpg",
+    "sha256": "8a03eecacaa432d1f0a73035b01c3444460859a64beae0a89f12c59e8e1975d0",
+    "method": "Actual Chrome screenshot crops resized for contact-sheet visual review; no art asset changed.",
+    "sources": [
+      {
+        "file": ".work/browser-motion-audit/costume-daotong-daotong_moon-idle/middle.png",
+        "sha256": "8d15c092626d5778982d36239218ff6ab40fffd600f107de064ece0d29127c13",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/costume-daotong-daotong_moon-think/middle.png",
+        "sha256": "689ca791e57fa342def4641c2391f51be704f5a3b638320019b43757239f76ff",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/costume-daotong-daotong_moon-play/middle.png",
+        "sha256": "bd2297341fc5638f5aa4abdefb89b5ef6651006daa7756590ab4de50c9674480",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/costume-daotong-daotong_moon-win/middle.png",
+        "sha256": "9bf33456eaf53633e9f3b89ee53fdebfb5602d4f12aded6734c60b810e8a2924",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/costume-daotong-daotong_moon-lose/middle.png",
+        "sha256": "a8a80b13ea570438a139ef5dbcf6c4bbea70e2353d78d90c10850b944576e850",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/costume-daotong-daotong_snow-idle/middle.png",
+        "sha256": "3cd6dbf1ea0aac9ac62739eeb101ade90ac1bce91aafb8e69356efea2ec1657b",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/costume-daotong-daotong_snow-think/middle.png",
+        "sha256": "fbf8e8e4f2080a3ca1e9c3f7391f0c5187282416d0abaa3f775d4f1f580fd340",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/costume-daotong-daotong_snow-play/middle.png",
+        "sha256": "25e826c4f1a2dfb7416965ff35b98c3132e9fd907f7d269a9afb6f8f03da25d3",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/costume-daotong-daotong_snow-win/middle.png",
+        "sha256": "ac19636d6ccea95cb738c79155a7ba2327c43a34e5231a95021c0651b4257bc8",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/costume-daotong-daotong_snow-lose/middle.png",
+        "sha256": "5a394e8b5f295375363ef718f59e44b4d05e6c9cb2335d013b077372b3442065",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/costume-daotong-daotong_festival-idle/middle.png",
+        "sha256": "f1c8d99e12a48e57e92395472053fb15681d30a924274176bd0f794b1af74043",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/costume-daotong-daotong_festival-think/middle.png",
+        "sha256": "6fafa3bd12359dbbf1f68131587571a00494725eeb282bcb1b71a15ad8fe1366",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/costume-daotong-daotong_festival-play/middle.png",
+        "sha256": "2ace686574b5bcee076ad5847e30d54de2235991e7819cd0c168e9e46c94d9cb",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/costume-daotong-daotong_festival-win/middle.png",
+        "sha256": "b42f2cc22284198fec7791ab762e68dfb1ebf0a6bdddd939c7cafce27e6e8d78",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      },
+      {
+        "file": ".work/browser-motion-audit/costume-daotong-daotong_festival-lose/middle.png",
+        "sha256": "ee34035a11039d7c785df229ebd55e05ea2f35b78b3ca86272a5751ef89b6671",
+        "crop": [
+          55,
+          65,
+          385,
+          435
+        ]
+      }
+    ]
+  }
+]

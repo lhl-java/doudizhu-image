@@ -2,6 +2,16 @@
 
 游戏名定为 **《道友请出牌》**，玩法副标 **“斗地主”**，宣传语 **“三位道友，一桌好牌。”**。品牌唯一配置见 [config/brand.json](config/brand.json)。
 
+## 请审核这一批（2026-11-11）
+
+当前候选版已修复面板/角色卡裁切、键盘适配、特效切页残留及部分状态显示绑定。[审核总入口](preview/review-20261111/index.html)按7批列出60界面、223状态，提供两种比例的逐态直达链接；[动作与FX审核](preview/review-20261111/motion/index.html)保留停止自动操作前的58段实速录像及固定来源说明。
+
+用户要求“不要用 computer use”“告诉我审核就行”，因此不再自动操作浏览器或桌面。当前新修改、界面显示和实速效果均**待用户审核**，历史录像和代理观察不能作为最终版本用户PASS。离线合同仍另行核验；整款美术终验尚未完成。最新交接见[候选版交接](docs/BROWSER_REVIEW_HANDOFF_20261111.json)。
+
+当前唯一目录为 `E:/work/doudizhu-image`。本地服务已开启时，可打开 <http://127.0.0.1:8771/preview/review-20261111/index.html>；否则先运行下述本地HTTP预览命令，再由用户查看页面。
+
+参照源按用户最新答复记为“QQ斗地主”；平台及确切客户端版本尚待确认。历史《欢乐斗地主》网页版本不视为本次锁定客户端。
+
 - [透明Logo PNG](assets/brand/daoyou-qing-chupai/logo-v1.png)（1902×1015，原图1:1加透明留白）
 - [原生生成图](assets/brand/daoyou-qing-chupai/logo-native-v1.png)（1774×887）、[1024宽导出](assets/brand/daoyou-qing-chupai/logo-1024.png)
 - [Logo深浅底预览](assets/brand/daoyou-qing-chupai/preview.html)、[提示词](prompts/brand/daoyou-logo-v1.txt)、[生成记录](assets/brand/daoyou-qing-chupai/logo-native-v1.generation.json)
@@ -34,7 +44,7 @@
 
 动画采用真实独立姿势和表情配合位移、旋转、缩放、透明度关键帧；属于2D界面角色动画。五套新增装扮已有各自独立胜负图，复用时序并保持当前服装，不切回基础青云衣。它们没有连续全身骨骼或AI视频的验收声明。
 
-文件/哈希、透明边界、图集逐像素还原、动画时序与引用校验已通过；[运行时检查](docs/RUNTIME_INTEGRATION_VALIDATION.json)覆盖60项/223状态的模拟执行。当前 Work 设置关闭本地浏览器自动操作，因此未把真实浏览器布局、视觉实播或客户端实机接入标为已验收。223 状态提供设计/文案绑定和本地反馈，不等于全部生产状态逻辑已经实现。音效配音、音乐、玩法程序、服务器与支付不在视觉美术文件范围。
+文件/哈希、透明边界、图集逐像素还原、动画时序与引用校验已通过；[运行时检查](docs/RUNTIME_INTEGRATION_VALIDATION.json)覆盖60项/223状态的模拟执行。停止自动操作前已取得历史浏览器截图和实播记录，其固定版本范围在最新交接中说明；当前修改后的最终显示、用户美术批准和客户端接入仍待审核。223 状态提供设计/文案绑定和本地反馈，不等于全部生产状态逻辑已经实现。音效配音、音乐、玩法程序、服务器与支付不在视觉美术文件范围。
 
 对局预览分别呈现叫地主、抢地主、加倍、主动出牌、跟牌、托管、重连、回放和残局。切换玩家角色时另外两位角色自动补足座位。叫抢地主阶段展示三张扣住的底牌，主动出牌和跟牌支持选牌抬起、玉绿选中框和出牌后的手牌重排。牌面与牌局数字是美术示例。
 
@@ -81,6 +91,6 @@
 
 首要风格图见 [references/style](references/style/manifest.json)，新需求图片放 references/uploads/，也可在制作聊天中附图。
 功能核验与设计推导边界见 [REFERENCE_RESEARCH.md](docs/REFERENCE_RESEARCH.md)。制作规则见 [AGENTS.md](AGENTS.md) 和 [ART_DIRECTION.md](docs/ART_DIRECTION.md)。
-公开仓库发布目标：[lhl-java/doudizhu-image](https://github.com/lhl-java/doudizhu-image)。用户于2026-10-26指定公开发布；实际创建和推送状态以远端回执为准。本地制作目录为 D:/work/doudizhu-image，原 image 项目的远端与上传批次独立管理。
+公开仓库发布目标：[lhl-java/doudizhu-image](https://github.com/lhl-java/doudizhu-image)。用户于2026-10-26指定公开发布；实际创建和推送状态以远端回执为准。当前本地制作目录为 E:/work/doudizhu-image，原 image 项目的远端与上传批次独立管理。
 
-Git按最新已核验状态发布；图片、提示词及来源记录保持原字节，不依赖Git LFS。公开文件清单见 [PUBLISH_SNAPSHOT.json](docs/PUBLISH_SNAPSHOT.json)。
+Git按正常提交和普通push保存已核实的文件，候选修改明确待用户审核；图片、提示词及来源记录保持原字节，不依赖Git LFS。[PUBLISH_SNAPSHOT.json](docs/PUBLISH_SNAPSHOT.json)保留旧固定批次意义，本轮增量见[审核批次清单](docs/REVIEW_PUBLICATION_MANIFEST_20261111.json)。

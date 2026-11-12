@@ -1,0 +1,1047 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-11-12T04:38:05.197Z",
+  "browser": "157.0.8103.39",
+  "viewportWidths": [
+    1920,
+    1280
+  ],
+  "aspects": [
+    "wide",
+    "standard"
+  ],
+  "checks": [
+    {
+      "name": "1920-wide/08-join-room/panel-contained",
+      "pass": true,
+      "detail": [
+        {
+          "scrollX": 0,
+          "scrollY": 0,
+          "children": [
+            {
+              "name": "code-input",
+              "inside": true
+            },
+            {
+              "name": "keys",
+              "inside": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1920-wide/all-twelve-keys",
+      "pass": true,
+      "detail": [
+        {
+          "key": "1",
+          "inside": true
+        },
+        {
+          "key": "2",
+          "inside": true
+        },
+        {
+          "key": "3",
+          "inside": true
+        },
+        {
+          "key": "4",
+          "inside": true
+        },
+        {
+          "key": "5",
+          "inside": true
+        },
+        {
+          "key": "6",
+          "inside": true
+        },
+        {
+          "key": "7",
+          "inside": true
+        },
+        {
+          "key": "8",
+          "inside": true
+        },
+        {
+          "key": "9",
+          "inside": true
+        },
+        {
+          "key": "清空",
+          "inside": true
+        },
+        {
+          "key": "0",
+          "inside": true
+        },
+        {
+          "key": "删除",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "1920-wide/keypad-input",
+      "pass": true
+    },
+    {
+      "name": "1920-wide/30-puzzle-select/panel-contained",
+      "pass": true,
+      "detail": [
+        {
+          "scrollX": 0,
+          "scrollY": 0,
+          "children": [
+            {
+              "name": "grid",
+              "inside": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1920-wide/35-wardrobe/panel-contained",
+      "pass": true,
+      "detail": [
+        {
+          "scrollX": 0,
+          "scrollY": 0,
+          "children": [
+            {
+              "name": "grid",
+              "inside": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1920-wide/47-settings/panel-contained",
+      "pass": true,
+      "detail": [
+        {
+          "scrollX": 0,
+          "scrollY": 0,
+          "children": [
+            {
+              "name": "rows",
+              "inside": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1920-wide/47-settings/last-row-reachable",
+      "pass": true,
+      "detail": {
+        "last": "画面质量开启",
+        "scrollTop": 70,
+        "reachable": true
+      }
+    },
+    {
+      "name": "1920-wide/48-help-rules/panel-contained",
+      "pass": true,
+      "detail": [
+        {
+          "scrollX": 0,
+          "scrollY": 0,
+          "children": [
+            {
+              "name": "rows",
+              "inside": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1920-wide/48-help-rules/last-row-reachable",
+      "pass": true,
+      "detail": {
+        "last": "记牌与托管查看",
+        "scrollTop": 235,
+        "reachable": true
+      }
+    },
+    {
+      "name": "1920-wide/55-card-counter/panel-contained",
+      "pass": true,
+      "detail": [
+        {
+          "scrollX": 0,
+          "scrollY": 0,
+          "children": [
+            {
+              "name": "small-title",
+              "inside": true
+            },
+            {
+              "name": "rows",
+              "inside": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1920-wide/55-card-counter/last-row-reachable",
+      "pass": true,
+      "detail": {
+        "last": "3♠ 1　♥ 1　♣ 1　♦ 1",
+        "scrollTop": 968,
+        "reachable": true
+      }
+    },
+    {
+      "name": "1920-wide/05-matchmaking/panel-contained",
+      "pass": true,
+      "detail": [
+        {
+          "scrollX": 0,
+          "scrollY": 0,
+          "children": [
+            {
+              "name": "small-title",
+              "inside": true
+            },
+            {
+              "name": "character-cards",
+              "inside": true
+            },
+            {
+              "name": "progress-track",
+              "inside": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1920-wide/27-tournament-detail/panel-contained",
+      "pass": true,
+      "detail": [
+        {
+          "scrollX": 0,
+          "scrollY": 0,
+          "children": [
+            {
+              "name": "",
+              "inside": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1920-wide/27-tournament-detail/last-row-reachable",
+      "pass": true,
+      "detail": {
+        "last": "报名条件查看",
+        "scrollTop": 39,
+        "reachable": true
+      }
+    },
+    {
+      "name": "1920-standard/08-join-room/panel-contained",
+      "pass": true,
+      "detail": [
+        {
+          "scrollX": 0,
+          "scrollY": 0,
+          "children": [
+            {
+              "name": "code-input",
+              "inside": true
+            },
+            {
+              "name": "keys",
+              "inside": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1920-standard/all-twelve-keys",
+      "pass": true,
+      "detail": [
+        {
+          "key": "1",
+          "inside": true
+        },
+        {
+          "key": "2",
+          "inside": true
+        },
+        {
+          "key": "3",
+          "inside": true
+        },
+        {
+          "key": "4",
+          "inside": true
+        },
+        {
+          "key": "5",
+          "inside": true
+        },
+        {
+          "key": "6",
+          "inside": true
+        },
+        {
+          "key": "7",
+          "inside": true
+        },
+        {
+          "key": "8",
+          "inside": true
+        },
+        {
+          "key": "9",
+          "inside": true
+        },
+        {
+          "key": "清空",
+          "inside": true
+        },
+        {
+          "key": "0",
+          "inside": true
+        },
+        {
+          "key": "删除",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "1920-standard/keypad-input",
+      "pass": true
+    },
+    {
+      "name": "1920-standard/30-puzzle-select/panel-contained",
+      "pass": true,
+      "detail": [
+        {
+          "scrollX": 0,
+          "scrollY": 0,
+          "children": [
+            {
+              "name": "grid",
+              "inside": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1920-standard/35-wardrobe/panel-contained",
+      "pass": true,
+      "detail": [
+        {
+          "scrollX": 0,
+          "scrollY": 0,
+          "children": [
+            {
+              "name": "grid",
+              "inside": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1920-standard/47-settings/panel-contained",
+      "pass": true,
+      "detail": [
+        {
+          "scrollX": 0,
+          "scrollY": 0,
+          "children": [
+            {
+              "name": "rows",
+              "inside": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1920-standard/47-settings/last-row-reachable",
+      "pass": true,
+      "detail": {
+        "last": "画面质量开启",
+        "scrollTop": 0,
+        "reachable": true
+      }
+    },
+    {
+      "name": "1920-standard/48-help-rules/panel-contained",
+      "pass": true,
+      "detail": [
+        {
+          "scrollX": 0,
+          "scrollY": 0,
+          "children": [
+            {
+              "name": "rows",
+              "inside": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1920-standard/48-help-rules/last-row-reachable",
+      "pass": true,
+      "detail": {
+        "last": "记牌与托管查看",
+        "scrollTop": 82,
+        "reachable": true
+      }
+    },
+    {
+      "name": "1920-standard/55-card-counter/panel-contained",
+      "pass": true,
+      "detail": [
+        {
+          "scrollX": 0,
+          "scrollY": 0,
+          "children": [
+            {
+              "name": "small-title",
+              "inside": true
+            },
+            {
+              "name": "rows",
+              "inside": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1920-standard/55-card-counter/last-row-reachable",
+      "pass": true,
+      "detail": {
+        "last": "3♠ 1　♥ 1　♣ 1　♦ 1",
+        "scrollTop": 860,
+        "reachable": true
+      }
+    },
+    {
+      "name": "1920-standard/05-matchmaking/panel-contained",
+      "pass": true,
+      "detail": [
+        {
+          "scrollX": 0,
+          "scrollY": 0,
+          "children": [
+            {
+              "name": "small-title",
+              "inside": true
+            },
+            {
+              "name": "character-cards",
+              "inside": true
+            },
+            {
+              "name": "progress-track",
+              "inside": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1920-standard/27-tournament-detail/panel-contained",
+      "pass": true,
+      "detail": [
+        {
+          "scrollX": 0,
+          "scrollY": 0,
+          "children": [
+            {
+              "name": "",
+              "inside": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1920-standard/27-tournament-detail/last-row-reachable",
+      "pass": true,
+      "detail": {
+        "last": "报名条件查看",
+        "scrollTop": 0,
+        "reachable": true
+      }
+    },
+    {
+      "name": "1280-wide/08-join-room/panel-contained",
+      "pass": true,
+      "detail": [
+        {
+          "scrollX": 0,
+          "scrollY": 0,
+          "children": [
+            {
+              "name": "code-input",
+              "inside": true
+            },
+            {
+              "name": "keys",
+              "inside": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1280-wide/all-twelve-keys",
+      "pass": true,
+      "detail": [
+        {
+          "key": "1",
+          "inside": true
+        },
+        {
+          "key": "2",
+          "inside": true
+        },
+        {
+          "key": "3",
+          "inside": true
+        },
+        {
+          "key": "4",
+          "inside": true
+        },
+        {
+          "key": "5",
+          "inside": true
+        },
+        {
+          "key": "6",
+          "inside": true
+        },
+        {
+          "key": "7",
+          "inside": true
+        },
+        {
+          "key": "8",
+          "inside": true
+        },
+        {
+          "key": "9",
+          "inside": true
+        },
+        {
+          "key": "清空",
+          "inside": true
+        },
+        {
+          "key": "0",
+          "inside": true
+        },
+        {
+          "key": "删除",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "1280-wide/keypad-input",
+      "pass": true
+    },
+    {
+      "name": "1280-wide/30-puzzle-select/panel-contained",
+      "pass": true,
+      "detail": [
+        {
+          "scrollX": 0,
+          "scrollY": 0,
+          "children": [
+            {
+              "name": "grid",
+              "inside": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1280-wide/35-wardrobe/panel-contained",
+      "pass": true,
+      "detail": [
+        {
+          "scrollX": 0,
+          "scrollY": 0,
+          "children": [
+            {
+              "name": "grid",
+              "inside": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1280-wide/47-settings/panel-contained",
+      "pass": true,
+      "detail": [
+        {
+          "scrollX": 0,
+          "scrollY": 0,
+          "children": [
+            {
+              "name": "rows",
+              "inside": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1280-wide/47-settings/last-row-reachable",
+      "pass": true,
+      "detail": {
+        "last": "画面质量开启",
+        "scrollTop": 89,
+        "reachable": true
+      }
+    },
+    {
+      "name": "1280-wide/48-help-rules/panel-contained",
+      "pass": true,
+      "detail": [
+        {
+          "scrollX": 0,
+          "scrollY": 0,
+          "children": [
+            {
+              "name": "rows",
+              "inside": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1280-wide/48-help-rules/last-row-reachable",
+      "pass": true,
+      "detail": {
+        "last": "记牌与托管查看",
+        "scrollTop": 204,
+        "reachable": true
+      }
+    },
+    {
+      "name": "1280-wide/55-card-counter/panel-contained",
+      "pass": true,
+      "detail": [
+        {
+          "scrollX": 0,
+          "scrollY": 0,
+          "children": [
+            {
+              "name": "small-title",
+              "inside": true
+            },
+            {
+              "name": "rows",
+              "inside": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1280-wide/55-card-counter/last-row-reachable",
+      "pass": true,
+      "detail": {
+        "last": "3♠ 1　♥ 1　♣ 1　♦ 1",
+        "scrollTop": 710,
+        "reachable": true
+      }
+    },
+    {
+      "name": "1280-wide/05-matchmaking/panel-contained",
+      "pass": true,
+      "detail": [
+        {
+          "scrollX": 0,
+          "scrollY": 0,
+          "children": [
+            {
+              "name": "small-title",
+              "inside": true
+            },
+            {
+              "name": "character-cards",
+              "inside": true
+            },
+            {
+              "name": "progress-track",
+              "inside": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1280-wide/27-tournament-detail/panel-contained",
+      "pass": true,
+      "detail": [
+        {
+          "scrollX": 0,
+          "scrollY": 0,
+          "children": [
+            {
+              "name": "",
+              "inside": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1280-wide/27-tournament-detail/last-row-reachable",
+      "pass": true,
+      "detail": {
+        "last": "报名条件查看",
+        "scrollTop": 67,
+        "reachable": true
+      }
+    },
+    {
+      "name": "1280-standard/08-join-room/panel-contained",
+      "pass": true,
+      "detail": [
+        {
+          "scrollX": 0,
+          "scrollY": 0,
+          "children": [
+            {
+              "name": "code-input",
+              "inside": true
+            },
+            {
+              "name": "keys",
+              "inside": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1280-standard/all-twelve-keys",
+      "pass": true,
+      "detail": [
+        {
+          "key": "1",
+          "inside": true
+        },
+        {
+          "key": "2",
+          "inside": true
+        },
+        {
+          "key": "3",
+          "inside": true
+        },
+        {
+          "key": "4",
+          "inside": true
+        },
+        {
+          "key": "5",
+          "inside": true
+        },
+        {
+          "key": "6",
+          "inside": true
+        },
+        {
+          "key": "7",
+          "inside": true
+        },
+        {
+          "key": "8",
+          "inside": true
+        },
+        {
+          "key": "9",
+          "inside": true
+        },
+        {
+          "key": "清空",
+          "inside": true
+        },
+        {
+          "key": "0",
+          "inside": true
+        },
+        {
+          "key": "删除",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "1280-standard/keypad-input",
+      "pass": true
+    },
+    {
+      "name": "1280-standard/30-puzzle-select/panel-contained",
+      "pass": true,
+      "detail": [
+        {
+          "scrollX": 0,
+          "scrollY": 0,
+          "children": [
+            {
+              "name": "grid",
+              "inside": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1280-standard/35-wardrobe/panel-contained",
+      "pass": true,
+      "detail": [
+        {
+          "scrollX": 0,
+          "scrollY": 0,
+          "children": [
+            {
+              "name": "grid",
+              "inside": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1280-standard/47-settings/panel-contained",
+      "pass": true,
+      "detail": [
+        {
+          "scrollX": 0,
+          "scrollY": 0,
+          "children": [
+            {
+              "name": "rows",
+              "inside": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1280-standard/47-settings/last-row-reachable",
+      "pass": true,
+      "detail": {
+        "last": "画面质量开启",
+        "scrollTop": 0,
+        "reachable": true
+      }
+    },
+    {
+      "name": "1280-standard/48-help-rules/panel-contained",
+      "pass": true,
+      "detail": [
+        {
+          "scrollX": 0,
+          "scrollY": 0,
+          "children": [
+            {
+              "name": "rows",
+              "inside": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1280-standard/48-help-rules/last-row-reachable",
+      "pass": true,
+      "detail": {
+        "last": "记牌与托管查看",
+        "scrollTop": 109,
+        "reachable": true
+      }
+    },
+    {
+      "name": "1280-standard/55-card-counter/panel-contained",
+      "pass": true,
+      "detail": [
+        {
+          "scrollX": 0,
+          "scrollY": 0,
+          "children": [
+            {
+              "name": "small-title",
+              "inside": true
+            },
+            {
+              "name": "rows",
+              "inside": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1280-standard/55-card-counter/last-row-reachable",
+      "pass": true,
+      "detail": {
+        "last": "3♠ 1　♥ 1　♣ 1　♦ 1",
+        "scrollTop": 643,
+        "reachable": true
+      }
+    },
+    {
+      "name": "1280-standard/05-matchmaking/panel-contained",
+      "pass": true,
+      "detail": [
+        {
+          "scrollX": 0,
+          "scrollY": 0,
+          "children": [
+            {
+              "name": "small-title",
+              "inside": true
+            },
+            {
+              "name": "character-cards",
+              "inside": true
+            },
+            {
+              "name": "progress-track",
+              "inside": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1280-standard/27-tournament-detail/panel-contained",
+      "pass": true,
+      "detail": [
+        {
+          "scrollX": 0,
+          "scrollY": 0,
+          "children": [
+            {
+              "name": "",
+              "inside": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1280-standard/27-tournament-detail/last-row-reachable",
+      "pass": true,
+      "detail": {
+        "last": "报名条件查看",
+        "scrollTop": 24,
+        "reachable": true
+      }
+    },
+    {
+      "name": "wide/day/jade/selection",
+      "pass": true
+    },
+    {
+      "name": "wide/day/jade/submit",
+      "pass": true
+    },
+    {
+      "name": "wide/day/peach/selection",
+      "pass": true
+    },
+    {
+      "name": "wide/day/peach/submit",
+      "pass": true
+    },
+    {
+      "name": "wide/night/jade/selection",
+      "pass": true
+    },
+    {
+      "name": "wide/night/jade/submit",
+      "pass": true
+    },
+    {
+      "name": "wide/night/peach/selection",
+      "pass": true
+    },
+    {
+      "name": "wide/night/peach/submit",
+      "pass": true
+    },
+    {
+      "name": "standard/day/jade/selection",
+      "pass": true
+    },
+    {
+      "name": "standard/day/jade/submit",
+      "pass": true
+    },
+    {
+      "name": "standard/day/peach/selection",
+      "pass": true
+    },
+    {
+      "name": "standard/day/peach/submit",
+      "pass": true
+    },
+    {
+      "name": "standard/night/jade/selection",
+      "pass": true
+    },
+    {
+      "name": "standard/night/jade/submit",
+      "pass": true
+    },
+    {
+      "name": "standard/night/peach/selection",
+      "pass": true
+    },
+    {
+      "name": "standard/night/peach/submit",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "sourceEvidence": [
+    {
+      "file": "runtime/art-preview.js",
+      "sha256": "543bcf5ca7482391a6b2021e1c90293321845f8927c9fff97b421940d06d2ef6"
+    },
+    {
+      "file": "runtime/art-preview.css",
+      "sha256": "674e818d7638495c899dbd5f4cfef9c32207889c427d8e8b8fe1be117927bb53"
+    },
+    {
+      "file": "tools/browser_layout_regression.cjs",
+      "sha256": "21cfe5e88112290e001fe985e0e58648ede5f4721e64f759994ca3c5d4163491"
+    }
+  ],
+  "status": "passed_browser_regressions"
+}
